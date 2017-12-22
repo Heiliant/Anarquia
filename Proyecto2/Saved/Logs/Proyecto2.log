@@ -1,9 +1,9 @@
-﻿Log file open, 12/22/17 09:40:27
+﻿Log file open, 12/22/17 09:49:01
 LogInit:Display: Running engine for game: Proyecto2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-580039111) SRandInit(-580039111).
+LogInit:Display: RandInit(1047368679) SRandInit(1047368679).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.765442
+LogStats: Stats thread started at 0.085239
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -52,574 +52,755 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.22-08.40.28:001][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.22-08.40.28:001][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.22-08.40.28:098][  0]LogInit: Computer: G4-018
-[2017.12.22-08.40.28:098][  0]LogInit: User: javiergarciagomez
-[2017.12.22-08.40.28:098][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.12.22-08.40.28:098][  0]LogInit: High frequency timer resolution =3.117193 MHz
-[2017.12.22-08.40.28:099][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.12.22-08.40.28:099][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.22-08.40.28:099][  0]LogMemory: Process Physical Memory: 272.96 MB used, 272.96 MB peak
-[2017.12.22-08.40.28:099][  0]LogMemory: Process Virtual Memory: 270.40 MB used, 270.40 MB peak
-[2017.12.22-08.40.28:099][  0]LogMemory: Physical Memory: 2542.08 MB used,  13804.80 MB free, 16346.88 MB total
-[2017.12.22-08.40.28:099][  0]LogMemory: Virtual Memory: 647.27 MB used,  13804.80 MB free, 134217728.00 MB total
-[2017.12.22-08.40.28:410][  0]LogInit: Using OS detected language (en-US).
-[2017.12.22-08.40.28:410][  0]LogInit: Using OS detected locale (en-US).
-[2017.12.22-08.40.28:481][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.12.22-08.40.31:426][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.22-08.40.31:461][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2017.12.22-08.40.31:461][  0]LogD3D11RHI:       4062/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.12.22-08.40.31:462][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.22-08.40.31:462][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.22-08.40.31:462][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.22-08.40.31:467][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.22-08.40.31:468][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.22-08.40.31:468][  0]LogWindows: EnumDisplayDevices:
-[2017.12.22-08.40.31:468][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2017.12.22-08.40.31:468][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.12.22-08.40.31:468][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.12.22-08.40.31:468][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.12.22-08.40.31:468][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.12.22-08.40.31:468][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2017.12.22-08.40.31:468][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
-[2017.12.22-08.40.31:468][  0]LogD3D11RHI:      Driver Date: 6-27-2017
-[2017.12.22-08.40.31:469][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.12.22-08.40.31:494][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.22-08.40.31:521][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.12.22-08.40.31:576][  0]LogShaderCompilers: Guid format shader working directory is 37 characters bigger than the processId version (E:/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/4216/).
-[2017.12.22-08.40.31:576][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/javiergarciagomez/AppData/Local/Temp/UnrealShaderWorkingDir/97AB51524D30917756CA93BBBD405F6E/'.
-[2017.12.22-08.40.31:576][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.12.22-08.40.34:025][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.22-08.40.34:065][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.12.22-08.40.34:107][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.22-08.40.34:148][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.12.22-08.40.34:196][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.12.22-08.40.34:240][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.22-08.40.34:281][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.22-08.40.34:323][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.22-08.40.34:362][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.12.22-08.40.34:406][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.12.22-08.40.34:448][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.22-08.40.34:490][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.22-08.40.34:532][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.22-08.40.34:572][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.22-08.40.34:614][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.22-08.40.34:697][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.22-08.40.34:697][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.22-08.40.34:730][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.12.22-08.40.34:821][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.12.22-08.40.34:846][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.12.22-08.40.34:887][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.22-08.40.34:929][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.22-08.40.34:970][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.22-08.40.35:015][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.12.22-08.40.35:015][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.12.22-08.40.35:548][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.12.22-08.40.35:548][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
-[2017.12.22-08.40.35:548][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.22-08.40.35:548][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.22-08.40.35:548][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.22-08.40.35:548][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.22-08.40.35:572][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.22-08.40.35:584][  0]LogDerivedDataCache: Using Local data cache path C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.22-08.40.35:608][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.22-08.40.35:614][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.22-08.40.35:632][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.22-08.40.35:632][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.22-08.40.36:644][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.22-08.40.36:940][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.12.22-08.40.37:167][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.22-08.40.37:217][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.22-08.40.37:263][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.22-08.40.37:263][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.12.22-08.40.37:263][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.12.22-08.40.38:958][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
-[2017.12.22-08.40.39:063][  0]LogAssetRegistry: FAssetRegistry took 0.0285 seconds to start up
-[2017.12.22-08.40.39:249][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.164701 seconds
-[2017.12.22-08.40.39:254][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.12.22-08.40.39:254][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2017.12.22-08.40.39:254][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.22-08.40.39:314][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.22-08.40.43:971][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.22-08.40.44:010][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.22-08.40.44:603][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.22-08.40.45:048][  0]SourceControl: Info Source control is disabled
-[2017.12.22-08.40.45:182][  0]SourceControl: Info Source control is disabled
-[2017.12.22-08.40.45:231][  0]SourceControl: Info Source control is disabled
-[2017.12.22-08.40.45:276][  0]SourceControl: Info Source control is disabled
-[2017.12.22-08.40.45:954][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.22-08.40.46:543][  0]LogEngine: Initializing Engine...
-[2017.12.22-08.40.46:545][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.12.22-08.40.46:546][  0]LogHMD: GearVR starting with CPU: 2 GPU: 3 MinimumVsyncs: 1
-[2017.12.22-08.40.46:622][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.12.22-08.40.49:334][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.12.22-08.40.49:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.22-08.40.49:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.22-08.40.49:847][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.22-08.40.49:865][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.22-08.40.49:888][  0]LogInit: FAudioDevice initialized.
-[2017.12.22-08.40.49:930][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.12.22-08.40.49:944][  0]LogInit: Texture streaming: Enabled
-[2017.12.22-08.40.50:035][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.22-08.40.50:297][  0]LogInit: Transaction tracking system initialized
-[2017.12.22-08.40.50:614][  0]BlueprintLog: New page: Editor Load
-[2017.12.22-08.40.51:576][  0]LocalizationService: Info Localization service is disabled
-[2017.12.22-08.40.52:273][  0]LogConsoleResponse:Display: 
-[2017.12.22-08.40.52:430][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.22-08.40.52:431][  0]LogCook:Display: Mobile HDR setting 1
-[2017.12.22-08.40.52:815][  0]LogFileCache: Scanning file cache for directory 'E:/Anarquia/Proyecto2/Content/' took 0.02s
-[2017.12.22-08.40.53:468][  0]SourceControl: Info Source control is disabled
-[2017.12.22-08.40.53:470][  0]Cmd: MAP LOAD FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.22-08.40.53:471][  0]LightingResults: New page: Lighting Build
-[2017.12.22-08.40.53:512][  0]MapCheck: New page: Map Check
-[2017.12.22-08.40.53:512][  0]LightingResults: New page: Lighting Build
-[2017.12.22-08.40.54:538][  0]LogBlueprint:Error: [Compiler beatAnimBP] Error The type of  A  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
-[2017.12.22-08.40.54:538][  0]LogBlueprint:Error: [Compiler beatAnimBP] Error The type of  B  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
-[2017.12.22-08.40.54:538][  0]LogBlueprint:Error: [Compiler beatAnimBP] Error The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
-[2017.12.22-08.40.54:538][  0]LogBlueprint:Error: [Compiler beatAnimBP] Error The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
-[2017.12.22-08.40.54:547][  0]LogBlueprint:Warning: [Compiler beatAnimBP] Warning [0030.48] Compile of beatAnimBP failed. 4 Fatal Issue(s) 0 Warning(s) [in 18 ms] (/Game/ThirdPersonBP/Blueprints/character/anims/beatAnimBP.beatAnimBP)
-[2017.12.22-08.40.54:547][  0]LogBlueprint:Warning: [Compiler beatAnimBP] Warning [0030.48] Compile of beatAnimBP failed. 4 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/character/anims/beatAnimBP.beatAnimBP)
-[2017.12.22-08.40.54:547][  0]LogBlueprint:Warning: [Compiler beatAnimBP] Warning [0030.48] Compile of beatAnimBP failed. 4 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/character/anims/beatAnimBP.beatAnimBP)
-[2017.12.22-08.40.55:148][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData'
-[2017.12.22-08.40.55:149][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData' while loading E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap.
-[2017.12.22-08.40.55:149][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Distrito1 : Can't find file for asset. /Game/ThirdPersonBP/Maps/Distrito1_BuiltData
-[2017.12.22-08.40.55:205][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData'
-[2017.12.22-08.40.55:205][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData' while loading E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap.
-[2017.12.22-08.40.55:205][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Distrito1 : Can't find file for asset. /Game/ThirdPersonBP/Maps/Distrito1_BuiltData
-[2017.12.22-08.40.55:224][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData'
-[2017.12.22-08.40.55:224][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData' while loading NULL.
-[2017.12.22-08.40.55:224][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData'
-[2017.12.22-08.40.55:224][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData' while loading NULL.
-[2017.12.22-08.40.55:424][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData'
-[2017.12.22-08.40.55:424][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/Distrito1_BuiltData.Distrito1_BuiltData Referenced by PersistentLevel
-[2017.12.22-08.40.55:424][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData' while loading NULL.
-[2017.12.22-08.40.55:424][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/Distrito1_BuiltData.Distrito1_BuiltData Referenced by PersistentLevel
-[2017.12.22-08.40.55:724][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
-[2017.12.22-08.40.55:781][  0]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 256X256)
-[2017.12.22-08.40.55:821][  0]LogStaticMesh: Building static mesh door...
-[2017.12.22-08.40.55:855][  0]LogStaticMesh: Built static mesh [0.03s] /Game/ThirdPersonBP/Blueprints/PropsWorld/door.door
-[2017.12.22-08.40.55:863][  0]LogStaticMesh: Building static mesh gate_Box005...
-[2017.12.22-08.40.55:869][  0]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/gate_Box005.gate_Box005
-[2017.12.22-08.40.55:869][  0]LogStaticMesh: Building static mesh gate_Box002...
-[2017.12.22-08.40.55:872][  0]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/gate_Box002.gate_Box002
-[2017.12.22-08.40.55:872][  0]LogStaticMesh: Building static mesh gate_Box003...
-[2017.12.22-08.40.55:875][  0]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/gate_Box003.gate_Box003
-[2017.12.22-08.40.55:876][  0]LogStaticMesh: Building static mesh window...
-[2017.12.22-08.40.55:893][  0]LogStaticMesh: Built static mesh [0.02s] /Game/ThirdPersonBP/Blueprints/PropsWorld/window.window
-[2017.12.22-08.40.55:920][  0]LogTexture:Display: Building textures: color-blanco (AutoDXT, 400X400)
-[2017.12.22-08.40.55:955][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/enemies/agent/anims/Walking.Walking
-[2017.12.22-08.40.55:959][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/enemies/agent/anims/Running.Running
-[2017.12.22-08.40.55:960][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/enemies/agent/anims/Idle.Idle
-[2017.12.22-08.40.55:970][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/enemies/agent/anims/Head_Hit.Head_Hit
-[2017.12.22-08.40.56:057][  0]LogMaterial: Missing cached shader map for material brightness_MAT, compiling. 
-[2017.12.22-08.40.56:131][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/character/anims/beat_fightIdle.beat_fightIdle
-[2017.12.22-08.40.56:160][  0]LogTexture:Display: Building textures: Beat-skin (AutoDXT, 1920X1080)
-[2017.12.22-08.40.56:323][  0]LogMaterial: Missing cached shader map for material Material__32, compiling. 
-[2017.12.22-08.40.56:367][  0]LogTexture:Display: Building textures: pants (AutoDXT, 1920X1080)
-[2017.12.22-08.40.56:520][  0]LogMaterial: Missing cached shader map for material Material__169, compiling. 
-[2017.12.22-08.40.56:559][  0]LogTexture:Display: Building textures: down-shoe (AutoDXT, 1920X1080)
-[2017.12.22-08.40.56:719][  0]LogMaterial: Missing cached shader map for material downshoe, compiling. 
-[2017.12.22-08.40.56:751][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/character/anims/montajes/combo1/beat_combo_1_1.beat_combo_1_1
-[2017.12.22-08.40.56:755][  0]LogMaterial: Missing cached shader map for material lambert2, compiling. 
-[2017.12.22-08.40.56:802][  0]LogTexture:Display: Building textures: shoes1 (AutoDXT, 1920X1080)
-[2017.12.22-08.40.56:901][  0]LogMaterial: Missing cached shader map for material shoes, compiling. 
-[2017.12.22-08.40.56:931][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/character/anims/montajes/combo1/beat_combo_1_3.beat_combo_1_3
-[2017.12.22-08.40.56:935][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/character/anims/montajes/combo1/beat_combo_1_2.beat_combo_1_2
-[2017.12.22-08.40.57:048][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/enemies/agent/anims/agent__1__Flying_Back_Death.agent__1__Flying_Back_Death
-[2017.12.22-08.40.57:053][  0]LogMaterial: Missing cached shader map for material minimapRenderTarget_Mat, compiling. 
-[2017.12.22-08.40.57:067][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/character/anims/beat_Dash.beat_Dash
-[2017.12.22-08.40.57:085][  0]LogTexture:Display: Building textures: radialGradient (AutoDXT, 512X512)
-[2017.12.22-08.40.57:117][  0]LogMaterial: Missing cached shader map for material donut_Mat, compiling. 
-[2017.12.22-08.40.57:161][  0]LogTexture:Display: Building textures: Handle1Tex (AutoDXT, 256X256)
-[2017.12.22-08.40.57:208][  0]LogMaterial: Missing cached shader map for material Aqua_Dream_Hair_Handle1Mtl, compiling. 
-[2017.12.22-08.40.57:241][  0]LogTexture:Display: Building textures: Weapon_boss_claws (BGRA8, 778X302)
-[2017.12.22-08.40.57:253][  0]LogTexture:Display: Building textures: frogf (BGRA8, 107X103)
-[2017.12.22-08.40.57:256][  0]LogMaterial: Missing cached shader map for material Material__31, compiling. 
-[2017.12.22-08.40.57:272][  0]LogMaterial: Missing cached shader map for material Material__30, compiling. 
-[2017.12.22-08.40.57:285][  0]LogStaticMesh: Building static mesh SWORD-RYTHM_Box001...
-[2017.12.22-08.40.57:417][  0]LogStaticMesh: Built static mesh [0.13s] /Game/ThirdPersonBP/Blueprints/character/meshes/sword/SWORD-RYTHM_Box001.SWORD-RYTHM_Box001
-[2017.12.22-08.40.57:430][  0]LogTexture:Display: Building textures: Regular_triangle_svg (AutoDXT, 1024X1024)
-[2017.12.22-08.40.57:558][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/character/anims/beat_idle.beat_idle
-[2017.12.22-08.40.57:571][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/character/anims/beat_walk.beat_walk
-[2017.12.22-08.40.57:573][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/character/anims/beat_run.beat_run
-[2017.12.22-08.40.57:662][  0]LogMaterial: Missing cached shader map for material null, compiling. 
-[2017.12.22-08.40.57:722][  0]LogMaterial: Missing cached shader map for material donut_MatUI, compiling. 
-[2017.12.22-08.40.57:743][  0]LogTexture:Display: Building textures: donut (AutoDXT, 512X512)
-[2017.12.22-08.40.57:795][  0]LogMaterial: Missing cached shader map for material blanco, compiling. 
-[2017.12.22-08.40.57:865][  0]LogAIModule: Creating AISystem for world Distrito1
-[2017.12.22-08.40.58:283][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.22-08.40.58:351][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.22-08.40.58:404][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.259ms to complete.
-[2017.12.22-08.40.58:404][  0]LogFileHelpers: Loading map 'Distrito1' took 4.935
-[2017.12.22-08.40.58:496][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.12.22-08.40.58:627][  0]LogCollectionManager: Loaded 0 collections in 0.001234 seconds
-[2017.12.22-08.40.58:792][  0]LogFileCache: Scanning file cache for directory 'E:/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
-[2017.12.22-08.40.58:792][  0]LogFileCache: Scanning file cache for directory 'E:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/' took 0.01s
-[2017.12.22-08.40.58:792][  0]LogFileCache: Scanning file cache for directory 'E:/Anarquia/Proyecto2/Content/Collections/' took 0.01s
-[2017.12.22-08.40.58:792][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.12.22-08.40.58:803][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2329 classes and 491 folders.
-[2017.12.22-08.40.58:883][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.12.22-08.40.59:275][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.12.22-08.40.59:327][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.12.22-08.40.59:559][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.12.22-08.40.59:575][  0]LogSlate: Took 0.005309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.22-08.40.59:581][  0]LogSlate: Took 0.005187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.22-08.40.59:593][  0]LogSlate: Took 0.006128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.22-08.40.59:736][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
-[2017.12.22-08.40.59:794][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
-[2017.12.22-08.41.00:287][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.12.22-08.41.00:287][  0]LogLoad: (Engine Initialization) Total time: 36.22 seconds
-[2017.12.22-08.41.00:287][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.76 seconds
-[2017.12.22-08.41.00:287][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.12.22-08.41.00:297][  0]LogOcInput: OculusInput pre-init called
-[2017.12.22-08.41.00:297][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.12.0
-[2017.12.22-08.41.00:297][  0]LogHMD: Starting GearVRController plugin
-[2017.12.22-08.41.00:325][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.22-08.41.00:402][  0]LogSlate: Took 0.005246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.22-08.41.00:442][  1]LogAssetRegistry: Asset discovery search completed in 21.4023 seconds
-[2017.12.22-08.41.00:444][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.12.22-08.41.00:444][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
-[2017.12.22-08.41.17:840][272]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
-[2017.12.22-08.41.17:840][272]LogSynthBenchmark:Display: ===============
-[2017.12.22-08.41.17:840][272]LogSynthBenchmark:Display: Main Processor:
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:          ... 0.021254 s/Run 'RayIntersect'
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:          ... 0.020341 s/Run 'Fractal'
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display: 
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   CPU Perf Index 0: 120.5 (weight 1.00)
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   CPU Perf Index 1: 140.6 (weight 1.50)
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:  
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display: Graphics:
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 960'
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   Vendor Id: 0x10DE
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   Device Id: 0x1401
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   Device Revision: 0xA1
-[2017.12.22-08.41.18:048][272]LogSynthBenchmark:Display:   GPU Memory: 4063/0/8174 MB
-[2017.12.22-08.41.23:767][272]LogSynthBenchmark:Display:   GPU first test: 0.02s
-[2017.12.22-08.41.23:767][272]LogSynthBenchmark:Display:          ... 4.788 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
-[2017.12.22-08.41.23:767][272]LogSynthBenchmark:Display:          ... 4.086 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
-[2017.12.22-08.41.23:767][272]LogSynthBenchmark:Display:          ... 3.354 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
-[2017.12.22-08.41.23:767][272]LogSynthBenchmark:Display:          ... 17.225 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
-[2017.12.22-08.41.23:767][272]LogSynthBenchmark:Display:          ... 0.512 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
-[2017.12.22-08.41.23:767][272]LogSynthBenchmark:Display:          ... 2.763 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
-[2017.12.22-08.41.23:767][272]LogSynthBenchmark:Display:          ... 3.529 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:   GPU second test: 0.19s
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 5.904 s/GigaPix, Confidence=89% 'ALUHeavyNoise' (likely to be inaccurate)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 4.475 s/GigaPix, Confidence=89% 'TexHeavy' (likely to be inaccurate)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 4.030 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 21.278 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 0.525 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 1.930 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 2.981 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:   GPU Final Results:
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 5.904 s/GigaPix, Confidence=89% 'ALUHeavyNoise'
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 4.475 s/GigaPix, Confidence=89% 'TexHeavy'
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 4.030 s/GigaPix, Confidence=100% 'DepTexHeavy'
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 21.278 s/GigaPix, Confidence=100% 'FillOnly'
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 0.525 s/GigaPix, Confidence=100% 'Bandwidth'
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 1.930 s/GigaVert, Confidence=100% 'VertThroughPut1'
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... 2.981 s/GigaVert, Confidence=100% 'VertThroughPut2'
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display: 
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:   GPU Perf Index 0: 128.3 (weight 1.00)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:   GPU Perf Index 1: 60.1 (weight 0.10)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:   GPU Perf Index 2: 104.8 (weight 0.10)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:   GPU Perf Index 3: 83.6 (weight 3.00)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:   GPU Perf Index 4: 49.0 (weight 1.00)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:   GPU Perf Index 5: 125.6 (weight 0.00)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:   GPU Perf Index 6: 168.7 (weight 0.00)
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:   CPUIndex: 132.6
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:   GPUIndex: 85.5
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display: 
-[2017.12.22-08.41.23:995][272]LogSynthBenchmark:Display:          ... Total Time: 6.155247 sec
-[2017.12.22-08.41.33:205][492]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.12.22-08.41.33:399][493]Cmd: QUIT_EDITOR
-[2017.12.22-08.41.33:432][493]LogExit: Preparing to exit.
-[2017.12.22-08.41.34:237][493]LogExit: Editor shut down
-[2017.12.22-08.41.34:243][493]LogExit: Transaction tracking system shut down
-[2017.12.22-08.41.34:354][493]LogObj: Freed 0b from 0 cluster array pools.
-[2017.12.22-08.41.34:355][493]LogExit: Object subsystem successfully closed.
-[2017.12.22-08.41.34:464][493]LogD3D11RHI: Shutdown
-[2017.12.22-08.41.34:464][493]LogD3D11RHI: CleanupD3DDevice
-[2017.12.22-08.41.34:565][493]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.12.22-08.41.34:589][493]LogModuleManager: Shutting down and abandoning module SynthBenchmark (526)
-[2017.12.22-08.41.34:589][493]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
-[2017.12.22-08.41.34:589][493]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
-[2017.12.22-08.41.34:589][493]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
-[2017.12.22-08.41.34:589][493]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
-[2017.12.22-08.41.34:590][493]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2017.12.22-08.41.34:591][493]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
-[2017.12.22-08.41.34:591][493]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
-[2017.12.22-08.41.34:591][493]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
-[2017.12.22-08.41.34:591][493]LogDirectoryWatcher: A directory notification for 'E:/Anarquia/Proyecto2/Content/Collections/' was aborted.
-[2017.12.22-08.41.34:591][493]LogDirectoryWatcher: A directory notification for 'E:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/' was aborted.
-[2017.12.22-08.41.34:592][493]LogDirectoryWatcher: A directory notification for 'E:/Anarquia/Proyecto2/Saved/Collections/' was aborted.
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module BspMode (494)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
-[2017.12.22-08.41.34:592][493]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module Media (471)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
-[2017.12.22-08.41.34:593][493]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
-[2017.12.22-08.41.34:594][493]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
-[2017.12.22-08.41.34:594][493]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
-[2017.12.22-08.41.34:594][493]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
-[2017.12.22-08.41.34:595][493]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
-[2017.12.22-08.41.34:595][493]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
-[2017.12.22-08.41.34:595][493]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
-[2017.12.22-08.41.34:595][493]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
-[2017.12.22-08.41.34:595][493]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
-[2017.12.22-08.41.34:916][493]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
-[2017.12.22-08.41.34:916][493]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
-[2017.12.22-08.41.34:916][493]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
-[2017.12.22-08.41.34:916][493]LogModuleManager: Shutting down and abandoning module MergeActors (428)
-[2017.12.22-08.41.34:917][493]LogModuleManager: Shutting down and abandoning module SizeMap (426)
-[2017.12.22-08.41.34:917][493]LogModuleManager: Shutting down and abandoning module TreeMap (424)
-[2017.12.22-08.41.34:918][493]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
-[2017.12.22-08.41.34:918][493]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
-[2017.12.22-08.41.34:919][493]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
-[2017.12.22-08.41.34:920][493]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
-[2017.12.22-08.41.34:920][493]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
-[2017.12.22-08.41.34:921][493]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
-[2017.12.22-08.41.34:921][493]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
-[2017.12.22-08.41.34:921][493]LogModuleManager: Shutting down and abandoning module XmlParser (408)
-[2017.12.22-08.41.34:921][493]LogModuleManager: Shutting down and abandoning module Blutility (406)
-[2017.12.22-08.41.34:921][493]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
-[2017.12.22-08.41.34:921][493]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
-[2017.12.22-08.41.34:921][493]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
-[2017.12.22-08.41.34:921][493]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
-[2017.12.22-08.41.34:921][493]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
-[2017.12.22-08.41.34:922][493]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
-[2017.12.22-08.41.34:923][493]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
-[2017.12.22-08.41.34:924][493]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
-[2017.12.22-08.41.34:924][493]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
-[2017.12.22-08.41.34:993][493]LogModuleManager: Shutting down and abandoning module AutomationController (386)
-[2017.12.22-08.41.34:993][493]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
-[2017.12.22-08.41.34:998][493]LogModuleManager: Shutting down and abandoning module Layers (382)
-[2017.12.22-08.41.35:007][493]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
-[2017.12.22-08.41.35:007][493]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
-[2017.12.22-08.41.35:009][493]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
-[2017.12.22-08.41.35:011][493]LogModuleManager: Shutting down and abandoning module Persona (374)
-[2017.12.22-08.41.35:014][493]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
-[2017.12.22-08.41.35:014][493]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
-[2017.12.22-08.41.35:014][493]LogModuleManager: Shutting down and abandoning module Kismet (368)
-[2017.12.22-08.41.35:015][493]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
-[2017.12.22-08.41.35:015][493]LogModuleManager: Shutting down and abandoning module Toolbox (364)
-[2017.12.22-08.41.35:015][493]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
-[2017.12.22-08.41.35:022][493]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
-[2017.12.22-08.41.35:027][493]LogModuleManager: Shutting down and abandoning module OutputLog (358)
-[2017.12.22-08.41.35:027][493]LogModuleManager: Shutting down and abandoning module GammaUI (356)
-[2017.12.22-08.41.35:033][493]LogModuleManager: Shutting down and abandoning module Documentation (354)
-[2017.12.22-08.41.35:033][493]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
-[2017.12.22-08.41.35:033][493]LogModuleManager: Shutting down and abandoning module MovieScene (350)
-[2017.12.22-08.41.35:033][493]LogModuleManager: Shutting down and abandoning module Niagara (348)
-[2017.12.22-08.41.35:033][493]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
-[2017.12.22-08.41.35:037][493]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
-[2017.12.22-08.41.35:037][493]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
-[2017.12.22-08.41.35:037][493]LogModuleManager: Shutting down and abandoning module PortalServices (340)
-[2017.12.22-08.41.35:037][493]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
-[2017.12.22-08.41.35:037][493]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
-[2017.12.22-08.41.35:037][493]LogModuleManager: Shutting down and abandoning module AIModule (334)
-[2017.12.22-08.41.35:037][493]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
-[2017.12.22-08.41.35:037][493]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
-[2017.12.22-08.41.35:037][493]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2017.12.22-08.41.35:123][493]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module SteamVR (322)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module OculusInput (314)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module CableComponent (308)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
-[2017.12.22-08.41.35:128][493]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module SourceControl (267)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
-[2017.12.22-08.41.35:131][493]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
-[2017.12.22-08.41.35:132][493]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
-[2017.12.22-08.41.35:132][493]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2017.12.22-08.41.35:132][493]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2017.12.22-08.41.35:138][493]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2017.12.22-08.41.35:138][493]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2017.12.22-08.41.35:138][493]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2017.12.22-08.41.35:138][493]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2017.12.22-08.41.35:138][493]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2017.12.22-08.41.35:138][493]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2017.12.22-08.41.35:240][493]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2017.12.22-08.41.35:367][493]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2017.12.22-08.41.35:380][493]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2017.12.22-08.41.35:380][493]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2017.12.22-08.41.35:380][493]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2017.12.22-08.41.35:382][493]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2017.12.22-08.41.35:418][493]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2017.12.22-08.41.35:419][493]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2017.12.22-08.41.35:419][493]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2017.12.22-08.41.35:419][493]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2017.12.22-08.41.35:419][493]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2017.12.22-08.41.35:419][493]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2017.12.22-08.41.35:419][493]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2017.12.22-08.41.35:429][493]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2017.12.22-08.41.35:429][493]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2017.12.22-08.41.35:429][493]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2017.12.22-08.41.35:429][493]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2017.12.22-08.41.35:437][493]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2017.12.22-08.41.35:437][493]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2017.12.22-08.41.35:444][493]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2017.12.22-08.41.35:444][493]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2017.12.22-08.41.35:446][493]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2017.12.22-08.41.35:450][493]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2017.12.22-08.41.35:450][493]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2017.12.22-08.41.35:450][493]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2017.12.22-08.41.35:467][493]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2017.12.22-08.41.35:467][493]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2017.12.22-08.41.35:467][493]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2017.12.22-08.41.35:474][493]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2017.12.22-08.41.35:474][493]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2017.12.22-08.41.35:480][493]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2017.12.22-08.41.35:480][493]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2017.12.22-08.41.35:480][493]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2017.12.22-08.41.35:480][493]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2017.12.22-08.41.35:480][493]LogModuleManager: Shutting down and abandoning module Core (164)
-[2017.12.22-08.41.35:480][493]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2017.12.22-08.41.36:028][493]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.12.22-08.41.36:028][493]LogDirectoryWatcher: A directory notification for 'E:/Anarquia/Proyecto2/Content/' was aborted.
-[2017.12.22-08.41.36:028][493]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.12.22-08.41.36:028][493]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.12.22-08.41.36:031][493]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2017.12.22-08.41.36:031][493]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2017.12.22-08.41.36:031][493]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2017.12.22-08.41.36:031][493]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2017.12.22-08.41.36:031][493]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2017.12.22-08.41.36:031][493]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2017.12.22-08.41.36:031][493]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2017.12.22-08.41.36:031][493]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2017.12.22-08.41.36:031][493]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.12.22-08.41.36:498][493]LogDerivedDataCache: Shutdown
-[2017.12.22-08.41.36:498][493]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.12.22-08.41.36:498][493]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.12.22-08.41.36:498][493]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.12.22-08.41.36:498][493]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.12.22-08.41.36:499][493]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.12.22-08.41.36:499][493]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.12.22-08.41.36:500][493]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.12.22-08.41.36:500][493]LogOnline:Display: Unloading online subsystem: NULL
-[2017.12.22-08.41.36:507][493]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.12.22-08.41.36:510][493]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.12.22-08.41.36:510][493]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.12.22-08.41.36:511][493]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B995441A2-4415-7C4E-D7DA-8C9273EF85FC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=4b90b73f449aa3f3e691d9819a10f34d%7C%7C4de4ee59-3de1-47a6-9e8c-38cda48c02c7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.12.22-08.41.36:552][493]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.12.22-08.41.36:553][493]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2017.12.22-08.41.36:553][493]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.12.22-08.41.36:554][493]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.12.22-08.41.36:554][493]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.12.22-08.41.36:556][493]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.12.22-08.41.36:556][493]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.12.22-08.41.36:556][493]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.12.22-08.41.36:556][493]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.12.22-08.41.36:558][493]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.12.22-08.41.36:561][493]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.12.22-08.41.36:561][493]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.12.22-08.41.36:561][493]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.12.22-08.41.36:561][493]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.12.22-08.41.36:561][493]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.12.22-08.41.36:561][493]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.12.22-08.41.36:561][493]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.12.22-08.41.36:561][493]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.12.22-08.41.36:561][493]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.12.22-08.41.36:563][493]LogExit: Exiting.
-[2017.12.22-08.41.36:593][493]Log file closed, 12/22/17 09:41:36
+[2017.12.22-08.49.02:216][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.22-08.49.02:216][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.22-08.49.02:227][  0]LogInit: Computer: G4-018
+[2017.12.22-08.49.02:227][  0]LogInit: User: javiergarciagomez
+[2017.12.22-08.49.02:227][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.22-08.49.02:227][  0]LogInit: High frequency timer resolution =3.117193 MHz
+[2017.12.22-08.49.02:228][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.12.22-08.49.02:228][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.22-08.49.02:228][  0]LogMemory: Process Physical Memory: 272.68 MB used, 272.68 MB peak
+[2017.12.22-08.49.02:228][  0]LogMemory: Process Virtual Memory: 270.50 MB used, 270.50 MB peak
+[2017.12.22-08.49.02:228][  0]LogMemory: Physical Memory: 3667.01 MB used,  12679.87 MB free, 16346.88 MB total
+[2017.12.22-08.49.02:228][  0]LogMemory: Virtual Memory: 647.27 MB used,  12679.87 MB free, 134217728.00 MB total
+[2017.12.22-08.49.02:290][  0]LogInit: Using OS detected language (en-US).
+[2017.12.22-08.49.02:290][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.22-08.49.02:292][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.22-08.49.03:073][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.22-08.49.03:102][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.12.22-08.49.03:102][  0]LogD3D11RHI:       4062/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.22-08.49.03:103][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.22-08.49.03:103][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.22-08.49.03:103][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.22-08.49.03:107][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.22-08.49.03:108][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.22-08.49.03:108][  0]LogWindows: EnumDisplayDevices:
+[2017.12.22-08.49.03:108][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.12.22-08.49.03:108][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.12.22-08.49.03:108][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.12.22-08.49.03:108][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.12.22-08.49.03:108][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.22-08.49.03:108][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.12.22-08.49.03:108][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.12.22-08.49.03:108][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.12.22-08.49.03:108][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.22-08.49.03:124][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.22-08.49.03:134][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.22-08.49.03:181][  0]LogShaderCompilers: Guid format shader working directory is 36 characters bigger than the processId version (E:/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/11900/).
+[2017.12.22-08.49.03:181][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/javiergarciagomez/AppData/Local/Temp/UnrealShaderWorkingDir/166E41B84254540F38232AB503E6445C/'.
+[2017.12.22-08.49.03:181][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.22-08.49.04:041][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.22-08.49.04:084][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.22-08.49.04:127][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.22-08.49.04:170][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.22-08.49.04:212][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.22-08.49.04:255][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.22-08.49.04:297][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.22-08.49.04:340][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.22-08.49.04:377][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.22-08.49.04:419][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.22-08.49.04:459][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.22-08.49.04:502][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.22-08.49.04:543][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.22-08.49.04:584][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.22-08.49.04:626][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.22-08.49.04:711][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.22-08.49.04:711][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.22-08.49.04:743][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.22-08.49.04:828][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.22-08.49.04:854][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.22-08.49.04:898][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.22-08.49.04:942][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.22-08.49.04:989][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.22-08.49.05:032][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.22-08.49.05:032][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.22-08.49.05:462][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.22-08.49.05:541][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.22-08.49.05:541][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.12.22-08.49.05:541][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.22-08.49.05:541][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.22-08.49.05:541][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.22-08.49.05:541][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.22-08.49.05:556][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.22-08.49.05:568][  0]LogDerivedDataCache: Using Local data cache path C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.22-08.49.05:577][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.22-08.49.05:577][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.22-08.49.05:578][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.22-08.49.05:578][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.22-08.49.05:850][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.22-08.49.05:916][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.22-08.49.06:055][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.22-08.49.06:096][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.22-08.49.06:137][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.22-08.49.06:137][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.22-08.49.06:137][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.22-08.49.06:634][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
+[2017.12.22-08.49.06:693][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2017.12.22-08.49.06:767][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.052306 seconds
+[2017.12.22-08.49.06:771][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.12.22-08.49.06:771][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.12.22-08.49.06:771][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.22-08.49.06:828][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.22-08.49.08:904][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.22-08.49.08:941][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.22-08.49.09:399][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.22-08.49.09:750][  0]SourceControl: Info Source control is disabled
+[2017.12.22-08.49.09:779][  0]SourceControl: Info Source control is disabled
+[2017.12.22-08.49.09:818][  0]SourceControl: Info Source control is disabled
+[2017.12.22-08.49.09:861][  0]SourceControl: Info Source control is disabled
+[2017.12.22-08.49.10:429][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.22-08.49.10:933][  0]LogEngine: Initializing Engine...
+[2017.12.22-08.49.10:934][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.22-08.49.10:934][  0]LogHMD: GearVR starting with CPU: 2 GPU: 3 MinimumVsyncs: 1
+[2017.12.22-08.49.10:947][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.22-08.49.12:591][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.22-08.49.12:592][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.22-08.49.12:776][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.22-08.49.12:776][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.22-08.49.12:885][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.22-08.49.12:893][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.22-08.49.12:934][  0]LogInit: FAudioDevice initialized.
+[2017.12.22-08.49.12:973][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.22-08.49.12:980][  0]LogInit: Texture streaming: Enabled
+[2017.12.22-08.49.13:064][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.22-08.49.13:254][  0]LogInit: Transaction tracking system initialized
+[2017.12.22-08.49.13:527][  0]BlueprintLog: New page: Editor Load
+[2017.12.22-08.49.14:342][  0]LocalizationService: Info Localization service is disabled
+[2017.12.22-08.49.14:933][  0]LogConsoleResponse:Display: 
+[2017.12.22-08.49.15:054][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.22-08.49.15:054][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.22-08.49.15:905][  0]LogFileCache: Scanning file cache for directory 'E:/Anarquia/Proyecto2/Content/' took 0.01s
+[2017.12.22-08.49.15:947][  0]SourceControl: Info Source control is disabled
+[2017.12.22-08.49.15:947][  0]Cmd: MAP LOAD FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.22-08.49.15:947][  0]LightingResults: New page: Lighting Build
+[2017.12.22-08.49.15:983][  0]MapCheck: New page: Map Check
+[2017.12.22-08.49.15:983][  0]LightingResults: New page: Lighting Build
+[2017.12.22-08.49.16:637][  0]LogBlueprint:Error: [Compiler beatAnimBP] Error The type of  A  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2017.12.22-08.49.16:637][  0]LogBlueprint:Error: [Compiler beatAnimBP] Error The type of  B  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2017.12.22-08.49.16:638][  0]LogBlueprint:Error: [Compiler beatAnimBP] Error The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2017.12.22-08.49.16:638][  0]LogBlueprint:Error: [Compiler beatAnimBP] Error The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2017.12.22-08.49.16:646][  0]LogBlueprint:Warning: [Compiler beatAnimBP] Warning [0016.22] Compile of beatAnimBP failed. 4 Fatal Issue(s) 0 Warning(s) [in 17 ms] (/Game/ThirdPersonBP/Blueprints/character/anims/beatAnimBP.beatAnimBP)
+[2017.12.22-08.49.16:646][  0]LogBlueprint:Warning: [Compiler beatAnimBP] Warning [0016.22] Compile of beatAnimBP failed. 4 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/character/anims/beatAnimBP.beatAnimBP)
+[2017.12.22-08.49.16:646][  0]LogBlueprint:Warning: [Compiler beatAnimBP] Warning [0016.22] Compile of beatAnimBP failed. 4 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/character/anims/beatAnimBP.beatAnimBP)
+[2017.12.22-08.49.17:067][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData'
+[2017.12.22-08.49.17:067][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData' while loading E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap.
+[2017.12.22-08.49.17:067][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Distrito1 : Can't find file for asset. /Game/ThirdPersonBP/Maps/Distrito1_BuiltData
+[2017.12.22-08.49.17:071][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData'
+[2017.12.22-08.49.17:071][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData' while loading E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap.
+[2017.12.22-08.49.17:071][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Distrito1 : Can't find file for asset. /Game/ThirdPersonBP/Maps/Distrito1_BuiltData
+[2017.12.22-08.49.17:076][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData'
+[2017.12.22-08.49.17:076][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData' while loading NULL.
+[2017.12.22-08.49.17:076][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData'
+[2017.12.22-08.49.17:076][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData' while loading NULL.
+[2017.12.22-08.49.17:303][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData'
+[2017.12.22-08.49.17:303][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/Distrito1_BuiltData.Distrito1_BuiltData Referenced by PersistentLevel
+[2017.12.22-08.49.17:303][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Distrito1_BuiltData' while loading NULL.
+[2017.12.22-08.49.17:303][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/Distrito1_BuiltData.Distrito1_BuiltData Referenced by PersistentLevel
+[2017.12.22-08.49.17:502][  0]LogMaterial: Missing cached shader map for material donut_Mat, compiling. 
+[2017.12.22-08.49.17:553][  0]LogMaterial: Missing cached shader map for material Material__31, compiling. 
+[2017.12.22-08.49.17:577][  0]LogMaterial: Missing cached shader map for material Material__30, compiling. 
+[2017.12.22-08.49.17:786][  0]LogMaterial: Missing cached shader map for material Aqua_Dream_Hair_Handle1Mtl, compiling. 
+[2017.12.22-08.49.17:888][  0]LogMaterial: Missing cached shader map for material null, compiling. 
+[2017.12.22-08.49.17:946][  0]LogMaterial: Missing cached shader map for material donut_MatUI, compiling. 
+[2017.12.22-08.49.17:979][  0]LogMaterial: Missing cached shader map for material blanco, compiling. 
+[2017.12.22-08.49.18:073][  0]LogAIModule: Creating AISystem for world Distrito1
+[2017.12.22-08.49.18:332][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.22-08.49.18:380][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.22-08.49.18:433][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.004ms to complete.
+[2017.12.22-08.49.18:433][  0]LogFileHelpers: Loading map 'Distrito1' took 2.487
+[2017.12.22-08.49.18:559][  0]LogCollectionManager: Loaded 0 collections in 0.001472 seconds
+[2017.12.22-08.49.18:633][  0]LogFileCache: Scanning file cache for directory 'E:/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
+[2017.12.22-08.49.18:633][  0]LogFileCache: Scanning file cache for directory 'E:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/' took 0.01s
+[2017.12.22-08.49.18:633][  0]LogFileCache: Scanning file cache for directory 'E:/Anarquia/Proyecto2/Content/Collections/' took 0.01s
+[2017.12.22-08.49.18:633][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.22-08.49.18:642][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2329 classes and 491 folders.
+[2017.12.22-08.49.18:707][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.22-08.49.18:739][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.22-08.49.18:782][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.12.22-08.49.18:820][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.22-08.49.18:826][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.22-08.49.18:827][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.22-08.49.18:831][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.22-08.49.18:930][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2017.12.22-08.49.18:972][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.12.22-08.49.19:312][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.12.22-08.49.19:312][  0]LogLoad: (Engine Initialization) Total time: 18.89 seconds
+[2017.12.22-08.49.19:312][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.59 seconds
+[2017.12.22-08.49.19:312][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.22-08.49.19:322][  0]LogOcInput: OculusInput pre-init called
+[2017.12.22-08.49.19:323][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.12.0
+[2017.12.22-08.49.19:323][  0]LogHMD: Starting GearVRController plugin
+[2017.12.22-08.49.19:343][  0]LogAssetRegistry: Asset discovery search completed in 12.6722 seconds
+[2017.12.22-08.49.19:344][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.22-08.49.19:344][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.12.22-08.49.19:348][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.22-08.49.19:425][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.22-08.50.45:479][385]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.22-08.50.45:504][385]LogAIModule: Creating AISystem for world MainMenu
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SeleccionDeNivel_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SeleccionDeNivel:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SeleccionDeNivel:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SeleccionDeNivel:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SeleccionDeNivel_C:ExecuteUbergraph_SeleccionDeNivel' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SeleccionDeNivel_C:Button_42' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SeleccionDeNivel_C:Button_72' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SeleccionDeNivel_C:Button_120' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SeleccionDeNivel_C:Button_178' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SKEL_SeleccionDeNivel_C:Button_178' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SKEL_SeleccionDeNivel_C:Button_120' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SKEL_SeleccionDeNivel_C:Button_72' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SKEL_SeleccionDeNivel_C:Button_42' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SKEL_SeleccionDeNivel_C:ExecuteUbergraph_SeleccionDeNivel' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:982][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.SKEL_SeleccionDeNivel_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/LevelSelector/SeleccionDeNivel.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.MenuPrincipal_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.MenuPrincipal:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.MenuPrincipal:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.MenuPrincipal:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.MenuPrincipal_C:ExecuteUbergraph_MenuPrincipal' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.MenuPrincipal_C:Button_244' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.MenuPrincipal_C:Button_320' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.MenuPrincipal_C:Button_369' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.SKEL_MenuPrincipal_C:Button_369' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.SKEL_MenuPrincipal_C:Button_320' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.SKEL_MenuPrincipal_C:Button_244' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.SKEL_MenuPrincipal_C:ExecuteUbergraph_MenuPrincipal' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.45:992][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.SKEL_MenuPrincipal_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause_C:ExecuteUbergraph_Pause' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause_C:Button_35' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause_C:Button_43' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause_C:Button_78' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause_C:Button_145' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause_C:Button_174' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.SKEL_Pause_C:Button_174' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.SKEL_Pause_C:Button_145' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.SKEL_Pause_C:Button_78' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.SKEL_Pause_C:Button_43' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.SKEL_Pause_C:Button_35' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.SKEL_Pause_C:ExecuteUbergraph_Pause' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:003][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.SKEL_Pause_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Pause.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig:GetText_1.K2Node_FunctionEntry_114' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig:GetText_0.K2Node_FunctionResult_0' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig:GetText_0.K2Node_FunctionEntry_48' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig:GetText_2.K2Node_FunctionResult_2' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig:GetText_3.K2Node_FunctionResult_3' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig:GetText_3.K2Node_FunctionEntry_320' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig:GetText_2.K2Node_FunctionEntry_279' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:ExecuteUbergraph_MenuConfig' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:Button_150' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:Button_215' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:Button_216' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:Button_217' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:Button_218' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:Button_284' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:Button_285' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:Button_286' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:Button_287' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:TextBlock_207' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:TextBlock_208' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:TextBlock_209' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:TextBlock_210' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:PrincipalConfig' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:021][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:PrincipalFrameRate' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:AntialiasinComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:GraficComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:ShadowComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.MenuConfig_C:FramerateComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:FramerateComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:ShadowComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:GraficComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:AntialiasinComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:PrincipalFrameRate' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:PrincipalConfig' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:TextBlock_210' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:TextBlock_209' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:TextBlock_208' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:TextBlock_207' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:Button_287' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:Button_286' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:Button_285' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:Button_284' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:Button_218' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:Button_217' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:Button_216' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:Button_215' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:Button_150' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C:ExecuteUbergraph_MenuConfig' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:022][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.SKEL_MenuConfig_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/MenuConfig.PackageMetaData'
+[2017.12.22-08.50.46:029][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/SaveGame_BLUE.SaveGame_BLUE_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/SaveGame_BLUE.PackageMetaData'
+[2017.12.22-08.50.46:029][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/SaveGame_BLUE.SaveGame_BLUE_C:PlayerPosition' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/SaveGame_BLUE.PackageMetaData'
+[2017.12.22-08.50.46:029][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/SaveGame_BLUE.SKEL_SaveGame_BLUE_C:PlayerPosition' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/SaveGame_BLUE.PackageMetaData'
+[2017.12.22-08.50.46:029][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/SaveGame_BLUE.SKEL_SaveGame_BLUE_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/SaveGame_BLUE.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.Save_and_Load_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.Save_and_Load_C:ExecuteUbergraph_Save_and_Load' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.Save_and_Load_C:Button_35' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.Save_and_Load_C:Button_78' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.Save_and_Load_C:Button_145' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.Save_and_Load:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.Save_and_Load:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.Save_and_Load:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.Save_and_Load_C:SaveGame' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.SKEL_Save_and_Load_C:SaveGame' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.SKEL_Save_and_Load_C:Button_145' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.SKEL_Save_and_Load_C:Button_78' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.SKEL_Save_and_Load_C:Button_35' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.SKEL_Save_and_Load_C:ExecuteUbergraph_Save_and_Load' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:037][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.SKEL_Save_and_Load_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/PauseMenu/Save_and_Load.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:ExecuteUbergraph_MenuConfigMain' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:Button_150' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:Button_215' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:Button_216' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:Button_217' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:Button_218' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:Button_284' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:Button_285' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:Button_286' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:Button_287' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:TextBlock_207' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:TextBlock_208' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:TextBlock_209' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:TextBlock_210' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:PrincipalConfig' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:PrincipalFrameRate' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:AntialiasinComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:GraficComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:ShadowComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain_C:FramerateComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:FramerateComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:ShadowComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:GraficComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:AntialiasinComands' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:PrincipalFrameRate' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:PrincipalConfig' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:TextBlock_210' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:TextBlock_209' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:TextBlock_208' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:TextBlock_207' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:Button_287' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:Button_286' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:056][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:Button_285' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:057][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:Button_284' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:057][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:Button_218' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:057][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:Button_217' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:057][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:Button_216' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:057][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:Button_215' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:057][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:Button_150' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:057][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C:ExecuteUbergraph_MenuConfigMain' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:057][385]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.SKEL_MenuConfigMain_C' ref from Metadata '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuConfigMain.PackageMetaData'
+[2017.12.22-08.50.46:119][385]LogSavePackage: Save=42.42ms
+[2017.12.22-08.50.46:119][385]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/SeleccionDeNivel5788FBC449B1607BFE1E55BF64704786.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.uasset'
+[2017.12.22-08.50.46:126][385]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivel.uasset
+[2017.12.22-08.50.46:132][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.uasset" SILENT=true
+[2017.12.22-08.50.46:175][385]LogSavePackage: Save=39.33ms
+[2017.12.22-08.50.46:175][385]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/MenuPrincipalDCFBF2F4403FEEFFF0848E995113BF4D.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.uasset'
+[2017.12.22-08.50.46:179][385]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipal.uasset
+[2017.12.22-08.50.46:186][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.uasset" SILENT=true
+[2017.12.22-08.50.46:204][385]LogSavePackage: Save=5.70ms
+[2017.12.22-08.50.46:204][385]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/MenuPrincipalF608BE7E46BE1389D0E95B91F15F4ADA.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.uasset'
+[2017.12.22-08.50.46:209][385]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MenuPrincipal.uasset
+[2017.12.22-08.50.46:215][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.uasset" SILENT=true
+[2017.12.22-08.50.46:276][385]LogSavePackage: Save=57.70ms
+[2017.12.22-08.50.46:276][385]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/Pause90AC8E8647FF0921CA4E55A62BE22538.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.uasset'
+[2017.12.22-08.50.46:281][385]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.uasset
+[2017.12.22-08.50.46:285][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.uasset" SILENT=true
+[2017.12.22-08.50.46:537][385]LogSavePackage: Save=249.82ms
+[2017.12.22-08.50.46:537][385]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/MenuConfigAC019015474133592BEA129D6459BBD2.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.uasset'
+[2017.12.22-08.50.46:541][385]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.uasset
+[2017.12.22-08.50.46:544][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/SaveGame_BLUE" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/SaveGame_BLUE.uasset" SILENT=true
+[2017.12.22-08.50.46:555][385]LogSavePackage: Save=7.24ms
+[2017.12.22-08.50.46:555][385]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/SaveGame_BLUE56AD233243856A07CF7A3A9A34B1413A.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/SaveGame_BLUE.uasset'
+[2017.12.22-08.50.46:559][385]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/SaveGame_BLUE.uasset
+[2017.12.22-08.50.46:564][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.uasset" SILENT=true
+[2017.12.22-08.50.46:634][385]LogSavePackage: Save=66.74ms
+[2017.12.22-08.50.46:634][385]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/Save_and_LoadFB759FF640F703FA4C138CA1CC8E9B3A.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.uasset'
+[2017.12.22-08.50.46:649][385]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Save_and_Load.uasset
+[2017.12.22-08.50.46:652][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset" SILENT=true
+[2017.12.22-08.50.46:892][385]LogSavePackage: Save=236.31ms
+[2017.12.22-08.50.46:892][385]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/MenuConfigMain175290FC40D9984BCC397FBDE0A87A92.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset'
+[2017.12.22-08.50.46:896][385]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset
+[2017.12.22-08.50.47:284][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.12.22-08.50.47:371][385]LogSavePackage: Save=75.23ms
+[2017.12.22-08.50.47:371][385]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/ThirdPersonCharacterF59FDDDB44BAD136167513BCA6C7E2F8.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.12.22-08.50.47:377][385]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.12.22-08.50.47:417][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/character/beat" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/beat.uasset" SILENT=true
+[2017.12.22-08.50.47:723][385]LogSavePackage: Save=292.63ms
+[2017.12.22-08.50.47:723][385]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/beatA92BE1B445861E2133885CB4ACEA2434.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/beat.uasset'
+[2017.12.22-08.50.47:729][385]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/beat.uasset
+[2017.12.22-08.50.56:902][818]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.12.22-08.50.57:564][818]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.22-08.50.57:569][818]LogSlate: Took 0.004508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.22-08.51.00:835][ 86]LogSlate: Took 0.004823 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.22-08.58.23:724][817]BlueprintLog: New page: Compile MenuConfig
+[2017.12.22-08.58.24:120][817]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.12.22-08.58.24:969][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.uasset" SILENT=true
+[2017.12.22-08.58.25:263][896]LogSavePackage: Save=235.50ms
+[2017.12.22-08.58.25:263][896]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/MenuConfig6261A3F34F660761FD58E4A7DB29ACF9.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.uasset'
+[2017.12.22-08.58.25:268][896]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.uasset
+[2017.12.22-09.00.59:908][289]BlueprintLog: New page: Compile MenuConfig
+[2017.12.22-09.01.00:762][289]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.12.22-09.01.01:149][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.uasset" SILENT=true
+[2017.12.22-09.01.01:387][328]LogSavePackage: Save=232.50ms
+[2017.12.22-09.01.01:387][328]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/MenuConfigC38878964258DFB3DE625E8F012BF668.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.uasset'
+[2017.12.22-09.01.01:393][328]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/MenuConfig.uasset
+[2017.12.22-09.01.03:184][447]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.22-09.01.03:345][447]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.01.03:345][447]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.22-09.01.03:345][447]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2017.12.22-09.01.03:509][447]LogPlayLevel: [PlayLevel] Compiling beat before play...
+[2017.12.22-09.01.03:661][447]LogPlayLevel: [PlayLevel]   Compiling beatAnimBP as a dependent...
+[2017.12.22-09.01.03:682][447]LogBlueprint:Error: [Compiler beatAnimBP] Error The type of  A  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2017.12.22-09.01.03:682][447]LogBlueprint:Error: [Compiler beatAnimBP] Error The type of  B  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2017.12.22-09.01.03:682][447]LogBlueprint:Error: [Compiler beatAnimBP] Error The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2017.12.22-09.01.03:682][447]LogBlueprint:Error: [Compiler beatAnimBP] Error The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2017.12.22-09.01.04:052][447]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2017.12.22-09.01.04:178][447]LogPlayLevel: PlayLevel: Blueprint regeneration took 833 ms (4 blueprints)
+[2017.12.22-09.01.06:899][447]PIE: New page: PIE session: Distrito1 (Dec 22, 2017, 11:01:06 AM)
+[2017.12.22-09.01.06:899][447]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1
+[2017.12.22-09.01.07:026][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.127313s)
+[2017.12.22-09.01.07:027][447]LogAIModule: Creating AISystem for world Distrito1
+[2017.12.22-09.01.07:027][447]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2017.12.22-09.01.07:027][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1.Distrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1.Distrito1 (0.128608s)
+[2017.12.22-09.01.07:049][447]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.22-09.01.07:058][447]LogInit: FAudioDevice initialized.
+[2017.12.22-09.01.07:121][447]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.22-09.01.07:164][447]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1.Distrito1 up for play (max tick rate 0) at 2017.12.22-10.01.07
+[2017.12.22-09.01.07:175][447]LogWorld: Bringing up level for play took: 0.052790
+[2017.12.22-09.01.07:218][447]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.12.22-09.01.07:226][447]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1 4.603
+[2017.12.22-09.01.07:226][447]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.01.24:231][436]Cmd: r.ScreenPercentage 50
+[2017.12.22-09.01.24:233][436]r.ScreenPercentage = "50"
+[2017.12.22-09.01.24:869][480]Cmd: r.ScreenPercentage 75
+[2017.12.22-09.01.24:869][480]r.ScreenPercentage = "75"
+[2017.12.22-09.01.25:252][504]Cmd: r.ScreenPercentage 100
+[2017.12.22-09.01.25:252][504]r.ScreenPercentage = "100"
+[2017.12.22-09.01.25:412][513]Cmd: r.ScreenPercentage 100
+[2017.12.22-09.01.25:412][513]r.ScreenPercentage = "100"
+[2017.12.22-09.01.25:593][523]Cmd: r.ScreenPercentage 100
+[2017.12.22-09.01.25:593][523]r.ScreenPercentage = "100"
+[2017.12.22-09.01.26:281][561]Cmd: r.PostProcessAAQuality 1
+[2017.12.22-09.01.26:281][561]r.PostProcessAAQuality = "1"
+[2017.12.22-09.01.26:443][570]Cmd: r.PostProcessAAQuality 2
+[2017.12.22-09.01.26:444][570]r.PostProcessAAQuality = "2"
+[2017.12.22-09.01.26:605][579]Cmd: r.PostProcessAAQuality 3
+[2017.12.22-09.01.26:605][579]r.PostProcessAAQuality = "3"
+[2017.12.22-09.01.26:769][588]Cmd: r.PostProcessAAQuality 3
+[2017.12.22-09.01.26:769][588]r.PostProcessAAQuality = "3"
+[2017.12.22-09.01.26:932][597]Cmd: r.PostProcessAAQuality 3
+[2017.12.22-09.01.26:932][597]r.PostProcessAAQuality = "3"
+[2017.12.22-09.01.27:638][636]Cmd: sg.ShadowQuality 1
+[2017.12.22-09.01.27:638][636]sg.ShadowQuality = "1"
+[2017.12.22-09.01.27:646][637]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1189).
+[2017.12.22-09.01.27:787][645]Cmd: sg.ShadowQuality 2
+[2017.12.22-09.01.27:787][645]sg.ShadowQuality = "2"
+[2017.12.22-09.01.27:956][657]Cmd: sg.ShadowQuality 3
+[2017.12.22-09.01.27:956][657]sg.ShadowQuality = "3"
+[2017.12.22-09.01.27:964][658]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1210).
+[2017.12.22-09.01.28:109][663]Cmd: sg.ShadowQuality 3
+[2017.12.22-09.01.28:109][663]sg.ShadowQuality = "3"
+[2017.12.22-09.01.28:668][694]Cmd: r.MaxFPS 30
+[2017.12.22-09.01.28:668][694]Command not recognized: r.MaxFPS 30
+[2017.12.22-09.01.28:848][704]Cmd: r.MaxFPS 60
+[2017.12.22-09.01.28:848][704]Command not recognized: r.MaxFPS 60
+[2017.12.22-09.01.29:010][713]Cmd: r.MaxFPS 144
+[2017.12.22-09.01.29:010][713]Command not recognized: r.MaxFPS 144
+[2017.12.22-09.01.29:155][721]Cmd: r.MaxFPS 144
+[2017.12.22-09.01.29:155][721]Command not recognized: r.MaxFPS 144
+[2017.12.22-09.01.29:317][730]Cmd: r.MaxFPS 144
+[2017.12.22-09.01.29:317][730]Command not recognized: r.MaxFPS 144
+[2017.12.22-09.01.30:197][779]Cmd: r.MaxFPS 60
+[2017.12.22-09.01.30:197][779]Command not recognized: r.MaxFPS 60
+[2017.12.22-09.01.30:359][788]Cmd: r.MaxFPS 30
+[2017.12.22-09.01.30:359][788]Command not recognized: r.MaxFPS 30
+[2017.12.22-09.01.30:539][798]Cmd: r.MaxFPS 15
+[2017.12.22-09.01.30:539][798]Command not recognized: r.MaxFPS 15
+[2017.12.22-09.01.30:700][807]Cmd: r.MaxFPS 15
+[2017.12.22-09.01.30:700][807]Command not recognized: r.MaxFPS 15
+[2017.12.22-09.01.31:204][835]Cmd: r.MaxFPS 15
+[2017.12.22-09.01.31:204][835]Command not recognized: r.MaxFPS 15
+[2017.12.22-09.01.31:870][872]Cmd: sg.ShadowQuality 2
+[2017.12.22-09.01.31:870][872]sg.ShadowQuality = "2"
+[2017.12.22-09.01.31:878][873]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1425).
+[2017.12.22-09.01.32:046][883]Cmd: sg.ShadowQuality 1
+[2017.12.22-09.01.32:046][883]sg.ShadowQuality = "1"
+[2017.12.22-09.01.32:201][895]Cmd: sg.ShadowQuality 0
+[2017.12.22-09.01.32:201][895]sg.ShadowQuality = "0"
+[2017.12.22-09.01.32:209][896]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1448).
+[2017.12.22-09.01.32:352][908]Cmd: sg.ShadowQuality 0
+[2017.12.22-09.01.32:352][908]sg.ShadowQuality = "0"
+[2017.12.22-09.01.32:511][927]Cmd: sg.ShadowQuality 0
+[2017.12.22-09.01.32:511][927]sg.ShadowQuality = "0"
+[2017.12.22-09.01.33:286][ 19]Cmd: r.PostProcessAAQuality 2
+[2017.12.22-09.01.33:286][ 19]r.PostProcessAAQuality = "2"
+[2017.12.22-09.01.33:438][ 37]Cmd: r.PostProcessAAQuality 1
+[2017.12.22-09.01.33:438][ 37]r.PostProcessAAQuality = "1"
+[2017.12.22-09.01.33:588][ 55]Cmd: r.PostProcessAAQuality 0
+[2017.12.22-09.01.33:589][ 55]r.PostProcessAAQuality = "0"
+[2017.12.22-09.01.33:756][ 75]Cmd: r.PostProcessAAQuality 0
+[2017.12.22-09.01.33:756][ 75]r.PostProcessAAQuality = "0"
+[2017.12.22-09.01.33:915][ 94]Cmd: r.PostProcessAAQuality 0
+[2017.12.22-09.01.33:915][ 94]r.PostProcessAAQuality = "0"
+[2017.12.22-09.01.34:098][116]Cmd: r.PostProcessAAQuality 0
+[2017.12.22-09.01.34:098][116]r.PostProcessAAQuality = "0"
+[2017.12.22-09.01.34:508][165]Cmd: r.ScreenPercentage 75
+[2017.12.22-09.01.34:508][165]r.ScreenPercentage = "75"
+[2017.12.22-09.01.34:651][182]Cmd: r.ScreenPercentage 50
+[2017.12.22-09.01.34:651][182]r.ScreenPercentage = "50"
+[2017.12.22-09.01.34:803][200]Cmd: r.ScreenPercentage 25
+[2017.12.22-09.01.34:803][200]r.ScreenPercentage = "25"
+[2017.12.22-09.01.34:978][221]Cmd: r.ScreenPercentage 25
+[2017.12.22-09.01.34:978][221]r.ScreenPercentage = "25"
+[2017.12.22-09.01.35:145][241]Cmd: r.ScreenPercentage 25
+[2017.12.22-09.01.35:145][241]r.ScreenPercentage = "25"
+[2017.12.22-09.01.44:598][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.01.44:646][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.01.47:667][704]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.22-09.01.47:705][704]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.01.47:705][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.22-09.01.47:705][704]PIE: New page: PIE session: Distrito1 (Dec 22, 2017, 11:01:47 AM)
+[2017.12.22-09.01.47:705][704]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1
+[2017.12.22-09.01.47:829][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123785s)
+[2017.12.22-09.01.47:830][704]LogAIModule: Creating AISystem for world Distrito1
+[2017.12.22-09.01.47:830][704]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2017.12.22-09.01.47:830][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1.Distrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1.Distrito1 (0.125034s)
+[2017.12.22-09.01.47:850][704]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.22-09.01.47:856][704]LogInit: FAudioDevice initialized.
+[2017.12.22-09.01.47:887][704]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.22-09.01.47:929][704]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1.Distrito1 up for play (max tick rate 0) at 2017.12.22-10.01.47
+[2017.12.22-09.01.47:937][704]LogWorld: Bringing up level for play took: 0.048687
+[2017.12.22-09.01.47:942][704]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1 -0.68
+[2017.12.22-09.01.47:942][704]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.01.57:429][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.01.57:472][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.02.00:585][200]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.22-09.02.00:623][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.02.00:623][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.22-09.02.00:623][200]PIE: New page: PIE session: Distrito1 (Dec 22, 2017, 11:02:00 AM)
+[2017.12.22-09.02.00:624][200]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1
+[2017.12.22-09.02.00:745][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121043s)
+[2017.12.22-09.02.00:746][200]LogAIModule: Creating AISystem for world Distrito1
+[2017.12.22-09.02.00:746][200]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2017.12.22-09.02.00:746][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1.Distrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1.Distrito1 (0.122316s)
+[2017.12.22-09.02.00:767][200]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.22-09.02.00:773][200]LogInit: FAudioDevice initialized.
+[2017.12.22-09.02.00:802][200]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.22-09.02.00:841][200]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1.Distrito1 up for play (max tick rate 0) at 2017.12.22-10.02.00
+[2017.12.22-09.02.00:849][200]LogWorld: Bringing up level for play took: 0.046229
+[2017.12.22-09.02.00:854][200]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1 0.233
+[2017.12.22-09.02.00:854][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.02.04:242][603]Cmd: r.ScreenPercentage 50
+[2017.12.22-09.02.04:242][603]r.ScreenPercentage = "50"
+[2017.12.22-09.02.04:701][658]Cmd: r.ScreenPercentage 75
+[2017.12.22-09.02.04:701][658]r.ScreenPercentage = "75"
+[2017.12.22-09.02.05:659][773]Cmd: r.PostProcessAAQuality 1
+[2017.12.22-09.02.05:659][773]r.PostProcessAAQuality = "1"
+[2017.12.22-09.02.05:825][793]Cmd: r.PostProcessAAQuality 2
+[2017.12.22-09.02.05:825][793]r.PostProcessAAQuality = "2"
+[2017.12.22-09.02.05:984][812]Cmd: r.PostProcessAAQuality 3
+[2017.12.22-09.02.05:984][812]r.PostProcessAAQuality = "3"
+[2017.12.22-09.02.06:886][920]Cmd: r.PostProcessAAQuality 2
+[2017.12.22-09.02.06:886][920]r.PostProcessAAQuality = "2"
+[2017.12.22-09.02.07:782][ 27]Cmd: sg.ShadowQuality 1
+[2017.12.22-09.02.07:782][ 27]sg.ShadowQuality = "1"
+[2017.12.22-09.02.07:789][ 28]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:828).
+[2017.12.22-09.02.07:985][ 38]Cmd: sg.ShadowQuality 2
+[2017.12.22-09.02.07:985][ 38]sg.ShadowQuality = "2"
+[2017.12.22-09.02.08:124][ 47]Cmd: sg.ShadowQuality 3
+[2017.12.22-09.02.08:124][ 47]sg.ShadowQuality = "3"
+[2017.12.22-09.02.08:132][ 48]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:847).
+[2017.12.22-09.02.10:546][180]Cmd: r.MaxFPS 30
+[2017.12.22-09.02.10:546][180]Command not recognized: r.MaxFPS 30
+[2017.12.22-09.02.10:706][189]Cmd: r.MaxFPS 60
+[2017.12.22-09.02.10:706][189]Command not recognized: r.MaxFPS 60
+[2017.12.22-09.02.11:863][254]Cmd: r.PostProcessAAQuality 3
+[2017.12.22-09.02.11:863][254]r.PostProcessAAQuality = "3"
+[2017.12.22-09.02.12:361][282]Cmd: r.ScreenPercentage 100
+[2017.12.22-09.02.12:361][282]r.ScreenPercentage = "100"
+[2017.12.22-09.02.13:097][319]Cmd: r.ScreenPercentage 100
+[2017.12.22-09.02.13:097][319]r.ScreenPercentage = "100"
+[2017.12.22-09.02.13:237][326]Cmd: r.ScreenPercentage 100
+[2017.12.22-09.02.13:237][326]r.ScreenPercentage = "100"
+[2017.12.22-09.02.18:646][618]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.02.18:708][618]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.02.19:494][662]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.22-09.02.19:534][662]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.02.19:534][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.22-09.02.19:534][662]PIE: New page: PIE session: Distrito1 (Dec 22, 2017, 11:02:19 AM)
+[2017.12.22-09.02.19:534][662]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1
+[2017.12.22-09.02.19:655][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120477s)
+[2017.12.22-09.02.19:655][662]LogAIModule: Creating AISystem for world Distrito1
+[2017.12.22-09.02.19:656][662]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2017.12.22-09.02.19:656][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1.Distrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1.Distrito1 (0.121669s)
+[2017.12.22-09.02.19:676][662]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.22-09.02.19:682][662]LogInit: FAudioDevice initialized.
+[2017.12.22-09.02.19:711][662]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.22-09.02.19:753][662]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1.Distrito1 up for play (max tick rate 0) at 2017.12.22-10.02.19
+[2017.12.22-09.02.19:761][662]LogWorld: Bringing up level for play took: 0.048436
+[2017.12.22-09.02.19:765][662]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1 1.145
+[2017.12.22-09.02.19:766][662]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.02.27:544][113]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.02.27:605][113]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.02.37:009][136]LogSlate: Took 0.013159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.12.22-09.02.47:608][366]BlueprintLog: New page: Compile Pause
+[2017.12.22-09.02.47:923][366]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.12.22-09.02.48:311][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.uasset" SILENT=true
+[2017.12.22-09.02.48:413][407]LogSavePackage: Save=56.11ms
+[2017.12.22-09.02.48:413][407]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/Pause36B5B7094FC8B4831C74909D738FAF84.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.uasset'
+[2017.12.22-09.02.48:418][407]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.uasset
+[2017.12.22-09.03.26:259][888]BlueprintLog: New page: Compile Pause
+[2017.12.22-09.03.26:714][888]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.12.22-09.03.28:183][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.uasset" SILENT=true
+[2017.12.22-09.03.28:245][ 54]LogSavePackage: Save=55.52ms
+[2017.12.22-09.03.28:245][ 54]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/PauseA438E6AB46824B53B734D2939F38F423.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.uasset'
+[2017.12.22-09.03.28:251][ 54]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.uasset
+[2017.12.22-09.03.29:697][146]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.22-09.03.29:731][146]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.03.29:731][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.22-09.03.29:731][146]PIE: New page: PIE session: Distrito1 (Dec 22, 2017, 11:03:29 AM)
+[2017.12.22-09.03.29:731][146]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1
+[2017.12.22-09.03.29:854][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122646s)
+[2017.12.22-09.03.29:855][146]LogAIModule: Creating AISystem for world Distrito1
+[2017.12.22-09.03.29:855][146]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2017.12.22-09.03.29:855][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1.Distrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1.Distrito1 (0.123793s)
+[2017.12.22-09.03.29:875][146]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.22-09.03.29:881][146]LogInit: FAudioDevice initialized.
+[2017.12.22-09.03.29:915][146]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.22-09.03.29:954][146]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1.Distrito1 up for play (max tick rate 0) at 2017.12.22-10.03.29
+[2017.12.22-09.03.29:962][146]LogWorld: Bringing up level for play took: 0.046275
+[2017.12.22-09.03.29:967][146]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1 -0.652
+[2017.12.22-09.03.29:967][146]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.03.31:559][228]PIE:Error: Error SetInputMode_GameOnly expects a valid player controller as target
+[2017.12.22-09.03.40:003][713]Cmd: r.ScreenPercentage 50
+[2017.12.22-09.03.40:003][713]r.ScreenPercentage = "50"
+[2017.12.22-09.03.40:188][726]Cmd: r.ScreenPercentage 75
+[2017.12.22-09.03.40:188][726]r.ScreenPercentage = "75"
+[2017.12.22-09.03.40:882][773]Cmd: r.ScreenPercentage 100
+[2017.12.22-09.03.40:882][773]r.ScreenPercentage = "100"
+[2017.12.22-09.03.40:996][780]Cmd: r.ScreenPercentage 100
+[2017.12.22-09.03.40:996][780]r.ScreenPercentage = "100"
+[2017.12.22-09.03.41:165][790]Cmd: r.ScreenPercentage 100
+[2017.12.22-09.03.41:165][790]r.ScreenPercentage = "100"
+[2017.12.22-09.03.41:333][800]Cmd: r.ScreenPercentage 100
+[2017.12.22-09.03.41:333][800]r.ScreenPercentage = "100"
+[2017.12.22-09.03.41:468][808]Cmd: r.ScreenPercentage 100
+[2017.12.22-09.03.41:468][808]r.ScreenPercentage = "100"
+[2017.12.22-09.03.41:923][835]Cmd: r.PostProcessAAQuality 1
+[2017.12.22-09.03.41:923][835]r.PostProcessAAQuality = "1"
+[2017.12.22-09.03.42:175][850]Cmd: r.PostProcessAAQuality 2
+[2017.12.22-09.03.42:175][850]r.PostProcessAAQuality = "2"
+[2017.12.22-09.03.42:343][860]Cmd: r.PostProcessAAQuality 3
+[2017.12.22-09.03.42:343][860]r.PostProcessAAQuality = "3"
+[2017.12.22-09.03.42:478][868]Cmd: r.PostProcessAAQuality 3
+[2017.12.22-09.03.42:478][868]r.PostProcessAAQuality = "3"
+[2017.12.22-09.03.42:647][878]Cmd: r.PostProcessAAQuality 3
+[2017.12.22-09.03.42:647][878]r.PostProcessAAQuality = "3"
+[2017.12.22-09.03.43:356][920]Cmd: sg.ShadowQuality 1
+[2017.12.22-09.03.43:356][920]sg.ShadowQuality = "1"
+[2017.12.22-09.03.43:363][921]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:774).
+[2017.12.22-09.03.43:545][932]Cmd: sg.ShadowQuality 2
+[2017.12.22-09.03.43:545][932]sg.ShadowQuality = "2"
+[2017.12.22-09.03.43:688][942]Cmd: sg.ShadowQuality 3
+[2017.12.22-09.03.43:688][942]sg.ShadowQuality = "3"
+[2017.12.22-09.03.43:696][943]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:796).
+[2017.12.22-09.03.43:864][949]Cmd: sg.ShadowQuality 3
+[2017.12.22-09.03.43:864][949]sg.ShadowQuality = "3"
+[2017.12.22-09.03.44:048][960]Cmd: sg.ShadowQuality 3
+[2017.12.22-09.03.44:048][960]sg.ShadowQuality = "3"
+[2017.12.22-09.03.44:668][997]Cmd: r.MaxFPS 30
+[2017.12.22-09.03.44:668][997]Command not recognized: r.MaxFPS 30
+[2017.12.22-09.03.44:835][  7]Cmd: r.MaxFPS 60
+[2017.12.22-09.03.44:835][  7]Command not recognized: r.MaxFPS 60
+[2017.12.22-09.03.44:985][ 16]Cmd: r.MaxFPS 144
+[2017.12.22-09.03.44:986][ 16]Command not recognized: r.MaxFPS 144
+[2017.12.22-09.03.45:136][ 25]Cmd: r.MaxFPS 144
+[2017.12.22-09.03.45:137][ 25]Command not recognized: r.MaxFPS 144
+[2017.12.22-09.03.45:320][ 36]Cmd: r.MaxFPS 144
+[2017.12.22-09.03.45:320][ 36]Command not recognized: r.MaxFPS 144
+[2017.12.22-09.03.47:026][138]PIE:Error: Error SetInputMode_GameOnly expects a valid player controller as target
+[2017.12.22-09.03.57:592][673]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.03.57:661][673]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.05.31:720][748]BlueprintLog: New page: Compile Pause
+[2017.12.22-09.05.32:555][748]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.12.22-09.05.35:158][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.uasset" SILENT=true
+[2017.12.22-09.05.35:212][ 49]LogSavePackage: Save=48.60ms
+[2017.12.22-09.05.35:212][ 49]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/Pause08497C8F4D765CDB187B3B9D4FAEA118.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.uasset'
+[2017.12.22-09.05.35:217][ 49]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.uasset
+[2017.12.22-09.06.09:975][633]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.22-09.06.10:017][633]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.06.10:017][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.22-09.06.10:017][633]PIE: New page: PIE session: Distrito1 (Dec 22, 2017, 11:06:10 AM)
+[2017.12.22-09.06.10:018][633]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1
+[2017.12.22-09.06.10:142][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124253s)
+[2017.12.22-09.06.10:143][633]LogAIModule: Creating AISystem for world Distrito1
+[2017.12.22-09.06.10:143][633]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2017.12.22-09.06.10:144][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1.Distrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1.Distrito1 (0.125633s)
+[2017.12.22-09.06.10:169][633]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.22-09.06.10:176][633]LogInit: FAudioDevice initialized.
+[2017.12.22-09.06.10:205][633]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.22-09.06.10:246][633]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1.Distrito1 up for play (max tick rate 0) at 2017.12.22-10.06.10
+[2017.12.22-09.06.10:254][633]LogWorld: Bringing up level for play took: 0.048323
+[2017.12.22-09.06.10:258][633]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1 -0.354
+[2017.12.22-09.06.10:259][633]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.06.17:585][  0]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.06.17:636][  0]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1.Distrito1:PersistentLevel.Distrito1'
+[2017.12.22-09.08.08:455][106]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito1' took 0.015
+[2017.12.22-09.08.08:458][106]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain] ([1] browsable assets)...
+[2017.12.22-09.08.08:458][106]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain]
+[2017.12.22-09.08.08:706][106]LogSavePackage: Save=235.46ms
+[2017.12.22-09.08.08:706][106]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/MenuConfigMain_Auto16559B9014418418943372583DD6A8984.tmp' to 'E:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain_Auto1.uasset'
+[2017.12.22-09.08.08:708][106]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain_Auto1.uasset
+[2017.12.22-09.08.08:708][106]LogFileHelpers: Auto-saving content packages took 0.253
+[2017.12.22-09.14.15:774][277]BlueprintLog: New page: Compile MenuConfigMain
+[2017.12.22-09.14.15:959][277]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.12.22-09.14.16:429][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset" SILENT=true
+[2017.12.22-09.14.16:730][321]LogSavePackage: Save=247.56ms
+[2017.12.22-09.14.16:730][321]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/MenuConfigMainC632F5F6454B7F64198CBB989D744723.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset'
+[2017.12.22-09.14.16:736][321]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset
+[2017.12.22-09.14.22:275][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset" SILENT=true
+[2017.12.22-09.14.22:505][913]LogSavePackage: Save=224.42ms
+[2017.12.22-09.14.22:505][913]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/MenuConfigMainC784A9464DFA3E678F994EB07EBC8D74.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset'
+[2017.12.22-09.14.22:507][913]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset
+[2017.12.22-09.16.49:327][144]BlueprintLog: New page: Compile MenuConfigMain
+[2017.12.22-09.16.49:374][144]LogBlueprint:Error: [Compiler MenuConfigMain] Error The type of  Object  is undetermined.  Connect something to  Cast To beat  to imply a specific type.
+[2017.12.22-09.16.49:374][144]LogBlueprint:Error: [Compiler MenuConfigMain] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.12.22-09.16.49:374][144]LogBlueprint:Error: [Compiler MenuConfigMain] Error The type of  Object  is undetermined.  Connect something to  Cast To beat  to imply a specific type.
+[2017.12.22-09.16.49:374][144]LogBlueprint:Error: [Compiler MenuConfigMain] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.12.22-09.16.49:374][144]LogBlueprint:Error: [Compiler MenuConfigMain] Error The type of  Object  is undetermined.  Connect something to  Cast To beat  to imply a specific type.
+[2017.12.22-09.16.49:374][144]LogBlueprint:Error: [Compiler MenuConfigMain] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.12.22-09.16.49:374][144]LogBlueprint:Error: [Compiler MenuConfigMain] Error The type of  Object  is undetermined.  Connect something to  Cast To beat  to imply a specific type.
+[2017.12.22-09.16.49:374][144]LogBlueprint:Error: [Compiler MenuConfigMain] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.12.22-09.16.49:594][144]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To beat  to imply a specific type.
+[2017.12.22-09.16.49:594][144]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.12.22-09.16.49:594][144]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To beat  to imply a specific type.
+[2017.12.22-09.16.49:594][144]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.12.22-09.16.49:594][144]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To beat  to imply a specific type.
+[2017.12.22-09.16.49:594][144]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.12.22-09.16.49:594][144]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To beat  to imply a specific type.
+[2017.12.22-09.16.49:594][144]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.12.22-09.16.49:594][144]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.12.22-09.16.49:600][144]LogBlueprint:Warning: [Compiler MenuConfigMain] Warning [1669.24] Compile of MenuConfigMain failed. 8 Fatal Issue(s) 0 Warning(s) [in 272 ms] (/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.MenuConfigMain)
+[2017.12.22-09.16.49:909][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset" SILENT=true
+[2017.12.22-09.16.50:531][174]LogSavePackage: Save=248.88ms
+[2017.12.22-09.16.50:531][174]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/MenuConfigMain8AE52A944862951E211646B51D64C06F.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset'
+[2017.12.22-09.16.50:537][174]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset
+[2017.12.22-09.17.05:375][826]BlueprintLog: New page: Compile MenuConfigMain
+[2017.12.22-09.17.05:537][826]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.12.22-09.17.06:702][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset" SILENT=true
+[2017.12.22-09.17.06:945][934]LogSavePackage: Save=237.41ms
+[2017.12.22-09.17.06:945][934]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/MenuConfigMain5B2CC2C54825E8927DC658B53F806477.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset'
+[2017.12.22-09.17.06:951][934]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuConfigMain.uasset
+[2017.12.22-09.17.33:249][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Distrito1" FILE="E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.22-09.17.36:132][ 58]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.22-09.17.36:215][ 58]LogSavePackage: Save=2870.37ms
+[2017.12.22-09.17.36:215][ 58]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/Distrito11A49852F4DD78C8E7478299FF93998BF.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap'
+[2017.12.22-09.17.36:219][ 58]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap
+[2017.12.22-09.17.54:335][966]LogSavePackage: Save=117.96ms
+[2017.12.22-09.17.54:336][966]LogSavePackage: Moving 'E:/Anarquia/Proyecto2/Saved/MainMenu8840DF4C490E66FCB3E984B718CBC694.tmp' to 'E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap'
+[2017.12.22-09.17.54:341][966]LogSavePackage:Display: Finished SavePackage E:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap
+[2017.12.22-09.17.54:342][966]LogFileHelpers: Saving map 'MainMenu' took 0.209
