@@ -729,3 +729,24 @@ LogInit: Object subsystem initialized
 [2017.12.29-23.40.20:548][971]LogModuleManager: Shutting down and abandoning module HTTP (41)
 [2017.12.29-23.40.20:548][971]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
 [2017.12.29-23.40.20:548][971]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAF3A6BED-450B-20B3-751D-808064436939%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=35b1c70744b4fb2b9b36cd82c73afb2d%7C429d52eb30ed4995a179251f3e5c9523%7C4df19abe-310a-492d-afeb-8a554a180440&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.29-23.40.20:571][971]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.29-23.40.20:572][971]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.12.29-23.40.20:573][971]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.12.29-23.40.20:573][971]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.12.29-23.40.20:573][971]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.12.29-23.40.20:573][971]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.12.29-23.40.20:573][971]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.12.29-23.40.20:573][971]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.12.29-23.40.20:573][971]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.12.29-23.40.20:574][971]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.12.29-23.40.20:574][971]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.12.29-23.40.20:574][971]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.12.29-23.40.20:574][971]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.12.29-23.40.20:574][971]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.12.29-23.40.20:574][971]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.12.29-23.40.20:574][971]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.12.29-23.40.20:574][971]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.29-23.40.20:574][971]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.29-23.40.20:574][971]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.29-23.40.20:575][971]LogExit: Exiting.
+[2017.12.29-23.40.20:622][971]Log file closed, 12/30/17 00:40:20
