@@ -1382,3 +1382,603 @@ LogInit: Object subsystem initialized
 [2018.02.06-20.54.14:103][501]LogSavePackage: Save=638.39ms
 [2018.02.06-20.54.14:103][501]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito17236F2C6423C328AE5D07093697FD3C0.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
 [2018.02.06-20.54.14:107][501]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.06-20.55.15:048][324]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-20.55.21:030][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara3)
+[2018.02.06-20.55.22:148][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio8)
+[2018.02.06-20.55.24:176][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble)
+[2018.02.06-20.55.50:666][948]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-20.56.00:495][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio30)
+[2018.02.06-20.56.34:547][509]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-20.56.38:156][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas7)
+[2018.02.06-20.56.38:649][861]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio16)
+[2018.02.06-20.56.39:126][895]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_alto_estantería_doble9)
+[2018.02.06-20.57.16:884][810]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-20.57.32:970][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio36)
+[2018.02.06-20.57.36:326][821]Cmd: DELETE
+[2018.02.06-20.57.36:326][821]Cmd: ACTOR DELETE
+[2018.02.06-20.57.36:327][821]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.06-20.57.36:341][821]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.02.06-20.57.39:320][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble7)
+[2018.02.06-20.57.40:338][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio11)
+[2018.02.06-20.57.41:021][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble10)
+[2018.02.06-20.57.42:536][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble6)
+[2018.02.06-20.57.44:681][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara)
+[2018.02.06-20.58.03:133][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble17)
+[2018.02.06-20.58.05:816][643]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.02.06-20.58.06:936][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio36)
+[2018.02.06-20.58.10:771][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas15)
+[2018.02.06-20.58.15:391][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara15)
+[2018.02.06-20.58.20:427][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas15)
+[2018.02.06-20.58.25:204][511]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-20.58.26:901][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio36)
+[2018.02.06-20.58.29:945][978]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-20.58.31:542][130]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble17)
+[2018.02.06-20.58.35:695][546]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-20.58.40:366][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara15)
+[2018.02.06-20.58.51:244][195]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-20.58.52:327][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara15)
+[2018.02.06-20.59.02:256][378]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-20.59.04:641][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara15)
+[2018.02.06-20.59.08:128][970]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-20.59.12:911][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara15)
+[2018.02.06-20.59.13:522][450]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_alto_estantería_doble17)
+[2018.02.06-20.59.14:036][499]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio36)
+[2018.02.06-20.59.15:927][670]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_con_pantallas15)
+[2018.02.06-20.59.19:817][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio35)
+[2018.02.06-20.59.32:618][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio35)
+[2018.02.06-20.59.39:621][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara15)
+[2018.02.06-20.59.42:861][393]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-20.59.45:707][690]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-20.59.50:753][179]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala63)
+[2018.02.06-20.59.59:208][ 24]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala64)
+[2018.02.06-21.00.03:717][463]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.00.04:494][542]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala65)
+[2018.02.06-21.00.10:188][126]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.00.10:876][196]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala26)
+[2018.02.06-21.00.16:288][745]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.00.32:093][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas4)
+[2018.02.06-21.00.32:518][439]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio8)
+[2018.02.06-21.00.34:672][674]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_alto_estantería_rara3)
+[2018.02.06-21.01.06:030][908]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.01.27:190][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas16)
+[2018.02.06-21.01.29:402][219]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.01.31:052][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas16)
+[2018.02.06-21.01.55:853][973]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.03.06:074][674]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala20)
+[2018.02.06-21.03.07:417][815]Cmd: DELETE
+[2018.02.06-21.03.07:417][815]Cmd: ACTOR DELETE
+[2018.02.06-21.03.07:418][815]LogEditorActor: Deleted Actor: sala_C
+[2018.02.06-21.03.07:432][815]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.02.06-21.03.29:395][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble4)
+[2018.02.06-21.03.52:879][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble18)
+[2018.02.06-21.04.02:325][531]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.04.06:403][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio10)
+[2018.02.06-21.04.27:084][ 91]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.04.32:571][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble18)
+[2018.02.06-21.04.42:315][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio38)
+[2018.02.06-21.04.47:841][145]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.04.52:959][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio11)
+[2018.02.06-21.05.07:622][107]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.05.09:247][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio39)
+[2018.02.06-21.05.11:423][450]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.05.19:122][239]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.05.35:031][875]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.05.42:300][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio28)
+[2018.02.06-21.05.42:782][648]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio27)
+[2018.02.06-21.05.59:817][375]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.06.05:428][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio41)
+[2018.02.06-21.06.07:387][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio40)
+[2018.02.06-21.06.11:652][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio40)
+[2018.02.06-21.06.12:112][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio41)
+[2018.02.06-21.06.17:033][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio40)
+[2018.02.06-21.06.24:542][977]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.06.33:275][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble18)
+[2018.02.06-21.06.42:734][809]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.06.43:702][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble19)
+[2018.02.06-21.06.45:726][125]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.06.46:577][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble19)
+[2018.02.06-21.07.09:065][499]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala16)
+[2018.02.06-21.07.30:950][892]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble19)
+[2018.02.06-21.07.41:997][ 27]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.07.57:722][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio8)
+[2018.02.06-21.08.29:591][737]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.08.30:912][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio42)
+[2018.02.06-21.08.37:212][519]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.09.15:575][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara16)
+[2018.02.06-21.09.46:515][543]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.09.48:679][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara17)
+[2018.02.06-21.09.57:822][682]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.10.04:029][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara17)
+[2018.02.06-21.10.15:916][509]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.10.19:485][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara17)
+[2018.02.06-21.10.24:755][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara17)
+[2018.02.06-21.10.27:576][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara18)
+[2018.02.06-21.10.28:877][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara17)
+[2018.02.06-21.10.32:633][219]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.10.36:975][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara18)
+[2018.02.06-21.10.45:603][473]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.10.46:669][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara18)
+[2018.02.06-21.10.50:222][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara17)
+[2018.02.06-21.11.02:741][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara18)
+[2018.02.06-21.11.06:420][460]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.11.07:910][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara18)
+[2018.02.06-21.11.13:605][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara18)
+[2018.02.06-21.11.17:967][627]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.11.18:792][707]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara18)
+[2018.02.06-21.11.20:951][938]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.11.30:002][866]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala14)
+[2018.02.06-21.11.45:758][553]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.11.55:367][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara)
+[2018.02.06-21.12.23:874][392]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.12.24:727][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara19)
+[2018.02.06-21.12.30:349][ 78]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.12.45:178][626]LogTexture:Display: Building textures: Texture2D_63 (BGRA8, 256X256)
+[2018.02.06-21.12.45:803][626]LogSavePackage: Save=806.21ms
+[2018.02.06-21.12.45:803][626]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1DE20A4014A6DBC05C58791B03FA4F019.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.06-21.12.45:811][626]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.06-21.13.47:111][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble4)
+[2018.02.06-21.13.55:550][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio4)
+[2018.02.06-21.13.56:612][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio7)
+[2018.02.06-21.13.58:058][377]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio4)
+[2018.02.06-21.13.58:929][464]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio5)
+[2018.02.06-21.14.14:155][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio43)
+[2018.02.06-21.14.15:072][119]Cmd: DELETE
+[2018.02.06-21.14.15:072][119]Cmd: ACTOR DELETE
+[2018.02.06-21.14.15:073][119]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.06-21.14.15:083][119]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.06-21.14.16:062][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio45)
+[2018.02.06-21.14.18:560][448]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio44)
+[2018.02.06-21.14.27:889][413]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.14.37:056][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble19)
+[2018.02.06-21.14.38:303][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio39)
+[2018.02.06-21.14.40:134][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara16)
+[2018.02.06-21.15.02:097][782]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.15.21:083][690]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.15.32:780][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble5)
+[2018.02.06-21.15.34:099][ 36]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_con_pantallas6)
+[2018.02.06-21.15.34:527][ 75]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio12)
+[2018.02.06-21.16.01:324][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio43)
+[2018.02.06-21.16.02:078][826]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_con_pantallas17)
+[2018.02.06-21.16.02:440][859]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_alto_estantería_doble20)
+[2018.02.06-21.16.10:426][694]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.16.14:335][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio43)
+[2018.02.06-21.16.23:099][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas17)
+[2018.02.06-21.16.27:198][336]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (edificio_rico_alto_estantería_doble20)
+[2018.02.06-21.16.27:469][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble20)
+[2018.02.06-21.16.34:004][ 14]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.16.35:726][184]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble20)
+[2018.02.06-21.16.39:393][567]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.16.42:139][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas17)
+[2018.02.06-21.16.46:534][286]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.16.51:475][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio43)
+[2018.02.06-21.17.02:833][948]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.17.07:020][342]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala19)
+[2018.02.06-21.17.20:496][746]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.17.27:566][400]LogSavePackage: Save=693.46ms
+[2018.02.06-21.17.27:566][400]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito12E22F4774B956922F08E729B55BAE328.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.06-21.17.27:575][400]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.06-21.17.53:058][925]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala19)
+[2018.02.06-21.18.01:849][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble14)
+[2018.02.06-21.18.25:169][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble22)
+[2018.02.06-21.18.26:321][295]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_alto_estantería_doble21)
+[2018.02.06-21.18.26:947][356]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_con_pantallas18)
+[2018.02.06-21.18.27:434][402]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio46)
+[2018.02.06-21.18.46:174][281]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.18.57:119][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio10)
+[2018.02.06-21.19.21:476][772]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.19.32:481][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara)
+[2018.02.06-21.19.48:041][437]Cmd: TRANSACTION UNDO
+[2018.02.06-21.19.48:041][437]LogEditorTransaction: Undo Move Actors
+[2018.02.06-21.20.13:712][121]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.20.14:343][184]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara21)
+[2018.02.06-21.20.18:118][596]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.20.19:655][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara21)
+[2018.02.06-21.20.25:701][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio47)
+[2018.02.06-21.20.34:189][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble22)
+[2018.02.06-21.20.37:990][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble21)
+[2018.02.06-21.20.44:723][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble21)
+[2018.02.06-21.20.46:748][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble22)
+[2018.02.06-21.20.53:409][976]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.20.55:999][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio47)
+[2018.02.06-21.21.04:636][ 94]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.21.06:678][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara21)
+[2018.02.06-21.21.11:700][793]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.21.20:595][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble21)
+[2018.02.06-21.21.24:171][ 66]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.21.25:137][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble22)
+[2018.02.06-21.21.30:565][682]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.21.30:965][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble22)
+[2018.02.06-21.21.32:098][797]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.21.47:640][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble22)
+[2018.02.06-21.21.55:235][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio47)
+[2018.02.06-21.22.03:500][977]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.22.04:126][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio47)
+[2018.02.06-21.22.04:867][117]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.22.13:773][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara21)
+[2018.02.06-21.22.22:547][847]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.22.28:616][410]LogSavePackage: Save=736.44ms
+[2018.02.06-21.22.28:616][410]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1594807184ED2C7B3DBCD0198AD521C41.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.06-21.22.28:624][410]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.06-21.22.46:035][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara13)
+[2018.02.06-21.23.06:717][361]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.23.08:157][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara22)
+[2018.02.06-21.23.12:517][907]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.23.29:978][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio16)
+[2018.02.06-21.23.35:327][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio4)
+[2018.02.06-21.23.35:847][308]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio5)
+[2018.02.06-21.24.07:319][397]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.24.20:901][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio32)
+[2018.02.06-21.24.25:559][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas9)
+[2018.02.06-21.24.26:066][312]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio22)
+[2018.02.06-21.24.48:656][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas19)
+[2018.02.06-21.24.53:237][957]Cmd: TRANSACTION UNDO
+[2018.02.06-21.24.53:237][957]LogEditorTransaction: Undo Scale Actors
+[2018.02.06-21.24.59:189][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio50)
+[2018.02.06-21.25.12:872][957]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.25.17:475][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas19)
+[2018.02.06-21.25.18:487][505]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio50)
+[2018.02.06-21.25.26:749][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas13)
+[2018.02.06-21.25.31:626][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio50)
+[2018.02.06-21.25.33:237][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio50)
+[2018.02.06-21.25.34:259][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas19)
+[2018.02.06-21.25.36:801][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas19)
+[2018.02.06-21.25.37:816][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio50)
+[2018.02.06-21.25.46:334][221]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.25.53:580][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas19)
+[2018.02.06-21.26.08:525][478]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.26.10:918][704]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.26.11:406][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas19)
+[2018.02.06-21.26.20:698][689]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.26.28:127][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas19)
+[2018.02.06-21.26.32:864][951]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.26.50:855][775]LogSavePackage: Save=713.76ms
+[2018.02.06-21.26.50:855][775]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1CA7FCF514597E90A52A6AF97A5C84DE7.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.06-21.26.50:863][775]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.06-21.27.21:926][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio20)
+[2018.02.06-21.27.22:582][853]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_con_pantallas8)
+[2018.02.06-21.27.39:274][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio51)
+[2018.02.06-21.27.51:214][744]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.27.56:445][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas20)
+[2018.02.06-21.27.57:540][388]Cmd: DELETE
+[2018.02.06-21.27.57:540][388]Cmd: ACTOR DELETE
+[2018.02.06-21.27.57:542][388]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.06-21.27.57:554][388]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.02.06-21.28.00:865][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble13)
+[2018.02.06-21.28.01:567][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble14)
+[2018.02.06-21.28.02:076][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio25)
+[2018.02.06-21.28.27:147][403]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.29.03:946][148]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala67)
+[2018.02.06-21.29.22:184][ 60]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.29.25:211][272]LogSavePackage: Save=800.27ms
+[2018.02.06-21.29.25:211][272]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito15FF2B30E42F02B3381B68CBD1FA3CDFA.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.06-21.29.25:219][272]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.06-21.29.53:843][329]LogSavePackage: Save=690.48ms
+[2018.02.06-21.29.53:843][329]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1BDC57B4142871E821645B398ED91BCF5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.06-21.29.53:847][329]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.06-21.45.45:930][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio38)
+[2018.02.06-21.45.46:340][757]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio39)
+[2018.02.06-21.46.40:658][284]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.46.46:033][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio54)
+[2018.02.06-21.46.48:588][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio53)
+[2018.02.06-21.46.54:072][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio54)
+[2018.02.06-21.46.58:329][990]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.46.59:547][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio53)
+[2018.02.06-21.47.03:721][493]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.47.32:287][504]LogSavePackage: Save=709.31ms
+[2018.02.06-21.47.32:287][504]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto6D0430D174AEA526D7AE574BC7B579868.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto6.umap'
+[2018.02.06-21.47.32:319][504]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto6.umap
+[2018.02.06-21.47.32:324][504]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.795
+[2018.02.06-21.47.32:324][504]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.795
+[2018.02.06-21.49.41:011][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio54)
+[2018.02.06-21.50.04:881][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio55)
+[2018.02.06-21.50.06:514][990]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.50.12:723][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio55)
+[2018.02.06-21.50.30:327][339]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara21)
+[2018.02.06-21.50.54:818][769]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.50.57:391][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio55)
+[2018.02.06-21.50.59:942][206]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.51.00:893][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio55)
+[2018.02.06-21.51.01:843][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio55)
+[2018.02.06-21.51.04:531][682]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.51.05:239][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio55)
+[2018.02.06-21.51.13:645][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio55)
+[2018.02.06-21.51.14:094][668]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.51.54:064][862]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble14)
+[2018.02.06-21.52.17:918][324]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.52.27:201][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara6)
+[2018.02.06-21.52.43:865][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble23)
+[2018.02.06-21.52.48:371][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio56)
+[2018.02.06-21.52.49:938][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio56)
+[2018.02.06-21.52.50:837][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara24)
+[2018.02.06-21.52.54:689][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble23)
+[2018.02.06-21.52.58:993][277]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.53.01:099][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio56)
+[2018.02.06-21.53.05:488][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara24)
+[2018.02.06-21.53.09:060][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio56)
+[2018.02.06-21.53.12:046][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio56)
+[2018.02.06-21.53.15:734][892]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.53.19:392][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara24)
+[2018.02.06-21.53.28:685][130]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.53.34:958][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara24)
+[2018.02.06-21.53.39:368][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio55)
+[2018.02.06-21.53.41:835][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara24)
+[2018.02.06-21.53.57:127][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara24)
+[2018.02.06-21.53.58:053][ 75]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.54.00:711][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara24)
+[2018.02.06-21.54.10:744][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara24)
+[2018.02.06-21.54.12:107][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas16)
+[2018.02.06-21.54.14:337][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio56)
+[2018.02.06-21.54.15:316][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble23)
+[2018.02.06-21.54.18:019][  9]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.54.19:542][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble23)
+[2018.02.06-21.54.29:272][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble23)
+[2018.02.06-21.54.29:402][ 77]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (edificio_rico_alto_estantería_doble23)
+[2018.02.06-21.54.30:172][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble23)
+[2018.02.06-21.54.31:157][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio56)
+[2018.02.06-21.54.40:939][162]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.56.00:942][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble21)
+[2018.02.06-21.56.36:757][316]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-21.56.51:954][875]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.06-21.56.51:992][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.56.51:992][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.06-21.56.51:993][875]PIE: New page: PIE session: NewDistrito1 (Feb 6, 2018, 11:56:51 PM)
+[2018.02.06-21.56.51:993][875]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.06-21.56.52:034][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040630s)
+[2018.02.06-21.56.52:034][875]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.06-21.56.52:035][875]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2018.02.06-21.56.52:035][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.041776s)
+[2018.02.06-21.56.52:059][875]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.06-21.56.52:070][875]LogInit: FAudioDevice initialized.
+[2018.02.06-21.56.52:105][875]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.06-21.56.52:118][875]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.06-22.56.52
+[2018.02.06-21.56.52:119][875]LogWorld: Bringing up level for play took: 0.013001
+[2018.02.06-21.56.52:128][875]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.132
+[2018.02.06-21.56.52:128][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.57.28:520][845]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.02.06-21.57.31:969][185]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.57.32:103][185]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.57.33:022][274]LogTemp: Repeting last play command: Simulate
+[2018.02.06-21.57.33:059][274]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.57.33:059][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.06-21.57.33:060][274]PIE: New page: SIE session: NewDistrito1 (Feb 6, 2018, 11:57:33 PM)
+[2018.02.06-21.57.33:060][274]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.06-21.57.33:101][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041351s)
+[2018.02.06-21.57.33:102][274]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.06-21.57.33:102][274]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2018.02.06-21.57.33:102][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.042348s)
+[2018.02.06-21.57.33:127][274]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.06-21.57.33:137][274]LogInit: FAudioDevice initialized.
+[2018.02.06-21.57.33:169][274]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.06-21.57.33:184][274]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.06-22.57.33
+[2018.02.06-21.57.33:185][274]LogWorld: Bringing up level for play took: 0.015129
+[2018.02.06-21.57.33:231][274]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.971
+[2018.02.06-21.57.33:245][274]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.57.33:875][345]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.57.33:922][345]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.57.36:429][616]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.57.36:429][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.06-21.57.36:429][616]PIE: New page: SIE session: NewDistrito1 (Feb 6, 2018, 11:57:36 PM)
+[2018.02.06-21.57.36:430][616]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.06-21.57.36:465][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035206s)
+[2018.02.06-21.57.36:465][616]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.06-21.57.36:466][616]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2018.02.06-21.57.36:466][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.036151s)
+[2018.02.06-21.57.36:493][616]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.06-21.57.36:502][616]LogInit: FAudioDevice initialized.
+[2018.02.06-21.57.36:534][616]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.06-21.57.36:546][616]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.06-22.57.36
+[2018.02.06-21.57.36:547][616]LogWorld: Bringing up level for play took: 0.012199
+[2018.02.06-21.57.36:553][616]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.293
+[2018.02.06-21.57.36:566][616]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.57.37:785][726]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.57.37:831][726]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.57.39:970][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.57.39:970][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.06-21.57.39:970][950]PIE: New page: PIE session: NewDistrito1 (Feb 6, 2018, 11:57:39 PM)
+[2018.02.06-21.57.39:970][950]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.06-21.57.40:005][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034741s)
+[2018.02.06-21.57.40:006][950]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.06-21.57.40:006][950]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2018.02.06-21.57.40:006][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.035643s)
+[2018.02.06-21.57.40:027][950]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.06-21.57.40:036][950]LogInit: FAudioDevice initialized.
+[2018.02.06-21.57.40:072][950]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.06-21.57.40:084][950]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.06-22.57.40
+[2018.02.06-21.57.40:085][950]LogWorld: Bringing up level for play took: 0.012187
+[2018.02.06-21.57.40:093][950]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.167
+[2018.02.06-21.57.40:093][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.58.38:042][539]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.58.38:090][539]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.58.45:841][332]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala15)
+[2018.02.06-21.58.49:858][755]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala16)
+[2018.02.06-21.59.05:726][282]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala15)
+[2018.02.06-21.59.12:970][ 48]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala16)
+[2018.02.06-21.59.20:498][798]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.06-21.59.20:537][798]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-21.59.20:537][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.06-21.59.20:537][798]PIE: New page: PIE session: NewDistrito1 (Feb 6, 2018, 11:59:20 PM)
+[2018.02.06-21.59.20:538][798]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.06-21.59.20:574][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035890s)
+[2018.02.06-21.59.20:574][798]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.06-21.59.20:575][798]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2018.02.06-21.59.20:575][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.036980s)
+[2018.02.06-21.59.20:599][798]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.06-21.59.20:609][798]LogInit: FAudioDevice initialized.
+[2018.02.06-21.59.20:641][798]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.06-21.59.20:656][798]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.06-22.59.20
+[2018.02.06-21.59.20:657][798]LogWorld: Bringing up level for play took: 0.014488
+[2018.02.06-21.59.20:666][798]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.407
+[2018.02.06-21.59.20:667][798]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-22.01.29:998][384]LogBlueprintUserMessages: [KeyGates_C_0] Tienes Llave
+[2018.02.06-22.02.05:630][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-22.02.05:676][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-22.02.10:726][857]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.02.44:649][265]LogSavePackage: Save=771.39ms
+[2018.02.06-22.02.44:649][265]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto7641C86B749F6D0FDC33CB4896BB1CB18.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto7.umap'
+[2018.02.06-22.02.44:653][265]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto7.umap
+[2018.02.06-22.02.44:656][265]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.855
+[2018.02.06-22.02.44:656][265]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.855
+[2018.02.06-22.03.21:331][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio48)
+[2018.02.06-22.04.24:848][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara15)
+[2018.02.06-22.04.36:263][497]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.04.40:822][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara15)
+[2018.02.06-22.04.40:854][933]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.02.06-22.04.44:332][283]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.05.19:928][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara3)
+[2018.02.06-22.05.20:075][799]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (edificio_rico_alto_estantería_rara3)
+[2018.02.06-22.05.31:231][856]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.05.33:649][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas4)
+[2018.02.06-22.05.34:727][142]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio8)
+[2018.02.06-22.06.12:815][766]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.06.15:789][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas20)
+[2018.02.06-22.06.20:727][503]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.06.21:966][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas20)
+[2018.02.06-22.06.30:427][441]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.06.34:704][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio57)
+[2018.02.06-22.06.41:422][517]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.06.50:979][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio57)
+[2018.02.06-22.06.54:738][802]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.06.59:254][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio57)
+[2018.02.06-22.07.01:587][475]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.07.09:452][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble24)
+[2018.02.06-22.07.17:578][ 63]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.10.45:270][898]LogSavePackage: Save=727.35ms
+[2018.02.06-22.10.45:270][898]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito189796F57471442AF10A30790FD5DEA21.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.06-22.10.45:278][898]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.06-22.11.40:396][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble)
+[2018.02.06-22.11.41:615][644]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_alto_estantería_rara2)
+[2018.02.06-22.11.42:279][706]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_alto_estantería_rara)
+[2018.02.06-22.11.58:330][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara25)
+[2018.02.06-22.11.58:943][176]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_alto_estantería_doble25)
+[2018.02.06-22.12.12:908][576]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.12.34:048][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio20)
+[2018.02.06-22.12.35:046][683]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_con_pantallas8)
+[2018.02.06-22.12.35:677][739]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio18)
+[2018.02.06-22.12.36:192][784]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_con_pantallas11)
+[2018.02.06-22.13.55:588][494]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.14.02:423][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio34)
+[2018.02.06-22.14.37:618][630]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.14.39:333][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio60)
+[2018.02.06-22.14.42:428][ 90]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.15.07:553][129]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_con_pantallas22)
+[2018.02.06-22.15.07:931][164]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio58)
+[2018.02.06-22.15.08:396][206]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_con_pantallas21)
+[2018.02.06-22.15.09:829][332]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio59)
+[2018.02.06-22.15.13:557][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio57)
+[2018.02.06-22.15.29:129][ 50]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.15.30:674][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio61)
+[2018.02.06-22.15.38:316][913]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.15.42:378][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio61)
+[2018.02.06-22.15.48:040][803]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala67)
+[2018.02.06-22.16.06:860][634]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala65)
+[2018.02.06-22.16.18:481][747]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala67)
+[2018.02.06-22.16.31:327][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio58)
+[2018.02.06-22.16.32:246][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas22)
+[2018.02.06-22.16.35:009][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio58)
+[2018.02.06-22.16.36:543][499]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_con_pantallas22)
+[2018.02.06-22.16.37:406][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio59)
+[2018.02.06-22.16.37:907][629]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_con_pantallas21)
+[2018.02.06-22.16.38:257][657]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio58)
+[2018.02.06-22.16.38:585][683]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_con_pantallas22)
+[2018.02.06-22.17.03:751][ 70]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.17.19:290][565]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala67)
+[2018.02.06-22.17.24:178][839]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.17.26:444][ 49]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.17.27:256][122]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala67)
+[2018.02.06-22.19.40:252][889]LogSlate: Took 0.023347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.06-22.20.05:383][ 71]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala73)
+[2018.02.06-22.20.15:281][ 56]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.20.19:052][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio52)
+[2018.02.06-22.20.19:598][432]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio51)
+[2018.02.06-22.20.23:523][828]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.20.30:299][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio51)
+[2018.02.06-22.20.31:374][135]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio52)
+[2018.02.06-22.20.32:859][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio52)
+[2018.02.06-22.20.33:375][317]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio51)
+[2018.02.06-22.21.04:627][665]Cmd: SELECT NONE
+[2018.02.06-22.21.04:851][690]Cmd: SELECT NONE
+[2018.02.06-22.21.06:165][837]Cmd: SELECT NONE
+[2018.02.06-22.21.06:683][895]Cmd: SELECT NONE
+[2018.02.06-22.21.06:899][919]Cmd: SELECT NONE
+[2018.02.06-22.21.07:153][948]Cmd: SELECT NONE
+[2018.02.06-22.21.07:399][976]Cmd: SELECT NONE
+[2018.02.06-22.21.08:006][ 47]Cmd: SELECT NONE
+[2018.02.06-22.21.12:090][530]Cmd: SELECT NONE
+[2018.02.06-22.21.12:199][543]Cmd: SELECT NONE
+[2018.02.06-22.21.12:365][563]Cmd: SELECT NONE
+[2018.02.06-22.21.12:535][583]Cmd: SELECT NONE
+[2018.02.06-22.21.16:527][ 51]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.06-22.21.16:566][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-22.21.16:566][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.06-22.21.16:566][ 51]PIE: New page: PIE session: NewDistrito1 (Feb 7, 2018, 12:21:16 AM)
+[2018.02.06-22.21.16:567][ 51]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.06-22.21.16:605][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038688s)
+[2018.02.06-22.21.16:606][ 51]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.06-22.21.16:606][ 51]LogPlayLevel: PIE: World Init took: (0.000754s)
+[2018.02.06-22.21.16:606][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.039771s)
+[2018.02.06-22.21.16:635][ 51]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.06-22.21.16:645][ 51]LogInit: FAudioDevice initialized.
+[2018.02.06-22.21.16:680][ 51]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.06-22.21.16:694][ 51]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.06-23.21.16
+[2018.02.06-22.21.16:696][ 51]LogWorld: Bringing up level for play took: 0.014147
+[2018.02.06-22.21.16:706][ 51]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.446
+[2018.02.06-22.21.16:706][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-22.21.17:799][176]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-22.21.17:838][176]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.06-22.21.38:427][422]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio51)
+[2018.02.06-22.21.39:605][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio52)
+[2018.02.06-22.21.40:141][597]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio51)
+[2018.02.06-22.21.47:653][270]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.22.04:233][773]LogSavePackage: Save=898.71ms
+[2018.02.06-22.22.04:233][773]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito11788F15B404528F6B3FC8D964020D025.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.06-22.22.04:242][773]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.06-22.46.40:932][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio11)
+[2018.02.06-22.46.41:824][673]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_alto_estantería_rara6)
+[2018.02.06-22.47.10:379][370]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.47.10:503][377]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.02.06-22.47.10:534][377]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.02.06-22.47.15:967][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio34)
+[2018.02.06-22.47.34:046][763]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.47.36:336][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio52)
+[2018.02.06-22.47.40:220][376]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.47.41:121][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio52)
+[2018.02.06-22.47.47:764][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio51)
+[2018.02.06-22.47.58:752][204]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.48.01:775][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio51)
+[2018.02.06-22.48.04:887][779]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.48.08:911][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio52)
+[2018.02.06-22.48.09:048][178]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Edificio52)
+[2018.02.06-22.48.10:028][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio51)
+[2018.02.06-22.48.11:844][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio52)
+[2018.02.06-22.48.19:557][829]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.48.30:752][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara26)
+[2018.02.06-22.48.33:541][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara26)
+[2018.02.06-22.48.35:523][161]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.48.37:189][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara26)
+[2018.02.06-22.48.43:245][884]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.48.46:312][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio63)
+[2018.02.06-22.48.51:971][790]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.48.57:974][386]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.49.04:957][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara26)
+[2018.02.06-22.49.07:426][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio62)
+[2018.02.06-22.49.09:759][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio62)
+[2018.02.06-22.49.30:905][446]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.49.33:144][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio62)
+[2018.02.06-22.49.34:764][784]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.49.36:066][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio62)
+[2018.02.06-22.49.38:860][149]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.49.40:891][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio62)
+[2018.02.06-22.49.44:751][705]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.49.46:214][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio62)
+[2018.02.06-22.49.49:525][142]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.49.51:922][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara26)
+[2018.02.06-22.49.56:543][785]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.49.59:269][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio63)
+[2018.02.06-22.50.01:628][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio52)
+[2018.02.06-22.50.05:649][599]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.06-22.50.11:982][104]LogSavePackage: Save=779.40ms
+[2018.02.06-22.50.11:983][104]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito16C10C1884A2D626CBFF37CAE85DE8882.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.06-22.50.11:992][104]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.06-22.50.32:849][379]LogSavePackage: Save=767.72ms
+[2018.02.06-22.50.32:849][379]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito16435C0C142EC245126B4F8822A487B94.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.06-22.50.32:855][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
