@@ -202,3 +202,181 @@ LogInit: Object subsystem initialized
 [2018.02.07-16.53.07:229][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
 [2018.02.07-16.53.07:229][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
 [2018.02.07-16.53.11:272][ 13]LogSlate: Took 0.046468 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.07-18.54.06:017][233]LogSlate: Took 0.039723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.07-18.54.08:238][233]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.07-18.54.08:633][233]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.07-18.54.08:634][233]LightingResults: New page: Lighting Build
+[2018.02.07-18.54.08:636][233]LoadErrors: New page: Loading map: NewDistrito1.umap
+[2018.02.07-18.54.08:886][233]MapCheck: New page: Map Check
+[2018.02.07-18.54.08:886][233]LightingResults: New page: Lighting Build
+[2018.02.07-18.54.17:487][233]LogSlate: Took 0.044247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.07-18.54.17:492][233]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.07-18.54.25:418][233]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.07-18.54.25:602][233]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 183.461ms to complete.
+[2018.02.07-18.54.25:602][233]LogFileHelpers: Loading map 'NewDistrito1' took 17.127
+[2018.02.07-19.38.30:279][654]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Desktop/Lata.FBX)
+[2018.02.07-19.38.30:394][654]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.07-19.38.30:394][654]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.07-19.38.30:394][654]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.07-19.38.30:394][654]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.07-19.38.30:394][654]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.07-19.38.30:415][654]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Lata.FBX
+[2018.02.07-19.38.30:433][654]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.07-19.38.35:234][654]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Lata.FBX
+[2018.02.07-19.38.35:239][654]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.07-19.38.35:271][654]LogFbx:Warning: Triangulating static mesh Lata
+[2018.02.07-19.38.35:340][654]LogStaticMesh: Building static mesh Lata...
+[2018.02.07-19.38.35:421][654]LogStaticMesh: Built static mesh [0.08s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata.Lata
+[2018.02.07-19.38.35:710][654]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.07-19.38.38:963][976]LogActorFactory: Actor Factory created Lata
+[2018.02.07-19.38.39:459][ 12]LogActorFactory: Actor Factory created Lata
+[2018.02.07-19.38.49:133][875]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.07-19.38.49:389][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.07-19.38.49:406][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.07-19.38.49:454][875]PIE: New page: PIE session: NewDistrito1 (Feb 7, 2018, 9:38:49 PM)
+[2018.02.07-19.38.49:474][875]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.07-19.38.49:975][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.501026s)
+[2018.02.07-19.38.49:976][875]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.07-19.38.49:976][875]LogPlayLevel: PIE: World Init took: (0.001595s)
+[2018.02.07-19.38.49:977][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.503409s)
+[2018.02.07-19.38.50:120][875]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-19.38.50:145][875]LogInit: FAudioDevice initialized.
+[2018.02.07-19.38.50:336][875]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.07-19.38.50:535][875]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.07-20.38.50
+[2018.02.07-19.38.50:657][875]LogWorld: Bringing up level for play took: 0.129382
+[2018.02.07-19.38.52:157][875]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2018.02.07-19.38.52:656][875]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 2.355
+[2018.02.07-19.38.52:657][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.07-19.39.23:619][475]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.07-19.39.23:782][475]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.07-19.39.45:217][116]LogSlate: Took 0.000468 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.07-19.39.55:406][143]LogSavePackage: Save=1059.94ms
+[2018.02.07-19.39.55:406][143]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto161DEE50843CB3AAE0E1861A6E6D0AE7B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap'
+[2018.02.07-19.39.55:410][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap
+[2018.02.07-19.39.55:481][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 1.351
+[2018.02.07-19.39.55:481][143]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.351
+[2018.02.07-19.39.55:486][143]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata] ([1] browsable assets)...
+[2018.02.07-19.39.55:518][143]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata.Lata]
+[2018.02.07-19.39.55:518][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata]
+[2018.02.07-19.39.55:588][143]LogSavePackage: Save=66.43ms
+[2018.02.07-19.39.55:588][143]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Lata_Auto1CD2D0BF0425DF87BD87D11807C36FA8A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Auto1.uasset'
+[2018.02.07-19.39.55:590][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Auto1.uasset
+[2018.02.07-19.39.55:590][143]LogFileHelpers: Auto-saving content packages took 0.105
+[2018.02.07-20.04.38:608][159]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Desktop/Banco.FBX)
+[2018.02.07-20.04.38:620][159]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.07-20.04.38:620][159]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.07-20.04.38:620][159]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.07-20.04.38:620][159]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.07-20.04.38:620][159]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.07-20.04.38:625][159]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Banco.FBX
+[2018.02.07-20.04.38:654][159]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.07-20.04.42:181][159]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Banco.FBX
+[2018.02.07-20.04.42:188][159]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.07-20.04.42:191][159]LogFbx:Warning: Triangulating static mesh Banco
+[2018.02.07-20.04.42:200][159]LogStaticMesh: Building static mesh Banco...
+[2018.02.07-20.04.42:203][159]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Banco.Banco
+[2018.02.07-20.04.42:203][159]LogStaticMesh:Warning: Banco has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.02.07-20.04.42:217][159]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.07-20.04.42:217][159]FBXImport:Warning: Warning Banco has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.02.07-20.04.44:503][368]LogActorFactory: Actor Factory created Banco
+[2018.02.07-20.04.45:617][445]LogActorFactory: Actor Factory created Banco
+[2018.02.07-20.04.46:700][556]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.07-20.04.46:739][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.07-20.04.46:739][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.07-20.04.46:739][556]PIE: New page: PIE session: NewDistrito1 (Feb 7, 2018, 10:04:46 PM)
+[2018.02.07-20.04.46:739][556]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.07-20.04.46:989][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.248865s)
+[2018.02.07-20.04.46:989][556]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.07-20.04.46:989][556]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2018.02.07-20.04.46:990][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.249984s)
+[2018.02.07-20.04.47:012][556]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-20.04.47:023][556]LogInit: FAudioDevice initialized.
+[2018.02.07-20.04.47:060][556]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.07-20.04.47:074][556]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.07-21.04.47
+[2018.02.07-20.04.47:075][556]LogWorld: Bringing up level for play took: 0.012860
+[2018.02.07-20.04.47:083][556]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.782
+[2018.02.07-20.04.47:083][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.07-20.04.50:387][923]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.07-20.04.50:442][923]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.07-20.05.32:174][598]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Desktop/Banco.FBX)
+[2018.02.07-20.05.32:178][598]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.07-20.05.32:178][598]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.07-20.05.32:178][598]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.07-20.05.32:178][598]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.07-20.05.32:178][598]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.07-20.05.32:183][598]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Banco.FBX
+[2018.02.07-20.05.32:188][598]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.07-20.05.38:039][598]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Banco.FBX
+[2018.02.07-20.05.38:045][598]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.07-20.05.38:047][598]LogFbx:Warning: Triangulating static mesh Banco
+[2018.02.07-20.05.38:057][598]LogStaticMesh: Building static mesh Banco...
+[2018.02.07-20.05.38:059][598]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Banco.Banco
+[2018.02.07-20.05.38:060][598]LogStaticMesh:Warning: Banco has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.02.07-20.05.38:066][598]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.07-20.05.38:066][598]FBXImport:Warning: Warning Banco has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.02.07-20.05.38:085][598]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Desktop/Lata.FBX)
+[2018.02.07-20.05.38:094][598]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Lata.FBX
+[2018.02.07-20.05.38:100][598]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.07-20.05.38:102][598]LogFbx:Warning: Triangulating static mesh Lata
+[2018.02.07-20.05.38:123][598]LogStaticMesh: Building static mesh Lata...
+[2018.02.07-20.05.38:126][598]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata.Lata
+[2018.02.07-20.05.38:157][598]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.07-20.05.41:995][909]LogSavePackage: Save=734.78ms
+[2018.02.07-20.05.41:995][909]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto22315D9D443D7F8A0F6E31B9B888D4628.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto2.umap'
+[2018.02.07-20.05.42:000][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto2.umap
+[2018.02.07-20.05.42:003][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.791
+[2018.02.07-20.05.42:003][909]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.791
+[2018.02.07-20.05.42:005][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata] ([1] browsable assets)...
+[2018.02.07-20.05.42:019][909]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata.Lata]
+[2018.02.07-20.05.42:019][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata]
+[2018.02.07-20.05.42:035][909]LogSavePackage: Save=12.49ms
+[2018.02.07-20.05.42:035][909]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Lata_Auto234414349464699A660C558AAFF7F30BF.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Auto2.uasset'
+[2018.02.07-20.05.42:057][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Auto2.uasset
+[2018.02.07-20.05.42:057][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Banco] ([1] browsable assets)...
+[2018.02.07-20.05.42:073][909]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Banco.Banco]
+[2018.02.07-20.05.42:073][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Banco]
+[2018.02.07-20.05.42:089][909]LogSavePackage: Save=12.78ms
+[2018.02.07-20.05.42:089][909]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Banco_Auto24021E12D489B6BF2832E839B2ED8D9E8.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Banco_Auto2.uasset'
+[2018.02.07-20.05.42:093][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Banco_Auto2.uasset
+[2018.02.07-20.05.42:093][909]LogFileHelpers: Auto-saving content packages took 0.089
+[2018.02.07-20.05.42:893][965]LogActorFactory: Actor Factory created Banco
+[2018.02.07-20.05.42:909][965]LogActorFactory: Actor Factory created Lata
+[2018.02.07-20.05.43:820][ 49]LogActorFactory: Actor Factory created Banco
+[2018.02.07-20.05.43:841][ 49]LogActorFactory: Actor Factory created Lata
+[2018.02.07-20.05.45:172][166]LogActorFactory: Actor Factory created Lata
+[2018.02.07-20.05.46:144][242]LogActorFactory: Actor Factory created Lata
+[2018.02.07-20.05.47:524][384]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.07-20.05.47:563][384]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.07-20.05.47:563][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.07-20.05.47:563][384]PIE: New page: PIE session: NewDistrito1 (Feb 7, 2018, 10:05:47 PM)
+[2018.02.07-20.05.47:565][384]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.07-20.05.47:602][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036966s)
+[2018.02.07-20.05.47:603][384]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.07-20.05.47:603][384]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2018.02.07-20.05.47:603][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.037923s)
+[2018.02.07-20.05.47:626][384]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-20.05.47:636][384]LogInit: FAudioDevice initialized.
+[2018.02.07-20.05.47:670][384]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.07-20.05.47:683][384]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.07-21.05.47
+[2018.02.07-20.05.47:684][384]LogWorld: Bringing up level for play took: 0.012995
+[2018.02.07-20.05.47:692][384]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.61
+[2018.02.07-20.05.47:692][384]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.07-20.05.56:808][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.07-20.05.56:867][460]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.07-20.05.58:156][600]Cmd: DELETE
+[2018.02.07-20.05.58:166][600]Cmd: ACTOR DELETE
+[2018.02.07-20.05.58:419][600]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.07-20.05.58:441][600]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2018.02.07-20.05.59:754][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lata2)
+[2018.02.07-20.06.00:048][770]Cmd: DELETE
+[2018.02.07-20.06.00:048][770]Cmd: ACTOR DELETE
+[2018.02.07-20.06.00:050][770]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.07-20.06.00:060][770]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.07-20.06.00:537][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Banco2)
+[2018.02.07-20.06.00:859][855]Cmd: DELETE
+[2018.02.07-20.06.00:859][855]Cmd: ACTOR DELETE
+[2018.02.07-20.06.00:860][855]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.07-20.06.00:871][855]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.07-20.06.29:419][163]LogSavePackage: Save=727.81ms
+[2018.02.07-20.06.29:419][163]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito12576DC034FE0105702618789C5F55AD7.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.07-20.06.29:452][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
