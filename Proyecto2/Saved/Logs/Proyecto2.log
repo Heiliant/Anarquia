@@ -1,9 +1,9 @@
-﻿Log file open, 02/08/18 18:03:05
+﻿Log file open, 02/08/18 22:24:04
 LogInit:Display: Running engine for game: Proyecto2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-386975578) SRandInit(-386975578).
+LogInit:Display: RandInit(106977018) SRandInit(106977018).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.138069
+LogStats: Stats thread started at 0.101543
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,631 +50,667 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.08-17.03.06:557][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.08-17.03.06:557][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.08-17.03.06:658][  0]LogInit: Computer: PC-JAVITO
-[2018.02.08-17.03.06:658][  0]LogInit: User: JAVITO
-[2018.02.08-17.03.06:658][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.08-17.03.06:658][  0]LogInit: High frequency timer resolution =3.320312 MHz
-[2018.02.08-17.03.06:658][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.02.08-17.03.06:658][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.08-17.03.06:658][  0]LogMemory: Process Physical Memory: 275.08 MB used, 275.08 MB peak
-[2018.02.08-17.03.06:658][  0]LogMemory: Process Virtual Memory: 272.95 MB used, 272.95 MB peak
-[2018.02.08-17.03.06:658][  0]LogMemory: Physical Memory: 7358.32 MB used,  25357.25 MB free, 32715.57 MB total
-[2018.02.08-17.03.06:658][  0]LogMemory: Virtual Memory: 683.94 MB used,  25357.25 MB free, 134217728.00 MB total
-[2018.02.08-17.03.07:620][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.02.08-17.03.07:620][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.02.08-17.03.22:196][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.08-17.03.22:256][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2018.02.08-17.03.22:256][  0]LogD3D11RHI:       6052/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.02.08-17.03.22:259][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.08-17.03.22:259][  0]LogD3D11RHI:       0/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.08-17.03.22:259][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.08-17.03.22:268][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.08-17.03.22:268][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.08-17.03.22:268][  0]LogWindows: EnumDisplayDevices:
-[2018.02.08-17.03.22:268][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2018.02.08-17.03.22:268][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2018.02.08-17.03.22:268][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.02.08-17.03.22:268][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.02.08-17.03.22:268][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.08-17.03.22:268][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2018.02.08-17.03.22:268][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.08-17.03.22:268][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.08-17.03.22:268][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.02.08-17.03.22:302][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.08-17.03.22:319][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.02.08-17.03.22:416][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/13352/).
-[2018.02.08-17.03.22:417][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JAVITO/AppData/Local/Temp/UnrealShaderWorkingDir/D8F0BFE542B41B9CC06BF1B2C25FC834/'.
-[2018.02.08-17.03.22:417][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.02.08-17.03.32:813][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.08-17.03.32:904][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.02.08-17.03.32:985][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.08-17.03.33:245][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.02.08-17.03.33:463][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.02.08-17.03.33:586][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.08-17.03.33:757][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.08-17.03.34:003][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.08-17.03.34:163][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.02.08-17.03.34:288][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.02.08-17.03.34:384][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.08-17.03.34:514][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.08-17.03.34:714][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.08-17.03.34:857][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.08-17.03.35:011][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.08-17.03.35:278][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.08-17.03.35:278][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.08-17.03.35:361][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.02.08-17.03.36:200][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.02.08-17.03.36:244][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.02.08-17.03.36:383][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.08-17.03.36:508][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.08-17.03.36:604][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.08-17.03.36:731][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.02.08-17.03.36:731][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.02.08-17.03.39:203][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.02.08-17.04.22:661][  0]LogDerivedDataCache: Loaded boot cache 43.46s 90MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.02.08-17.04.22:661][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.02.08-17.04.22:661][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.08-17.04.22:662][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.08-17.04.22:662][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.08-17.04.22:662][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.08-17.04.23:750][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.08-17.04.23:762][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JAVITO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.08-17.04.23:773][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.08-17.04.23:773][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.08-17.04.23:818][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.08-17.04.23:818][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.08-17.04.37:108][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.08-17.04.37:934][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.02.08-17.04.39:033][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.08-17.04.39:171][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.08-17.04.39:293][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.08-17.04.39:293][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.02.08-17.04.39:293][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.02.08-17.04.47:851][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
-[2018.02.08-17.04.48:243][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
-[2018.02.08-17.04.48:317][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.037231 seconds
-[2018.02.08-17.04.48:325][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.02.08-17.04.48:325][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2018.02.08-17.04.48:325][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.08-17.04.48:453][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.08-17.06.18:235][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.08-17.06.18:331][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.08-17.06.25:887][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.08-17.06.30:016][  0]SourceControl: Info Source control is disabled
-[2018.02.08-17.06.32:237][  0]SourceControl: Info Source control is disabled
-[2018.02.08-17.06.32:331][  0]SourceControl: Info Source control is disabled
-[2018.02.08-17.06.32:466][  0]SourceControl: Info Source control is disabled
-[2018.02.08-17.06.34:377][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.08-17.06.38:036][  0]LogEngine: Initializing Engine...
-[2018.02.08-17.06.38:036][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.08-17.06.39:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.08-17.06.39:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.08-17.06.39:417][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.08-17.06.39:433][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.08-17.06.39:448][  0]LogInit: FAudioDevice initialized.
-[2018.02.08-17.06.39:497][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.02.08-17.06.39:510][  0]LogInit: Texture streaming: Enabled
-[2018.02.08-17.06.39:808][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.08-17.06.41:281][  0]LogInit: Transaction tracking system initialized
-[2018.02.08-17.06.42:101][  0]BlueprintLog: New page: Editor Load
-[2018.02.08-17.06.44:409][  0]LocalizationService: Info Localization service is disabled
-[2018.02.08-17.06.46:942][  0]LogConsoleResponse:Display: 
-[2018.02.08-17.06.50:707][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.08-17.06.50:707][  0]LogCook:Display: Mobile HDR setting 1
-[2018.02.08-17.06.50:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' took 0.02s
-[2018.02.08-17.06.56:517][  0]SourceControl: Info Source control is disabled
-[2018.02.08-17.06.56:517][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.08-17.06.56:553][  0]LightingResults: New page: Lighting Build
-[2018.02.08-17.06.56:631][  0]MapCheck: New page: Map Check
-[2018.02.08-17.06.56:631][  0]LightingResults: New page: Lighting Build
-[2018.02.08-17.07.14:890][  0]LogAIModule: Creating AISystem for world Distrito1
-[2018.02.08-17.07.17:453][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.08-17.07.17:524][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.08-17.07.17:676][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 152.098ms to complete.
-[2018.02.08-17.07.17:676][  0]LogFileHelpers: Loading map 'Distrito1' took 21.159
-[2018.02.08-17.07.17:827][  0]LogCollectionManager: Loaded 0 collections in 0.001933 seconds
-[2018.02.08-17.07.17:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
-[2018.02.08-17.07.17:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' took 0.01s
-[2018.02.08-17.07.17:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' took 0.01s
-[2018.02.08-17.07.17:939][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2018.02.08-17.07.17:948][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2329 classes and 491 folders.
-[2018.02.08-17.07.18:050][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.02.08-17.07.19:864][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.02.08-17.07.20:079][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.02.08-17.07.20:422][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.02.08-17.07.20:504][  0]LogSlate: Took 0.076184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.08-17.07.20:535][  0]LogSlate: Took 0.028442 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.08-17.07.20:631][  0]LogSlate: Took 0.094090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.08-17.07.30:436][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
-[2018.02.08-17.07.30:467][  0]LogRenderer: Reallocating scene render targets to support 1104x924 NumSamples 1 (Frame:1).
-[2018.02.08-17.07.30:669][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.02.08-17.07.30:875][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2018.02.08-17.07.30:875][  0]LogLoad: (Engine Initialization) Total time: 278.82 seconds
-[2018.02.08-17.07.30:875][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.18 seconds
-[2018.02.08-17.07.30:875][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.02.08-17.07.30:875][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.02.08-17.07.30:905][  0]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2018.02.08-17.07.31:051][  0]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.02.08-17.07.31:053][  0]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2018.02.08-17.07.31:112][  0]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2018.02.08-17.07.31:169][  0]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2018.02.08-17.07.31:225][  0]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.02.08-17.07.31:227][  0]LogOcInput: OculusInput pre-init called
-[2018.02.08-17.07.31:227][  0]LogHMD: Starting GearVRController plugin
-[2018.02.08-17.07.31:314][  0]LogContentStreaming: Texture pool size now 600 MB
-[2018.02.08-17.07.31:516][  1]LogAssetRegistry: Asset discovery search completed in 163.2948 seconds
-[2018.02.08-17.07.31:519][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2018.02.08-17.07.31:519][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
-[2018.02.08-17.07.35:528][ 33]LogSlate: Took 0.030783 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.08-17.08.03:434][584]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.08-17.08.04:717][584]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.08-17.08.04:824][584]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.08-17.08.04:920][584]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.08-17.08.04:920][584]LightingResults: New page: Lighting Build
-[2018.02.08-17.08.04:921][584]LoadErrors: New page: Loading map: NewDistrito1.umap
-[2018.02.08-17.08.04:945][584]MapCheck: New page: Map Check
-[2018.02.08-17.08.04:945][584]LightingResults: New page: Lighting Build
-[2018.02.08-17.08.05:539][584]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.08-17.08.05:647][584]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.08-17.08.05:748][584]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.093ms to complete.
-[2018.02.08-17.08.05:748][584]LogFileHelpers: Loading map 'NewDistrito1' took 0.829
-[2018.02.08-18.45.30:857][998]LogTemp: Repeting last play command: Selected Viewport
-[2018.02.08-18.45.31:103][998]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.45.31:103][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.08-18.45.31:104][998]PIE: New page: PIE session: NewDistrito1 (Feb 8, 2018, 8:45:31 PM)
-[2018.02.08-18.45.31:105][998]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
-[2018.02.08-18.45.31:145][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040092s)
-[2018.02.08-18.45.31:145][998]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.08-18.45.31:146][998]LogPlayLevel: PIE: World Init took: (0.000950s)
-[2018.02.08-18.45.31:146][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.041552s)
-[2018.02.08-18.45.31:172][998]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.08-18.45.31:184][998]LogInit: FAudioDevice initialized.
-[2018.02.08-18.45.31:236][998]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.08-18.45.31:253][998]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.08-19.45.31
-[2018.02.08-18.45.31:254][998]LogWorld: Bringing up level for play took: 0.015951
-[2018.02.08-18.45.31:323][998]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2018.02.08-18.45.31:329][998]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.224
-[2018.02.08-18.45.31:329][998]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.45.40:299][963]Set new viewmode: Wireframe
-[2018.02.08-18.45.40:899][ 28]Set new viewmode: Wireframe
-[2018.02.08-18.45.41:320][ 75]Set new viewmode: Wireframe
-[2018.02.08-18.45.41:784][128]Set new viewmode: Unlit
-[2018.02.08-18.45.42:080][162]Set new viewmode: Lit
-[2018.02.08-18.45.42:526][212]Set new viewmode: Lit_DetailLighting
-[2018.02.08-18.45.42:934][258]Set new viewmode: Lit
-[2018.02.08-18.45.45:340][530]Set new viewmode: Wireframe
-[2018.02.08-18.45.46:689][684]Set new viewmode: Lit_DetailLighting
-[2018.02.08-18.45.47:655][793]Set new viewmode: Lit
-[2018.02.08-18.46.33:883][813]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.46.33:941][813]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.46.35:911][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.46.35:911][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.08-18.46.35:911][ 10]PIE: New page: PIE session: NewDistrito1 (Feb 8, 2018, 8:46:35 PM)
-[2018.02.08-18.46.35:911][ 10]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
-[2018.02.08-18.46.35:951][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039688s)
-[2018.02.08-18.46.35:951][ 10]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.08-18.46.35:952][ 10]LogPlayLevel: PIE: World Init took: (0.000678s)
-[2018.02.08-18.46.35:952][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.040682s)
-[2018.02.08-18.46.35:976][ 10]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.08-18.46.35:985][ 10]LogInit: FAudioDevice initialized.
-[2018.02.08-18.46.36:018][ 10]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.08-18.46.36:033][ 10]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.08-19.46.36
-[2018.02.08-18.46.36:034][ 10]LogWorld: Bringing up level for play took: 0.014692
-[2018.02.08-18.46.36:042][ 10]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.489
-[2018.02.08-18.46.36:042][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.46.58:516][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.46.58:558][434]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.47.12:399][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble3)
-[2018.02.08-18.47.35:999][ 90]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Desktop/Farola.FBX)
-[2018.02.08-18.47.36:006][ 90]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.02.08-18.47.36:006][ 90]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.02.08-18.47.36:006][ 90]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.02.08-18.47.36:006][ 90]LogFbx: ItemName: Model, ItemCount : 1
-[2018.02.08-18.47.36:006][ 90]LogFbx: ItemName: Geometry, ItemCount : 1
-[2018.02.08-18.47.36:013][ 90]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Farola.FBX
-[2018.02.08-18.47.36:018][ 90]LogFbx: FBX Scene Loaded Succesfully
-[2018.02.08-18.47.41:110][ 90]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Farola.FBX
-[2018.02.08-18.47.41:117][ 90]LogFbx: FBX Scene Loaded Succesfully
-[2018.02.08-18.47.41:120][ 90]LogFbx:Warning: Triangulating static mesh Box001
-[2018.02.08-18.47.41:130][ 90]LogStaticMesh: Building static mesh Farola...
-[2018.02.08-18.47.41:135][ 90]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farola.Farola
-[2018.02.08-18.47.41:136][ 90]LogStaticMesh:Warning: Farola has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2018.02.08-18.47.41:137][ 90]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.02.08-18.47.41:137][ 90]FBXImport:Warning: Warning Farola has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2018.02.08-18.47.44:616][378]LogActorFactory: Actor Factory created Farola
-[2018.02.08-18.47.45:143][409]LogActorFactory: Actor Factory created Farola
-[2018.02.08-18.47.49:748][803]Cmd: DELETE
-[2018.02.08-18.47.49:748][803]Cmd: ACTOR DELETE
-[2018.02.08-18.47.49:749][803]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.02.08-18.47.49:762][803]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2018.02.08-18.47.56:797][ 79]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Desktop/Farola.FBX)
-[2018.02.08-18.47.56:802][ 79]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.02.08-18.47.56:802][ 79]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.02.08-18.47.56:803][ 79]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.02.08-18.47.56:803][ 79]LogFbx: ItemName: Model, ItemCount : 1
-[2018.02.08-18.47.56:803][ 79]LogFbx: ItemName: Geometry, ItemCount : 1
-[2018.02.08-18.47.56:808][ 79]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Farola.FBX
-[2018.02.08-18.47.56:816][ 79]LogFbx: FBX Scene Loaded Succesfully
-[2018.02.08-18.48.02:070][ 79]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Farola.FBX
-[2018.02.08-18.48.02:075][ 79]LogFbx: FBX Scene Loaded Succesfully
-[2018.02.08-18.48.02:077][ 79]LogFbx:Warning: Triangulating static mesh Box001
-[2018.02.08-18.48.02:089][ 79]LogStaticMesh: Building static mesh Farola...
-[2018.02.08-18.48.02:094][ 79]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farola.Farola
-[2018.02.08-18.48.02:094][ 79]LogStaticMesh:Warning: Farola has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2018.02.08-18.48.02:096][ 79]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.02.08-18.48.02:096][ 79]FBXImport:Warning: Warning Farola has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2018.02.08-18.48.04:648][319]LogActorFactory: Actor Factory created Farola
-[2018.02.08-18.48.05:632][397]LogActorFactory: Actor Factory created Farola
-[2018.02.08-18.48.08:504][646]LogTemp: Repeting last play command: Selected Viewport
-[2018.02.08-18.48.08:544][646]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.48.08:544][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.08-18.48.08:544][646]PIE: New page: PIE session: NewDistrito1 (Feb 8, 2018, 8:48:08 PM)
-[2018.02.08-18.48.08:544][646]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
-[2018.02.08-18.48.08:584][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039312s)
-[2018.02.08-18.48.08:584][646]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.08-18.48.08:584][646]LogPlayLevel: PIE: World Init took: (0.000671s)
-[2018.02.08-18.48.08:585][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.040347s)
-[2018.02.08-18.48.08:614][646]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.08-18.48.08:628][646]LogInit: FAudioDevice initialized.
-[2018.02.08-18.48.08:666][646]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.08-18.48.08:681][646]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.08-19.48.08
-[2018.02.08-18.48.08:682][646]LogWorld: Bringing up level for play took: 0.014144
-[2018.02.08-18.48.08:690][646]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 1.136
-[2018.02.08-18.48.08:690][646]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.48.26:204][529]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.48.26:266][529]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.48.27:661][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Farola)
-[2018.02.08-18.48.28:350][727]Cmd: DELETE
-[2018.02.08-18.48.28:350][727]Cmd: ACTOR DELETE
-[2018.02.08-18.48.28:351][727]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.02.08-18.48.28:361][727]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2018.02.08-18.48.37:683][287]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Desktop/Farola.FBX)
-[2018.02.08-18.48.37:688][287]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.02.08-18.48.37:688][287]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.02.08-18.48.37:689][287]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.02.08-18.48.37:689][287]LogFbx: ItemName: Model, ItemCount : 1
-[2018.02.08-18.48.37:689][287]LogFbx: ItemName: Geometry, ItemCount : 1
-[2018.02.08-18.48.37:693][287]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Farola.FBX
-[2018.02.08-18.48.37:701][287]LogFbx: FBX Scene Loaded Succesfully
-[2018.02.08-18.48.41:885][287]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Farola.FBX
-[2018.02.08-18.48.41:891][287]LogFbx: FBX Scene Loaded Succesfully
-[2018.02.08-18.48.41:893][287]LogFbx:Warning: Triangulating static mesh Box001
-[2018.02.08-18.48.41:903][287]LogStaticMesh: Building static mesh Farola...
-[2018.02.08-18.48.41:909][287]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farola.Farola
-[2018.02.08-18.48.41:910][287]LogStaticMesh:Warning: Farola has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2018.02.08-18.48.41:911][287]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.02.08-18.48.41:911][287]FBXImport:Warning: Warning Farola has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2018.02.08-18.48.44:632][549]LogActorFactory: Actor Factory created Farola
-[2018.02.08-18.48.45:355][604]LogActorFactory: Actor Factory created Farola
-[2018.02.08-18.48.47:297][762]LogTemp: Repeting last play command: Selected Viewport
-[2018.02.08-18.48.47:337][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.48.47:337][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.08-18.48.47:338][762]PIE: New page: PIE session: NewDistrito1 (Feb 8, 2018, 8:48:47 PM)
-[2018.02.08-18.48.47:338][762]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
-[2018.02.08-18.48.47:387][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048698s)
-[2018.02.08-18.48.47:388][762]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.08-18.48.47:388][762]LogPlayLevel: PIE: World Init took: (0.000713s)
-[2018.02.08-18.48.47:388][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.049713s)
-[2018.02.08-18.48.47:417][762]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.08-18.48.47:427][762]LogInit: FAudioDevice initialized.
-[2018.02.08-18.48.47:464][762]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.08-18.48.47:483][762]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.08-19.48.47
-[2018.02.08-18.48.47:484][762]LogWorld: Bringing up level for play took: 0.018961
-[2018.02.08-18.48.47:492][762]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.062
-[2018.02.08-18.48.47:492][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.49.24:937][864]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.49.24:997][864]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.08-18.49.44:460][302]LogSlate: Took 0.000747 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.08-18.49.54:395][329]LogSavePackage: Save=830.58ms
-[2018.02.08-18.49.54:395][329]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto14723F89B45E72E4BCEE83AA83599D415.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap'
-[2018.02.08-18.49.54:400][329]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap
-[2018.02.08-18.49.54:407][329]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.912
-[2018.02.08-18.49.54:407][329]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.912
-[2018.02.08-18.49.54:409][329]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farola] ([1] browsable assets)...
-[2018.02.08-18.49.54:420][329]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farola.Farola]
-[2018.02.08-18.49.54:420][329]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farola]
-[2018.02.08-18.49.54:439][329]LogSavePackage: Save=14.48ms
-[2018.02.08-18.49.54:439][329]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Farola_Auto1184E6C0A4365D883D8F106BB4D7508E4.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farola_Auto1.uasset'
-[2018.02.08-18.49.54:443][329]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farola_Auto1.uasset
-[2018.02.08-18.49.54:443][329]LogFileHelpers: Auto-saving content packages took 0.034
-[2018.02.08-18.51.03:697][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Farola)
-[2018.02.08-18.51.04:517][ 10]Cmd: DELETE
-[2018.02.08-18.51.04:517][ 10]Cmd: ACTOR DELETE
-[2018.02.08-18.51.04:518][ 10]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.02.08-18.51.04:530][ 10]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2018.02.08-18.59.57:399][113]LogSavePackage: Save=890.64ms
-[2018.02.08-18.59.57:399][113]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto24F2B281C4EFB6ACF6E4C8AAC680C63EF.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto2.umap'
-[2018.02.08-18.59.57:403][113]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto2.umap
-[2018.02.08-18.59.57:409][113]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.966
-[2018.02.08-18.59.57:409][113]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.966
-[2018.02.08-19.00.44:412][635]LogSavePackage: Save=816.61ms
-[2018.02.08-19.00.44:412][635]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1050F74BC4B987FEF874C428457BCC5FC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
-[2018.02.08-19.00.44:421][635]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
-[2018.02.08-19.00.44:503][635]LogFileHelpers: Saving map 'NewDistrito1' took 1.123
-[2018.02.08-19.00.44:965][636]Cmd: QUIT_EDITOR
-[2018.02.08-19.00.45:876][636]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.02.08-19.00.45:895][636]LogExit: Preparing to exit.
-[2018.02.08-19.00.46:792][636]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' was aborted.
-[2018.02.08-19.00.46:835][636]LogExit: Editor shut down
-[2018.02.08-19.00.46:839][636]LogExit: Transaction tracking system shut down
-[2018.02.08-19.00.46:917][636]LogObj: Freed 0b from 0 cluster array pools.
-[2018.02.08-19.00.46:917][636]LogExit: Object subsystem successfully closed.
-[2018.02.08-19.00.46:938][636]LogD3D11RHI: Shutdown
-[2018.02.08-19.00.46:938][636]LogD3D11RHI: CleanupD3DDevice
-[2018.02.08-19.00.47:020][636]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.02.08-19.00.47:042][636]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
-[2018.02.08-19.00.47:042][636]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
-[2018.02.08-19.00.47:042][636]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
-[2018.02.08-19.00.47:042][636]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
-[2018.02.08-19.00.47:042][636]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
-[2018.02.08-19.00.47:042][636]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
-[2018.02.08-19.00.47:043][636]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' was aborted.
-[2018.02.08-19.00.47:043][636]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' was aborted.
-[2018.02.08-19.00.47:043][636]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' was aborted.
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module BspMode (494)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module Media (471)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
-[2018.02.08-19.00.47:043][636]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
-[2018.02.08-19.00.47:044][636]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module MergeActors (428)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module SizeMap (426)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module TreeMap (424)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module XmlParser (408)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module Blutility (406)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
-[2018.02.08-19.00.47:491][636]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
-[2018.02.08-19.00.47:492][636]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
-[2018.02.08-19.00.47:492][636]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
-[2018.02.08-19.00.47:492][636]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
-[2018.02.08-19.00.47:492][636]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
-[2018.02.08-19.00.47:492][636]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
-[2018.02.08-19.00.47:492][636]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
-[2018.02.08-19.00.47:492][636]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
-[2018.02.08-19.00.47:556][636]LogModuleManager: Shutting down and abandoning module AutomationController (386)
-[2018.02.08-19.00.47:557][636]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
-[2018.02.08-19.00.47:557][636]LogModuleManager: Shutting down and abandoning module Layers (382)
-[2018.02.08-19.00.47:557][636]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
-[2018.02.08-19.00.47:557][636]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
-[2018.02.08-19.00.47:557][636]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
-[2018.02.08-19.00.47:557][636]LogModuleManager: Shutting down and abandoning module Persona (374)
-[2018.02.08-19.00.47:557][636]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
-[2018.02.08-19.00.47:557][636]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
-[2018.02.08-19.00.47:557][636]LogModuleManager: Shutting down and abandoning module Kismet (368)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module Toolbox (364)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module OutputLog (358)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module GammaUI (356)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module Documentation (354)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module MovieScene (350)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module Niagara (348)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module PortalServices (340)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module AIModule (334)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
-[2018.02.08-19.00.47:561][636]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2018.02.08-19.00.47:628][636]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2018.02.08-19.00.47:628][636]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2018.02.08-19.00.47:628][636]LogModuleManager: Shutting down and abandoning module SteamVR (322)
-[2018.02.08-19.00.47:628][636]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
-[2018.02.08-19.00.47:628][636]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
-[2018.02.08-19.00.47:628][636]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
-[2018.02.08-19.00.47:628][636]LogModuleManager: Shutting down and abandoning module OculusInput (314)
-[2018.02.08-19.00.47:628][636]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
-[2018.02.08-19.00.47:628][636]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
-[2018.02.08-19.00.47:628][636]LogModuleManager: Shutting down and abandoning module CableComponent (308)
-[2018.02.08-19.00.47:628][636]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
-[2018.02.08-19.00.47:628][636]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module SourceControl (267)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
-[2018.02.08-19.00.47:629][636]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
-[2018.02.08-19.00.47:630][636]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
-[2018.02.08-19.00.47:630][636]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2018.02.08-19.00.47:630][636]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2018.02.08-19.00.47:630][636]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2018.02.08-19.00.47:630][636]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2018.02.08-19.00.47:630][636]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2018.02.08-19.00.47:630][636]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2018.02.08-19.00.47:630][636]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2018.02.08-19.00.47:630][636]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2018.02.08-19.00.47:731][636]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2018.02.08-19.00.47:831][636]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2018.02.08-19.00.47:831][636]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2018.02.08-19.00.47:831][636]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2018.02.08-19.00.47:831][636]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2018.02.08-19.00.47:831][636]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2018.02.08-19.00.47:831][636]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2018.02.08-19.00.47:832][636]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2018.02.08-19.00.47:832][636]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2018.02.08-19.00.47:833][636]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2018.02.08-19.00.47:833][636]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2018.02.08-19.00.47:838][636]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2018.02.08-19.00.47:838][636]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2018.02.08-19.00.47:838][636]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2018.02.08-19.00.47:838][636]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2018.02.08-19.00.47:838][636]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2018.02.08-19.00.47:838][636]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2018.02.08-19.00.47:838][636]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2018.02.08-19.00.47:838][636]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2018.02.08-19.00.47:838][636]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2018.02.08-19.00.47:838][636]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2018.02.08-19.00.47:838][636]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2018.02.08-19.00.47:838][636]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2018.02.08-19.00.47:839][636]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2018.02.08-19.00.47:839][636]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2018.02.08-19.00.47:839][636]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2018.02.08-19.00.47:839][636]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2018.02.08-19.00.47:839][636]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2018.02.08-19.00.47:839][636]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2018.02.08-19.00.47:839][636]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2018.02.08-19.00.47:842][636]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2018.02.08-19.00.47:842][636]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2018.02.08-19.00.47:842][636]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2018.02.08-19.00.47:842][636]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2018.02.08-19.00.47:842][636]LogModuleManager: Shutting down and abandoning module Core (164)
-[2018.02.08-19.00.47:842][636]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2018.02.08-19.00.48:028][636]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.02.08-19.00.48:028][636]LogDirectoryWatcher: A directory notification for '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' was aborted.
-[2018.02.08-19.00.48:028][636]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.02.08-19.00.48:028][636]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2018.02.08-19.00.48:031][636]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2018.02.08-19.00.48:031][636]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2018.02.08-19.00.48:031][636]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2018.02.08-19.00.48:031][636]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2018.02.08-19.00.48:031][636]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2018.02.08-19.00.48:031][636]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2018.02.08-19.00.48:031][636]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2018.02.08-19.00.48:031][636]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2018.02.08-19.00.48:031][636]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2018.02.08-19.00.48:112][636]LogDerivedDataCache: Shutdown
-[2018.02.08-19.00.48:112][636]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2018.02.08-19.00.48:112][636]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2018.02.08-19.00.48:112][636]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2018.02.08-19.00.48:112][636]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2018.02.08-19.00.48:112][636]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2018.02.08-19.00.48:112][636]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2018.02.08-19.00.48:112][636]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2018.02.08-19.00.48:112][636]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2018.02.08-19.00.48:112][636]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2018.02.08-19.00.48:112][636]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.02.08-19.00.48:113][636]LogOnline:Display: Unloading online subsystem: NULL
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.02.08-19.00.48:113][636]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.02.08-19.00.48:113][636]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.02.08-19.00.48:113][636]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD40DA149-4E1A-A6D8-D138-D796A2999DE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=35b1c70744b4fb2b9b36cd82c73afb2d%7C429d52eb30ed4995a179251f3e5c9523%7C4df19abe-310a-492d-afeb-8a554a180440&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.02.08-19.00.48:133][636]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.02.08-19.00.48:136][636]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2018.02.08-19.00.48:136][636]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2018.02.08-19.00.48:136][636]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2018.02.08-19.00.48:136][636]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2018.02.08-19.00.48:136][636]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2018.02.08-19.00.48:136][636]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2018.02.08-19.00.48:136][636]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2018.02.08-19.00.48:136][636]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2018.02.08-19.00.48:140][636]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2018.02.08-19.00.48:140][636]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2018.02.08-19.00.48:140][636]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2018.02.08-19.00.48:140][636]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2018.02.08-19.00.48:140][636]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2018.02.08-19.00.48:140][636]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2018.02.08-19.00.48:140][636]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2018.02.08-19.00.48:140][636]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.02.08-19.00.48:140][636]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.02.08-19.00.48:140][636]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.02.08-19.00.48:144][636]LogExit: Exiting.
-[2018.02.08-19.00.48:194][636]Log file closed, 02/08/18 20:00:48
+[2018.02.08-21.24.05:594][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.08-21.24.05:594][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.08-21.24.05:620][  0]LogInit: Computer: PC-JAVITO
+[2018.02.08-21.24.05:620][  0]LogInit: User: JAVITO
+[2018.02.08-21.24.05:620][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.08-21.24.05:620][  0]LogInit: High frequency timer resolution =3.320312 MHz
+[2018.02.08-21.24.05:620][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.02.08-21.24.05:620][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.08-21.24.05:620][  0]LogMemory: Process Physical Memory: 274.70 MB used, 274.70 MB peak
+[2018.02.08-21.24.05:620][  0]LogMemory: Process Virtual Memory: 260.95 MB used, 260.95 MB peak
+[2018.02.08-21.24.05:620][  0]LogMemory: Physical Memory: 6933.94 MB used,  25781.63 MB free, 32715.57 MB total
+[2018.02.08-21.24.05:620][  0]LogMemory: Virtual Memory: 671.94 MB used,  25781.63 MB free, 134217728.00 MB total
+[2018.02.08-21.24.05:747][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.02.08-21.24.05:747][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.02.08-21.24.06:751][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.08-21.24.06:813][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.02.08-21.24.06:813][  0]LogD3D11RHI:       6052/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.02.08-21.24.06:815][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.08-21.24.06:815][  0]LogD3D11RHI:       0/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.08-21.24.06:815][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.08-21.24.06:822][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.08-21.24.06:822][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.08-21.24.06:822][  0]LogWindows: EnumDisplayDevices:
+[2018.02.08-21.24.06:822][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.02.08-21.24.06:822][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.02.08-21.24.06:822][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.02.08-21.24.06:823][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.02.08-21.24.06:823][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.08-21.24.06:823][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.02.08-21.24.06:823][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.08-21.24.06:823][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.08-21.24.06:823][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.08-21.24.06:852][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.08-21.24.06:868][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.08-21.24.06:965][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/14364/).
+[2018.02.08-21.24.06:965][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JAVITO/AppData/Local/Temp/UnrealShaderWorkingDir/04460DC542173D4897C459A061E7756C/'.
+[2018.02.08-21.24.06:965][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.08-21.24.08:290][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.08-21.24.08:365][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.08-21.24.08:439][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.08-21.24.08:513][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.08-21.24.08:587][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.08-21.24.08:661][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.08-21.24.08:734][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.08-21.24.08:809][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.08-21.24.08:877][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.08-21.24.08:951][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.08-21.24.09:025][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.08-21.24.09:100][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.08-21.24.09:181][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.08-21.24.09:256][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.08-21.24.09:328][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.08-21.24.09:475][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.08-21.24.09:475][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.08-21.24.09:538][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.08-21.24.09:673][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.08-21.24.09:717][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.08-21.24.09:789][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.08-21.24.09:861][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.08-21.24.09:934][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.08-21.24.10:006][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.08-21.24.10:006][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.08-21.24.10:813][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.08-21.24.10:895][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.08-21.24.10:895][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.08-21.24.10:896][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.08-21.24.10:896][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.08-21.24.10:896][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.08-21.24.10:896][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.08-21.24.10:911][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.08-21.24.10:923][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JAVITO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.08-21.24.10:934][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.08-21.24.10:934][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.08-21.24.10:935][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.08-21.24.10:935][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.08-21.24.11:354][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.08-21.24.11:421][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.08-21.24.11:623][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.08-21.24.11:694][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.08-21.24.11:769][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.08-21.24.11:769][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.08-21.24.11:769][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.08-21.24.12:477][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
+[2018.02.08-21.24.12:552][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2018.02.08-21.24.12:617][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.024023 seconds
+[2018.02.08-21.24.12:625][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.08-21.24.12:625][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.02.08-21.24.12:625][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.08-21.24.12:745][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.08-21.24.16:144][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.08-21.24.16:234][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.08-21.24.17:186][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.08-21.24.17:798][  0]SourceControl: Info Source control is disabled
+[2018.02.08-21.24.18:151][  0]SourceControl: Info Source control is disabled
+[2018.02.08-21.24.18:224][  0]SourceControl: Info Source control is disabled
+[2018.02.08-21.24.18:300][  0]SourceControl: Info Source control is disabled
+[2018.02.08-21.24.19:543][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.08-21.24.20:486][  0]LogEngine: Initializing Engine...
+[2018.02.08-21.24.20:487][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.08-21.24.20:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.08-21.24.20:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.08-21.24.20:867][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.08-21.24.20:884][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-21.24.20:900][  0]LogInit: FAudioDevice initialized.
+[2018.02.08-21.24.20:947][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.08-21.24.20:956][  0]LogInit: Texture streaming: Enabled
+[2018.02.08-21.24.21:106][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.08-21.24.21:519][  0]LogInit: Transaction tracking system initialized
+[2018.02.08-21.24.22:004][  0]BlueprintLog: New page: Editor Load
+[2018.02.08-21.24.23:543][  0]LocalizationService: Info Localization service is disabled
+[2018.02.08-21.24.24:860][  0]LogConsoleResponse:Display: 
+[2018.02.08-21.24.25:050][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.08-21.24.25:050][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.08-21.24.25:866][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' took 0.02s
+[2018.02.08-21.24.26:745][  0]SourceControl: Info Source control is disabled
+[2018.02.08-21.24.26:745][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.08-21.24.26:746][  0]LightingResults: New page: Lighting Build
+[2018.02.08-21.24.26:829][  0]MapCheck: New page: Map Check
+[2018.02.08-21.24.26:829][  0]LightingResults: New page: Lighting Build
+[2018.02.08-21.24.32:792][  0]LogAIModule: Creating AISystem for world Distrito1
+[2018.02.08-21.24.33:146][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.08-21.24.33:216][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.08-21.24.33:312][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.025ms to complete.
+[2018.02.08-21.24.33:312][  0]LogFileHelpers: Loading map 'Distrito1' took 6.567
+[2018.02.08-21.24.33:452][  0]LogCollectionManager: Loaded 0 collections in 0.002106 seconds
+[2018.02.08-21.24.33:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
+[2018.02.08-21.24.33:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' took 0.01s
+[2018.02.08-21.24.33:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' took 0.01s
+[2018.02.08-21.24.33:577][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.02.08-21.24.33:586][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2329 classes and 491 folders.
+[2018.02.08-21.24.33:685][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.02.08-21.24.33:744][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.02.08-21.24.33:868][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.02.08-21.24.34:051][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.08-21.24.34:060][  0]LogSlate: Took 0.000437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.08-21.24.34:065][  0]LogSlate: Took 0.000517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.08-21.24.34:068][  0]LogSlate: Took 0.000424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.08-21.24.34:213][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2018.02.08-21.24.34:243][  0]LogRenderer: Reallocating scene render targets to support 1104x924 NumSamples 1 (Frame:1).
+[2018.02.08-21.24.34:449][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.08-21.24.34:552][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.02.08-21.24.34:553][  0]LogLoad: (Engine Initialization) Total time: 31.18 seconds
+[2018.02.08-21.24.34:553][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.96 seconds
+[2018.02.08-21.24.34:553][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.08-21.24.34:553][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.08-21.24.34:893][  0]LogOcInput: OculusInput pre-init called
+[2018.02.08-21.24.34:894][  0]LogHMD: Starting GearVRController plugin
+[2018.02.08-21.24.34:934][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.02.08-21.24.35:573][  2]LogAssetRegistry: Asset discovery search completed in 23.0427 seconds
+[2018.02.08-21.24.35:577][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.02.08-21.24.35:577][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
+[2018.02.08-21.24.37:333][ 11]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.08-21.24.41:905][232]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.08-21.24.42:059][232]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.08-21.24.42:132][232]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.08-21.24.42:132][232]LightingResults: New page: Lighting Build
+[2018.02.08-21.24.42:133][232]LoadErrors: New page: Loading map: NewDistrito1.umap
+[2018.02.08-21.24.42:153][232]MapCheck: New page: Map Check
+[2018.02.08-21.24.42:153][232]LightingResults: New page: Lighting Build
+[2018.02.08-21.24.42:386][232]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.08-21.24.42:474][232]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.08-21.24.42:571][232]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.417ms to complete.
+[2018.02.08-21.24.42:571][232]LogFileHelpers: Loading map 'NewDistrito1' took 0.440
+[2018.02.08-21.24.49:454][ 12]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.08-21.24.49:527][ 12]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.24.49:527][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-21.24.49:527][ 12]PIE: New page: PIE session: NewDistrito1 (Feb 8, 2018, 11:24:49 PM)
+[2018.02.08-21.24.49:527][ 12]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.08-21.24.49:565][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037149s)
+[2018.02.08-21.24.49:565][ 12]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.08-21.24.49:565][ 12]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2018.02.08-21.24.49:565][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.038069s)
+[2018.02.08-21.24.49:586][ 12]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-21.24.49:595][ 12]LogInit: FAudioDevice initialized.
+[2018.02.08-21.24.49:654][ 12]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.08-21.24.49:686][ 12]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.08-22.24.49
+[2018.02.08-21.24.49:689][ 12]LogWorld: Bringing up level for play took: 0.029979
+[2018.02.08-21.24.49:758][ 12]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.02.08-21.24.49:763][ 12]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.21
+[2018.02.08-21.24.49:763][ 12]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.26.08:946][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.26.08:981][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.26.11:307][ 17]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.26.11:307][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-21.26.11:307][ 17]PIE: New page: PIE session: NewDistrito1 (Feb 8, 2018, 11:26:11 PM)
+[2018.02.08-21.26.11:308][ 17]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.08-21.26.11:345][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037022s)
+[2018.02.08-21.26.11:345][ 17]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.08-21.26.11:345][ 17]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2018.02.08-21.26.11:346][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.038002s)
+[2018.02.08-21.26.11:366][ 17]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-21.26.11:376][ 17]LogInit: FAudioDevice initialized.
+[2018.02.08-21.26.11:410][ 17]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.08-21.26.11:427][ 17]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.08-22.26.11
+[2018.02.08-21.26.11:428][ 17]LogWorld: Bringing up level for play took: 0.015339
+[2018.02.08-21.26.11:436][ 17]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.117
+[2018.02.08-21.26.11:437][ 17]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.26.12:203][105]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.26.12:237][105]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.26.36:534][920]LogActorFactory: Actor Factory created Basura
+[2018.02.08-21.26.39:184][211]LogActorFactory: Actor Factory created Basura
+[2018.02.08-21.26.43:603][631]LogActorFactory: Actor Factory created Basura
+[2018.02.08-21.26.45:766][837]LogActorFactory: Actor Factory created Basura
+[2018.02.08-21.26.49:532][191]LogActorFactory: Actor Factory created Basura
+[2018.02.08-21.26.52:104][436]LogActorFactory: Actor Factory created Basura
+[2018.02.08-21.26.54:408][630]LogActorFactory: Actor Factory created Basura
+[2018.02.08-21.26.57:810][943]LogActorFactory: Actor Factory created Basura
+[2018.02.08-21.27.28:670][186]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.08-21.35.53:696][ 84]LogSlate: Took 0.000479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.08-21.36.03:578][111]LogSavePackage: Save=782.86ms
+[2018.02.08-21.36.03:578][111]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto16B9EED814EF3F65922ABDDB3CE30A025.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap'
+[2018.02.08-21.36.03:582][111]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap
+[2018.02.08-21.36.03:587][111]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.853
+[2018.02.08-21.36.03:587][111]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.853
+[2018.02.08-21.53.23:458][422]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Desktop/MAceta.FBX)
+[2018.02.08-21.53.23:471][422]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.08-21.53.23:471][422]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.08-21.53.23:471][422]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.08-21.53.23:471][422]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.08-21.53.23:471][422]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.08-21.53.23:476][422]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/MAceta.FBX
+[2018.02.08-21.53.23:481][422]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.08-21.53.34:982][422]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/MAceta.FBX
+[2018.02.08-21.53.34:987][422]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.08-21.53.34:989][422]LogFbx:Warning: Triangulating static mesh Cylinder001
+[2018.02.08-21.53.35:018][422]LogStaticMesh: Building static mesh MAceta...
+[2018.02.08-21.53.35:023][422]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/MAceta.MAceta
+[2018.02.08-21.53.35:034][422]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.08-21.53.38:139][708]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.013
+[2018.02.08-21.53.38:140][708]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/MAceta] ([1] browsable assets)...
+[2018.02.08-21.53.38:152][708]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/MAceta.MAceta]
+[2018.02.08-21.53.38:152][708]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/MAceta]
+[2018.02.08-21.53.38:166][708]LogSavePackage: Save=12.13ms
+[2018.02.08-21.53.38:166][708]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/MAceta_Auto2882CF15D4C8A5B0361A001AD68D9F8CF.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/MAceta_Auto2.uasset'
+[2018.02.08-21.53.38:169][708]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/MAceta_Auto2.uasset
+[2018.02.08-21.53.38:169][708]LogFileHelpers: Auto-saving content packages took 0.029
+[2018.02.08-21.53.48:515][735]LogActorFactory: Actor Factory created MAceta
+[2018.02.08-21.53.49:122][773]LogActorFactory: Actor Factory created MAceta
+[2018.02.08-21.53.50:086][867]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.08-21.53.50:126][867]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.53.50:126][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-21.53.50:126][867]PIE: New page: PIE session: NewDistrito1 (Feb 8, 2018, 11:53:50 PM)
+[2018.02.08-21.53.50:127][867]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.08-21.53.50:165][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038624s)
+[2018.02.08-21.53.50:166][867]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.08-21.53.50:166][867]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2018.02.08-21.53.50:166][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.039647s)
+[2018.02.08-21.53.50:191][867]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-21.53.50:201][867]LogInit: FAudioDevice initialized.
+[2018.02.08-21.53.50:235][867]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.08-21.53.50:250][867]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.08-22.53.50
+[2018.02.08-21.53.50:251][867]LogWorld: Bringing up level for play took: 0.014231
+[2018.02.08-21.53.50:259][867]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.706
+[2018.02.08-21.53.50:259][867]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.53.56:836][644]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.53.56:893][644]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.54.21:410][739]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Desktop/MAceta.FBX)
+[2018.02.08-21.54.21:415][739]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.08-21.54.21:415][739]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.08-21.54.21:415][739]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.08-21.54.21:415][739]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.08-21.54.21:415][739]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.08-21.54.21:420][739]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/MAceta.FBX
+[2018.02.08-21.54.21:426][739]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.08-21.54.26:675][739]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/MAceta.FBX
+[2018.02.08-21.54.26:681][739]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.08-21.54.26:683][739]LogFbx:Warning: Triangulating static mesh Cylinder001
+[2018.02.08-21.54.26:711][739]LogStaticMesh: Building static mesh MAceta...
+[2018.02.08-21.54.26:717][739]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/MAceta.MAceta
+[2018.02.08-21.54.26:724][739]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.08-21.54.29:946][ 39]LogActorFactory: Actor Factory created MAceta
+[2018.02.08-21.54.30:363][ 66]LogActorFactory: Actor Factory created MAceta
+[2018.02.08-21.54.31:138][141]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.08-21.54.31:176][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.54.31:176][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-21.54.31:176][141]PIE: New page: PIE session: NewDistrito1 (Feb 8, 2018, 11:54:31 PM)
+[2018.02.08-21.54.31:179][141]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.08-21.54.31:217][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038529s)
+[2018.02.08-21.54.31:218][141]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.08-21.54.31:218][141]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2018.02.08-21.54.31:218][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.039671s)
+[2018.02.08-21.54.31:242][141]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-21.54.31:251][141]LogInit: FAudioDevice initialized.
+[2018.02.08-21.54.31:291][141]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.08-21.54.31:324][141]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.08-22.54.31
+[2018.02.08-21.54.31:327][141]LogWorld: Bringing up level for play took: 0.033422
+[2018.02.08-21.54.31:341][141]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.213
+[2018.02.08-21.54.31:341][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.54.39:767][133]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.54.39:822][133]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.55.00:078][961]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.08-21.55.00:450][961]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2018.02.08-21.55.03:316][ 49]LogRenderer: Reallocating scene render targets to support 1144x924 NumSamples 1 (Frame:1).
+[2018.02.08-21.55.06:505][355]LogRenderer: Reallocating scene render targets to support 1144x932 NumSamples 1 (Frame:22147).
+[2018.02.08-21.55.12:504][686]LogSlate: Took 0.019703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.08-21.55.31:729][904]BlueprintLog: New page: Compile Maceta_Final
+[2018.02.08-21.55.41:959][542]LogSavePackage: Save=19.09ms
+[2018.02.08-21.55.41:959][542]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Maceta_Final44DB8ED64B59ADA537BE4791C402AC1C.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Maceta_Final.uasset'
+[2018.02.08-21.55.41:963][542]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Maceta_Final.uasset
+[2018.02.08-21.55.42:110][547]LogSavePackage: Save=12.95ms
+[2018.02.08-21.55.42:110][547]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Maceta_Final041AB05049211B5779A4969EC3ADD612.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Maceta_Final.uasset'
+[2018.02.08-21.55.42:112][547]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Maceta_Final.uasset
+[2018.02.08-21.55.44:299][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MAceta2)
+[2018.02.08-21.55.45:053][735]Cmd: DELETE
+[2018.02.08-21.55.45:053][735]Cmd: ACTOR DELETE
+[2018.02.08-21.55.45:055][735]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.08-21.55.45:072][735]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.02.08-21.56.21:837][ 12]LogSavePackage: Save=14.04ms
+[2018.02.08-21.56.21:837][ 12]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Maceta_MATD2E81BEB4291B3E7C92C22AFD6C4A275.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Maceta_MAT.uasset'
+[2018.02.08-21.56.21:840][ 12]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Maceta_MAT.uasset
+[2018.02.08-21.56.23:305][ 83]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.56.23:534][ 83]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.56.23:561][ 83]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.56.23:636][ 83]LogSlate: Took 0.029805 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.08-21.56.25:921][174]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.08-21.56.25:921][174]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.56.25:921][174]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.57.36:712][366]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.57.36:723][366]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.38:058][424]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.08-21.57.38:058][424]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.57.38:058][424]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.57.44:618][878]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.57.44:634][878]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.45:623][916]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-21.57.45:623][916]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.57.45:623][916]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.57.50:259][229]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.50:337][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.50:371][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.50:404][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.50:440][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.50:474][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.50:507][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.50:541][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.50:574][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.50:608][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.50:641][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.51:162][258]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.51:193][258]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.51:224][258]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.51:255][258]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.51:289][258]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.51:324][258]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.51:518][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.51:549][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.52:206][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.52:235][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.52:266][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.52:482][308]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.52:515][308]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.52:732][315]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.52:765][315]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.52:798][315]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.53:083][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.53:115][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.53:274][330]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.57.53:299][330]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-21.57.54:377][375]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-21.57.54:377][375]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.57.54:377][375]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.57.59:072][695]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.00:005][733]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-21.58.00:005][733]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.00:005][733]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.58.00:544][770]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.01:504][814]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-21.58.01:504][814]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.01:504][814]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.58.04:944][ 57]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.05:909][101]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.58.05:909][101]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.05:909][101]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.58.07:262][196]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.08:197][240]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.58.08:197][240]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.08:197][240]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.58.09:439][325]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.10:378][369]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.58.10:378][369]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.10:378][369]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.58.27:298][598]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.28:219][641]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-21.58.28:219][641]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.28:219][641]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.58.31:679][889]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.32:624][934]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.58.32:624][934]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.32:624][934]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.58.45:684][837]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.46:665][881]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.58.46:665][881]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.46:665][881]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.58.48:233][989]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.48:245][989]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.49:188][ 30]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.58.49:188][ 30]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.49:188][ 30]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.58.49:528][ 54]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.50:481][ 94]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.58.50:481][ 94]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.50:481][ 94]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.58.52:800][254]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.53:743][293]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.58.53:743][293]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.53:743][293]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.58.53:899][303]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.54:857][343]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.58.54:857][343]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.54:857][343]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.58.57:960][551]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.58.58:907][592]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.58.58:907][592]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.58.58:907][592]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.59.01:032][737]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.59.01:980][781]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.59.01:980][781]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.59.01:980][781]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.59.03:444][882]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.59.04:395][921]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.59.04:395][921]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.59.04:395][921]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.59.05:551][997]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.59.06:501][ 37]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.59.06:501][ 37]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.59.06:501][ 37]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.59.09:337][235]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.59.10:273][279]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.59.10:273][279]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.59.10:273][279]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.59.13:606][524]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.59.14:546][569]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.59.14:546][569]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.59.14:546][569]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.59.20:846][ 27]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.59.21:810][ 72]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.59.21:810][ 72]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.59.21:810][ 72]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.59.24:849][288]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.59.25:769][331]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.59.25:769][331]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.59.25:769][331]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-21.59.27:580][455]LogMaterialEditor: Saving and Compiling material Maceta_MAT
+[2018.02.08-21.59.28:223][455]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.59.28:268][455]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.59.28:290][455]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-21.59.28:377][455]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Maceta_MAT, compiling. 
+[2018.02.08-21.59.28:987][455]TextureStreamingBuild:Display: Compiling optional shaders took 0.647 seconds.
+[2018.02.08-21.59.30:571][455]LogSavePackage: Save=13.76ms
+[2018.02.08-21.59.30:571][455]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Maceta_MAT1995A2B147D7B45C369D8DB26E16AEA5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Maceta_MAT.uasset'
+[2018.02.08-21.59.30:574][455]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Maceta_MAT.uasset
+[2018.02.08-21.59.30:579][455]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.02.08-21.59.30:579][455]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-21.59.30:579][455]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-21.59.37:217][841]BlueprintLog: New page: Compile Maceta_Final
+[2018.02.08-21.59.37:975][873]LogSavePackage: Save=17.22ms
+[2018.02.08-21.59.37:975][873]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Maceta_FinalE4E61BE94E4F87682B325CB2BEDA845D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Maceta_Final.uasset'
+[2018.02.08-21.59.37:980][873]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Maceta_Final.uasset
+[2018.02.08-21.59.49:833][618]BlueprintLog: New page: Compile Maceta_Final
+[2018.02.08-21.59.50:015][619]BlueprintLog: New page: Compile Maceta_Final
+[2018.02.08-21.59.51:210][683]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.08-21.59.51:257][683]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-21.59.51:257][683]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.08-21.59.51:257][683]LogPlayLevel: [PlayLevel] Compiling newDistrito1 before play...
+[2018.02.08-21.59.51:379][683]LogPlayLevel: PlayLevel: Blueprint regeneration took 121 ms (1 blueprints)
+[2018.02.08-21.59.51:379][683]PIE: New page: PIE session: NewDistrito1 (Feb 8, 2018, 11:59:51 PM)
+[2018.02.08-21.59.51:379][683]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.08-21.59.51:417][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038148s)
+[2018.02.08-21.59.51:418][683]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.08-21.59.51:418][683]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2018.02.08-21.59.51:418][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.039210s)
+[2018.02.08-21.59.51:445][683]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-21.59.51:455][683]LogInit: FAudioDevice initialized.
+[2018.02.08-21.59.51:490][683]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.08-21.59.51:518][683]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.08-22.59.51
+[2018.02.08-21.59.51:520][683]LogWorld: Bringing up level for play took: 0.029201
+[2018.02.08-21.59.51:532][683]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.021
+[2018.02.08-21.59.51:532][683]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-22.00.00:568][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-22.00.00:617][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-22.00.07:624][804]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.00.08:928][866]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-22.00.08:928][866]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-22.00.08:928][866]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-22.00.10:029][941]LogMaterialEditor: Saving and Compiling material Maceta_MAT
+[2018.02.08-22.00.10:681][941]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.00.10:730][941]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.00.10:755][941]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.00.10:808][941]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Maceta_MAT, compiling. 
+[2018.02.08-22.00.11:460][941]TextureStreamingBuild:Display: Compiling optional shaders took 0.659 seconds.
+[2018.02.08-22.00.12:988][941]LogSavePackage: Save=13.37ms
+[2018.02.08-22.00.12:988][941]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Maceta_MATA2707A43430593F336679E8BAB3F0927.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Maceta_MAT.uasset'
+[2018.02.08-22.00.12:992][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Maceta_MAT.uasset
+[2018.02.08-22.00.12:998][941]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-22.00.12:998][941]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-22.00.12:998][941]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-22.00.15:708][122]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.08-22.00.15:747][122]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-22.00.15:747][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-22.00.15:747][122]PIE: New page: PIE session: NewDistrito1 (Feb 9, 2018, 12:00:15 AM)
+[2018.02.08-22.00.15:748][122]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.08-22.00.15:787][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038741s)
+[2018.02.08-22.00.15:788][122]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.08-22.00.15:788][122]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2018.02.08-22.00.15:788][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.039805s)
+[2018.02.08-22.00.15:816][122]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-22.00.15:825][122]LogInit: FAudioDevice initialized.
+[2018.02.08-22.00.15:863][122]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.08-22.00.15:891][122]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.08-23.00.15
+[2018.02.08-22.00.15:893][122]LogWorld: Bringing up level for play took: 0.026674
+[2018.02.08-22.00.15:903][122]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.349
+[2018.02.08-22.00.15:903][122]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-22.00.27:703][997]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-22.00.27:749][997]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-22.00.35:412][498]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.00.35:423][498]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.08-22.00.36:691][549]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-22.00.36:691][549]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-22.00.36:691][549]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-22.00.41:634][877]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.00.42:624][919]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-22.00.42:624][919]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-22.00.42:624][919]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-22.00.45:464][108]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.00.45:478][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.08-22.00.46:416][147]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-22.00.46:416][147]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-22.00.46:416][147]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-22.00.47:181][199]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.00.47:198][199]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.00.48:161][237]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-22.00.48:161][237]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-22.00.48:161][237]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-22.00.48:580][266]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.00.48:580][266]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Maceta_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.08-22.00.48:580][266]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.02.08-22.00.48:581][266]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.02.08-22.00.55:122][655]LogTexture:Display: Building textures: degradado (BGRA8, 380X253)
+[2018.02.08-22.00.55:135][655]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.00.55:270][655]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.08-22.00.56:300][696]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.08-22.00.56:300][696]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-22.00.56:300][696]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-22.00.56:300][696]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-22.01.04:607][215]LogTexture:Display: Building textures: keke (AutoDXT, 256X32)
+[2018.02.08-22.01.04:635][215]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.04:651][215]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.08-22.01.05:696][255]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.08-22.01.05:696][255]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-22.01.05:696][255]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-22.01.05:696][255]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-22.01.06:985][328]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.06:998][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.08-22.01.07:984][366]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.08-22.01.07:984][366]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-22.01.07:984][366]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-22.01.07:984][366]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-22.01.13:781][728]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.13:798][728]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.08-22.01.14:798][766]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.08-22.01.14:798][766]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-22.01.14:798][766]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-22.01.14:798][766]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-22.01.18:531][  3]LogMaterialEditor: Applying material Maceta_MAT
+[2018.02.08-22.01.19:197][  3]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.19:244][  3]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.19:271][  3]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.19:324][  3]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Maceta_MAT, compiling. 
+[2018.02.08-22.01.20:016][  3]TextureStreamingBuild:Display: Compiling optional shaders took 0.699 seconds.
+[2018.02.08-22.01.21:784][ 86]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.08-22.01.21:784][ 86]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.08-22.01.21:784][ 86]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.08-22.01.21:784][ 86]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.08-22.01.23:389][186]LogMaterialEditor: Saving and Compiling material Maceta_MAT
+[2018.02.08-22.01.23:458][186]LogSavePackage: Save=13.35ms
+[2018.02.08-22.01.23:458][186]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Maceta_MAT7045DFCF4D14BDEC4D4B8BB7229937E8.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Maceta_MAT.uasset'
+[2018.02.08-22.01.23:462][186]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Maceta_MAT.uasset
+[2018.02.08-22.01.27:223][425]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.28:033][456]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.28:996][497]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.08-22.01.28:996][497]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-22.01.28:996][497]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-22.01.32:159][708]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.32:172][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.33:158][747]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-22.01.33:158][747]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-22.01.33:158][747]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-22.01.36:818][995]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.36:907][998]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.36:939][998]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.36:975][998]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.37:010][998]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.37:042][998]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.37:202][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.37:237][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.37:325][  5]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.37:357][  5]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.37:587][ 13]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.37:619][ 13]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.37:648][ 13]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.37:885][ 21]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.38:036][ 26]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.38:069][ 26]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.38:295][ 34]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.38:677][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.38:708][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.38:772][ 50]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.38:807][ 50]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.38:836][ 50]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-22.01.38:836][ 50]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-22.01.38:836][ 50]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-22.01.38:952][ 54]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.39:110][ 59]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.39:237][ 63]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.39:259][ 63]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.08-22.01.40:255][104]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-22.01.40:255][104]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-22.01.40:255][104]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.08-22.01.41:849][214]LogMaterialEditor: Saving and Compiling material Maceta_MAT
+[2018.02.08-22.01.42:512][214]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.42:558][214]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.42:587][214]LogMaterial: Missing cached shader map for material Maceta_MAT, compiling. 
+[2018.02.08-22.01.42:646][214]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Maceta_MAT, compiling. 
+[2018.02.08-22.01.43:258][214]TextureStreamingBuild:Display: Compiling optional shaders took 0.620 seconds.
+[2018.02.08-22.01.44:771][214]LogSavePackage: Save=14.93ms
+[2018.02.08-22.01.44:771][214]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Maceta_MAT7F91A55F4C69E297978F059FAF720436.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Maceta_MAT.uasset'
+[2018.02.08-22.01.44:775][214]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Maceta_MAT.uasset
+[2018.02.08-22.01.44:781][214]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.02.08-22.01.44:781][214]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.08-22.01.44:781][214]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.08-22.01.48:387][468]LogMaterialEditor: Saving and Compiling material Maceta_MAT
+[2018.02.08-22.01.48:440][468]LogSavePackage: Save=7.94ms
+[2018.02.08-22.01.48:440][468]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Maceta_MAT48C1152A4A5B367C3567E290ABA491CC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Maceta_MAT.uasset'
+[2018.02.08-22.01.48:442][468]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Maceta_MAT.uasset
+[2018.02.08-22.01.49:934][569]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.08-22.01.49:973][569]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-22.01.49:973][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.08-22.01.49:973][569]PIE: New page: PIE session: NewDistrito1 (Feb 9, 2018, 12:01:49 AM)
+[2018.02.08-22.01.49:974][569]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.08-22.01.50:023][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048935s)
+[2018.02.08-22.01.50:023][569]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.08-22.01.50:024][569]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2018.02.08-22.01.50:024][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.050397s)
+[2018.02.08-22.01.50:052][569]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.08-22.01.50:061][569]LogInit: FAudioDevice initialized.
+[2018.02.08-22.01.50:097][569]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.08-22.01.50:111][569]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.08-23.01.50
+[2018.02.08-22.01.50:113][569]LogWorld: Bringing up level for play took: 0.014588
+[2018.02.08-22.01.50:121][569]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.568
+[2018.02.08-22.01.50:122][569]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-22.02.04:866][736]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-22.02.04:921][736]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.08-22.04.31:664][900]LogSavePackage: Save=873.54ms
+[2018.02.08-22.04.31:664][900]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto3D73526E444B95F1F47F003A7BD7DA5AA.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto3.umap'
+[2018.02.08-22.04.31:669][900]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto3.umap
+[2018.02.08-22.04.31:673][900]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.965
+[2018.02.08-22.04.31:673][900]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.965
+[2018.02.08-22.04.31:675][900]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/MAceta] ([1] browsable assets)...
+[2018.02.08-22.04.31:687][900]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/MAceta.MAceta]
+[2018.02.08-22.04.31:687][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/MAceta]
+[2018.02.08-22.04.31:707][900]LogSavePackage: Save=15.98ms
+[2018.02.08-22.04.31:707][900]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/MAceta_Auto3D723A8D849E9E3FD9D1AC6805FC59548.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/MAceta_Auto3.uasset'
+[2018.02.08-22.04.31:711][900]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/MAceta_Auto3.uasset
+[2018.02.08-22.04.31:711][900]LogFileHelpers: Auto-saving content packages took 0.037
