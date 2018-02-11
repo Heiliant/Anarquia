@@ -1424,3 +1424,1535 @@ LogInit: Object subsystem initialized
 [2018.02.11-22.26.36:872][613]LogSavePackage: Save=4.95ms
 [2018.02.11-22.26.36:872][613]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Lata_Final0BB134034E2510189355039D059118E4.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.uasset'
 [2018.02.11-22.26.36:879][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.uasset
+[2018.02.11-22.34.46:524][ 55]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/edificio_grande_texturizado.fbx)
+[2018.02.11-22.34.46:531][ 55]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.11-22.34.46:531][ 55]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.11-22.34.46:531][ 55]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.11-22.34.46:531][ 55]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.11-22.34.46:531][ 55]LogFbx: ItemName: Material, ItemCount : 1
+[2018.02.11-22.34.46:531][ 55]LogFbx: ItemName: Texture, ItemCount : 1
+[2018.02.11-22.34.46:531][ 55]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.11-22.34.46:531][ 55]LogFbx: ItemName: Video, ItemCount : 1
+[2018.02.11-22.34.46:536][ 55]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/edificio_grande_texturizado.fbx
+[2018.02.11-22.34.46:547][ 55]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-22.34.53:372][ 55]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/edificio_grande_texturizado.fbx
+[2018.02.11-22.34.53:387][ 55]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-22.34.53:390][ 55]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/phong1'
+[2018.02.11-22.34.53:390][ 55]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/phong1'
+[2018.02.11-22.34.53:395][ 55]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_grande_mesh'
+[2018.02.11-22.34.53:395][ 55]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_grande_mesh'
+[2018.02.11-22.34.53:468][ 55]LogTexture:Display: Building textures: edificio_grande_mesh (AutoDXT, 1920X1920)
+[2018.02.11-22.34.53:840][ 55]LogMaterial: Missing cached shader map for material phong1, compiling. 
+[2018.02.11-22.34.53:858][ 55]LogFbx:Warning: Triangulating static mesh edificio_grande:Edificio_rico_grande
+[2018.02.11-22.34.53:869][ 55]LogStaticMesh: Building static mesh edificio_grande_texturizado...
+[2018.02.11-22.34.53:875][ 55]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_grande_texturizado.edificio_grande_texturizado
+[2018.02.11-22.34.53:899][ 55]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.11-22.34.59:017][ 55]LogMeshUtilities: Finished distance field build in 5.1s - 64x64x64 distance field, 74 triangles, Range [-0.2, 0.6], edificio_grande_texturizado
+[2018.02.11-22.34.59:017][ 55]LogStaticMesh:Warning: Main thread blocked for 5.106s for async distance field build of edificio_grande_texturizado to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.02.11-22.35.06:806][727]LogStaticMesh: Allocated 512x178x64 distance field atlas = 11.1Mb, with 76 objects containing 6.8Mb backing data
+[2018.02.11-22.35.16:009][767]LogCascade: Quitting Cascade. FXSystem=0x000002249D290540
+[2018.02.11-22.35.54:551][686]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_28' or package '/Engine/Transient'.
+[2018.02.11-22.35.56:047][686]LogSavePackage: Save=5.88ms
+[2018.02.11-22.35.56:047][686]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Edificio48CAB453C4662B6AC3CBDB8B587314592.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio4/Edificio4.uasset'
+[2018.02.11-22.35.56:054][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio4/Edificio4.uasset
+[2018.02.11-22.35.57:277][686]LogSavePackage: Save=1065.79ms
+[2018.02.11-22.35.57:277][686]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1060D944A4DFB7530F797D3811EB13A9B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.11-22.35.57:285][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.11-22.35.57:364][686]LogFileHelpers: Saving map 'NewDistrito1' took 1.307
+[2018.02.11-22.36.01:598][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara7)
+[2018.02.11-22.36.32:753][562]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-22.36.32:794][562]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.36.32:795][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-22.36.32:795][562]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 12:36:32 AM)
+[2018.02.11-22.36.32:797][562]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-22.36.32:852][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054487s)
+[2018.02.11-22.36.32:852][562]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-22.36.32:852][562]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2018.02.11-22.36.32:853][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.055634s)
+[2018.02.11-22.36.32:886][562]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-22.36.32:897][562]LogInit: FAudioDevice initialized.
+[2018.02.11-22.36.32:934][562]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-22.36.32:957][562]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-23.36.32
+[2018.02.11-22.36.32:959][562]LogWorld: Bringing up level for play took: 0.023889
+[2018.02.11-22.36.32:969][562]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.384
+[2018.02.11-22.36.32:969][562]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.36.50:167][608]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.36.50:222][608]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.37.02:006][883]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-22.37.02:045][883]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.37.02:046][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-22.37.02:046][883]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 12:37:02 AM)
+[2018.02.11-22.37.02:046][883]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-22.37.02:097][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050827s)
+[2018.02.11-22.37.02:098][883]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-22.37.02:098][883]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2018.02.11-22.37.02:098][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.052190s)
+[2018.02.11-22.37.02:128][883]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-22.37.02:137][883]LogInit: FAudioDevice initialized.
+[2018.02.11-22.37.02:172][883]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-22.37.02:200][883]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-23.37.02
+[2018.02.11-22.37.02:203][883]LogWorld: Bringing up level for play took: 0.029707
+[2018.02.11-22.37.02:212][883]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.373
+[2018.02.11-22.37.02:212][883]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.37.31:223][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.37.31:298][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.37.38:117][  0]LogSavePackage: Save=151.53ms
+[2018.02.11-22.37.38:117][  0]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_grande_mesh61A54FCF460A927D3771D3B0CFFD70CB.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio4/edificio_grande_mesh.uasset'
+[2018.02.11-22.37.38:124][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio4/edificio_grande_mesh.uasset
+[2018.02.11-22.37.38:166][  0]LogSavePackage: Save=15.01ms
+[2018.02.11-22.37.38:166][  0]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/phong17DC011FF4ECCF51CDAE7FFB193A276E1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio4/phong1.uasset'
+[2018.02.11-22.37.38:173][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio4/phong1.uasset
+[2018.02.11-22.37.38:211][  0]LogSavePackage: Save=15.35ms
+[2018.02.11-22.37.38:211][  0]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_grande_texturizado8791C9FB494FBCD912977CB0145AF5B1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio4/edificio_grande_texturizado.uasset'
+[2018.02.11-22.37.38:217][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio4/edificio_grande_texturizado.uasset
+[2018.02.11-22.37.38:230][  0]LogSavePackage: Save=6.34ms
+[2018.02.11-22.37.38:230][  0]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_grande_texturizado60460C134BB8BB3C155EE1A9B7208FD0.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_grande_texturizado.uasset'
+[2018.02.11-22.37.38:236][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_grande_texturizado.uasset
+[2018.02.11-22.37.51:943][504]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/edificio_rico_pantallas_texturizado.FBX)
+[2018.02.11-22.37.51:975][504]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.11-22.37.51:975][504]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.11-22.37.51:975][504]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.11-22.37.51:975][504]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.11-22.37.51:975][504]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.11-22.37.51:975][504]LogFbx: ItemName: Material, ItemCount : 1
+[2018.02.11-22.37.51:975][504]LogFbx: ItemName: Texture, ItemCount : 1
+[2018.02.11-22.37.51:975][504]LogFbx: ItemName: Video, ItemCount : 1
+[2018.02.11-22.37.51:985][504]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/edificio_rico_pantallas_texturizado.FBX
+[2018.02.11-22.37.52:002][504]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-22.37.56:384][504]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/edificio_rico_pantallas_texturizado.FBX
+[2018.02.11-22.37.56:398][504]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-22.37.56:401][504]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Material__2'
+[2018.02.11-22.37.56:401][504]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Material__2'
+[2018.02.11-22.37.56:405][504]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_pantallas'
+[2018.02.11-22.37.56:406][504]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_pantallas'
+[2018.02.11-22.37.57:450][504]LogTexture:Display: Building textures: edificio_rico_pantallas (AutoDXT, 8000X8000)
+[2018.02.11-22.38.06:226][504]LogMaterial: Missing cached shader map for material Material__2, compiling. 
+[2018.02.11-22.38.06:262][504]LogStaticMesh: Building static mesh edificio_rico_pantallas_texturizado...
+[2018.02.11-22.38.06:277][504]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_pantallas_texturizado.edificio_rico_pantallas_texturizado
+[2018.02.11-22.38.06:301][504]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.11-22.38.11:855][504]LogMeshUtilities: Finished distance field build in 5.5s - 64x64x64 distance field, 232 triangles, Range [-0.2, 0.4], edificio_rico_pantallas_texturizado
+[2018.02.11-22.38.11:856][504]LogStaticMesh:Warning: Main thread blocked for 5.537s for async distance field build of edificio_rico_pantallas_texturizado to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.02.11-22.38.55:565][772]LogSavePackage: Save=5.64ms
+[2018.02.11-22.38.55:565][772]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_rico_con_pantallasAE3C93D744E6133472F03FB1F4DAA40B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio3/edificio_rico_con_pantallas.uasset'
+[2018.02.11-22.38.55:571][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio3/edificio_rico_con_pantallas.uasset
+[2018.02.11-22.38.56:875][772]LogSavePackage: Save=1154.99ms
+[2018.02.11-22.38.56:875][772]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1CF57C90544187EA3B75D61BB2E70F9E1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.11-22.38.56:883][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.11-22.38.56:970][772]LogFileHelpers: Saving map 'NewDistrito1' took 1.397
+[2018.02.11-22.39.12:710][ 75]LogSavePackage: Save=2506.49ms
+[2018.02.11-22.39.12:710][ 75]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_rico_pantallasF201354E41F6D2C5C8D0AAA9A288ED1A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio3/edificio_rico_pantallas.uasset'
+[2018.02.11-22.39.12:716][ 75]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio3/edificio_rico_pantallas.uasset
+[2018.02.11-22.39.12:750][ 75]LogSavePackage: Save=12.85ms
+[2018.02.11-22.39.12:750][ 75]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_rico_pantallas_texturizado9E5A8EBC4C8C06B721BF188D015B7D03.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio3/edificio_rico_pantallas_texturizado.uasset'
+[2018.02.11-22.39.12:761][ 75]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio3/edificio_rico_pantallas_texturizado.uasset
+[2018.02.11-22.39.12:781][ 75]LogSavePackage: Save=9.36ms
+[2018.02.11-22.39.12:781][ 75]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_rico_pantallas_texturizado83619A5F41BE2556FCD5B0814E65FA6A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_pantallas_texturizado.uasset'
+[2018.02.11-22.39.12:792][ 75]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_pantallas_texturizado.uasset
+[2018.02.11-22.39.12:858][ 75]LogSavePackage: Save=19.62ms
+[2018.02.11-22.39.12:858][ 75]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Material__2BE69C8BC49EEEE7B23641F86EF4E874A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio3/Material__2.uasset'
+[2018.02.11-22.39.12:866][ 75]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio3/Material__2.uasset
+[2018.02.11-22.39.24:790][298]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-22.39.24:830][298]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.39.24:830][298]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.11-22.39.24:830][298]LogPlayLevel: [PlayLevel] Compiling newDistrito1 before play...
+[2018.02.11-22.39.24:967][298]LogPlayLevel: PlayLevel: Blueprint regeneration took 137 ms (1 blueprints)
+[2018.02.11-22.39.24:967][298]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 12:39:24 AM)
+[2018.02.11-22.39.24:970][298]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-22.39.25:019][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049516s)
+[2018.02.11-22.39.25:020][298]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-22.39.25:020][298]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2018.02.11-22.39.25:020][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.050595s)
+[2018.02.11-22.39.25:046][298]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-22.39.25:057][298]LogInit: FAudioDevice initialized.
+[2018.02.11-22.39.25:094][298]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-22.39.25:116][298]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-23.39.25
+[2018.02.11-22.39.25:118][298]LogWorld: Bringing up level for play took: 0.023431
+[2018.02.11-22.39.25:128][298]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.543
+[2018.02.11-22.39.25:128][298]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.39.49:727][219]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.39.49:803][219]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.39.51:439][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lata_A_texturizada)
+[2018.02.11-22.39.52:242][472]Cmd: DELETE
+[2018.02.11-22.39.52:242][472]Cmd: ACTOR DELETE
+[2018.02.11-22.39.52:244][472]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.11-22.39.52:262][472]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.02.11-22.39.59:373][129]LogSavePackage: Save=1092.18ms
+[2018.02.11-22.39.59:373][129]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito199E2CB3546A1B3F7E8D6DBAAB9E02A21.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.11-22.39.59:381][129]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.11-22.39.59:459][129]LogFileHelpers: Saving map 'NewDistrito1' took 1.327
+[2018.02.11-22.52.06:505][  3]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JAVITO\Downloads\Modelados\grass_grass_0105_02_preview.jpg)
+[2018.02.11-22.52.06:528][  3]LogTexture:Display: Building textures: grass_grass_0105_02_preview (AutoDXT, 600X600)
+[2018.02.11-22.52.07:098][  3]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JAVITO\Downloads\Modelados\sea-grass-clipart-lawn-5.jpg)
+[2018.02.11-22.52.07:849][  3]LogTexture:Display: Building textures: sea-grass-clipart-lawn-5 (AutoDXT, 4160X3120)
+[2018.02.11-22.52.26:658][  3]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JAVITO\Downloads\Modelados\tileable-grass_clover_tt7010116-lush.png)
+[2018.02.11-22.52.26:707][  3]LogTexture:Display: Building textures: tileable-grass_clover_tt7010116-lush (AutoDXT, 1024X1024)
+[2018.02.11-22.52.27:214][  4]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.016
+[2018.02.11-22.52.27:216][  4]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/grass_grass_0105_02_preview] ([1] browsable assets)...
+[2018.02.11-22.52.27:224][  4]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/grass_grass_0105_02_preview.grass_grass_0105_02_preview]
+[2018.02.11-22.52.27:224][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/grass_grass_0105_02_preview]
+[2018.02.11-22.52.27:246][  4]LogSavePackage: Save=18.47ms
+[2018.02.11-22.52.27:246][  4]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/grass_grass_0105_02_preview_Auto85A55BC354FF0ACC267AC36B14A3137EB.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/grass_grass_0105_02_preview_Auto8.uasset'
+[2018.02.11-22.52.27:249][  4]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/grass_grass_0105_02_preview_Auto8.uasset
+[2018.02.11-22.52.27:250][  4]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/sea-grass-clipart-lawn-5] ([1] browsable assets)...
+[2018.02.11-22.52.27:257][  4]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/sea-grass-clipart-lawn-5.sea-grass-clipart-lawn-5]
+[2018.02.11-22.52.27:257][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/sea-grass-clipart-lawn-5]
+[2018.02.11-22.52.27:299][  4]LogSavePackage: Save=38.04ms
+[2018.02.11-22.52.27:299][  4]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/sea-grass-clipart-lawn-5_Auto812D9126C4E2CBE5D1886A380E59D1509.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/sea-grass-clipart-lawn-5_Auto8.uasset'
+[2018.02.11-22.52.27:302][  4]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/sea-grass-clipart-lawn-5_Auto8.uasset
+[2018.02.11-22.52.27:303][  4]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/tileable-grass_clover_tt7010116-lush] ([1] browsable assets)...
+[2018.02.11-22.52.27:311][  4]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/tileable-grass_clover_tt7010116-lush.tileable-grass_clover_tt7010116-lush]
+[2018.02.11-22.52.27:311][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/tileable-grass_clover_tt7010116-lush]
+[2018.02.11-22.52.27:330][  4]LogSavePackage: Save=15.15ms
+[2018.02.11-22.52.27:331][  4]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/tileable-grass_clover_tt7010116-lush_Auto89397337543EA5F13203996AF7772C195.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/tileable-grass_clover_tt7010116-lush_Auto8.uasset'
+[2018.02.11-22.52.27:335][  4]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/tileable-grass_clover_tt7010116-lush_Auto8.uasset
+[2018.02.11-22.52.27:335][  4]LogFileHelpers: Auto-saving content packages took 0.121
+[2018.02.11-22.53.22:215][320]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.53.22:279][320]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.53.22:292][320]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.53.23:573][416]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.53.23:573][416]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.53.23:573][416]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.53.32:162][404]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.53.32:177][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.11-22.53.32:212][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.11-22.53.32:226][404]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.53.32:243][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.11-22.53.32:277][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.11-22.53.32:283][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.11-22.53.32:303][404]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.53.32:321][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.02.11-22.53.32:356][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.11-22.53.32:361][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.11-22.53.32:366][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.02.11-22.53.33:228][476]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.53.33:228][476]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.53.33:228][476]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.53.47:420][154]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.53.48:245][238]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.53.48:245][238]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.53.48:245][238]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.53.50:297][483]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.53.50:311][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.11-22.53.51:144][566]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.53.51:144][566]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.53.51:144][566]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.53.51:925][658]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.53.51:939][658]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.11-22.53.52:785][740]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.53.52:785][740]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.53.52:785][740]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.53.53:572][834]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.53.53:586][834]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.02.11-22.53.54:432][918]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.53.54:432][918]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.53.54:432][918]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.54.20:369][643]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.20:381][643]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.20:416][643]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.11-22.54.21:644][760]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.54.21:644][760]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.54.21:644][760]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.54.28:201][536]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.29:031][610]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.29:905][689]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.54.29:905][689]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.54.29:905][689]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.54.34:061][186]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.34:073][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.11-22.54.34:941][263]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.54.34:941][263]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.54.34:941][263]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.54.35:183][291]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.35:195][291]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.35:234][291]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.11-22.54.36:020][364]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.36:903][439]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.54.36:903][439]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.54.36:903][439]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.54.38:936][681]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.39:776][759]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.54.39:776][759]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.54.39:776][759]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.54.40:687][868]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.41:612][955]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.54.41:612][955]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.54.41:612][955]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.54.45:805][452]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.45:821][452]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.11-22.54.46:707][528]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.54.46:707][528]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.54.46:707][528]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.54.48:145][698]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.48:164][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.02.11-22.54.49:019][767]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.54.49:019][767]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-22.54.49:019][767]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.54.50:114][897]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.54.51:022][976]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.54.51:022][976]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-22.54.51:022][976]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.54.51:022][976]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-22.55.00:246][ 81]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.55.01:126][168]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-22.55.01:126][168]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-22.55.01:126][168]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-22.55.01:126][168]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-22.55.01:270][185]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.55.02:209][275]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.11-22.55.02:209][275]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-22.55.02:209][275]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-22.55.02:209][275]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-22.55.07:232][877]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.55.08:139][964]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.11-22.55.08:139][964]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-22.55.08:139][964]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-22.55.08:139][964]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-22.55.14:462][722]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.55.15:379][812]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.11-22.55.15:379][812]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-22.55.15:379][812]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-22.55.15:379][812]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-22.55.16:704][969]LogMaterialEditor: Saving and Compiling material Grass_Texture
+[2018.02.11-22.55.17:371][969]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.55.17:419][969]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.55.17:447][969]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.55.17:505][969]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Grass_Texture, compiling. 
+[2018.02.11-22.55.18:241][969]TextureStreamingBuild:Display: Compiling optional shaders took 0.741 seconds.
+[2018.02.11-22.55.19:696][969]LogSavePackage: Save=19.85ms
+[2018.02.11-22.55.19:696][969]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Grass_Texture73DED7F64B09D16D101E2BB3A2C7186A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Grass_Texture.uasset'
+[2018.02.11-22.55.19:703][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Grass_Texture.uasset
+[2018.02.11-22.55.19:710][969]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.02.11-22.55.19:710][969]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-22.55.19:710][969]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.11-22.55.19:710][969]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-22.55.50:067][494]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.02.11-22.56.09:888][483]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.56.09:942][483]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.56.09:954][483]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.56.09:979][483]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.56.10:005][483]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.56.14:191][702]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-22.58.38:486][688]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 32X32)
+[2018.02.11-22.58.38:505][688]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.58.38:557][688]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 32X32)
+[2018.02.11-22.58.38:584][688]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 32X32)
+[2018.02.11-22.58.38:609][688]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 32X32)
+[2018.02.11-22.58.38:634][688]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 32X32)
+[2018.02.11-22.58.38:659][688]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 32X32)
+[2018.02.11-22.58.38:687][688]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 32X32)
+[2018.02.11-22.58.38:719][688]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 32X32)
+[2018.02.11-22.58.38:739][688]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 32X32)
+[2018.02.11-22.58.38:768][688]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 32X32)
+[2018.02.11-22.58.38:793][688]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 32X32)
+[2018.02.11-22.58.38:823][688]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 32X32)
+[2018.02.11-22.58.38:851][688]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 32X32)
+[2018.02.11-22.58.38:884][688]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 32X32)
+[2018.02.11-22.58.38:915][688]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 32X32)
+[2018.02.11-22.58.38:949][688]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 32X32)
+[2018.02.11-22.58.53:726][840]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-22.59.19:077][477]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.59.20:399][613]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-22.59.20:399][613]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-22.59.20:399][613]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-22.59.20:399][613]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-22.59.21:729][772]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.59.22:718][860]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-22.59.22:718][860]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-22.59.22:718][860]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-22.59.22:718][860]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-22.59.22:876][879]LogMaterialEditor: Saving and Compiling material Grass_Texture
+[2018.02.11-22.59.23:545][879]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.59.23:588][879]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.59.23:611][879]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.59.23:633][879]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.59.23:666][879]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.59.23:677][879]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.59.23:689][879]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.59.23:703][879]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.59.23:783][879]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Grass_Texture, compiling. 
+[2018.02.11-22.59.24:481][879]TextureStreamingBuild:Display: Compiling optional shaders took 0.705 seconds.
+[2018.02.11-22.59.26:436][879]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.59.26:703][879]LogSavePackage: Save=27.64ms
+[2018.02.11-22.59.26:703][879]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Grass_Texture641DED0B4782DA70984509A9C061D736.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Grass_Texture.uasset'
+[2018.02.11-22.59.26:712][879]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Grass_Texture.uasset
+[2018.02.11-22.59.26:722][879]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-22.59.26:722][879]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-22.59.26:723][879]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.11-22.59.26:723][879]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-22.59.30:451][977]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-22.59.52:409][ 17]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-22.59.54:305][189]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 32X32)
+[2018.02.11-22.59.54:320][189]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-22.59.58:126][437]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.00.00:390][607]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 32X32)
+[2018.02.11-23.00.02:173][763]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.00.07:948][262]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.00.08:693][335]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.00.11:952][536]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.00.13:183][640]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.00.16:305][928]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.00.19:678][115]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.00.20:045][139]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 32X32)
+[2018.02.11-23.00.23:012][391]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.00.36:222][616]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.00.37:129][678]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.00.39:517][854]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.00.44:392][324]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-23.00.44:432][324]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.00.44:432][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-23.00.44:433][324]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 1:00:44 AM)
+[2018.02.11-23.00.44:433][324]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-23.00.44:495][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062397s)
+[2018.02.11-23.00.44:496][324]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-23.00.44:496][324]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2018.02.11-23.00.44:497][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.063650s)
+[2018.02.11-23.00.44:547][324]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-23.00.44:558][324]LogInit: FAudioDevice initialized.
+[2018.02.11-23.00.44:590][324]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-23.00.44:613][324]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-00.00.44
+[2018.02.11-23.00.44:616][324]LogWorld: Bringing up level for play took: 0.024025
+[2018.02.11-23.00.44:626][324]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.041
+[2018.02.11-23.00.44:627][324]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.00.55:322][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.00.55:364][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.01.47:417][377]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\JAVITO\Downloads\Street24.jpg)
+[2018.02.11-23.01.47:464][377]LogTexture:Display: Building textures: Street24 (AutoDXT, 1600X712)
+[2018.02.11-23.02.10:221][814]LogSavePackage: Save=18.83ms
+[2018.02.11-23.02.10:221][814]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Grass_MATF19C86854B734F15D37FBCA5EA7AD203.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Grass_MAT.uasset'
+[2018.02.11-23.02.10:227][814]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Grass_MAT.uasset
+[2018.02.11-23.02.11:844][964]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.11:963][964]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.11:976][964]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.13:484][114]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-23.02.13:484][114]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-23.02.13:484][114]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-23.02.16:861][488]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.16:872][488]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.02.11-23.02.16:907][488]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.02.11-23.02.17:798][573]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-23.02.17:798][573]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-23.02.17:798][573]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-23.02.22:458][122]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.23:388][220]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-23.02.23:388][220]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-23.02.23:388][220]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-23.02.24:641][369]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.24:655][369]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.02.11-23.02.25:700][470]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-23.02.25:700][470]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-23.02.25:700][470]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-23.02.30:032][981]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.30:044][981]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.30:082][981]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.02.11-23.02.30:963][ 67]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-23.02.30:963][ 67]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-23.02.30:963][ 67]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-23.02.32:585][260]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.32:598][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.02.11-23.02.33:463][345]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-23.02.33:463][345]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-23.02.33:463][345]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-23.02.33:617][363]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.33:630][363]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.33:671][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.02.11-23.02.34:450][446]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.35:339][534]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-23.02.35:339][534]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-23.02.35:339][534]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-23.02.39:217][998]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.40:092][ 85]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-23.02.40:092][ 85]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.02.40:092][ 85]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-23.02.40:092][ 85]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.02.45:723][758]LogMaterial: Missing cached shader map for material Street_MAT, compiling. 
+[2018.02.11-23.02.46:578][847]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.11-23.02.46:578][847]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.11-23.02.46:578][847]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.11-23.03.02:705][445]LogSavePackage: Save=18.33ms
+[2018.02.11-23.03.02:705][445]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LandsCape_MAT4D4304424D93292131B159BD242D001B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset'
+[2018.02.11-23.03.02:711][445]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset
+[2018.02.11-23.03.12:150][244]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.12:160][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.02.11-23.03.12:191][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.11-23.03.12:195][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.02.11-23.03.12:199][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.02.11-23.03.12:203][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.02.11-23.03.13:560][363]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.03.13:560][363]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.03.13:560][363]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.03.13:560][363]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.03.19:563][ 58]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.19:581][ 58]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.02.11-23.03.20:572][137]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.03.20:572][137]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.03.20:572][137]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.03.20:572][137]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.03.25:923][776]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.25:935][776]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.25:974][776]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.02.11-23.03.26:830][854]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.26:875][854]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.02.11-23.03.27:849][933]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.03.27:849][933]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.03.27:849][933]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.03.27:849][933]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.03.29:183][ 89]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.30:135][173]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.03.30:135][173]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.03.30:135][173]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.03.30:135][173]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.03.31:798][371]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.31:810][371]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.02.11-23.03.32:760][450]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.03.32:760][450]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.03.32:760][450]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.03.32:760][450]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.03.34:879][702]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.35:837][790]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.03.35:837][790]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.03.35:837][790]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.03.35:837][790]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.03.35:924][800]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.36:926][886]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.03.36:926][886]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.03.36:926][886]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.03.36:926][886]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.03.38:825][108]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.39:786][191]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.03.39:786][191]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.03.39:786][191]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.03.39:786][191]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.03.42:424][505]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.42:441][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.02.11-23.03.43:417][583]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.03.43:417][583]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.03.43:417][583]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.03.43:417][583]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.03.44:890][758]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.45:820][838]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.03.45:820][838]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.03.45:820][838]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.03.45:820][838]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.03.46:594][930]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.47:592][ 15]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.03.47:592][ 15]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.03.47:592][ 15]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.03.47:592][ 15]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.03.50:434][354]LogMaterialEditor: Saving and Compiling material LandsCape_MAT
+[2018.02.11-23.03.51:099][354]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.03.51:155][354]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.03.51:181][354]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.03.51:207][354]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.03.51:248][354]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.03.51:287][354]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.03.51:327][354]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.03.51:337][354]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.03.51:348][354]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.03.51:360][354]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.03.51:397][354]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.03.51:475][354]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandsCape_MAT, compiling. 
+[2018.02.11-23.03.52:080][354]TextureStreamingBuild:Display: Compiling optional shaders took 0.614 seconds.
+[2018.02.11-23.03.54:020][354]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.03.54:294][354]LogSavePackage: Save=30.29ms
+[2018.02.11-23.03.54:294][354]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LandsCape_MAT17F95564499CDBA6D4DABEA080C6C4F7.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset'
+[2018.02.11-23.03.54:304][354]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset
+[2018.02.11-23.03.54:313][354]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.03.54:313][354]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.03.54:313][354]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.11-23.03.54:313][354]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.03.59:955][649]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.04.09:438][349]LogMaterialEditor: Saving and Compiling material LandsCape_MAT
+[2018.02.11-23.04.09:482][349]LogSavePackage: Save=10.39ms
+[2018.02.11-23.04.09:482][349]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LandsCape_MATC283E7F945B2F8BBC64E4F9A714FB2B5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset'
+[2018.02.11-23.04.09:486][349]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset
+[2018.02.11-23.04.09:589][360]LogMaterialEditor: Saving and Compiling material LandsCape_MAT
+[2018.02.11-23.04.09:639][360]LogSavePackage: Save=13.30ms
+[2018.02.11-23.04.09:639][360]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LandsCape_MATF7D337E646074541E46019972FD6DC2B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset'
+[2018.02.11-23.04.09:644][360]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset
+[2018.02.11-23.04.21:019][720]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.04.21:903][801]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.04.21:903][801]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.04.21:903][801]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.04.21:903][801]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.04.22:963][928]LogMaterialEditor: Saving and Compiling material LandsCape_MAT
+[2018.02.11-23.04.23:614][928]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.04.23:655][928]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.23:682][928]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.23:706][928]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.23:739][928]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.23:782][928]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.23:819][928]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.23:827][928]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.23:839][928]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.23:849][928]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.23:881][928]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.23:966][928]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandsCape_MAT, compiling. 
+[2018.02.11-23.04.24:541][928]TextureStreamingBuild:Display: Compiling optional shaders took 0.583 seconds.
+[2018.02.11-23.04.26:272][928]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.26:375][928]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.26:563][928]LogSavePackage: Save=32.06ms
+[2018.02.11-23.04.26:563][928]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LandsCape_MAT5A9782A545723ACCDDB15A9C28A66F05.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset'
+[2018.02.11-23.04.26:574][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset
+[2018.02.11-23.04.26:582][928]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.04.26:582][928]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.04.26:582][928]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.11-23.04.26:582][928]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.04.37:711][151]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.04.44:209][848]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.04.47:511][ 93]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.04.50:043][300]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.04.53:668][640]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.04.53:924][641]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.04.58:113][ 99]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.05.00:792][309]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.05.01:706][384]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-23.05.01:746][384]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.05.01:746][384]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.11-23.05.01:746][384]LogPlayLevel: [PlayLevel] Compiling newDistrito1 before play...
+[2018.02.11-23.05.01:904][384]LogPlayLevel: PlayLevel: Blueprint regeneration took 157 ms (1 blueprints)
+[2018.02.11-23.05.01:904][384]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 1:05:01 AM)
+[2018.02.11-23.05.01:904][384]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-23.05.01:956][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051259s)
+[2018.02.11-23.05.01:956][384]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-23.05.01:956][384]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2018.02.11-23.05.01:957][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.052409s)
+[2018.02.11-23.05.01:983][384]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-23.05.01:994][384]LogInit: FAudioDevice initialized.
+[2018.02.11-23.05.02:029][384]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-23.05.02:053][384]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-00.05.02
+[2018.02.11-23.05.02:056][384]LogWorld: Bringing up level for play took: 0.025630
+[2018.02.11-23.05.02:066][384]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.519
+[2018.02.11-23.05.02:067][384]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.05.09:944][278]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.05.09:984][278]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.05.14:970][846]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.05.16:304][975]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.05.16:304][975]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.05.16:304][975]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.05.16:304][975]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.05.16:331][978]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.05.17:307][ 65]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.05.17:307][ 65]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.05.17:307][ 65]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.05.17:307][ 65]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.05.17:767][120]LogMaterialEditor: Applying material LandsCape_MAT
+[2018.02.11-23.05.18:412][120]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.05.18:454][120]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.18:483][120]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.18:509][120]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.18:555][120]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.18:597][120]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.18:634][120]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.18:670][120]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.18:681][120]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.18:690][120]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.18:698][120]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.18:729][120]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.18:767][120]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.18:818][120]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandsCape_MAT, compiling. 
+[2018.02.11-23.05.19:361][120]TextureStreamingBuild:Display: Compiling optional shaders took 0.550 seconds.
+[2018.02.11-23.05.19:458][124]LogMaterialEditor: Saving and Compiling material LandsCape_MAT
+[2018.02.11-23.05.21:350][124]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.05.21:627][124]LogSavePackage: Save=33.16ms
+[2018.02.11-23.05.21:627][124]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LandsCape_MATBDF3592746E9E7A93122A3B3092CB821.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset'
+[2018.02.11-23.05.21:639][124]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset
+[2018.02.11-23.05.21:654][124]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.05.21:654][124]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.05.21:654][124]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.11-23.05.21:654][124]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.05.30:610][607]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.05.30:752][613]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-23.05.30:819][613]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.05.30:819][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-23.05.30:819][613]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 1:05:30 AM)
+[2018.02.11-23.05.30:820][613]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-23.05.30:910][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089954s)
+[2018.02.11-23.05.30:911][613]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-23.05.30:912][613]LogPlayLevel: PIE: World Init took: (0.001386s)
+[2018.02.11-23.05.30:912][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.092173s)
+[2018.02.11-23.05.30:955][613]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-23.05.30:970][613]LogInit: FAudioDevice initialized.
+[2018.02.11-23.05.31:019][613]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-23.05.31:052][613]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-00.05.31
+[2018.02.11-23.05.31:056][613]LogWorld: Bringing up level for play took: 0.035604
+[2018.02.11-23.05.31:072][613]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.487
+[2018.02.11-23.05.31:073][613]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.05.32:928][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.05.32:980][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.05.35:512][843]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.05.40:250][204]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.05.46:222][767]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.05.48:252][954]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 32X32)
+[2018.02.11-23.05.49:287][ 30]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.05.55:569][732]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.00:441][184]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.04:475][565]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.06:456][696]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.06:697][697]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.06:778][698]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 32X32)
+[2018.02.11-23.06.09:784][966]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.15:216][551]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.20:159][ 39]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 32X32)
+[2018.02.11-23.06.22:532][284]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.28:802][923]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.31:346][129]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.35:572][524]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.37:908][709]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.40:285][906]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.44:573][298]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.49:951][827]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.06.55:654][399]LogTexture:Display: Building textures: Texture2D_22 (BGRA8, 32X32)
+[2018.02.11-23.07.05:226][508]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 32X32)
+[2018.02.11-23.07.13:768][467]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.07.16:329][697]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.07.26:492][743]LogTexture:Display: Building textures: Texture2D_24 (BGRA8, 32X32)
+[2018.02.11-23.07.37:180][872]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.07.38:630][  5]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.07.38:855][  6]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.07.38:952][ 10]LogTexture:Display: Building textures: Texture2D_25 (BGRA8, 32X32)
+[2018.02.11-23.07.38:967][ 10]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.07.42:629][224]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.07.59:483][875]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.07.59:517][876]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-23.07.59:561][876]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.07.59:562][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-23.07.59:562][876]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 1:07:59 AM)
+[2018.02.11-23.07.59:562][876]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-23.07.59:622][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059623s)
+[2018.02.11-23.07.59:622][876]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-23.07.59:623][876]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2018.02.11-23.07.59:623][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.060985s)
+[2018.02.11-23.07.59:659][876]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-23.07.59:669][876]LogInit: FAudioDevice initialized.
+[2018.02.11-23.07.59:702][876]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-23.07.59:724][876]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-00.07.59
+[2018.02.11-23.07.59:727][876]LogWorld: Bringing up level for play took: 0.023870
+[2018.02.11-23.07.59:737][876]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 1.151
+[2018.02.11-23.07.59:737][876]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.08.25:958][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.08.26:002][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.08.32:056][235]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.08.36:274][729]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.08.37:483][848]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.08.37:483][848]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.08.37:483][848]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.08.37:483][848]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.08.38:595][981]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.08.39:508][ 60]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.08.39:508][ 60]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.08.39:508][ 60]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.08.39:508][ 60]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.08.39:691][ 82]LogMaterialEditor: Saving and Compiling material LandsCape_MAT
+[2018.02.11-23.08.40:337][ 82]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.08.40:381][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:404][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:430][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:470][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:512][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:550][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:589][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:630][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:642][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:654][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:665][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:708][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:750][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.40:805][ 82]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandsCape_MAT, compiling. 
+[2018.02.11-23.08.41:326][ 82]TextureStreamingBuild:Display: Compiling optional shaders took 0.529 seconds.
+[2018.02.11-23.08.43:224][ 82]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.08.43:523][ 82]LogSavePackage: Save=34.00ms
+[2018.02.11-23.08.43:523][ 82]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LandsCape_MATC5320E4541D05FF09068A3B08EB5BB21.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset'
+[2018.02.11-23.08.43:534][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset
+[2018.02.11-23.08.43:544][ 82]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.08.43:544][ 82]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.08.43:544][ 82]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.11-23.08.43:544][ 82]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.08.48:865][363]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-23.08.48:928][363]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.08.48:929][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-23.08.48:929][363]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 1:08:48 AM)
+[2018.02.11-23.08.48:930][363]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-23.08.49:024][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094190s)
+[2018.02.11-23.08.49:025][363]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-23.08.49:025][363]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2018.02.11-23.08.49:025][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.095831s)
+[2018.02.11-23.08.49:066][363]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-23.08.49:080][363]LogInit: FAudioDevice initialized.
+[2018.02.11-23.08.49:122][363]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-23.08.49:157][363]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-00.08.49
+[2018.02.11-23.08.49:162][363]LogWorld: Bringing up level for play took: 0.037908
+[2018.02.11-23.08.49:176][363]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.591
+[2018.02.11-23.08.49:176][363]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.08.55:821][768]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.08.55:875][768]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.08.56:880][800]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.09.01:195][131]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.09.01:208][131]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.09.01:248][131]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.02.11-23.09.01:719][165]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.09.01:765][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.02.11-23.09.02:828][244]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.09.02:828][244]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.09.02:828][244]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.09.02:828][244]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.09.03:231][291]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.09.03:246][291]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.02.11-23.09.04:203][366]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.09.04:203][366]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.09.04:203][366]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.09.04:203][366]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.09.04:215][367]LogMaterialEditor: Saving and Compiling material LandsCape_MAT
+[2018.02.11-23.09.04:960][367]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.09.05:002][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:030][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:057][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:093][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:132][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:166][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:197][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:232][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:240][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:249][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:258][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:292][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:329][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:386][367]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandsCape_MAT, compiling. 
+[2018.02.11-23.09.05:901][367]TextureStreamingBuild:Display: Compiling optional shaders took 0.522 seconds.
+[2018.02.11-23.09.07:745][367]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.09.08:063][367]LogSavePackage: Save=30.19ms
+[2018.02.11-23.09.08:063][367]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LandsCape_MATC378928E4DC5C8F69B9A31972A18C7B0.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset'
+[2018.02.11-23.09.08:073][367]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset
+[2018.02.11-23.09.08:081][367]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.09.08:081][367]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.09.08:081][367]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.11-23.09.08:081][367]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.09.11:989][624]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-23.09.12:057][624]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.09.12:058][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-23.09.12:058][624]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 1:09:12 AM)
+[2018.02.11-23.09.12:060][624]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-23.09.12:151][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090987s)
+[2018.02.11-23.09.12:152][624]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-23.09.12:152][624]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2018.02.11-23.09.12:153][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.092616s)
+[2018.02.11-23.09.12:193][624]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-23.09.12:205][624]LogInit: FAudioDevice initialized.
+[2018.02.11-23.09.12:249][624]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-23.09.12:282][624]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-00.09.12
+[2018.02.11-23.09.12:286][624]LogWorld: Bringing up level for play took: 0.034543
+[2018.02.11-23.09.12:300][624]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.285
+[2018.02.11-23.09.12:300][624]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.09.26:825][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.09.26:867][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.09.27:378][621]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.09.28:637][747]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.09.49:955][ 59]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.09.51:177][178]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.10.17:614][206]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.10.18:830][293]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.10.31:905][757]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.10.48:983][683]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.10.53:697][167]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.10.56:126][391]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.10.59:342][684]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.11.01:682][865]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.11.03:764][ 38]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.11.08:623][558]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.11.11:161][773]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.11.12:595][878]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.11.16:284][247]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.11.22:252][870]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.11.23:932][984]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.11-23.12.01:126][218]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 32X32)
+[2018.02.11-23.12.01:126][218]LogTexture:Display: Building textures: Texture2D_63_BaseColor (DXT1, 32X32)
+[2018.02.11-23.12.01:129][218]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 32X32)
+[2018.02.11-23.12.01:130][218]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 32X32)
+[2018.02.11-23.12.01:130][218]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 32X32)
+[2018.02.11-23.12.01:130][218]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 32X32)
+[2018.02.11-23.12.01:131][218]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 32X32)
+[2018.02.11-23.12.01:131][218]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 32X32)
+[2018.02.11-23.12.01:131][218]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 32X32)
+[2018.02.11-23.12.01:132][218]LogTexture:Display: Building textures: Texture2D_22 (BGRA8, 32X32)
+[2018.02.11-23.12.01:132][218]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 32X32)
+[2018.02.11-23.12.01:132][218]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 32X32)
+[2018.02.11-23.12.01:133][218]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 32X32)
+[2018.02.11-23.12.01:133][218]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 32X32)
+[2018.02.11-23.12.01:133][218]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 32X32)
+[2018.02.11-23.12.01:133][218]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 32X32)
+[2018.02.11-23.12.01:134][218]LogTexture:Display: Building textures: Texture2D_24 (BGRA8, 32X32)
+[2018.02.11-23.12.01:134][218]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 32X32)
+[2018.02.11-23.12.01:134][218]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 32X32)
+[2018.02.11-23.12.01:135][218]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 32X32)
+[2018.02.11-23.12.01:135][218]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 32X32)
+[2018.02.11-23.12.01:136][218]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 32X32)
+[2018.02.11-23.12.01:136][218]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 32X32)
+[2018.02.11-23.12.01:136][218]LogTexture:Display: Building textures: Texture2D_25 (BGRA8, 32X32)
+[2018.02.11-23.12.01:137][218]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 32X32)
+[2018.02.11-23.12.01:137][218]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 32X32)
+[2018.02.11-23.12.01:137][218]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 32X32)
+[2018.02.11-23.12.02:030][218]LogSavePackage: Save=1188.72ms
+[2018.02.11-23.12.02:030][218]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1C64107954D8DD829ED6FE4ACDB739473.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.11-23.12.02:037][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.11-23.12.02:118][218]LogFileHelpers: Saving map 'NewDistrito1' took 1.438
+[2018.02.11-23.12.02:216][218]LogSavePackage: Save=78.64ms
+[2018.02.11-23.12.02:216][218]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/grass_grass_0105_02_previewABF240A74D99AC62B1ECBEACB6AB9CB6.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/grass_grass_0105_02_preview.uasset'
+[2018.02.11-23.12.02:227][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/grass_grass_0105_02_preview.uasset
+[2018.02.11-23.12.04:726][218]LogSavePackage: Save=2457.03ms
+[2018.02.11-23.12.04:727][218]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/sea-grass-clipart-lawn-5334D385B478C6AED312913A9FD657804.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/sea-grass-clipart-lawn-5.uasset'
+[2018.02.11-23.12.04:735][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/sea-grass-clipart-lawn-5.uasset
+[2018.02.11-23.12.04:959][218]LogSavePackage: Save=207.65ms
+[2018.02.11-23.12.04:959][218]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/tileable-grass_clover_tt7010116-lush156E4A6844695AD72C170A97AD11892D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/tileable-grass_clover_tt7010116-lush.uasset'
+[2018.02.11-23.12.04:965][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/tileable-grass_clover_tt7010116-lush.uasset
+[2018.02.11-23.12.04:978][218]LogSavePackage: Save=4.58ms
+[2018.02.11-23.12.04:978][218]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Grass1_LayerInfo7A6AD6E049AE9BAC92AB9589CFB974EC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Grass1_LayerInfo.uasset'
+[2018.02.11-23.12.04:984][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Grass1_LayerInfo.uasset
+[2018.02.11-23.12.04:996][218]LogSavePackage: Save=5.12ms
+[2018.02.11-23.12.04:996][218]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Grass2_LayerInfo381B1689465895F7D737FA98126FDA51.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Grass2_LayerInfo.uasset'
+[2018.02.11-23.12.05:002][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Grass2_LayerInfo.uasset
+[2018.02.11-23.12.05:015][218]LogSavePackage: Save=4.98ms
+[2018.02.11-23.12.05:015][218]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Grass3_LayerInfo517BEE0242129B92E0F6BBA280355EBE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Grass3_LayerInfo.uasset'
+[2018.02.11-23.12.05:020][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Grass3_LayerInfo.uasset
+[2018.02.11-23.12.05:166][218]LogSavePackage: Save=133.34ms
+[2018.02.11-23.12.05:166][218]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Street24B4144B0345C8BB6EEEA789A98A3E8638.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Street24.uasset'
+[2018.02.11-23.12.05:172][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Street24.uasset
+[2018.02.11-23.12.05:183][218]LogSavePackage: Save=4.82ms
+[2018.02.11-23.12.05:183][218]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Street1_LayerInfo56F897D9402684334D5309994070E221.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Street1_LayerInfo.uasset'
+[2018.02.11-23.12.05:190][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/Street1_LayerInfo.uasset
+[2018.02.11-23.16.51:281][229]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroFuente_PART)
+[2018.02.11-23.17.09:790][ 93]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-23.17.09:831][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.17.09:831][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-23.17.09:831][ 93]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 1:17:09 AM)
+[2018.02.11-23.17.09:832][ 93]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-23.17.09:885][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052852s)
+[2018.02.11-23.17.09:886][ 93]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-23.17.09:886][ 93]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2018.02.11-23.17.09:886][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.054300s)
+[2018.02.11-23.17.09:920][ 93]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-23.17.09:930][ 93]LogInit: FAudioDevice initialized.
+[2018.02.11-23.17.09:969][ 93]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-23.17.09:991][ 93]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-00.17.09
+[2018.02.11-23.17.09:994][ 93]LogWorld: Bringing up level for play took: 0.024022
+[2018.02.11-23.17.10:003][ 93]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.582
+[2018.02.11-23.17.10:004][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.17.14:754][653]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.17.14:801][653]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.18.15:945][568]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong1.phong1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.02.11-23.18.15:968][568]LogMaterial: Missing cached shader map for material phong1, compiling. 
+[2018.02.11-23.18.15:999][568]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/wire_108008137.wire_108008137 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.02.11-23.18.16:001][568]LogMaterial: Missing cached shader map for material wire_108008137, compiling. 
+[2018.02.11-23.18.16:025][568]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong2.phong2 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.02.11-23.18.16:027][568]LogMaterial: Missing cached shader map for material phong2, compiling. 
+[2018.02.11-23.18.16:051][568]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong3.phong3 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.02.11-23.18.16:053][568]LogMaterial: Missing cached shader map for material phong3, compiling. 
+[2018.02.11-23.18.22:703][937]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-23.18.22:764][937]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.18.22:764][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-23.18.22:764][937]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 1:18:22 AM)
+[2018.02.11-23.18.22:765][937]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-23.18.22:858][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092840s)
+[2018.02.11-23.18.22:859][937]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-23.18.22:859][937]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2018.02.11-23.18.22:860][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.094481s)
+[2018.02.11-23.18.22:913][937]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-23.18.22:930][937]LogInit: FAudioDevice initialized.
+[2018.02.11-23.18.22:979][937]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-23.18.23:016][937]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-00.18.23
+[2018.02.11-23.18.23:021][937]LogWorld: Bringing up level for play took: 0.039801
+[2018.02.11-23.18.23:038][937]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.453
+[2018.02.11-23.18.23:039][937]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.18.31:912][849]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.18.31:955][849]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.18.33:385][  9]Cmd: TRANSACTION UNDO
+[2018.02.11-23.18.33:385][  9]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.18.33:388][  9]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.18.34:331][ 64]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.18.34:332][ 64]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.18.34:332][ 64]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.18.34:332][ 64]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.19.06:671][834]Cmd: TRANSACTION UNDO
+[2018.02.11-23.19.06:671][834]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.19.06:675][834]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.19.08:058][942]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.19.08:058][942]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.19.08:058][942]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.19.08:058][942]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.19.16:794][859]Cmd: TRANSACTION UNDO
+[2018.02.11-23.19.16:794][859]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.19.16:798][859]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.19.17:150][871]Cmd: TRANSACTION UNDO
+[2018.02.11-23.19.17:150][871]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.19.17:155][871]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.19.18:258][947]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.19.18:258][947]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.19.18:258][947]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.19.18:258][947]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.19.26:056][828]Cmd: TRANSACTION UNDO
+[2018.02.11-23.19.26:056][828]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.19.26:060][828]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.19.27:074][894]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.19.27:074][894]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.19.27:074][894]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.19.27:074][894]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.19.53:910][931]Cmd: TRANSACTION UNDO
+[2018.02.11-23.19.53:910][931]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.19.53:913][931]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.19.55:225][ 33]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.19.55:225][ 33]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.19.55:225][ 33]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.19.55:225][ 33]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.20.02:612][861]Cmd: TRANSACTION UNDO
+[2018.02.11-23.20.02:612][861]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.20.02:616][861]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.20.03:619][923]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.20.03:619][923]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.20.03:619][923]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.20.03:619][923]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.20.16:374][300]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.02.11-23.20.31:547][865]Cmd: DELETE
+[2018.02.11-23.20.31:547][865]Cmd: ACTOR DELETE
+[2018.02.11-23.20.31:549][865]LogEditorActor: Deleted Actor: InstancedFoliageActor
+[2018.02.11-23.20.31:569][865]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.02.11-23.20.50:199][892]Cmd: TRANSACTION UNDO
+[2018.02.11-23.20.50:199][892]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.20.50:202][892]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.20.50:705][932]Cmd: TRANSACTION UNDO
+[2018.02.11-23.20.50:705][932]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.20.50:712][932]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.20.51:078][957]Cmd: TRANSACTION UNDO
+[2018.02.11-23.20.51:078][957]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.20.51:092][957]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.20.51:533][989]Cmd: TRANSACTION UNDO
+[2018.02.11-23.20.51:533][989]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.20.51:547][989]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.20.52:618][ 66]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.20.52:618][ 66]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.20.52:618][ 66]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.20.52:618][ 66]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.21.41:923][249]Cmd: TRANSACTION UNDO
+[2018.02.11-23.21.41:923][249]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.21.41:927][249]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.21.43:278][346]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.21.43:278][346]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.21.43:278][346]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.21.43:278][346]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.21.54:239][526]Cmd: TRANSACTION UNDO
+[2018.02.11-23.21.54:239][526]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.21.54:243][526]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.21.55:229][581]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.21.55:229][581]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.21.55:229][581]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.21.55:229][581]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.22.06:894][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara4)
+[2018.02.11-23.23.12:435][401]Cmd: TRANSACTION UNDO
+[2018.02.11-23.23.12:435][401]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.23.12:438][401]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.23.13:797][500]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.23.13:797][500]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.23.13:797][500]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.23.13:797][500]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.23.20:132][191]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.02.11-23.23.20:438][223]Cmd: TRANSACTION UNDO
+[2018.02.11-23.23.20:438][223]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.02.11-23.23.20:441][223]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.23.21:423][283]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.23.21:423][283]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.23.21:423][283]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.23.21:423][283]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.23.21:515][294]Cmd: TRANSACTION UNDO
+[2018.02.11-23.23.21:515][294]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.23.21:519][294]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.23.22:554][363]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.23.22:554][363]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.23.22:554][363]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.23.22:554][363]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.23.31:807][383]Cmd: TRANSACTION UNDO
+[2018.02.11-23.23.31:807][383]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.23.31:811][383]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.23.32:778][439]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.23.32:778][439]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.23.32:778][439]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.23.32:778][439]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.23.33:406][513]Cmd: TRANSACTION UNDO
+[2018.02.11-23.23.33:406][513]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.23.33:410][513]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.23.34:417][587]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.23.34:417][587]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.23.34:417][587]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.23.34:417][587]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.23.35:768][746]Cmd: TRANSACTION UNDO
+[2018.02.11-23.23.35:768][746]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.23.35:772][746]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.23.36:755][818]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.23.36:755][818]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.23.36:755][818]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.23.36:755][818]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.23.41:806][344]Cmd: TRANSACTION UNDO
+[2018.02.11-23.23.41:806][344]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.23.41:809][344]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.23.42:137][355]Cmd: TRANSACTION UNDO
+[2018.02.11-23.23.42:137][355]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.23.42:142][355]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.23.43:320][438]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.23.43:320][438]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.23.43:320][438]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.23.43:320][438]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.01:305][449]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.01:305][449]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.01:308][449]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.02:274][513]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.02:274][513]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.02:274][513]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.02:274][513]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.03:112][613]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.03:112][613]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.03:115][613]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.04:097][686]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.04:097][686]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.04:097][686]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.04:097][686]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.04:783][767]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.04:783][767]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.04:786][767]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.05:763][840]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.05:763][840]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.05:763][840]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.05:763][840]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.06:072][877]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.06:072][877]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.06:076][877]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.07:119][957]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.07:119][957]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.07:119][957]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.07:119][957]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.07:277][976]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.07:277][976]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.07:281][976]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.08:247][ 49]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.08:247][ 49]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.08:247][ 49]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.08:247][ 49]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.09:970][238]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.09:970][238]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.09:973][238]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.10:978][301]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.10:978][301]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.10:978][301]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.10:978][301]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.15:355][755]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.15:355][755]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.15:358][755]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.16:488][831]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.16:488][831]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.16:488][831]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.16:488][831]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.19:458][156]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.19:458][156]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.19:462][156]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.19:713][169]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.19:713][169]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.19:717][169]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.20:759][241]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.20:759][241]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.20:768][241]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.21:733][312]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.21:733][312]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.21:733][312]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.21:733][312]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.21:749][314]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.21:749][314]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.21:753][314]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.22:682][381]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.22:682][381]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.22:687][381]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.23:688][455]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.23:688][455]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.23:692][455]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.24:686][530]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.24:686][530]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.24:686][530]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.24:686][530]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.24:819][546]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.24:819][546]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.24:823][546]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.25:802][619]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.25:802][619]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.25:802][619]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.25:802][619]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.28:111][886]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.28:111][886]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.28:114][886]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.29:109][951]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.29:109][951]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.29:109][951]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.29:109][951]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.36:342][714]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.36:342][714]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.36:345][714]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.37:303][761]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.37:303][761]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.37:303][761]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.37:303][761]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.38:499][903]Cmd: TRANSACTION UNDO
+[2018.02.11-23.24.38:499][903]LogEditorTransaction: Undo Foliage Editing
+[2018.02.11-23.24.38:502][903]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.24.39:472][976]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.24.39:472][976]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.24.39:472][976]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.02.11-23.24.39:472][976]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.24.50:491][255]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-23.24.50:537][255]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.24.50:537][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-23.24.50:537][255]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 1:24:50 AM)
+[2018.02.11-23.24.50:538][255]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-23.24.50:596][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058005s)
+[2018.02.11-23.24.50:596][255]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-23.24.50:597][255]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2018.02.11-23.24.50:597][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.059358s)
+[2018.02.11-23.24.50:631][255]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-23.24.50:641][255]LogInit: FAudioDevice initialized.
+[2018.02.11-23.24.50:675][255]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-23.24.50:700][255]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-00.24.50
+[2018.02.11-23.24.50:703][255]LogWorld: Bringing up level for play took: 0.026298
+[2018.02.11-23.24.50:713][255]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.128
+[2018.02.11-23.24.50:714][255]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.25.25:509][368]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.25.25:549][368]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.25.27:828][491]LogSavePackage: Save=1128.00ms
+[2018.02.11-23.25.27:828][491]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito157FA412D44191345D344F293B407C908.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.11-23.25.27:834][491]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.11-23.29.32:040][610]LogMaterialEditor: Applying material LandsCape_MAT
+[2018.02.11-23.29.32:696][610]LogMaterial: Missing cached shader map for material Grass_Texture, compiling. 
+[2018.02.11-23.29.32:739][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.32:760][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.32:781][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.32:815][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.32:848][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.32:875][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.32:902][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.32:929][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.32:958][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.32:989][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.32:996][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.33:006][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.33:015][610]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.11-23.29.33:066][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandsCape_MAT, compiling. 
+[2018.02.11-23.29.33:890][610]TextureStreamingBuild:Display: Compiling optional shaders took 0.831 seconds.
+[2018.02.11-23.29.34:772][680]LogMaterialEditor: Saving and Compiling material LandsCape_MAT
+[2018.02.11-23.29.36:064][680]LogSavePackage: Save=31.82ms
+[2018.02.11-23.29.36:064][680]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LandsCape_MATC8BFD9FC43A094A844BB83A21EE47A23.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset'
+[2018.02.11-23.29.36:072][680]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset
+[2018.02.11-23.29.36:088][680]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.02.11-23.29.36:088][680]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.02.11-23.29.36:088][680]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.02.11-23.29.36:088][680]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.11-23.29.41:464][ 64]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-23.29.41:527][ 64]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.29.41:527][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-23.29.41:527][ 64]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 1:29:41 AM)
+[2018.02.11-23.29.41:528][ 64]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-23.29.41:614][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085974s)
+[2018.02.11-23.29.41:615][ 64]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-23.29.41:615][ 64]LogPlayLevel: PIE: World Init took: (0.001646s)
+[2018.02.11-23.29.41:616][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.088327s)
+[2018.02.11-23.29.41:664][ 64]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-23.29.41:681][ 64]LogInit: FAudioDevice initialized.
+[2018.02.11-23.29.41:730][ 64]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-23.29.41:763][ 64]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-00.29.41
+[2018.02.11-23.29.41:767][ 64]LogWorld: Bringing up level for play took: 0.035831
+[2018.02.11-23.29.41:781][ 64]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 1.196
+[2018.02.11-23.29.41:782][ 64]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.29.42:952][138]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.29.42:999][138]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-23.29.47:826][401]Cmd: QUIT_EDITOR
+[2018.02.11-23.29.48:040][401]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.11-23.29.48:067][401]LogExit: Preparing to exit.
+[2018.02.11-23.29.48:568][401]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' was aborted.
+[2018.02.11-23.29.48:669][401]LogExit: Editor shut down
+[2018.02.11-23.29.48:675][401]LogExit: Transaction tracking system shut down
+[2018.02.11-23.29.48:971][401]LogObj: Freed 0b from 0 cluster array pools.
+[2018.02.11-23.29.48:971][401]LogExit: Object subsystem successfully closed.
+[2018.02.11-23.29.48:996][401]LogD3D11RHI: Shutdown
+[2018.02.11-23.29.48:996][401]LogD3D11RHI: CleanupD3DDevice
+[2018.02.11-23.29.49:154][401]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.11-23.29.49:201][401]LogModuleManager: Shutting down and abandoning module MaterialEditor (540)
+[2018.02.11-23.29.49:201][401]LogModuleManager: Shutting down and abandoning module DistCurveEditor (538)
+[2018.02.11-23.29.49:201][401]LogModuleManager: Shutting down and abandoning module Cascade (536)
+[2018.02.11-23.29.49:201][401]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (534)
+[2018.02.11-23.29.49:201][401]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.02.11-23.29.49:201][401]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (530)
+[2018.02.11-23.29.49:201][401]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2018.02.11-23.29.49:201][401]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2018.02.11-23.29.49:234][401]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.02.11-23.29.49:234][401]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.02.11-23.29.49:234][401]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.02.11-23.29.49:234][401]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.02.11-23.29.49:235][401]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.02.11-23.29.49:235][401]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.02.11-23.29.49:235][401]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.02.11-23.29.49:235][401]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.02.11-23.29.49:236][401]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' was aborted.
+[2018.02.11-23.29.49:236][401]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' was aborted.
+[2018.02.11-23.29.49:236][401]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' was aborted.
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.02.11-23.29.49:236][401]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.02.11-23.29.49:237][401]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.02.11-23.29.49:237][401]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.02.11-23.29.49:237][401]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.02.11-23.29.49:237][401]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.02.11-23.29.49:237][401]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.02.11-23.29.49:441][401]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.02.11-23.29.49:441][401]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.02.11-23.29.49:441][401]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.02.11-23.29.49:442][401]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.02.11-23.29.49:508][401]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.02.11-23.29.49:508][401]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.02.11-23.29.49:508][401]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.02.11-23.29.49:508][401]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.02.11-23.29.49:508][401]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.02.11-23.29.49:508][401]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.02.11-23.29.49:508][401]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.02.11-23.29.49:508][401]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.02.11-23.29.49:508][401]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.02.11-23.29.49:508][401]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.02.11-23.29.49:517][401]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.02.11-23.29.49:518][401]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.02.11-23.29.49:661][401]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.02.11-23.29.49:662][401]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.02.11-23.29.49:663][401]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.02.11-23.29.49:664][401]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.02.11-23.29.49:664][401]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.02.11-23.29.49:665][401]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.02.11-23.29.49:665][401]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.02.11-23.29.49:665][401]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.02.11-23.29.49:665][401]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.02.11-23.29.49:665][401]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.02.11-23.29.49:665][401]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.02.11-23.29.49:767][401]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.02.11-23.29.49:867][401]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.02.11-23.29.49:867][401]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.02.11-23.29.49:867][401]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.02.11-23.29.49:867][401]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.02.11-23.29.49:867][401]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.02.11-23.29.49:867][401]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.02.11-23.29.49:869][401]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.02.11-23.29.49:869][401]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.02.11-23.29.49:869][401]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.02.11-23.29.49:869][401]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.02.11-23.29.49:874][401]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.02.11-23.29.49:874][401]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.02.11-23.29.49:874][401]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.02.11-23.29.49:874][401]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.02.11-23.29.49:874][401]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.02.11-23.29.49:874][401]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.02.11-23.29.49:875][401]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.02.11-23.29.49:881][401]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.02.11-23.29.49:881][401]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.02.11-23.29.49:881][401]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.02.11-23.29.49:881][401]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.02.11-23.29.49:881][401]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.02.11-23.29.49:881][401]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.02.11-23.29.50:038][401]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.11-23.29.50:038][401]LogDirectoryWatcher: A directory notification for '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' was aborted.
+[2018.02.11-23.29.50:038][401]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.11-23.29.50:038][401]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.02.11-23.29.50:042][401]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.02.11-23.29.50:043][401]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.02.11-23.29.50:043][401]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.02.11-23.29.50:043][401]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.02.11-23.29.50:043][401]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.02.11-23.29.50:043][401]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.02.11-23.29.50:043][401]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.02.11-23.29.50:043][401]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.02.11-23.29.50:043][401]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.11-23.29.50:079][401]LogDerivedDataCache: Shutdown
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.11-23.29.50:079][401]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.11-23.29.50:080][401]LogOnline:Display: Unloading online subsystem: NULL
+[2018.02.11-23.29.50:080][401]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.11-23.29.50:081][401]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.11-23.29.50:081][401]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.11-23.29.50:081][401]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D79C0F6-477E-B3E2-16FA-8293E2B9DEF6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=35b1c70744b4fb2b9b36cd82c73afb2d%7C429d52eb30ed4995a179251f3e5c9523%7C4df19abe-310a-492d-afeb-8a554a180440&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.11-23.29.50:093][401]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.11-23.29.50:095][401]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.02.11-23.29.50:095][401]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.02.11-23.29.50:095][401]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.02.11-23.29.50:095][401]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.02.11-23.29.50:095][401]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.02.11-23.29.50:095][401]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.02.11-23.29.50:095][401]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.02.11-23.29.50:095][401]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.02.11-23.29.50:096][401]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.02.11-23.29.50:096][401]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.02.11-23.29.50:096][401]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.02.11-23.29.50:096][401]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.02.11-23.29.50:097][401]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.02.11-23.29.50:097][401]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.02.11-23.29.50:097][401]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.02.11-23.29.50:097][401]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.11-23.29.50:097][401]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.11-23.29.50:097][401]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.11-23.29.50:100][401]LogExit: Exiting.
+[2018.02.11-23.29.50:141][401]Log file closed, 02/12/18 00:29:50
