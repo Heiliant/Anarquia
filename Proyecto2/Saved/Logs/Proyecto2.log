@@ -613,3 +613,814 @@ LogInit: Object subsystem initialized
 [2018.02.11-19.22.11:653][651]LogSavePackage: Save=181.92ms
 [2018.02.11-19.22.11:653][651]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/papelera_textura2E12E7584F39906DB52300BAC8BDFF73.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/papelera_textura.uasset'
 [2018.02.11-19.22.11:662][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/papelera_textura.uasset
+[2018.02.11-19.27.11:162][207]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/lata_A_texturizada.fbx)
+[2018.02.11-19.27.11:167][207]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.11-19.27.11:167][207]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.11-19.27.11:167][207]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.11-19.27.11:167][207]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.11-19.27.11:167][207]LogFbx: ItemName: Material, ItemCount : 1
+[2018.02.11-19.27.11:168][207]LogFbx: ItemName: Texture, ItemCount : 1
+[2018.02.11-19.27.11:168][207]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.11-19.27.11:168][207]LogFbx: ItemName: Video, ItemCount : 1
+[2018.02.11-19.27.11:172][207]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/lata_A_texturizada.fbx
+[2018.02.11-19.27.11:182][207]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.27.19:383][207]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/lata_A_texturizada.fbx
+[2018.02.11-19.27.19:393][207]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.27.19:396][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/phong1'
+[2018.02.11-19.27.19:396][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/phong1'
+[2018.02.11-19.27.19:400][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/textura_lata_A'
+[2018.02.11-19.27.19:400][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/textura_lata_A'
+[2018.02.11-19.27.19:474][207]LogTexture:Display: Building textures: textura_lata_A (AutoDXT, 1920X1920)
+[2018.02.11-19.27.19:967][207]LogMaterial: Missing cached shader map for material phong1, compiling. 
+[2018.02.11-19.27.19:984][207]LogFbx:Warning: Triangulating static mesh Lata
+[2018.02.11-19.27.20:012][207]LogStaticMesh: Building static mesh lata_A_texturizada...
+[2018.02.11-19.27.20:016][207]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/lata_A_texturizada.lata_A_texturizada
+[2018.02.11-19.27.20:041][207]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.11-19.27.20:106][207]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 284 triangles, Range [-0.3, 0.5], lata_A_texturizada
+[2018.02.11-19.27.20:106][207]LogStaticMesh:Warning: Main thread blocked for 0.052s for async distance field build of lata_A_texturizada to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.02.11-19.27.20:113][207]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/lata_B_texturizada.fbx)
+[2018.02.11-19.27.20:125][207]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/lata_B_texturizada.fbx
+[2018.02.11-19.27.20:136][207]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.27.20:139][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/wire_108008137'
+[2018.02.11-19.27.20:139][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/wire_108008137'
+[2018.02.11-19.27.20:144][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/textura_lata_B'
+[2018.02.11-19.27.20:144][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/textura_lata_B'
+[2018.02.11-19.27.20:219][207]LogTexture:Display: Building textures: textura_lata_B (AutoDXT, 1920X1920)
+[2018.02.11-19.27.20:821][207]LogMaterial: Missing cached shader map for material wire_108008137, compiling. 
+[2018.02.11-19.27.20:841][207]LogFbx:Warning: Triangulating static mesh papelera:Lata
+[2018.02.11-19.27.20:876][207]LogStaticMesh: Building static mesh lata_B_texturizada...
+[2018.02.11-19.27.20:880][207]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/lata_B_texturizada.lata_B_texturizada
+[2018.02.11-19.27.20:907][207]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.11-19.27.20:971][207]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 284 triangles, Range [-0.3, 0.5], lata_B_texturizada
+[2018.02.11-19.27.20:971][207]LogStaticMesh:Warning: Main thread blocked for 0.061s for async distance field build of lata_B_texturizada to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.02.11-19.27.20:982][207]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/lata_J_texturizada.fbx)
+[2018.02.11-19.27.20:993][207]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/lata_J_texturizada.fbx
+[2018.02.11-19.27.21:006][207]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.27.21:009][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/phong2'
+[2018.02.11-19.27.21:009][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/phong2'
+[2018.02.11-19.27.21:015][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/textura_lata_J'
+[2018.02.11-19.27.21:016][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/textura_lata_J'
+[2018.02.11-19.27.21:112][207]LogTexture:Display: Building textures: textura_lata_J (AutoDXT, 1920X1920)
+[2018.02.11-19.27.21:800][207]LogMaterial: Missing cached shader map for material phong2, compiling. 
+[2018.02.11-19.27.21:829][207]LogFbx:Warning: Triangulating static mesh Lata1
+[2018.02.11-19.27.21:866][207]LogStaticMesh: Building static mesh lata_J_texturizada...
+[2018.02.11-19.27.21:872][207]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/lata_J_texturizada.lata_J_texturizada
+[2018.02.11-19.27.21:900][207]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.11-19.27.21:963][207]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 284 triangles, Range [-0.3, 0.5], lata_J_texturizada
+[2018.02.11-19.27.21:963][207]LogStaticMesh:Warning: Main thread blocked for 0.062s for async distance field build of lata_J_texturizada to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.02.11-19.27.21:973][207]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/lata_X_texturizada.fbx)
+[2018.02.11-19.27.21:988][207]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/lata_X_texturizada.fbx
+[2018.02.11-19.27.22:002][207]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.27.22:005][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/phong3'
+[2018.02.11-19.27.22:005][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/phong3'
+[2018.02.11-19.27.22:011][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/textura_lata_X'
+[2018.02.11-19.27.22:011][207]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/textura_lata_X'
+[2018.02.11-19.27.22:124][207]LogTexture:Display: Building textures: textura_lata_X (AutoDXT, 1920X1920)
+[2018.02.11-19.27.22:816][207]LogMaterial: Missing cached shader map for material phong3, compiling. 
+[2018.02.11-19.27.22:843][207]LogFbx:Warning: Triangulating static mesh Lata2
+[2018.02.11-19.27.22:879][207]LogStaticMesh: Building static mesh lata_X_texturizada...
+[2018.02.11-19.27.22:887][207]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/lata_X_texturizada.lata_X_texturizada
+[2018.02.11-19.27.22:916][207]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.11-19.27.22:980][207]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 284 triangles, Range [-0.3, 0.5], lata_X_texturizada
+[2018.02.11-19.27.22:980][207]LogStaticMesh:Warning: Main thread blocked for 0.063s for async distance field build of lata_X_texturizada to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.02.11-19.27.53:297][ 57]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2018.02.11-19.27.53:297][ 57]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Lata' or package '/Engine/Transient'.
+[2018.02.11-19.27.53:297][ 57]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2018.02.11-19.27.53:297][ 57]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Lata_Final_C_1' or package '/Engine/Transient'.
+[2018.02.11-19.27.53:297][ 57]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Lata_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.02.11-19.27.53:297][ 57]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.02.11-19.27.53:297][ 57]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2018.02.11-19.27.53:298][ 57]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Lata_Final_C_0' or package '/Engine/Transient'.
+[2018.02.11-19.27.53:298][ 57]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Lata_Final_C_201' or package '/Engine/Transient'.
+[2018.02.11-19.27.53:298][ 57]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Lata_Final_C_200' or package '/Engine/Transient'.
+[2018.02.11-19.28.03:814][973]LogActorFactory: Actor Factory created lata_A_texturizada
+[2018.02.11-19.28.04:618][ 35]LogActorFactory: Actor Factory created lata_A_texturizada
+[2018.02.11-19.28.07:432][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lata_A_texturizada)
+[2018.02.11-19.28.07:946][355]Cmd: DELETE
+[2018.02.11-19.28.07:946][355]Cmd: ACTOR DELETE
+[2018.02.11-19.28.07:947][355]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.11-19.28.07:963][355]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.02.11-19.28.17:011][397]LogActorFactory: Actor Factory created lata_A_texturizada
+[2018.02.11-19.28.17:859][480]LogActorFactory: Actor Factory created lata_A_texturizada
+[2018.02.11-19.28.20:844][793]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-19.28.20:892][793]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.28.20:892][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-19.28.20:892][793]PIE: New page: PIE session: NewDistrito1 (Feb 11, 2018, 9:28:20 PM)
+[2018.02.11-19.28.20:894][793]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-19.28.20:939][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044199s)
+[2018.02.11-19.28.20:939][793]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-19.28.20:939][793]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2018.02.11-19.28.20:940][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.045407s)
+[2018.02.11-19.28.20:970][793]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-19.28.20:980][793]LogInit: FAudioDevice initialized.
+[2018.02.11-19.28.21:014][793]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-19.28.21:029][793]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-20.28.21
+[2018.02.11-19.28.21:031][793]LogWorld: Bringing up level for play took: 0.015718
+[2018.02.11-19.28.21:042][793]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.449
+[2018.02.11-19.28.21:042][793]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.28.41:143][184]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.28.41:196][184]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.29.23:268][ 93]LogSavePackage: Save=12.92ms
+[2018.02.11-19.29.23:268][ 93]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/lata_A_texturizadaC27E91884623404A64A79F9D43F5F568.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/lata_A_texturizada.uasset'
+[2018.02.11-19.29.23:274][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/lata_A_texturizada.uasset
+[2018.02.11-19.29.23:308][ 93]LogSavePackage: Save=12.39ms
+[2018.02.11-19.29.23:308][ 93]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/lata_B_texturizadaC21086774DAF7E44981B7BAABA8C0AF3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/lata_B_texturizada.uasset'
+[2018.02.11-19.29.23:314][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/lata_B_texturizada.uasset
+[2018.02.11-19.29.23:352][ 93]LogSavePackage: Save=12.54ms
+[2018.02.11-19.29.23:352][ 93]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/lata_J_texturizada92E3D8B64A4B6C75625A3ABBC794592B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/lata_J_texturizada.uasset'
+[2018.02.11-19.29.23:358][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/lata_J_texturizada.uasset
+[2018.02.11-19.29.23:396][ 93]LogSavePackage: Save=12.57ms
+[2018.02.11-19.29.23:396][ 93]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/lata_X_texturizada001EF8B246DB2D9A62DCA4AA313926E1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/lata_X_texturizada.uasset'
+[2018.02.11-19.29.23:402][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/lata_X_texturizada.uasset
+[2018.02.11-19.29.23:437][ 93]LogSavePackage: Save=14.27ms
+[2018.02.11-19.29.23:437][ 93]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/phong1854ECB434206D0F8D3D7A18AE3987CE5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong1.uasset'
+[2018.02.11-19.29.23:444][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong1.uasset
+[2018.02.11-19.29.23:483][ 93]LogSavePackage: Save=14.68ms
+[2018.02.11-19.29.23:483][ 93]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/phong27D71E5734C4F2E4A656C98A0A71C5A96.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong2.uasset'
+[2018.02.11-19.29.23:490][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong2.uasset
+[2018.02.11-19.29.23:530][ 93]LogSavePackage: Save=14.20ms
+[2018.02.11-19.29.23:530][ 93]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/phong3D7475D414D0D9A2D137E18A45AD0983B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong3.uasset'
+[2018.02.11-19.29.23:537][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong3.uasset
+[2018.02.11-19.29.23:698][ 93]LogSavePackage: Save=145.82ms
+[2018.02.11-19.29.23:698][ 93]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/textura_lata_AC3851C164F0E5BA61A9BEC9B3AC7229D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/textura_lata_A.uasset'
+[2018.02.11-19.29.23:704][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/textura_lata_A.uasset
+[2018.02.11-19.29.23:862][ 93]LogSavePackage: Save=143.43ms
+[2018.02.11-19.29.23:863][ 93]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/textura_lata_BD082E978458DA9DFC5A1E8AD9995F872.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/textura_lata_B.uasset'
+[2018.02.11-19.29.23:868][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/textura_lata_B.uasset
+[2018.02.11-19.29.24:031][ 93]LogSavePackage: Save=147.75ms
+[2018.02.11-19.29.24:031][ 93]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/textura_lata_J51959698429FFE0A4FA600BE2C811187.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/textura_lata_J.uasset'
+[2018.02.11-19.29.24:036][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/textura_lata_J.uasset
+[2018.02.11-19.29.24:203][ 93]LogSavePackage: Save=151.57ms
+[2018.02.11-19.29.24:203][ 93]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/textura_lata_XCDD2A60F4FCEFF8AC4C74790EFA1FF58.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/textura_lata_X.uasset'
+[2018.02.11-19.29.24:210][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/textura_lata_X.uasset
+[2018.02.11-19.29.24:253][ 93]LogSavePackage: Save=18.28ms
+[2018.02.11-19.29.24:253][ 93]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/wire_10800813759B21D45424A77EB4F2BDEB3252147F6.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/wire_108008137.uasset'
+[2018.02.11-19.29.24:262][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/wire_108008137.uasset
+[2018.02.11-19.29.35:063][ 78]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.Botella_Final_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.35:063][ 78]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.Botella_Final_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.35:063][ 78]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.Botella_Final_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.35:063][ 78]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.Botella_Final_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.35:063][ 78]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.SKEL_Botella_Final_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.35:063][ 78]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.SKEL_Botella_Final_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.35:063][ 78]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.SKEL_Botella_Final_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.35:063][ 78]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.SKEL_Botella_Final_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.35:063][ 78]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.Botella_Final:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.35:063][ 78]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.Botella_Final:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.35:063][ 78]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.Botella_Final:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.35:063][ 78]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.Botella_Final:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.35:128][ 78]LogSavePackage: Save=15.08ms
+[2018.02.11-19.29.35:128][ 78]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/BotellaC3A5772A4CB6B5F877C50AABA1D46FDB.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella.uasset'
+[2018.02.11-19.29.35:134][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella.uasset
+[2018.02.11-19.29.35:173][ 78]LogSavePackage: Save=22.24ms
+[2018.02.11-19.29.35:173][ 78]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Botella_FinalE6EB1AC84365349303A3B8BA3465F5D6.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.uasset'
+[2018.02.11-19.29.35:179][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.uasset
+[2018.02.11-19.29.35:218][ 78]LogSavePackage: Save=5.50ms
+[2018.02.11-19.29.35:218][ 78]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Botella_FinalC225A2CB4F6C43E3AA42A38A1FE8BB2A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.uasset'
+[2018.02.11-19.29.35:225][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.uasset
+[2018.02.11-19.29.54:675][986]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.Botella_Final_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.54:675][986]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.Botella_Final_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.54:675][986]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.Botella_Final_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.54:675][986]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.Botella_Final_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.54:675][986]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.SKEL_Botella_Final_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.54:675][986]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.SKEL_Botella_Final_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.54:675][986]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.SKEL_Botella_Final_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.54:675][986]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.SKEL_Botella_Final_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.54:675][986]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.Botella_Final:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.54:675][986]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.Botella_Final:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.54:675][986]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.Botella_Final:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.54:675][986]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.Botella_Final:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Botella_Final.PackageMetaData'
+[2018.02.11-19.29.54:748][986]LogSavePackage: Save=19.08ms
+[2018.02.11-19.29.54:748][986]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Botella_FinalCEA06FD84DEC2493BA9547A0F1C3431E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.uasset'
+[2018.02.11-19.29.54:755][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella_Final.uasset
+[2018.02.11-19.29.54:787][986]LogSavePackage: Save=12.62ms
+[2018.02.11-19.29.54:787][986]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Botella6991BFF848A295E11C090AB313C31CCF.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella.uasset'
+[2018.02.11-19.29.54:793][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botellas/Botella.uasset
+[2018.02.11-19.29.55:055][986]LogSavePackage: Save=5.54ms
+[2018.02.11-19.29.55:055][986]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Botella_Final848E51B645F6B5461C814C842C37DAC9.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.uasset'
+[2018.02.11-19.29.55:060][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.uasset
+[2018.02.11-19.30.02:760][722]LogSavePackage: Save=12.20ms
+[2018.02.11-19.30.02:760][722]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LataB4428FCF43F15C771F4273863FBD839B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Lata.uasset'
+[2018.02.11-19.30.02:766][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/Lata.uasset
+[2018.02.11-19.30.10:318][509]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-19.30.10:357][509]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.30.10:357][509]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.11-19.30.10:357][509]LogPlayLevel: [PlayLevel] Compiling newDistrito1 before play...
+[2018.02.11-19.30.10:486][509]LogPlayLevel: PlayLevel: Blueprint regeneration took 128 ms (1 blueprints)
+[2018.02.11-19.30.10:486][509]PIE: New page: PIE session: NewDistrito1 (Feb 11, 2018, 9:30:10 PM)
+[2018.02.11-19.30.10:486][509]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-19.30.10:525][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038965s)
+[2018.02.11-19.30.10:526][509]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-19.30.10:526][509]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2018.02.11-19.30.10:526][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.039977s)
+[2018.02.11-19.30.10:556][509]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-19.30.10:565][509]LogInit: FAudioDevice initialized.
+[2018.02.11-19.30.10:601][509]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-19.30.10:616][509]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-20.30.10
+[2018.02.11-19.30.10:618][509]LogWorld: Bringing up level for play took: 0.015469
+[2018.02.11-19.30.10:626][509]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.033
+[2018.02.11-19.30.10:626][509]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.30.50:751][285]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.30.50:816][285]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.30.52:169][424]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroAgua_PART3)
+[2018.02.11-19.30.52:901][499]Cmd: DELETE
+[2018.02.11-19.30.52:901][499]Cmd: ACTOR DELETE
+[2018.02.11-19.30.52:902][499]LogEditorActor: Deleted Actor: Emitter
+[2018.02.11-19.30.52:917][499]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.02.11-19.30.57:722][ 23]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroAgua_PART2)
+[2018.02.11-19.30.58:980][164]Cmd: DELETE
+[2018.02.11-19.30.58:980][164]Cmd: ACTOR DELETE
+[2018.02.11-19.30.58:981][164]LogEditorActor: Deleted Actor: Emitter
+[2018.02.11-19.30.58:998][164]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.02.11-19.31.18:980][376]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2018.02.11-19.31.23:811][884]LogMeshUtilities: Finished distance field build in 4.7s - 64x64x64 distance field, 2408 triangles, Range [-0.1, 0.8], AnimTreeEd_PreviewFloor
+[2018.02.11-19.31.24:255][930]LogSavePackage: Save=15.21ms
+[2018.02.11-19.31.24:255][930]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroAgua_PART71C3991F46833D63FBE4DFAD5F1B7006.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.11-19.31.24:262][930]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.11-19.31.34:092][796]LogCascade: Quitting Cascade. FXSystem=0x000002249D19C720
+[2018.02.11-19.31.34:431][796]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_1 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.11-19.31.34:432][796]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.11-19.31.34:433][796]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CascadeParticleSystemComponent_0' or package '/Engine/Transient'.
+[2018.02.11-19.32.45:188][115]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.33.10:088][ 69]LogSavePackage: Save=13.56ms
+[2018.02.11-19.33.10:088][ 69]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART8A51EC7F4DA931D1FC27AD9C35647F06.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.33.10:095][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.33.11:096][189]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.33.11:380][223]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.33.11:844][273]LogSavePackage: Save=9.53ms
+[2018.02.11-19.33.11:844][273]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART35167A9F40EA366F16C6F88C8F4BB9A1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.33.11:848][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.33.17:617][872]Cmd: DELETE
+[2018.02.11-19.33.17:617][872]Cmd: ACTOR DELETE
+[2018.02.11-19.33.17:619][872]LogEditorActor: Deleted Actor: Emitter
+[2018.02.11-19.33.17:637][872]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.02.11-19.33.48:153][242]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.33.53:820][922]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.33.56:021][186]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.33.58:971][530]LogSavePackage: Save=12.35ms
+[2018.02.11-19.33.58:971][530]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART6C0E7BD449989C5EF6D1E3A8E4E99B1C.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.33.58:978][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.34.25:182][600]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.34.28:133][954]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.34.29:300][ 88]LogSavePackage: Save=13.42ms
+[2018.02.11-19.34.29:300][ 88]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART9B58C816490E60D37E41B49DD2114B67.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.34.29:307][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.35.06:652][457]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.35.14:054][345]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.35.16:620][646]LogSavePackage: Save=17.54ms
+[2018.02.11-19.35.16:620][646]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PARTB11E9EEA4FAEA3DDB417F7B2F94924DC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.35.16:627][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.35.23:643][459]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.35.26:488][794]LogSavePackage: Save=13.86ms
+[2018.02.11-19.35.26:488][794]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART49D4FBD44B6904FD353C558F27E8038B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.35.26:494][794]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.35.40:255][332]LogSavePackage: Save=14.31ms
+[2018.02.11-19.35.40:255][332]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PARTCC2665A54DE800D0C955E2AD18910E7B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.35.40:262][332]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.35.46:440][ 18]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.35.49:709][402]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.36.01:055][747]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.02.11-19.36.01:854][818]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroFuente_PART)
+[2018.02.11-19.36.07:406][469]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.36.08:926][645]LogSavePackage: Save=16.84ms
+[2018.02.11-19.36.08:926][645]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART0859F83047001AFC443759B63B76AAD4.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.36.08:933][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.36.12:757][ 98]LogSavePackage: Save=11.64ms
+[2018.02.11-19.36.12:757][ 98]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART63737FEF4DF441F941A392A9383CD1C9.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.36.12:763][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.36.13:272][159]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.36.13:597][198]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.36.19:861][800]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroFuente_PART)
+[2018.02.11-19.36.20:429][861]Cmd: DELETE
+[2018.02.11-19.36.20:429][861]Cmd: ACTOR DELETE
+[2018.02.11-19.36.20:431][861]LogEditorActor: Deleted Actor: Emitter
+[2018.02.11-19.36.20:448][861]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.02.11-19.36.37:514][855]LogSavePackage: Save=12.11ms
+[2018.02.11-19.36.37:514][855]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART3938808542DF7F76659EB7A5F60F527F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.36.37:518][855]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.36.52:689][621]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.36.53:106][671]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.36.53:647][736]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.36.54:865][882]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.36.55:290][933]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.36.56:273][ 51]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.36.57:572][201]LogSavePackage: Save=13.66ms
+[2018.02.11-19.36.57:572][201]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART103B93D14B944D360C7A56BAC314C10C.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.36.57:579][201]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.36.57:700][210]LogSavePackage: Save=11.39ms
+[2018.02.11-19.36.57:700][210]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART7F6357274A795400518A12826BF87D58.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.36.57:705][210]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.37.01:049][592]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.37.10:101][671]LogSavePackage: Save=13.71ms
+[2018.02.11-19.37.10:101][671]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PARTF020750B43A3019E1CEF5897E1EF8236.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.37.10:109][671]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.37.24:783][155]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-19.37.24:824][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.37.24:824][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-19.37.24:824][155]PIE: New page: PIE session: NewDistrito1 (Feb 11, 2018, 9:37:24 PM)
+[2018.02.11-19.37.24:826][155]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-19.37.24:868][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041880s)
+[2018.02.11-19.37.24:869][155]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-19.37.24:869][155]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2018.02.11-19.37.24:869][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.043029s)
+[2018.02.11-19.37.24:899][155]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-19.37.24:909][155]LogInit: FAudioDevice initialized.
+[2018.02.11-19.37.24:947][155]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-19.37.24:962][155]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-20.37.24
+[2018.02.11-19.37.24:963][155]LogWorld: Bringing up level for play took: 0.015467
+[2018.02.11-19.37.24:972][155]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.379
+[2018.02.11-19.37.24:973][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.37.36:750][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.37.36:813][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.37.42:123][129]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroFuente_PART)
+[2018.02.11-19.37.43:021][227]Cmd: DELETE
+[2018.02.11-19.37.43:021][227]Cmd: ACTOR DELETE
+[2018.02.11-19.37.43:022][227]LogEditorActor: Deleted Actor: Emitter
+[2018.02.11-19.37.43:037][227]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.02.11-19.38.14:379][840]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.38.17:637][231]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.38.24:189][ 16]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.38.26:340][267]LogSavePackage: Save=14.64ms
+[2018.02.11-19.38.26:340][267]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PARTEF9B206F44470033778D1585A31B8369.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.38.26:347][267]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.38.55:691][563]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.38.59:099][972]LogParticles:Warning: MaxCount = 100640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.39.00:543][139]LogSavePackage: Save=14.56ms
+[2018.02.11-19.39.00:543][139]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART473659F842633A79EE5AF4B28AAF35E3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.39.00:550][139]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.39.09:518][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio16)
+[2018.02.11-19.39.09:932][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.11-19.39.20:038][168]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroFuente_PART)
+[2018.02.11-19.39.25:997][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.11-19.39.37:793][184]LogParticles:Warning: MaxCount = 100640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.39.40:376][494]LogParticles:Warning: MaxCount = 100640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.39.40:495][502]LogSavePackage: Save=15.34ms
+[2018.02.11-19.39.40:495][502]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART2DF75FBC4DD1AFBEAABD00BEB2B6E3AE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.39.40:502][502]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.39.51:427][627]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroFuente_PART)
+[2018.02.11-19.39.56:613][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.11-19.40.06:252][255]LogParticles:Warning: MaxCount = 100640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.40.23:083][201]LogParticles:Warning: MaxCount = 100640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.40.24:154][323]LogSavePackage: Save=13.81ms
+[2018.02.11-19.40.24:154][323]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PARTCC45F8444A2A2D8B45DD94B0B0AB9EF7.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.40.24:160][323]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.40.29:648][959]LogParticles:Warning: MaxCount = 100640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.40.31:889][222]LogSavePackage: Save=12.08ms
+[2018.02.11-19.40.31:889][222]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART3272E6314150A805C857A3A0764E3AB9.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.40.31:896][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.40.46:922][ 23]LogParticles:Warning: MaxCount = 100640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.41.00:940][697]LogSavePackage: Save=13.84ms
+[2018.02.11-19.41.00:940][697]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PARTB3822DA84A48E0FCB151E58B75271FED.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.41.00:947][697]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.41.05:775][244]LogParticles:Warning: MaxCount = 100640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.41.17:848][691]LogParticles:Warning: MaxCount = 100640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.41.18:947][823]LogParticles:Warning: MaxCount = 60640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.41.20:366][987]LogSavePackage: Save=13.76ms
+[2018.02.11-19.41.20:366][987]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PARTD7B929A1475BDA89626C2F9353224740.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.41.20:372][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.41.35:818][729]LogParticles:Warning: MaxCount = 60640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.41.36:853][847]LogSavePackage: Save=14.26ms
+[2018.02.11-19.41.36:853][847]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART1F345C714C3A9E3BDD34E7985A39BAFE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.41.36:860][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.41.42:595][491]LogParticles:Warning: MaxCount = 60640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.41.42:931][531]LogParticles:Warning: MaxCount = 60640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.41.43:656][618]LogParticles:Warning: MaxCount = 60640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.41.44:764][751]LogParticles:Warning: MaxCount = 60640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.41.45:098][791]LogParticles:Warning: MaxCount = 60640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.41.46:731][987]LogParticles:Warning: MaxCount = 60640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.41.46:840][994]LogSavePackage: Save=13.84ms
+[2018.02.11-19.41.46:840][994]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PARTCC15322E4F91DAD76DAF8684A2C0B4EF.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.41.46:847][994]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.41.57:814][246]LogParticles:Warning: MaxCount = 60640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.42.00:591][579]LogParticles:Warning: MaxCount = 80640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.42.00:692][585]LogSavePackage: Save=13.81ms
+[2018.02.11-19.42.00:692][585]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART6DF0FAFE4A48362D229F9A90307235B8.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.42.00:699][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.43.04:897][107]LogParticles:Warning: MaxCount = 80640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.43.06:572][308]LogParticles:Warning: MaxCount = 80640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.43.07:739][442]LogSavePackage: Save=14.08ms
+[2018.02.11-19.43.07:739][442]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PARTA51D4D844A0941BBCE4D52B77510B1CE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.43.07:748][442]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.43.22:887][168]LogParticles:Warning: MaxCount = 80640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.43.31:689][224]LogParticles:Warning: MaxCount = 80640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.43.33:811][472]LogSavePackage: Save=14.45ms
+[2018.02.11-19.43.33:812][472]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PART76D82E4E4E3F9053813C26B5FB1097C7.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.43.33:819][472]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.43.43:359][544]LogParticles:Warning: MaxCount = 80640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.43.47:942][ 94]LogParticles:Warning: MaxCount = 80640 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.ChorroFuente_PART)
+[2018.02.11-19.43.52:585][645]LogSavePackage: Save=13.87ms
+[2018.02.11-19.43.52:585][645]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ChorroFuente_PARTE10DDA074B7EC22E5A635D96B91F17D1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset'
+[2018.02.11-19.43.52:593][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroFuente_PART.uasset
+[2018.02.11-19.44.30:687][791]LogSavePackage: Save=811.39ms
+[2018.02.11-19.44.30:688][791]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto3F653E0064F5C52FF531D2D83BD630666.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto3.umap'
+[2018.02.11-19.44.30:692][791]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto3.umap
+[2018.02.11-19.44.30:696][791]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.873
+[2018.02.11-19.44.30:696][791]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.873
+[2018.02.11-19.44.30:700][791]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final] ([3] browsable assets)...
+[2018.02.11-19.44.30:700][791]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final]
+[2018.02.11-19.44.30:732][791]LogSavePackage: Save=5.64ms
+[2018.02.11-19.44.30:732][791]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Lata_Final_Auto355DA82CD41F4EBAA9B91359D2F72FF64.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final_Auto3.uasset'
+[2018.02.11-19.44.30:735][791]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final_Auto3.uasset
+[2018.02.11-19.44.30:735][791]LogFileHelpers: Auto-saving content packages took 0.036
+[2018.02.11-20.38.14:282][860]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-20.38.14:323][860]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-20.38.14:323][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-20.38.14:323][860]PIE: New page: PIE session: NewDistrito1 (Feb 11, 2018, 10:38:14 PM)
+[2018.02.11-20.38.14:324][860]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-20.38.14:373][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048963s)
+[2018.02.11-20.38.14:373][860]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-20.38.14:374][860]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2018.02.11-20.38.14:374][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.050078s)
+[2018.02.11-20.38.14:408][860]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-20.38.14:419][860]LogInit: FAudioDevice initialized.
+[2018.02.11-20.38.14:452][860]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-20.38.14:467][860]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-21.38.14
+[2018.02.11-20.38.14:469][860]LogWorld: Bringing up level for play took: 0.015327
+[2018.02.11-20.38.14:478][860]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.115
+[2018.02.11-20.38.14:478][860]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-20.39.00:759][388]Cmd: r.ScreenPercentage 50
+[2018.02.11-20.39.00:759][388]r.ScreenPercentage = "50"
+[2018.02.11-20.39.00:852][397]Cmd: r.ScreenPercentage 75
+[2018.02.11-20.39.00:852][397]r.ScreenPercentage = "75"
+[2018.02.11-20.39.01:019][417]Cmd: r.ScreenPercentage 100
+[2018.02.11-20.39.01:019][417]r.ScreenPercentage = "100"
+[2018.02.11-20.39.01:177][436]Cmd: r.ScreenPercentage 100
+[2018.02.11-20.39.01:177][436]r.ScreenPercentage = "100"
+[2018.02.11-20.39.01:577][484]Cmd: r.ScreenPercentage 100
+[2018.02.11-20.39.01:577][484]r.ScreenPercentage = "100"
+[2018.02.11-20.39.02:553][601]Cmd: r.PostProcessAAQuality 1
+[2018.02.11-20.39.02:553][601]r.PostProcessAAQuality = "1"
+[2018.02.11-20.39.02:695][618]Cmd: r.PostProcessAAQuality 2
+[2018.02.11-20.39.02:695][618]r.PostProcessAAQuality = "2"
+[2018.02.11-20.39.02:845][636]Cmd: r.PostProcessAAQuality 3
+[2018.02.11-20.39.02:845][636]r.PostProcessAAQuality = "3"
+[2018.02.11-20.39.03:011][656]Cmd: r.PostProcessAAQuality 3
+[2018.02.11-20.39.03:011][656]r.PostProcessAAQuality = "3"
+[2018.02.11-20.39.03:704][739]Cmd: sg.ShadowQuality 1
+[2018.02.11-20.39.03:704][739]sg.ShadowQuality = "1"
+[2018.02.11-20.39.03:870][759]Cmd: sg.ShadowQuality 2
+[2018.02.11-20.39.03:870][759]sg.ShadowQuality = "2"
+[2018.02.11-20.39.04:032][778]Cmd: sg.ShadowQuality 3
+[2018.02.11-20.39.04:032][778]sg.ShadowQuality = "3"
+[2018.02.11-20.39.04:039][779]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:5919).
+[2018.02.11-20.39.04:188][796]Cmd: sg.ShadowQuality 3
+[2018.02.11-20.39.04:188][796]sg.ShadowQuality = "3"
+[2018.02.11-20.39.07:201][157]PIE:Error: Error SetInputMode_GameOnly expects a valid player controller as target
+[2018.02.11-20.40.10:842][778]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-20.40.10:900][778]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-20.40.27:445][552]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.11-20.40.36:954][593]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-20.40.36:995][593]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-20.40.36:995][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-20.40.36:995][593]PIE: New page: PIE session: NewDistrito1 (Feb 11, 2018, 10:40:36 PM)
+[2018.02.11-20.40.36:995][593]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-20.40.37:036][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040264s)
+[2018.02.11-20.40.37:036][593]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-20.40.37:037][593]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2018.02.11-20.40.37:037][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.041654s)
+[2018.02.11-20.40.37:065][593]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-20.40.37:074][593]LogInit: FAudioDevice initialized.
+[2018.02.11-20.40.37:108][593]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-20.40.37:124][593]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-21.40.37
+[2018.02.11-20.40.37:125][593]LogWorld: Bringing up level for play took: 0.016148
+[2018.02.11-20.40.37:134][593]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.541
+[2018.02.11-20.40.37:134][593]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-20.41.13:879][993]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-20.41.13:926][993]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.00.31:095][429]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision7)
+[2018.02.11-21.00.56:012][497]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision9)
+[2018.02.11-21.01.06:147][411]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision12)
+[2018.02.11-21.01.09:326][717]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision11)
+[2018.02.11-21.01.11:777][954]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision13)
+[2018.02.11-21.01.14:466][207]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision10)
+[2018.02.11-21.01.22:278][950]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-21.01.22:320][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.01.22:320][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-21.01.22:320][950]PIE: New page: PIE session: NewDistrito1 (Feb 11, 2018, 11:01:22 PM)
+[2018.02.11-21.01.22:321][950]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-21.01.22:371][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049810s)
+[2018.02.11-21.01.22:372][950]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-21.01.22:372][950]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2018.02.11-21.01.22:372][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.051272s)
+[2018.02.11-21.01.22:428][950]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-21.01.22:440][950]LogInit: FAudioDevice initialized.
+[2018.02.11-21.01.22:473][950]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-21.01.22:491][950]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-22.01.22
+[2018.02.11-21.01.22:492][950]LogWorld: Bringing up level for play took: 0.018035
+[2018.02.11-21.01.22:502][950]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.083
+[2018.02.11-21.01.22:502][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.01.46:420][706]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.01.46:469][706]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.02.12:485][227]LogSavePackage: Save=928.90ms
+[2018.02.11-21.02.12:485][227]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto4CD4380F64293697F5C0425B2828C62E1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto4.umap'
+[2018.02.11-21.02.12:490][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto4.umap
+[2018.02.11-21.02.12:493][227]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.992
+[2018.02.11-21.02.12:493][227]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.992
+[2018.02.11-21.04.08:113][110]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision2)
+[2018.02.11-21.04.20:526][160]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision15)
+[2018.02.11-21.04.27:311][738]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision16)
+[2018.02.11-21.04.32:038][173]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision17)
+[2018.02.11-21.04.37:351][593]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision18)
+[2018.02.11-21.04.38:809][704]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision15)
+[2018.02.11-21.04.41:769][951]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision16)
+[2018.02.11-21.04.48:210][537]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision15)
+[2018.02.11-21.04.49:309][639]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision17)
+[2018.02.11-21.04.53:397][ 23]Cmd: DELETE
+[2018.02.11-21.04.53:397][ 23]Cmd: ACTOR DELETE
+[2018.02.11-21.04.53:399][ 23]LogEditorActor: Deleted Actor: Maceta_Final_C
+[2018.02.11-21.04.53:400][ 23]LogEditorActor: Deleted Actor: Arbol_ConColision_C
+[2018.02.11-21.04.53:427][ 23]LogEditorActor: Deleted 2 Actors (0.029 secs)
+[2018.02.11-21.05.04:340][228]LogEditorViewport: Clicking on Actor (LMB): Maceta_Final_C (Maceta_Final14)
+[2018.02.11-21.05.41:869][465]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision24)
+[2018.02.11-21.05.53:786][541]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision3)
+[2018.02.11-21.06.04:231][442]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision27)
+[2018.02.11-21.06.08:486][791]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision28)
+[2018.02.11-21.06.13:751][200]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision30)
+[2018.02.11-21.06.21:681][933]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision28)
+[2018.02.11-21.06.23:538][ 78]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.11-21.06.24:308][149]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision32)
+[2018.02.11-21.06.26:351][339]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision29)
+[2018.02.11-21.06.30:127][650]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-21.06.30:173][650]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.06.30:173][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-21.06.30:174][650]PIE: New page: PIE session: NewDistrito1 (Feb 11, 2018, 11:06:30 PM)
+[2018.02.11-21.06.30:174][650]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-21.06.30:227][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052475s)
+[2018.02.11-21.06.30:227][650]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-21.06.30:228][650]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2018.02.11-21.06.30:228][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.053627s)
+[2018.02.11-21.06.30:282][650]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-21.06.30:294][650]LogInit: FAudioDevice initialized.
+[2018.02.11-21.06.30:325][650]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-21.06.30:346][650]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-22.06.30
+[2018.02.11-21.06.30:350][650]LogWorld: Bringing up level for play took: 0.022948
+[2018.02.11-21.06.30:359][650]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.226
+[2018.02.11-21.06.30:359][650]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.07.00:168][369]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.07.00:221][369]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.07.02:102][551]Cmd: SELECT NONE
+[2018.02.11-21.07.03:103][666]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-21.07.03:143][666]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.07.03:143][666]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-21.07.03:143][666]PIE: New page: PIE session: NewDistrito1 (Feb 11, 2018, 11:07:03 PM)
+[2018.02.11-21.07.03:144][666]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-21.07.03:203][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059666s)
+[2018.02.11-21.07.03:204][666]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-21.07.03:204][666]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2018.02.11-21.07.03:204][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.060799s)
+[2018.02.11-21.07.03:238][666]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-21.07.03:248][666]LogInit: FAudioDevice initialized.
+[2018.02.11-21.07.03:287][666]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-21.07.03:309][666]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-22.07.03
+[2018.02.11-21.07.03:312][666]LogWorld: Bringing up level for play took: 0.023277
+[2018.02.11-21.07.03:322][666]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.737
+[2018.02.11-21.07.03:322][666]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.07.09:432][364]Cmd: r.ScreenPercentage 50
+[2018.02.11-21.07.09:432][364]r.ScreenPercentage = "50"
+[2018.02.11-21.07.09:783][405]Cmd: r.ScreenPercentage 75
+[2018.02.11-21.07.09:783][405]r.ScreenPercentage = "75"
+[2018.02.11-21.07.09:951][425]Cmd: r.ScreenPercentage 100
+[2018.02.11-21.07.09:951][425]r.ScreenPercentage = "100"
+[2018.02.11-21.07.10:110][444]Cmd: r.ScreenPercentage 100
+[2018.02.11-21.07.10:110][444]r.ScreenPercentage = "100"
+[2018.02.11-21.07.10:746][519]Cmd: r.PostProcessAAQuality 1
+[2018.02.11-21.07.10:746][519]r.PostProcessAAQuality = "1"
+[2018.02.11-21.07.10:882][534]Cmd: r.PostProcessAAQuality 2
+[2018.02.11-21.07.10:883][534]r.PostProcessAAQuality = "2"
+[2018.02.11-21.07.11:033][552]Cmd: r.PostProcessAAQuality 3
+[2018.02.11-21.07.11:033][552]r.PostProcessAAQuality = "3"
+[2018.02.11-21.07.11:192][571]Cmd: r.PostProcessAAQuality 3
+[2018.02.11-21.07.11:192][571]r.PostProcessAAQuality = "3"
+[2018.02.11-21.07.11:857][648]Cmd: sg.ShadowQuality 1
+[2018.02.11-21.07.11:857][648]sg.ShadowQuality = "1"
+[2018.02.11-21.07.11:864][649]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:983).
+[2018.02.11-21.07.11:997][664]Cmd: sg.ShadowQuality 2
+[2018.02.11-21.07.11:997][664]sg.ShadowQuality = "2"
+[2018.02.11-21.07.12:158][683]Cmd: sg.ShadowQuality 3
+[2018.02.11-21.07.12:158][683]sg.ShadowQuality = "3"
+[2018.02.11-21.07.12:166][684]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:1018).
+[2018.02.11-21.07.12:301][699]Cmd: sg.ShadowQuality 3
+[2018.02.11-21.07.12:301][699]sg.ShadowQuality = "3"
+[2018.02.11-21.07.12:462][718]Cmd: sg.ShadowQuality 3
+[2018.02.11-21.07.12:462][718]sg.ShadowQuality = "3"
+[2018.02.11-21.07.16:163][144]PIE:Error: Error SetInputMode_GameOnly expects a valid player controller as target
+[2018.02.11-21.08.23:703][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.08.23:749][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.08.57:116][639]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-21.08.57:801][696]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-21.09.19:295][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado2)
+[2018.02.11-21.09.21:504][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado3)
+[2018.02.11-21.09.25:302][ 18]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (banco_texturizado3)
+[2018.02.11-21.09.27:918][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado2)
+[2018.02.11-21.09.34:883][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado4)
+[2018.02.11-21.09.51:969][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado2)
+[2018.02.11-21.09.57:175][746]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.11-21.09.58:016][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado8)
+[2018.02.11-21.10.20:247][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado10)
+[2018.02.11-21.10.46:920][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble8)
+[2018.02.11-21.10.49:322][238]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-21.10.50:064][288]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-21.11.05:851][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado16)
+[2018.02.11-21.11.14:954][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Basura6)
+[2018.02.11-21.11.29:146][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara9)
+[2018.02.11-21.11.30:042][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio14)
+[2018.02.11-21.11.30:454][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio15)
+[2018.02.11-21.11.35:466][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado5)
+[2018.02.11-21.11.38:651][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado5)
+[2018.02.11-21.11.43:274][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado18)
+[2018.02.11-21.11.46:098][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado19)
+[2018.02.11-21.11.51:485][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Basura9)
+[2018.02.11-21.12.21:348][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble5)
+[2018.02.11-21.12.23:003][211]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.11-21.12.24:138][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado8)
+[2018.02.11-21.12.33:255][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Basura13)
+[2018.02.11-21.12.44:201][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Basura15)
+[2018.02.11-21.12.47:035][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Basura16)
+[2018.02.11-21.12.51:241][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Basura15)
+[2018.02.11-21.12.54:186][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Basura16)
+[2018.02.11-21.13.03:850][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Basura17)
+[2018.02.11-21.13.05:339][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Basura18)
+[2018.02.11-21.14.04:340][459]LogSavePackage: Save=1052.21ms
+[2018.02.11-21.14.04:340][459]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto5BAA37DBB4B4A33785ABC938A8E29DCDC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto5.umap'
+[2018.02.11-21.14.04:347][459]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto5.umap
+[2018.02.11-21.14.04:354][459]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 1.125
+[2018.02.11-21.14.04:354][459]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.125
+[2018.02.11-21.14.50:401][987]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-21.14.51:396][ 59]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-21.15.11:974][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado22)
+[2018.02.11-21.15.14:925][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado23)
+[2018.02.11-21.15.25:562][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado22)
+[2018.02.11-21.15.32:444][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado26)
+[2018.02.11-21.15.34:094][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado27)
+[2018.02.11-21.15.40:075][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas7)
+[2018.02.11-21.15.41:708][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio16)
+[2018.02.11-21.15.41:850][639]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Edificio16)
+[2018.02.11-21.15.45:666][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Basura8)
+[2018.02.11-21.16.04:436][712]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-21.16.04:823][736]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-21.16.22:201][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado28)
+[2018.02.11-21.16.25:375][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado29)
+[2018.02.11-21.16.33:011][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado30)
+[2018.02.11-21.16.34:907][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas7)
+[2018.02.11-21.16.37:185][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado30)
+[2018.02.11-21.16.39:250][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado31)
+[2018.02.11-21.16.41:362][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado31)
+[2018.02.11-21.16.41:983][ 42]Cmd: DELETE
+[2018.02.11-21.16.41:983][ 42]Cmd: ACTOR DELETE
+[2018.02.11-21.16.41:985][ 42]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.11-21.16.42:002][ 42]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.02.11-21.16.43:085][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas7)
+[2018.02.11-21.16.43:420][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado30)
+[2018.02.11-21.16.47:118][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio16)
+[2018.02.11-21.16.48:916][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado30)
+[2018.02.11-21.17.05:371][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado33)
+[2018.02.11-21.17.07:735][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado34)
+[2018.02.11-21.17.17:756][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble8)
+[2018.02.11-21.17.18:764][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio17)
+[2018.02.11-21.17.20:426][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Basura7)
+[2018.02.11-21.17.46:829][ 70]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-21.17.46:871][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.17.46:871][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-21.17.46:871][ 70]PIE: New page: PIE session: NewDistrito1 (Feb 11, 2018, 11:17:46 PM)
+[2018.02.11-21.17.46:872][ 70]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-21.17.46:928][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056467s)
+[2018.02.11-21.17.46:929][ 70]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-21.17.46:929][ 70]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2018.02.11-21.17.46:929][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.057644s)
+[2018.02.11-21.17.46:959][ 70]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-21.17.46:971][ 70]LogInit: FAudioDevice initialized.
+[2018.02.11-21.17.47:002][ 70]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-21.17.47:025][ 70]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-22.17.47
+[2018.02.11-21.17.47:027][ 70]LogWorld: Bringing up level for play took: 0.023278
+[2018.02.11-21.17.47:036][ 70]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.451
+[2018.02.11-21.17.47:037][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.18.15:480][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.18.15:541][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-21.18.18:311][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Basura23)
+[2018.02.11-21.18.23:533][105]LogSavePackage: Save=1047.07ms
+[2018.02.11-21.18.23:533][105]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1D12FA757489373444ECBB2A722506065.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.11-21.18.23:542][105]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.11-21.59.34:169][751]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.11-21.59.34:791][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado30)
+[2018.02.11-21.59.45:043][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado30)
+[2018.02.11-21.59.49:290][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado35)
+[2018.02.11-21.59.55:010][792]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.11-22.00.29:911][337]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-22.00.30:695][398]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-22.01.11:435][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble12)
+[2018.02.11-22.01.16:023][712]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-22.01.16:955][790]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-22.01.32:665][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado40)
+[2018.02.11-22.01.37:756][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado41)
+[2018.02.11-22.02.11:767][586]LogSavePackage: Save=1220.34ms
+[2018.02.11-22.02.11:767][586]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto6664FBF1044A0CA79D5B17382D982DC10.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto6.umap'
+[2018.02.11-22.02.11:772][586]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto6.umap
+[2018.02.11-22.02.11:775][586]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 1.290
+[2018.02.11-22.02.11:776][586]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.290
+[2018.02.11-22.16.08:081][561]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-22.16.09:126][645]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-22.16.36:659][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado44)
+[2018.02.11-22.16.45:499][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado46)
+[2018.02.11-22.16.47:264][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado47)
+[2018.02.11-22.16.49:388][304]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.02.11-22.16.52:431][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado47)
+[2018.02.11-22.17.12:667][519]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-22.17.13:712][611]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-22.17.36:810][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado50)
+[2018.02.11-22.17.39:950][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado51)
+[2018.02.11-22.17.48:923][812]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.11-22.17.49:395][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado52)
+[2018.02.11-22.17.52:368][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado53)
+[2018.02.11-22.17.57:320][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado54)
+[2018.02.11-22.17.59:413][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado55)
+[2018.02.11-22.18.05:745][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado56)
+[2018.02.11-22.18.35:103][319]LogSavePackage: Save=1071.03ms
+[2018.02.11-22.18.35:103][319]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto70F20EA494DEEF28D01AAC8BD8F0BA510.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto7.umap'
+[2018.02.11-22.18.35:108][319]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto7.umap
+[2018.02.11-22.18.35:112][319]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 1.136
+[2018.02.11-22.18.35:112][319]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.136
+[2018.02.11-22.18.49:102][724]LogActorFactory: Actor Factory created papelera_texturizada
+[2018.02.11-22.18.51:364][922]LogActorFactory: Actor Factory created papelera_texturizada
+[2018.02.11-22.19.19:815][621]LogActorFactory: Actor Factory created papelera_texturizada
+[2018.02.11-22.19.22:167][828]LogActorFactory: Actor Factory created papelera_texturizada
+[2018.02.11-22.19.30:455][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (papelera_texturizada5)
+[2018.02.11-22.19.59:493][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (papelera_texturizada9)
+[2018.02.11-22.20.47:782][976]LogActorFactory: Actor Factory created papelera_texturizada
+[2018.02.11-22.20.49:359][111]LogActorFactory: Actor Factory created papelera_texturizada
+[2018.02.11-22.21.05:616][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble21)
+[2018.02.11-22.21.08:247][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (papelera_texturizada14)
+[2018.02.11-22.21.32:144][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble22)
+[2018.02.11-22.21.35:127][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (papelera_texturizada15)
+[2018.02.11-22.21.45:813][547]Cmd: DELETE
+[2018.02.11-22.21.45:813][547]Cmd: ACTOR DELETE
+[2018.02.11-22.21.45:814][547]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.11-22.21.45:831][547]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.02.11-22.21.52:720][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble20)
+[2018.02.11-22.21.53:111][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble20)
+[2018.02.11-22.21.55:009][533]LogActorFactory: Actor Factory created papelera_texturizada
+[2018.02.11-22.21.56:889][701]LogActorFactory: Actor Factory created papelera_texturizada
+[2018.02.11-22.22.11:076][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (papelera_texturizada19)
+[2018.02.11-22.22.15:418][421]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-22.22.15:959][457]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-22.22.33:961][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado60)
+[2018.02.11-22.22.36:104][223]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.02.11-22.22.36:486][247]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.11-22.22.52:787][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado61)
+[2018.02.11-22.22.58:316][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado60)
+[2018.02.11-22.23.40:616][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado64)
+[2018.02.11-22.23.54:509][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado68)
+[2018.02.11-22.24.11:111][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (papelera_texturizada16)
+[2018.02.11-22.24.12:984][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado70)
+[2018.02.11-22.24.24:292][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado58)
+[2018.02.11-22.24.30:502][973]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.11-22.24.31:224][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado72)
+[2018.02.11-22.24.33:354][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado73)
+[2018.02.11-22.24.41:984][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado74)
+[2018.02.11-22.24.47:735][593]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.11-22.24.48:774][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado75)
+[2018.02.11-22.24.55:349][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (papelera_texturizada17)
+[2018.02.11-22.24.56:886][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado76)
+[2018.02.11-22.25.00:642][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (papelera_texturizada17)
+[2018.02.11-22.25.02:892][995]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (papelera_texturizada18)
+[2018.02.11-22.25.29:621][739]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision8)
+[2018.02.11-22.25.34:336][195]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision7)
+[2018.02.11-22.25.44:219][145]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision8)
+[2018.02.11-22.25.53:403][  8]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-22.25.53:445][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.25.53:445][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-22.25.53:445][  8]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 12:25:53 AM)
+[2018.02.11-22.25.53:446][  8]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-22.25.53:502][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056383s)
+[2018.02.11-22.25.53:503][  8]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-22.25.53:503][  8]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2018.02.11-22.25.53:503][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.057533s)
+[2018.02.11-22.25.53:546][  8]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-22.25.53:557][  8]LogInit: FAudioDevice initialized.
+[2018.02.11-22.25.53:588][  8]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-22.25.53:615][  8]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-23.25.53
+[2018.02.11-22.25.53:617][  8]LogWorld: Bringing up level for play took: 0.027824
+[2018.02.11-22.25.53:627][  8]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 1.042
+[2018.02.11-22.25.53:627][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.25.59:991][759]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.26.00:037][759]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-22.26.04:430][169]LogEditorViewport: Clicking on Actor (LMB): Botella_Final_C (Botella_Final3)
+[2018.02.11-22.26.06:314][357]Cmd: DELETE
+[2018.02.11-22.26.06:314][357]Cmd: ACTOR DELETE
+[2018.02.11-22.26.06:316][357]LogEditorActor: Deleted Actor: Botella_Final_C
+[2018.02.11-22.26.06:333][357]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.02.11-22.26.09:737][722]LogEditorViewport: Clicking on Actor (LMB): Botella_Final_C (Botella_Final2)
+[2018.02.11-22.26.10:542][802]Cmd: DELETE
+[2018.02.11-22.26.10:542][802]Cmd: ACTOR DELETE
+[2018.02.11-22.26.10:544][802]LogEditorActor: Deleted Actor: Botella_Final_C
+[2018.02.11-22.26.10:562][802]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.02.11-22.26.11:616][926]LogEditorViewport: Clicking on Actor (LMB): Botella_Final_C (Botella_Final)
+[2018.02.11-22.26.12:332][999]Cmd: DELETE
+[2018.02.11-22.26.12:332][999]Cmd: ACTOR DELETE
+[2018.02.11-22.26.12:334][999]LogEditorActor: Deleted Actor: Botella_Final_C
+[2018.02.11-22.26.12:349][999]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.02.11-22.26.36:756][613]LogSavePackage: Save=1194.88ms
+[2018.02.11-22.26.36:756][613]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito17EC1A3704E92EBD35C22C990CE1B562D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.11-22.26.36:763][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.11-22.26.36:841][613]LogFileHelpers: Saving map 'NewDistrito1' took 1.528
+[2018.02.11-22.26.36:872][613]LogSavePackage: Save=4.95ms
+[2018.02.11-22.26.36:872][613]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Lata_Final0BB134034E2510189355039D059118E4.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.uasset'
+[2018.02.11-22.26.36:879][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.uasset
