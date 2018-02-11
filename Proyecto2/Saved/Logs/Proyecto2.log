@@ -1,9 +1,9 @@
-﻿Log file open, 02/09/18 13:00:31
+﻿Log file open, 02/11/18 18:25:40
 LogInit:Display: Running engine for game: Proyecto2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1488512337) SRandInit(-1488512336).
+LogInit:Display: RandInit(1505053482) SRandInit(1505053482).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.117635
+LogStats: Stats thread started at 0.106420
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -20,8 +20,6 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.12.0
-LogHMD: GearVR: Emulating GearVR using Oculus Rift!
 LogInit: Build: ++UE4+Release-4.16-CL-3561208
 LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
 LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
@@ -52,722 +50,566 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.09-12.00.32:891][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.09-12.00.32:891][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.09-12.00.32:954][  0]LogInit: Computer: g4-009
-[2018.02.09-12.00.32:954][  0]LogInit: User: javiergarciagomez
-[2018.02.09-12.00.32:954][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.09-12.00.32:954][  0]LogInit: High frequency timer resolution =3.117191 MHz
-[2018.02.09-12.00.32:954][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.02.09-12.00.32:954][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.09-12.00.32:954][  0]LogMemory: Process Physical Memory: 274.02 MB used, 274.02 MB peak
-[2018.02.09-12.00.32:954][  0]LogMemory: Process Virtual Memory: 274.66 MB used, 274.66 MB peak
-[2018.02.09-12.00.32:954][  0]LogMemory: Physical Memory: 3541.57 MB used,  12805.31 MB free, 16346.88 MB total
-[2018.02.09-12.00.32:954][  0]LogMemory: Virtual Memory: 684.59 MB used,  12805.31 MB free, 134217728.00 MB total
-[2018.02.09-12.00.33:341][  0]LogInit: Using OS detected language (en-US).
-[2018.02.09-12.00.33:341][  0]LogInit: Using OS detected locale (en-US).
-[2018.02.09-12.00.33:347][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.02.09-12.00.34:565][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.09-12.00.34:610][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2018.02.09-12.00.34:610][  0]LogD3D11RHI:       4062/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.09-12.00.34:619][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.09-12.00.34:619][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.09-12.00.34:619][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.09-12.00.34:623][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.09-12.00.34:623][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.09-12.00.34:623][  0]LogWindows: EnumDisplayDevices:
-[2018.02.09-12.00.34:624][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2018.02.09-12.00.34:624][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.02.09-12.00.34:624][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.02.09-12.00.34:624][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.02.09-12.00.34:624][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.09-12.00.34:624][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2018.02.09-12.00.34:624][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.09-12.00.34:624][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.09-12.00.34:624][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.02.09-12.00.34:649][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.09-12.00.34:662][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.09-12.00.34:712][  0]LogShaderCompilers: Guid format shader working directory is 37 characters bigger than the processId version (U:/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/3292/).
-[2018.02.09-12.00.34:712][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/javiergarciagomez/AppData/Local/Temp/UnrealShaderWorkingDir/841694F44131F971B9F4C8AF14BED795/'.
-[2018.02.09-12.00.34:712][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.02.09-12.00.36:236][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.09-12.00.36:471][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.02.09-12.00.36:725][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.09-12.00.36:959][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.02.09-12.00.37:187][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.02.09-12.00.37:414][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.09-12.00.37:648][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.09-12.00.37:880][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.09-12.00.38:102][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.02.09-12.00.38:332][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.02.09-12.00.38:560][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.09-12.00.38:789][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.09-12.00.39:017][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.09-12.00.39:242][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.09-12.00.39:467][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.09-12.00.39:927][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.09-12.00.39:927][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.09-12.00.40:139][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.02.09-12.00.40:513][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.02.09-12.00.40:656][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.02.09-12.00.40:884][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.09-12.00.41:110][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.09-12.00.41:337][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.09-12.00.41:577][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.02.09-12.00.41:577][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.02.09-12.00.44:276][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.02.09-12.00.44:347][  0]LogDerivedDataCache: Loaded boot cache 0.07s 102MB C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.02.09-12.00.44:347][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.02.09-12.00.44:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file U:/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.09-12.00.44:354][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.09-12.00.44:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file U:/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.09-12.00.44:354][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.09-12.00.44:369][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.09-12.00.44:382][  0]LogDerivedDataCache: Using Local data cache path C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.09-12.00.44:398][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.09-12.00.44:398][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.09-12.00.44:399][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.09-12.00.44:400][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.09-12.00.44:888][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.09-12.00.44:993][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.02.09-12.00.45:444][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.09-12.00.45:680][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.09-12.00.45:912][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.09-12.00.45:912][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.02.09-12.00.45:912][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.02.09-12.00.47:393][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
-[2018.02.09-12.00.47:570][  0]LogAssetRegistry: FAssetRegistry took 0.0339 seconds to start up
-[2018.02.09-12.00.48:081][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.361831 seconds
-[2018.02.09-12.00.48:087][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.02.09-12.00.48:087][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2018.02.09-12.00.48:087][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.09-12.00.48:565][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.09-12.00.57:569][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.09-12.00.57:726][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.09-12.00.57:727][  0]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.00.59:926][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.09-12.01.01:605][  0]SourceControl: Info Source control is disabled
-[2018.02.09-12.01.01:655][  0]SourceControl: Info Source control is disabled
-[2018.02.09-12.01.01:896][  0]SourceControl: Info Source control is disabled
-[2018.02.09-12.01.02:125][  0]SourceControl: Info Source control is disabled
-[2018.02.09-12.01.05:625][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.09-12.01.08:372][  0]LogEngine: Initializing Engine...
-[2018.02.09-12.01.08:373][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.09-12.01.08:373][  0]LogHMD: GearVR starting with CPU: 2 GPU: 3 MinimumVsyncs: 1
-[2018.02.09-12.01.08:422][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.02.09-12.01.14:919][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.02.09-12.01.14:920][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.02.09-12.01.15:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.09-12.01.15:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.09-12.01.15:837][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.09-12.01.15:849][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.09-12.01.15:881][  0]LogInit: FAudioDevice initialized.
-[2018.02.09-12.01.15:927][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.02.09-12.01.15:940][  0]LogInit: Texture streaming: Enabled
-[2018.02.09-12.01.16:498][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.09-12.01.17:622][  0]LogInit: Transaction tracking system initialized
-[2018.02.09-12.01.19:320][  0]BlueprintLog: New page: Editor Load
-[2018.02.09-12.01.24:455][  0]LocalizationService: Info Localization service is disabled
-[2018.02.09-12.01.28:065][  0]LogConsoleResponse:Display: 
-[2018.02.09-12.01.28:375][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.09-12.01.28:375][  0]LogCook:Display: Mobile HDR setting 1
-[2018.02.09-12.01.28:532][  0]LogFileCache: Scanning file cache for directory 'U:/Anarquia/Proyecto2/Content/' took 0.14s
-[2018.02.09-12.01.33:670][  0]SourceControl: Info Source control is disabled
-[2018.02.09-12.01.33:670][  0]Cmd: MAP LOAD FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.09-12.01.33:683][  0]LightingResults: New page: Lighting Build
-[2018.02.09-12.01.33:906][  0]MapCheck: New page: Map Check
-[2018.02.09-12.01.33:906][  0]LightingResults: New page: Lighting Build
-[2018.02.09-12.01.38:263][  0]LogAIModule: Creating AISystem for world Distrito1
-[2018.02.09-12.01.38:555][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.09-12.01.38:607][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.09-12.01.38:802][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 194.112ms to complete.
-[2018.02.09-12.01.38:802][  0]LogFileHelpers: Loading map 'Distrito1' took 5.131
-[2018.02.09-12.01.39:079][  0]LogCollectionManager: Loaded 0 collections in 0.006079 seconds
-[2018.02.09-12.01.39:354][  0]LogFileCache: Scanning file cache for directory 'U:/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
-[2018.02.09-12.01.39:354][  0]LogFileCache: Scanning file cache for directory 'U:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/' took 0.01s
-[2018.02.09-12.01.39:354][  0]LogFileCache: Scanning file cache for directory 'U:/Anarquia/Proyecto2/Content/Collections/' took 0.01s
-[2018.02.09-12.01.39:354][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2018.02.09-12.01.39:362][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2329 classes and 491 folders.
-[2018.02.09-12.01.39:723][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2018.02.09-12.01.39:804][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2018.02.09-12.01.40:030][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2018.02.09-12.01.40:191][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.02.09-12.01.40:196][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.09-12.01.40:198][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.09-12.01.40:203][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.09-12.01.40:296][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
-[2018.02.09-12.01.40:323][  0]LogRenderer: Reallocating scene render targets to support 1208x676 NumSamples 1 (Frame:1).
-[2018.02.09-12.01.40:823][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2018.02.09-12.01.40:823][  0]LogLoad: (Engine Initialization) Total time: 74.56 seconds
-[2018.02.09-12.01.40:823][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.84 seconds
-[2018.02.09-12.01.40:823][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.02.09-12.01.40:842][  0]LogOcInput: OculusInput pre-init called
-[2018.02.09-12.01.40:847][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.12.0
-[2018.02.09-12.01.40:847][  0]LogHMD: Starting GearVRController plugin
-[2018.02.09-12.01.40:868][  0]LogAssetRegistry: Asset discovery search completed in 53.3212 seconds
-[2018.02.09-12.01.40:870][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.02.09-12.01.40:870][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
-[2018.02.09-12.01.40:871][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.09-12.01.40:942][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.09-12.01.40:990][  1]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.01.40:991][  1]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/', and we were unable to create a new request.
-[2018.02.09-12.01.40:991][  1]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.01.40:991][  1]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.01.40:991][  1]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.01.41:022][  2]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.01.41:023][  2]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Saved/Collections/', and we were unable to create a new request.
-[2018.02.09-12.01.41:023][  2]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.01.41:024][  2]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/Collections/', and we were unable to create a new request.
-[2018.02.09-12.01.41:024][  2]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.01.41:025][  2]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/', and we were unable to create a new request.
-[2018.02.09-12.01.41:916][ 42]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.09-12.01.45:541][225]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.01.45:599][225]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.09-12.01.45:913][225]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0012 seconds. Added 2 classes and 2 folders.
-[2018.02.09-12.01.46:358][225]LogStaticMesh: Allocated 415x64x64 distance field atlas = 3.2Mb, with 55 objects containing 2.5Mb backing data
-[2018.02.09-12.01.56:245][886]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.09-12.01.56:312][886]Cmd: MAP LOAD FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.09-12.01.56:312][886]LightingResults: New page: Lighting Build
-[2018.02.09-12.01.56:313][886]LoadErrors: New page: Loading map: NewDistrito1.umap
-[2018.02.09-12.01.56:325][886]MapCheck: New page: Map Check
-[2018.02.09-12.01.56:325][886]LightingResults: New page: Lighting Build
-[2018.02.09-12.01.56:465][886]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.09-12.01.56:561][886]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.09-12.01.56:965][886]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 404.53ms to complete.
-[2018.02.09-12.01.56:966][886]LogFileHelpers: Loading map 'NewDistrito1' took 0.655
-[2018.02.09-12.01.56:968][886]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.09-12.01.57:016][887]LogStaticMesh: Allocated 512x128x64 distance field atlas = 8.0Mb, with 68 objects containing 6.0Mb backing data
-[2018.02.09-12.02.01:974][918]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (fuente_Cylinder001)
-[2018.02.09-12.02.02:054][918]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (fuente_Cylinder001)
-[2018.02.09-12.02.19:013][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.02.19:438][838]LogSavePackage: Save=244.10ms
-[2018.02.09-12.02.19:438][838]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART3D4A4AA04A03C7D6E1C142A2EBDDFED8.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.02.19:461][838]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.02.22:198][158]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.02.22:548][200]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.02.22:915][244]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.02.23:393][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.02.23:838][300]LogSavePackage: Save=277.55ms
-[2018.02.09-12.02.23:838][300]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PARTFDDAB89C4547BA73AEC42D8EB4DC9DBD.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.02.23:870][300]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.02.37:995][908]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.02.42:558][405]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.02.42:983][456]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.02.43:541][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.02.44:092][521]LogSavePackage: Save=379.48ms
-[2018.02.09-12.02.44:092][521]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART504AD9634B6AC4058F07D498E48EE0F6.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.02.44:139][521]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.02.56:514][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.02.56:974][951]LogSavePackage: Save=292.50ms
-[2018.02.09-12.02.56:974][951]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PARTB6D7314F44AAEE25E3463AAD5AB421CD.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.02.56:992][951]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.03.12:057][749]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.03.13:656][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.03.14:081][939]LogSavePackage: Save=253.58ms
-[2018.02.09-12.03.14:081][939]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART00788352497A3D87EB8145B511BD9624.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.03.14:115][939]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.03.23:501][ 36]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.03.24:977][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.03.25:590][211]LogSavePackage: Save=438.03ms
-[2018.02.09-12.03.25:590][211]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART9AC8ECD04A953A04C93122B332CE26B4.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.03.25:627][211]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.03.29:378][639]LogCascade: Non-seeded module ParticleModuleCollisionGPU
-[2018.02.09-12.04.14:902][ 41]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.04.19:743][621]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.04.24:028][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.04.24:501][133]LogSavePackage: Save=294.08ms
-[2018.02.09-12.04.24:501][133]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART3E6FEE3440D5BC21951746A8EC8D9F55.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.04.24:563][133]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.04.38:977][839]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.04.41:292][116]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.04.43:257][351]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.04.44:787][534]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.04.48:582][989]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.04.52:114][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.04.52:503][411]LogSavePackage: Save=220.95ms
-[2018.02.09-12.04.52:503][411]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PARTBD47EEAF4D4BE321A237EA987E490A9C.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.04.52:539][411]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.05.09:357][275]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.05.09:796][275]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.05.09:815][275]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.05.09:860][275]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
-[2018.02.09-12.05.09:861][275]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
-[2018.02.09-12.05.09:865][275]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
-[2018.02.09-12.05.09:871][275]LogSlate: Took 0.000395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.02.09-12.05.10:076][281]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.02.09-12.05.20:066][437]MaterialEditorStats: Info Base pass shader: 298 instructions
-[2018.02.09-12.05.20:066][437]MaterialEditorStats: Info Vertex shader: 121 instructions
-[2018.02.09-12.05.20:066][437]MaterialEditorStats: Info Texture samplers: 9/16
-[2018.02.09-12.05.33:038][991]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.05.33:057][991]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
-[2018.02.09-12.05.40:623][856]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.05.50:973][ 50]MaterialEditorStats: Info Base pass shader: 298 instructions
-[2018.02.09-12.05.50:973][ 50]MaterialEditorStats: Info Vertex shader: 121 instructions
-[2018.02.09-12.05.50:973][ 50]MaterialEditorStats: Info Texture samplers: 9/16
-[2018.02.09-12.05.52:448][227]LogMaterialEditor: Saving and Compiling material ChorroAgua_MAT
-[2018.02.09-12.05.53:247][227]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.05.53:296][227]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.05.53:363][227]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.05.53:422][227]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ChorroAgua_MAT, compiling. 
-[2018.02.09-12.05.57:603][227]TextureStreamingBuild:Display: Compiling optional shaders took 4.186 seconds.
-[2018.02.09-12.06.16:646][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset" SILENT=true
-[2018.02.09-12.06.17:025][227]LogSavePackage: Save=119.76ms
-[2018.02.09-12.06.17:025][227]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_MATAC48D3FF4675CD1B524C14BA3B5D483D.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset'
-[2018.02.09-12.06.17:074][227]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset
-[2018.02.09-12.08.25:738][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.08.26:325][145]LogSavePackage: Save=415.03ms
-[2018.02.09-12.08.26:325][145]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART0AB85AA348662C3B07EF54BF10582254.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.08.26:355][145]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.08.33:693][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.08.34:178][  4]LogSavePackage: Save=312.26ms
-[2018.02.09-12.08.34:178][  4]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART84102A7A44E03FF5EDA7329C5A2493FC.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.08.34:200][  4]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.09.54:473][ 30]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2018.02.09-12.09.54:913][ 30]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2018.02.09-12.09.54:931][ 30]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2018.02.09-12.09.54:975][ 30]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
-[2018.02.09-12.09.54:977][ 30]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
-[2018.02.09-12.09.54:981][ 30]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
-[2018.02.09-12.10.01:622][776]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2018.02.09-12.10.01:664][776]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
-[2018.02.09-12.10.02:270][841]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2018.02.09-12.10.04:980][145]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2018.02.09-12.10.11:039][838]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2018.02.09-12.10.23:126][232]MaterialEditorStats: Info Base pass shader: 286 instructions
-[2018.02.09-12.10.23:126][232]MaterialEditorStats: Info Vertex shader: 121 instructions
-[2018.02.09-12.10.23:126][232]MaterialEditorStats: Info Texture samplers: 8/16
-[2018.02.09-12.10.28:616][887]LogMaterialEditor: Saving and Compiling material ChorroAgua_MAT
-[2018.02.09-12.10.29:412][887]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2018.02.09-12.10.29:456][887]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.10.29:503][887]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.10.29:565][887]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ChorroAgua_MAT, compiling. 
-[2018.02.09-12.10.33:865][887]TextureStreamingBuild:Display: Compiling optional shaders took 4.306 seconds.
-[2018.02.09-12.10.52:453][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset" SILENT=true
-[2018.02.09-12.10.52:836][887]LogSavePackage: Save=205.61ms
-[2018.02.09-12.10.52:836][887]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_MAT22E18407479FD7C0C22FDC88FA9DC858.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset'
-[2018.02.09-12.10.52:868][887]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset
-[2018.02.09-12.10.59:024][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.10.59:429][603]LogSavePackage: Save=223.70ms
-[2018.02.09-12.10.59:429][603]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PARTD61A3DF448228D42E63D5EB0A72533E1.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.10.59:460][603]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.11.19:449][964]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.11.21:232][178]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.11.21:707][235]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.11.22:356][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.11.22:910][311]LogSavePackage: Save=382.50ms
-[2018.02.09-12.11.22:910][311]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PARTEE09FFA84B0C11DBE8341C91D0B01F45.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.11.22:943][311]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.11.26:307][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.11.26:721][708]LogSavePackage: Save=243.08ms
-[2018.02.09-12.11.26:721][708]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART011BD22D4EC1621A4DFF15A8F369FD29.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.11.26:918][708]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.11.48:679][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.11.49:062][286]LogSavePackage: Save=212.96ms
-[2018.02.09-12.11.49:062][286]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART5F21C8884E417D6FB18536B2FDBD9C65.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.11.49:103][286]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.11.52:588][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.11.52:987][690]LogSavePackage: Save=226.38ms
-[2018.02.09-12.11.52:987][690]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART3FAACC3C41001971976F55B8C685363A.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.11.53:012][690]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.11.55:384][958]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.11.55:809][  9]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.11.56:586][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.11.57:089][101]LogSavePackage: Save=330.22ms
-[2018.02.09-12.11.57:089][101]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PARTE8778E1E407780C0E4531DAC6FE3F399.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.11.57:114][101]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.12.08:166][417]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.12.08:516][459]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.12.09:504][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.12.09:878][576]LogSavePackage: Save=205.02ms
-[2018.02.09-12.12.09:878][576]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART91BB8192442A2A80854B1C815C8B01EB.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.12.09:910][576]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.13.50:093][478]LogCascade: Non-seeded module ParticleModuleTypeDataGpu
-[2018.02.09-12.13.51:772][676]LogCascade: Non-seeded module ParticleModuleRequired
-[2018.02.09-12.13.53:662][897]LogCascade: Non-seeded module ParticleModuleCollisionGPU
-[2018.02.09-12.14.00:199][669]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.14.05:345][286]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.14.05:820][343]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.14.06:726][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.14.07:174][450]LogSavePackage: Save=265.59ms
-[2018.02.09-12.14.07:174][450]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART7E8FD76C43397B49ED45F0859BE1DFEC.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.14.07:208][450]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.14.33:365][552]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.14.43:322][746]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.14.43:680][789]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.14.44:383][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.14.45:119][870]LogSavePackage: Save=346.72ms
-[2018.02.09-12.14.45:119][870]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART07A36FC9467ACAD88E3EC1A0F36BDCC1.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.14.45:162][870]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.15.14:081][302]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.15.14:514][354]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
-[2018.02.09-12.15.15:297][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.15.15:719][446]LogSavePackage: Save=242.48ms
-[2018.02.09-12.15.15:719][446]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART443E34D848FCEA92CA685BABEEC60198.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.15.15:751][446]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.15.18:364][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio20)
-[2018.02.09-12.15.19:177][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas8)
-[2018.02.09-12.15.20:643][961]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroAgua_PART3)
-[2018.02.09-12.15.21:147][ 14]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroAgua_PART3)
-[2018.02.09-12.16.36:237][792]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala41)
-[2018.02.09-12.16.45:835][876]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2018.02.09-12.17.07:002][104]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroAgua_PART2)
-[2018.02.09-12.17.22:995][948]Cmd: MODE ROTGRID=0
-[2018.02.09-12.17.47:635][689]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2018.02.09-12.17.49:542][862]Cmd: MODE ROTGRID=1
-[2018.02.09-12.17.52:204][122]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroAgua_PART3)
-[2018.02.09-12.18.34:492][255]LogSavePackage: Save=15301.38ms
-[2018.02.09-12.18.34:492][255]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/NewDistrito1_Auto15F9AD9184579A1CE87F54EB11BA2206E.tmp' to 'U:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap'
-[2018.02.09-12.18.34:525][255]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap
-[2018.02.09-12.18.34:542][255]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 15.788
-[2018.02.09-12.18.34:542][255]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 15.788
-[2018.02.09-12.19.36:986][693]LogCascade: Quitting Cascade. FXSystem=0x0000017A736DAAC0
-[2018.02.09-12.19.46:390][516]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.02.09-12.19.46:449][517]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Proyecto2
-[2018.02.09-12.19.46:449][517]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
-[2018.02.09-12.19.46:449][517]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
-[2018.02.09-12.19.46:449][517]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
-[2018.02.09-12.19.46:449][517]LogTemp: BranchPath = g4-009/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = g4-009/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
-[2018.02.09-12.19.46:463][518]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\javiergarciagomez\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.02.09-12.20.39:403][844]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2018.02.09-12.20.39:535][844]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2018.02.09-12.20.39:552][844]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2018.02.09-12.20.39:596][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
-[2018.02.09-12.20.39:601][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
-[2018.02.09-12.20.45:070][459]LogEditorTransaction: Undo Move Actors
-[2018.02.09-12.20.45:074][459]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2018.02.09-12.20.45:290][480]LogEditorTransaction: Undo Clicking on Actors
-[2018.02.09-12.20.45:308][480]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2018.02.09-12.20.45:778][530]LogEditorTransaction: Undo Clicking on Actors
-[2018.02.09-12.20.45:791][530]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2018.02.09-12.20.46:531][611]LogEditorTransaction: Undo Rotate Actors
-[2018.02.09-12.20.46:535][611]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2018.02.09-12.20.46:715][628]LogEditorTransaction: Undo Rotate Actors
-[2018.02.09-12.20.46:719][628]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2018.02.09-12.20.50:705][845]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
-[2018.02.09-12.20.50:750][845]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.20.50:800][845]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.20.50:862][845]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ChorroAgua_MAT, compiling. 
-[2018.02.09-12.20.56:396][845]TextureStreamingBuild:Display: Compiling optional shaders took 5.539 seconds.
-[2018.02.09-12.25.41:925][704]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
-[2018.02.09-12.25.42:130][704]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
-[2018.02.09-12.25.42:148][704]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
-[2018.02.09-12.25.42:187][704]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
-[2018.02.09-12.25.42:192][704]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
-[2018.02.09-12.25.52:403][854]MaterialEditorStats: Info Base pass shader: 286 instructions
-[2018.02.09-12.25.52:403][854]MaterialEditorStats: Info Vertex shader: 121 instructions
-[2018.02.09-12.25.52:403][854]MaterialEditorStats: Info Texture samplers: 8/16
-[2018.02.09-12.25.52:783][899]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
-[2018.02.09-12.25.54:249][ 64]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
-[2018.02.09-12.25.57:948][481]LogEditorTransaction: Undo Material Editor: Delete
-[2018.02.09-12.25.57:952][481]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
-[2018.02.09-12.25.57:968][481]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
-[2018.02.09-12.25.58:277][512]LogEditorTransaction: Undo Material Editor: New Expression
-[2018.02.09-12.25.58:281][512]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
-[2018.02.09-12.25.58:298][512]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
-[2018.02.09-12.26.04:294][904]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
-[2018.02.09-12.26.04:338][904]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.26.04:388][904]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
-[2018.02.09-12.26.04:452][904]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ChorroAgua_MAT, compiling. 
-[2018.02.09-12.26.09:675][904]TextureStreamingBuild:Display: Compiling optional shaders took 5.229 seconds.
-[2018.02.09-12.26.11:058][ 30]LogCascade: Non-seeded module ParticleModuleTypeDataGpu
-[2018.02.09-12.26.17:224][725]LogCascade: Non-seeded module ParticleModuleRequired
-[2018.02.09-12.26.18:361][850]LogCascade: Non-seeded module ParticleModuleTypeDataGpu
-[2018.02.09-12.26.18:924][914]LogCascade: Non-seeded module ParticleModuleTypeDataGpu
-[2018.02.09-12.26.57:295][388]LogCascade: Non-seeded module ParticleModuleTypeDataGpu
-[2018.02.09-12.27.01:278][853]LogCascade: Quitting Cascade. FXSystem=0x0000017A061245E0
-[2018.02.09-12.27.03:722][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset" SILENT=true
-[2018.02.09-12.27.04:101][992]LogSavePackage: Save=184.59ms
-[2018.02.09-12.27.04:101][992]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_MAT47F7E0504FE7C104368C19B1A9A8AEC6.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset'
-[2018.02.09-12.27.04:136][992]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset
-[2018.02.09-12.27.04:145][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
-[2018.02.09-12.27.04:772][992]LogSavePackage: Save=442.53ms
-[2018.02.09-12.27.04:772][992]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART0F0357274ECD61585A82B283E0758624.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
-[2018.02.09-12.27.04:801][992]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
-[2018.02.09-12.27.05:428][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/NewDistrito1" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.02.09-12.27.15:874][992]LogSavePackage: Save=10109.41ms
-[2018.02.09-12.27.15:874][992]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/NewDistrito161B1AA444630D70C3888B1B362261C25.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
-[2018.02.09-12.27.15:904][992]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
-[2018.02.09-12.27.16:198][992]LogFileHelpers: Saving map 'NewDistrito1' took 11.392
-[2018.02.09-12.27.16:600][993]Cmd: QUIT_EDITOR
-[2018.02.09-12.27.16:622][993]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.02.09-12.27.16:636][993]LogExit: Preparing to exit.
-[2018.02.09-12.27.17:269][993]LogExit: Editor shut down
-[2018.02.09-12.27.17:272][993]LogExit: Transaction tracking system shut down
-[2018.02.09-12.27.17:332][993]LogObj: Freed 0b from 0 cluster array pools.
-[2018.02.09-12.27.17:332][993]LogExit: Object subsystem successfully closed.
-[2018.02.09-12.27.17:345][993]LogD3D11RHI: Shutdown
-[2018.02.09-12.27.17:345][993]LogD3D11RHI: CleanupD3DDevice
-[2018.02.09-12.27.17:346][993]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.02.09-12.27.17:396][993]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
-[2018.02.09-12.27.17:396][993]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
-[2018.02.09-12.27.17:396][993]LogModuleManager: Shutting down and abandoning module DistCurveEditor (528)
-[2018.02.09-12.27.17:396][993]LogModuleManager: Shutting down and abandoning module Cascade (526)
-[2018.02.09-12.27.17:396][993]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
-[2018.02.09-12.27.17:396][993]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
-[2018.02.09-12.27.17:396][993]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
-[2018.02.09-12.27.17:396][993]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
-[2018.02.09-12.27.17:396][993]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module BspMode (494)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module Media (471)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
-[2018.02.09-12.27.17:397][993]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module MergeActors (428)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module SizeMap (426)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module TreeMap (424)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module XmlParser (408)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module Blutility (406)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
-[2018.02.09-12.27.17:658][993]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
-[2018.02.09-12.27.17:659][993]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
-[2018.02.09-12.27.17:659][993]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
-[2018.02.09-12.27.17:659][993]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
-[2018.02.09-12.27.17:721][993]LogModuleManager: Shutting down and abandoning module AutomationController (386)
-[2018.02.09-12.27.17:721][993]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
-[2018.02.09-12.27.17:721][993]LogModuleManager: Shutting down and abandoning module Layers (382)
-[2018.02.09-12.27.17:721][993]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
-[2018.02.09-12.27.17:721][993]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
-[2018.02.09-12.27.17:721][993]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
-[2018.02.09-12.27.17:721][993]LogModuleManager: Shutting down and abandoning module Persona (374)
-[2018.02.09-12.27.17:721][993]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
-[2018.02.09-12.27.17:721][993]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
-[2018.02.09-12.27.17:721][993]LogModuleManager: Shutting down and abandoning module Kismet (368)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module Toolbox (364)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module OutputLog (358)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module GammaUI (356)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module Documentation (354)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module MovieScene (350)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module Niagara (348)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module PortalServices (340)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module AIModule (334)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
-[2018.02.09-12.27.17:723][993]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module SteamVR (322)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module OculusInput (314)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module CableComponent (308)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
-[2018.02.09-12.27.17:867][993]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module SourceControl (267)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2018.02.09-12.27.17:868][993]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2018.02.09-12.27.17:869][993]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2018.02.09-12.27.17:869][993]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2018.02.09-12.27.17:869][993]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2018.02.09-12.27.17:869][993]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2018.02.09-12.27.17:869][993]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2018.02.09-12.27.17:869][993]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2018.02.09-12.27.17:970][993]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2018.02.09-12.27.18:071][993]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2018.02.09-12.27.18:071][993]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2018.02.09-12.27.18:071][993]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2018.02.09-12.27.18:071][993]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2018.02.09-12.27.18:071][993]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2018.02.09-12.27.18:071][993]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2018.02.09-12.27.18:072][993]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2018.02.09-12.27.18:072][993]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2018.02.09-12.27.18:072][993]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2018.02.09-12.27.18:072][993]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2018.02.09-12.27.18:074][993]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2018.02.09-12.27.18:078][993]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2018.02.09-12.27.18:078][993]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2018.02.09-12.27.18:078][993]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2018.02.09-12.27.18:078][993]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2018.02.09-12.27.18:078][993]LogModuleManager: Shutting down and abandoning module Core (164)
-[2018.02.09-12.27.18:078][993]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2018.02.09-12.27.19:073][993]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.02.09-12.27.19:073][993]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.02.09-12.27.19:073][993]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2018.02.09-12.27.19:075][993]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2018.02.09-12.27.19:075][993]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2018.02.09-12.27.19:075][993]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2018.02.09-12.27.19:075][993]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2018.02.09-12.27.19:075][993]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2018.02.09-12.27.19:075][993]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2018.02.09-12.27.19:075][993]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2018.02.09-12.27.19:075][993]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2018.02.09-12.27.19:075][993]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2018.02.09-12.27.19:152][993]LogDerivedDataCache: Shutdown
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.02.09-12.27.19:152][993]LogOnline:Display: Unloading online subsystem: NULL
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.02.09-12.27.19:152][993]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.02.09-12.27.19:152][993]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.02.09-12.27.19:152][993]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8BFCC26A-4C89-6C4D-AF3F-EAB6920438E8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=0e69d85741d696303a8d9dafd7e741bd%7C%7C4de4ee59-3de1-47a6-9e8c-38cda48c02c7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.02.09-12.27.19:175][993]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.02.09-12.27.19:177][993]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.02.09-12.27.19:180][993]LogExit: Exiting.
-[2018.02.09-12.27.19:220][993]Log file closed, 02/09/18 13:27:19
+[2018.02.11-17.25.41:216][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.11-17.25.41:216][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.11-17.25.41:229][  0]LogInit: Computer: PC-JAVITO
+[2018.02.11-17.25.41:229][  0]LogInit: User: JAVITO
+[2018.02.11-17.25.41:229][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.11-17.25.41:229][  0]LogInit: High frequency timer resolution =3.320312 MHz
+[2018.02.11-17.25.41:229][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.02.11-17.25.41:229][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.11-17.25.41:229][  0]LogMemory: Process Physical Memory: 274.92 MB used, 274.92 MB peak
+[2018.02.11-17.25.41:229][  0]LogMemory: Process Virtual Memory: 261.13 MB used, 261.13 MB peak
+[2018.02.11-17.25.41:229][  0]LogMemory: Physical Memory: 6594.00 MB used,  26121.57 MB free, 32715.57 MB total
+[2018.02.11-17.25.41:229][  0]LogMemory: Virtual Memory: 671.94 MB used,  26121.57 MB free, 134217728.00 MB total
+[2018.02.11-17.25.41:351][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.02.11-17.25.41:351][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.02.11-17.25.42:307][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.11-17.25.42:358][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.02.11-17.25.42:358][  0]LogD3D11RHI:       6052/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.02.11-17.25.42:361][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.11-17.25.42:361][  0]LogD3D11RHI:       0/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.11-17.25.42:361][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.11-17.25.42:367][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.11-17.25.42:367][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.11-17.25.42:367][  0]LogWindows: EnumDisplayDevices:
+[2018.02.11-17.25.42:367][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.02.11-17.25.42:367][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.02.11-17.25.42:367][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.02.11-17.25.42:367][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.02.11-17.25.42:367][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.11-17.25.42:367][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.02.11-17.25.42:367][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.11-17.25.42:367][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.11-17.25.42:367][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.11-17.25.42:399][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.11-17.25.42:416][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.11-17.25.42:514][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/7808/).
+[2018.02.11-17.25.42:515][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JAVITO/AppData/Local/Temp/UnrealShaderWorkingDir/20A3A40E4C849EF8356FD0A407792FB6/'.
+[2018.02.11-17.25.42:515][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.11-17.25.43:844][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.11-17.25.43:923][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.11-17.25.43:998][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.11-17.25.44:071][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.11-17.25.44:144][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.11-17.25.44:217][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.11-17.25.44:291][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.11-17.25.44:365][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.11-17.25.44:431][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.11-17.25.44:502][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.11-17.25.44:574][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.11-17.25.44:647][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.11-17.25.44:718][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.11-17.25.44:789][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.11-17.25.44:859][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.11-17.25.45:007][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.11-17.25.45:007][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.11-17.25.45:068][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.11-17.25.45:194][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.11-17.25.45:276][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.11-17.25.45:359][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.11-17.25.45:438][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.11-17.25.45:510][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.11-17.25.45:585][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.11-17.25.45:585][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.11-17.25.46:418][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.11-17.25.46:499][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.11-17.25.46:499][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.11-17.25.46:500][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.11-17.25.46:500][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.11-17.25.46:500][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.11-17.25.46:500][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.11-17.25.46:515][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.11-17.25.46:528][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JAVITO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.11-17.25.46:538][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.11-17.25.46:538][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.11-17.25.46:539][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.11-17.25.46:539][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.11-17.25.46:929][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.11-17.25.46:997][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.11-17.25.47:201][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.11-17.25.47:268][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.11-17.25.47:379][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.11-17.25.47:379][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.11-17.25.47:379][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.11-17.25.48:244][  0]LogMeshUtilities: Finished distance field build in 0.3s - 8x8x8 distance field, 88 triangles, Range [-0.5, 0.5], UniformScaleHandle
+[2018.02.11-17.25.48:244][  0]LogMeshUtilities: Discarded distance field for S_1_Unit_Plane as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.11-17.25.48:244][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 32 triangles, Range [-0.4, 0.7], S_1_Unit_Plane
+[2018.02.11-17.25.48:244][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x14x8 distance field, 6252 triangles, Range [-0.1, 0.6], SM_CineCam
+[2018.02.11-17.25.48:244][  0]LogMeshUtilities: Finished distance field build in 0.0s - 14x8x8 distance field, 4528 triangles, Range [-0.1, 0.6], MatineeCam_SM
+[2018.02.11-17.25.48:244][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1672 triangles, Range [-0.1, 0.4], SM_RailRig_Mount
+[2018.02.11-17.25.48:244][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x11 distance field, 1488 triangles, Range [-0.0, 0.4], SM_RailRig_Track
+[2018.02.11-17.25.48:244][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
+[2018.02.11-17.25.48:334][  0]LogMeshUtilities: Finished distance field build in 0.4s - 21x50x21 distance field, 916 triangles, Range [-0.1, 0.6], SM_CraneRig_Body
+[2018.02.11-17.25.48:334][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 835 triangles, Range [-0.1, 0.8], GearVRController
+[2018.02.11-17.25.48:334][  0]LogAssetRegistry: FAssetRegistry took 0.0306 seconds to start up
+[2018.02.11-17.25.48:412][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.028575 seconds
+[2018.02.11-17.25.48:420][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.11-17.25.48:420][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.02.11-17.25.48:420][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.11-17.25.48:571][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.11-17.25.51:856][  0]LogMeshUtilities: Finished distance field build in 2.4s - 48x48x48 distance field, 528 triangles, Range [-0.6, 1.0], Sphere
+[2018.02.11-17.25.51:856][  0]LogMeshUtilities: Discarded distance field for SplineEditorMesh as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.11-17.25.51:856][  0]LogMeshUtilities: Finished distance field build in 0.0s - 15x15x8 distance field, 60 triangles, Range [-0.2, 1.0], SplineEditorMesh
+[2018.02.11-17.25.52:752][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.11-17.25.52:824][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.11-17.25.53:852][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.11-17.25.54:669][  0]SourceControl: Info Source control is disabled
+[2018.02.11-17.25.54:941][  0]SourceControl: Info Source control is disabled
+[2018.02.11-17.25.55:046][  0]SourceControl: Info Source control is disabled
+[2018.02.11-17.25.55:148][  0]SourceControl: Info Source control is disabled
+[2018.02.11-17.25.56:576][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.11-17.25.57:678][  0]LogMeshUtilities: Finished distance field build in 6.3s - 64x64x64 distance field, 3968 triangles, Range [-0.1, 1.0], EditorSkySphere
+[2018.02.11-17.25.57:678][  0]LogMeshUtilities: Finished distance field build in 0.0s - 9x8x9 distance field, 192 triangles, Range [-0.2, 0.6], Cylinder
+[2018.02.11-17.25.57:678][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 352 triangles, Range [-0.0, 1.0], RotationHandle
+[2018.02.11-17.25.57:678][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 92 triangles, Range [-0.0, 1.0], TranslationHandle
+[2018.02.11-17.25.57:678][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 180 triangles, Range [-0.4, 0.8], JointSphere
+[2018.02.11-17.25.57:678][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 40 triangles, Range [-0.5, 0.6], LineSegmentCylinder
+[2018.02.11-17.25.57:678][  0]LogMeshUtilities: Finished distance field build in 0.0s - 15x15x8 distance field, 32 triangles, Range [1.0, 1.0], PlaneMesh
+[2018.02.11-17.25.57:678][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 5818 triangles, Range [-0.0, 0.7], GenericHMD
+[2018.02.11-17.25.57:678][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 12554 triangles, Range [-0.1, 1.0], OculusControllerMesh
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 17326 triangles, Range [-0.1, 0.6], VivePreControllerMesh
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 528 triangles, Range [-0.4, 0.9], HoverMesh
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Discarded distance field for LaserPointerMesh as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1024 triangles, Range [-0.5, 0.6], LaserPointerMesh
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Discarded distance field for LaserPointerMesh_End as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1084 triangles, Range [-0.5, 0.6], LaserPointerMesh_End
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Discarded distance field for LaserPointerMesh_Start as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1084 triangles, Range [-0.5, 0.6], LaserPointerMesh_Start
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Finished distance field build in 0.1s - 25x15x8 distance field, 196 triangles, Range [0.0, 0.7], TeleportDirectionMesh
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 440 triangles, Range [-0.0, 0.4], SM_Dialog_Close
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 240 triangles, Range [-0.0, 0.4], SM_Dialog_Move
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Discarded distance field for SM_ContentWindow_01 as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x15x15 distance field, 670 triangles, Range [-0.1, 1.0], SM_ContentWindow_01
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1728 triangles, Range [1.0, 1.0], SM_Radial_Disk
+[2018.02.11-17.25.57:679][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 744 triangles, Range [1.0, 1.0], SM_Radial_Pointer
+[2018.02.11-17.25.57:719][  0]LogEngine: Initializing Engine...
+[2018.02.11-17.25.57:720][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.11-17.25.57:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.11-17.25.57:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.11-17.25.58:197][  0]LogMeshUtilities: Finished distance field build in 0.7s - 28x28x38 distance field, 448 triangles, Range [-0.5, 0.6], EditorCylinder
+[2018.02.11-17.25.58:197][  0]LogMeshUtilities: Finished distance field build in 0.2s - 8x38x38 distance field, 32 triangles, Range [-0.1, 1.0], EditorPlane
+[2018.02.11-17.25.58:197][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.11-17.25.58:219][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-17.25.58:238][  0]LogInit: FAudioDevice initialized.
+[2018.02.11-17.25.58:292][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.11-17.25.58:308][  0]LogInit: Texture streaming: Enabled
+[2018.02.11-17.25.58:508][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.11-17.25.58:962][  0]LogInit: Transaction tracking system initialized
+[2018.02.11-17.25.59:609][  0]BlueprintLog: New page: Editor Load
+[2018.02.11-17.26.01:377][  0]LogMeshUtilities: Finished distance field build in 2.4s - 48x48x48 distance field, 3968 triangles, Range [-0.6, 1.0], EditorSphere
+[2018.02.11-17.26.01:515][  0]LocalizationService: Info Localization service is disabled
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 1.3s - 38x38x38 distance field, 12 triangles, Range [-0.6, 0.6], EditorCube
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.0s - 9x8x13 distance field, 200 triangles, Range [-0.3, 0.7], SM_CraneRig_Mount
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 12 triangles, Range [-0.3, 0.3], SM_CraneRig_Arm
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.3s - 31x27x20 distance field, 1068 triangles, Range [-0.1, 1.0], SM_CraneRig_Base
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x9x8 distance field, 664 triangles, Range [-0.2, 0.7], SM_Sequencer_Key
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 56 triangles, Range [-0.0, 0.3], BoundingBoxEdge
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 172 triangles, Range [-0.0, 1.0], BoundingBoxCorner
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 172 triangles, Range [0.0, 0.4], TranslateArrowHandle
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 120 triangles, Range [-0.0, 0.4], PlaneTranslationHandle
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.1s - 8x29x29 distance field, 4096 triangles, Range [-0.0, 0.8], RotationHandleFull
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 272 triangles, Range [-0.0, 0.6], RotationHandleIndicator
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x13x14 distance field, 952 triangles, Range [-0.0, 1.0], RotationHandleQuarter
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 544 triangles, Range [-0.0, 0.6], StartRotationHandleIndicator
+[2018.02.11-17.26.02:577][  0]LogMeshUtilities: Finished distance field build in 0.0s - 15x15x8 distance field, 32 triangles, Range [1.0, 1.0], SnapGridPlaneMesh
+[2018.02.11-17.26.03:031][  0]LogConsoleResponse:Display: 
+[2018.02.11-17.26.03:212][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.11-17.26.03:212][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.11-17.26.03:733][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' took 0.02s
+[2018.02.11-17.26.04:884][  0]LogMeshUtilities: Finished distance field build in 0.6s - 30x30x30 distance field, 48 triangles, Range [-0.6, 0.6], Cube
+[2018.02.11-17.26.04:950][  0]SourceControl: Info Source control is disabled
+[2018.02.11-17.26.04:950][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.11-17.26.04:950][  0]LightingResults: New page: Lighting Build
+[2018.02.11-17.26.05:012][  0]MapCheck: New page: Map Check
+[2018.02.11-17.26.05:012][  0]LightingResults: New page: Lighting Build
+[2018.02.11-17.26.07:952][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x9 distance field, 104 triangles, Range [-0.0, 0.4], gate_Box005
+[2018.02.11-17.26.07:952][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x18x8 distance field, 2526 triangles, Range [-0.0, 0.7], SWORD-RYTHM_Box001
+[2018.02.11-17.26.07:952][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 96 triangles, Range [-0.0, 0.3], window
+[2018.02.11-17.26.08:054][  0]LogTexture:Display: Building textures: Texture2D_0_BaseColor (DXT1, 32X32)
+[2018.02.11-17.26.08:078][  0]LogAIModule: Creating AISystem for world Distrito1
+[2018.02.11-17.26.08:570][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.11-17.26.08:670][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.11-17.26.08:791][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.453ms to complete.
+[2018.02.11-17.26.08:791][  0]LogFileHelpers: Loading map 'Distrito1' took 3.841
+[2018.02.11-17.26.08:925][  0]LogCollectionManager: Loaded 0 collections in 0.002667 seconds
+[2018.02.11-17.26.09:059][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
+[2018.02.11-17.26.09:059][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' took 0.01s
+[2018.02.11-17.26.09:059][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' took 0.01s
+[2018.02.11-17.26.09:059][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.02.11-17.26.09:075][  0]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2329 classes and 491 folders.
+[2018.02.11-17.26.09:217][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.02.11-17.26.09:288][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.02.11-17.26.09:448][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.02.11-17.26.09:628][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.11-17.26.09:634][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.11-17.26.09:637][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.11-17.26.09:638][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.11-17.26.09:798][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2018.02.11-17.26.09:849][  0]LogRenderer: Reallocating scene render targets to support 1104x924 NumSamples 1 (Frame:1).
+[2018.02.11-17.26.10:121][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.11-17.26.10:233][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.02.11-17.26.10:233][  0]LogLoad: (Engine Initialization) Total time: 31.07 seconds
+[2018.02.11-17.26.10:233][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.96 seconds
+[2018.02.11-17.26.10:233][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.11-17.26.10:233][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.11-17.26.10:573][  0]LogOcInput: OculusInput pre-init called
+[2018.02.11-17.26.10:573][  0]LogHMD: Starting GearVRController plugin
+[2018.02.11-17.26.10:637][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.02.11-17.26.10:738][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.11-17.26.12:243][  5]LogAssetRegistry: Asset discovery search completed in 23.9306 seconds
+[2018.02.11-17.26.12:246][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.11-17.26.12:246][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2018.02.11-17.26.13:906][ 10]LogMeshUtilities: Finished distance field build in 6.2s - 64x64x64 distance field, 3968 triangles, Range [-0.1, 1.0], SM_SkySphere
+[2018.02.11-17.26.14:240][ 11]LogMeshUtilities: Finished distance field build in 0.1s - 15x15x15 distance field, 12 triangles, Range [-0.7, 1.0], 1M_Cube
+[2018.02.11-17.26.14:573][ 12]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x9 distance field, 1988 triangles, Range [-0.0, 0.3], door
+[2018.02.11-17.26.14:907][ 13]LogMeshUtilities: Finished distance field build in 0.1s - 13x24x8 distance field, 16 triangles, Range [-0.0, 0.5], formaDetección
+[2018.02.11-17.26.15:246][ 14]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 36 triangles, Range [-0.1, 0.3], gate_Box002
+[2018.02.11-17.26.15:581][ 15]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 36 triangles, Range [-0.1, 0.4], gate_Box003
+[2018.02.11-17.26.15:909][ 16]LogMeshUtilities: Discarded distance field for Plane as mesh was not closed!  Assign a two-sided material to fix.
+[2018.02.11-17.26.15:909][ 16]LogMeshUtilities: Finished distance field build in 0.0s - 15x15x8 distance field, 2 triangles, Range [-0.2, 1.0], Plane
+[2018.02.11-17.26.16:573][ 18]LogMeshUtilities: Finished distance field build in 0.4s - 30x30x29 distance field, 284 triangles, Range [-0.4, 1.0], Cone
+[2018.02.11-17.26.17:573][ 21]LogMeshUtilities: Finished distance field build in 0.6s - 30x30x30 distance field, 512 triangles, Range [-0.6, 0.8], Cylinder
+[2018.02.11-17.26.18:241][ 23]LogMeshUtilities: Finished distance field build in 0.5s - 30x30x30 distance field, 960 triangles, Range [-0.6, 1.0], Sphere
+[2018.02.11-17.46.05:471][ 76]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.11-17.46.05:670][ 76]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.11-17.46.05:811][ 76]LogTexture:Display: Building textures: Texture2D_63_BaseColor (DXT1, 32X32)
+[2018.02.11-17.46.05:834][ 76]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-17.46.05:959][ 76]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.11-17.46.05:959][ 76]LightingResults: New page: Lighting Build
+[2018.02.11-17.46.05:960][ 76]LoadErrors: New page: Loading map: NewDistrito1.umap
+[2018.02.11-17.46.06:003][ 76]MapCheck: New page: Map Check
+[2018.02.11-17.46.06:003][ 76]LightingResults: New page: Lighting Build
+[2018.02.11-17.46.06:282][ 76]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.11-17.46.06:424][ 76]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.11-17.46.06:556][ 76]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 132.103ms to complete.
+[2018.02.11-17.46.06:556][ 76]LogFileHelpers: Loading map 'NewDistrito1' took 0.598
+[2018.02.11-17.46.10:291][343]LogMeshUtilities: Finished distance field build in 4.6s - 64x64x47 distance field, 608 triangles, Range [-0.1, 0.9], fuente_Cylinder001
+[2018.02.11-17.46.10:949][344]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 212 triangles, Range [-0.4, 0.5], Lata
+[2018.02.11-17.46.17:634][364]LogMeshUtilities: Finished distance field build in 6.3s - 64x64x64 distance field, 232 triangles, Range [-0.2, 0.4], edificio_rico_con_pantallas
+[2018.02.11-17.46.23:951][382]LogMeshUtilities: Finished distance field build in 6.1s - 64x64x64 distance field, 172 triangles, Range [-0.2, 0.4], edificio_rico_alto_estantería_rara
+[2018.02.11-17.46.30:635][402]LogMeshUtilities: Finished distance field build in 6.5s - 64x64x64 distance field, 252 triangles, Range [-0.2, 0.5], edificio_rico_alto_estantería_doble
+[2018.02.11-17.46.30:971][403]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 320 triangles, Range [-0.2, 0.5], Botella
+[2018.02.11-17.46.37:035][421]LogMeshUtilities: Finished distance field build in 5.8s - 64x64x64 distance field, 412 triangles, Range [-0.2, 1.0], Arbol
+[2018.02.11-17.46.38:061][424]LogMeshUtilities: Finished distance field build in 0.6s - 41x41x13 distance field, 346 triangles, Range [-0.1, 0.8], MAceta
+[2018.02.11-17.46.44:753][444]LogMeshUtilities: Finished distance field build in 6.4s - 64x64x64 distance field, 92 triangles, Range [-0.2, 0.4], Edificio4
+[2018.02.11-17.46.50:582][461]LogMeshUtilities: Finished distance field build in 5.7s - 64x64x64 distance field, 92 triangles, Range [-0.2, 0.4], Edificio5
+[2018.02.11-17.46.50:916][462]LogMeshUtilities: Finished distance field build in 0.2s - 46x15x18 distance field, 80 triangles, Range [-0.0, 0.6], Banco
+[2018.02.11-17.46.51:248][463]LogMeshUtilities: Finished distance field build in 0.0s - 10x10x12 distance field, 356 triangles, Range [-0.1, 0.7], Basura
+[2018.02.11-17.46.52:296][466]LogMeshUtilities: Finished distance field build in 0.7s - 32x28x39 distance field, 2874 triangles, Range [-0.1, 1.0], fuente_Box001
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.Arbol_ConColision:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.Arbol_ConColision_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.Arbol_ConColision_C:Cylinder' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.Arbol_ConColision_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.Arbol_ConColision:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.Arbol_ConColision:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.Arbol_ConColision:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.Arbol_ConColision_C:Arbol' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.Arbol_ConColision_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.SKEL_Arbol_ConColision_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.SKEL_Arbol_ConColision_C:Arbol' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.SKEL_Arbol_ConColision_C:Cylinder' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.SKEL_Arbol_ConColision_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:307][217]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.SKEL_Arbol_ConColision_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.PackageMetaData'
+[2018.02.11-18.06.48:378][217]LogSavePackage: Save=15.78ms
+[2018.02.11-18.06.48:378][217]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/ArbolA84724544E301368714045BEA0EF6CF2.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol.uasset'
+[2018.02.11-18.06.48:388][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol.uasset
+[2018.02.11-18.06.48:432][217]LogSavePackage: Save=23.64ms
+[2018.02.11-18.06.48:432][217]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Arbol_ConColision9D82F4A24E37453C6F5A238DB6C2A6BE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.uasset'
+[2018.02.11-18.06.48:439][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.uasset
+[2018.02.11-18.06.48:485][217]LogSavePackage: Save=6.06ms
+[2018.02.11-18.06.48:485][217]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Arbol_ConColision1CE6DFE74BACFB04572BCA89A17F485D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.uasset'
+[2018.02.11-18.06.48:493][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arbol_ConColision.uasset
+[2018.02.11-18.07.06:255][131]LogSavePackage: Save=17.46ms
+[2018.02.11-18.07.06:255][131]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Banco683CB649459EFDCD87273AA3C6A2C132.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/Banco.uasset'
+[2018.02.11-18.07.06:261][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/Banco.uasset
+[2018.02.11-18.07.06:295][131]LogSavePackage: Save=5.17ms
+[2018.02.11-18.07.06:296][131]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Banco494C9A3D46A3897E171079AA21509C64.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Banco.uasset'
+[2018.02.11-18.07.06:303][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Banco.uasset
+[2018.02.11-18.07.28:959][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.Botella_Final:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.PackageMetaData'
+[2018.02.11-18.07.28:959][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.Botella_Final_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.PackageMetaData'
+[2018.02.11-18.07.28:959][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.Botella_Final_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.PackageMetaData'
+[2018.02.11-18.07.28:959][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.Botella_Final_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.PackageMetaData'
+[2018.02.11-18.07.28:959][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.Botella_Final:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.PackageMetaData'
+[2018.02.11-18.07.28:959][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.Botella_Final:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.PackageMetaData'
+[2018.02.11-18.07.28:959][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.Botella_Final:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.PackageMetaData'
+[2018.02.11-18.07.28:959][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.Botella_Final_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.PackageMetaData'
+[2018.02.11-18.07.28:959][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.SKEL_Botella_Final_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.PackageMetaData'
+[2018.02.11-18.07.28:959][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.SKEL_Botella_Final_C:StaticMesh' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.PackageMetaData'
+[2018.02.11-18.07.28:959][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.SKEL_Botella_Final_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.PackageMetaData'
+[2018.02.11-18.07.28:959][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.SKEL_Botella_Final_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.PackageMetaData'
+[2018.02.11-18.07.29:004][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.Lata_Final:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.PackageMetaData'
+[2018.02.11-18.07.29:004][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.Lata_Final_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.PackageMetaData'
+[2018.02.11-18.07.29:004][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.Lata_Final:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.PackageMetaData'
+[2018.02.11-18.07.29:004][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.Lata_Final:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.PackageMetaData'
+[2018.02.11-18.07.29:004][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.Lata_Final:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.PackageMetaData'
+[2018.02.11-18.07.29:004][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.Lata_Final_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.PackageMetaData'
+[2018.02.11-18.07.29:004][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.Lata_Final_C:Lata' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.PackageMetaData'
+[2018.02.11-18.07.29:004][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.Lata_Final_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.PackageMetaData'
+[2018.02.11-18.07.29:004][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.SKEL_Lata_Final_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.PackageMetaData'
+[2018.02.11-18.07.29:004][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.SKEL_Lata_Final_C:Lata' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.PackageMetaData'
+[2018.02.11-18.07.29:004][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.SKEL_Lata_Final_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.PackageMetaData'
+[2018.02.11-18.07.29:004][688]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.SKEL_Lata_Final_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.PackageMetaData'
+[2018.02.11-18.07.29:069][688]LogSavePackage: Save=13.12ms
+[2018.02.11-18.07.29:069][688]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Basura1141A61240949BE86483CB97B5039B9B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Basura.uasset'
+[2018.02.11-18.07.29:076][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Basura.uasset
+[2018.02.11-18.07.29:115][688]LogSavePackage: Save=5.24ms
+[2018.02.11-18.07.29:116][688]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Basura56599E0B45AEEA98425887A8A3B5CB2D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura.uasset'
+[2018.02.11-18.07.29:123][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura.uasset
+[2018.02.11-18.07.29:153][688]LogSavePackage: Save=12.97ms
+[2018.02.11-18.07.29:153][688]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Botella81C4DD2D4DF816B2F082F2AC2388E7D3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella.uasset'
+[2018.02.11-18.07.29:159][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella.uasset
+[2018.02.11-18.07.29:198][688]LogSavePackage: Save=18.70ms
+[2018.02.11-18.07.29:198][688]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Botella_Final875EDA804DFCBC9792803395C0F5DDBF.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.uasset'
+[2018.02.11-18.07.29:204][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Botella_Final.uasset
+[2018.02.11-18.07.29:243][688]LogSavePackage: Save=5.88ms
+[2018.02.11-18.07.29:243][688]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Botella_FinalD04BB84449A375EB119351BC353E2430.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.uasset'
+[2018.02.11-18.07.29:250][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Botella_Final.uasset
+[2018.02.11-18.07.29:283][688]LogSavePackage: Save=12.31ms
+[2018.02.11-18.07.29:283][688]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Lata276E6E984F6C4F7E5434939FCA80738F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata.uasset'
+[2018.02.11-18.07.29:290][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata.uasset
+[2018.02.11-18.07.29:325][688]LogSavePackage: Save=18.32ms
+[2018.02.11-18.07.29:325][688]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Lata_Final5AE663464B89C839F376C48525635C87.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.uasset'
+[2018.02.11-18.07.29:331][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Lata_Final.uasset
+[2018.02.11-18.07.29:366][688]LogSavePackage: Save=5.22ms
+[2018.02.11-18.07.29:366][688]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Lata_FinalCFF1AE1B4FE4674246BDE19CDBE78194.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.uasset'
+[2018.02.11-18.07.29:373][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Lata_Final.uasset
+[2018.02.11-18.07.48:596][659]LogSlate: Took 0.000438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.11-18.07.58:532][686]LogSavePackage: Save=826.56ms
+[2018.02.11-18.07.58:532][686]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto1004571B245137FBA967B99B019C5B247.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap'
+[2018.02.11-18.07.58:536][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap
+[2018.02.11-18.07.58:542][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.913
+[2018.02.11-18.07.58:542][686]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.913
+[2018.02.11-18.08.40:377][192]LogAssetTools:Warning: Failed to import 'C:\Users\JAVITO\Downloads\edificio_rico_estanteriadoble.uvw'. Unknown extension 'uvw'.
+[2018.02.11-19.14.52:665][ 12]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/arbol_texturizado.fbx)
+[2018.02.11-19.14.52:690][ 12]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.11-19.14.52:690][ 12]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.11-19.14.52:690][ 12]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.11-19.14.52:690][ 12]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.11-19.14.52:690][ 12]LogFbx: ItemName: Material, ItemCount : 1
+[2018.02.11-19.14.52:690][ 12]LogFbx: ItemName: Texture, ItemCount : 1
+[2018.02.11-19.14.52:690][ 12]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.11-19.14.52:690][ 12]LogFbx: ItemName: Video, ItemCount : 1
+[2018.02.11-19.14.52:696][ 12]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/arbol_texturizado.fbx
+[2018.02.11-19.14.52:774][ 12]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.15.08:569][ 12]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/arbol_texturizado.fbx
+[2018.02.11-19.15.08:583][ 12]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.15.08:611][ 12]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028'
+[2018.02.11-19.15.08:611][ 12]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028'
+[2018.02.11-19.15.08:620][ 12]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_textura'
+[2018.02.11-19.15.08:620][ 12]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_textura'
+[2018.02.11-19.15.08:758][ 12]LogTexture:Display: Building textures: arbol_textura (AutoDXT, 1920X1920)
+[2018.02.11-19.15.09:919][ 12]LogMaterial: Missing cached shader map for material wire_177088028, compiling. 
+[2018.02.11-19.15.09:981][ 12]LogFbx:Warning: Triangulating static mesh árbol_mapped:Tronco
+[2018.02.11-19.15.10:041][ 12]LogStaticMesh: Building static mesh arbol_texturizado...
+[2018.02.11-19.15.10:050][ 12]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_texturizado.arbol_texturizado
+[2018.02.11-19.15.10:074][ 12]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.11-19.15.10:076][ 12]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.11-19.15.12:898][ 12]LogMeshUtilities: Finished distance field build in 2.8s - 57x46x64 distance field, 396 triangles, Range [-0.2, 1.0], arbol_texturizado
+[2018.02.11-19.15.12:899][ 12]LogStaticMesh:Warning: Main thread blocked for 2.809s for async distance field build of arbol_texturizado to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.02.11-19.15.16:008][308]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 0.011
+[2018.02.11-19.15.16:010][308]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_texturizado] ([1] browsable assets)...
+[2018.02.11-19.15.16:021][308]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_texturizado.arbol_texturizado]
+[2018.02.11-19.15.16:021][308]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_texturizado]
+[2018.02.11-19.15.16:039][308]LogSavePackage: Save=14.62ms
+[2018.02.11-19.15.16:039][308]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/arbol_texturizado_Auto2B682E5C54297DBA42841D6B48D361E7D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_texturizado_Auto2.uasset'
+[2018.02.11-19.15.16:042][308]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_texturizado_Auto2.uasset
+[2018.02.11-19.15.16:043][308]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028] ([1] browsable assets)...
+[2018.02.11-19.15.16:053][308]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028.wire_177088028]
+[2018.02.11-19.15.16:053][308]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028]
+[2018.02.11-19.15.16:073][308]LogSavePackage: Save=15.75ms
+[2018.02.11-19.15.16:073][308]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/wire_177088028_Auto2E410A5A242E851155A54F888F019B5CD.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028_Auto2.uasset'
+[2018.02.11-19.15.16:075][308]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028_Auto2.uasset
+[2018.02.11-19.15.16:076][308]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_textura] ([1] browsable assets)...
+[2018.02.11-19.15.16:084][308]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_textura.arbol_textura]
+[2018.02.11-19.15.16:084][308]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_textura]
+[2018.02.11-19.15.16:106][308]LogSavePackage: Save=18.73ms
+[2018.02.11-19.15.16:106][308]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/arbol_textura_Auto2220F21BC4149F74FA67B2ABC19EE558F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_textura_Auto2.uasset'
+[2018.02.11-19.15.16:130][308]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_textura_Auto2.uasset
+[2018.02.11-19.15.16:130][308]LogFileHelpers: Auto-saving content packages took 0.121
+[2018.02.11-19.16.41:176][972]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2018.02.11-19.16.42:463][972]LogSlate: Took 0.048398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.11-19.16.45:005][163]LogMeshUtilities: Finished distance field build in 2.7s - 64x64x30 distance field, 12 triangles, Range [-0.1, 0.5], PhAT_FloorBox
+[2018.02.11-19.16.48:777][577]LogRenderer: Reallocating scene render targets to support 1144x924 NumSamples 1 (Frame:1).
+[2018.02.11-19.17.05:587][530]Cmd: TRANSACTION UNDO
+[2018.02.11-19.17.05:587][530]LogEditorTransaction: Undo Replace component used material
+[2018.02.11-19.17.06:855][671]Cmd: TRANSACTION UNDO
+[2018.02.11-19.17.06:855][671]LogEditorTransaction: Undo Edit Import Uniform Scale
+[2018.02.11-19.18.04:175][178]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TRASH_StaticMeshComponent_23' or package '/Engine/Transient'.
+[2018.02.11-19.18.04:178][178]LogMaterial: Missing cached shader map for material wire_177088028, compiling. 
+[2018.02.11-19.18.04:178][178]LogMaterial:Warning: Failed to compile Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028.wire_177088028 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.11-19.18.04:178][178]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.02.11-19.18.15:785][457]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/arbol_texturizado.fbx)
+[2018.02.11-19.18.15:795][457]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.11-19.18.15:795][457]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.11-19.18.15:795][457]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.11-19.18.15:795][457]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.11-19.18.15:795][457]LogFbx: ItemName: Material, ItemCount : 1
+[2018.02.11-19.18.15:795][457]LogFbx: ItemName: Texture, ItemCount : 1
+[2018.02.11-19.18.15:795][457]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.11-19.18.15:795][457]LogFbx: ItemName: Video, ItemCount : 1
+[2018.02.11-19.18.15:799][457]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/arbol_texturizado.fbx
+[2018.02.11-19.18.15:810][457]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.18.22:920][457]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/arbol_texturizado.fbx
+[2018.02.11-19.18.22:931][457]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.18.23:062][457]LogTexture:Display: Building textures: arbol_textura (AutoDXT, 1920X1920)
+[2018.02.11-19.18.24:258][457]LogMaterial: Missing cached shader map for material wire_177088028, compiling. 
+[2018.02.11-19.18.24:274][457]LogFbx:Warning: Triangulating static mesh árbol_mapped:Tronco
+[2018.02.11-19.18.24:313][457]LogStaticMesh: Building static mesh arbol_texturizado...
+[2018.02.11-19.18.24:320][457]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_texturizado.arbol_texturizado
+[2018.02.11-19.18.24:342][457]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.11-19.18.27:172][457]LogMeshUtilities: Finished distance field build in 2.8s - 57x46x64 distance field, 396 triangles, Range [-0.2, 1.0], arbol_texturizado
+[2018.02.11-19.18.27:173][457]LogStaticMesh:Warning: Main thread blocked for 2.817s for async distance field build of arbol_texturizado to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.02.11-19.18.40:731][911]LogSlate: Took 0.024273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.11-19.18.48:608][812]BlueprintLog: New page: Compile Arbol_ConColision
+[2018.02.11-19.18.50:266][845]LogSavePackage: Save=24.48ms
+[2018.02.11-19.18.50:266][845]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Arbol_ConColision7C094521489481FF7DB5BEA44FD8A6BB.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.uasset'
+[2018.02.11-19.18.50:272][845]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/Arbol_ConColision.uasset
+[2018.02.11-19.19.00:285][  2]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-19.19.00:478][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.19.00:478][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-19.19.00:478][  2]PIE: New page: PIE session: NewDistrito1 (Feb 11, 2018, 9:19:00 PM)
+[2018.02.11-19.19.00:481][  2]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-19.19.00:523][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042384s)
+[2018.02.11-19.19.00:524][  2]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-19.19.00:524][  2]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2018.02.11-19.19.00:525][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.043758s)
+[2018.02.11-19.19.00:553][  2]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-19.19.00:564][  2]LogInit: FAudioDevice initialized.
+[2018.02.11-19.19.00:754][  2]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-19.19.00:771][  2]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-20.19.00
+[2018.02.11-19.19.00:773][  2]LogWorld: Bringing up level for play took: 0.015969
+[2018.02.11-19.19.00:841][  2]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.02.11-19.19.00:846][  2]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.253
+[2018.02.11-19.19.00:847][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.19.25:882][913]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.19.25:920][913]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.19.35:702][963]LogMeshUtilities: Finished distance field build in 0.1s - 15x15x15 distance field, 960 triangles, Range [-0.2, 1.0], Sphere_inversenormals
+[2018.02.11-19.19.36:223][963]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:1).
+[2018.02.11-19.19.38:526][159]LogMeshUtilities: Finished distance field build in 2.7s - 64x64x30 distance field, 10 triangles, Range [-0.1, 0.5], Floor_Mesh
+[2018.02.11-19.19.49:928][196]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-19.19.49:967][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.19.49:967][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-19.19.49:968][196]PIE: New page: PIE session: NewDistrito1 (Feb 11, 2018, 9:19:49 PM)
+[2018.02.11-19.19.49:968][196]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.11-19.19.50:013][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044944s)
+[2018.02.11-19.19.50:013][196]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.11-19.19.50:014][196]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2018.02.11-19.19.50:014][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.046112s)
+[2018.02.11-19.19.50:041][196]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-19.19.50:050][196]LogInit: FAudioDevice initialized.
+[2018.02.11-19.19.50:081][196]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.11-19.19.50:096][196]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.11-20.19.50
+[2018.02.11-19.19.50:098][196]LogWorld: Bringing up level for play took: 0.015594
+[2018.02.11-19.19.50:107][196]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.486
+[2018.02.11-19.19.50:107][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.19.57:746][102]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.19.57:783][102]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.11-19.20.09:752][909]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/banco_texturizado.fbx)
+[2018.02.11-19.20.09:762][909]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.11-19.20.09:762][909]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.11-19.20.09:762][909]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.11-19.20.09:762][909]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.11-19.20.09:762][909]LogFbx: ItemName: Material, ItemCount : 1
+[2018.02.11-19.20.09:762][909]LogFbx: ItemName: Texture, ItemCount : 1
+[2018.02.11-19.20.09:762][909]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.11-19.20.09:762][909]LogFbx: ItemName: Video, ItemCount : 1
+[2018.02.11-19.20.09:767][909]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/banco_texturizado.fbx
+[2018.02.11-19.20.09:777][909]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.20.13:448][909]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/banco_texturizado.fbx
+[2018.02.11-19.20.13:458][909]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.20.13:461][909]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/lambert1'
+[2018.02.11-19.20.13:462][909]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/lambert1'
+[2018.02.11-19.20.13:466][909]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/banco_textura'
+[2018.02.11-19.20.13:467][909]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/banco_textura'
+[2018.02.11-19.20.13:603][909]LogTexture:Display: Building textures: banco_textura (AutoDXT, 1920X1920)
+[2018.02.11-19.20.14:738][909]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.02.11-19.20.14:755][909]LogFbx:Warning: Triangulating static mesh banco:Banco
+[2018.02.11-19.20.14:763][909]LogStaticMesh: Building static mesh banco_texturizado...
+[2018.02.11-19.20.14:768][909]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/banco_texturizado.banco_texturizado
+[2018.02.11-19.20.14:790][909]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.11-19.20.15:033][909]LogMeshUtilities: Finished distance field build in 0.2s - 46x15x18 distance field, 80 triangles, Range [-0.0, 0.6], banco_texturizado
+[2018.02.11-19.20.15:033][909]LogStaticMesh:Warning: Main thread blocked for 0.232s for async distance field build of banco_texturizado to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.02.11-19.20.26:269][ 40]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-19.20.26:941][ 97]LogActorFactory: Actor Factory created banco_texturizado
+[2018.02.11-19.20.32:109][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado)
+[2018.02.11-19.20.34:842][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Banco4)
+[2018.02.11-19.20.35:627][922]Cmd: DELETE
+[2018.02.11-19.20.35:627][922]Cmd: ACTOR DELETE
+[2018.02.11-19.20.35:629][922]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.11-19.20.35:645][922]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.02.11-19.20.36:614][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (banco_texturizado)
+[2018.02.11-19.21.05:277][641]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TransBuffer_0' or package '/Engine/Transient'.
+[2018.02.11-19.21.06:781][641]LogSavePackage: Save=5.44ms
+[2018.02.11-19.21.06:781][641]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/BancoA34F672747120CE0767DDFB4E48DE563.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Banco.uasset'
+[2018.02.11-19.21.06:788][641]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Banco.uasset
+[2018.02.11-19.21.06:816][641]LogSavePackage: Save=4.87ms
+[2018.02.11-19.21.06:816][641]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/BancoA4C736BA4A8E964B0E1E18909FB5668C.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/Banco.uasset'
+[2018.02.11-19.21.06:823][641]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/Banco.uasset
+[2018.02.11-19.21.07:831][641]LogSavePackage: Save=857.97ms
+[2018.02.11-19.21.07:831][641]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1E54472864A97BD52471CC6A751E9A462.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.11-19.21.07:840][641]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.11-19.21.07:955][641]LogFileHelpers: Saving map 'NewDistrito1' took 1.129
+[2018.02.11-19.21.22:163][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Banco10)
+[2018.02.11-19.21.42:569][295]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/papelera_texturizada.fbx)
+[2018.02.11-19.21.42:586][295]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.11-19.21.42:586][295]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.11-19.21.42:586][295]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.11-19.21.42:586][295]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.11-19.21.42:586][295]LogFbx: ItemName: Material, ItemCount : 1
+[2018.02.11-19.21.42:586][295]LogFbx: ItemName: Texture, ItemCount : 1
+[2018.02.11-19.21.42:586][295]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.11-19.21.42:586][295]LogFbx: ItemName: Video, ItemCount : 1
+[2018.02.11-19.21.42:596][295]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/papelera_texturizada.fbx
+[2018.02.11-19.21.42:615][295]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.21.46:034][295]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/papelera_texturizada.fbx
+[2018.02.11-19.21.46:045][295]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.11-19.21.46:047][295]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/wire_007056011'
+[2018.02.11-19.21.46:047][295]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/wire_007056011'
+[2018.02.11-19.21.46:052][295]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/papelera_textura'
+[2018.02.11-19.21.46:052][295]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/papelera_textura'
+[2018.02.11-19.21.46:137][295]LogTexture:Display: Building textures: papelera_textura (AutoDXT, 1920X1920)
+[2018.02.11-19.21.46:780][295]LogMaterial: Missing cached shader map for material wire_007056011, compiling. 
+[2018.02.11-19.21.46:796][295]LogFbx:Warning: Triangulating static mesh papelera_mapped:Papelera
+[2018.02.11-19.21.46:831][295]LogStaticMesh: Building static mesh papelera_texturizada...
+[2018.02.11-19.21.46:836][295]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/papelera_texturizada.papelera_texturizada
+[2018.02.11-19.21.46:862][295]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.11-19.21.46:935][295]LogMeshUtilities: Finished distance field build in 0.0s - 10x10x12 distance field, 356 triangles, Range [-0.1, 0.7], papelera_texturizada
+[2018.02.11-19.21.46:935][295]LogStaticMesh:Warning: Main thread blocked for 0.062s for async distance field build of papelera_texturizada to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.02.11-19.22.01:238][836]LogSavePackage: Save=5.22ms
+[2018.02.11-19.22.01:238][836]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Basura582479894B459F83012C039B6C8FA058.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura.uasset'
+[2018.02.11-19.22.01:246][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura.uasset
+[2018.02.11-19.22.01:277][836]LogSavePackage: Save=5.25ms
+[2018.02.11-19.22.01:277][836]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/BasuraBE735C39403171BA326610910A297B71.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Basura.uasset'
+[2018.02.11-19.22.01:285][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Basura.uasset
+[2018.02.11-19.22.02:298][836]LogSavePackage: Save=858.56ms
+[2018.02.11-19.22.02:298][836]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1A76BF5B447B925798BBD0AA695FED8A1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.11-19.22.02:305][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.11-19.22.02:388][836]LogFileHelpers: Saving map 'NewDistrito1' took 1.100
+[2018.02.11-19.22.10:523][651]LogSavePackage: Save=13.22ms
+[2018.02.11-19.22.10:523][651]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/banco_texturizadoD12A70F54D97DA58A78A7184133551AD.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/banco_texturizado.uasset'
+[2018.02.11-19.22.10:530][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/banco_texturizado.uasset
+[2018.02.11-19.22.10:561][651]LogSavePackage: Save=14.20ms
+[2018.02.11-19.22.10:561][651]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/arbol_texturizadoB0491D854248AA6C23015D8BF02C44AC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_texturizado.uasset'
+[2018.02.11-19.22.10:567][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_texturizado.uasset
+[2018.02.11-19.22.10:603][651]LogSavePackage: Save=16.02ms
+[2018.02.11-19.22.10:603][651]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/wire_177088028CCBC9AAE43CB09EF57D1C883B1631911.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028.uasset'
+[2018.02.11-19.22.10:609][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028.uasset
+[2018.02.11-19.22.10:999][651]LogSavePackage: Save=375.40ms
+[2018.02.11-19.22.10:999][651]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/arbol_textura1799E42048FC40404AA739A9B14FC204.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_textura.uasset'
+[2018.02.11-19.22.11:006][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_textura.uasset
+[2018.02.11-19.22.11:073][651]LogSavePackage: Save=15.54ms
+[2018.02.11-19.22.11:073][651]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/lambert1F607D50341B66875E3C481AE0288056B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/lambert1.uasset'
+[2018.02.11-19.22.11:079][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/lambert1.uasset
+[2018.02.11-19.22.11:357][651]LogSavePackage: Save=262.80ms
+[2018.02.11-19.22.11:357][651]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/banco_texturaAE6A9E3E43C76849C2F41DA8DEBAA833.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/banco_textura.uasset'
+[2018.02.11-19.22.11:363][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/banco_textura.uasset
+[2018.02.11-19.22.11:399][651]LogSavePackage: Save=14.88ms
+[2018.02.11-19.22.11:399][651]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/papelera_texturizada4E3803674DC68C4360636CB8DB147063.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/papelera_texturizada.uasset'
+[2018.02.11-19.22.11:405][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/papelera_texturizada.uasset
+[2018.02.11-19.22.11:447][651]LogSavePackage: Save=14.84ms
+[2018.02.11-19.22.11:447][651]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/wire_0070560111940E18C49A415E9A145448F3CF05A99.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/wire_007056011.uasset'
+[2018.02.11-19.22.11:453][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/wire_007056011.uasset
+[2018.02.11-19.22.11:653][651]LogSavePackage: Save=181.92ms
+[2018.02.11-19.22.11:653][651]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/papelera_textura2E12E7584F39906DB52300BAC8BDFF73.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/papelera_textura.uasset'
+[2018.02.11-19.22.11:662][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/papelera_textura.uasset
