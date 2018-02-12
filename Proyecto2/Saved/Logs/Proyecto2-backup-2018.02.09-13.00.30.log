@@ -1,0 +1,1222 @@
+﻿Log file open, 02/09/18 12:30:15
+LogInit:Display: Running engine for game: Proyecto2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1445425373) SRandInit(1445425373).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.113326
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.12.0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.09-11.30.17:423][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.09-11.30.17:423][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.09-11.30.17:450][  0]LogInit: Computer: g4-009
+[2018.02.09-11.30.17:450][  0]LogInit: User: javiergarciagomez
+[2018.02.09-11.30.17:450][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.09-11.30.17:450][  0]LogInit: High frequency timer resolution =3.117191 MHz
+[2018.02.09-11.30.17:450][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.02.09-11.30.17:450][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.09-11.30.17:450][  0]LogMemory: Process Physical Memory: 274.65 MB used, 274.65 MB peak
+[2018.02.09-11.30.17:450][  0]LogMemory: Process Virtual Memory: 262.59 MB used, 262.59 MB peak
+[2018.02.09-11.30.17:450][  0]LogMemory: Physical Memory: 3181.01 MB used,  13165.87 MB free, 16346.88 MB total
+[2018.02.09-11.30.17:450][  0]LogMemory: Virtual Memory: 672.65 MB used,  13165.87 MB free, 134217728.00 MB total
+[2018.02.09-11.30.17:841][  0]LogInit: Using OS detected language (en-US).
+[2018.02.09-11.30.17:841][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.09-11.30.17:846][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.09-11.30.19:053][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.09-11.30.19:100][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.02.09-11.30.19:100][  0]LogD3D11RHI:       4062/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.09-11.30.19:105][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.09-11.30.19:105][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.09-11.30.19:105][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.09-11.30.19:109][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.09-11.30.19:109][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.09-11.30.19:109][  0]LogWindows: EnumDisplayDevices:
+[2018.02.09-11.30.19:109][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.02.09-11.30.19:109][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.02.09-11.30.19:110][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.02.09-11.30.19:110][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.02.09-11.30.19:110][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.09-11.30.19:110][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.02.09-11.30.19:110][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.09-11.30.19:110][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.09-11.30.19:110][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.09-11.30.19:135][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.09-11.30.19:148][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.09-11.30.19:196][  0]LogShaderCompilers: Guid format shader working directory is 37 characters bigger than the processId version (U:/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/7132/).
+[2018.02.09-11.30.19:196][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/javiergarciagomez/AppData/Local/Temp/UnrealShaderWorkingDir/7A45AEB340C3716B244C64BFD35B3C28/'.
+[2018.02.09-11.30.19:196][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.09-11.30.20:719][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.09-11.30.20:955][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.09-11.30.21:186][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.09-11.30.21:421][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.09-11.30.21:653][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.09-11.30.21:882][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.09-11.30.22:108][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.09-11.30.22:368][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.09-11.30.22:587][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.09-11.30.22:818][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.09-11.30.23:048][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.09-11.30.23:273][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.09-11.30.23:501][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.09-11.30.23:730][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.09-11.30.23:968][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.09-11.30.24:418][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.09-11.30.24:418][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.09-11.30.24:630][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.09-11.30.25:006][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.09-11.30.25:153][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.09-11.30.25:379][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.09-11.30.25:605][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.09-11.30.25:834][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.09-11.30.26:106][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.09-11.30.26:106][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.09-11.30.28:745][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.09-11.30.28:814][  0]LogDerivedDataCache: Loaded boot cache 0.07s 91MB C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.09-11.30.28:814][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.09-11.30.28:815][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file U:/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.09-11.30.28:815][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.09-11.30.28:816][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file U:/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.09-11.30.28:816][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.09-11.30.28:830][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.09-11.30.28:843][  0]LogDerivedDataCache: Using Local data cache path C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.09-11.30.28:854][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.09-11.30.28:854][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.09-11.30.28:855][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.09-11.30.28:855][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.09-11.30.29:417][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.09-11.30.29:703][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.09-11.30.30:150][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.09-11.30.30:385][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.09-11.30.30:613][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.09-11.30.30:613][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.09-11.30.30:613][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.09-11.30.32:047][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
+[2018.02.09-11.30.32:242][  0]LogAssetRegistry: FAssetRegistry took 0.0525 seconds to start up
+[2018.02.09-11.30.32:766][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.322435 seconds
+[2018.02.09-11.30.32:772][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.09-11.30.32:772][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.02.09-11.30.32:772][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.09-11.30.33:247][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.09-11.30.42:309][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.09-11.30.42:468][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.09-11.30.42:469][  0]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.30.45:106][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.09-11.30.46:819][  0]SourceControl: Info Source control is disabled
+[2018.02.09-11.30.46:868][  0]SourceControl: Info Source control is disabled
+[2018.02.09-11.30.47:103][  0]SourceControl: Info Source control is disabled
+[2018.02.09-11.30.47:330][  0]SourceControl: Info Source control is disabled
+[2018.02.09-11.30.50:680][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.09-11.30.53:383][  0]LogEngine: Initializing Engine...
+[2018.02.09-11.30.53:384][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.09-11.30.53:384][  0]LogHMD: GearVR starting with CPU: 2 GPU: 3 MinimumVsyncs: 1
+[2018.02.09-11.30.53:438][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.09-11.30.58:998][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.09-11.30.58:999][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.09-11.30.59:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.09-11.30.59:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.09-11.30.59:904][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.09-11.30.59:919][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.09-11.31.00:062][  0]LogInit: FAudioDevice initialized.
+[2018.02.09-11.31.00:106][  0]LogDerivedDataCache: Saved boot cache 0.04s 102MB C:/Users/javiergarciagomez/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.09-11.31.00:119][  0]LogInit: Texture streaming: Enabled
+[2018.02.09-11.31.00:678][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.09-11.31.01:806][  0]LogInit: Transaction tracking system initialized
+[2018.02.09-11.31.03:503][  0]BlueprintLog: New page: Editor Load
+[2018.02.09-11.31.08:573][  0]LocalizationService: Info Localization service is disabled
+[2018.02.09-11.31.12:148][  0]LogConsoleResponse:Display: 
+[2018.02.09-11.31.12:450][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.09-11.31.12:450][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.09-11.31.12:609][  0]LogFileCache: Scanning file cache for directory 'U:/Anarquia/Proyecto2/Content/' took 0.16s
+[2018.02.09-11.31.17:746][  0]SourceControl: Info Source control is disabled
+[2018.02.09-11.31.17:746][  0]Cmd: MAP LOAD FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.09-11.31.17:759][  0]LightingResults: New page: Lighting Build
+[2018.02.09-11.31.17:981][  0]MapCheck: New page: Map Check
+[2018.02.09-11.31.17:981][  0]LightingResults: New page: Lighting Build
+[2018.02.09-11.31.22:415][  0]LogAIModule: Creating AISystem for world Distrito1
+[2018.02.09-11.31.22:701][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.09-11.31.22:753][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.09-11.31.22:946][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 192.33ms to complete.
+[2018.02.09-11.31.22:946][  0]LogFileHelpers: Loading map 'Distrito1' took 5.199
+[2018.02.09-11.31.23:220][  0]LogCollectionManager: Loaded 0 collections in 0.006523 seconds
+[2018.02.09-11.31.23:499][  0]LogFileCache: Scanning file cache for directory 'U:/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
+[2018.02.09-11.31.23:499][  0]LogFileCache: Scanning file cache for directory 'U:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/' took 0.01s
+[2018.02.09-11.31.23:500][  0]LogFileCache: Scanning file cache for directory 'U:/Anarquia/Proyecto2/Content/Collections/' took 0.01s
+[2018.02.09-11.31.23:500][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.02.09-11.31.23:508][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2329 classes and 491 folders.
+[2018.02.09-11.31.23:860][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.02.09-11.31.23:944][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.02.09-11.31.24:167][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.02.09-11.31.24:323][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.09-11.31.24:329][  0]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.09-11.31.24:331][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.09-11.31.24:336][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.09-11.31.24:431][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2018.02.09-11.31.24:458][  0]LogRenderer: Reallocating scene render targets to support 1208x676 NumSamples 1 (Frame:1).
+[2018.02.09-11.31.24:933][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2018.02.09-11.31.24:933][  0]LogLoad: (Engine Initialization) Total time: 73.04 seconds
+[2018.02.09-11.31.24:933][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.84 seconds
+[2018.02.09-11.31.24:933][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.09-11.31.24:942][  0]LogOcInput: OculusInput pre-init called
+[2018.02.09-11.31.24:946][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.12.0
+[2018.02.09-11.31.24:946][  0]LogHMD: Starting GearVRController plugin
+[2018.02.09-11.31.24:968][  0]LogAssetRegistry: Asset discovery search completed in 52.7497 seconds
+[2018.02.09-11.31.24:970][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.09-11.31.24:970][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2018.02.09-11.31.24:970][  0]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.31.24:971][  0]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/', and we were unable to create a new request.
+[2018.02.09-11.31.24:971][  0]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.31.24:971][  0]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.31.24:971][  0]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.31.24:975][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.09-11.31.25:046][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.09-11.31.25:090][  1]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.31.25:091][  1]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/Collections/', and we were unable to create a new request.
+[2018.02.09-11.31.25:091][  1]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.31.25:092][  1]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Saved/Collections/', and we were unable to create a new request.
+[2018.02.09-11.31.25:092][  1]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.31.25:093][  1]LogDirectoryWatcher: A directory notification failed for 'U:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/', and we were unable to create a new request.
+[2018.02.09-11.31.31:086][304]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.09-11.31.31:541][304]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.09-11.31.31:603][304]Cmd: MAP LOAD FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.09-11.31.31:603][304]LightingResults: New page: Lighting Build
+[2018.02.09-11.31.31:603][304]LoadErrors: New page: Loading map: NewDistrito1.umap
+[2018.02.09-11.31.31:614][304]MapCheck: New page: Map Check
+[2018.02.09-11.31.31:614][304]LightingResults: New page: Lighting Build
+[2018.02.09-11.31.31:725][304]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.09-11.31.31:814][304]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.09-11.31.32:400][304]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 586.353ms to complete.
+[2018.02.09-11.31.32:401][304]LogFileHelpers: Loading map 'NewDistrito1' took 0.799
+[2018.02.09-11.31.32:403][304]LogSlate: Took 0.000433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.09-11.31.37:514][782]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.09-11.31.38:158][851]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroAgua_PART2)
+[2018.02.09-11.31.49:617][ 82]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0020 seconds. Added 2 classes and 2 folders.
+[2018.02.09-11.31.57:252][928]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.31.57:768][990]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.31.58:579][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.31.59:008][ 85]LogSavePackage: Save=260.11ms
+[2018.02.09-11.31.59:008][ 85]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART86894DA84A62C17B1A4A0989E3192187.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.31.59:051][ 85]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.32.08:564][209]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.32.08:571][210]LogStaticMesh: Allocated 512x128x64 distance field atlas = 4.0Mb, with 68 objects containing 0.7Mb backing data
+[2018.02.09-11.32.15:884][ 87]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.32.16:301][137]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.32.16:910][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.32.17:478][208]LogSavePackage: Save=381.47ms
+[2018.02.09-11.32.17:478][208]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PARTC1EB0DA14F40534805BAB19DA74BED42.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.32.17:532][208]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.32.28:170][475]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.32.37:711][620]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.32.38:135][671]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.32.38:878][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.32.39:472][758]LogSavePackage: Save=417.11ms
+[2018.02.09-11.32.39:472][758]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PARTBEC5AE174CC77B3433CC398CD6F943EA.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.32.39:506][758]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.33.21:094][718]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.33.23:433][998]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.34.05:466][ 41]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.34.05:833][ 85]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.34.06:236][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.34.06:725][132]LogSavePackage: Save=317.38ms
+[2018.02.09-11.34.06:725][132]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART250146B941069817236B21904C49180D.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.34.06:760][132]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.35.44:134][657]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.35.44:826][740]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.35.45:934][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.35.46:664][838]LogSavePackage: Save=527.13ms
+[2018.02.09-11.35.46:664][838]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PARTDE9970B6419AA3C45EC2288AF298B41C.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.35.46:726][838]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.36.18:754][610]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.36.21:373][644]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2018.02.09-11.36.21:383][644]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2018.02.09-11.36.21:407][644]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.02.09-11.36.21:420][644]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.02.09-11.36.21:440][644]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.02.09-11.36.21:449][644]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.02.09-11.36.21:474][644]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.02.09-11.36.21:483][644]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.02.09-11.36.21:492][644]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.02.09-11.36.21:519][644]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2018.02.09-11.36.21:525][644]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2018.02.09-11.36.21:548][644]LogMaterial: Missing cached shader map for material MirrorPlaneMaterial, compiling. 
+[2018.02.09-11.36.21:571][644]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.02.09-11.36.21:580][644]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.02.09-11.36.21:590][644]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.02.09-11.36.21:611][644]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.02.09-11.36.21:631][644]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.02.09-11.36.21:640][644]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.02.09-11.36.21:660][644]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.02.09-11.36.21:669][644]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.02.09-11.36.21:697][644]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2018.02.09-11.36.21:706][644]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2018.02.09-11.36.21:727][644]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.02.09-11.36.21:736][644]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.02.09-11.36.21:758][644]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.02.09-11.36.21:767][644]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.02.09-11.36.21:791][644]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.02.09-11.36.23:046][787]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.36.23:785][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.36.29:248][874]LogSavePackage: Save=1670.81ms
+[2018.02.09-11.36.29:253][874]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART8F4E9CBB4C0137DCE135E083BD725E6E.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.36.31:317][874]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.36.47:212][611]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.36.47:675][664]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.36.48:146][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.37.11:957][716]LogSavePackage: Save=17206.76ms
+[2018.02.09-11.37.11:957][716]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART3D1481314ED06F83AC3FE3AFFAED3F69.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.37.14:217][716]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.37.56:066][593]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroAgua_PART2)
+[2018.02.09-11.38.29:166][181]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.38.31:440][423]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.38.48:772][486]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.38.53:230][ 21]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.38.53:314][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.38.53:743][ 29]LogSavePackage: Save=242.96ms
+[2018.02.09-11.38.53:743][ 29]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART5A23759E4D27D175DA23209853A68676.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.38.53:770][ 29]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.39.04:523][282]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.39.08:074][708]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.39.08:162][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.39.08:595][717]LogSavePackage: Save=240.64ms
+[2018.02.09-11.39.08:595][717]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART2461AA954C9181C7CBBEF285116F0872.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.39.08:626][717]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.39.22:417][327]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.39.25:034][641]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.39.25:089][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.39.25:586][646]LogSavePackage: Save=313.43ms
+[2018.02.09-11.39.25:586][646]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART92AA7C8147C4BADDCB44F8A3B4C7ED89.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.39.25:628][646]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.39.53:618][845]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.39.55:809][108]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.39.55:899][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.39.56:339][117]LogSavePackage: Save=264.94ms
+[2018.02.09-11.39.56:339][117]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART881F69474709FACA827E108FB1EA3D08.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.39.56:372][117]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.40.57:572][362]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.40.58:820][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.40.59:257][510]LogSavePackage: Save=257.65ms
+[2018.02.09-11.40.59:257][510]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PARTB8B8C93E4DEA880FF52D19BB69E03F49.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.40.59:304][510]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.41.06:575][285]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.41.06:746][285]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.41.06:764][285]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.41.06:804][285]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2018.02.09-11.41.06:805][285]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.02.09-11.41.06:810][285]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2018.02.09-11.41.06:823][285]LogSlate: Took 0.004964 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.09-11.41.07:071][291]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.09-11.41.15:840][291]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.41.25:094][359]MaterialEditorStats: Info Base pass shader: 298 instructions
+[2018.02.09-11.41.25:094][359]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.02.09-11.41.25:094][359]MaterialEditorStats: Info Texture samplers: 9/16
+[2018.02.09-11.41.28:400][755]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.41.31:018][ 54]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.41.40:431][143]MaterialEditorStats: Info Base pass shader: 298 instructions
+[2018.02.09-11.41.40:432][143]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.02.09-11.41.40:432][143]MaterialEditorStats: Info Texture samplers: 9/16
+[2018.02.09-11.41.47:730][ 18]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.41.56:284][995]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.41.56:299][995]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.04:717][957]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.04:759][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.04:788][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.04:818][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.04:847][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.04:877][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.04:906][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.04:936][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.04:965][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.04:994][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:024][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:054][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:083][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:112][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:142][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:171][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:200][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:230][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:260][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:289][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:319][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:348][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:377][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:407][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:490][964]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:527][965]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.05:545][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:866][999]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.05:981][  9]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.06:011][  9]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.06:040][  9]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.06:234][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.06:263][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.06:293][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.06:322][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.06:352][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.06:381][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.06:411][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.06:441][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.06:470][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.06:595][ 39]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.06:614][ 39]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.07:282][113]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.07:343][117]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.07:372][117]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.07:403][117]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.07:433][117]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.07:462][117]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.07:664][137]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.07:685][137]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.08:233][197]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.08:305][202]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.08:334][202]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.08:363][202]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.08:394][202]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.08:423][202]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.08:518][210]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.08:538][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.10:318][414]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.10:367][416]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.10:396][416]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.10:426][416]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.10:455][416]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.10:485][416]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.10:564][422]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.10:593][422]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.11:242][492]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.11:262][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.42.17:475][207]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.17:491][207]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:573][788]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:614][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:644][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:674][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:703][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:733][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:762][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:792][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:822][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:852][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:881][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:910][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:940][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:970][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.22:999][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.23:107][793]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.23:136][793]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.23:221][799]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.23:251][799]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.23:279][799]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.23:298][799]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.24:625][949]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.24:672][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.24:702][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.24:732][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.24:761][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.24:790][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.24:820][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.25:308][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.25:338][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.25:367][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.25:421][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.25:451][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.25:668][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.25:697][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.25:901][ 47]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.25:920][ 47]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.26:657][129]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.26:698][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.26:728][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.26:758][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.26:787][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.26:817][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.26:847][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.26:876][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.26:906][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.26:935][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.26:964][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.26:993][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.27:024][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.27:053][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.27:083][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.27:112][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.27:142][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.27:171][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.28:063][228]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.28:081][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:352][488]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:503][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:533][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:563][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:593][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:622][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:652][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:681][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:710][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:740][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:812][504]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:841][504]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:871][504]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.30:900][504]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:275][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:305][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:335][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:365][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:394][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:424][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:453][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:483][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:513][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:542][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:573][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:603][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:632][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:662][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.31:827][545]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.31:849][545]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.33:873][775]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.34:015][788]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.34:032][788]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.34:503][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.34:616][849]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.34:636][849]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:499][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:529][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:559][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:588][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:617][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:647][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:676][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:706][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:736][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:765][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:795][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:825][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:855][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:952][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.35:982][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.36:010][951]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.36:029][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.36:059][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.36:157][959]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.36:180][959]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.36:607][  5]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.36:686][ 11]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.36:710][ 11]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.37:732][126]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.37:812][132]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.37:829][132]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.37:987][147]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.38:034][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.38:064][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.38:095][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.38:123][149]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.38:142][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.38:185][150]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.38:264][156]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.38:282][156]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.42:924][690]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.53:209][865]MaterialEditorStats: Info Base pass shader: 297 instructions
+[2018.02.09-11.42.53:209][865]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.02.09-11.42.53:209][865]MaterialEditorStats: Info Texture samplers: 9/16
+[2018.02.09-11.42.55:441][131]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:573][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:602][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:631][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:660][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:689][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:719][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:748][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:777][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:806][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:848][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:920][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:950][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.55:978][149]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.55:997][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.57:672][340]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.57:744][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.57:774][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.57:803][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.57:833][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.57:862][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.57:891][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.57:921][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.57:951][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.57:980][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.58:010][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.58:045][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.58:075][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.58:105][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.58:135][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.58:171][347]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.58:201][347]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.42.58:932][422]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.42.58:953][422]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.43.03:682][965]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.43.03:701][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.43.06:613][294]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.43.06:630][294]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.43.18:319][636]MaterialEditorStats: Info Base pass shader: 299 instructions
+[2018.02.09-11.43.18:319][636]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.02.09-11.43.18:319][636]MaterialEditorStats: Info Texture samplers: 9/16
+[2018.02.09-11.43.24:111][330]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.43.33:337][395]MaterialEditorStats: Info Base pass shader: 299 instructions
+[2018.02.09-11.43.33:337][395]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.02.09-11.43.33:337][395]MaterialEditorStats: Info Texture samplers: 9/16
+[2018.02.09-11.43.37:299][870]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.43.46:673][954]MaterialEditorStats: Info Base pass shader: 299 instructions
+[2018.02.09-11.43.46:673][954]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.02.09-11.43.46:673][954]MaterialEditorStats: Info Texture samplers: 9/16
+[2018.02.09-11.43.49:549][299]LogMaterialEditor: Saving and Compiling material ChorroAgua_MAT
+[2018.02.09-11.43.50:350][299]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.43.50:402][299]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.43.50:468][299]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.43.50:529][299]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ChorroAgua_MAT, compiling. 
+[2018.02.09-11.43.54:681][299]TextureStreamingBuild:Display: Compiling optional shaders took 4.157 seconds.
+[2018.02.09-11.44.13:215][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset" SILENT=true
+[2018.02.09-11.44.13:818][299]LogSavePackage: Save=271.75ms
+[2018.02.09-11.44.13:818][299]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_MAT215065084E01457FE5D407AB1BED92CF.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset'
+[2018.02.09-11.44.13:847][299]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset
+[2018.02.09-11.44.24:777][300]LogSavePackage: Save=10457.84ms
+[2018.02.09-11.44.24:777][300]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/NewDistrito1_Auto1C5AC6DEE4C41D4F462CBBD8F4EE601B6.tmp' to 'U:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap'
+[2018.02.09-11.44.24:811][300]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap
+[2018.02.09-11.44.24:822][300]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 10.869
+[2018.02.09-11.44.24:822][300]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 10.869
+[2018.02.09-11.44.40:095][ 92]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.44.48:029][  3]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.44.53:375][610]LogMaterialEditor: Applying material ChorroAgua_MAT
+[2018.02.09-11.44.54:261][610]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.44.54:306][610]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.44.54:353][610]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.44.54:413][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ChorroAgua_MAT, compiling. 
+[2018.02.09-11.44.59:826][610]TextureStreamingBuild:Display: Compiling optional shaders took 5.419 seconds.
+[2018.02.09-11.45.08:664][520]LogMaterialEditor: Saving and Compiling material ChorroAgua_MAT
+[2018.02.09-11.45.22:647][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset" SILENT=true
+[2018.02.09-11.45.23:013][520]LogSavePackage: Save=187.77ms
+[2018.02.09-11.45.23:013][520]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_MATB49ACA9F4729CC85E47161BDFE7B3A4F.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset'
+[2018.02.09-11.45.23:042][520]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset
+[2018.02.09-11.45.23:048][520]MaterialEditorStats: Info Base pass shader: 299 instructions
+[2018.02.09-11.45.23:048][520]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.02.09-11.45.23:048][520]MaterialEditorStats: Info Texture samplers: 9/16
+[2018.02.09-11.45.33:753][752]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.35:823][984]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.36:702][ 80]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.38:352][265]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.40:604][515]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.41:729][640]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.43:859][881]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.45:477][ 63]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.52:347][845]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.53:735][  1]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.55:805][233]LogEditorTransaction: Undo Material Editor: Delete
+[2018.02.09-11.45.55:810][233]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.55:828][233]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.55:849][233]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.09-11.45.56:084][258]LogEditorTransaction: Undo Material Editor: New Expression
+[2018.02.09-11.45.56:088][258]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.56:107][258]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.56:301][276]LogEditorTransaction: Undo Material Editor: Delete
+[2018.02.09-11.45.56:305][276]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.56:326][276]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.56:517][294]LogEditorTransaction: Undo Move Node
+[2018.02.09-11.45.56:523][294]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.56:703][311]LogEditorTransaction: Undo Material Editor: New Expression
+[2018.02.09-11.45.56:707][311]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.56:725][311]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.56:904][328]LogEditorTransaction: Undo Material Editor: Delete
+[2018.02.09-11.45.56:909][328]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.56:928][328]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.57:116][346]LogEditorTransaction: Undo Material Editor: New Expression
+[2018.02.09-11.45.57:119][346]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.57:138][346]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.57:299][361]LogEditorTransaction: Undo Material Editor: Delete
+[2018.02.09-11.45.57:304][361]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.57:322][361]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.57:484][376]LogEditorTransaction: Undo Material Editor: New Expression
+[2018.02.09-11.45.57:488][376]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.57:506][376]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.57:666][391]LogEditorTransaction: Undo Material Editor: New Expression
+[2018.02.09-11.45.57:671][391]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.57:690][391]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.57:856][407]LogEditorTransaction: Undo Material Editor: Delete
+[2018.02.09-11.45.57:863][407]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.57:883][407]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.57:946][407]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.45.57:950][407]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.45.58:042][415]LogEditorTransaction: Undo Edit Default Value
+[2018.02.09-11.45.58:045][415]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.58:065][415]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.58:788][495]LogEditorTransaction: Undo Edit Default Value
+[2018.02.09-11.45.58:792][495]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.45.58:810][495]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.02:847][954]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.09:649][720]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.13:360][143]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:139][146]LogEditorTransaction: Undo Material Editor: Delete
+[2018.02.09-11.46.22:144][146]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:162][146]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:314][159]LogEditorTransaction: Undo Material Editor: New Expression
+[2018.02.09-11.46.22:318][159]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:338][159]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:480][171]LogEditorTransaction: Undo Edit Default Value
+[2018.02.09-11.46.22:483][171]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:504][171]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:645][183]LogEditorTransaction: Undo Edit Default Value
+[2018.02.09-11.46.22:649][183]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:670][183]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:801][194]LogEditorTransaction: Undo Edit Default Value
+[2018.02.09-11.46.22:804][194]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:824][194]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:946][204]LogEditorTransaction: Undo Create Pin Link
+[2018.02.09-11.46.22:951][204]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:971][204]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.22:992][204]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.46.23:098][211]LogEditorTransaction: Undo Create Pin Link
+[2018.02.09-11.46.23:102][211]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.23:122][211]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.23:145][211]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.09-11.46.23:242][217]LogEditorTransaction: Undo Edit Default Value
+[2018.02.09-11.46.23:245][217]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.23:265][217]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.23:284][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.46.23:415][227]LogEditorTransaction: Undo Edit Default Value
+[2018.02.09-11.46.23:419][227]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.23:439][227]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.23:460][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.46.23:592][237]LogEditorTransaction: Undo Move Node
+[2018.02.09-11.46.23:597][237]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.24:006][280]LogEditorTransaction: Undo Move Node
+[2018.02.09-11.46.24:012][280]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.24:219][300]LogEditorTransaction: Undo Move Node
+[2018.02.09-11.46.24:224][300]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.24:407][317]LogEditorTransaction: Undo Move Node
+[2018.02.09-11.46.24:412][317]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.24:764][354]LogEditorTransaction: Undo Move Node
+[2018.02.09-11.46.24:770][354]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.25:210][402]LogEditorTransaction: Undo Material Editor: Delete
+[2018.02.09-11.46.25:216][402]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.25:235][402]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.25:300][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.02.09-11.46.25:304][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2018.02.09-11.46.25:444][415]LogEditorTransaction: Undo Edit Default Value
+[2018.02.09-11.46.25:447][415]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.25:467][415]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.25:487][415]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.02.09-11.46.27:959][694]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.34:558][448]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.45:684][745]MaterialEditorStats: Info Base pass shader: 298 instructions
+[2018.02.09-11.46.45:684][745]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.02.09-11.46.45:684][745]MaterialEditorStats: Info Texture samplers: 9/16
+[2018.02.09-11.46.54:861][844]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.46.54:879][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.02.09-11.47.04:150][916]MaterialEditorStats: Info Base pass shader: 298 instructions
+[2018.02.09-11.47.04:150][916]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.02.09-11.47.04:150][916]MaterialEditorStats: Info Texture samplers: 9/16
+[2018.02.09-11.47.07:345][299]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.47.16:447][354]MaterialEditorStats: Info Base pass shader: 298 instructions
+[2018.02.09-11.47.16:447][354]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.02.09-11.47.16:447][354]MaterialEditorStats: Info Texture samplers: 9/16
+[2018.02.09-11.47.20:637][855]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.47.20:655][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2018.02.09-11.47.25:039][358]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.47.36:384][661]MaterialEditorStats: Info Base pass shader: 298 instructions
+[2018.02.09-11.47.36:384][661]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.02.09-11.47.36:384][661]MaterialEditorStats: Info Texture samplers: 9/16
+[2018.02.09-11.47.42:109][347]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.47.51:159][389]MaterialEditorStats: Info Base pass shader: 298 instructions
+[2018.02.09-11.47.51:159][389]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.02.09-11.47.51:159][389]MaterialEditorStats: Info Texture samplers: 9/16
+[2018.02.09-11.47.54:592][801]LogMaterialEditor: Saving and Compiling material ChorroAgua_MAT
+[2018.02.09-11.47.55:393][801]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.47.55:439][801]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.47.55:484][801]LogMaterial: Missing cached shader map for material ChorroAgua_MAT, compiling. 
+[2018.02.09-11.47.55:544][801]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ChorroAgua_MAT, compiling. 
+[2018.02.09-11.47.59:742][801]TextureStreamingBuild:Display: Compiling optional shaders took 4.205 seconds.
+[2018.02.09-11.48.18:327][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset" SILENT=true
+[2018.02.09-11.48.18:620][801]LogSavePackage: Save=114.07ms
+[2018.02.09-11.48.18:620][801]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_MATA1ECCA6C4BB174904A4D8AA83786FEAE.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset'
+[2018.02.09-11.48.18:828][801]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_MAT.uasset
+[2018.02.09-11.48.29:358][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fuente_Cylinder001)
+[2018.02.09-11.48.32:756][380]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.09-11.48.34:038][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.09-11.48.34:039][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.09-11.48.34:039][380]PIE: New page: PIE session: NewDistrito1 (Feb 9, 2018, 1:48:34 PM)
+[2018.02.09-11.48.34:040][380]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.09-11.48.34:077][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037480s)
+[2018.02.09-11.48.34:078][380]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.09-11.48.34:078][380]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2018.02.09-11.48.34:078][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.038672s)
+[2018.02.09-11.48.34:094][380]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.09-11.48.34:101][380]LogInit: FAudioDevice initialized.
+[2018.02.09-11.48.34:157][380]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.09-11.48.34:166][380]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.09-12.48.34
+[2018.02.09-11.48.34:168][380]LogWorld: Bringing up level for play took: 0.009061
+[2018.02.09-11.48.34:427][380]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2018.02.09-11.48.34:431][380]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.708
+[2018.02.09-11.48.34:432][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.09-11.49.09:759][594]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.09-11.49.09:808][594]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.09-11.49.17:420][396]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroAgua_PART2)
+[2018.02.09-11.50.03:636][601]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.50.09:678][326]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.50.20:917][655]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.50.39:830][847]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.50.42:030][111]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.50.54:340][566]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.50.56:290][800]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.51.04:610][760]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.51.14:667][940]LogParticles:Warning: MaxCount = 90961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.51.16:433][152]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.51.34:549][303]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.51.36:524][540]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.52.49:440][968]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.02.09-11.53.05:296][582]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Banco11)
+[2018.02.09-11.53.05:876][641]Cmd: DELETE
+[2018.02.09-11.53.05:876][641]Cmd: ACTOR DELETE
+[2018.02.09-11.53.05:878][641]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.09-11.53.05:887][641]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.09-11.53.07:038][778]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.09-11.53.07:468][823]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.09-11.53.10:083][103]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.09-11.53.10:700][170]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.09-11.53.18:445][ 70]LogEditorActor: Deleted Actor: Brush
+[2018.02.09-11.53.18:467][ 70]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.02.09-11.53.23:015][592]LogActorFactory: Actor Factory created Cube
+[2018.02.09-11.53.24:480][765]LogActorFactory: Actor Factory created Cube
+[2018.02.09-11.53.39:265][263]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.53.43:181][733]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.53.44:506][892]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.53.45:421][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.53.46:147][  0]LogSavePackage: Save=443.61ms
+[2018.02.09-11.53.46:147][  0]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART0CBDB31441E072EF835AB5AEC73FC673.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.53.46:200][  0]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.53.56:878][142]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.54.05:598][187]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.54.18:451][729]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.54.18:793][770]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.54.19:560][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.54.19:973][860]LogSavePackage: Save=235.74ms
+[2018.02.09-11.54.19:973][860]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART00675BDA480EDD9F7D63069D4C215DA7.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.54.20:184][860]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.54.32:595][216]Cmd: DELETE
+[2018.02.09-11.54.32:595][216]Cmd: ACTOR DELETE
+[2018.02.09-11.54.32:597][216]LogEditorActor: Deleted Actor: Brush
+[2018.02.09-11.54.32:620][216]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.02.09-11.54.34:794][418]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.09-11.54.34:855][418]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.09-11.54.34:855][418]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.09-11.54.34:855][418]PIE: New page: PIE session: NewDistrito1 (Feb 9, 2018, 1:54:34 PM)
+[2018.02.09-11.54.34:856][418]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.09-11.54.34:892][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036091s)
+[2018.02.09-11.54.34:893][418]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.09-11.54.34:893][418]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2018.02.09-11.54.34:893][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.037046s)
+[2018.02.09-11.54.34:908][418]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.09-11.54.34:916][418]LogInit: FAudioDevice initialized.
+[2018.02.09-11.54.34:949][418]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.09-11.54.34:959][418]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.09-12.54.34
+[2018.02.09-11.54.34:960][418]LogWorld: Bringing up level for play took: 0.009503
+[2018.02.09-11.54.34:967][418]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.738
+[2018.02.09-11.54.34:967][418]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.09-11.54.54:515][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.09-11.54.54:547][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.09-11.55.04:207][869]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.55.04:591][915]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.55.05:172][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.55.05:630][983]LogSavePackage: Save=284.05ms
+[2018.02.09-11.55.05:630][983]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART564251CD411AA3D819310BBC3C8748A5.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.55.05:666][983]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.55.25:606][346]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.55.26:522][456]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.55.27:459][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.55.27:950][552]LogSavePackage: Save=296.58ms
+[2018.02.09-11.55.27:950][552]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART5BA721844858F7E92B4134963D722D89.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.55.27:982][552]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.55.36:178][477]LogEditorViewport: Clicking on Actor (LMB): Emitter (ChorroAgua_PART2)
+[2018.02.09-11.57.40:705][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.57.41:127][220]LogSavePackage: Save=243.00ms
+[2018.02.09-11.57.41:127][220]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART56F48A8F4537341DEAF6EEB3C850BFB6.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.57.41:557][220]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.57.48:262][ 16]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.57.50:920][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.57.51:324][333]LogSavePackage: Save=230.06ms
+[2018.02.09-11.57.51:326][333]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART08777C744A50409D8E960A89B9649230.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.57.51:597][333]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.58.00:082][325]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.09-11.58.00:129][325]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.09-11.58.00:129][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.09-11.58.00:129][325]PIE: New page: PIE session: NewDistrito1 (Feb 9, 2018, 1:58:00 PM)
+[2018.02.09-11.58.00:131][325]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.09-11.58.00:167][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036423s)
+[2018.02.09-11.58.00:168][325]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.09-11.58.00:168][325]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2018.02.09-11.58.00:169][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.037486s)
+[2018.02.09-11.58.00:185][325]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.09-11.58.00:192][325]LogInit: FAudioDevice initialized.
+[2018.02.09-11.58.00:233][325]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.09-11.58.00:242][325]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.09-12.58.00
+[2018.02.09-11.58.00:243][325]LogWorld: Bringing up level for play took: 0.008914
+[2018.02.09-11.58.00:250][325]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.544
+[2018.02.09-11.58.00:251][325]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.09-11.58.46:501][871]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.09-11.58.46:542][871]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.09-11.58.58:741][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.58.59:202][322]LogSavePackage: Save=281.45ms
+[2018.02.09-11.58.59:202][322]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART0AD6EFFA4777D2EBE173909F614413C0.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.58.59:234][322]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.59.01:847][630]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.59.27:241][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.59.27:762][675]LogSavePackage: Save=230.77ms
+[2018.02.09-11.59.27:762][675]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PART9AB77CA842EC8DD3F9D477BD3DA2E79C.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.59.27:792][675]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.59.30:243][963]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.59.34:460][469]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.59.34:885][520]LogParticles:Warning: MaxCount = 150961 for Emitter ParticleSpriteEmitter_0 (/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.ChorroAgua_PART)
+[2018.02.09-11.59.35:500][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset" SILENT=true
+[2018.02.09-11.59.35:939][592]LogSavePackage: Save=268.32ms
+[2018.02.09-11.59.35:939][592]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/ChorroAgua_PARTD1C449934ABB7A647643529F119ED21A.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset'
+[2018.02.09-11.59.35:979][592]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/ChorroAgua_PART.uasset
+[2018.02.09-11.59.46:266][619]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.09-11.59.46:341][621]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Proyecto2
+[2018.02.09-11.59.46:341][621]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.09-11.59.46:341][621]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2018.02.09-11.59.46:341][621]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.09-11.59.46:341][621]LogTemp: BranchPath = g4-009/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = g4-009/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2018.02.09-11.59.46:352][622]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\javiergarciagomez\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.09-12.00.06:292][493]LogInit:Warning: CVar named 'r.DistanceFieldBuild.EightBit' marked up in RendererSettings was not found or is set to read-only
+[2018.02.09-12.00.06:847][522]LogInit:Warning: CVar named 'r.DistanceFieldBuild.Compress' marked up in RendererSettings was not found or is set to read-only
+[2018.02.09-12.00.11:315][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/NewDistrito1" FILE="U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.09-12.00.22:448][988]LogSavePackage: Save=10354.77ms
+[2018.02.09-12.00.22:448][988]LogSavePackage: Moving 'U:/Anarquia/Proyecto2/Saved/NewDistrito1A5EE39644AAA07B82372FB92151521D4.tmp' to 'U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.09-12.00.22:482][988]LogSavePackage:Display: Finished SavePackage U:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.09-12.00.25:394][311]Cmd: CLOSE_SLATE_MAINFRAME
+[2018.02.09-12.00.25:650][311]LogCascade: Quitting Cascade. FXSystem=0x000001E83BEA6A20
+[2018.02.09-12.00.26:029][312]Cmd: QUIT_EDITOR
+[2018.02.09-12.00.26:792][312]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.09-12.00.26:940][312]LogExit: Preparing to exit.
+[2018.02.09-12.00.28:010][312]LogExit: Editor shut down
+[2018.02.09-12.00.28:013][312]LogExit: Transaction tracking system shut down
+[2018.02.09-12.00.28:070][312]LogObj: Freed 0b from 0 cluster array pools.
+[2018.02.09-12.00.28:070][312]LogExit: Object subsystem successfully closed.
+[2018.02.09-12.00.28:088][312]LogD3D11RHI: Shutdown
+[2018.02.09-12.00.28:088][312]LogD3D11RHI: CleanupD3DDevice
+[2018.02.09-12.00.28:090][312]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.09-12.00.28:152][312]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (534)
+[2018.02.09-12.00.28:152][312]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.02.09-12.00.28:152][312]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
+[2018.02.09-12.00.28:152][312]LogModuleManager: Shutting down and abandoning module DistCurveEditor (528)
+[2018.02.09-12.00.28:152][312]LogModuleManager: Shutting down and abandoning module Cascade (526)
+[2018.02.09-12.00.28:152][312]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.02.09-12.00.28:152][312]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.02.09-12.00.28:152][312]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.02.09-12.00.28:152][312]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.02.09-12.00.28:152][312]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.02.09-12.00.28:153][312]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.02.09-12.00.28:154][312]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.02.09-12.00.28:768][312]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.02.09-12.00.28:769][312]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.02.09-12.00.28:834][312]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.02.09-12.00.28:834][312]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.02.09-12.00.28:834][312]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.02.09-12.00.28:834][312]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.02.09-12.00.28:834][312]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.02.09-12.00.28:834][312]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.02.09-12.00.28:834][312]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.02.09-12.00.28:834][312]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.02.09-12.00.28:834][312]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.02.09-12.00.28:834][312]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.02.09-12.00.28:836][312]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.02.09-12.00.28:994][312]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.02.09-12.00.28:995][312]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.02.09-12.00.28:995][312]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.02.09-12.00.28:995][312]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.02.09-12.00.28:995][312]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.02.09-12.00.28:995][312]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.02.09-12.00.28:995][312]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.02.09-12.00.28:995][312]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.02.09-12.00.28:995][312]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.02.09-12.00.28:995][312]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.02.09-12.00.28:995][312]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.02.09-12.00.28:995][312]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.02.09-12.00.28:995][312]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.02.09-12.00.28:996][312]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.02.09-12.00.28:996][312]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.02.09-12.00.28:996][312]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.02.09-12.00.28:996][312]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.02.09-12.00.28:996][312]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.02.09-12.00.28:996][312]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.02.09-12.00.29:097][312]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.02.09-12.00.29:197][312]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.02.09-12.00.29:197][312]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.02.09-12.00.29:197][312]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.02.09-12.00.29:197][312]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.02.09-12.00.29:197][312]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.02.09-12.00.29:197][312]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.02.09-12.00.29:197][312]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.02.09-12.00.29:198][312]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.02.09-12.00.29:198][312]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.02.09-12.00.29:198][312]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.02.09-12.00.29:200][312]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.02.09-12.00.29:204][312]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.02.09-12.00.29:204][312]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.02.09-12.00.29:204][312]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.02.09-12.00.29:204][312]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.02.09-12.00.29:204][312]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.02.09-12.00.29:204][312]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.02.09-12.00.30:506][312]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.09-12.00.30:506][312]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.09-12.00.30:506][312]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.02.09-12.00.30:508][312]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.02.09-12.00.30:508][312]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.02.09-12.00.30:508][312]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.02.09-12.00.30:508][312]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.02.09-12.00.30:509][312]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.02.09-12.00.30:509][312]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.02.09-12.00.30:509][312]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.02.09-12.00.30:509][312]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.02.09-12.00.30:509][312]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.09-12.00.30:541][312]LogDerivedDataCache: Shutdown
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.09-12.00.30:541][312]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.09-12.00.30:542][312]LogOnline:Display: Unloading online subsystem: NULL
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.09-12.00.30:542][312]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.09-12.00.30:542][312]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.09-12.00.30:542][312]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B42A5770C-451D-70BD-E3BA-EA9540771024%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=0e69d85741d696303a8d9dafd7e741bd%7C%7C4de4ee59-3de1-47a6-9e8c-38cda48c02c7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.09-12.00.30:557][312]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.09-12.00.30:558][312]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.02.09-12.00.30:558][312]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.02.09-12.00.30:558][312]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.02.09-12.00.30:558][312]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.02.09-12.00.30:558][312]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.02.09-12.00.30:558][312]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.02.09-12.00.30:558][312]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.02.09-12.00.30:558][312]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.02.09-12.00.30:559][312]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.02.09-12.00.30:559][312]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.02.09-12.00.30:559][312]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.02.09-12.00.30:559][312]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.02.09-12.00.30:559][312]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.02.09-12.00.30:559][312]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.02.09-12.00.30:559][312]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.02.09-12.00.30:559][312]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.09-12.00.30:559][312]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.09-12.00.30:559][312]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.09-12.00.30:561][312]LogExit: Exiting.
+[2018.02.09-12.00.30:605][312]Log file closed, 02/09/18 13:00:30
