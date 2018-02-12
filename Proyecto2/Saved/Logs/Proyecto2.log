@@ -1,9 +1,9 @@
-﻿Log file open, 02/12/18 17:22:42
+﻿Log file open, 02/12/18 20:03:50
 LogInit:Display: Running engine for game: Proyecto2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(925996483) SRandInit(925996484).
+LogInit:Display: RandInit(-1286004027) SRandInit(-1286004027).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.218834
+LogStats: Stats thread started at 0.107789
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,646 +50,417 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.12-16.22.43:473][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.12-16.22.43:473][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.12-16.22.43:550][  0]LogInit: Computer: PC-JAVITO
-[2018.02.12-16.22.43:550][  0]LogInit: User: JAVITO
-[2018.02.12-16.22.43:550][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.12-16.22.43:550][  0]LogInit: High frequency timer resolution =3.320312 MHz
-[2018.02.12-16.22.43:550][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.02.12-16.22.43:550][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.12-16.22.43:550][  0]LogMemory: Process Physical Memory: 275.74 MB used, 275.74 MB peak
-[2018.02.12-16.22.43:550][  0]LogMemory: Process Virtual Memory: 276.95 MB used, 276.95 MB peak
-[2018.02.12-16.22.43:550][  0]LogMemory: Physical Memory: 7087.99 MB used,  25627.58 MB free, 32715.57 MB total
-[2018.02.12-16.22.43:550][  0]LogMemory: Virtual Memory: 687.94 MB used,  25627.58 MB free, 134217728.00 MB total
-[2018.02.12-16.22.45:995][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.02.12-16.22.45:995][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.02.12-16.23.09:882][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.12-16.23.09:958][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2018.02.12-16.23.09:958][  0]LogD3D11RHI:       6052/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.02.12-16.23.09:961][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.12-16.23.09:961][  0]LogD3D11RHI:       0/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.12-16.23.09:961][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.12-16.23.09:968][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.12-16.23.09:968][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.12-16.23.09:968][  0]LogWindows: EnumDisplayDevices:
-[2018.02.12-16.23.09:968][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2018.02.12-16.23.09:969][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2018.02.12-16.23.09:969][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.02.12-16.23.09:969][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.02.12-16.23.09:969][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.12-16.23.09:969][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2018.02.12-16.23.09:969][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.12-16.23.09:969][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.12-16.23.09:969][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.02.12-16.23.10:001][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.12-16.23.10:018][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.02.12-16.23.10:116][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/11240/).
-[2018.02.12-16.23.10:117][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JAVITO/AppData/Local/Temp/UnrealShaderWorkingDir/06F1781C4AA8C186861BD0BA8100FCAA/'.
-[2018.02.12-16.23.10:117][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.02.12-16.23.19:812][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.12-16.23.19:906][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.02.12-16.23.19:980][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.12-16.23.20:072][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.02.12-16.23.20:247][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.02.12-16.23.20:354][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.12-16.23.20:448][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.12-16.23.20:557][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.12-16.23.20:636][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.02.12-16.23.20:813][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.02.12-16.23.20:923][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.12-16.23.21:079][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.12-16.23.21:170][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.12-16.23.21:272][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.12-16.23.21:399][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.12-16.23.21:634][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.12-16.23.21:634][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.12-16.23.21:716][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.02.12-16.23.22:115][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.02.12-16.23.22:190][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.02.12-16.23.22:275][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.12-16.23.22:347][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.12-16.23.22:443][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.12-16.23.22:549][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.02.12-16.23.22:549][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.02.12-16.23.24:484][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.02.12-16.23.46:718][  0]LogDerivedDataCache: Loaded boot cache 22.23s 90MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.02.12-16.23.46:718][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.02.12-16.23.46:718][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.12-16.23.46:718][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.12-16.23.46:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.12-16.23.46:719][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.12-16.23.46:985][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.12-16.23.46:998][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JAVITO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.12-16.23.47:023][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.12-16.23.47:023][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.12-16.23.47:083][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.12-16.23.47:083][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.12-16.23.59:996][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.12-16.24.02:929][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.02.12-16.24.04:808][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.12-16.24.04:952][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.12-16.24.05:043][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.12-16.24.05:043][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.02.12-16.24.05:043][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.02.12-16.24.17:840][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
-[2018.02.12-16.24.19:812][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
-[2018.02.12-16.24.19:887][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.037470 seconds
-[2018.02.12-16.24.19:894][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.02.12-16.24.19:894][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2018.02.12-16.24.19:894][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.12-16.24.20:002][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.12-16.25.30:680][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.12-16.25.30:830][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.12-16.25.32:839][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.12-16.25.33:862][  0]SourceControl: Info Source control is disabled
-[2018.02.12-16.25.35:109][  0]SourceControl: Info Source control is disabled
-[2018.02.12-16.25.35:217][  0]SourceControl: Info Source control is disabled
-[2018.02.12-16.25.35:335][  0]SourceControl: Info Source control is disabled
-[2018.02.12-16.25.37:549][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.12-16.25.39:342][  0]LogEngine: Initializing Engine...
-[2018.02.12-16.25.39:343][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.12-16.25.39:682][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.12-16.25.39:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.12-16.25.39:914][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.12-16.25.39:935][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.12-16.25.39:949][  0]LogInit: FAudioDevice initialized.
-[2018.02.12-16.25.40:004][  0]LogDerivedDataCache: Saved boot cache 0.05s 91MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.02.12-16.25.40:016][  0]LogInit: Texture streaming: Enabled
-[2018.02.12-16.25.40:718][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.12-16.25.41:434][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.02.12-16.25.41:601][  0]LogInit: Transaction tracking system initialized
-[2018.02.12-16.25.42:346][  0]BlueprintLog: New page: Editor Load
-[2018.02.12-16.25.44:533][  0]LocalizationService: Info Localization service is disabled
-[2018.02.12-16.25.46:349][  0]LogConsoleResponse:Display: 
-[2018.02.12-16.25.49:644][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.12-16.25.49:644][  0]LogCook:Display: Mobile HDR setting 1
-[2018.02.12-16.25.50:403][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' took 0.03s
-[2018.02.12-16.25.55:782][  0]SourceControl: Info Source control is disabled
-[2018.02.12-16.25.55:783][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.12-16.25.55:783][  0]LightingResults: New page: Lighting Build
-[2018.02.12-16.25.55:846][  0]MapCheck: New page: Map Check
-[2018.02.12-16.25.55:846][  0]LightingResults: New page: Lighting Build
-[2018.02.12-16.26.11:597][  0]LogDerivedDataCache:Warning: C:/Users/JAVITO/AppData/Local/UnrealEngine/Common/DerivedDataCache is very slow (0.00MB/s) when accessing C:/Users/JAVITO/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/1/PHYSX_68E961F5D7B04A1C84A67D46CA8B36E3_PHYSXPC_E5D6259F43290B2ECB1CB8B9C70A55C1__1_0_0_0_13315_0.udd, consider disabling it.
-[2018.02.12-16.26.14:709][  0]LogAIModule: Creating AISystem for world Distrito1
-[2018.02.12-16.26.19:204][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.12-16.26.19:281][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.12-16.26.19:382][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.211ms to complete.
-[2018.02.12-16.26.19:382][  0]LogFileHelpers: Loading map 'Distrito1' took 23.599
-[2018.02.12-16.26.19:599][  0]LogCollectionManager: Loaded 0 collections in 0.002804 seconds
-[2018.02.12-16.26.19:726][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
-[2018.02.12-16.26.19:726][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' took 0.01s
-[2018.02.12-16.26.19:726][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' took 0.01s
-[2018.02.12-16.26.19:726][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2018.02.12-16.26.19:736][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2329 classes and 491 folders.
-[2018.02.12-16.26.19:841][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.02.12-16.26.26:577][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2018.02.12-16.26.26:950][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2018.02.12-16.26.27:147][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.02.12-16.26.27:175][  0]LogSlate: Took 0.022853 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.12-16.26.27:257][  0]LogSlate: Took 0.080516 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.12-16.26.27:291][  0]LogSlate: Took 0.030597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.12-16.26.27:467][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
-[2018.02.12-16.26.27:498][  0]LogRenderer: Reallocating scene render targets to support 1104x924 NumSamples 1 (Frame:1).
-[2018.02.12-16.26.27:735][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.02.12-16.26.27:897][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.02.12-16.26.27:897][  0]LogLoad: (Engine Initialization) Total time: 241.81 seconds
-[2018.02.12-16.26.27:897][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.21 seconds
-[2018.02.12-16.26.27:897][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.02.12-16.26.27:897][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.02.12-16.26.27:907][  0]LogOcInput: OculusInput pre-init called
-[2018.02.12-16.26.27:907][  0]LogHMD: Starting GearVRController plugin
-[2018.02.12-16.26.27:936][  0]LogContentStreaming: Texture pool size now 600 MB
-[2018.02.12-16.26.28:012][  0]LogSlate: Took 0.023808 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.12-16.26.28:080][  1]LogAssetRegistry: Asset discovery search completed in 128.2912 seconds
-[2018.02.12-16.26.28:082][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.02.12-16.26.28:082][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
-[2018.02.12-16.33.33:843][465]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.12-16.33.37:356][465]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
-[2018.02.12-16.33.37:499][465]LogMaterial: Missing cached shader map for material SparksSword_MAT, compiling. 
-[2018.02.12-16.33.39:898][465]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.12-16.33.40:796][465]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 32X32)
-[2018.02.12-16.33.40:801][465]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
-[2018.02.12-16.33.40:833][465]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
-[2018.02.12-16.33.40:870][465]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
-[2018.02.12-16.33.40:908][465]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
-[2018.02.12-16.33.41:049][465]LogTexture:Display: Building textures: Texture2D_63_BaseColor (DXT1, 32X32)
-[2018.02.12-16.33.41:058][465]LogMaterial: Missing cached shader map for material wire_177088028, compiling. 
-[2018.02.12-16.33.41:194][465]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.12-16.33.41:224][465]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong1.phong1 needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2018.02.12-16.33.41:228][465]LogMaterial: Missing cached shader map for material phong1, compiling. 
-[2018.02.12-16.33.41:268][465]MapCheck:Warning: Warning phong1 Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong1.phong1 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2018.02.12-16.33.41:286][465]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/wire_108008137.wire_108008137 needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2018.02.12-16.33.41:291][465]LogMaterial: Missing cached shader map for material wire_108008137, compiling. 
-[2018.02.12-16.33.41:328][465]MapCheck:Warning: Warning wire_108008137 Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/wire_108008137.wire_108008137 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2018.02.12-16.33.41:328][465]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong2.phong2 needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2018.02.12-16.33.41:332][465]LogMaterial: Missing cached shader map for material phong2, compiling. 
-[2018.02.12-16.33.41:366][465]MapCheck:Warning: Warning phong2 Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong2.phong2 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2018.02.12-16.33.41:367][465]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong3.phong3 needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2018.02.12-16.33.41:370][465]LogMaterial: Missing cached shader map for material phong3, compiling. 
-[2018.02.12-16.33.41:408][465]MapCheck:Warning: Warning phong3 Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong3.phong3 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2018.02.12-16.33.41:544][465]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.12-16.33.41:545][465]LightingResults: New page: Lighting Build
-[2018.02.12-16.33.41:546][465]LoadErrors: New page: Loading map: NewDistrito1.umap
-[2018.02.12-16.33.41:588][465]MapCheck: New page: Map Check
-[2018.02.12-16.33.41:588][465]LightingResults: New page: Lighting Build
-[2018.02.12-16.33.42:876][465]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.12-16.33.43:034][465]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.12-16.33.43:188][465]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 153.649ms to complete.
-[2018.02.12-16.33.43:188][465]LogFileHelpers: Loading map 'NewDistrito1' took 1.646
-[2018.02.12-16.33.59:414][366]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision2)
-[2018.02.12-16.34.10:962][431]LogTemp: Repeting last play command: Selected Viewport
-[2018.02.12-16.34.11:119][431]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.34.11:119][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.12-16.34.11:119][431]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 6:34:11 PM)
-[2018.02.12-16.34.11:120][431]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
-[2018.02.12-16.34.11:195][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075345s)
-[2018.02.12-16.34.11:196][431]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.12-16.34.11:196][431]LogPlayLevel: PIE: World Init took: (0.000696s)
-[2018.02.12-16.34.11:197][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.076458s)
-[2018.02.12-16.34.11:218][431]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.12-16.34.11:228][431]LogInit: FAudioDevice initialized.
-[2018.02.12-16.34.11:279][431]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.12-16.34.11:305][431]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-17.34.11
-[2018.02.12-16.34.11:308][431]LogWorld: Bringing up level for play took: 0.025986
-[2018.02.12-16.34.11:377][431]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2018.02.12-16.34.11:383][431]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.123
-[2018.02.12-16.34.11:383][431]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.34.40:639][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.34.40:683][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.36.02:453][337]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/farola pared.FBX)
-[2018.02.12-16.36.02:463][337]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.02.12-16.36.02:463][337]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.02.12-16.36.02:463][337]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.02.12-16.36.02:463][337]LogFbx: ItemName: Model, ItemCount : 1
-[2018.02.12-16.36.02:463][337]LogFbx: ItemName: Geometry, ItemCount : 1
-[2018.02.12-16.36.02:463][337]LogFbx: ItemName: Material, ItemCount : 1
-[2018.02.12-16.36.02:463][337]LogFbx: ItemName: Texture, ItemCount : 1
-[2018.02.12-16.36.02:463][337]LogFbx: ItemName: Video, ItemCount : 1
-[2018.02.12-16.36.02:468][337]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/farola pared.FBX
-[2018.02.12-16.36.02:476][337]LogFbx: FBX Scene Loaded Succesfully
-[2018.02.12-16.36.18:997][337]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/farola pared.FBX
-[2018.02.12-16.36.19:003][337]LogFbx: FBX Scene Loaded Succesfully
-[2018.02.12-16.36.19:006][337]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Material__25'
-[2018.02.12-16.36.19:006][337]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Material__25'
-[2018.02.12-16.36.19:013][337]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola_pared_uvs_pintadas'
-[2018.02.12-16.36.19:013][337]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola_pared_uvs_pintadas'
-[2018.02.12-16.36.19:013][337]LogFbxMaterialImport:Warning: Unable to find Texture file C:\Users\xavi\Documents\3dsMax\scenes\farola pared uvs pintadas.png
-[2018.02.12-16.36.19:016][337]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-16.36.19:039][337]LogFbx:Warning: Triangulating static mesh Box001
-[2018.02.12-16.36.19:080][337]LogStaticMesh: Building static mesh farola_pared...
-[2018.02.12-16.36.19:101][337]LogStaticMesh: Built static mesh [0.02s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola_pared.farola_pared
-[2018.02.12-16.36.19:132][337]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.02.12-16.36.19:485][337]LogMeshUtilities: Finished distance field build in 0.3s - 31x12x30 distance field, 363 triangles, Range [-0.2, 1.0], farola_pared
-[2018.02.12-16.36.19:485][337]LogStaticMesh:Warning: Main thread blocked for 0.336s for async distance field build of farola_pared to complete!  This can happen if the mesh is rebuilt excessively.
-[2018.02.12-16.36.19:489][337]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/farola.FBX)
-[2018.02.12-16.36.19:502][337]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/farola.FBX
-[2018.02.12-16.36.19:511][337]LogFbx: FBX Scene Loaded Succesfully
-[2018.02.12-16.36.19:513][337]LogFbx:Warning: Triangulating static mesh Box001
-[2018.02.12-16.36.19:612][337]LogStaticMesh: Building static mesh farola...
-[2018.02.12-16.36.19:649][337]LogStaticMesh: Built static mesh [0.04s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola.farola
-[2018.02.12-16.36.19:665][337]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.02.12-16.36.21:562][337]LogMeshUtilities: Finished distance field build in 1.8s - 44x44x64 distance field, 940 triangles, Range [-0.0, 0.7], farola
-[2018.02.12-16.36.21:563][337]LogStaticMesh:Warning: Main thread blocked for 1.891s for async distance field build of farola to complete!  This can happen if the mesh is rebuilt excessively.
-[2018.02.12-16.36.31:506][103]LogActorFactory: Actor Factory created farola
-[2018.02.12-16.36.32:110][149]LogActorFactory: Actor Factory created farola
-[2018.02.12-16.36.42:644][171]LogActorFactory: Actor Factory created farola_pared
-[2018.02.12-16.36.43:568][239]LogActorFactory: Actor Factory created farola_pared
-[2018.02.12-16.36.47:896][643]LogTemp: Repeting last play command: Selected Viewport
-[2018.02.12-16.36.47:938][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.36.47:938][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.12-16.36.47:938][643]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 6:36:47 PM)
-[2018.02.12-16.36.47:939][643]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
-[2018.02.12-16.36.47:995][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056078s)
-[2018.02.12-16.36.47:996][643]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.12-16.36.47:996][643]LogPlayLevel: PIE: World Init took: (0.000843s)
-[2018.02.12-16.36.47:996][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.057276s)
-[2018.02.12-16.36.48:021][643]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.12-16.36.48:031][643]LogInit: FAudioDevice initialized.
-[2018.02.12-16.36.48:067][643]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.12-16.36.48:092][643]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-17.36.48
-[2018.02.12-16.36.48:095][643]LogWorld: Bringing up level for play took: 0.026563
-[2018.02.12-16.36.48:105][643]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.846
-[2018.02.12-16.36.48:106][643]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.36.53:420][263]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.36.53:475][263]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.36.56:476][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (farola)
-[2018.02.12-16.36.57:624][632]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (farola_pared)
-[2018.02.12-16.36.58:561][723]Cmd: DELETE
-[2018.02.12-16.36.58:561][723]Cmd: ACTOR DELETE
-[2018.02.12-16.36.58:563][723]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.02.12-16.36.58:563][723]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.02.12-16.36.58:574][723]LogEditorActor: Deleted 2 Actors (0.013 secs)
-[2018.02.12-16.37.09:303][177]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/farola pared.FBX)
-[2018.02.12-16.37.09:307][177]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.02.12-16.37.09:307][177]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.02.12-16.37.09:307][177]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.02.12-16.37.09:307][177]LogFbx: ItemName: Model, ItemCount : 1
-[2018.02.12-16.37.09:307][177]LogFbx: ItemName: Geometry, ItemCount : 1
-[2018.02.12-16.37.09:307][177]LogFbx: ItemName: Material, ItemCount : 1
-[2018.02.12-16.37.09:307][177]LogFbx: ItemName: Texture, ItemCount : 1
-[2018.02.12-16.37.09:307][177]LogFbx: ItemName: Video, ItemCount : 1
-[2018.02.12-16.37.09:312][177]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/farola pared.FBX
-[2018.02.12-16.37.09:319][177]LogFbx: FBX Scene Loaded Succesfully
-[2018.02.12-16.37.15:007][177]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/farola pared.FBX
-[2018.02.12-16.37.15:013][177]LogFbx: FBX Scene Loaded Succesfully
-[2018.02.12-16.37.15:017][177]LogFbxMaterialImport:Warning: Unable to find Texture file C:\Users\xavi\Documents\3dsMax\scenes\farola pared uvs pintadas.png
-[2018.02.12-16.37.15:019][177]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-16.37.15:040][177]LogFbx:Warning: Triangulating static mesh Box001
-[2018.02.12-16.37.15:079][177]LogStaticMesh: Building static mesh farola_pared...
-[2018.02.12-16.37.15:097][177]LogStaticMesh: Built static mesh [0.02s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola_pared.farola_pared
-[2018.02.12-16.37.15:111][177]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.02.12-16.37.15:205][177]LogMeshUtilities: Finished distance field build in 0.0s - 15x8x15 distance field, 363 triangles, Range [-0.2, 1.0], farola_pared
-[2018.02.12-16.37.15:205][177]LogStaticMesh:Warning: Main thread blocked for 0.083s for async distance field build of farola_pared to complete!  This can happen if the mesh is rebuilt excessively.
-[2018.02.12-16.37.15:209][177]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/farola.FBX)
-[2018.02.12-16.37.15:222][177]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/farola.FBX
-[2018.02.12-16.37.15:232][177]LogFbx: FBX Scene Loaded Succesfully
-[2018.02.12-16.37.15:234][177]LogFbx:Warning: Triangulating static mesh Box001
-[2018.02.12-16.37.15:333][177]LogStaticMesh: Building static mesh farola...
-[2018.02.12-16.37.15:370][177]LogStaticMesh: Built static mesh [0.04s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola.farola
-[2018.02.12-16.37.15:385][177]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.02.12-16.37.15:876][177]LogMeshUtilities: Finished distance field build in 0.4s - 22x22x64 distance field, 940 triangles, Range [-0.0, 0.6], farola
-[2018.02.12-16.37.15:876][177]LogStaticMesh:Warning: Main thread blocked for 0.490s for async distance field build of farola to complete!  This can happen if the mesh is rebuilt excessively.
-[2018.02.12-16.37.18:520][388]LogActorFactory: Actor Factory created farola
-[2018.02.12-16.37.18:521][388]LogActorFactory: Actor Factory created farola_pared
-[2018.02.12-16.37.19:229][450]LogActorFactory: Actor Factory created farola
-[2018.02.12-16.37.19:249][450]LogActorFactory: Actor Factory created farola_pared
-[2018.02.12-16.37.21:699][648]LogTemp: Repeting last play command: Selected Viewport
-[2018.02.12-16.37.21:740][648]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.37.21:740][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.12-16.37.21:741][648]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 6:37:21 PM)
-[2018.02.12-16.37.21:741][648]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
-[2018.02.12-16.37.21:798][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056913s)
-[2018.02.12-16.37.21:799][648]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.12-16.37.21:799][648]LogPlayLevel: PIE: World Init took: (0.000907s)
-[2018.02.12-16.37.21:799][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.058273s)
-[2018.02.12-16.37.21:824][648]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.12-16.37.21:833][648]LogInit: FAudioDevice initialized.
-[2018.02.12-16.37.21:871][648]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.12-16.37.21:894][648]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-17.37.21
-[2018.02.12-16.37.21:897][648]LogWorld: Bringing up level for play took: 0.024867
-[2018.02.12-16.37.21:908][648]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.648
-[2018.02.12-16.37.21:908][648]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.37.53:768][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.37.53:826][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.38.11:101][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (farola_pared)
-[2018.02.12-16.38.13:269][405]LogTemp: Repeting last play command: Selected Viewport
-[2018.02.12-16.38.13:312][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.38.13:312][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.12-16.38.13:312][405]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 6:38:13 PM)
-[2018.02.12-16.38.13:313][405]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
-[2018.02.12-16.38.13:371][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058383s)
-[2018.02.12-16.38.13:372][405]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.12-16.38.13:372][405]LogPlayLevel: PIE: World Init took: (0.000888s)
-[2018.02.12-16.38.13:372][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.059765s)
-[2018.02.12-16.38.13:398][405]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.12-16.38.13:408][405]LogInit: FAudioDevice initialized.
-[2018.02.12-16.38.13:441][405]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.12-16.38.13:469][405]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-17.38.13
-[2018.02.12-16.38.13:471][405]LogWorld: Bringing up level for play took: 0.028677
-[2018.02.12-16.38.13:481][405]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.222
-[2018.02.12-16.38.13:482][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.39.15:113][714]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.39.15:169][714]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.39.31:633][ 46]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
-[2018.02.12-16.39.33:818][129]LogRenderer: Reallocating scene render targets to support 1144x924 NumSamples 1 (Frame:1).
-[2018.02.12-16.39.34:274][174]LogSlate: Took 0.022211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.02.12-16.39.44:017][265]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.12-16.40.23:291][851]BlueprintLog: New page: Compile Farola_Colision
-[2018.02.12-16.40.23:932][869]LogSavePackage: Save=40.72ms
-[2018.02.12-16.40.23:932][869]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Farola_ColisionEE6FAA6742779D9B16DF9FA0EF9B2E58.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Colision.uasset'
-[2018.02.12-16.40.23:942][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Colision.uasset
-[2018.02.12-16.40.28:836][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (farola)
-[2018.02.12-16.40.29:679][482]Cmd: DELETE
-[2018.02.12-16.40.29:679][482]Cmd: ACTOR DELETE
-[2018.02.12-16.40.29:680][482]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.02.12-16.40.29:699][482]LogEditorActor: Deleted 1 Actors (0.021 secs)
-[2018.02.12-16.40.32:676][764]LogTemp: Repeting last play command: Selected Viewport
-[2018.02.12-16.40.32:727][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.40.32:727][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.12-16.40.32:727][764]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 6:40:32 PM)
-[2018.02.12-16.40.32:728][764]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
-[2018.02.12-16.40.32:791][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062738s)
-[2018.02.12-16.40.32:791][764]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.12-16.40.32:792][764]LogPlayLevel: PIE: World Init took: (0.000992s)
-[2018.02.12-16.40.32:792][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.064193s)
-[2018.02.12-16.40.32:827][764]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.12-16.40.32:838][764]LogInit: FAudioDevice initialized.
-[2018.02.12-16.40.32:869][764]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.12-16.40.32:892][764]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-17.40.32
-[2018.02.12-16.40.32:895][764]LogWorld: Bringing up level for play took: 0.024280
-[2018.02.12-16.40.32:905][764]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.354
-[2018.02.12-16.40.32:905][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.40.36:429][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.40.36:479][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.40.38:343][361]LogEditorViewport: Clicking on Actor (LMB): Farola_Colision_C (Farola_Colision)
-[2018.02.12-16.41.34:983][848]LogMaterial: Missing cached shader map for material Material__26, compiling. 
-[2018.02.12-16.41.47:678][276]BlueprintLog: New page: Compile Farola_Colision
-[2018.02.12-16.41.50:812][540]LogTemp: Repeting last play command: Selected Viewport
-[2018.02.12-16.41.50:854][540]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.41.50:854][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.12-16.41.50:854][540]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 6:41:50 PM)
-[2018.02.12-16.41.50:855][540]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
-[2018.02.12-16.41.50:909][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053734s)
-[2018.02.12-16.41.50:909][540]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.12-16.41.50:910][540]LogPlayLevel: PIE: World Init took: (0.000769s)
-[2018.02.12-16.41.50:910][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.055008s)
-[2018.02.12-16.41.50:941][540]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.12-16.41.50:953][540]LogInit: FAudioDevice initialized.
-[2018.02.12-16.41.50:986][540]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.12-16.41.51:010][540]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-17.41.51
-[2018.02.12-16.41.51:013][540]LogWorld: Bringing up level for play took: 0.025273
-[2018.02.12-16.41.51:022][540]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 -0.237
-[2018.02.12-16.41.51:023][540]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.41.55:392][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.41.55:439][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.42.03:678][931]LogSavePackage: Save=22.04ms
-[2018.02.12-16.42.03:678][931]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Farola_Colision257476064EB0ED7CB0AE399FA8BD8500.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Colision.uasset'
-[2018.02.12-16.42.03:684][931]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Colision.uasset
-[2018.02.12-16.42.04:062][975]BlueprintLog: New page: Compile Farola_Colision
-[2018.02.12-16.42.05:998][148]LogTemp: Repeting last play command: Selected Viewport
-[2018.02.12-16.42.06:042][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.42.06:042][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.12-16.42.06:042][148]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 6:42:06 PM)
-[2018.02.12-16.42.06:043][148]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
-[2018.02.12-16.42.06:099][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056109s)
-[2018.02.12-16.42.06:100][148]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.12-16.42.06:100][148]LogPlayLevel: PIE: World Init took: (0.000683s)
-[2018.02.12-16.42.06:100][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.057158s)
-[2018.02.12-16.42.06:128][148]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.12-16.42.06:137][148]LogInit: FAudioDevice initialized.
-[2018.02.12-16.42.06:169][148]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.12-16.42.06:192][148]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-17.42.06
-[2018.02.12-16.42.06:195][148]LogWorld: Bringing up level for play took: 0.024078
-[2018.02.12-16.42.06:204][148]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.945
-[2018.02.12-16.42.06:205][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.42.10:952][694]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.42.11:003][694]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.42.21:496][721]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision15)
-[2018.02.12-16.42.22:949][864]Cmd: EDIT COPY
-[2018.02.12-16.42.37:065][272]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision6)
-[2018.02.12-16.42.37:725][307]LogEditorViewport: Clicking on Actor (CTRL LMB): Arbol_ConColision_C (Arbol_ConColision5)
-[2018.02.12-16.42.38:286][359]LogEditorViewport: Clicking on Actor (CTRL LMB): Arbol_ConColision_C (Arbol_ConColision4)
-[2018.02.12-16.42.39:042][431]LogEditorViewport: Clicking on Actor (CTRL LMB): Arbol_ConColision_C (Arbol_ConColision3)
-[2018.02.12-16.42.39:822][509]Cmd: DELETE
-[2018.02.12-16.42.39:822][509]Cmd: ACTOR DELETE
-[2018.02.12-16.42.39:824][509]LogEditorActor: Deleted Actor: Arbol_ConColision_C
-[2018.02.12-16.42.39:825][509]LogEditorActor: Deleted Actor: Arbol_ConColision_C
-[2018.02.12-16.42.39:825][509]LogEditorActor: Deleted Actor: Arbol_ConColision_C
-[2018.02.12-16.42.39:826][509]LogEditorActor: Deleted Actor: Arbol_ConColision_C
-[2018.02.12-16.42.39:841][509]LogEditorActor: Deleted 4 Actors (0.019 secs)
-[2018.02.12-16.42.40:862][626]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2018.02.12-16.42.41:203][656]Cmd: EDIT PASTE
-[2018.02.12-16.42.42:279][761]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2018.02.12-16.42.44:414][976]Cmd: TRANSACTION UNDO
-[2018.02.12-16.42.44:414][976]LogEditorTransaction: Undo Clicking on Actors
-[2018.02.12-16.42.45:317][ 38]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2018.02.12-16.42.45:984][103]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision12)
-[2018.02.12-16.43.07:755][ 87]LogEditorViewport: Clicking on Actor (LMB): Maceta_Final_C (Maceta_Final26)
-[2018.02.12-16.43.43:304][277]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision27)
-[2018.02.12-16.43.44:011][345]Cmd: DELETE
-[2018.02.12-16.43.44:011][345]Cmd: ACTOR DELETE
-[2018.02.12-16.43.44:013][345]LogEditorActor: Deleted Actor: Arbol_ConColision_C
-[2018.02.12-16.43.44:042][345]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2018.02.12-16.43.45:059][464]LogEditorViewport: Clicking on Actor (LMB): Maceta_Final_C (Maceta_Final30)
-[2018.02.12-16.43.52:129][128]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision28)
-[2018.02.12-16.43.52:958][209]Cmd: DELETE
-[2018.02.12-16.43.52:958][209]Cmd: ACTOR DELETE
-[2018.02.12-16.43.52:960][209]LogEditorActor: Deleted Actor: Arbol_ConColision_C
-[2018.02.12-16.43.52:979][209]LogEditorActor: Deleted 1 Actors (0.020 secs)
-[2018.02.12-16.43.54:275][361]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision30)
-[2018.02.12-16.43.54:905][421]LogEditorViewport: Clicking on Actor (CTRL LMB): Arbol_ConColision_C (Arbol_ConColision31)
-[2018.02.12-16.43.55:830][511]LogEditorViewport: Clicking on Actor (CTRL LMB): Arbol_ConColision_C (Arbol_ConColision32)
-[2018.02.12-16.43.56:581][585]LogEditorViewport: Clicking on Actor (CTRL LMB): Arbol_ConColision_C (Arbol_ConColision29)
-[2018.02.12-16.44.01:309][787]LogEditorViewport: Clicking on Actor (CTRL LMB): Arbol_ConColision_C (Arbol_ConColision29)
-[2018.02.12-16.44.02:120][867]Cmd: DELETE
-[2018.02.12-16.44.02:120][867]Cmd: ACTOR DELETE
-[2018.02.12-16.44.02:122][867]LogEditorActor: Deleted Actor: Arbol_ConColision_C
-[2018.02.12-16.44.02:123][867]LogEditorActor: Deleted Actor: Arbol_ConColision_C
-[2018.02.12-16.44.02:123][867]LogEditorActor: Deleted Actor: Arbol_ConColision_C
-[2018.02.12-16.44.02:123][867]LogEditorActor: Deleted Actor: Arbol_ConColision_C
-[2018.02.12-16.44.02:142][867]LogEditorActor: Deleted 4 Actors (0.022 secs)
-[2018.02.12-16.44.03:477][ 24]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision40)
-[2018.02.12-16.44.17:757][377]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision42)
-[2018.02.12-16.45.00:319][603]LogEditorViewport: Clicking on Actor (LMB): Farola_Colision_C (Farola_Colision)
-[2018.02.12-16.45.26:200][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (farola_pared)
-[2018.02.12-16.45.27:870][144]Cmd: DELETE
-[2018.02.12-16.45.27:870][144]Cmd: ACTOR DELETE
-[2018.02.12-16.45.27:872][144]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.02.12-16.45.27:900][144]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2018.02.12-16.46.04:530][ 56]LogEditorTransaction: Undo Modify Component(s)
-[2018.02.12-16.46.07:008][348]BlueprintLog: New page: Compile Farola_ParedFinal
-[2018.02.12-16.46.16:413][248]LogEditorViewport: Clicking on Actor (LMB): Farola_ParedFinal_C (Farola_ParedFinal)
-[2018.02.12-16.46.17:046][312]Cmd: DELETE
-[2018.02.12-16.46.17:046][312]Cmd: ACTOR DELETE
-[2018.02.12-16.46.17:048][312]LogEditorActor: Deleted Actor: Farola_ParedFinal_C
-[2018.02.12-16.46.17:067][312]LogEditorActor: Deleted 1 Actors (0.020 secs)
-[2018.02.12-16.47.28:642][166]LogEditorViewport: Clicking on Actor (LMB): Arbol_ConColision_C (Arbol_ConColision24)
-[2018.02.12-16.47.51:137][235]LogTemp: Repeting last play command: Selected Viewport
-[2018.02.12-16.47.51:184][235]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.47.51:184][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.12-16.47.51:184][235]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 6:47:51 PM)
-[2018.02.12-16.47.51:184][235]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
-[2018.02.12-16.47.51:243][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059055s)
-[2018.02.12-16.47.51:244][235]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.12-16.47.51:245][235]LogPlayLevel: PIE: World Init took: (0.001053s)
-[2018.02.12-16.47.51:245][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.060647s)
-[2018.02.12-16.47.51:291][235]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.12-16.47.51:302][235]LogInit: FAudioDevice initialized.
-[2018.02.12-16.47.51:339][235]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.12-16.47.51:365][235]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-17.47.51
-[2018.02.12-16.47.51:368][235]LogWorld: Bringing up level for play took: 0.027481
-[2018.02.12-16.47.51:378][235]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.119
-[2018.02.12-16.47.51:379][235]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.48.14:049][550]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.48.14:099][550]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
-[2018.02.12-16.48.53:574][489]LogSavePackage: Save=1300.40ms
-[2018.02.12-16.48.53:574][489]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto181B4313247D48F72E335FFA7FFD8327E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap'
-[2018.02.12-16.48.53:581][489]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap
-[2018.02.12-16.48.53:588][489]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 1.377
-[2018.02.12-16.48.53:588][489]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.377
-[2018.02.12-16.48.53:592][489]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola_pared] ([1] browsable assets)...
-[2018.02.12-16.48.53:607][489]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola_pared.farola_pared]
-[2018.02.12-16.48.53:607][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola_pared]
-[2018.02.12-16.48.53:625][489]LogSavePackage: Save=13.65ms
-[2018.02.12-16.48.53:625][489]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/farola_pared_Auto1C88D7A314248E22EAD349F9C79B05CFF.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola_pared_Auto1.uasset'
-[2018.02.12-16.48.53:628][489]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola_pared_Auto1.uasset
-[2018.02.12-16.48.53:629][489]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Material__25] ([1] browsable assets)...
-[2018.02.12-16.48.53:640][489]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Material__25.Material__25]
-[2018.02.12-16.48.53:640][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Material__25]
-[2018.02.12-16.48.53:661][489]LogSavePackage: Save=16.25ms
-[2018.02.12-16.48.53:661][489]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Material__25_Auto17EAAAA074B25817EA89D8798F2016CA5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Material__25_Auto1.uasset'
-[2018.02.12-16.48.53:665][489]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Material__25_Auto1.uasset
-[2018.02.12-16.48.53:665][489]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola] ([1] browsable assets)...
-[2018.02.12-16.48.53:676][489]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola.farola]
-[2018.02.12-16.48.53:676][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola]
-[2018.02.12-16.48.53:696][489]LogSavePackage: Save=15.25ms
-[2018.02.12-16.48.53:696][489]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/farola_Auto14C45CA854FD17CDB201E58A08A0A2070.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola_Auto1.uasset'
-[2018.02.12-16.48.53:723][489]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/farola_Auto1.uasset
-[2018.02.12-16.48.53:724][489]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_ParedFinal] ([1] browsable assets)...
-[2018.02.12-16.48.53:735][489]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_ParedFinal.Farola_ParedFinal]
-[2018.02.12-16.48.53:735][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_ParedFinal]
-[2018.02.12-16.48.53:760][489]LogSavePackage: Save=20.38ms
-[2018.02.12-16.48.53:760][489]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Farola_ParedFinal_Auto15F96FA69405C8F80B966FDA379F8D118.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_ParedFinal_Auto1.uasset'
-[2018.02.12-16.48.53:763][489]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_ParedFinal_Auto1.uasset
-[2018.02.12-16.48.53:763][489]LogFileHelpers: Auto-saving content packages took 0.173
-[2018.02.12-16.55.48:704][427]LogEditorTransaction: Undo Modify Component(s)
-[2018.02.12-16.56.39:269][218]LogEditorTransaction: Undo Edit Inner Cone Angle
-[2018.02.12-16.58.56:089][842]LogSavePackage: Save=1675.40ms
-[2018.02.12-16.58.56:090][842]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto2D094E49748B54AA2D1C276AC960A829C.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto2.umap'
-[2018.02.12-16.58.56:094][842]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto2.umap
-[2018.02.12-16.58.56:099][842]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 1.844
-[2018.02.12-16.58.56:099][842]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.844
-[2018.02.12-16.58.56:105][842]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Colision] ([1] browsable assets)...
-[2018.02.12-16.58.56:120][842]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Colision.Farola_Colision]
-[2018.02.12-16.58.56:120][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Colision]
-[2018.02.12-16.58.56:179][842]LogSavePackage: Save=23.77ms
-[2018.02.12-16.58.56:179][842]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Farola_Colision_Auto2920370F84F8DCA5FF61063BA8330AE88.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Colision_Auto2.uasset'
-[2018.02.12-16.58.56:182][842]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Colision_Auto2.uasset
-[2018.02.12-16.58.56:182][842]LogFileHelpers: Auto-saving content packages took 0.080
-[2018.02.12-17.00.22:141][608]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/JAVITO/Downloads/farola pared uvs pintadas.png)
-[2018.02.12-17.00.22:209][608]LogTexture:Display: Building textures: farola_pared_uvs_pintadas (AutoDXT, 1024X1024)
-[2018.02.12-17.00.22:326][608]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/JAVITO/Downloads/farolauvspintadas.png)
-[2018.02.12-17.00.22:390][608]LogTexture:Display: Building textures: farolauvspintadas (AutoDXT, 1024X1024)
-[2018.02.12-17.00.51:431][245]LogMaterial: Missing cached shader map for material lambert1, compiling. 
-[2018.02.12-17.00.51:578][245]LogMaterial: Missing cached shader map for material lambert1, compiling. 
-[2018.02.12-17.00.51:592][245]LogMaterial: Missing cached shader map for material lambert1, compiling. 
-[2018.02.12-17.00.51:630][245]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.02.12-17.00.51:724][245]LogSlate: Took 0.082666 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.02.12-17.00.53:497][393]MaterialEditorStats: Info Base pass shader: 81 instructions
-[2018.02.12-17.00.53:497][393]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.02.12-17.00.53:497][393]MaterialEditorStats: Info Texture samplers: 2/16
-[2018.02.12-17.00.53:497][393]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.02.12-17.01.02:508][200]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-17.01.02:675][200]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-17.01.02:694][200]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-17.01.02:739][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2018.02.12-17.01.04:180][315]MaterialEditorStats: Info Base pass shader: 80 instructions
-[2018.02.12-17.01.04:180][315]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2018.02.12-17.01.04:180][315]MaterialEditorStats: Info Texture samplers: 1/16
-[2018.02.12-17.01.07:545][705]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-17.01.08:716][817]MaterialEditorStats: Info Base pass shader: 78 instructions
-[2018.02.12-17.01.08:716][817]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2018.02.12-17.01.08:716][817]MaterialEditorStats: Info Texture samplers: 1/16
-[2018.02.12-17.01.22:743][450]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-17.01.22:754][450]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_0, compiling. 
-[2018.02.12-17.01.23:911][545]MaterialEditorStats: Info Base pass shader: 78 instructions
-[2018.02.12-17.01.23:911][545]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2018.02.12-17.01.23:911][545]MaterialEditorStats: Info Texture samplers: 1/16
-[2018.02.12-17.01.35:211][786]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-17.01.35:227][786]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_0, compiling. 
-[2018.02.12-17.01.36:413][882]MaterialEditorStats: Info Base pass shader: 78 instructions
-[2018.02.12-17.01.36:413][882]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2018.02.12-17.01.36:413][882]MaterialEditorStats: Info Texture samplers: 1/16
-[2018.02.12-17.01.36:929][939]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-17.01.36:945][939]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_0, compiling. 
-[2018.02.12-17.01.38:258][ 48]MaterialEditorStats: Info Base pass shader: 81 instructions
-[2018.02.12-17.01.38:258][ 48]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.02.12-17.01.38:258][ 48]MaterialEditorStats: Info Texture samplers: 2/16
-[2018.02.12-17.01.38:258][ 48]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.02.12-17.01.39:438][184]LogMaterialEditor: Saving and Compiling material Material__25
-[2018.02.12-17.01.40:127][184]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-17.01.40:178][184]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-17.01.40:209][184]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-17.01.40:273][184]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__25, compiling. 
-[2018.02.12-17.01.41:097][184]TextureStreamingBuild:Display: Compiling optional shaders took 0.830 seconds.
-[2018.02.12-17.01.42:725][184]LogSavePackage: Save=15.40ms
-[2018.02.12-17.01.42:725][184]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Material__25470C9BD04CDB2BBF5148FBA2CA489FF9.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Material__25.uasset'
-[2018.02.12-17.01.42:738][184]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Material__25.uasset
-[2018.02.12-17.01.42:745][184]MaterialEditorStats: Info Base pass shader: 81 instructions
-[2018.02.12-17.01.42:745][184]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.02.12-17.01.42:745][184]MaterialEditorStats: Info Texture samplers: 3/16
-[2018.02.12-17.01.42:745][184]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.02.12-17.02.04:677][959]LogEditorViewport: Clicking on Actor (LMB): Farola_ParedFinal_C (Farola_ParedFinal)
-[2018.02.12-17.02.06:371][102]LogEditorViewport: Clicking on Actor (LMB): Farola_ParedFinal_C (Farola_ParedFinal)
-[2018.02.12-17.02.07:386][188]Cmd: DELETE
-[2018.02.12-17.02.07:386][188]Cmd: ACTOR DELETE
-[2018.02.12-17.02.07:388][188]LogEditorActor: Deleted Actor: Farola_ParedFinal_C
-[2018.02.12-17.02.07:412][188]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.02.12-17.02.31:982][195]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.02.12-17.02.33:942][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TRASHCLASS_Farola_Colision_192' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:942][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Farola_GEN_VARIABLE' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:942][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Farola_Colision_C_189' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:942][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Farola_GEN_VARIABLE' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:942][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:942][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cylinder' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:942][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Farola' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:942][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:942][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cylinder_GEN_VARIABLE' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:942][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Farola_Colision_C_1' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:947][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:947][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:950][195]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-17.02.33:950][195]LogMaterial:Warning: Failed to compile Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Material__25.Material__25 for platform PCD3D_SM5, Default Material will be used in game.
-[2018.02.12-17.02.33:950][195]LogMaterial:Warning: 	(Node SpriteTextureSampler) Paper2D Sprite> Requires Texture2D
-[2018.02.12-17.02.33:982][195]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (0 / 0)
-[2018.02.12-17.02.33:983][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Farola_Colision_C_0' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:985][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:985][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Farola_pared' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:985][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:985][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Farola_pared_GEN_VARIABLE' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:985][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Farola_pared' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:985][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Farola_Colision_C_223' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:985][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Farola_GEN_VARIABLE' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:985][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Farola_pared' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:985][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Farola_ParedFinal_C_3' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:985][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:986][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:986][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Farola_ParedFinal_C_2' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:986][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Farola_Colision_C_222' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:986][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpotLight1_GEN_VARIABLE' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:986][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PointLight_GEN_VARIABLE' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:986][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionSpriteTextureSampler_0' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:988][195]LogMaterial: Missing cached shader map for material Material__25, compiling. 
-[2018.02.12-17.02.33:989][195]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material__25 for platform PCD3D_SM5, Default Material will be used in game.
-[2018.02.12-17.02.33:989][195]LogMaterial:Warning: 	(Node SpriteTextureSampler) Paper2D Sprite> Requires Texture2D
-[2018.02.12-17.02.33:989][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Material__25' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:989][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Farola_ParedFinal_C_225' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:989][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Farola_pared_GEN_VARIABLE' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:989][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Farola_ParedFinal_C_224' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:989][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Farola' or package '/Engine/Transient'.
-[2018.02.12-17.02.33:990][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Farola' or package '/Engine/Transient'.
-[2018.02.12-17.02.41:158][423]LogSavePackage: Save=1391.83ms
-[2018.02.12-17.02.41:158][423]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1116A5A294D8B94785A156F81A11EF43E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
-[2018.02.12-17.02.41:168][423]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
-[2018.02.12-17.02.41:257][423]LogFileHelpers: Saving map 'NewDistrito1' took 1.656
+[2018.02.12-19.03.51:149][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.12-19.03.51:149][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.12-19.03.51:173][  0]LogInit: Computer: PC-JAVITO
+[2018.02.12-19.03.51:173][  0]LogInit: User: JAVITO
+[2018.02.12-19.03.51:173][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.12-19.03.51:173][  0]LogInit: High frequency timer resolution =3.320312 MHz
+[2018.02.12-19.03.51:173][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.02.12-19.03.51:173][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.12-19.03.51:173][  0]LogMemory: Process Physical Memory: 275.37 MB used, 275.37 MB peak
+[2018.02.12-19.03.51:173][  0]LogMemory: Process Virtual Memory: 276.93 MB used, 276.93 MB peak
+[2018.02.12-19.03.51:173][  0]LogMemory: Physical Memory: 8834.59 MB used,  23880.98 MB free, 32715.57 MB total
+[2018.02.12-19.03.51:173][  0]LogMemory: Virtual Memory: 687.94 MB used,  23880.98 MB free, 134217728.00 MB total
+[2018.02.12-19.03.51:429][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.02.12-19.03.51:429][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.02.12-19.03.54:550][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.12-19.03.54:604][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.02.12-19.03.54:604][  0]LogD3D11RHI:       6052/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.02.12-19.03.54:606][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.12-19.03.54:606][  0]LogD3D11RHI:       0/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.12-19.03.54:606][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.12-19.03.54:613][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.12-19.03.54:613][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.12-19.03.54:613][  0]LogWindows: EnumDisplayDevices:
+[2018.02.12-19.03.54:613][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.02.12-19.03.54:613][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.02.12-19.03.54:613][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.02.12-19.03.54:613][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.02.12-19.03.54:614][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.12-19.03.54:614][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.02.12-19.03.54:614][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.12-19.03.54:614][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.12-19.03.54:614][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.12-19.03.54:646][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.12-19.03.54:663][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.12-19.03.54:762][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/16644/).
+[2018.02.12-19.03.54:762][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JAVITO/AppData/Local/Temp/UnrealShaderWorkingDir/22E021B942AEC0DE5EF4BFBE5DFAEFBE/'.
+[2018.02.12-19.03.54:762][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.12-19.03.57:732][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.12-19.03.57:809][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.12-19.03.57:893][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.12-19.03.57:975][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.12-19.03.58:056][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.12-19.03.58:132][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.12-19.03.58:212][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.12-19.03.58:290][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.12-19.03.58:358][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.12-19.03.58:435][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.12-19.03.58:515][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.12-19.03.58:586][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.12-19.03.58:658][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.12-19.03.58:773][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.12-19.03.58:846][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.12-19.03.59:000][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.12-19.03.59:000][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.12-19.03.59:103][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.12-19.03.59:255][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.12-19.03.59:320][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.12-19.03.59:395][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.12-19.03.59:468][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.12-19.03.59:552][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.12-19.03.59:661][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.12-19.03.59:661][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.12-19.04.00:504][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.12-19.04.00:592][  0]LogDerivedDataCache: Loaded boot cache 0.09s 91MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.12-19.04.00:592][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.12-19.04.00:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.12-19.04.00:592][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.12-19.04.00:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.12-19.04.00:592][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.12-19.04.00:612][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.12-19.04.00:625][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JAVITO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.12-19.04.00:636][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.12-19.04.00:636][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.12-19.04.00:648][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.12-19.04.00:648][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.12-19.04.01:199][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.12-19.04.01:280][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.12-19.04.01:530][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.12-19.04.01:602][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.12-19.04.01:676][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.12-19.04.01:676][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.12-19.04.01:676][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.12-19.04.02:401][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
+[2018.02.12-19.04.02:479][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2018.02.12-19.04.02:554][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.033578 seconds
+[2018.02.12-19.04.02:560][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.12-19.04.02:560][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.02.12-19.04.02:560][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.12-19.04.02:672][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.12-19.04.07:798][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.12-19.04.07:855][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.12-19.04.08:851][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.12-19.04.09:515][  0]SourceControl: Info Source control is disabled
+[2018.02.12-19.04.09:727][  0]SourceControl: Info Source control is disabled
+[2018.02.12-19.04.09:800][  0]SourceControl: Info Source control is disabled
+[2018.02.12-19.04.09:872][  0]SourceControl: Info Source control is disabled
+[2018.02.12-19.04.11:216][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.12-19.04.12:296][  0]LogEngine: Initializing Engine...
+[2018.02.12-19.04.12:297][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.12-19.04.12:495][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.12-19.04.12:495][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.12-19.04.12:696][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.12-19.04.12:714][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-19.04.12:728][  0]LogInit: FAudioDevice initialized.
+[2018.02.12-19.04.12:783][  0]LogDerivedDataCache: Saved boot cache 0.05s 91MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.12-19.04.12:795][  0]LogInit: Texture streaming: Enabled
+[2018.02.12-19.04.12:946][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.12-19.04.13:284][  0]LogInit: Transaction tracking system initialized
+[2018.02.12-19.04.13:798][  0]BlueprintLog: New page: Editor Load
+[2018.02.12-19.04.15:480][  0]LocalizationService: Info Localization service is disabled
+[2018.02.12-19.04.17:119][  0]LogConsoleResponse:Display: 
+[2018.02.12-19.04.17:295][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.12-19.04.17:295][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.12-19.04.17:543][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' took 0.02s
+[2018.02.12-19.04.19:303][  0]SourceControl: Info Source control is disabled
+[2018.02.12-19.04.19:467][  0]LogSlate: Took 0.004563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.12-19.04.27:664][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.12-19.04.27:666][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.12-19.04.29:806][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.12-19.04.29:808][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.12-19.04.29:869][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.12-19.04.29:870][  0]LightingResults: New page: Lighting Build
+[2018.02.12-19.04.29:951][  0]MapCheck: New page: Map Check
+[2018.02.12-19.04.29:951][  0]LightingResults: New page: Lighting Build
+[2018.02.12-19.04.34:055][  0]LogAIModule: Creating AISystem for world Distrito1
+[2018.02.12-19.04.34:648][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.12-19.04.34:735][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.12-19.04.34:845][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.332ms to complete.
+[2018.02.12-19.04.34:845][  0]LogFileHelpers: Loading map 'Distrito1' took 4.976
+[2018.02.12-19.04.34:915][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_38fc_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_2b64_0///####STATCAT_Advanced####
+[2018.02.12-19.04.34:915][  0]LogCollectionManager: Loaded 0 collections in 0.001783 seconds
+[2018.02.12-19.04.35:095][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
+[2018.02.12-19.04.35:095][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' took 0.01s
+[2018.02.12-19.04.35:095][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' took 0.01s
+[2018.02.12-19.04.35:095][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.02.12-19.04.35:106][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2329 classes and 491 folders.
+[2018.02.12-19.04.35:213][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.02.12-19.04.35:522][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.02.12-19.04.35:654][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.12-19.04.35:789][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.12-19.04.35:799][  0]LogSlate: Took 0.003633 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.12-19.04.35:804][  0]LogSlate: Took 0.003882 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.12-19.04.35:952][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2018.02.12-19.04.35:988][  0]LogRenderer: Reallocating scene render targets to support 1104x924 NumSamples 1 (Frame:1).
+[2018.02.12-19.04.36:150][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.12-19.04.36:240][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.12-19.04.36:241][  0]LogLoad: (Engine Initialization) Total time: 47.90 seconds
+[2018.02.12-19.04.36:241][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.00 seconds
+[2018.02.12-19.04.36:241][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.12-19.04.36:241][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.12-19.04.36:251][  0]LogOcInput: OculusInput pre-init called
+[2018.02.12-19.04.36:251][  0]LogHMD: Starting GearVRController plugin
+[2018.02.12-19.04.36:404][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.02.12-19.04.36:431][  0]LogSlate: Took 0.003729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.12-19.04.36:493][  1]LogAssetRegistry: Asset discovery search completed in 34.0362 seconds
+[2018.02.12-19.04.36:496][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.12-19.04.36:496][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2018.02.12-19.04.37:336][ 34]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.12-19.04.42:532][271]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.12-19.04.43:038][271]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2018.02.12-19.04.44:237][271]LogSlate: Took 0.003716 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.12-19.04.48:130][692]LogRenderer: Reallocating scene render targets to support 1144x924 NumSamples 1 (Frame:1).
+[2018.02.12-19.05.03:578][496]LogSlate: Took 0.003828 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.12-19.05.08:897][728]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.12-19.05.08:916][728]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong1.phong1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.02.12-19.05.08:918][728]LogMaterial: Missing cached shader map for material phong1, compiling. 
+[2018.02.12-19.05.08:958][728]MapCheck:Warning: Warning phong1 Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong1.phong1 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.02.12-19.05.08:971][728]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/wire_108008137.wire_108008137 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.02.12-19.05.08:974][728]LogMaterial: Missing cached shader map for material wire_108008137, compiling. 
+[2018.02.12-19.05.08:999][728]MapCheck:Warning: Warning wire_108008137 Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/wire_108008137.wire_108008137 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.02.12-19.05.08:999][728]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong2.phong2 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.02.12-19.05.09:002][728]LogMaterial: Missing cached shader map for material phong2, compiling. 
+[2018.02.12-19.05.09:026][728]MapCheck:Warning: Warning phong2 Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong2.phong2 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.02.12-19.05.09:027][728]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong3.phong3 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.02.12-19.05.09:030][728]LogMaterial: Missing cached shader map for material phong3, compiling. 
+[2018.02.12-19.05.09:056][728]MapCheck:Warning: Warning phong3 Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong3.phong3 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.02.12-19.05.09:201][728]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.12-19.05.09:201][728]LightingResults: New page: Lighting Build
+[2018.02.12-19.05.09:202][728]LoadErrors: New page: Loading map: NewDistrito1.umap
+[2018.02.12-19.05.09:229][728]MapCheck: New page: Map Check
+[2018.02.12-19.05.09:229][728]LightingResults: New page: Lighting Build
+[2018.02.12-19.05.09:746][728]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.12-19.05.09:915][728]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.12-19.05.10:076][728]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 161.878ms to complete.
+[2018.02.12-19.05.10:077][728]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.12-19.05.10:083][728]LogFileHelpers: Loading map 'NewDistrito1' took 0.883
+[2018.02.12-19.06.13:115][388]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.12-19.07.57:130][815]BlueprintLog: New page: Compile Farola_Final
+[2018.02.12-19.08.45:105][234]BlueprintLog: New page: Compile Farola_Final
+[2018.02.12-19.09.04:873][425]BlueprintLog: New page: Compile Farola_Final
+[2018.02.12-19.09.07:336][666]BlueprintLog: New page: Compile Farola_Final
+[2018.02.12-19.09.08:690][795]LogSavePackage: Save=28.85ms
+[2018.02.12-19.09.08:690][795]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Farola_FinalEACF8B62485E0B74168342B45B1F9ECE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Final.uasset'
+[2018.02.12-19.09.08:698][795]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Final.uasset
+[2018.02.12-19.09.29:283][137]BlueprintLog: New page: Compile Farola_Final
+[2018.02.12-19.09.50:539][423]LogSavePackage: Save=26.24ms
+[2018.02.12-19.09.50:539][423]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Farola_Final18913101486679A339D881AC023CF3D1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Final.uasset'
+[2018.02.12-19.09.50:547][423]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Final.uasset
+[2018.02.12-19.15.10:403][884]LogSavePackage: Save=1393.14ms
+[2018.02.12-19.15.10:404][884]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto18BCB3EA8417E9BC087968F9CFA9D9980.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap'
+[2018.02.12-19.15.10:409][884]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto1.umap
+[2018.02.12-19.15.10:416][884]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 1.462
+[2018.02.12-19.15.10:416][884]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.462
+[2018.02.12-19.19.10:928][337]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-19.19.23:359][466]LogActorFactory: Actor Factory created farola_pared
+[2018.02.12-19.19.25:250][618]LogActorFactory: Actor Factory created farola_pared
+[2018.02.12-19.19.26:024][694]Cmd: DELETE
+[2018.02.12-19.19.26:024][694]Cmd: ACTOR DELETE
+[2018.02.12-19.19.26:026][694]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.12-19.19.26:044][694]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.02.12-19.19.28:779][963]LogEditorViewport: Clicking on Actor (context menu): FarolaPared_Final_C (FarolaPared_Final2)
+[2018.02.12-19.19.52:707][ 83]LogActorFactory: Actor Factory created Cube
+[2018.02.12-19.19.53:407][152]LogActorFactory: Actor Factory created Cube
+[2018.02.12-19.20.08:312][593]Cmd: DELETE
+[2018.02.12-19.20.08:312][593]Cmd: ACTOR DELETE
+[2018.02.12-19.20.08:314][593]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.12-19.20.08:337][593]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.02.12-19.20.12:390][ 41]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.02.12-19.20.30:476][744]Cmd: DELETE
+[2018.02.12-19.20.30:476][744]Cmd: ACTOR DELETE
+[2018.02.12-19.20.30:479][744]LogEditorActor: Deleted Actor: Brush
+[2018.02.12-19.20.30:512][744]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.02.12-19.25.27:944][ 36]MapCheck: New page: Map Check
+[2018.02.12-19.25.27:957][ 36]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.12-19.25.27:959][ 36]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.12-19.25.28:267][ 36]LightingResults: New page: Lighting Build - Feb 12, 2018, 9:25:28 PM
+[2018.02.12-19.25.28:293][ 36]LightingResults:Warning: Warning InstancedFoliageActor_1 The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2018.02.12-19.25.28:326][ 36]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.12-19.25.28:441][ 36]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.12-19.25.28:452][ 36]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.12-19.25.28:970][ 36]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.12-19.25.28:970][ 36]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16644
+[2018.02.12-19.25.32:166][ 36]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.12-19.25.32:166][ 36]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.12-19.25.32:166][ 36]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.12-19.25.32:166][ 36]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.12-19.25.32:166][ 36]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.12-19.25.32:391][ 36]LogEditorBuildUtils: Build time 0:04
+[2018.02.12-19.25.32:443][ 37]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong1, compiling. 
+[2018.02.12-19.25.32:451][ 37]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong1, compiling. 
+[2018.02.12-19.25.32:484][ 38]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wire_108008137, compiling. 
+[2018.02.12-19.25.32:493][ 38]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wire_108008137, compiling. 
+[2018.02.12-19.25.32:523][ 39]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong2, compiling. 
+[2018.02.12-19.25.32:530][ 39]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong2, compiling. 
+[2018.02.12-19.25.32:566][ 40]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong3, compiling. 
+[2018.02.12-19.25.32:573][ 40]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong3, compiling. 
+[2018.02.12-19.25.53:855][101]LogSavePackage: Save=1953.37ms
+[2018.02.12-19.25.53:855][101]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_Auto2190EF52D454D7CD54A3B1D9AEAF57866.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto2.umap'
+[2018.02.12-19.25.53:861][101]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewDistrito1_Auto2.umap
+[2018.02.12-19.25.53:867][101]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewDistrito1' took 2.029
+[2018.02.12-19.25.53:867][101]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.029
+[2018.02.12-19.25.53:872][101]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/minimapa/2DCamMinimap] ([1] browsable assets)...
+[2018.02.12-19.25.53:872][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/minimapa/2DCamMinimap]
+[2018.02.12-19.25.53:944][101]LogSavePackage: Save=41.17ms
+[2018.02.12-19.25.53:944][101]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/2DCamMinimap_Auto276C64F3347FF378D9DBEF1B9B7005F55.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/minimapa/2DCamMinimap_Auto2.uasset'
+[2018.02.12-19.25.53:950][101]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/minimapa/2DCamMinimap_Auto2.uasset
+[2018.02.12-19.25.53:951][101]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final] ([1] browsable assets)...
+[2018.02.12-19.25.53:971][101]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final.FarolaPared_Final]
+[2018.02.12-19.25.53:971][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final]
+[2018.02.12-19.25.54:034][101]LogSavePackage: Save=30.82ms
+[2018.02.12-19.25.54:034][101]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/FarolaPared_Final_Auto222B34F684E23A27630CA129AB6D4ED42.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final_Auto2.uasset'
+[2018.02.12-19.25.54:038][101]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final_Auto2.uasset
+[2018.02.12-19.25.54:038][101]LogFileHelpers: Auto-saving content packages took 0.167
+[2018.02.12-19.26.01:739][125]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.01:739][125]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.01:739][125]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.01:739][125]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.02:411][127]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.02:411][127]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.02:411][127]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.02:411][127]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.02:411][127]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.02:411][127]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.02:748][128]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.02:748][128]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.04:077][132]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.04:077][132]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.04:077][132]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.04:077][132]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.04:415][133]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.04:415][133]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.04:415][133]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.04:415][133]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.04:415][133]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.04:415][133]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.04:741][134]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.04:741][134]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.04:741][134]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.04:741][134]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.04:741][134]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.04:741][134]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.05:077][135]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.05:077][135]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.05:077][135]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.05:077][135]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.05:407][136]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.05:407][136]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.05:741][137]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.05:741][137]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.05:741][137]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.05:741][137]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.05:741][137]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.05:741][137]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.06:072][138]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.06:072][138]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.06:072][138]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.06:072][138]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.06:072][138]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.06:072][138]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.06:412][139]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.06:412][139]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.06:412][139]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-19.26.06:412][139]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-19.26.08:739][146]Job is a success!
+[2018.02.12-19.26.10:032][147]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/wire_007056011.wire_007056011 needed to have new flag set bUsedWithStaticLighting !
+[2018.02.12-19.26.10:034][147]LogMaterial: Missing cached shader map for material wire_007056011, compiling. 
+[2018.02.12-19.26.10:064][147]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio3/Material__2.Material__2 needed to have new flag set bUsedWithStaticLighting !
+[2018.02.12-19.26.10:067][147]LogMaterial: Missing cached shader map for material Material__2, compiling. 
+[2018.02.12-19.26.10:092][147]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio4/phong1.phong1 needed to have new flag set bUsedWithStaticLighting !
+[2018.02.12-19.26.10:094][147]LogMaterial: Missing cached shader map for material phong1, compiling. 
+[2018.02.12-19.26.10:119][147]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2018.02.12-19.26.10:124][147]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.02.12-19.26.10:155][147]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028.wire_177088028 needed to have new flag set bUsedWithStaticLighting !
+[2018.02.12-19.26.10:158][147]LogMaterial: Missing cached shader map for material wire_177088028, compiling. 
+[2018.02.12-19.26.10:221][147]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong1.phong1 needed to have new flag set bUsedWithStaticLighting !
+[2018.02.12-19.26.10:226][147]LogMaterial: Missing cached shader map for material phong1, compiling. 
+[2018.02.12-19.26.10:358][147]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/wire_108008137.wire_108008137 needed to have new flag set bUsedWithStaticLighting !
+[2018.02.12-19.26.10:361][147]LogMaterial: Missing cached shader map for material wire_108008137, compiling. 
+[2018.02.12-19.26.10:419][147]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong2.phong2 needed to have new flag set bUsedWithStaticLighting !
+[2018.02.12-19.26.10:421][147]LogMaterial: Missing cached shader map for material phong2, compiling. 
+[2018.02.12-19.26.10:475][147]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong3.phong3 needed to have new flag set bUsedWithStaticLighting !
+[2018.02.12-19.26.10:479][147]LogMaterial: Missing cached shader map for material phong3, compiling. 
+[2018.02.12-19.26.10:539][147]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.LandsCape_MAT needed to have new flag set bUsedWithStaticLighting !
+[2018.02.12-19.26.10:541][147]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.12-19.26.10:577][147]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.12-19.26.10:639][147]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.12-19.26.10:702][147]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.12-19.26.10:765][147]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 4096X4096)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 4096X4096)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 64X64)
+[2018.02.12-19.26.13:533][147]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 64X64)
+[2018.02.12-19.26.13:733][147]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 64X32)
+[2018.02.12-19.26.13:733][147]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 128X32)
+[2018.02.12-19.26.13:733][147]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 64X32)
+[2018.02.12-19.26.13:733][147]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 64X32)
+[2018.02.12-19.26.13:733][147]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 64X32)
+[2018.02.12-19.26.13:733][147]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
+[2018.02.12-19.26.13:733][147]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 64X32)
+[2018.02.12-19.26.13:733][147]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
+[2018.02.12-19.26.13:733][147]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 512X128)
+[2018.02.12-19.26.15:396][147]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X2048)
+[2018.02.12-19.26.15:472][147]Lightmass on PC-JAVITO: 39.7 sec total, 343 ms importing, 156 ms setup, 3.74 sec photons, 35.5 sec processing, 0 ms extra exporting [1121/1121 mappings]. Threads: 4:08 min total, 2:50 min processing.
+[2018.02.12-19.26.15:534][147]LogStaticLightingSystem: Illumination: 46.9 sec (2.70 sec encoding lightmaps, 1.86 sec encoding shadowmaps)
+[2018.02.12-19.26.15:534][147]LogStaticLightingSystem: Lightmap texture memory:  32.6 MB (32.1 MB streaming, 0.5 MB non-streaming), 20 textures
+[2018.02.12-19.26.15:534][147]LogStaticLightingSystem: Shadowmap texture memory: 5.4 MB (5.4 MB streaming, 0.1 MB non-streaming), 10 textures
+[2018.02.12-19.26.16:206][147]DumpUnbuiltLightIteractions
+[2018.02.12-19.26.16:206][147]Lights with unbuilt interactions: 0
+[2018.02.12-19.26.16:206][147]
+[2018.02.12-19.26.16:206][147]Primitives with unbuilt interactions: 0
+[2018.02.12-19.26.16:251][148]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.12-19.26.16:251][148]MapCheck: New page: NewDistrito1 - Feb 12, 2018, 9:26:16 PM
+[2018.02.12-19.26.16:254][148]MapCheck:Warning: Warning Banco_5 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:254][148]MapCheck:Warning: Warning Banco_5 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:257][148]MapCheck:Warning: Warning edificio_grande2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:257][148]MapCheck:Warning: Warning edificio_grande2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:257][148]MapCheck:Warning: Warning edificio_pequeño_7 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:257][148]MapCheck:Warning: Warning edificio_pequeño_7 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:258][148]MapCheck:Warning: Warning gate_Box005_550 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:258][148]MapCheck:Warning: Warning gate_Box005_550 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:258][148]MapCheck:Warning: Warning Lata_2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:258][148]MapCheck:Warning: Warning Lata_2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:258][148]MapCheck:Warning: Warning MAceta_14 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:258][148]MapCheck:Warning: Warning MAceta_14 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:259][148]MapCheck:Warning: Warning torre_reloj_2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:259][148]MapCheck:Warning: Warning torre_reloj_2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-19.26.16:259][148]MapCheck:Warning: Warning minimapActor_176 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.02.12-19.26.16:428][148]MapCheck: Info Map check complete: 0 Error(s), 15 Warning(s), took 176.437ms to complete.
+[2018.02.12-19.26.56:746][268]LogTexture:Display: Building textures: Texture2D_63_BaseColor (BGRA8, 32X32)
+[2018.02.12-19.29.25:260][337]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.12-19.29.25:436][337]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-19.29.25:436][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-19.29.25:436][337]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 9:29:25 PM)
+[2018.02.12-19.29.25:437][337]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.12-19.29.25:492][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055421s)
+[2018.02.12-19.29.25:493][337]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.12-19.29.25:493][337]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2018.02.12-19.29.25:494][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.056786s)
+[2018.02.12-19.29.25:524][337]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-19.29.25:534][337]LogInit: FAudioDevice initialized.
+[2018.02.12-19.29.25:587][337]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.12-19.29.25:614][337]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-20.29.25
+[2018.02.12-19.29.25:617][337]LogWorld: Bringing up level for play took: 0.027393
+[2018.02.12-19.29.25:692][337]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2018.02.12-19.29.25:700][337]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.44
+[2018.02.12-19.29.25:700][337]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-19.29.47:702][903]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-19.29.47:759][903]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
