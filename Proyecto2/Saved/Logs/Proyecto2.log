@@ -413,3 +413,554 @@ LogInit: Object subsystem initialized
 [2018.02.12-20.01.17:236][483]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_BuiltDataE03BC4F74BCEC27DF805B29E14BBF580.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset', retrying in .5s...
 [2018.02.12-20.01.17:739][483]LogFileManager:Warning: MoveFile recovered during retry!
 [2018.02.12-20.01.17:747][483]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset
+[2018.02.12-20.01.57:169][313]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final3)
+[2018.02.12-20.01.58:053][394]Cmd: DELETE
+[2018.02.12-20.01.58:053][394]Cmd: ACTOR DELETE
+[2018.02.12-20.01.58:056][394]LogEditorActor: Deleted Actor: FarolaPared_Final_C
+[2018.02.12-20.01.58:075][394]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.02.12-20.02.14:711][792]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.02.22:591][388]LogSavePackage: Save=1255.12ms
+[2018.02.12-20.02.22:591][388]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1D6B3488F45C26A883F677CB91861F7C2.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.12-20.02.22:602][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.12-20.02.23:733][388]LogSavePackage: Save=1002.96ms
+[2018.02.12-20.02.23:733][388]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_BuiltData6620E8A74737E21B0668A49AA5524C0D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset'
+[2018.02.12-20.02.23:740][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset
+[2018.02.12-20.03.14:416][927]MapCheck: New page: Map Check
+[2018.02.12-20.03.14:433][927]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.12-20.03.14:433][927]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.12-20.03.15:013][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.12-20.03.15:019][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2018.02.12-20.03.15:025][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.02.12-20.03.15:030][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaskedUnlitSpriteMaterial, compiling. 
+[2018.02.12-20.03.15:036][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__2, compiling. 
+[2018.02.12-20.03.15:042][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy phong1, compiling. 
+[2018.02.12-20.03.15:048][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy wire_007056011, compiling. 
+[2018.02.12-20.03.15:053][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.02.12-20.03.15:060][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Maceta_MAT, compiling. 
+[2018.02.12-20.03.15:066][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.02.12-20.03.15:072][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy wire_177088028, compiling. 
+[2018.02.12-20.03.15:079][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy transparent_MAT, compiling. 
+[2018.02.12-20.03.15:084][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ChorroAgua_MAT, compiling. 
+[2018.02.12-20.03.15:092][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy phong1, compiling. 
+[2018.02.12-20.03.15:099][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy wire_108008137, compiling. 
+[2018.02.12-20.03.15:106][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy phong2, compiling. 
+[2018.02.12-20.03.15:112][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy phong3, compiling. 
+[2018.02.12-20.03.15:118][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SparksSword_MAT, compiling. 
+[2018.02.12-20.03.15:123][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultParticle, compiling. 
+[2018.02.12-20.03.15:129][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Farola_MAT, compiling. 
+[2018.02.12-20.03.15:136][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy FarolaPared_MAT, compiling. 
+[2018.02.12-20.03.15:143][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.02.12-20.03.16:340][927]TextureStreamingBuild:Display: Compiling optional shaders took 1.334 seconds.
+[2018.02.12-20.03.16:361][927]LogLevel:Display: Export Material TexCoord Scales took 0.021 seconds.
+[2018.02.12-20.03.16:420][927]TextureStreamingBuild:Display: Build Texture Streaming took 0.059 seconds.
+[2018.02.12-20.03.16:449][927]LightingResults: New page: Lighting Build - Feb 12, 2018, 10:03:16 PM
+[2018.02.12-20.03.16:478][927]LightingResults:Warning: Warning InstancedFoliageActor_1 The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2018.02.12-20.03.16:482][927]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.12-20.03.16:485][927]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.12-20.03.16:485][927]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.12-20.03.16:486][927]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.12-20.03.16:486][927]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9548
+[2018.02.12-20.03.21:010][927]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.12-20.03.21:010][927]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.12-20.03.21:010][927]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.12-20.03.21:010][927]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.12-20.03.21:010][927]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.12-20.03.21:181][927]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.12-20.03.21:181][927]MapCheck: New page: NewDistrito1 - Feb 12, 2018, 10:03:21 PM
+[2018.02.12-20.03.21:182][927]MapCheck:Warning: Warning Banco_5 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:182][927]MapCheck:Warning: Warning Banco_5 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:183][927]MapCheck:Warning: Warning edificio_grande2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:183][927]MapCheck:Warning: Warning edificio_grande2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:183][927]MapCheck:Warning: Warning edificio_pequeño_7 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:183][927]MapCheck:Warning: Warning edificio_pequeño_7 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:184][927]MapCheck:Warning: Warning gate_Box005_550 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:184][927]MapCheck:Warning: Warning gate_Box005_550 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:184][927]MapCheck:Warning: Warning Lata_2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:184][927]MapCheck:Warning: Warning Lata_2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:184][927]MapCheck:Warning: Warning MAceta_14 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:184][927]MapCheck:Warning: Warning MAceta_14 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:185][927]MapCheck:Warning: Warning torre_reloj_2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:185][927]MapCheck:Warning: Warning torre_reloj_2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.03.21:185][927]MapCheck:Warning: Warning minimapActor_176 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.02.12-20.03.21:331][927]MapCheck: Info Map check complete: 0 Error(s), 15 Warning(s), took 149.714ms to complete.
+[2018.02.12-20.03.21:353][927]LogEditorBuildUtils: Build time 0:06
+[2018.02.12-20.03.21:388][927]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2018.02.12-20.03.21:395][927]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2018.02.12-20.03.21:524][929]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_21, compiling. 
+[2018.02.12-20.03.21:531][929]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_21, compiling. 
+[2018.02.12-20.03.22:175][948]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_90, compiling. 
+[2018.02.12-20.03.22:183][948]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_90, compiling. 
+[2018.02.12-20.03.22:203][949]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_92, compiling. 
+[2018.02.12-20.03.22:212][949]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_92, compiling. 
+[2018.02.12-20.03.22:832][969]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__2, compiling. 
+[2018.02.12-20.03.22:839][969]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__2, compiling. 
+[2018.02.12-20.03.22:858][970]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong1, compiling. 
+[2018.02.12-20.03.22:865][970]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong1, compiling. 
+[2018.02.12-20.03.22:885][971]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wire_007056011, compiling. 
+[2018.02.12-20.03.22:894][971]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wire_007056011, compiling. 
+[2018.02.12-20.03.22:918][972]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.02.12-20.03.22:927][972]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.02.12-20.03.22:950][973]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wire_177088028, compiling. 
+[2018.02.12-20.03.22:959][973]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wire_177088028, compiling. 
+[2018.02.12-20.03.22:982][974]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong1, compiling. 
+[2018.02.12-20.03.22:991][974]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong1, compiling. 
+[2018.02.12-20.03.23:024][975]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wire_108008137, compiling. 
+[2018.02.12-20.03.23:035][975]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wire_108008137, compiling. 
+[2018.02.12-20.03.23:071][976]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong2, compiling. 
+[2018.02.12-20.03.23:080][976]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong2, compiling. 
+[2018.02.12-20.03.23:109][977]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong3, compiling. 
+[2018.02.12-20.03.23:118][977]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer phong3, compiling. 
+[2018.02.12-20.04.00:120][638]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.00:120][638]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.00:222][643]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.00:222][643]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.00:926][677]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.00:926][677]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.01:008][681]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.01:008][681]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.01:050][683]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.01:050][683]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.01:294][695]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.01:294][695]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.02:993][778]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.02:993][778]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.03:077][782]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.03:077][782]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.03:200][788]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.03:200][788]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.03:384][797]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.03:384][797]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.03:404][798]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.03:404][798]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.03:527][804]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.03:548][805]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.03:548][805]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.03:548][805]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.03:670][811]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.03:670][811]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.04:042][829]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.04:042][829]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.04:083][831]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.04:083][831]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.04:471][850]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.04:471][850]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.04:726][862]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.04:726][862]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.04:930][872]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.04:930][872]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.05:073][879]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.05:073][879]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.05:134][882]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.05:134][882]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.05:359][893]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.05:359][893]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.05:521][901]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.05:521][901]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.05:521][901]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.05:521][901]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.05:623][906]LightingResults:Warning: Warning edificio_rico_alto_estantería_doble Object has overlapping UVs.
+[2018.02.12-20.04.05:623][906]LightingResults: Info edificio_rico_alto_estantería_doble Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.12-20.04.08:571][ 51]Job is a success!
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 4096X4096)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 4096X4096)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 128X128)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 128X128)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 64X64)
+[2018.02.12-20.04.11:523][ 52]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 64X64)
+[2018.02.12-20.04.11:723][ 52]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 64X32)
+[2018.02.12-20.04.11:723][ 52]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 128X32)
+[2018.02.12-20.04.11:723][ 52]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 64X32)
+[2018.02.12-20.04.11:723][ 52]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 64X32)
+[2018.02.12-20.04.11:723][ 52]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 64X32)
+[2018.02.12-20.04.11:723][ 52]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 64X32)
+[2018.02.12-20.04.11:723][ 52]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 64X32)
+[2018.02.12-20.04.11:723][ 52]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 32X32)
+[2018.02.12-20.04.11:723][ 52]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 512X128)
+[2018.02.12-20.04.12:665][ 52]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 2048X2048)
+[2018.02.12-20.04.12:690][ 52]Lightmass on PC-JAVITO: 43.1 sec total, 390 ms importing, 177 ms setup, 4.50 sec photons, 38.0 sec processing, 0 ms extra exporting [1121/1121 mappings]. Threads: 4:26 min total, 3:22 min processing.
+[2018.02.12-20.04.12:748][ 52]LogStaticLightingSystem: Illumination: 56.2 sec (2.02 sec encoding lightmaps, 1.14 sec encoding shadowmaps)
+[2018.02.12-20.04.12:748][ 52]LogStaticLightingSystem: Lightmap texture memory:  32.6 MB (32.1 MB streaming, 0.5 MB non-streaming), 20 textures
+[2018.02.12-20.04.12:748][ 52]LogStaticLightingSystem: Shadowmap texture memory: 5.4 MB (5.4 MB streaming, 0.1 MB non-streaming), 10 textures
+[2018.02.12-20.04.18:038][ 52]DumpUnbuiltLightIteractions
+[2018.02.12-20.04.18:038][ 52]Lights with unbuilt interactions: 0
+[2018.02.12-20.04.18:038][ 52]
+[2018.02.12-20.04.18:038][ 52]Primitives with unbuilt interactions: 0
+[2018.02.12-20.04.18:058][ 53]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.12-20.04.18:058][ 53]MapCheck: New page: NewDistrito1 - Feb 12, 2018, 10:04:18 PM
+[2018.02.12-20.04.18:065][ 53]MapCheck:Warning: Warning Banco_5 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:065][ 53]MapCheck:Warning: Warning Banco_5 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:067][ 53]MapCheck:Warning: Warning edificio_grande2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:067][ 53]MapCheck:Warning: Warning edificio_grande2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:067][ 53]MapCheck:Warning: Warning edificio_pequeño_7 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:067][ 53]MapCheck:Warning: Warning edificio_pequeño_7 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:067][ 53]MapCheck:Warning: Warning gate_Box005_550 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:067][ 53]MapCheck:Warning: Warning gate_Box005_550 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:068][ 53]MapCheck:Warning: Warning Lata_2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:068][ 53]MapCheck:Warning: Warning Lata_2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:068][ 53]MapCheck:Warning: Warning MAceta_14 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:068][ 53]MapCheck:Warning: Warning MAceta_14 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:068][ 53]MapCheck:Warning: Warning torre_reloj_2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:068][ 53]MapCheck:Warning: Warning torre_reloj_2 Static mesh actor has NULL StaticMesh property 
+[2018.02.12-20.04.18:068][ 53]MapCheck:Warning: Warning minimapActor_176 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.02.12-20.04.18:175][ 53]MapCheck: Info Map check complete: 0 Error(s), 15 Warning(s), took 116.355ms to complete.
+[2018.02.12-20.04.33:658][226]LogSavePackage: Save=1241.95ms
+[2018.02.12-20.04.33:658][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1DD29815C4C4BF1254B0B7BBA56D09040.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.12-20.04.33:666][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.12-20.04.33:751][226]LogFileHelpers: Saving map 'NewDistrito1' took 1.478
+[2018.02.12-20.04.34:296][226]LogSavePackage: Save=525.75ms
+[2018.02.12-20.04.34:296][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_BuiltData87EDEC13417633FA10A50B82D7B11442.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset'
+[2018.02.12-20.04.34:307][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset
+[2018.02.12-20.04.34:343][226]LogSavePackage: Save=13.71ms
+[2018.02.12-20.04.34:343][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/2DCamMinimap13460F72444F4B20E845F0813EBF64CE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/minimapa/2DCamMinimap.uasset'
+[2018.02.12-20.04.34:349][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/minimapa/2DCamMinimap.uasset
+[2018.02.12-20.04.34:404][226]LogSavePackage: Save=17.10ms
+[2018.02.12-20.04.34:404][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/wire_17708802841373F3943A31FB3F283EA84936DA4B8.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028.uasset'
+[2018.02.12-20.04.34:411][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/wire_177088028.uasset
+[2018.02.12-20.04.34:471][226]LogSavePackage: Save=23.37ms
+[2018.02.12-20.04.34:471][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LandsCape_MAT476A4C0C433AE39729ECF1BE676F2611.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset'
+[2018.02.12-20.04.34:478][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/Materiales_Terreno/LandsCape_MAT.uasset
+[2018.02.12-20.04.34:535][226]LogSavePackage: Save=17.23ms
+[2018.02.12-20.04.34:535][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Material__2127B6D6F4A2A4D7D8521D686FC2CC58A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio3/Material__2.uasset'
+[2018.02.12-20.04.34:541][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio3/Material__2.uasset
+[2018.02.12-20.04.34:595][226]LogSavePackage: Save=15.64ms
+[2018.02.12-20.04.34:595][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/phong10C6F831E4BA369516D2F7AA89E6E8FC5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio4/phong1.uasset'
+[2018.02.12-20.04.34:601][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Edificio4/phong1.uasset
+[2018.02.12-20.04.34:653][226]LogSavePackage: Save=16.78ms
+[2018.02.12-20.04.34:653][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/lambert1E8596A6D4C8EC16F42B2098BC448F5C1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/lambert1.uasset'
+[2018.02.12-20.04.34:661][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Bancos/lambert1.uasset
+[2018.02.12-20.04.34:716][226]LogSavePackage: Save=16.16ms
+[2018.02.12-20.04.34:716][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/phong1A60C84DF4993E110F65113BDF386C4C4.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong1.uasset'
+[2018.02.12-20.04.34:724][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong1.uasset
+[2018.02.12-20.04.34:776][226]LogSavePackage: Save=15.29ms
+[2018.02.12-20.04.34:776][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/wire_10800813754C48D1843C97984DF0F5D824B85E6A0.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/wire_108008137.uasset'
+[2018.02.12-20.04.34:783][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/wire_108008137.uasset
+[2018.02.12-20.04.34:832][226]LogSavePackage: Save=15.23ms
+[2018.02.12-20.04.34:832][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/phong2225CB4DD43693E78611F9FBE48C9D840.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong2.uasset'
+[2018.02.12-20.04.34:839][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong2.uasset
+[2018.02.12-20.04.34:892][226]LogSavePackage: Save=18.51ms
+[2018.02.12-20.04.34:892][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/phong33374E2814EABE8E856E31686EBCB5D9F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong3.uasset'
+[2018.02.12-20.04.34:899][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/Latas/phong3.uasset
+[2018.02.12-20.04.34:951][226]LogSavePackage: Save=15.14ms
+[2018.02.12-20.04.34:951][226]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/wire_007056011446706E341B85ED0C52E5AA0E8570A79.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/wire_007056011.uasset'
+[2018.02.12-20.04.34:958][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Basura/wire_007056011.uasset
+[2018.02.12-20.05.48:770][ 70]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final2)
+[2018.02.12-20.05.56:849][990]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.06.06:850][ 44]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.06.21:455][688]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.06.24:684][959]LogSavePackage: Save=21.81ms
+[2018.02.12-20.06.24:684][959]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/FarolaPared_Final0EA859E64ED69A10D0578DAACC947C0F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final.uasset'
+[2018.02.12-20.06.24:691][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final.uasset
+[2018.02.12-20.06.31:779][736]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.06.47:061][293]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.07.10:879][ 32]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.07.21:491][190]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.07.25:621][521]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final2)
+[2018.02.12-20.08.22:871][ 50]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.08.29:561][470]LogSavePackage: Save=1302.70ms
+[2018.02.12-20.08.29:561][470]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1EC4AF26D46D049BF9E7AE8918F584272.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.12-20.08.29:569][470]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.12-20.08.29:654][470]LogFileHelpers: Saving map 'NewDistrito1' took 1.556
+[2018.02.12-20.08.29:710][470]LogSavePackage: Save=24.66ms
+[2018.02.12-20.08.29:710][470]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/FarolaPared_FinalD0F430B04CC305BA56F8B789BE1CB803.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final.uasset'
+[2018.02.12-20.08.29:716][470]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final.uasset
+[2018.02.12-20.08.33:212][783]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.12-20.08.33:377][783]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.08.33:377][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-20.08.33:378][783]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 10:08:33 PM)
+[2018.02.12-20.08.33:378][783]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.12-20.08.33:435][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057101s)
+[2018.02.12-20.08.33:436][783]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.12-20.08.33:436][783]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2018.02.12-20.08.33:436][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.058236s)
+[2018.02.12-20.08.33:470][783]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-20.08.33:480][783]LogInit: FAudioDevice initialized.
+[2018.02.12-20.08.33:531][783]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.12-20.08.33:560][783]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-21.08.33
+[2018.02.12-20.08.33:563][783]LogWorld: Bringing up level for play took: 0.030318
+[2018.02.12-20.08.33:632][783]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.02.12-20.08.33:638][783]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.378
+[2018.02.12-20.08.33:638][783]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.08.47:306][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.08.47:360][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.08.57:599][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble4)
+[2018.02.12-20.08.58:476][306]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final2)
+[2018.02.12-20.09.04:713][873]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final)
+[2018.02.12-20.10.09:377][858]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.10.19:707][904]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.10.23:168][214]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.12-20.10.23:211][214]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.10.23:211][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-20.10.23:211][214]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 10:10:23 PM)
+[2018.02.12-20.10.23:212][214]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.12-20.10.23:277][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065091s)
+[2018.02.12-20.10.23:278][214]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.12-20.10.23:278][214]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2018.02.12-20.10.23:278][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.066273s)
+[2018.02.12-20.10.23:309][214]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-20.10.23:319][214]LogInit: FAudioDevice initialized.
+[2018.02.12-20.10.23:351][214]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.12-20.10.23:378][214]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-21.10.23
+[2018.02.12-20.10.23:381][214]LogWorld: Bringing up level for play took: 0.028947
+[2018.02.12-20.10.23:392][214]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.133
+[2018.02.12-20.10.23:393][214]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.10.34:807][499]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.10.34:863][499]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.10.38:442][707]LogSavePackage: Save=1247.15ms
+[2018.02.12-20.10.38:443][707]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1DF66255F4F157354EE2F08B8FC750EB1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.12-20.10.38:451][707]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.12-20.10.39:119][707]LogSavePackage: Save=556.02ms
+[2018.02.12-20.10.39:119][707]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_BuiltDataB50FFFAB49EB1F6989EF2FBA658B5FC5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset'
+[2018.02.12-20.10.39:124][707]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset
+[2018.02.12-20.11.54:860][833]LogEditorViewport: Clicking on Actor (LMB): Farola_Final_C (Farola_Final)
+[2018.02.12-20.14.03:430][125]BlueprintLog: New page: Compile Farola_Final
+[2018.02.12-20.14.38:701][297]LogSavePackage: Save=1311.79ms
+[2018.02.12-20.14.38:701][297]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1B41863BA4B2AE89D0DB239A3E1A639AD.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.12-20.14.38:709][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.12-20.14.38:793][297]LogFileHelpers: Saving map 'NewDistrito1' took 1.553
+[2018.02.12-20.14.38:853][297]LogSavePackage: Save=22.42ms
+[2018.02.12-20.14.38:853][297]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/FarolaPared_FinalD9D50D454F02F18D81C3C498EDB8EF6B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final.uasset'
+[2018.02.12-20.14.38:859][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final.uasset
+[2018.02.12-20.14.38:924][297]LogSavePackage: Save=29.15ms
+[2018.02.12-20.14.38:924][297]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Farola_FinalD59379324944884A90678FB0309CECAD.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Final.uasset'
+[2018.02.12-20.14.38:931][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/Farola_Final.uasset
+[2018.02.12-20.16.43:991][355]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.16.45:531][461]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.16.46:124][503]LogEditorViewport: Clicking on Actor (LMB): Farola_Final_C (Farola_Final3)
+[2018.02.12-20.16.48:460][702]LogEditorViewport: Clicking on Actor (LMB): Farola_Final_C (Farola_Final)
+[2018.02.12-20.16.51:969][979]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.16.58:685][543]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final)
+[2018.02.12-20.17.05:528][132]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.02.12-20.17.06:321][181]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final3)
+[2018.02.12-20.17.21:629][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara4)
+[2018.02.12-20.17.22:603][579]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final4)
+[2018.02.12-20.18.07:385][392]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.12-20.18.07:428][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.18.07:428][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-20.18.07:428][392]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 10:18:07 PM)
+[2018.02.12-20.18.07:428][392]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.12-20.18.07:502][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074052s)
+[2018.02.12-20.18.07:503][392]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.12-20.18.07:504][392]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2018.02.12-20.18.07:504][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.075624s)
+[2018.02.12-20.18.07:554][392]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-20.18.07:565][392]LogInit: FAudioDevice initialized.
+[2018.02.12-20.18.07:599][392]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.12-20.18.07:625][392]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-21.18.07
+[2018.02.12-20.18.07:628][392]LogWorld: Bringing up level for play took: 0.028149
+[2018.02.12-20.18.07:642][392]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.382
+[2018.02.12-20.18.07:642][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.18.25:211][154]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.18.25:274][154]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.18.31:619][707]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final5)
+[2018.02.12-20.18.53:163][604]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final6)
+[2018.02.12-20.19.01:551][381]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final4)
+[2018.02.12-20.19.16:186][695]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.12-20.19.16:229][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.19.16:229][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-20.19.16:229][695]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 10:19:16 PM)
+[2018.02.12-20.19.16:230][695]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.12-20.19.16:289][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059484s)
+[2018.02.12-20.19.16:290][695]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.12-20.19.16:290][695]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2018.02.12-20.19.16:291][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.060732s)
+[2018.02.12-20.19.16:328][695]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-20.19.16:338][695]LogInit: FAudioDevice initialized.
+[2018.02.12-20.19.16:374][695]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.12-20.19.16:402][695]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-21.19.16
+[2018.02.12-20.19.16:405][695]LogWorld: Bringing up level for play took: 0.028977
+[2018.02.12-20.19.16:414][695]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 1.155
+[2018.02.12-20.19.16:415][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.19.29:073][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.19.29:132][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.19.37:202][736]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final7)
+[2018.02.12-20.20.13:058][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas)
+[2018.02.12-20.20.14:161][ 40]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final9)
+[2018.02.12-20.20.53:671][509]LogSavePackage: Save=1329.82ms
+[2018.02.12-20.20.53:671][509]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1ADA3A1FC425464F60C410D804C6BBD10.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.12-20.20.53:679][509]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.12-20.20.54:349][509]LogSavePackage: Save=557.15ms
+[2018.02.12-20.20.54:349][509]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_BuiltData6D76F6A9430D68DBD45FB3954A9D6F1C.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset'
+[2018.02.12-20.20.54:354][509]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset
+[2018.02.12-20.22.19:555][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara)
+[2018.02.12-20.22.26:131][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas)
+[2018.02.12-20.22.33:376][892]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final11)
+[2018.02.12-20.23.49:123][209]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.12-20.23.49:170][209]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.23.49:170][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-20.23.49:170][209]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 10:23:49 PM)
+[2018.02.12-20.23.49:171][209]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.12-20.23.49:236][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065104s)
+[2018.02.12-20.23.49:237][209]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.12-20.23.49:237][209]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2018.02.12-20.23.49:237][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.066305s)
+[2018.02.12-20.23.49:275][209]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-20.23.49:286][209]LogInit: FAudioDevice initialized.
+[2018.02.12-20.23.49:320][209]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.12-20.23.49:348][209]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-21.23.49
+[2018.02.12-20.23.49:352][209]LogWorld: Bringing up level for play took: 0.030492
+[2018.02.12-20.23.49:363][209]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.103
+[2018.02.12-20.23.49:363][209]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.23.53:561][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.23.53:622][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.23.56:184][820]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.02.12-20.23.56:976][888]Cmd: DELETE
+[2018.02.12-20.23.56:976][888]Cmd: ACTOR DELETE
+[2018.02.12-20.23.56:978][888]LogEditorActor: Deleted Actor: PointLight
+[2018.02.12-20.23.57:008][888]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2018.02.12-20.24.08:276][109]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.24.18:617][145]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.24.31:497][348]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.24.31:913][365]LogSavePackage: Save=24.12ms
+[2018.02.12-20.24.31:913][365]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/FarolaPared_Final015A8BBE4389485238FF389343531CED.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final.uasset'
+[2018.02.12-20.24.31:921][365]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final.uasset
+[2018.02.12-20.24.37:779][844]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.12-20.24.37:822][844]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.24.37:822][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-20.24.37:823][844]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 10:24:37 PM)
+[2018.02.12-20.24.37:823][844]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.12-20.24.37:884][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061038s)
+[2018.02.12-20.24.37:885][844]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.12-20.24.37:885][844]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2018.02.12-20.24.37:885][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.062246s)
+[2018.02.12-20.24.37:917][844]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-20.24.37:927][844]LogInit: FAudioDevice initialized.
+[2018.02.12-20.24.37:962][844]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.12-20.24.37:989][844]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-21.24.37
+[2018.02.12-20.24.37:991][844]LogWorld: Bringing up level for play took: 0.028038
+[2018.02.12-20.24.38:001][844]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.742
+[2018.02.12-20.24.38:002][844]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.24.46:052][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.24.46:100][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.24.50:420][913]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.24.51:089][958]LogEditorViewport: Clicking on Actor (LMB): Farola_Final_C (Farola_Final3)
+[2018.02.12-20.24.57:065][357]LogEditorViewport: Clicking on Actor (LMB): Farola_Final_C (Farola_Final)
+[2018.02.12-20.25.02:382][725]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.26.47:809][844]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final13)
+[2018.02.12-20.27.00:330][778]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final13)
+[2018.02.12-20.27.12:376][759]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final14)
+[2018.02.12-20.27.17:518][166]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final14)
+[2018.02.12-20.27.23:199][617]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final17)
+[2018.02.12-20.27.40:050][898]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final18)
+[2018.02.12-20.27.58:729][441]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final16)
+[2018.02.12-20.28.12:203][589]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final20)
+[2018.02.12-20.29.00:449][624]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Edificio14)
+[2018.02.12-20.29.01:400][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio13)
+[2018.02.12-20.29.08:627][392]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final24)
+[2018.02.12-20.29.12:223][581]LogSavePackage: Save=1525.95ms
+[2018.02.12-20.29.12:223][581]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1DFC036CF47C93264232706AD76F1B5E8.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.12-20.29.12:230][581]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.12-20.29.12:858][581]LogSavePackage: Save=520.96ms
+[2018.02.12-20.29.12:858][581]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_BuiltData83EE79B84050F028A6D88293F657FFFB.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset'
+[2018.02.12-20.29.12:860][581]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_BuiltData83EE79B84050F028A6D88293F657FFFB.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset', retrying in .5s...
+[2018.02.12-20.29.13:365][581]LogFileManager:Warning: MoveFile recovered during retry!
+[2018.02.12-20.29.13:367][581]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset
+[2018.02.12-20.29.25:271][638]LogEditorViewport: Clicking on Actor (context menu): FarolaPared_Final_C (FarolaPared_Final25)
+[2018.02.12-20.29.46:445][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble8)
+[2018.02.12-20.29.47:449][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara9)
+[2018.02.12-20.29.49:083][690]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final26)
+[2018.02.12-20.29.55:903][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble8)
+[2018.02.12-20.29.57:017][388]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final27)
+[2018.02.12-20.30.45:051][988]BlueprintLog: New page: Compile FarolaPared_Final
+[2018.02.12-20.30.53:232][575]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.12-20.30.53:276][575]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.30.53:276][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-20.30.53:277][575]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 10:30:53 PM)
+[2018.02.12-20.30.53:277][575]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.12-20.30.53:349][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071836s)
+[2018.02.12-20.30.53:350][575]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.12-20.30.53:350][575]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2018.02.12-20.30.53:350][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.072978s)
+[2018.02.12-20.30.53:383][575]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-20.30.53:393][575]LogInit: FAudioDevice initialized.
+[2018.02.12-20.30.53:425][575]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.12-20.30.53:454][575]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-21.30.53
+[2018.02.12-20.30.53:458][575]LogWorld: Bringing up level for play took: 0.030909
+[2018.02.12-20.30.53:470][575]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.21
+[2018.02.12-20.30.53:470][575]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.31.25:646][691]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.31.25:709][691]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.31.41:326][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble5)
+[2018.02.12-20.31.44:396][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas3)
+[2018.02.12-20.31.45:172][332]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final21)
+[2018.02.12-20.32.16:048][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble5)
+[2018.02.12-20.32.16:820][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_doble5)
+[2018.02.12-20.32.17:609][785]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final30)
+[2018.02.12-20.32.33:931][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio12)
+[2018.02.12-20.32.37:216][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_con_pantallas6)
+[2018.02.12-20.32.38:183][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio12)
+[2018.02.12-20.32.39:013][122]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final33)
+[2018.02.12-20.32.59:358][525]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final34)
+[2018.02.12-20.33.06:349][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_alto_estantería_rara7)
+[2018.02.12-20.33.07:220][183]LogEditorViewport: Clicking on Actor (LMB): FarolaPared_Final_C (FarolaPared_Final34)
+[2018.02.12-20.33.21:764][120]LogSavePackage: Save=1471.47ms
+[2018.02.12-20.33.21:765][120]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1B806B2B74CABA261D127E88ECB3DA794.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.12-20.33.21:772][120]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.12-20.33.22:402][120]LogSavePackage: Save=523.66ms
+[2018.02.12-20.33.22:402][120]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito1_BuiltData70A66A60457EFCC453DC8DBF70D03F5E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset'
+[2018.02.12-20.33.22:406][120]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1_BuiltData.uasset
+[2018.02.12-20.33.24:413][278]LogSavePackage: Save=22.10ms
+[2018.02.12-20.33.24:413][278]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/FarolaPared_Final034BA84B4B8A00C9BB4CA5A89361275B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final.uasset'
+[2018.02.12-20.33.24:420][278]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Farolas/FarolaPared_Final.uasset
+[2018.02.12-20.33.56:648][203]Cmd: TRANSACTION UNDO
+[2018.02.12-20.33.56:648][203]LogEditorTransaction: Undo Move Actors
+[2018.02.12-20.34.11:280][128]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.34.12:542][195]LogEditorViewport: Clicking on Actor (LMB): Farola_Final_C (Farola_Final5)
+[2018.02.12-20.34.16:850][466]LogEditorViewport: Clicking on Actor (LMB): Farola_Final_C (Farola_Final6)
+[2018.02.12-20.34.31:139][351]LogEditorViewport: Clicking on Actor (LMB): Farola_Final_C (Farola_Final7)
+[2018.02.12-20.34.44:679][254]LogEditorViewport: Clicking on Actor (LMB): Farola_Final_C (Farola_Final8)
+[2018.02.12-20.35.00:143][212]LogEditorViewport: Clicking on Actor (LMB): Farola_Final_C (Farola_Final8)
+[2018.02.12-20.35.08:409][773]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.35.09:024][805]LogEditorViewport: Clicking on Actor (LMB): Farola_Final_C (Farola_Final10)
+[2018.02.12-20.35.15:315][203]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.35.21:560][543]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.12-20.35.21:603][543]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.35.21:603][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-20.35.21:603][543]PIE: New page: PIE session: NewDistrito1 (Feb 12, 2018, 10:35:21 PM)
+[2018.02.12-20.35.21:604][543]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1
+[2018.02.12-20.35.21:676][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071898s)
+[2018.02.12-20.35.21:676][543]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.12-20.35.21:677][543]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2018.02.12-20.35.21:677][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 (0.073228s)
+[2018.02.12-20.35.21:748][543]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-20.35.21:759][543]LogInit: FAudioDevice initialized.
+[2018.02.12-20.35.21:796][543]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.12-20.35.21:830][543]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.12-21.35.21
+[2018.02.12-20.35.21:833][543]LogWorld: Bringing up level for play took: 0.035295
+[2018.02.12-20.35.21:844][543]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewDistrito1 0.584
+[2018.02.12-20.35.21:844][543]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.35.54:477][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.35.54:557][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewDistrito1.newDistrito1:PersistentLevel.newDistrito1'
+[2018.02.12-20.36.14:190][864]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2018.02.12-20.36.56:167][429]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.37.03:858][909]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2018.02.12-20.37.20:452][ 84]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2018.02.12-20.37.29:623][723]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight4)
+[2018.02.12-20.37.36:599][195]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.37.43:515][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fuente_Cylinder001)
+[2018.02.12-20.37.44:399][730]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2018.02.12-20.37.52:808][411]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.37.56:346][678]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2018.02.12-20.38.05:404][370]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.38.06:893][458]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2018.02.12-20.38.11:470][779]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2018.02.12-20.38.14:788][997]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight4)
+[2018.02.12-20.38.18:770][264]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2018.02.12-20.38.22:287][456]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.12-20.38.33:288][958]LogSavePackage: Save=1537.61ms
+[2018.02.12-20.38.33:288][958]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewDistrito17F6A73824DA5A932102403803D5FEACB.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap'
+[2018.02.12-20.38.33:295][958]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewDistrito1.umap
+[2018.02.12-20.38.33:376][958]LogFileHelpers: Saving map 'NewDistrito1' took 1.776
