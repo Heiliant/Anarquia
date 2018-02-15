@@ -843,3 +843,285 @@ Make sure 'ThirdPersonCharacter_C' has been compiled for  Jump Begin
 [2018.02.15-18.14.12:939][702]LogSavePackage: Save=20.15ms
 [2018.02.15-18.14.12:939][702]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Edificio1_BPEBBF21C04BD8BADB3522AEBDB5C93E75.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio1_BP.uasset'
 [2018.02.15-18.14.12:947][702]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio1_BP.uasset
+[2018.02.15-18.14.40:082][ 24]LogSavePackage: Save=283.56ms
+[2018.02.15-18.14.40:082][ 24]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tutorial_Auto2CDDF7D5B4517A4898DCDD5A9B9EC8206.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Tutorial_Auto2.umap'
+[2018.02.15-18.14.40:085][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Tutorial_Auto2.umap
+[2018.02.15-18.14.40:091][ 24]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Tutorial' took 0.338
+[2018.02.15-18.14.40:091][ 24]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.338
+[2018.02.15-18.14.40:094][ 24]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio1] ([1] browsable assets)...
+[2018.02.15-18.14.40:107][ 24]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio1.Edificio1]
+[2018.02.15-18.14.40:107][ 24]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio1]
+[2018.02.15-18.14.40:125][ 24]LogSavePackage: Save=13.76ms
+[2018.02.15-18.14.40:125][ 24]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Edificio1_Auto2DD8EA7984AD202167C17B9B2FF6D9483.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio1_Auto2.uasset'
+[2018.02.15-18.14.40:129][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio1_Auto2.uasset
+[2018.02.15-18.14.40:129][ 24]LogFileHelpers: Auto-saving content packages took 0.038
+[2018.02.15-18.16.16:262][438]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.15-18.16.16:297][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-18.16.16:297][438]PIE: New page: PIE session: Tutorial (Feb 15, 2018, 8:16:16 PM)
+[2018.02.15-18.16.16:298][438]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2018.02.15-18.16.16:314][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015482s)
+[2018.02.15-18.16.16:315][438]LogAIModule: Creating AISystem for world Tutorial
+[2018.02.15-18.16.16:315][438]LogPlayLevel: PIE: World Init took: (0.001172s)
+[2018.02.15-18.16.16:315][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.016984s)
+[2018.02.15-18.16.16:356][438]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-18.16.16:370][438]LogInit: FAudioDevice initialized.
+[2018.02.15-18.16.16:404][438]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.15-18.16.16:412][438]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.02.15-19.16.16
+[2018.02.15-18.16.16:412][438]LogWorld: Bringing up level for play took: 0.006902
+[2018.02.15-18.16.16:419][438]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial -0.011
+[2018.02.15-18.16.18:773][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio1)
+[2018.02.15-18.16.19:457][707]Cmd: DELETE
+[2018.02.15-18.16.19:457][707]Cmd: ACTOR DELETE
+[2018.02.15-18.16.19:458][707]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-18.16.19:480][707]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.02.15-18.16.22:844][ 42]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.15-18.16.22:869][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-18.16.22:869][ 42]PIE: New page: PIE session: Tutorial (Feb 15, 2018, 8:16:22 PM)
+[2018.02.15-18.16.22:869][ 42]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2018.02.15-18.16.22:881][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011147s)
+[2018.02.15-18.16.22:882][ 42]LogAIModule: Creating AISystem for world Tutorial
+[2018.02.15-18.16.22:882][ 42]LogPlayLevel: PIE: World Init took: (0.001593s)
+[2018.02.15-18.16.22:882][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.012990s)
+[2018.02.15-18.16.22:912][ 42]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-18.16.22:922][ 42]LogInit: FAudioDevice initialized.
+[2018.02.15-18.16.22:953][ 42]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.15-18.16.22:958][ 42]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.02.15-19.16.22
+[2018.02.15-18.16.22:959][ 42]LogWorld: Bringing up level for play took: 0.004238
+[2018.02.15-18.16.22:963][ 42]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.533
+[2018.02.15-18.16.47:340][836]LogEditorViewport: Clicking on Actor (LMB): Edificio1_BP_C (Edificio1_BP)
+[2018.02.15-18.16.50:368][123]Cmd: DELETE
+[2018.02.15-18.16.50:368][123]Cmd: ACTOR DELETE
+[2018.02.15-18.16.50:368][123]LogEditorActor: Deleted Actor: Edificio1_BP_C
+[2018.02.15-18.16.50:386][123]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.02.15-18.16.51:609][268]Cmd: TRANSACTION UNDO
+[2018.02.15-18.16.51:609][268]LogEditorTransaction: Undo Delete Actors
+[2018.02.15-18.16.57:819][874]LogEditorViewport: Clicking on Actor (LMB): Edificio1_BP_C (Edificio1_BP)
+[2018.02.15-18.16.58:527][947]Cmd: DELETE
+[2018.02.15-18.16.58:527][947]Cmd: ACTOR DELETE
+[2018.02.15-18.16.58:528][947]LogEditorActor: Deleted Actor: Edificio1_BP_C
+[2018.02.15-18.16.58:547][947]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.02.15-18.17.11:007][851]LogSavePackage: Save=275.27ms
+[2018.02.15-18.17.11:007][851]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tutorial3B4F730245038F351566A884C4D9E66B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2018.02.15-18.17.11:015][851]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Tutorial.umap
+[2018.02.15-18.20.43:237][ 23]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/Edificio2.FBX)
+[2018.02.15-18.20.43:242][ 23]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.15-18.20.43:242][ 23]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.15-18.20.43:242][ 23]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.15-18.20.43:242][ 23]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.15-18.20.43:242][ 23]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.15-18.20.43:247][ 23]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/Edificio2.FBX
+[2018.02.15-18.20.43:253][ 23]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-18.20.50:969][ 23]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/Edificio2.FBX
+[2018.02.15-18.20.50:975][ 23]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-18.20.50:978][ 23]LogFbx:Warning: Triangulating static mesh Edificio pobre 2
+[2018.02.15-18.20.51:108][ 23]LogStaticMesh: Building static mesh Edificio2...
+[2018.02.15-18.20.51:140][ 23]LogStaticMesh: Built static mesh [0.03s] /Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio2.Edificio2
+[2018.02.15-18.20.51:144][ 23]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.15-18.20.53:845][320]LogActorFactory: Actor Factory created Edificio2
+[2018.02.15-18.20.54:602][402]LogActorFactory: Actor Factory created Edificio2
+[2018.02.15-18.20.55:276][471]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.15-18.20.55:301][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-18.20.55:301][471]PIE: New page: PIE session: Tutorial (Feb 15, 2018, 8:20:55 PM)
+[2018.02.15-18.20.55:302][471]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2018.02.15-18.20.55:313][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011247s)
+[2018.02.15-18.20.55:313][471]LogAIModule: Creating AISystem for world Tutorial
+[2018.02.15-18.20.55:314][471]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2018.02.15-18.20.55:314][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.012232s)
+[2018.02.15-18.20.55:345][471]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-18.20.55:354][471]LogInit: FAudioDevice initialized.
+[2018.02.15-18.20.55:387][471]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.15-18.20.55:392][471]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.02.15-19.20.55
+[2018.02.15-18.20.55:392][471]LogWorld: Bringing up level for play took: 0.004063
+[2018.02.15-18.20.55:397][471]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.967
+[2018.02.15-18.21.06:225][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio2)
+[2018.02.15-18.21.09:265][ 97]Cmd: DELETE
+[2018.02.15-18.21.09:265][ 97]Cmd: ACTOR DELETE
+[2018.02.15-18.21.09:265][ 97]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-18.21.09:284][ 97]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.02.15-18.22.34:018][752]BlueprintLog: New page: Compile Edificio2_BP
+[2018.02.15-18.22.34:863][792]LogSavePackage: Save=21.07ms
+[2018.02.15-18.22.34:863][792]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Edificio2_BP6DB7A7D44276804AA9E02083472E286F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio2_BP.uasset'
+[2018.02.15-18.22.34:873][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio2_BP.uasset
+[2018.02.15-18.22.38:718][199]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.15-18.22.38:750][199]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-18.22.38:750][199]PIE: New page: PIE session: Tutorial (Feb 15, 2018, 8:22:38 PM)
+[2018.02.15-18.22.38:751][199]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2018.02.15-18.22.38:762][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011681s)
+[2018.02.15-18.22.38:763][199]LogAIModule: Creating AISystem for world Tutorial
+[2018.02.15-18.22.38:763][199]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2018.02.15-18.22.38:764][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.012834s)
+[2018.02.15-18.22.38:792][199]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-18.22.38:802][199]LogInit: FAudioDevice initialized.
+[2018.02.15-18.22.38:836][199]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.15-18.22.38:841][199]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.02.15-19.22.38
+[2018.02.15-18.22.38:841][199]LogWorld: Bringing up level for play took: 0.004294
+[2018.02.15-18.22.38:846][199]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.416
+[2018.02.15-18.22.54:055][994]Cmd: DELETE
+[2018.02.15-18.22.54:055][994]Cmd: ACTOR DELETE
+[2018.02.15-18.22.54:056][994]LogEditorActor: Deleted Actor: Edificio2_BP_C
+[2018.02.15-18.22.54:072][994]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.02.15-18.23.41:544][102]LogSavePackage: Save=256.46ms
+[2018.02.15-18.23.41:544][102]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tutorial45CE1D5846FD24D7961270847D6C8623.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2018.02.15-18.23.41:551][102]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Tutorial.umap
+[2018.02.15-18.23.41:600][102]LogFileHelpers: Saving map 'Tutorial' took 1.953
+[2018.02.15-18.23.41:633][102]LogSavePackage: Save=12.94ms
+[2018.02.15-18.23.41:633][102]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Edificio160118F9B4B2665386921D6B080203484.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio1.uasset'
+[2018.02.15-18.23.41:640][102]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio1.uasset
+[2018.02.15-18.23.41:672][102]LogSavePackage: Save=13.21ms
+[2018.02.15-18.23.41:672][102]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Edificio2A780572F48E4D9FABD93D7AB9BFDDE09.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio2.uasset'
+[2018.02.15-18.23.41:677][102]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio2.uasset
+[2018.02.15-18.23.44:967][442]LogSavePackage: Save=267.06ms
+[2018.02.15-18.23.44:967][442]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/TutorialDDD3DA7D467BFB992332C484B2A45024.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2018.02.15-18.23.44:971][442]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Tutorial.umap
+[2018.02.15-18.26.23:400][798]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/Container.FBX)
+[2018.02.15-18.26.23:405][798]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.15-18.26.23:405][798]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.15-18.26.23:405][798]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.15-18.26.23:405][798]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.15-18.26.23:405][798]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.15-18.26.23:410][798]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/Container.FBX
+[2018.02.15-18.26.23:416][798]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-18.26.29:107][798]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/Container.FBX
+[2018.02.15-18.26.29:113][798]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-18.26.29:115][798]LogFbx:Warning: Triangulating static mesh Container
+[2018.02.15-18.26.29:135][798]LogStaticMesh: Building static mesh Container...
+[2018.02.15-18.26.29:139][798]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Container.Container
+[2018.02.15-18.26.29:140][798]LogStaticMesh:Warning: Container has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.02.15-18.26.29:153][798]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.15-18.26.29:153][798]FBXImport:Warning: Warning Container has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.02.15-18.26.31:554][ 59]LogActorFactory: Actor Factory created Container
+[2018.02.15-18.26.32:099][115]LogActorFactory: Actor Factory created Container
+[2018.02.15-18.26.32:812][189]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.15-18.26.32:838][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-18.26.32:838][189]PIE: New page: PIE session: Tutorial (Feb 15, 2018, 8:26:32 PM)
+[2018.02.15-18.26.32:839][189]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2018.02.15-18.26.32:850][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011518s)
+[2018.02.15-18.26.32:851][189]LogAIModule: Creating AISystem for world Tutorial
+[2018.02.15-18.26.32:851][189]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2018.02.15-18.26.32:852][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.012721s)
+[2018.02.15-18.26.32:879][189]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-18.26.32:888][189]LogInit: FAudioDevice initialized.
+[2018.02.15-18.26.32:920][189]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.15-18.26.32:925][189]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.02.15-19.26.32
+[2018.02.15-18.26.32:926][189]LogWorld: Bringing up level for play took: 0.004188
+[2018.02.15-18.26.32:930][189]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.5
+[2018.02.15-18.26.37:279][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Container)
+[2018.02.15-18.26.37:822][752]Cmd: DELETE
+[2018.02.15-18.26.37:822][752]Cmd: ACTOR DELETE
+[2018.02.15-18.26.37:822][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-18.26.37:839][752]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.02.15-18.26.49:366][723]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/Container.FBX)
+[2018.02.15-18.26.49:371][723]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.15-18.26.49:371][723]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.15-18.26.49:371][723]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.15-18.26.49:371][723]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.15-18.26.49:371][723]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.15-18.26.49:375][723]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/Container.FBX
+[2018.02.15-18.26.49:380][723]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-18.26.53:797][723]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/Container.FBX
+[2018.02.15-18.26.53:804][723]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-18.26.53:806][723]LogFbx:Warning: Triangulating static mesh Container
+[2018.02.15-18.26.53:828][723]LogStaticMesh: Building static mesh Container...
+[2018.02.15-18.26.53:832][723]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Container.Container
+[2018.02.15-18.26.53:833][723]LogStaticMesh:Warning: Container has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.02.15-18.26.53:840][723]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.15-18.26.53:840][723]FBXImport:Warning: Warning Container has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.02.15-18.26.56:660][ 26]LogActorFactory: Actor Factory created Container
+[2018.02.15-18.26.57:003][ 59]LogActorFactory: Actor Factory created Container
+[2018.02.15-18.26.57:653][125]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.15-18.26.57:678][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-18.26.57:678][125]PIE: New page: PIE session: Tutorial (Feb 15, 2018, 8:26:57 PM)
+[2018.02.15-18.26.57:679][125]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2018.02.15-18.26.57:690][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011271s)
+[2018.02.15-18.26.57:690][125]LogAIModule: Creating AISystem for world Tutorial
+[2018.02.15-18.26.57:691][125]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2018.02.15-18.26.57:691][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.012300s)
+[2018.02.15-18.26.57:720][125]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-18.26.57:728][125]LogInit: FAudioDevice initialized.
+[2018.02.15-18.26.57:763][125]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.15-18.26.57:769][125]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.02.15-19.26.57
+[2018.02.15-18.26.57:769][125]LogWorld: Bringing up level for play took: 0.004164
+[2018.02.15-18.26.57:773][125]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial -0.657
+[2018.02.15-18.27.02:478][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Container)
+[2018.02.15-18.27.03:552][788]Cmd: DELETE
+[2018.02.15-18.27.03:553][788]Cmd: ACTOR DELETE
+[2018.02.15-18.27.03:553][788]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-18.27.03:571][788]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.02.15-18.27.11:445][231]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/Container.FBX)
+[2018.02.15-18.27.11:449][231]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.15-18.27.11:449][231]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.02.15-18.27.11:449][231]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.02.15-18.27.11:449][231]LogFbx: ItemName: Model, ItemCount : 1
+[2018.02.15-18.27.11:449][231]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.15-18.27.11:454][231]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/Container.FBX
+[2018.02.15-18.27.11:459][231]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-18.27.14:960][231]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/Container.FBX
+[2018.02.15-18.27.14:966][231]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-18.27.14:969][231]LogFbx:Warning: Triangulating static mesh Container
+[2018.02.15-18.27.14:990][231]LogStaticMesh: Building static mesh Container...
+[2018.02.15-18.27.14:994][231]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Container.Container
+[2018.02.15-18.27.14:994][231]LogStaticMesh:Warning: Container has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.02.15-18.27.15:001][231]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.15-18.27.15:001][231]FBXImport:Warning: Warning Container has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.02.15-18.27.17:230][477]LogActorFactory: Actor Factory created Container
+[2018.02.15-18.27.17:632][514]LogActorFactory: Actor Factory created Container
+[2018.02.15-18.27.18:391][593]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.15-18.27.18:417][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-18.27.18:417][593]PIE: New page: PIE session: Tutorial (Feb 15, 2018, 8:27:18 PM)
+[2018.02.15-18.27.18:418][593]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2018.02.15-18.27.18:429][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011113s)
+[2018.02.15-18.27.18:430][593]LogAIModule: Creating AISystem for world Tutorial
+[2018.02.15-18.27.18:430][593]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2018.02.15-18.27.18:430][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.012274s)
+[2018.02.15-18.27.18:458][593]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-18.27.18:467][593]LogInit: FAudioDevice initialized.
+[2018.02.15-18.27.18:500][593]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.15-18.27.18:511][593]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.02.15-19.27.18
+[2018.02.15-18.27.18:512][593]LogWorld: Bringing up level for play took: 0.008708
+[2018.02.15-18.27.18:520][593]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.09
+[2018.02.15-18.28.35:356][290]BlueprintLog: New page: Compile Container_BP
+[2018.02.15-18.28.40:692][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Container)
+[2018.02.15-18.28.41:290][834]Cmd: DELETE
+[2018.02.15-18.28.41:290][834]Cmd: ACTOR DELETE
+[2018.02.15-18.28.41:290][834]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-18.28.41:309][834]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.02.15-18.28.42:675][997]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.15-18.28.42:703][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-18.28.42:703][997]PIE: New page: PIE session: Tutorial (Feb 15, 2018, 8:28:42 PM)
+[2018.02.15-18.28.42:704][997]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2018.02.15-18.28.42:715][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011421s)
+[2018.02.15-18.28.42:716][997]LogAIModule: Creating AISystem for world Tutorial
+[2018.02.15-18.28.42:716][997]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2018.02.15-18.28.42:716][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.012482s)
+[2018.02.15-18.28.42:746][997]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-18.28.42:756][997]LogInit: FAudioDevice initialized.
+[2018.02.15-18.28.42:792][997]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.15-18.28.42:798][997]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.02.15-19.28.42
+[2018.02.15-18.28.42:798][997]LogWorld: Bringing up level for play took: 0.004228
+[2018.02.15-18.28.42:802][997]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.372
+[2018.02.15-18.28.48:531][671]LogEditorViewport: Clicking on Actor (LMB): Container_BP_C (Container_BP)
+[2018.02.15-18.28.49:152][740]Cmd: DELETE
+[2018.02.15-18.28.49:152][740]Cmd: ACTOR DELETE
+[2018.02.15-18.28.49:152][740]LogEditorActor: Deleted Actor: Container_BP_C
+[2018.02.15-18.28.49:171][740]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.02.15-18.28.53:109][983]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.15-18.28.54:242][983]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2018.02.15-18.28.54:243][983]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'container' or package '/Engine/Transient'.
+[2018.02.15-18.28.54:243][983]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2018.02.15-18.28.54:243][983]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Container_BP_C_204' or package '/Engine/Transient'.
+[2018.02.15-18.28.54:243][983]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'container_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.02.15-18.28.54:243][983]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Container_BP_C_203' or package '/Engine/Transient'.
+[2018.02.15-18.28.54:243][983]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Container_BP_C_1' or package '/Engine/Transient'.
+[2018.02.15-18.28.54:243][983]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.02.15-18.28.54:243][983]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2018.02.15-18.28.54:243][983]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Container_BP_C_0' or package '/Engine/Transient'.
+[2018.02.15-18.28.58:750][418]LogSavePackage: Save=263.91ms
+[2018.02.15-18.28.58:750][418]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tutorial8A4C459E4F52BC7D15D561A3D54E01E3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2018.02.15-18.28.58:756][418]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Tutorial.umap
+[2018.02.15-18.28.58:797][418]LogFileHelpers: Saving map 'Tutorial' took 0.461
+[2018.02.15-18.28.58:833][418]LogSavePackage: Save=12.90ms
+[2018.02.15-18.28.58:833][418]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Container3931171649AE23706BBA17B6B3931CB0.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Container.uasset'
+[2018.02.15-18.28.58:838][418]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Container.uasset
+[2018.02.15-18.29.01:012][634]LogSavePackage: Save=248.38ms
+[2018.02.15-18.29.01:012][634]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tutorial3C4253034E4F4AEDFD86629FDCFF0F5C.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2018.02.15-18.29.01:017][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Tutorial.umap
