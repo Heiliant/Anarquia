@@ -1,9 +1,9 @@
-﻿Log file open, 02/19/18 15:32:58
+﻿Log file open, 02/20/18 17:40:17
 LogInit:Display: Running engine for game: Proyecto2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1581036257) SRandInit(-1581036257).
+LogInit:Display: RandInit(-2129746881) SRandInit(-2129746881).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.114094
+LogStats: Stats thread started at 0.178403
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,309 +50,1083 @@ LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binari
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.19-14.32.59:156][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.19-14.32.59:156][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.19-14.32.59:160][  0]LogInit: Computer: DESKTOP-FT9D45J
-[2018.02.19-14.32.59:160][  0]LogInit: User: abala
-[2018.02.19-14.32.59:160][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.19-14.32.59:160][  0]LogInit: High frequency timer resolution =3.328127 MHz
-[2018.02.19-14.32.59:160][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
-[2018.02.19-14.32.59:160][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.19-14.32.59:160][  0]LogMemory: Process Physical Memory: 276.38 MB used, 276.38 MB peak
-[2018.02.19-14.32.59:160][  0]LogMemory: Process Virtual Memory: 266.82 MB used, 266.82 MB peak
-[2018.02.19-14.32.59:160][  0]LogMemory: Physical Memory: 6555.85 MB used,  5691.05 MB free, 12246.90 MB total
-[2018.02.19-14.32.59:160][  0]LogMemory: Virtual Memory: 667.94 MB used,  5691.05 MB free, 134217728.00 MB total
-[2018.02.19-14.32.59:252][  0]LogInit: Using OS detected language (es-ES).
-[2018.02.19-14.32.59:252][  0]LogInit: Using OS detected locale (es-ES).
-[2018.02.19-14.32.59:258][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
-[2018.02.19-14.33.00:318][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.19-14.33.00:375][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2018.02.19-14.33.00:375][  0]LogD3D11RHI:       4029/0/6123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.19-14.33.00:378][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.19-14.33.00:378][  0]LogD3D11RHI:       0/0/6123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.19-14.33.00:378][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.19-14.33.00:384][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.19-14.33.00:384][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.19-14.33.00:384][  0]LogWindows: EnumDisplayDevices:
-[2018.02.19-14.33.00:384][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2018.02.19-14.33.00:384][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.02.19-14.33.00:384][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.02.19-14.33.00:384][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.02.19-14.33.00:384][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.19-14.33.00:384][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2018.02.19-14.33.00:384][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.19-14.33.00:384][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.19-14.33.00:384][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.02.19-14.33.00:412][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.19-14.33.00:428][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.19-14.33.00:477][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/3944/).
-[2018.02.19-14.33.00:477][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/abala/AppData/Local/Temp/UnrealShaderWorkingDir/EF5A08A1461147BB923191A882D338AC/'.
-[2018.02.19-14.33.00:478][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.02.19-14.33.01:453][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.19-14.33.01:498][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.19-14.33.01:546][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.19-14.33.01:594][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.02.19-14.33.01:594][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.02.19-14.33.02:022][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.02.19-14.33.02:114][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/abala/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.02.19-14.33.02:114][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/abala/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.02.19-14.33.02:114][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/abala/Documents/SourceTree/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.19-14.33.02:114][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.19-14.33.02:114][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/abala/Documents/SourceTree/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.19-14.33.02:114][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.19-14.33.02:129][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.19-14.33.02:141][  0]LogDerivedDataCache: Using Local data cache path C:/Users/abala/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.19-14.33.02:150][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.19-14.33.02:151][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.19-14.33.02:152][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.19-14.33.02:152][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.19-14.33.02:519][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
-[2018.02.19-14.33.02:529][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.009615 seconds
-[2018.02.19-14.33.02:620][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.19-14.33.02:684][  0]LogContentStreaming: Texture pool size is 1000.00 MB
-[2018.02.19-14.33.02:840][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.19-14.33.02:884][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.19-14.33.02:941][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.19-14.33.02:941][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.02.19-14.33.02:941][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.02.19-14.33.03:493][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
-[2018.02.19-14.33.03:551][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.19-14.33.04:572][  0]LogMoviePlayer: Initializing movie player
-[2018.02.19-14.33.04:894][  0]LogCollectionManager: Loaded 0 collections in 0.001408 seconds
-[2018.02.19-14.33.04:945][  0]LogFileCache: Scanning file cache for directory 'D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
-[2018.02.19-14.33.04:945][  0]LogFileCache: Scanning file cache for directory 'D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Content/Developers/abala/Collections/' took 0.01s
-[2018.02.19-14.33.04:945][  0]LogFileCache: Scanning file cache for directory 'D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Content/Collections/' took 0.01s
-[2018.02.19-14.33.04:945][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2018.02.19-14.33.04:945][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
-[2018.02.19-14.33.05:122][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.19-14.33.05:164][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.19-14.33.05:596][  0]SourceControl: Información El control de código fuente está desactivado
-[2018.02.19-14.33.05:596][  0]SourceControl: Información El control de código fuente está desactivado
-[2018.02.19-14.33.05:649][  0]SourceControl: Información El control de código fuente está desactivado
-[2018.02.19-14.33.05:923][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.19-14.33.06:410][  0]LogUObjectArray: 37220 objects as part of root set at end of initial load.
-[2018.02.19-14.33.06:410][  0]LogUObjectAllocator: 8398848 out of 0 bytes used by permanent object pool.
-[2018.02.19-14.33.06:410][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.19-14.33.06:507][  0]LogEngine: Initializing Engine...
-[2018.02.19-14.33.06:508][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.19-14.33.06:688][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.19-14.33.06:688][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.19-14.33.06:706][  0]LogInit: XAudio2 using 'Audífono de los auriculares con micrófono (Corsair VOID Wireless Gaming Dongle)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.02.19-14.33.06:835][  0]LogInit: FAudioDevice initialized.
-[2018.02.19-14.33.06:859][  0]LogInit: Texture streaming: Enabled
-[2018.02.19-14.33.06:889][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.19-14.33.07:176][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'NormalText'. Utilizando FTextBlockStyle predeterminado en su lugar.
-[2018.02.19-14.33.07:176][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'SpinBox'. Utilizando FSpinBoxStyle predeterminado en su lugar.
-[2018.02.19-14.33.07:373][  0]LogInit:Display: Game Engine Initialized.
-[2018.02.19-14.33.07:533][  0]LogInit:Display: Starting Game.
-[2018.02.19-14.33.07:533][  0]LogNet: Browse: /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1?Name=Player
-[2018.02.19-14.33.07:533][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1?Name=Player
-[2018.02.19-14.33.07:575][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.19-14.33.07:575][  0]LogMemory: Process Physical Memory: 803.42 MB used, 900.43 MB peak
-[2018.02.19-14.33.07:575][  0]LogMemory: Process Virtual Memory: 903.70 MB used, 953.72 MB peak
-[2018.02.19-14.33.07:575][  0]LogMemory: Physical Memory: 7002.45 MB used,  5244.45 MB free, 12246.90 MB total
-[2018.02.19-14.33.07:575][  0]LogMemory: Virtual Memory: 1583.93 MB used,  5244.45 MB free, 134217728.00 MB total
-[2018.02.19-14.33.07:575][  0]LogMemory: 
-[2018.02.19-14.33.07:575][  0]Allocator Stats for TBB: (not implemented)
-[2018.02.19-14.33.08:668][  0]LogBlueprint:Warning: Timeline pushPJ Track NewTrack_0 in /Engine/Transient.REINST_antidisturbiosEnemy_C_62 has an invalid curve.  Please fix!
-[2018.02.19-14.33.08:907][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
-[2018.02.19-14.33.08:907][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
-[2018.02.19-14.33.08:908][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
-[2018.02.19-14.33.08:908][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
-[2018.02.19-14.33.08:910][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
-[2018.02.19-14.33.08:910][  0]LoadErrors: Información Error al cargar /Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT.transparent_MAT Referenciado por Cylinder_GEN_VARIABLE
-[2018.02.19-14.33.08:910][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
-[2018.02.19-14.33.08:910][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
-[2018.02.19-14.33.08:910][  0]LoadErrors: Información Error al cargar /Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT.transparent_MAT Referenciado por Cylinder_GEN_VARIABLE
-[2018.02.19-14.33.08:910][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
-[2018.02.19-14.33.08:913][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
-[2018.02.19-14.33.08:913][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
-[2018.02.19-14.33.08:913][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
-[2018.02.19-14.33.08:913][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
-[2018.02.19-14.33.08:916][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
-[2018.02.19-14.33.08:916][  0]LoadErrors: Información Error al cargar /Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT.transparent_MAT Referenciado por Cylinder_GEN_VARIABLE
-[2018.02.19-14.33.08:916][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
-[2018.02.19-14.33.08:916][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
-[2018.02.19-14.33.08:916][  0]LoadErrors: Información Error al cargar /Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT.transparent_MAT Referenciado por Cylinder_GEN_VARIABLE
-[2018.02.19-14.33.08:916][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
-[2018.02.19-14.33.09:334][  0]LogBlueprint:Warning: Timeline pushPJ Track NewTrack_0 in /Engine/Transient.REINST_antidisturbiosEnemy_C_141 has an invalid curve.  Please fix!
-[2018.02.19-14.33.10:591][  0]LogAIModule: Creating AISystem for world newDistrito1
-[2018.02.19-14.33.10:606][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.02.19-14.33.10:710][  0]LogWorld: Bringing World /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.19-15.33.10
-[2018.02.19-14.33.10:713][  0]LogWorld: Bringing up level for play took: 0.105551
-[2018.02.19-14.33.10:726][  0]LogLoad: Took 3.193399 seconds to LoadMap(/Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1)
-[2018.02.19-14.33.10:927][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
-[2018.02.19-14.33.10:927][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
-[2018.02.19-14.33.10:927][  0]LogLoad: (Engine Initialization) Total time: 14.56 seconds
-[2018.02.19-14.33.10:927][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.14 seconds
-[2018.02.19-14.33.10:927][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.02.19-14.33.10:944][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.02.19-14.33.10:944][  0]LogOcInput: OculusInput pre-init called
-[2018.02.19-14.33.10:944][  0]LogHMD: Starting GearVRController plugin
-[2018.02.19-14.33.10:988][  3]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:3).
-[2018.02.19-14.33.10:988][  3]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:3).
-[2018.02.19-14.33.16:438][337]LogBlueprintUserMessages: [beginCountdown_C_0] Hello
-[2018.02.19-14.33.19:827][547]Closing by request
-[2018.02.19-14.33.19:827][547]LogWindows: FPlatformMisc::RequestExit(0)
-[2018.02.19-14.33.20:555][548]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.02.19-14.33.20:561][548]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.02.19-14.33.20:561][548]LogExit: Preparing to exit.
-[2018.02.19-14.33.20:561][548]LogMoviePlayer: Shutting down movie player
-[2018.02.19-14.33.21:345][548]LogExit: Game engine shut down
-[2018.02.19-14.33.21:456][548]LogObj: Freed 0b from 0 cluster array pools.
-[2018.02.19-14.33.21:456][548]LogExit: Object subsystem successfully closed.
-[2018.02.19-14.33.21:471][548]LogD3D11RHI: Shutdown
-[2018.02.19-14.33.21:471][548]LogD3D11RHI: CleanupD3DDevice
-[2018.02.19-14.33.21:547][548]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (296)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module SequenceRecorder (294)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module AutomationController (292)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module AutomationWorker (290)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module AIModule (288)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module GameplayDebugger (287)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module AITestSuite (285)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (282)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (280)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (278)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module Media (277)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module CharacterAI (274)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module SessionServices (272)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (270)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (268)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module MovieScene (266)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module GeometryCache (264)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (263)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module Niagara (260)
-[2018.02.19-14.33.21:551][548]LogModuleManager: Shutting down and abandoning module NiagaraEditor (259)
-[2018.02.19-14.33.21:552][548]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (256)
-[2018.02.19-14.33.21:552][548]LogModuleManager: Shutting down and abandoning module PortalServices (254)
-[2018.02.19-14.33.21:552][548]LogModuleManager: Shutting down and abandoning module PortalRpc (252)
-[2018.02.19-14.33.21:552][548]LogModuleManager: Shutting down and abandoning module MessagingRpc (250)
-[2018.02.19-14.33.21:552][548]LogModuleManager: Shutting down and abandoning module ProfilerService (248)
-[2018.02.19-14.33.21:735][548]LogModuleManager: Shutting down and abandoning module TaskGraph (246)
-[2018.02.19-14.33.21:735][548]LogModuleManager: Shutting down and abandoning module SteamVRController (244)
-[2018.02.19-14.33.21:735][548]LogModuleManager: Shutting down and abandoning module SteamVR (242)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (240)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module OculusLibrary (238)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module OculusInput (236)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (234)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (232)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module CableComponent (230)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (228)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module AndroidPermission (226)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module HTML5Networking (222)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (220)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module DesktopPlatform (219)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module HotReload (217)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module UObjectPlugin (214)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (212)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (210)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module SourceControl (209)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (206)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module PhysXVehicles (204)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (202)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (200)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (198)
-[2018.02.19-14.33.21:736][548]LogModuleManager: Shutting down and abandoning module UdpMessaging (196)
-[2018.02.19-14.33.21:837][548]LogModuleManager: Shutting down and abandoning module TcpMessaging (194)
-[2018.02.19-14.33.22:129][548]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (192)
-[2018.02.19-14.33.22:129][548]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
-[2018.02.19-14.33.22:129][548]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (188)
-[2018.02.19-14.33.22:129][548]LogModuleManager: Shutting down and abandoning module GraphEditor (187)
-[2018.02.19-14.33.22:129][548]LogModuleManager: Shutting down and abandoning module ContentBrowser (185)
-[2018.02.19-14.33.22:129][548]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
-[2018.02.19-14.33.22:129][548]LogDirectoryWatcher: A directory notification for 'D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Content/Collections/' was aborted.
-[2018.02.19-14.33.22:129][548]LogDirectoryWatcher: A directory notification for 'D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Content/Developers/abala/Collections/' was aborted.
-[2018.02.19-14.33.22:129][548]LogDirectoryWatcher: A directory notification for 'D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Saved/Collections/' was aborted.
-[2018.02.19-14.33.22:129][548]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (183)
-[2018.02.19-14.33.22:129][548]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (178)
-[2018.02.19-14.33.22:129][548]LogModuleManager: Shutting down and abandoning module Paper2D (176)
-[2018.02.19-14.33.22:129][548]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (174)
-[2018.02.19-14.33.22:129][548]LogModuleManager: Shutting down and abandoning module WmfMedia (172)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (170)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (168)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module MediaAssets (166)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (164)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module VREditor (162)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module StringTableEditor (160)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (158)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (156)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module FunctionalTesting (154)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (152)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module UMG (150)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module UMGEditor (149)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module Sequencer (148)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module AssetTools (146)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module MessageLog (145)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (144)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module Slate (136)
-[2018.02.19-14.33.22:131][548]LogModuleManager: Shutting down and abandoning module EditorStyle (134)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module Messaging (132)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (130)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module Networking (124)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module Core (120)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module KismetCompiler (118)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module LevelSequence (116)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module PhysXFormats (114)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module MeshUtilities (112)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (111)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (109)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (107)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module AssetRegistry (104)
-[2018.02.19-14.33.22:133][548]LogModuleManager: Shutting down and abandoning module DerivedDataCache (102)
-[2018.02.19-14.33.22:157][548]LogDerivedDataCache: Shutdown
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module TargetPlatform (100)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (99)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (97)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (95)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (93)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (91)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (89)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (87)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (85)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (83)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (81)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module ImageWrapper (80)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (77)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (75)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (73)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (71)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.02.19-14.33.22:157][548]LogOnline:Display: Unloading online subsystem: NULL
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.02.19-14.33.22:157][548]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.02.19-14.33.22:185][548]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.02.19-14.33.22:186][548]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.02.19-14.33.22:188][548]LogExit: Exiting.
-[2018.02.19-14.33.22:189][548]Log file closed, 02/19/18 15:33:22
+[2018.02.20-16.40.18:882][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.20-16.40.18:882][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.20-16.40.18:888][  0]LogInit: Computer: DESKTOP-FT9D45J
+[2018.02.20-16.40.18:888][  0]LogInit: User: abala
+[2018.02.20-16.40.18:888][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.20-16.40.18:888][  0]LogInit: High frequency timer resolution =3.328127 MHz
+[2018.02.20-16.40.18:888][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2018.02.20-16.40.18:888][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.20-16.40.18:888][  0]LogMemory: Process Physical Memory: 275.86 MB used, 275.86 MB peak
+[2018.02.20-16.40.18:888][  0]LogMemory: Process Virtual Memory: 270.69 MB used, 270.69 MB peak
+[2018.02.20-16.40.18:888][  0]LogMemory: Physical Memory: 6628.54 MB used,  5618.36 MB free, 12246.90 MB total
+[2018.02.20-16.40.18:888][  0]LogMemory: Virtual Memory: 671.94 MB used,  5618.36 MB free, 134217728.00 MB total
+[2018.02.20-16.40.18:994][  0]LogInit: Using OS detected language (es-ES).
+[2018.02.20-16.40.18:994][  0]LogInit: Using OS detected locale (es-ES).
+[2018.02.20-16.40.19:007][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2018.02.20-16.40.19:650][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.20-16.40.19:708][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.02.20-16.40.19:708][  0]LogD3D11RHI:       4029/0/6123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.20-16.40.19:710][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.20-16.40.19:710][  0]LogD3D11RHI:       0/0/6123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.20-16.40.19:710][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.20-16.40.19:716][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.20-16.40.19:716][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.20-16.40.19:716][  0]LogWindows: EnumDisplayDevices:
+[2018.02.20-16.40.19:716][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.02.20-16.40.19:717][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.02.20-16.40.19:717][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.02.20-16.40.19:717][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.02.20-16.40.19:717][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.20-16.40.19:717][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.02.20-16.40.19:717][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.20-16.40.19:717][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.20-16.40.19:717][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.20-16.40.19:747][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.20-16.40.19:769][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.20-16.40.19:818][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/17312/).
+[2018.02.20-16.40.19:818][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/abala/AppData/Local/Temp/UnrealShaderWorkingDir/41E403104ACDB00C2746488C7DFABC38/'.
+[2018.02.20-16.40.19:818][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.20-16.40.20:834][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.20-16.40.20:883][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.20-16.40.20:930][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.20-16.40.20:983][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.20-16.40.20:983][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.20-16.40.21:423][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.20-16.40.21:515][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/abala/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.20-16.40.21:515][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/abala/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.20-16.40.21:515][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/abala/Documents/SourceTree/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.20-16.40.21:515][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.20-16.40.21:515][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/abala/Documents/SourceTree/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.20-16.40.21:515][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.20-16.40.21:531][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.20-16.40.21:543][  0]LogDerivedDataCache: Using Local data cache path C:/Users/abala/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.20-16.40.21:553][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.20-16.40.21:553][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.20-16.40.21:554][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.20-16.40.21:554][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.20-16.40.21:871][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
+[2018.02.20-16.40.21:886][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.014915 seconds
+[2018.02.20-16.40.21:980][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.20-16.40.22:046][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2018.02.20-16.40.22:205][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.20-16.40.22:247][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.20-16.40.22:302][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.20-16.40.22:302][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.20-16.40.22:302][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.20-16.40.22:769][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
+[2018.02.20-16.40.22:831][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.20-16.40.23:857][  0]LogMoviePlayer: Initializing movie player
+[2018.02.20-16.40.24:203][  0]LogCollectionManager: Loaded 0 collections in 0.001709 seconds
+[2018.02.20-16.40.24:261][  0]LogFileCache: Scanning file cache for directory 'D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
+[2018.02.20-16.40.24:261][  0]LogFileCache: Scanning file cache for directory 'D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Content/Developers/abala/Collections/' took 0.01s
+[2018.02.20-16.40.24:261][  0]LogFileCache: Scanning file cache for directory 'D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Content/Collections/' took 0.01s
+[2018.02.20-16.40.24:261][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.02.20-16.40.24:261][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2018.02.20-16.40.24:445][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.20-16.40.24:489][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.20-16.40.24:930][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.02.20-16.40.24:930][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.02.20-16.40.24:984][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.02.20-16.40.25:269][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.20-16.40.25:828][  0]LogUObjectArray: 37220 objects as part of root set at end of initial load.
+[2018.02.20-16.40.25:828][  0]LogUObjectAllocator: 8398840 out of 0 bytes used by permanent object pool.
+[2018.02.20-16.40.25:828][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.20-16.40.25:925][  0]LogEngine: Initializing Engine...
+[2018.02.20-16.40.25:926][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.20-16.40.26:099][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.20-16.40.26:099][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.20-16.40.26:118][  0]LogInit: XAudio2 using 'VE248-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-16.40.26:145][  0]LogInit: FAudioDevice initialized.
+[2018.02.20-16.40.26:172][  0]LogInit: Texture streaming: Enabled
+[2018.02.20-16.40.26:185][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.20-16.40.26:427][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'NormalText'. Utilizando FTextBlockStyle predeterminado en su lugar.
+[2018.02.20-16.40.26:427][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'SpinBox'. Utilizando FSpinBoxStyle predeterminado en su lugar.
+[2018.02.20-16.40.26:652][  0]LogInit:Display: Game Engine Initialized.
+[2018.02.20-16.40.26:813][  0]LogInit:Display: Starting Game.
+[2018.02.20-16.40.26:813][  0]LogNet: Browse: /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1?Name=Player
+[2018.02.20-16.40.26:813][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1?Name=Player
+[2018.02.20-16.40.26:828][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.20-16.40.26:828][  0]LogMemory: Process Physical Memory: 799.47 MB used, 900.26 MB peak
+[2018.02.20-16.40.26:828][  0]LogMemory: Process Virtual Memory: 900.60 MB used, 953.26 MB peak
+[2018.02.20-16.40.26:828][  0]LogMemory: Physical Memory: 7106.94 MB used,  5139.96 MB free, 12246.90 MB total
+[2018.02.20-16.40.26:828][  0]LogMemory: Virtual Memory: 1601.12 MB used,  5139.96 MB free, 134217728.00 MB total
+[2018.02.20-16.40.26:828][  0]LogMemory: 
+[2018.02.20-16.40.26:828][  0]Allocator Stats for TBB: (not implemented)
+[2018.02.20-16.40.28:196][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
+[2018.02.20-16.40.28:196][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
+[2018.02.20-16.40.28:196][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
+[2018.02.20-16.40.28:196][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
+[2018.02.20-16.40.28:198][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
+[2018.02.20-16.40.28:198][  0]LoadErrors: Información Error al cargar /Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT.transparent_MAT Referenciado por Cylinder_GEN_VARIABLE
+[2018.02.20-16.40.28:198][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
+[2018.02.20-16.40.28:198][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
+[2018.02.20-16.40.28:198][  0]LoadErrors: Información Error al cargar /Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT.transparent_MAT Referenciado por Cylinder_GEN_VARIABLE
+[2018.02.20-16.40.28:199][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
+[2018.02.20-16.40.30:002][  0]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.20-16.40.30:007][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-16.40.30:108][  0]LogWorld: Bringing World /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.20-17.40.30
+[2018.02.20-16.40.30:112][  0]LogWorld: Bringing up level for play took: 0.102909
+[2018.02.20-16.40.30:151][  0]LogEngine: Onscreen warnings/messages are now DISABLED
+[2018.02.20-16.40.30:153][  0]LogLoad: Took 3.340373 seconds to LoadMap(/Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1)
+[2018.02.20-16.40.30:356][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2018.02.20-16.40.30:356][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
+[2018.02.20-16.40.30:356][  0]LogLoad: (Engine Initialization) Total time: 15.57 seconds
+[2018.02.20-16.40.30:356][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.10 seconds
+[2018.02.20-16.40.30:356][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.20-16.40.30:379][  0]LogOcInput: OculusInput pre-init called
+[2018.02.20-16.40.30:379][  0]LogHMD: Starting GearVRController plugin
+[2018.02.20-16.40.30:389][  0]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.02.20-16.40.30:430][  0]LogRenderer: Reallocating scene render targets to support 1920x1020 NumSamples 1 (Frame:3).
+[2018.02.20-16.40.30:489][  2]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:4).
+[2018.02.20-16.40.30:511][  3]LogRenderer: Reallocating scene render targets to support 1920x1020 NumSamples 1 (Frame:4).
+[2018.02.20-16.40.50:946][164]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.40.50:946][164]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.40.50:947][164]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.40.50:947][164]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.40.50:948][164]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.40.50:948][164]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.40.50:949][164]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.40.50:951][164]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.40.50:951][164]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.40.50:951][164]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.40.51:026][169]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.40.51:769][215]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.40.51:769][215]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.40.51:850][220]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.40.54:464][382]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.40.55:916][468]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.40.55:917][468]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.40.55:917][468]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.40.56:110][480]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.40.56:434][500]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.40.56:611][511]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.40.57:175][546]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.40.57:223][549]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.40.57:321][555]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.40.57:465][564]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.40.57:836][587]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.40.58:014][598]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.40.58:030][599]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.40.58:740][643]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.40.58:869][651]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.40.59:450][687]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.41.00:062][725]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.41.00:110][728]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.41.00:288][739]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.41.00:288][739]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.41.00:838][773]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.41.00:983][782]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.41.00:983][782]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.41.01:692][826]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.41.01:692][826]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.41.02:031][847]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.41.02:403][870]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.41.02:403][870]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.41.03:112][914]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.41.03:112][914]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.41.03:660][948]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.41.03:822][958]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.41.04:527][  1]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.41.04:906][ 23]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.41.05:246][ 43]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.41.05:618][ 65]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.41.05:875][ 80]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.41.05:960][ 85]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.41.07:515][179]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.41.07:531][180]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.41.07:838][199]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.41.08:225][223]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.41.09:709][315]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.41.16:757][747]LogBlueprintUserMessages: [antidisturbiosEnemy_C_0] kaka
+[2018.02.20-16.41.21:506][ 41]LogBlueprintUserMessages: [antidisturbiosEnemy_C_0] kaka
+[2018.02.20-16.41.22:734][117]LogBlueprintUserMessages: [antidisturbiosEnemy_C_0] kaka
+[2018.02.20-16.41.24:501][224]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.41.24:953][252]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.41.25:194][267]LogBlueprintUserMessages: [antidisturbiosEnemy_C_0] kaka
+[2018.02.20-16.41.25:598][292]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.41.25:719][297]LogBlueprintUserMessages: [antidisturbiosEnemy_C_0] kaka
+[2018.02.20-16.41.28:205][451]LogBlueprintUserMessages: [antidisturbiosEnemy_C_0] kaka
+[2018.02.20-16.41.29:691][543]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.29:691][543]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.30:564][596]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.30:565][596]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.31:258][639]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.31:967][683]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.32:677][727]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.33:097][753]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.33:097][753]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.33:113][754]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.33:114][754]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.33:387][771]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.34:097][815]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.34:420][835]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.34:420][835]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.34:436][836]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.34:436][836]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.34:807][859]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.35:517][903]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.36:227][947]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.36:937][991]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.37:647][ 35]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.38:357][ 79]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.41.39:470][148]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.42.01:893][519]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.01:894][519]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.01:894][519]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.01:895][519]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.01:895][519]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.01:895][519]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.01:896][519]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.02:391][549]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.02:734][570]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.02:734][570]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.04:151][652]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.04:151][652]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.04:151][652]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.04:151][652]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.04:151][652]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.04:151][652]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.04:152][652]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.04:152][652]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.04:152][652]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.04:520][673]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.04:853][692]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.04:853][692]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.04:853][692]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.05:084][705]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.05:085][705]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.05:085][705]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.05:085][705]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.05:229][713]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.05:427][724]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.05:572][732]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.05:572][732]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.05:787][744]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.05:787][744]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.05:951][753]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.06:293][772]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.06:511][784]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.06:511][784]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.06:819][801]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.07:004][811]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.07:225][823]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.07:225][823]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.07:700][849]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.07:700][849]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.07:939][862]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.07:939][862]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.07:976][864]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.08:143][873]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.08:236][878]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.08:663][901]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.08:663][901]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.08:776][907]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.08:963][917]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.09:169][928]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.09:373][939]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.09:482][945]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.09:835][964]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.10:039][975]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.10:523][  1]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.10:523][  1]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.10:781][ 15]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.11:153][ 35]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.11:227][ 39]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.11:415][ 49]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.42.11:583][ 58]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.42.11:621][ 60]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.11:809][ 70]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.11:945][ 77]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.12:640][114]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.12:659][115]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.13:313][150]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.13:313][150]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.13:370][153]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.13:407][155]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.13:778][175]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.14:075][191]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.14:408][209]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.14:593][219]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.14:798][230]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.14:890][235]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.15:207][252]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.15:376][261]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.15:451][265]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.15:900][289]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.16:108][300]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.16:376][314]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.16:570][324]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.16:708][331]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.17:278][361]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.18:000][400]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.20:006][519]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.20:216][532]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.21:215][594]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.21:618][619]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.21:974][641]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.42.22:184][654]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.42.22:749][689]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.23:176][715]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.25:020][826]LogBlueprintUserMessages: [KeyGates_C_0] Tienes Llave
+[2018.02.20-16.42.26:618][909]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.28:366][989]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.28:366][989]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.28:575][999]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.29:302][ 33]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.29:622][ 48]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.42.30:837][104]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.31:713][150]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.32:411][190]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.33:124][234]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.33:836][278]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.34:415][314]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.42.34:544][322]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.34:851][341]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.42.35:125][358]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.35:512][382]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.42.35:657][391]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.36:626][451]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.42.37:869][528]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.38:143][545]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.42.39:687][640]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.42.39:688][640]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.42.39:688][640]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.42.40:496][685]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.42.43:224][835]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.43.03:379][ 15]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.03:380][ 15]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.03:380][ 15]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.03:381][ 15]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.43.03:381][ 15]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.43.03:382][ 15]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.03:383][ 15]LogBlueprintUserMessages: [agentEnemyN_C_14] kaka
+[2018.02.20-16.43.03:383][ 15]LogBlueprintUserMessages: [agentEnemyN_C_14] kaka
+[2018.02.20-16.43.04:072][ 58]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.43.04:072][ 58]LogBlueprintUserMessages: [agentEnemyN_C_14] kaka
+[2018.02.20-16.43.04:782][102]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.43.05:493][146]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.43.06:493][208]LogBlueprintUserMessages: [agentEnemyN_C_14] kaka
+[2018.02.20-16.43.06:993][239]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.07:445][267]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.43.07:864][293]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.43.07:945][298]LogBlueprintUserMessages: [agentEnemyN_C_14] kaka
+[2018.02.20-16.43.08:412][327]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.08:412][327]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.08:412][327]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.43.08:412][327]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.08:412][327]LogBlueprintUserMessages: [agentEnemyN_C_14] kaka
+[2018.02.20-16.43.08:412][327]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.08:413][327]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.08:413][327]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.08:413][327]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.43.08:462][330]LogBlueprintUserMessages: [agentEnemyN_C_14] kaka
+[2018.02.20-16.43.08:493][332]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.08:607][339]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.43.09:268][380]LogBlueprintUserMessages: [agentEnemyN_C_14] kaka
+[2018.02.20-16.43.09:543][397]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.09:543][397]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.09:639][403]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.43.10:236][440]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.10:462][454]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.10:704][469]LogBlueprintUserMessages: [agentEnemyN_C_14] kaka
+[2018.02.20-16.43.10:897][478]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.10:916][480]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.10:948][482]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.11:239][500]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.11:659][526]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.12:271][564]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.12:288][565]LogBlueprintUserMessages: [agentEnemyN_C_14] kaka
+[2018.02.20-16.43.12:368][570]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.12:675][589]LogBlueprintUserMessages: [agentEnemyN_C_14] kaka
+[2018.02.20-16.43.13:078][614]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.13:094][615]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.13:158][619]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.13:159][619]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.13:788][658]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.13:852][662]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.14:481][701]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.14:481][701]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.14:481][701]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.14:481][701]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.14:498][702]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.14:563][706]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.15:062][737]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.15:176][744]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.15:176][744]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.15:885][788]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.16:143][804]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.16:193][807]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.16:466][824]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.16:515][827]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.16:596][832]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.16:838][847]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.43.16:951][854]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.17:305][876]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.17:419][883]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.43.18:015][920]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.20:258][ 59]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.20:629][ 82]LogAnimMontage:Warning: JumpToSectionName 0 bEndOfSection: 0 failed for Montage beat_crouchToHealMontage
+[2018.02.20-16.43.20:806][ 93]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.22:355][189]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.23:097][235]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.25:066][357]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.26:611][449]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.28:337][556]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.28:837][587]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.29:014][598]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.29:014][598]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.29:256][613]LogBlueprintUserMessages: [agentEnemyN_C_13] kaka
+[2018.02.20-16.43.29:531][630]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.30:241][674]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.30:708][703]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.30:951][718]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.31:402][746]LogAnimMontage:Warning: JumpToSectionName 0 bEndOfSection: 0 failed for Montage beat_crouchToHealMontage
+[2018.02.20-16.43.31:661][762]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.32:370][806]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.33:080][850]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.34:856][960]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.35:581][  5]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.36:276][ 48]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.36:985][ 92]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.37:485][123]LogAnimMontage:Warning: JumpToSectionName 0 bEndOfSection: 0 failed for Montage beat_crouchToHealMontage
+[2018.02.20-16.43.39:471][246]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.43:124][472]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.43:817][515]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.44:528][559]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.44:737][572]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.45:239][603]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.45:448][616]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.43.45:899][644]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.43.45:948][647]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.46:544][682]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.43.46:689][691]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.49:173][845]LogBlueprintUserMessages: [antidisturbiosEnemy_C_2] kaka
+[2018.02.20-16.43.50:774][944]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.43.50:774][944]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.43.53:870][136]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.43.53:871][136]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.43.54:564][179]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.43.55:274][223]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.43.55:565][241]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.43.55:893][257]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.43.56:085][269]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.43.57:876][380]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.43.58:716][432]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.43.58:716][432]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.43.59:411][475]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.00:120][519]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.00:831][563]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.01:541][607]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.02:251][651]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.02:962][695]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.03:041][700]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.03:671][739]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.04:381][783]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.05:091][827]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.05:801][871]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.06:511][915]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.07:221][959]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.07:933][  3]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.08:643][ 47]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.09:046][ 72]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.09:353][ 91]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.10:063][135]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.10:777][178]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.11:487][222]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.11:487][222]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.11:811][242]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.11:940][250]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.13:877][370]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.14:651][418]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.14:877][432]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.15:087][445]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.15:410][465]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.15:667][481]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.15:991][501]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.17:104][570]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.17:104][570]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.18:075][630]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.18:912][682]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.19:235][702]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.19:558][722]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.22:027][875]LogBlueprintUserMessages: [sargentEnemyN_C_2] kaka
+[2018.02.20-16.44.29:766][350]LogBlueprintUserMessages: [agentEnemyN_C_15] kaka
+[2018.02.20-16.44.29:766][350]LogBlueprintUserMessages: [agentEnemyN_C_16] kaka
+[2018.02.20-16.44.29:767][350]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.29:768][350]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.29:768][350]LogBlueprintUserMessages: [agentEnemyN_C_19] kaka
+[2018.02.20-16.44.29:769][350]LogBlueprintUserMessages: [agentEnemyN_C_19] kaka
+[2018.02.20-16.44.30:171][375]LogBlueprintUserMessages: [agentEnemyN_C_16] kaka
+[2018.02.20-16.44.30:603][402]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.30:830][416]LogBlueprintUserMessages: [agentEnemyN_C_19] kaka
+[2018.02.20-16.44.30:990][426]LogBlueprintUserMessages: [agentEnemyN_C_16] kaka
+[2018.02.20-16.44.31:685][469]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.31:701][470]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.31:716][471]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.31:733][472]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.32:379][512]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.32:411][514]LogBlueprintUserMessages: [agentEnemyN_C_19] kaka
+[2018.02.20-16.44.33:088][556]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.33:799][600]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.34:509][644]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.34:880][667]LogBlueprintUserMessages: [agentEnemyN_C_19] kaka
+[2018.02.20-16.44.35:122][682]LogBlueprintUserMessages: [agentEnemyN_C_16] kaka
+[2018.02.20-16.44.35:219][688]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.35:880][729]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.36:041][739]LogBlueprintUserMessages: [agentEnemyN_C_19] kaka
+[2018.02.20-16.44.36:284][754]LogBlueprintUserMessages: [agentEnemyN_C_16] kaka
+[2018.02.20-16.44.36:847][789]LogBlueprintUserMessages: [agentEnemyN_C_19] kaka
+[2018.02.20-16.44.37:719][843]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.37:848][851]LogBlueprintUserMessages: [agentEnemyN_C_17] kaka
+[2018.02.20-16.44.38:251][876]LogBlueprintUserMessages: [agentEnemyN_C_16] kaka
+[2018.02.20-16.44.39:090][928]LogBlueprintUserMessages: [agentEnemyN_C_19] kaka
+[2018.02.20-16.44.39:751][969]LogBlueprintUserMessages: [agentEnemyN_C_16] kaka
+[2018.02.20-16.44.41:061][ 48]LogBlueprintUserMessages: [agentEnemyN_C_19] kaka
+[2018.02.20-16.44.41:480][ 74]LogBlueprintUserMessages: [agentEnemyN_C_16] kaka
+[2018.02.20-16.44.42:287][124]LogBlueprintUserMessages: [agentEnemyN_C_15] kaka
+[2018.02.20-16.44.42:287][124]LogBlueprintUserMessages: [agentEnemyN_C_16] kaka
+[2018.02.20-16.44.42:287][124]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.42:287][124]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.42:287][124]LogBlueprintUserMessages: [agentEnemyN_C_15] kaka
+[2018.02.20-16.44.42:287][124]LogBlueprintUserMessages: [agentEnemyN_C_16] kaka
+[2018.02.20-16.44.42:287][124]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.42:529][139]LogBlueprintUserMessages: [agentEnemyN_C_15] kaka
+[2018.02.20-16.44.42:529][139]LogBlueprintUserMessages: [agentEnemyN_C_15] kaka
+[2018.02.20-16.44.43:190][180]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.43:190][180]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.43:223][182]LogBlueprintUserMessages: [agentEnemyN_C_15] kaka
+[2018.02.20-16.44.43:627][207]LogScript:Warning: Attempted to access agentEnemyN_C_16 via property CallFunc_Array_Get_Item, but agentEnemyN_C_16 is pending kill
+	antidisturbiosEnemy_C /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1.newDistrito1:PersistentLevel.antidisturbiosEnemy_C_3
+	Function /Game/ThirdPersonBP/Blueprints/enemies/antidisturbios/antidisturbiosEnemy.antidisturbiosEnemy_C:ExecuteUbergraph_antidisturbiosEnemy:022E
+[2018.02.20-16.44.43:627][207]LogScript:Warning: Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/enemies/antidisturbios/antidisturbiosEnemy.antidisturbiosEnemy_C:ExecuteUbergraph_antidisturbiosEnemy
+
+[2018.02.20-16.44.43:884][223]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.43:933][226]LogBlueprintUserMessages: [agentEnemyN_C_15] kaka
+[2018.02.20-16.44.44:594][267]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.44:644][270]LogBlueprintUserMessages: [agentEnemyN_C_15] kaka
+[2018.02.20-16.44.44:756][277]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.45:305][311]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.45:789][341]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.46:015][355]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.46:149][361]LogBlueprintUserMessages: [agentEnemyN_C_15] kaka
+[2018.02.20-16.44.46:326][372]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.46:843][404]LogBlueprintUserMessages: [agentEnemyN_C_15] kaka
+[2018.02.20-16.44.47:021][415]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.47:731][459]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.47:972][474]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.48:247][491]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.48:440][503]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.49:150][547]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.49:215][551]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.49:296][556]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.49:586][574]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.49:860][591]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.50:328][620]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.52:489][754]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.52:489][754]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.53:183][797]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.53:877][840]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.54:959][907]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.55:330][930]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.55:838][960]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.56:901][ 25]LogBlueprintUserMessages: [agentEnemyN_C_18] kaka
+[2018.02.20-16.44.56:965][ 29]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.57:659][ 72]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.58:369][116]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.44.59:368][178]LogAnimMontage:Warning: JumpToSectionName 0 bEndOfSection: 0 failed for Montage beat_crouchToHealMontage
+[2018.02.20-16.45.02:434][368]LogAnimMontage:Warning: JumpToSectionName 0 bEndOfSection: 0 failed for Montage beat_crouchToHealMontage
+[2018.02.20-16.45.08:001][713]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.10:035][839]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.10:471][866]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.11:183][909]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.11:505][929]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.11:892][953]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.12:602][997]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.13:313][ 41]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.13:635][ 61]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.14:022][ 85]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.14:555][118]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.45.14:732][129]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.15:006][146]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.45.15:265][162]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.15:668][187]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.45.15:798][195]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.16:685][250]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.45.17:927][327]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.18:282][349]LogBlueprintUserMessages: [antidisturbiosEnemy_C_3] kaka
+[2018.02.20-16.45.19:752][440]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.19:752][440]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.19:752][440]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.20:445][483]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.22:655][620]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.22:865][633]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.23:558][676]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.24:074][708]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.24:219][717]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.24:543][737]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.24:688][746]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.25:704][809]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.26:652][864]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.27:282][903]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.27:491][916]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.27:814][936]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.28:072][952]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.28:394][972]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.29:347][ 31]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.30:444][ 99]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.30:881][126]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.31:204][146]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.31:317][153]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.31:640][173]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.31:881][188]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.32:204][208]LogBlueprintUserMessages: [sargentEnemyN_C_3] kaka
+[2018.02.20-16.45.40:515][723]LogNet: Browse: /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1
+[2018.02.20-16.45.40:515][723]LogLoad: LoadMap: /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1
+[2018.02.20-16.45.40:626][723]LogMemory: Platform Memory Stats for Windows
+[2018.02.20-16.45.40:626][723]LogMemory: Process Physical Memory: 1082.20 MB used, 1561.32 MB peak
+[2018.02.20-16.45.40:626][723]LogMemory: Process Virtual Memory: 1917.56 MB used, 2871.60 MB peak
+[2018.02.20-16.45.40:626][723]LogMemory: Physical Memory: 7148.70 MB used,  5098.21 MB free, 12246.90 MB total
+[2018.02.20-16.45.40:626][723]LogMemory: Virtual Memory: 2876.45 MB used,  5098.21 MB free, 134217728.00 MB total
+[2018.02.20-16.45.40:626][723]LogMemory: 
+[2018.02.20-16.45.40:626][723]Allocator Stats for TBB: (not implemented)
+[2018.02.20-16.45.42:054][723]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
+[2018.02.20-16.45.42:054][723]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
+[2018.02.20-16.45.42:054][723]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
+[2018.02.20-16.45.42:054][723]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
+[2018.02.20-16.45.42:057][723]LogLinker:Warning: No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
+[2018.02.20-16.45.42:057][723]LoadErrors: Información Error al cargar /Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT.transparent_MAT Referenciado por Cylinder_GEN_VARIABLE
+[2018.02.20-16.45.42:057][723]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT'
+[2018.02.20-16.45.42:057][723]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
+[2018.02.20-16.45.42:057][723]LoadErrors: Información Error al cargar /Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT.transparent_MAT Referenciado por Cylinder_GEN_VARIABLE
+[2018.02.20-16.45.42:057][723]LogUObjectGlobals:Warning: Error al cargar '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT': No puede encontrar el archivo para el activo '/Game/ThirdPersonBP/Blueprints/Materials/transparent_MAT' mientras carga NULL.
+[2018.02.20-16.45.43:742][723]LogAIModule: Creating AISystem for world newDistrito1
+[2018.02.20-16.45.43:748][723]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-16.45.43:856][723]LogWorld: Bringing World /Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1.newDistrito1 up for play (max tick rate 0) at 2018.02.20-17.45.43
+[2018.02.20-16.45.43:860][723]LogWorld: Bringing up level for play took: 0.110751
+[2018.02.20-16.45.43:869][723]LogEngine: Onscreen warnings/messages are now DISABLED
+[2018.02.20-16.45.43:872][723]LogLoad: Took 3.357298 seconds to LoadMap(/Temp/Autosaves/Game/ThirdPersonBP/Maps/UEDPCNewDistrito1)
+[2018.02.20-16.45.43:877][724]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.02.20-16.45.43:877][724]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2018.02.20-16.45.43:903][725]LogRenderer: Reallocating scene render targets to support 1920x1020 NumSamples 1 (Frame:1).
+[2018.02.20-16.46.02:200][816]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.46.02:200][816]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.46.02:202][816]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.46.02:203][816]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.46.02:203][816]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.46.02:203][816]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.46.02:205][816]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.46.02:205][816]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.46.02:205][816]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.46.02:425][830]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.46.02:426][830]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.46.02:893][859]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.46.03:022][867]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.46.03:424][892]LogBlueprintUserMessages: [antidisturbiosEnemy_C_0] kaka
+[2018.02.20-16.46.03:537][899]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.46.03:538][899]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.46.03:603][903]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.46.03:942][924]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.46.03:942][924]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.46.04:069][932]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.46.04:232][942]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.46.04:313][947]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.46.04:635][967]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.46.04:941][986]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.46.05:345][ 11]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.46.05:394][ 14]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.46.05:765][ 37]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.46.05:942][ 48]LogBlueprintUserMessages: [antidisturbiosEnemy_C_0] kaka
+[2018.02.20-16.46.06:168][ 62]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.46.06:216][ 65]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.46.06:490][ 82]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.46.06:490][ 82]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.46.06:780][100]LogBlueprintUserMessages: [agentEnemyN_C_0] kaka
+[2018.02.20-16.46.06:780][100]LogBlueprintUserMessages: [agentEnemyN_C_1] kaka
+[2018.02.20-16.46.06:780][100]LogBlueprintUserMessages: [agentEnemyN_C_2] kaka
+[2018.02.20-16.46.06:780][100]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.46.06:780][100]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.46.06:780][100]LogBlueprintUserMessages: [antidisturbiosEnemy_C_0] kaka
+[2018.02.20-16.46.07:877][168]LogBlueprintUserMessages: [agentEnemyN_C_3] kaka
+[2018.02.20-16.46.07:877][168]LogBlueprintUserMessages: [agentEnemyN_C_4] kaka
+[2018.02.20-16.46.08:346][197]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.08:346][197]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.09:475][267]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.09:475][267]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.10:170][310]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.10:428][326]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.10:428][326]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.10:444][327]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.10:444][327]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.10:828][350]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.10:828][350]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.10:885][353]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.11:530][393]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.12:240][437]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.13:063][488]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.13:902][540]LogBlueprintUserMessages: [sargentEnemyN_C_0] kaka
+[2018.02.20-16.46.25:488][258]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.46.25:488][258]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.46.25:489][258]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.46.25:489][258]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.46.25:490][258]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.46.25:713][272]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.46.26:441][316]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.46.26:441][316]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.46.26:441][316]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.46.26:442][316]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.46.26:442][316]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.46.26:442][316]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.46.27:135][359]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.46.27:136][359]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.46.27:136][359]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.46.27:668][392]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.46.27:846][403]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.46.27:846][403]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.46.28:555][447]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.46.28:555][447]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.46.28:668][454]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.46.29:201][487]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.46.29:265][491]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.46.29:700][518]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.46.29:975][535]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.46.30:797][586]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.46.30:829][588]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.46.31:168][609]LogBlueprintUserMessages: [agentEnemyN_C_5] kaka
+[2018.02.20-16.46.31:975][659]LogBlueprintUserMessages: [agentEnemyN_C_7] kaka
+[2018.02.20-16.46.32:766][708]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.46.34:185][796]LogBlueprintUserMessages: [agentEnemyN_C_6] kaka
+[2018.02.20-16.46.34:636][824]LogAnimMontage:Warning: JumpToSectionName 0 bEndOfSection: 0 failed for Montage beat_crouchToHealMontage
+[2018.02.20-16.46.45:526][494]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.45:527][494]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.46.45:527][494]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.45:528][494]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.45:529][494]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.45:529][494]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.46:356][545]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.48:307][666]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.48:356][669]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.48:356][669]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.46.48:356][669]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.48:356][669]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.48:356][669]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.48:356][669]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.46.48:357][669]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.48:357][669]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.46.48:357][669]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.49:050][712]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.49:051][712]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.49:051][712]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.49:051][712]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.49:324][729]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.49:325][729]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.49:744][755]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.49:760][756]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.49:760][756]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.50:018][772]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.50:131][779]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.46.50:131][779]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.46.50:454][799]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.50:470][800]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.50:470][800]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.50:729][816]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.50:825][822]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.46.51:164][843]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.51:181][844]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.51:181][844]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.51:438][860]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.51:535][866]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.46.51:874][887]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.51:890][888]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.51:890][888]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.52:148][904]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.52:245][910]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.46.52:585][931]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.52:600][932]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.52:600][932]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.52:615][933]LogBlueprintUserMessages: [KeyGates_C_0] Tienes Llave
+[2018.02.20-16.46.52:858][948]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.52:955][954]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.46.53:293][975]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.53:309][976]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.53:309][976]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.53:568][992]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.53:664][998]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.46.54:003][ 19]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.54:019][ 20]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.54:019][ 20]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.54:278][ 36]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.54:712][ 63]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.54:729][ 64]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.54:729][ 64]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.54:987][ 80]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.55:422][107]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.55:439][108]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.55:439][108]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.55:697][124]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.56:023][142]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.46.56:135][149]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.56:152][150]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.56:152][150]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.56:409][166]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.56:845][193]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.56:861][194]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.56:861][194]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.57:039][205]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.57:555][237]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.57:571][238]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.57:571][238]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.58:281][282]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.58:281][282]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.58:410][290]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.58:442][292]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.46.58:861][318]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.58:990][326]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.58:990][326]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.46.59:006][327]LogBlueprintUserMessages: [agentEnemyN_C_8] kaka
+[2018.02.20-16.46.59:619][365]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.46.59:700][370]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.46.59:700][370]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.47.00:377][412]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.47.00:377][412]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.47.00:409][414]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.47.00:409][414]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.47.00:410][414]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.47.01:071][455]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.47.01:071][455]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.47.01:781][499]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.47.01:781][499]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.47.01:845][503]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.47.02:168][523]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.47.02:490][543]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.47.03:202][587]LogBlueprintUserMessages: [agentEnemyN_C_9] kaka
+[2018.02.20-16.47.03:202][587]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.47.03:232][589]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.47.03:701][618]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.47.03:813][625]LogBlueprintUserMessages: [agentEnemyN_C_10] kaka
+[2018.02.20-16.47.04:007][637]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.47.04:620][675]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.47.05:765][746]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.47.06:314][780]LogBlueprintUserMessages: [agentEnemyN_C_12] kaka
+[2018.02.20-16.47.06:799][810]LogBlueprintUserMessages: [agentEnemyN_C_11] kaka
+[2018.02.20-16.47.10:525][ 41]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.47.13:008][190]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.47.13:314][209]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.47.14:009][252]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.47.14:719][296]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.47.16:077][380]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.47.16:497][406]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.47.16:561][410]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.47.17:159][447]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.47.17:320][457]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.47.18:192][511]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.02.20-16.47.18:903][555]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.47.19:436][588]LogBlueprintUserMessages: [antidisturbiosEnemy_C_1] kaka
+[2018.02.20-16.47.21:195][697]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.02.20-16.47.21:228][699]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.21:228][699]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.21:985][746]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.22:453][775]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.22:454][775]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.22:679][789]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.23:341][830]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.23:341][830]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.23:357][831]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.23:357][831]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.23:372][832]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.23:373][832]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.23:389][833]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.24:037][873]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.24:746][917]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.25:456][961]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.26:170][  4]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.26:219][  7]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.26:541][ 27]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.26:655][ 34]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.28:526][150]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.29:446][207]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.29:770][227]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.29:913][236]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.30:236][256]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.30:494][272]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.32:139][374]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.32:140][374]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.32:335][386]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.33:885][482]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.34:126][497]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.34:449][517]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.34:707][533]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.36:369][636]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.36:369][636]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.36:530][646]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.38:128][745]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.47.40:323][881]LogBlueprintUserMessages: [sargentEnemyN_C_1] kaka
+[2018.02.20-16.48.23:539][545]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:9823).
+[2018.02.20-16.48.23:555][546]LogRenderer: Reallocating scene render targets to support 1920x1020 NumSamples 1 (Frame:9823).
+[2018.02.20-16.49.21:759][144]LogAnimMontage:Warning: JumpToSectionName 0 bEndOfSection: 0 failed for Montage beat_crouchToHealMontage
+[2018.02.20-16.49.33:084][843]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:14121).
+[2018.02.20-16.49.33:102][844]LogRenderer: Reallocating scene render targets to support 1920x1020 NumSamples 1 (Frame:14121).
+[2018.02.20-16.55.20:788][334]LogEngine: All Windows Closed
+[2018.02.20-16.55.20:788][334]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.02.20-16.55.21:209][335]LogExit: Preparing to exit.
+[2018.02.20-16.55.21:209][335]LogMoviePlayer: Shutting down movie player
+[2018.02.20-16.55.21:890][335]LogExit: Game engine shut down
+[2018.02.20-16.55.21:988][335]LogObj: Freed 0b from 0 cluster array pools.
+[2018.02.20-16.55.21:988][335]LogExit: Object subsystem successfully closed.
+[2018.02.20-16.55.22:006][335]LogD3D11RHI: Shutdown
+[2018.02.20-16.55.22:006][335]LogD3D11RHI: CleanupD3DDevice
+[2018.02.20-16.55.22:131][335]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (296)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module SequenceRecorder (294)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module AutomationController (292)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module AutomationWorker (290)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module AIModule (288)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module GameplayDebugger (287)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module AITestSuite (285)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (282)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (280)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (278)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module Media (277)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module CharacterAI (274)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module SessionServices (272)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (270)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (268)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module MovieScene (266)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module GeometryCache (264)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (263)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module Niagara (260)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module NiagaraEditor (259)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (256)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module PortalServices (254)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module PortalRpc (252)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module MessagingRpc (250)
+[2018.02.20-16.55.22:138][335]LogModuleManager: Shutting down and abandoning module ProfilerService (248)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module TaskGraph (246)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module SteamVRController (244)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module SteamVR (242)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (240)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module OculusLibrary (238)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module OculusInput (236)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (234)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (232)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module CableComponent (230)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (228)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module AndroidPermission (226)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module HTML5Networking (222)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (220)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module DesktopPlatform (219)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module HotReload (217)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module UObjectPlugin (214)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (212)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (210)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module SourceControl (209)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (206)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module PhysXVehicles (204)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (202)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (200)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (198)
+[2018.02.20-16.55.22:152][335]LogModuleManager: Shutting down and abandoning module UdpMessaging (196)
+[2018.02.20-16.55.22:254][335]LogModuleManager: Shutting down and abandoning module TcpMessaging (194)
+[2018.02.20-16.55.22:354][335]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (192)
+[2018.02.20-16.55.22:354][335]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
+[2018.02.20-16.55.22:354][335]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (188)
+[2018.02.20-16.55.22:354][335]LogModuleManager: Shutting down and abandoning module GraphEditor (187)
+[2018.02.20-16.55.22:354][335]LogModuleManager: Shutting down and abandoning module ContentBrowser (185)
+[2018.02.20-16.55.22:354][335]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2018.02.20-16.55.22:354][335]LogDirectoryWatcher: A directory notification for 'D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Content/Collections/' was aborted.
+[2018.02.20-16.55.22:354][335]LogDirectoryWatcher: A directory notification for 'D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Content/Developers/abala/Collections/' was aborted.
+[2018.02.20-16.55.22:354][335]LogDirectoryWatcher: A directory notification for 'D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Saved/Collections/' was aborted.
+[2018.02.20-16.55.22:354][335]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (183)
+[2018.02.20-16.55.22:354][335]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (178)
+[2018.02.20-16.55.22:354][335]LogModuleManager: Shutting down and abandoning module Paper2D (176)
+[2018.02.20-16.55.22:354][335]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (174)
+[2018.02.20-16.55.22:354][335]LogModuleManager: Shutting down and abandoning module WmfMedia (172)
+[2018.02.20-16.55.22:355][335]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (170)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (168)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module MediaAssets (166)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (164)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module VREditor (162)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module StringTableEditor (160)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (158)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (156)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module FunctionalTesting (154)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (152)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module UMG (150)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module UMGEditor (149)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module Sequencer (148)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module AssetTools (146)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module MessageLog (145)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (144)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module Slate (136)
+[2018.02.20-16.55.22:356][335]LogModuleManager: Shutting down and abandoning module EditorStyle (134)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module Messaging (132)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (130)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module Networking (124)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module Core (120)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module KismetCompiler (118)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module LevelSequence (116)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module PhysXFormats (114)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module MeshUtilities (112)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (111)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (109)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (107)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module AssetRegistry (104)
+[2018.02.20-16.55.22:358][335]LogModuleManager: Shutting down and abandoning module DerivedDataCache (102)
+[2018.02.20-16.55.22:453][335]LogDerivedDataCache: Shutdown
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module TargetPlatform (100)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (99)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (97)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (95)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (93)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (91)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (89)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (87)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (85)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (83)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (81)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module ImageWrapper (80)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (77)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (75)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (73)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (71)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.20-16.55.22:453][335]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.20-16.55.22:453][335]LogOnline:Display: Unloading online subsystem: NULL
+[2018.02.20-16.55.22:454][335]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.20-16.55.22:454][335]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.20-16.55.22:486][335]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.20-16.55.22:488][335]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.20-16.55.22:528][335]LogExit: Exiting.
+[2018.02.20-16.55.22:529][335]Log file closed, 02/20/18 17:55:22
