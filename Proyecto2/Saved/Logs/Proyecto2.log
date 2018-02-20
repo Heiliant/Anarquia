@@ -1237,3 +1237,975 @@ LogInit: Object subsystem initialized
 [2018.02.20-17.00.51:295][787]Cmd: MAP CHECKDEP NOCLEARLOG
 [2018.02.20-17.00.51:444][787]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 149.295ms to complete.
 [2018.02.20-17.00.51:447][787]LogFileHelpers: Loading map 'NewTutorial' took 0.449
+[2018.02.20-17.01.42:877][907]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.20-17.01.43:364][937]LogEditorViewport: Clicking on Actor (LMB): Edificio5_BP_C (Edificio5_BP)
+[2018.02.20-17.01.44:104][ 15]LogEditorViewport: Clicking on Actor (CTRL LMB): Edificio2_BP_C (Edificio2_BP)
+[2018.02.20-17.01.44:824][ 93]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio3)
+[2018.02.20-17.01.45:408][154]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_pobre_delgado_texturizado)
+[2018.02.20-17.01.46:198][243]LogEditorViewport: Clicking on Actor (LMB): Edificio2_BP_C (Edificio2_BP)
+[2018.02.20-17.02.12:030][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio3)
+[2018.02.20-17.02.13:778][178]LogEditorViewport: Clicking on Actor (LMB): Edificio5_BP_C (Edificio5_BP)
+[2018.02.20-17.02.23:753][196]LogEditorViewport: Clicking on Actor (LMB): Edificio5_BP_C (Edificio5_BP)
+[2018.02.20-17.06.22:947][166]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.06.22:975][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.06.22:976][166]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:06:22 PM)
+[2018.02.20-17.06.22:976][166]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.06.22:988][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011460s)
+[2018.02.20-17.06.22:988][166]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.06.22:989][166]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2018.02.20-17.06.22:989][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.012818s)
+[2018.02.20-17.06.23:019][166]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.06.23:028][166]LogInit: FAudioDevice initialized.
+[2018.02.20-17.06.23:061][166]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.06.23:067][166]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.06.23
+[2018.02.20-17.06.23:067][166]LogWorld: Bringing up level for play took: 0.004759
+[2018.02.20-17.06.23:074][166]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.422
+[2018.02.20-17.07.13:391][948]LogEditorViewport: Clicking on Actor (LMB): Edificio5_BP_C (Edificio5_BP3)
+[2018.02.20-17.07.14:300][ 47]Cmd: DELETE
+[2018.02.20-17.07.14:300][ 47]Cmd: ACTOR DELETE
+[2018.02.20-17.07.14:300][ 47]LogEditorActor: Deleted Actor: Edificio5_BP_C
+[2018.02.20-17.07.14:313][ 47]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.02.20-17.07.14:694][ 91]LogEditorViewport: Clicking on Actor (LMB): Edificio5_BP_C (Edificio5_BP2)
+[2018.02.20-17.07.14:765][ 93]Cmd: DELETE
+[2018.02.20-17.07.14:765][ 93]Cmd: ACTOR DELETE
+[2018.02.20-17.07.14:766][ 93]LogEditorActor: Deleted Actor: Edificio5_BP_C
+[2018.02.20-17.07.14:777][ 93]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.20-17.07.15:104][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado)
+[2018.02.20-17.07.15:183][132]Cmd: DELETE
+[2018.02.20-17.07.15:183][132]Cmd: ACTOR DELETE
+[2018.02.20-17.07.15:183][132]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.20-17.07.15:195][132]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.20-17.07.15:483][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio3)
+[2018.02.20-17.07.15:685][180]Cmd: DELETE
+[2018.02.20-17.07.15:685][180]Cmd: ACTOR DELETE
+[2018.02.20-17.07.15:686][180]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.20-17.07.15:697][180]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.20-17.07.15:958][210]LogEditorViewport: Clicking on Actor (LMB): Edificio2_BP_C (Edificio2_BP)
+[2018.02.20-17.07.16:282][242]Cmd: DELETE
+[2018.02.20-17.07.16:282][242]Cmd: ACTOR DELETE
+[2018.02.20-17.07.16:282][242]LogEditorActor: Deleted Actor: Edificio2_BP_C
+[2018.02.20-17.07.16:294][242]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.20-17.07.16:580][275]LogEditorViewport: Clicking on Actor (LMB): Edificio5_BP_C (Edificio5_BP)
+[2018.02.20-17.07.16:733][287]Cmd: DELETE
+[2018.02.20-17.07.16:733][287]Cmd: ACTOR DELETE
+[2018.02.20-17.07.16:734][287]LogEditorActor: Deleted Actor: Edificio5_BP_C
+[2018.02.20-17.07.16:746][287]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.20-17.07.24:213][799]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.02.20-17.07.25:049][876]Cmd: DELETE
+[2018.02.20-17.07.25:049][876]Cmd: ACTOR DELETE
+[2018.02.20-17.07.25:049][876]LogEditorActor: Deleted Actor: PointLight
+[2018.02.20-17.07.25:061][876]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.20-17.07.27:010][106]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.07.27:038][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.07.27:038][106]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:07:27 PM)
+[2018.02.20-17.07.27:039][106]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.07.27:053][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014054s)
+[2018.02.20-17.07.27:054][106]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.07.27:054][106]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2018.02.20-17.07.27:054][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.015306s)
+[2018.02.20-17.07.27:077][106]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.07.27:086][106]LogInit: FAudioDevice initialized.
+[2018.02.20-17.07.27:122][106]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.07.27:127][106]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.07.27
+[2018.02.20-17.07.27:128][106]LogWorld: Bringing up level for play took: 0.003614
+[2018.02.20-17.07.27:132][106]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.481
+[2018.02.20-17.07.36:126][154]LogActorFactory: Actor Factory created Cube
+[2018.02.20-17.07.36:612][197]LogActorFactory: Actor Factory created Cube
+[2018.02.20-17.08.22:293][694]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.02.20-17.08.28:020][361]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.20-17.08.29:116][484]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.20-17.08.31:555][685]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.20-17.08.32:403][774]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.20-17.08.34:900][976]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.20-17.08.35:572][ 52]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.20-17.08.37:150][234]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.08.37:177][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.08.37:178][234]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:08:37 PM)
+[2018.02.20-17.08.37:178][234]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.08.37:189][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010510s)
+[2018.02.20-17.08.37:189][234]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.08.37:190][234]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2018.02.20-17.08.37:190][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.011570s)
+[2018.02.20-17.08.37:219][234]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.08.37:230][234]LogInit: FAudioDevice initialized.
+[2018.02.20-17.08.37:263][234]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.08.37:268][234]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.08.37
+[2018.02.20-17.08.37:268][234]LogWorld: Bringing up level for play took: 0.004065
+[2018.02.20-17.08.37:273][234]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.622
+[2018.02.20-17.09.22:251][490]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.20-17.09.27:401][958]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.02.20-17.09.28:994][138]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.20-17.09.30:894][296]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.20-17.09.31:379][349]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.20-17.09.42:711][567]LogActorFactory: Actor Factory created Cube
+[2018.02.20-17.09.43:559][638]LogActorFactory: Actor Factory created Cube
+[2018.02.20-17.09.55:533][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.20-17.09.56:280][934]Cmd: DELETE
+[2018.02.20-17.09.56:280][934]Cmd: ACTOR DELETE
+[2018.02.20-17.09.56:281][934]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.20-17.09.56:293][934]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.02.20-17.09.58:035][130]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.20-17.10.11:693][561]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.10.11:720][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.10.11:721][561]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:10:11 PM)
+[2018.02.20-17.10.11:721][561]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.10.11:732][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010591s)
+[2018.02.20-17.10.11:733][561]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.10.11:733][561]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2018.02.20-17.10.11:733][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.011951s)
+[2018.02.20-17.10.11:758][561]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.10.11:767][561]LogInit: FAudioDevice initialized.
+[2018.02.20-17.10.11:804][561]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.10.11:809][561]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.10.11
+[2018.02.20-17.10.11:810][561]LogWorld: Bringing up level for play took: 0.003691
+[2018.02.20-17.10.11:815][561]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.837
+[2018.02.20-17.10.22:128][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.20-17.10.38:978][637]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.10.39:005][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.10.39:005][637]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:10:39 PM)
+[2018.02.20-17.10.39:006][637]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.10.39:019][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012729s)
+[2018.02.20-17.10.39:019][637]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.10.39:020][637]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2018.02.20-17.10.39:020][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.014011s)
+[2018.02.20-17.10.39:043][637]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.10.39:052][637]LogInit: FAudioDevice initialized.
+[2018.02.20-17.10.39:087][637]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.10.39:092][637]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.10.39
+[2018.02.20-17.10.39:092][637]LogWorld: Bringing up level for play took: 0.003882
+[2018.02.20-17.10.39:097][637]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.446
+[2018.02.20-17.10.50:808][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.20-17.11.17:430][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.02.20-17.11.20:949][ 12]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube5)
+[2018.02.20-17.11.22:509][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.02.20-17.11.25:545][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.02.20-17.11.28:803][751]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.11.28:830][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.11.28:830][751]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:11:28 PM)
+[2018.02.20-17.11.28:831][751]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.11.28:841][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010340s)
+[2018.02.20-17.11.28:842][751]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.11.28:842][751]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2018.02.20-17.11.28:842][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.011529s)
+[2018.02.20-17.11.28:869][751]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.11.28:879][751]LogInit: FAudioDevice initialized.
+[2018.02.20-17.11.28:911][751]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.11.28:916][751]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.11.28
+[2018.02.20-17.11.28:917][751]LogWorld: Bringing up level for play took: 0.003871
+[2018.02.20-17.11.28:921][751]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.27
+[2018.02.20-17.12.50:149][974]LogSavePackage: Save=243.07ms
+[2018.02.20-17.12.50:149][974]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto33904FCFA4BBFE8845C118F940CD09583.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto3.umap'
+[2018.02.20-17.12.50:152][974]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto3.umap
+[2018.02.20-17.12.50:158][974]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.309
+[2018.02.20-17.12.50:158][974]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.309
+[2018.02.20-17.13.49:849][154]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.13.49:898][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.13.49:898][154]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:13:49 PM)
+[2018.02.20-17.13.49:899][154]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.13.49:911][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012034s)
+[2018.02.20-17.13.49:911][154]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.13.49:911][154]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2018.02.20-17.13.49:912][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.013165s)
+[2018.02.20-17.13.49:935][154]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.13.49:945][154]LogInit: FAudioDevice initialized.
+[2018.02.20-17.13.49:977][154]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.13.49:982][154]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.13.49
+[2018.02.20-17.13.49:982][154]LogWorld: Bringing up level for play took: 0.003851
+[2018.02.20-17.13.49:987][154]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.665
+[2018.02.20-17.14.33:639][ 81]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.20-17.14.33:977][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.20-17.14.35:066][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2018.02.20-17.14.50:255][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.20-17.14.54:534][ 65]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.20-17.14.54:997][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.20-17.15.09:713][524]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.20-17.15.18:159][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.20-17.15.18:735][395]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2018.02.20-17.15.19:910][513]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2018.02.20-17.15.20:818][608]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2018.02.20-17.15.21:637][694]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube5)
+[2018.02.20-17.15.22:188][750]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube6)
+[2018.02.20-17.15.22:881][822]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube7)
+[2018.02.20-17.15.23:285][860]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube8)
+[2018.02.20-17.15.37:732][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2018.02.20-17.15.49:673][634]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.02.20-17.16.07:341][545]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.02.20-17.16.15:191][443]Cmd: DELETE
+[2018.02.20-17.16.15:191][443]Cmd: ACTOR DELETE
+[2018.02.20-17.16.15:192][443]LogEditorActor: Deleted Actor: Brush
+[2018.02.20-17.16.15:207][443]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.02.20-17.16.17:752][712]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.02.20-17.16.31:793][288]LogEditorViewport: Clicking on Actor (LMB): Brush (Curved Stair Brush)
+[2018.02.20-17.19.11:119][ 61]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.19.11:146][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.19.11:146][ 61]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:19:11 PM)
+[2018.02.20-17.19.11:146][ 61]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.19.11:164][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017202s)
+[2018.02.20-17.19.11:164][ 61]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.19.11:164][ 61]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2018.02.20-17.19.11:165][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.018393s)
+[2018.02.20-17.19.11:192][ 61]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.19.11:201][ 61]LogInit: FAudioDevice initialized.
+[2018.02.20-17.19.11:237][ 61]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.19.11:242][ 61]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.19.11
+[2018.02.20-17.19.11:242][ 61]LogWorld: Bringing up level for play took: 0.004029
+[2018.02.20-17.19.11:247][ 61]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.595
+[2018.02.20-17.19.36:981][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.20-17.19.42:010][609]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.19.42:038][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.19.42:038][609]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:19:42 PM)
+[2018.02.20-17.19.42:038][609]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.19.42:054][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016020s)
+[2018.02.20-17.19.42:055][609]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.19.42:055][609]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2018.02.20-17.19.42:055][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.016915s)
+[2018.02.20-17.19.42:078][609]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.19.42:089][609]LogInit: FAudioDevice initialized.
+[2018.02.20-17.19.42:122][609]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.19.42:127][609]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.19.42
+[2018.02.20-17.19.42:127][609]LogWorld: Bringing up level for play took: 0.003976
+[2018.02.20-17.19.42:132][609]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.52
+[2018.02.20-17.24.00:249][603]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2018.02.20-17.24.03:070][784]LogRenderer: Reallocating scene render targets to support 1144x924 NumSamples 1 (Frame:1).
+[2018.02.20-17.24.04:852][990]LogSlate: Took 0.022698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.20-17.24.50:080][318]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.20-17.25.17:175][484]BlueprintLog: New page: Compile Plataformas
+[2018.02.20-17.25.18:358][565]LogSavePackage: Save=20.51ms
+[2018.02.20-17.25.18:358][565]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/PlataformasB2A4A4F54FCD17C86EDDAA84BA088C75.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas.uasset'
+[2018.02.20-17.25.18:364][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas.uasset
+[2018.02.20-17.25.27:626][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.20-17.25.28:913][672]Cmd: DELETE
+[2018.02.20-17.25.28:913][672]Cmd: ACTOR DELETE
+[2018.02.20-17.25.28:914][672]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.20-17.25.28:934][672]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.02.20-17.25.29:674][760]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas)
+[2018.02.20-17.25.40:317][985]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas)
+[2018.02.20-17.25.40:704][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.02.20-17.25.41:188][ 51]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2018.02.20-17.25.41:561][ 88]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube5)
+[2018.02.20-17.25.41:942][126]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube6)
+[2018.02.20-17.25.43:108][255]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube7)
+[2018.02.20-17.25.43:840][335]Cmd: DELETE
+[2018.02.20-17.25.43:840][335]Cmd: ACTOR DELETE
+[2018.02.20-17.25.43:841][335]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.20-17.25.43:841][335]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.20-17.25.43:842][335]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.20-17.25.43:842][335]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.20-17.25.43:842][335]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.20-17.25.43:860][335]LogEditorActor: Deleted 5 Actors (0.020 secs)
+[2018.02.20-17.25.44:901][459]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas)
+[2018.02.20-17.26.18:268][120]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas6)
+[2018.02.20-17.26.24:010][771]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.26.24:046][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.26.24:046][771]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:26:24 PM)
+[2018.02.20-17.26.24:047][771]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.26.24:064][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017215s)
+[2018.02.20-17.26.24:065][771]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.26.24:065][771]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2018.02.20-17.26.24:065][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.018490s)
+[2018.02.20-17.26.24:098][771]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.26.24:109][771]LogInit: FAudioDevice initialized.
+[2018.02.20-17.26.24:139][771]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.26.24:145][771]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.26.24
+[2018.02.20-17.26.24:145][771]LogWorld: Bringing up level for play took: 0.004197
+[2018.02.20-17.26.24:150][771]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.502
+[2018.02.20-17.26.56:835][640]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.26.56:879][640]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.26.56:879][640]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:26:56 PM)
+[2018.02.20-17.26.56:880][640]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.26.56:906][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026212s)
+[2018.02.20-17.26.56:907][640]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.26.56:907][640]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2018.02.20-17.26.56:907][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.027405s)
+[2018.02.20-17.26.56:942][640]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.26.56:951][640]LogInit: FAudioDevice initialized.
+[2018.02.20-17.26.56:986][640]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.26.56:992][640]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.26.56
+[2018.02.20-17.26.56:992][640]LogWorld: Bringing up level for play took: 0.004147
+[2018.02.20-17.26.56:996][640]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.345
+[2018.02.20-17.27.40:943][ 35]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2018.02.20-17.27.41:304][ 35]LogSavePackage: Save=405.67ms
+[2018.02.20-17.27.41:304][ 35]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto4A2EAC7504C0629D959CEB3B450F81793.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto4.umap'
+[2018.02.20-17.27.41:308][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto4.umap
+[2018.02.20-17.27.41:311][ 35]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.478
+[2018.02.20-17.27.41:311][ 35]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.478
+[2018.02.20-17.28.14:565][227]LogSlate: Took 0.022527 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.20-17.35.17:326][635]BlueprintLog: New page: Compile Plataformas
+[2018.02.20-17.35.22:143][ 58]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.35.22:170][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.35.22:171][ 58]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:35:22 PM)
+[2018.02.20-17.35.22:171][ 58]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.35.22:191][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019795s)
+[2018.02.20-17.35.22:192][ 58]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.35.22:192][ 58]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2018.02.20-17.35.22:192][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.020806s)
+[2018.02.20-17.35.22:222][ 58]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.35.22:233][ 58]LogInit: FAudioDevice initialized.
+[2018.02.20-17.35.22:266][ 58]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.35.22:271][ 58]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.35.22
+[2018.02.20-17.35.22:272][ 58]LogWorld: Bringing up level for play took: 0.004056
+[2018.02.20-17.35.22:276][ 58]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.375
+[2018.02.20-17.36.00:200][794]BlueprintLog: New page: Compile Plataformas
+[2018.02.20-17.37.46:371][899]LogEditorTransaction: Undo Create Pin Link
+[2018.02.20-17.37.47:150][992]LogEditorTransaction: Undo Delete current selection
+[2018.02.20-17.38.46:278][410]LogSavePackage: Save=359.76ms
+[2018.02.20-17.38.46:278][410]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto5DF8F6E0C448004B1BE06A3965A4512A3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto5.umap'
+[2018.02.20-17.38.46:282][410]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto5.umap
+[2018.02.20-17.38.46:285][410]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.422
+[2018.02.20-17.38.46:285][410]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.422
+[2018.02.20-17.38.46:287][410]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas] ([1] browsable assets)...
+[2018.02.20-17.38.46:302][410]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas.Plataformas]
+[2018.02.20-17.38.46:302][410]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas]
+[2018.02.20-17.38.46:359][410]LogSavePackage: Save=35.62ms
+[2018.02.20-17.38.46:359][410]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Plataformas_Auto568A0342C40B8139215EBEA9A67228017.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas_Auto5.uasset'
+[2018.02.20-17.38.46:363][410]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas_Auto5.uasset
+[2018.02.20-17.38.46:363][410]LogFileHelpers: Auto-saving content packages took 0.077
+[2018.02.20-17.40.04:309][673]BlueprintLog: New page: Compile Plataformas
+[2018.02.20-17.40.07:080][859]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.40.07:106][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.40.07:107][859]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:40:07 PM)
+[2018.02.20-17.40.07:107][859]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.40.07:124][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017260s)
+[2018.02.20-17.40.07:125][859]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.40.07:125][859]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2018.02.20-17.40.07:126][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.018504s)
+[2018.02.20-17.40.07:158][859]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.40.07:167][859]LogInit: FAudioDevice initialized.
+[2018.02.20-17.40.07:198][859]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.40.07:204][859]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.40.07
+[2018.02.20-17.40.07:204][859]LogWorld: Bringing up level for play took: 0.004166
+[2018.02.20-17.40.07:209][859]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.557
+[2018.02.20-17.40.17:968][134]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas)
+[2018.02.20-17.40.18:630][207]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas)
+[2018.02.20-17.40.19:306][284]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.20-17.40.21:762][546]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas)
+[2018.02.20-17.40.22:683][625]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas2)
+[2018.02.20-17.40.23:145][675]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas3)
+[2018.02.20-17.40.23:627][727]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas4)
+[2018.02.20-17.40.24:108][779]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas5)
+[2018.02.20-17.40.42:188][920]BlueprintLog: New page: Compile Plataformas
+[2018.02.20-17.40.43:505][ 23]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.40.43:533][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.40.43:533][ 23]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:40:43 PM)
+[2018.02.20-17.40.43:534][ 23]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.40.43:550][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016577s)
+[2018.02.20-17.40.43:551][ 23]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.40.43:551][ 23]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2018.02.20-17.40.43:551][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.017520s)
+[2018.02.20-17.40.43:582][ 23]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.40.43:590][ 23]LogInit: FAudioDevice initialized.
+[2018.02.20-17.40.43:626][ 23]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.40.43:632][ 23]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.40.43
+[2018.02.20-17.40.43:632][ 23]LogWorld: Bringing up level for play took: 0.004170
+[2018.02.20-17.40.43:636][ 23]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.985
+[2018.02.20-17.41.40:716][377]BlueprintLog: New page: Compile Plataformas
+[2018.02.20-17.41.42:495][545]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.41.42:523][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.41.42:523][545]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:41:42 PM)
+[2018.02.20-17.41.42:523][545]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.41.42:546][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022190s)
+[2018.02.20-17.41.42:546][545]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.41.42:546][545]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2018.02.20-17.41.42:547][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.023307s)
+[2018.02.20-17.41.42:586][545]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.41.42:595][545]LogInit: FAudioDevice initialized.
+[2018.02.20-17.41.42:629][545]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.41.42:636][545]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.41.42
+[2018.02.20-17.41.42:636][545]LogWorld: Bringing up level for play took: 0.005080
+[2018.02.20-17.41.42:641][545]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.01
+[2018.02.20-17.41.57:232][262]BlueprintLog: New page: Compile Plataformas
+[2018.02.20-17.41.58:906][428]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.41.58:932][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.41.58:933][428]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:41:58 PM)
+[2018.02.20-17.41.58:933][428]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.41.58:950][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016582s)
+[2018.02.20-17.41.58:950][428]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.41.58:950][428]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2018.02.20-17.41.58:951][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.017518s)
+[2018.02.20-17.41.58:982][428]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.41.58:990][428]LogInit: FAudioDevice initialized.
+[2018.02.20-17.41.59:023][428]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.41.59:029][428]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.41.59
+[2018.02.20-17.41.59:029][428]LogWorld: Bringing up level for play took: 0.003987
+[2018.02.20-17.41.59:033][428]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.382
+[2018.02.20-17.43.00:149][366]BlueprintLog: New page: Compile Plataformas
+[2018.02.20-17.43.12:419][661]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube8)
+[2018.02.20-17.43.13:366][740]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.02.20-17.43.14:085][819]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.02.20-17.43.50:392][ 30]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas6)
+[2018.02.20-17.43.50:987][ 72]LogEditorViewport: Clicking on Actor (CTRL LMB): Plataformas_C (Plataformas5)
+[2018.02.20-17.43.51:426][119]LogEditorViewport: Clicking on Actor (CTRL LMB): Plataformas_C (Plataformas4)
+[2018.02.20-17.43.53:319][326]Cmd: TRANSACTION UNDO
+[2018.02.20-17.43.53:319][326]LogEditorTransaction: Undo Move Actors
+[2018.02.20-17.43.55:085][526]LogEditorViewport: Clicking on Actor (CTRL LMB): Plataformas_C (Plataformas3)
+[2018.02.20-17.43.55:595][581]LogEditorViewport: Clicking on Actor (CTRL LMB): Plataformas_C (Plataformas2)
+[2018.02.20-17.43.55:969][620]LogEditorViewport: Clicking on Actor (CTRL LMB): Plataformas_C (Plataformas)
+[2018.02.20-17.44.02:743][393]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas)
+[2018.02.20-17.44.03:152][436]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas)
+[2018.02.20-17.44.04:023][536]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas6)
+[2018.02.20-17.44.56:180][611]BlueprintLog: New page: Compile NewTutorial
+[2018.02.20-17.44.56:184][611]LogBlueprint:Error: [Compiler PersistentLevel.NewTutorial] Error The type of  Object  is undetermined.  Connect something to  Cast To Plataformas  to imply a specific type.
+[2018.02.20-17.44.56:184][611]LogBlueprint:Error: [Compiler PersistentLevel.NewTutorial] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2018.02.20-17.44.56:494][611]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To Plataformas  to imply a specific type.
+[2018.02.20-17.44.56:494][611]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2018.02.20-17.44.56:494][611]LogBlueprint:Warning: [Compiler PersistentLevel.NewTutorial] Warning [8347.56] Compile of PersistentLevel.NewTutorial failed. 2 Fatal Issue(s) 0 Warning(s) [in 313 ms] (/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial)
+[2018.02.20-17.45.00:386][ 69]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas6)
+[2018.02.20-17.45.05:370][643]BlueprintLog: New page: Compile NewTutorial
+[2018.02.20-17.45.05:520][643]BlueprintEditorCompileResults: Info 'Plataformas6' is already a 'Plataformas', you don't need  Cast To Plataformas .
+[2018.02.20-17.45.15:341][814]BlueprintLog: New page: Compile NewTutorial
+[2018.02.20-17.45.38:145][487]BlueprintLog: New page: Compile NewTutorial
+[2018.02.20-17.45.45:265][319]BlueprintLog: New page: Compile NewTutorial
+[2018.02.20-17.45.47:009][496]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.45.47:087][496]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.45.47:087][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.45.47:088][496]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:45:47 PM)
+[2018.02.20-17.45.47:089][496]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.45.47:115][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026031s)
+[2018.02.20-17.45.47:115][496]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.45.47:116][496]LogPlayLevel: PIE: World Init took: (0.001059s)
+[2018.02.20-17.45.47:116][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.027447s)
+[2018.02.20-17.45.47:154][496]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.45.47:165][496]LogInit: FAudioDevice initialized.
+[2018.02.20-17.45.47:196][496]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.45.47:202][496]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.45.47
+[2018.02.20-17.45.47:202][496]LogWorld: Bringing up level for play took: 0.004240
+[2018.02.20-17.45.47:207][496]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.555
+[2018.02.20-17.45.47:207][496]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.46.03:223][415]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.46.03:279][415]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.46.06:385][728]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.02.20-17.47.27:343][ 39]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas6)
+[2018.02.20-17.47.28:565][173]LogEditorViewport: Clicking on Actor (context menu): Plataformas_C (Plataformas3)
+[2018.02.20-17.47.31:720][473]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas)
+[2018.02.20-17.47.33:808][681]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas6)
+[2018.02.20-17.47.35:050][781]LogEditorViewport: Clicking on Actor (LMB): Plataformas_C (Plataformas)
+[2018.02.20-17.47.35:683][811]LogEditorViewport: Clicking on Actor (CTRL LMB): Plataformas_C (Plataformas2)
+[2018.02.20-17.47.36:073][850]LogEditorViewport: Clicking on Actor (CTRL LMB): Plataformas_C (Plataformas3)
+[2018.02.20-17.47.36:422][886]LogEditorViewport: Clicking on Actor (CTRL LMB): Plataformas_C (Plataformas4)
+[2018.02.20-17.47.36:773][922]LogEditorViewport: Clicking on Actor (CTRL LMB): Plataformas_C (Plataformas5)
+[2018.02.20-17.49.08:421][734]BlueprintLog: New page: Compile NewTutorial
+[2018.02.20-17.49.10:923][  2]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.49.10:956][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.49.10:956][  2]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.20-17.49.10:956][  2]LogPlayLevel: [PlayLevel] Compiling Plataformas before play...
+[2018.02.20-17.49.11:177][  2]LogPlayLevel: PlayLevel: Blueprint regeneration took 221 ms (1 blueprints)
+[2018.02.20-17.49.11:178][  2]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:49:11 PM)
+[2018.02.20-17.49.11:178][  2]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.49.11:197][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019137s)
+[2018.02.20-17.49.11:198][  2]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.49.11:198][  2]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2018.02.20-17.49.11:199][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.020303s)
+[2018.02.20-17.49.11:227][  2]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.49.11:237][  2]LogInit: FAudioDevice initialized.
+[2018.02.20-17.49.11:267][  2]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.49.11:273][  2]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.49.11
+[2018.02.20-17.49.11:273][  2]LogWorld: Bringing up level for play took: 0.004616
+[2018.02.20-17.49.11:278][  2]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.627
+[2018.02.20-17.49.11:278][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.49.26:729][837]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.49.26:769][837]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.49.30:109][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.20-17.49.31:095][282]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.20-17.49.34:856][659]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.35:407][659]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.550 s
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: === Handled ensure: ===
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: 
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: Stack: 
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000034DDE2B6
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000034B8B8C2
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000034BA1E86
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000306F7556
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000230ED27B
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000001A6524AA
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000001A4F72CC
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000001A4FA6D9
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000001A618035
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000316ADB57
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000316B4B61
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000318D48D3
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000003170F604
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000031709170
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000031708A55
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor.exe!0x0000000055DFED59
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor.exe!0x0000000055DEF0B0
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor.exe!0x0000000055DEF12A
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor.exe!0x0000000055E00CF9
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: UE4Editor.exe!0x0000000055E025F7
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: KERNEL32.DLL!0x000000005DC91FE4
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: ntdll.dll!0x000000006011EFC1
+[2018.02.20-17.49.35:407][659]LogOutputDevice:Error: 
+[2018.02.20-17.49.35:408][659]LogStats:                SubmitErrorReport -  0.000 s
+[2018.02.20-17.49.36:365][659]LogStats:                    SendNewReport -  0.958 s
+[2018.02.20-17.49.36:365][659]LogStats:             FDebug::EnsureFailed -  1.509 s
+[2018.02.20-17.49.36:373][660]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.36:373][660]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.36:374][660]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.36:375][660]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.36:376][660]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:005][848]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:005][848]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:007][848]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:009][848]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:013][849]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:014][849]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:016][849]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:022][850]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:023][850]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:025][850]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:030][851]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:031][851]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:033][851]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:048][853]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:048][853]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:048][853]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:049][853]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:051][853]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:355][890]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:355][890]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:356][890]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.38:358][890]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.39:199][991]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.39:200][991]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.39:200][991]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.39:201][991]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.39:202][991]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.39:256][998]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.39:257][998]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:531][151]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:539][152]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:539][152]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:542][152]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:543][152]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:544][152]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:546][152]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:551][153]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:552][153]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:552][153]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:554][153]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:559][154]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:560][154]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:562][154]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:617][161]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:617][161]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:659][166]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:659][166]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:660][166]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:668][167]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:668][167]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:668][167]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:669][167]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.49.41:670][167]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.02.20-17.50.03:959][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2018.02.20-17.50.04:698][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2018.02.20-17.50.05:350][945]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.02.20-17.53.10:320][298]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2018.02.20-17.53.40:945][862]BlueprintLog: New page: Compile NewTutorial
+[2018.02.20-17.53.46:590][489]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2018.02.20-17.53.46:910][523]Cmd: DELETE
+[2018.02.20-17.53.46:911][523]Cmd: ACTOR DELETE
+[2018.02.20-17.53.46:912][523]LogEditorActor: Deleted Actor: TriggerBox
+[2018.02.20-17.53.46:932][523]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.02.20-17.53.49:159][787]BlueprintLog: New page: Compile NewTutorial
+[2018.02.20-17.54.30:011][518]LogSavePackage: Save=576.16ms
+[2018.02.20-17.54.30:011][518]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto68A0628474368A2F75CAFB0B1C34BD671.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto6.umap'
+[2018.02.20-17.54.30:016][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto6.umap
+[2018.02.20-17.54.30:021][518]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.634
+[2018.02.20-17.54.30:021][518]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.634
+[2018.02.20-17.54.30:023][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas] ([1] browsable assets)...
+[2018.02.20-17.54.30:046][518]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas.Plataformas]
+[2018.02.20-17.54.30:046][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas]
+[2018.02.20-17.54.30:086][518]LogSavePackage: Save=20.34ms
+[2018.02.20-17.54.30:086][518]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Plataformas_Auto6B085BFA341FFEA8016AF7CADCF946F2A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas_Auto6.uasset'
+[2018.02.20-17.54.30:089][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas_Auto6.uasset
+[2018.02.20-17.54.30:089][518]LogFileHelpers: Auto-saving content packages took 0.066
+[2018.02.20-17.55.34:088][ 52]BlueprintLog: New page: Compile NewTutorial
+[2018.02.20-17.55.35:538][205]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.55.35:566][205]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.55.35:566][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.55.35:567][205]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:55:35 PM)
+[2018.02.20-17.55.35:567][205]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.55.35:585][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017406s)
+[2018.02.20-17.55.35:585][205]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.55.35:585][205]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2018.02.20-17.55.35:586][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.018449s)
+[2018.02.20-17.55.35:616][205]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.55.35:625][205]LogInit: FAudioDevice initialized.
+[2018.02.20-17.55.35:658][205]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.55.35:664][205]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.55.35
+[2018.02.20-17.55.35:664][205]LogWorld: Bringing up level for play took: 0.004257
+[2018.02.20-17.55.35:673][205]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 1.021
+[2018.02.20-17.55.35:673][205]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.55.42:297][996]LogBlueprintUserMessages: [NewTutorial_C_5] se ha creado guay
+[2018.02.20-17.55.44:315][238]LogBlueprintUserMessages: [NewTutorial_C_5] se ha creado guay
+[2018.02.20-17.55.48:084][690]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.55.48:123][690]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.56.58:773][943]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.02.20-17.58.20:879][391]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2018.02.20-17.59.02:057][121]BlueprintLog: New page: Compile NewTutorial
+[2018.02.20-17.59.03:409][247]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-17.59.03:438][247]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.59.03:438][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-17.59.03:438][247]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 7:59:03 PM)
+[2018.02.20-17.59.03:438][247]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-17.59.03:456][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017853s)
+[2018.02.20-17.59.03:457][247]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-17.59.03:457][247]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2018.02.20-17.59.03:457][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.018849s)
+[2018.02.20-17.59.03:488][247]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-17.59.03:497][247]LogInit: FAudioDevice initialized.
+[2018.02.20-17.59.03:534][247]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-17.59.03:540][247]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-18.59.03
+[2018.02.20-17.59.03:540][247]LogWorld: Bringing up level for play took: 0.004326
+[2018.02.20-17.59.03:545][247]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.893
+[2018.02.20-17.59.03:545][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.59.21:181][360]Set new viewmode: Wireframe
+[2018.02.20-17.59.21:701][422]Set new viewmode: Wireframe
+[2018.02.20-17.59.22:193][481]Set new viewmode: Unlit
+[2018.02.20-17.59.23:009][579]Set new viewmode: Lit
+[2018.02.20-17.59.23:719][664]Set new viewmode: Lit_DetailLighting
+[2018.02.20-17.59.24:010][699]Set new viewmode: Lit
+[2018.02.20-17.59.59:883][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-17.59.59:940][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-18.00.08:252][  5]BlueprintLog: New page: Compile NewTutorial
+[2018.02.20-18.00.09:854][112]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-18.00.09:882][112]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-18.00.09:882][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-18.00.09:883][112]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 8:00:09 PM)
+[2018.02.20-18.00.09:883][112]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-18.00.09:901][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017840s)
+[2018.02.20-18.00.09:902][112]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-18.00.09:902][112]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2018.02.20-18.00.09:902][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.018906s)
+[2018.02.20-18.00.09:930][112]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-18.00.09:939][112]LogInit: FAudioDevice initialized.
+[2018.02.20-18.00.09:971][112]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-18.00.09:976][112]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-19.00.09
+[2018.02.20-18.00.09:977][112]LogWorld: Bringing up level for play took: 0.004167
+[2018.02.20-18.00.09:981][112]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.671
+[2018.02.20-18.00.09:981][112]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-18.00.44:236][722]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-18.00.44:297][722]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-18.06.20:271][430]LogSavePackage: Save=634.93ms
+[2018.02.20-18.06.20:272][430]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto713D98BB245231D92FB5CEAA2C3DA2A4A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto7.umap'
+[2018.02.20-18.06.20:276][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto7.umap
+[2018.02.20-18.06.20:279][430]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.709
+[2018.02.20-18.06.20:279][430]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.709
+[2018.02.20-18.06.41:102][726]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-18.06.41:131][726]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-18.06.41:131][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-18.06.41:131][726]PIE: New page: PIE session: NewTutorial (Feb 20, 2018, 8:06:41 PM)
+[2018.02.20-18.06.41:132][726]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.20-18.06.41:151][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019495s)
+[2018.02.20-18.06.41:152][726]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.20-18.06.41:152][726]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2018.02.20-18.06.41:153][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.020810s)
+[2018.02.20-18.06.41:183][726]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.20-18.06.41:192][726]LogInit: FAudioDevice initialized.
+[2018.02.20-18.06.41:227][726]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.20-18.06.41:235][726]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.20-19.06.41
+[2018.02.20-18.06.41:235][726]LogWorld: Bringing up level for play took: 0.006416
+[2018.02.20-18.06.41:240][726]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.589
+[2018.02.20-18.06.41:240][726]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-18.06.54:025][794]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-18.06.54:085][794]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.20-18.07.59:518][222]BlueprintLog: New page: Compile NewTutorial
+[2018.02.20-18.08.00:972][261]LogSavePackage: Save=639.35ms
+[2018.02.20-18.08.00:972][261]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorialA1CE33524040A1CD923FA3B29F631B47.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap'
+[2018.02.20-18.08.00:982][261]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap
+[2018.02.20-18.08.01:035][261]LogFileHelpers: Saving map 'NewTutorial' took 0.996
+[2018.02.20-18.08.07:035][819]LogSavePackage: Save=555.67ms
+[2018.02.20-18.08.07:035][819]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorialDEBDCC6B48E0BBCC7CAA638806BCDAEB.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap'
+[2018.02.20-18.08.07:039][819]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap
+[2018.02.20-18.08.08:430][945]LogSavePackage: Save=14.14ms
+[2018.02.20-18.08.08:430][945]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Plataformas1168FCF142D9102F25DD37B2A6151C45.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas.uasset'
+[2018.02.20-18.08.08:439][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Plataformas.uasset
+[2018.02.20-18.08.09:910][ 98]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.20-18.08.10:203][ 99]Cmd: QUIT_EDITOR
+[2018.02.20-18.08.10:475][ 99]LogExit: Preparing to exit.
+[2018.02.20-18.08.10:787][ 99]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' was aborted.
+[2018.02.20-18.08.10:848][ 99]LogExit: Editor shut down
+[2018.02.20-18.08.10:853][ 99]LogExit: Transaction tracking system shut down
+[2018.02.20-18.08.11:039][ 99]LogObj: Freed 0b from 0 cluster array pools.
+[2018.02.20-18.08.11:039][ 99]LogExit: Object subsystem successfully closed.
+[2018.02.20-18.08.11:059][ 99]LogD3D11RHI: Shutdown
+[2018.02.20-18.08.11:059][ 99]LogD3D11RHI: CleanupD3DDevice
+[2018.02.20-18.08.11:194][ 99]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.20-18.08.11:214][ 99]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2018.02.20-18.08.11:214][ 99]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2018.02.20-18.08.11:214][ 99]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2018.02.20-18.08.11:214][ 99]LogModuleManager: Shutting down and abandoning module NewLevelDialog (526)
+[2018.02.20-18.08.11:214][ 99]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.02.20-18.08.11:215][ 99]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.02.20-18.08.11:215][ 99]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.02.20-18.08.11:215][ 99]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.02.20-18.08.11:215][ 99]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.02.20-18.08.11:216][ 99]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' was aborted.
+[2018.02.20-18.08.11:216][ 99]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' was aborted.
+[2018.02.20-18.08.11:216][ 99]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' was aborted.
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.02.20-18.08.11:216][ 99]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.02.20-18.08.11:217][ 99]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.02.20-18.08.11:218][ 99]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.02.20-18.08.11:218][ 99]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.02.20-18.08.11:218][ 99]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.02.20-18.08.11:218][ 99]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.02.20-18.08.11:218][ 99]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.02.20-18.08.11:218][ 99]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.02.20-18.08.11:645][ 99]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.02.20-18.08.11:645][ 99]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.02.20-18.08.11:645][ 99]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.02.20-18.08.11:645][ 99]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.02.20-18.08.11:645][ 99]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.02.20-18.08.11:645][ 99]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.02.20-18.08.11:645][ 99]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.02.20-18.08.11:646][ 99]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.02.20-18.08.11:710][ 99]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.02.20-18.08.11:710][ 99]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.02.20-18.08.11:710][ 99]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.02.20-18.08.11:710][ 99]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.02.20-18.08.11:710][ 99]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.02.20-18.08.11:710][ 99]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.02.20-18.08.11:711][ 99]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.02.20-18.08.11:711][ 99]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.02.20-18.08.11:711][ 99]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.02.20-18.08.11:711][ 99]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.02.20-18.08.11:732][ 99]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.02.20-18.08.11:735][ 99]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.02.20-18.08.11:912][ 99]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.02.20-18.08.11:913][ 99]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.02.20-18.08.11:914][ 99]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.02.20-18.08.11:915][ 99]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.02.20-18.08.11:915][ 99]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.02.20-18.08.11:915][ 99]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.02.20-18.08.11:916][ 99]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.02.20-18.08.11:916][ 99]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.02.20-18.08.11:916][ 99]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.02.20-18.08.11:916][ 99]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.02.20-18.08.11:916][ 99]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.02.20-18.08.11:916][ 99]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.02.20-18.08.12:017][ 99]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.02.20-18.08.12:117][ 99]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.02.20-18.08.12:117][ 99]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.02.20-18.08.12:117][ 99]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.02.20-18.08.12:117][ 99]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.02.20-18.08.12:117][ 99]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.02.20-18.08.12:117][ 99]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.02.20-18.08.12:119][ 99]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.02.20-18.08.12:119][ 99]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.02.20-18.08.12:119][ 99]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.02.20-18.08.12:119][ 99]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.02.20-18.08.12:124][ 99]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.02.20-18.08.12:124][ 99]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.02.20-18.08.12:124][ 99]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.02.20-18.08.12:124][ 99]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.02.20-18.08.12:124][ 99]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.02.20-18.08.12:124][ 99]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.02.20-18.08.12:124][ 99]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.02.20-18.08.12:124][ 99]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.02.20-18.08.12:124][ 99]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.02.20-18.08.12:124][ 99]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.02.20-18.08.12:124][ 99]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.02.20-18.08.12:124][ 99]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.02.20-18.08.12:125][ 99]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.02.20-18.08.12:125][ 99]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.02.20-18.08.12:125][ 99]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.02.20-18.08.12:125][ 99]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.02.20-18.08.12:125][ 99]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.02.20-18.08.12:125][ 99]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.02.20-18.08.12:125][ 99]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.02.20-18.08.12:128][ 99]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.02.20-18.08.12:128][ 99]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.02.20-18.08.12:128][ 99]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.02.20-18.08.12:128][ 99]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.02.20-18.08.12:128][ 99]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.02.20-18.08.12:128][ 99]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.02.20-18.08.12:332][ 99]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.20-18.08.12:332][ 99]LogDirectoryWatcher: A directory notification for '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' was aborted.
+[2018.02.20-18.08.12:332][ 99]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.20-18.08.12:332][ 99]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.02.20-18.08.12:336][ 99]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.02.20-18.08.12:336][ 99]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.02.20-18.08.12:336][ 99]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.02.20-18.08.12:336][ 99]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.02.20-18.08.12:336][ 99]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.02.20-18.08.12:336][ 99]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.02.20-18.08.12:336][ 99]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.02.20-18.08.12:336][ 99]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.02.20-18.08.12:336][ 99]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.20-18.08.12:369][ 99]LogDerivedDataCache: Shutdown
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.20-18.08.12:369][ 99]LogOnline:Display: Unloading online subsystem: NULL
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.20-18.08.12:369][ 99]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.20-18.08.12:369][ 99]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.20-18.08.12:369][ 99]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E4EA041-46A9-03F3-33FD-FE9603A88797%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=35b1c70744b4fb2b9b36cd82c73afb2d%7C429d52eb30ed4995a179251f3e5c9523%7C4df19abe-310a-492d-afeb-8a554a180440&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.20-18.08.12:377][ 99]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.20-18.08.12:378][ 99]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.02.20-18.08.12:378][ 99]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.02.20-18.08.12:378][ 99]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.02.20-18.08.12:378][ 99]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.02.20-18.08.12:378][ 99]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.02.20-18.08.12:378][ 99]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.02.20-18.08.12:378][ 99]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.02.20-18.08.12:378][ 99]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.02.20-18.08.12:379][ 99]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.02.20-18.08.12:380][ 99]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.02.20-18.08.12:380][ 99]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.02.20-18.08.12:380][ 99]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.02.20-18.08.12:380][ 99]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.02.20-18.08.12:380][ 99]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.02.20-18.08.12:380][ 99]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.02.20-18.08.12:380][ 99]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.20-18.08.12:380][ 99]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.20-18.08.12:380][ 99]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.20-18.08.12:381][ 99]LogExit: Exiting.
+[2018.02.20-18.08.12:405][ 99]Log file closed, 02/20/18 19:08:12
