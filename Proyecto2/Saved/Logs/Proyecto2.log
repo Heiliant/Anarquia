@@ -2053,3 +2053,256 @@ LogInit: Object subsystem initialized
 [2018.02.21-20.38.09:821][759]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorialB7D90AF641957E45D89C71AF8D7683F3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap'
 [2018.02.21-20.38.09:827][759]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap
 [2018.02.21-20.38.09:892][759]LogFileHelpers: Saving map 'NewTutorial' took 3.335
+[2018.02.21-20.39.06:622][104]BlueprintLog: New page: Compile NewTutorial
+[2018.02.21-20.39.07:024][122]BlueprintLog: New page: Compile NewTutorial
+[2018.02.21-20.39.19:397][953]BlueprintLog: New page: Compile NewTutorial
+[2018.02.21-20.39.21:650][ 36]LogSavePackage: Save=536.80ms
+[2018.02.21-20.39.21:650][ 36]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial08D1FC53464CCFDC790FBCA11A5558AD.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap'
+[2018.02.21-20.39.21:663][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap
+[2018.02.21-20.39.21:750][ 36]LogFileHelpers: Saving map 'NewTutorial' took 0.792
+[2018.02.21-20.39.23:229][124]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.21-20.39.23:256][124]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-20.39.23:256][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-20.39.23:256][124]PIE: New page: PIE session: NewTutorial (Feb 21, 2018, 10:39:23 PM)
+[2018.02.21-20.39.23:257][124]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.21-20.39.23:275][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018540s)
+[2018.02.21-20.39.23:276][124]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.21-20.39.23:276][124]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2018.02.21-20.39.23:276][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.019547s)
+[2018.02.21-20.39.23:306][124]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-20.39.23:315][124]LogInit: FAudioDevice initialized.
+[2018.02.21-20.39.23:346][124]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.21-20.39.23:352][124]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.21-21.39.23
+[2018.02.21-20.39.23:352][124]LogWorld: Bringing up level for play took: 0.004339
+[2018.02.21-20.39.23:357][124]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.83
+[2018.02.21-20.39.23:357][124]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-20.40.02:630][777]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-20.40.02:696][777]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-20.50.00:400][465]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.024
+[2018.02.21-20.50.00:402][465]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/plataforma] ([1] browsable assets)...
+[2018.02.21-20.50.00:415][465]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/plataforma.plataforma]
+[2018.02.21-20.50.00:415][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/plataforma]
+[2018.02.21-20.50.00:460][465]LogSavePackage: Save=17.13ms
+[2018.02.21-20.50.00:460][465]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/plataforma_Auto17501A3BE4ADC8D4F4162F5BF6BAD6F60.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/plataforma_Auto1.uasset'
+[2018.02.21-20.50.00:463][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/plataforma_Auto1.uasset
+[2018.02.21-20.50.00:463][465]LogFileHelpers: Auto-saving content packages took 0.062
+[2018.02.21-21.07.32:182][932]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.21-21.07.32:215][932]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.07.32:215][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-21.07.32:215][932]PIE: New page: PIE session: NewTutorial (Feb 21, 2018, 11:07:32 PM)
+[2018.02.21-21.07.32:216][932]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.21-21.07.32:237][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020813s)
+[2018.02.21-21.07.32:238][932]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.21-21.07.32:239][932]LogPlayLevel: PIE: World Init took: (0.001654s)
+[2018.02.21-21.07.32:239][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.022968s)
+[2018.02.21-21.07.32:280][932]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-21.07.32:292][932]LogInit: FAudioDevice initialized.
+[2018.02.21-21.07.32:326][932]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.21-21.07.32:333][932]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.21-22.07.32
+[2018.02.21-21.07.32:333][932]LogWorld: Bringing up level for play took: 0.006091
+[2018.02.21-21.07.32:342][932]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.154
+[2018.02.21-21.07.32:342][932]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.09.37:474][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.09.37:543][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.09.39:201][383]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.21-21.09.39:231][383]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.09.39:231][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-21.09.39:231][383]PIE: New page: PIE session: NewTutorial (Feb 21, 2018, 11:09:39 PM)
+[2018.02.21-21.09.39:232][383]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.21-21.09.39:253][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021386s)
+[2018.02.21-21.09.39:254][383]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.21-21.09.39:254][383]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2018.02.21-21.09.39:255][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.022742s)
+[2018.02.21-21.09.39:290][383]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-21.09.39:300][383]LogInit: FAudioDevice initialized.
+[2018.02.21-21.09.39:338][383]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.21-21.09.39:344][383]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.21-22.09.39
+[2018.02.21-21.09.39:344][383]LogWorld: Bringing up level for play took: 0.004483
+[2018.02.21-21.09.39:350][383]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.837
+[2018.02.21-21.09.39:351][383]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.10.15:190][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.10.15:258][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.10.16:130][596]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.21-21.10.16:160][596]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.10.16:160][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-21.10.16:160][596]PIE: New page: PIE session: NewTutorial (Feb 21, 2018, 11:10:16 PM)
+[2018.02.21-21.10.16:161][596]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.21-21.10.16:179][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017771s)
+[2018.02.21-21.10.16:180][596]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.21-21.10.16:180][596]LogPlayLevel: PIE: World Init took: (0.001357s)
+[2018.02.21-21.10.16:180][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.019570s)
+[2018.02.21-21.10.16:217][596]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-21.10.16:227][596]LogInit: FAudioDevice initialized.
+[2018.02.21-21.10.16:266][596]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.21-21.10.16:272][596]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.21-22.10.16
+[2018.02.21-21.10.16:273][596]LogWorld: Bringing up level for play took: 0.005496
+[2018.02.21-21.10.16:277][596]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.09
+[2018.02.21-21.10.16:277][596]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.12.08:587][208]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.12.08:656][208]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.12.11:415][339]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.21-21.12.14:601][494]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.02.21-21.13.32:520][ 83]BlueprintLog: New page: Compile NewTutorial
+[2018.02.21-21.13.34:041][234]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.21-21.13.34:070][234]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.13.34:070][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-21.13.34:071][234]PIE: New page: PIE session: NewTutorial (Feb 21, 2018, 11:13:34 PM)
+[2018.02.21-21.13.34:071][234]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.21-21.13.34:092][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020690s)
+[2018.02.21-21.13.34:093][234]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.21-21.13.34:093][234]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2018.02.21-21.13.34:093][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.021871s)
+[2018.02.21-21.13.34:134][234]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-21.13.34:144][234]LogInit: FAudioDevice initialized.
+[2018.02.21-21.13.34:181][234]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.21-21.13.34:187][234]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.21-22.13.34
+[2018.02.21-21.13.34:187][234]LogWorld: Bringing up level for play took: 0.004483
+[2018.02.21-21.13.34:193][234]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.006
+[2018.02.21-21.13.34:194][234]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.13.54:920][505]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.13.54:979][505]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.13.55:833][591]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.21-21.13.56:478][641]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.21-21.13.56:507][641]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.13.56:507][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-21.13.56:507][641]PIE: New page: PIE session: NewTutorial (Feb 21, 2018, 11:13:56 PM)
+[2018.02.21-21.13.56:508][641]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.21-21.13.56:536][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027596s)
+[2018.02.21-21.13.56:536][641]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.21-21.13.56:536][641]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2018.02.21-21.13.56:536][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.028540s)
+[2018.02.21-21.13.56:572][641]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-21.13.56:583][641]LogInit: FAudioDevice initialized.
+[2018.02.21-21.13.56:616][641]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.21-21.13.56:621][641]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.21-22.13.56
+[2018.02.21-21.13.56:622][641]LogWorld: Bringing up level for play took: 0.004171
+[2018.02.21-21.13.56:626][641]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.439
+[2018.02.21-21.13.56:626][641]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.14.11:436][263]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.14.11:485][263]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.14.32:926][667]BlueprintLog: New page: Compile NewTutorial
+[2018.02.21-21.14.49:029][537]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2018.02.21-21.15.13:826][232]LogSavePackage: Save=538.71ms
+[2018.02.21-21.15.13:826][232]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorialC7D1915348504C77F975CBAB0EB47B20.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap'
+[2018.02.21-21.15.13:833][232]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap
+[2018.02.21-21.15.13:886][232]LogFileHelpers: Saving map 'NewTutorial' took 0.896
+[2018.02.21-21.15.16:180][455]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.21-21.15.16:209][455]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.15.16:209][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-21.15.16:210][455]PIE: New page: PIE session: NewTutorial (Feb 21, 2018, 11:15:16 PM)
+[2018.02.21-21.15.16:210][455]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.21-21.15.16:228][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018118s)
+[2018.02.21-21.15.16:229][455]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.21-21.15.16:229][455]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2018.02.21-21.15.16:229][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.019185s)
+[2018.02.21-21.15.16:266][455]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-21.15.16:276][455]LogInit: FAudioDevice initialized.
+[2018.02.21-21.15.16:312][455]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.21-21.15.16:317][455]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.21-22.15.16
+[2018.02.21-21.15.16:318][455]LogWorld: Bringing up level for play took: 0.004303
+[2018.02.21-21.15.16:322][455]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.135
+[2018.02.21-21.15.16:322][455]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.16.56:972][904]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.16.57:042][904]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.17.19:125][125]BlueprintLog: New page: Compile NewTutorial
+[2018.02.21-21.17.21:154][322]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.21-21.17.21:184][322]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.17.21:184][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-21.17.21:184][322]PIE: New page: PIE session: NewTutorial (Feb 21, 2018, 11:17:21 PM)
+[2018.02.21-21.17.21:185][322]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.21-21.17.21:206][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021444s)
+[2018.02.21-21.17.21:207][322]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.21-21.17.21:207][322]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2018.02.21-21.17.21:207][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.022445s)
+[2018.02.21-21.17.21:243][322]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-21.17.21:253][322]LogInit: FAudioDevice initialized.
+[2018.02.21-21.17.21:290][322]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.21-21.17.21:298][322]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.21-22.17.21
+[2018.02.21-21.17.21:298][322]LogWorld: Bringing up level for play took: 0.006055
+[2018.02.21-21.17.21:303][322]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 1.115
+[2018.02.21-21.17.21:303][322]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.17.22:675][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.17.22:732][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.17.34:614][732]BlueprintLog: New page: Compile NewTutorial
+[2018.02.21-21.17.36:226][882]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.21-21.17.36:255][882]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.17.36:255][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-21.17.36:255][882]PIE: New page: PIE session: NewTutorial (Feb 21, 2018, 11:17:36 PM)
+[2018.02.21-21.17.36:256][882]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.21-21.17.36:281][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024546s)
+[2018.02.21-21.17.36:281][882]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.21-21.17.36:282][882]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2018.02.21-21.17.36:282][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.025783s)
+[2018.02.21-21.17.36:319][882]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-21.17.36:329][882]LogInit: FAudioDevice initialized.
+[2018.02.21-21.17.36:365][882]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.21-21.17.36:371][882]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.21-22.17.36
+[2018.02.21-21.17.36:372][882]LogWorld: Bringing up level for play took: 0.004925
+[2018.02.21-21.17.36:378][882]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.191
+[2018.02.21-21.17.36:379][882]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.17.39:788][256]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.17.39:848][256]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.17.41:971][481]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.02.21-21.17.46:138][811]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.21-21.17.46:167][811]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.17.46:167][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-21.17.46:167][811]PIE: New page: PIE session: NewTutorial (Feb 21, 2018, 11:17:46 PM)
+[2018.02.21-21.17.46:168][811]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.21-21.17.46:192][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024387s)
+[2018.02.21-21.17.46:193][811]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.21-21.17.46:193][811]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2018.02.21-21.17.46:193][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.025691s)
+[2018.02.21-21.17.46:228][811]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-21.17.46:237][811]LogInit: FAudioDevice initialized.
+[2018.02.21-21.17.46:272][811]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.21-21.17.46:278][811]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.21-22.17.46
+[2018.02.21-21.17.46:279][811]LogWorld: Bringing up level for play took: 0.005319
+[2018.02.21-21.17.46:285][811]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.097
+[2018.02.21-21.17.46:285][811]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.17.51:075][330]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.17.51:124][330]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.18.17:257][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2018.02.21-21.18.30:868][652]BlueprintLog: New page: Compile NewTutorial
+[2018.02.21-21.18.31:953][752]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.21-21.18.31:982][752]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.18.31:982][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.21-21.18.31:982][752]PIE: New page: PIE session: NewTutorial (Feb 21, 2018, 11:18:31 PM)
+[2018.02.21-21.18.31:984][752]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.21-21.18.32:006][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021760s)
+[2018.02.21-21.18.32:006][752]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.21-21.18.32:006][752]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2018.02.21-21.18.32:007][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.022820s)
+[2018.02.21-21.18.32:042][752]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.21-21.18.32:052][752]LogInit: FAudioDevice initialized.
+[2018.02.21-21.18.32:090][752]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.21-21.18.32:098][752]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.21-22.18.32
+[2018.02.21-21.18.32:099][752]LogWorld: Bringing up level for play took: 0.007242
+[2018.02.21-21.18.32:105][752]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.083
+[2018.02.21-21.18.32:105][752]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.18.36:672][251]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.18.36:739][251]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.21-21.18.38:333][418]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.02.21-21.18.39:391][527]Cmd: DELETE
+[2018.02.21-21.18.39:391][527]Cmd: ACTOR DELETE
+[2018.02.21-21.18.42:044][527]LogEditorActor: Deleted 0 Actors (2.653 secs)
+[2018.02.21-21.18.43:834][716]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2018.02.21-21.18.44:205][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2018.02.21-21.18.56:443][524]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.02.21-21.19.04:097][387]BlueprintLog: New page: Compile NewTutorial
+[2018.02.21-21.19.07:424][750]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.02.21-21.19.08:113][825]Cmd: DELETE
+[2018.02.21-21.19.08:113][825]Cmd: ACTOR DELETE
+[2018.02.21-21.19.08:114][825]LogEditorActor: Deleted Actor: PointLight
+[2018.02.21-21.19.08:135][825]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.02.21-21.19.10:923][ 75]LogSavePackage: Save=525.99ms
+[2018.02.21-21.19.10:923][ 75]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorialE82144C2400E37ADE5A1148FAC067C06.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap'
+[2018.02.21-21.19.10:930][ 75]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap
+[2018.02.21-21.19.10:977][ 75]LogFileHelpers: Saving map 'NewTutorial' took 0.736
+[2018.02.21-21.19.13:698][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.21-21.25.02:360][704]LogSavePackage: Save=549.71ms
+[2018.02.21-21.25.02:360][704]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorialCC7CA03F49220FDB2FB41BBC194970E4.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap'
+[2018.02.21-21.25.02:364][704]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap
+[2018.02.21-21.25.02:424][704]LogFileHelpers: Saving map 'NewTutorial' took 0.786
+[2018.02.21-21.25.05:024][984]LogSavePackage: Save=10.88ms
+[2018.02.21-21.25.05:024][984]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/plataformaA3BF3AA445805DE1ACF9328934F7FF20.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/plataforma.uasset'
+[2018.02.21-21.25.05:032][984]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/plataforma.uasset
