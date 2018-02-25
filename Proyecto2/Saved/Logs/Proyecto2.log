@@ -5117,3 +5117,243 @@ LogInit: Object subsystem initialized
 [2018.02.25-17.40.55:026][611]LogSavePackage: Save=34.78ms
 [2018.02.25-17.40.55:026][611]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_BuiltData2E40BC93404FECBEF4F843B9FBB932A1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial_BuiltData.uasset'
 [2018.02.25-17.40.55:035][611]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial_BuiltData.uasset
+[2018.02.25-17.42.01:737][469]LogEditorViewport: Clicking on Actor (LMB): paredes_C (paredes3)
+[2018.02.25-17.42.04:153][735]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight22)
+[2018.02.25-17.42.06:830][ 23]Cmd: DELETE
+[2018.02.25-17.42.06:830][ 23]Cmd: ACTOR DELETE
+[2018.02.25-17.42.06:831][ 23]LogEditorActor: Deleted Actor: PointLight
+[2018.02.25-17.42.06:853][ 23]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.02.25-17.42.08:068][167]MapCheck: New page: Map Check
+[2018.02.25-17.42.08:080][167]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.25-17.42.08:080][167]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.25-17.42.08:940][167]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.25-17.42.08:946][167]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_17, compiling. 
+[2018.02.25-17.42.08:952][167]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.02.25-17.42.08:958][167]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blanco, compiling. 
+[2018.02.25-17.42.09:526][167]TextureStreamingBuild:Display: Compiling optional shaders took 0.591 seconds.
+[2018.02.25-17.42.09:529][167]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.02.25-17.42.09:543][167]TextureStreamingBuild:Display: Build Texture Streaming took 0.014 seconds.
+[2018.02.25-17.42.09:562][167]LightingResults: New page: Lighting Build - Feb 25, 2018, 7:42:09 PM
+[2018.02.25-17.42.09:578][167]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.25-17.42.09:619][167]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.25-17.42.09:619][167]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.25-17.42.09:620][167]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.25-17.42.09:620][167]LogSwarmInterface: [TryOpenConnection] Local Process ID is 211916
+[2018.02.25-17.42.14:188][167]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.25-17.42.14:191][167]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.25-17.42.14:191][167]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.25-17.42.14:191][167]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.25-17.42.14:191][167]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.25-17.42.14:191][167]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.25-17.42.14:525][167]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.25-17.42.14:525][167]MapCheck: New page: NewTutorial - Feb 25, 2018, 7:42:14 PM
+[2018.02.25-17.42.14:526][167]MapCheck:Warning: Performance Warning plataforma_3092 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.02.25-17.42.14:646][167]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 120.709ms to complete.
+[2018.02.25-17.42.14:669][167]LogEditorBuildUtils: Build time 0:06
+[2018.02.25-17.42.17:019][174]Job is a success!
+[2018.02.25-17.42.17:520][175]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.02.25-17.42.17:520][175]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.02.25-17.42.17:520][175]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.02.25-17.42.17:520][175]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.02.25-17.42.17:520][175]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.02.25-17.42.17:521][175]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.02.25-17.42.17:521][175]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 128X64)
+[2018.02.25-17.42.17:556][175]Lightmass on PC-JAVITO: 1.63 sec total, 182 ms importing, 22 ms setup, 430 ms photons, 971 ms processing, 0 ms extra exporting [241/241 mappings]. Threads: 6.64 sec total, 1.68 sec processing.
+[2018.02.25-17.42.17:565][175]LogStaticLightingSystem: Illumination: 7.66 sec (56 ms encoding lightmaps, 18 ms encoding shadowmaps)
+[2018.02.25-17.42.17:565][175]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.1 MB streaming, 0.5 MB non-streaming), 6 textures
+[2018.02.25-17.42.17:565][175]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.02.25-17.42.23:345][175]DumpUnbuiltLightIteractions
+[2018.02.25-17.42.23:345][175]Lights with unbuilt interactions: 0
+[2018.02.25-17.42.23:345][175]
+[2018.02.25-17.42.23:345][175]Primitives with unbuilt interactions: 0
+[2018.02.25-17.42.23:356][176]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.25-17.42.23:356][176]MapCheck: New page: NewTutorial - Feb 25, 2018, 7:42:23 PM
+[2018.02.25-17.42.23:361][176]MapCheck:Warning: Performance Warning plataforma_3092 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.02.25-17.42.23:491][176]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 134.704ms to complete.
+[2018.02.25-17.42.26:967][573]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.25-17.42.26:994][573]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-17.42.26:994][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.25-17.42.26:994][573]PIE: New page: PIE session: NewTutorial (Feb 25, 2018, 7:42:26 PM)
+[2018.02.25-17.42.26:995][573]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.25-17.42.27:010][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015173s)
+[2018.02.25-17.42.27:011][573]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.25-17.42.27:011][573]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2018.02.25-17.42.27:011][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.016359s)
+[2018.02.25-17.42.27:047][573]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.25-17.42.27:058][573]LogInit: FAudioDevice initialized.
+[2018.02.25-17.42.27:091][573]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.25-17.42.27:096][573]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.25-18.42.27
+[2018.02.25-17.42.27:096][573]LogWorld: Bringing up level for play took: 0.003656
+[2018.02.25-17.42.27:101][573]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.979
+[2018.02.25-17.42.27:101][573]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-17.43.02:044][719]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-17.43.02:084][719]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-17.43.07:387][325]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight10)
+[2018.02.25-17.43.09:413][531]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight33)
+[2018.02.25-17.43.12:576][846]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight32)
+[2018.02.25-17.43.15:217][130]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight30)
+[2018.02.25-17.43.16:928][312]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight8)
+[2018.02.25-17.43.18:832][515]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight29)
+[2018.02.25-17.43.20:091][648]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (StairLight7)
+[2018.02.25-17.43.22:320][883]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight28)
+[2018.02.25-17.43.23:280][983]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (StairLight6)
+[2018.02.25-17.43.25:434][209]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight27)
+[2018.02.25-17.43.26:224][289]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (StairLight5)
+[2018.02.25-17.43.28:354][510]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight26)
+[2018.02.25-17.43.29:196][597]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (StairLight4)
+[2018.02.25-17.43.33:083][951]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight40)
+[2018.02.25-17.43.34:530][ 88]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (StairLight39)
+[2018.02.25-17.43.37:096][357]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight38)
+[2018.02.25-17.43.40:117][673]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight34)
+[2018.02.25-17.43.41:667][833]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight35)
+[2018.02.25-17.43.43:678][ 39]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight12)
+[2018.02.25-17.43.45:056][180]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight13)
+[2018.02.25-17.43.46:187][294]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight14)
+[2018.02.25-17.43.47:542][432]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight15)
+[2018.02.25-17.43.48:777][556]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight16)
+[2018.02.25-17.43.50:509][734]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight17)
+[2018.02.25-17.43.52:123][900]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight18)
+[2018.02.25-17.43.53:887][ 81]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight17)
+[2018.02.25-17.43.56:802][353]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight19)
+[2018.02.25-17.43.59:171][576]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight20)
+[2018.02.25-17.44.01:108][778]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight42)
+[2018.02.25-17.44.02:708][942]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight41)
+[2018.02.25-17.44.04:320][108]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight43)
+[2018.02.25-17.44.05:854][264]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight21)
+[2018.02.25-17.44.07:727][455]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight44)
+[2018.02.25-17.44.09:393][624]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight22)
+[2018.02.25-17.44.12:272][895]MapCheck: New page: Map Check
+[2018.02.25-17.44.12:285][895]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.25-17.44.12:285][895]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.25-17.44.13:202][895]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.25-17.44.13:207][895]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_18, compiling. 
+[2018.02.25-17.44.13:214][895]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.02.25-17.44.13:221][895]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blanco, compiling. 
+[2018.02.25-17.44.13:795][895]TextureStreamingBuild:Display: Compiling optional shaders took 0.598 seconds.
+[2018.02.25-17.44.13:797][895]LogLevel:Display: Export Material TexCoord Scales took 0.002 seconds.
+[2018.02.25-17.44.13:812][895]TextureStreamingBuild:Display: Build Texture Streaming took 0.015 seconds.
+[2018.02.25-17.44.13:833][895]LightingResults: New page: Lighting Build - Feb 25, 2018, 7:44:13 PM
+[2018.02.25-17.44.13:845][895]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.25-17.44.13:887][895]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.25-17.44.13:887][895]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.25-17.44.13:888][895]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.25-17.44.13:888][895]LogSwarmInterface: [TryOpenConnection] Local Process ID is 211916
+[2018.02.25-17.44.18:409][895]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.25-17.44.18:413][895]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.25-17.44.18:413][895]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.25-17.44.18:413][895]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.25-17.44.18:413][895]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.25-17.44.18:413][895]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.25-17.44.18:763][895]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.25-17.44.18:763][895]MapCheck: New page: NewTutorial - Feb 25, 2018, 7:44:18 PM
+[2018.02.25-17.44.18:764][895]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.02.25-17.44.18:764][895]MapCheck:Warning: Performance Warning plataforma_3092 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.02.25-17.44.18:883][895]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 120.14ms to complete.
+[2018.02.25-17.44.18:906][895]LogEditorBuildUtils: Build time 0:06
+[2018.02.25-17.44.21:203][983]Job is a success!
+[2018.02.25-17.44.21:378][984]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.02.25-17.44.21:378][984]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.02.25-17.44.21:378][984]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2018.02.25-17.44.21:378][984]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2018.02.25-17.44.21:378][984]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2018.02.25-17.44.21:378][984]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2018.02.25-17.44.21:378][984]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 128X64)
+[2018.02.25-17.44.21:411][984]Lightmass on PC-JAVITO: 1.45 sec total, 193 ms importing, 25 ms setup, 483 ms photons, 721 ms processing, 0 ms extra exporting [241/241 mappings]. Threads: 4.87 sec total, 2.12 sec processing.
+[2018.02.25-17.44.21:424][984]LogStaticLightingSystem: Illumination: 7.56 sec (55 ms encoding lightmaps, 11 ms encoding shadowmaps)
+[2018.02.25-17.44.21:424][984]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.1 MB streaming, 0.5 MB non-streaming), 6 textures
+[2018.02.25-17.44.21:424][984]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.02.25-17.44.22:586][984]DumpUnbuiltLightIteractions
+[2018.02.25-17.44.22:586][984]Lights with unbuilt interactions: 0
+[2018.02.25-17.44.22:586][984]
+[2018.02.25-17.44.22:586][984]Primitives with unbuilt interactions: 0
+[2018.02.25-17.44.22:597][985]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.25-17.44.22:597][985]MapCheck: New page: NewTutorial - Feb 25, 2018, 7:44:22 PM
+[2018.02.25-17.44.22:598][985]MapCheck:Warning: Performance Warning plataforma_3092 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2018.02.25-17.44.22:735][985]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 138.121ms to complete.
+[2018.02.25-17.44.38:586][573]LogEditorViewport: Clicking on Actor (LMB): paredes_C (paredes3)
+[2018.02.25-17.44.46:699][491]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox3)
+[2018.02.25-17.45.29:085][382]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2018.02.25-17.46.58:091][721]BlueprintLog: New page: Compile NewTutorial
+[2018.02.25-17.47.36:234][129]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight22)
+[2018.02.25-17.50.07:871][623]BlueprintLog: New page: Compile NewTutorial
+[2018.02.25-17.50.07:887][623]LogBlueprint:Error: [Compiler PersistentLevel.NewTutorial] Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2018.02.25-17.50.08:187][623]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2018.02.25-17.50.08:188][623]LogBlueprint:Warning: [Compiler PersistentLevel.NewTutorial] Warning [6518.02] Compile of PersistentLevel.NewTutorial failed. 1 Fatal Issue(s) 0 Warning(s) [in 316 ms] (/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial)
+[2018.02.25-17.57.00:868][814]BlueprintLog: New page: Compile NewTutorial
+[2018.02.25-17.59.41:337][709]BlueprintLog: New page: Compile NewTutorial
+[2018.02.25-17.59.44:746][ 24]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.25-17.59.44:775][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-17.59.44:775][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.25-17.59.44:775][ 24]PIE: New page: PIE session: NewTutorial (Feb 25, 2018, 7:59:44 PM)
+[2018.02.25-17.59.44:777][ 24]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.25-17.59.44:794][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017186s)
+[2018.02.25-17.59.44:795][ 24]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.25-17.59.44:795][ 24]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2018.02.25-17.59.44:795][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.018347s)
+[2018.02.25-17.59.44:833][ 24]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.25-17.59.44:843][ 24]LogInit: FAudioDevice initialized.
+[2018.02.25-17.59.44:880][ 24]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.25-17.59.44:885][ 24]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.25-18.59.44
+[2018.02.25-17.59.44:885][ 24]LogWorld: Bringing up level for play took: 0.003816
+[2018.02.25-17.59.44:890][ 24]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.768
+[2018.02.25-17.59.44:890][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-17.59.58:691][662]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-17.59.58:755][662]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-18.00.26:620][830]LogEditorTransaction: Undo Move Node
+[2018.02.25-18.00.43:647][800]BlueprintLog: New page: Compile NewTutorial
+[2018.02.25-18.00.53:233][838]BlueprintLog: New page: Compile NewTutorial
+[2018.02.25-18.00.55:293][ 20]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.25-18.00.55:321][ 20]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-18.00.55:321][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.25-18.00.55:321][ 20]PIE: New page: PIE session: NewTutorial (Feb 25, 2018, 8:00:55 PM)
+[2018.02.25-18.00.55:322][ 20]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.25-18.00.55:339][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017527s)
+[2018.02.25-18.00.55:340][ 20]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.25-18.00.55:340][ 20]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2018.02.25-18.00.55:340][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.018758s)
+[2018.02.25-18.00.55:377][ 20]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.25-18.00.55:387][ 20]LogInit: FAudioDevice initialized.
+[2018.02.25-18.00.55:424][ 20]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.25-18.00.55:429][ 20]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.25-19.00.55
+[2018.02.25-18.00.55:430][ 20]LogWorld: Bringing up level for play took: 0.004628
+[2018.02.25-18.00.55:435][ 20]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.688
+[2018.02.25-18.00.55:435][ 20]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-18.01.10:151][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-18.01.10:216][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-18.01.18:530][589]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox3)
+[2018.02.25-18.01.44:847][622]BlueprintLog: New page: Compile NewTutorial
+[2018.02.25-18.01.48:717][ 39]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight)
+[2018.02.25-18.01.50:387][215]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.25-18.01.50:415][215]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-18.01.50:415][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.25-18.01.50:415][215]PIE: New page: PIE session: NewTutorial (Feb 25, 2018, 8:01:50 PM)
+[2018.02.25-18.01.50:416][215]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.25-18.01.50:437][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020595s)
+[2018.02.25-18.01.50:437][215]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.25-18.01.50:438][215]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2018.02.25-18.01.50:438][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.021813s)
+[2018.02.25-18.01.50:472][215]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.25-18.01.50:482][215]LogInit: FAudioDevice initialized.
+[2018.02.25-18.01.50:519][215]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.25-18.01.50:525][215]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.25-19.01.50
+[2018.02.25-18.01.50:526][215]LogWorld: Bringing up level for play took: 0.005592
+[2018.02.25-18.01.50:531][215]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.409
+[2018.02.25-18.01.50:531][215]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-18.02.09:439][461]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-18.02.09:498][461]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.25-18.02.10:546][573]LogEditorViewport: Clicking on Actor (LMB): PointLight (StairLight)
+[2018.02.25-18.02.27:166][356]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox4)
+[2018.02.25-18.02.27:931][436]Cmd: DELETE
+[2018.02.25-18.02.27:931][436]Cmd: ACTOR DELETE
+[2018.02.25-18.02.27:932][436]LogEditorActor: Deleted Actor: TriggerBox
+[2018.02.25-18.02.27:954][436]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.02.25-18.02.52:162][222]LogSavePackage: Save=548.49ms
+[2018.02.25-18.02.52:162][222]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial2210B96C455C881F93416E9D6F326919.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap'
+[2018.02.25-18.02.52:168][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap
+[2018.02.25-18.02.52:222][222]LogFileHelpers: Saving map 'NewTutorial' took 0.786
+[2018.02.25-18.02.52:286][222]LogSavePackage: Save=30.10ms
+[2018.02.25-18.02.52:286][222]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_BuiltDataD522EE624EB3AAF6913BF5AC91B3E391.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial_BuiltData.uasset'
+[2018.02.25-18.02.52:293][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial_BuiltData.uasset
+[2018.02.25-18.02.52:326][222]LogSavePackage: Save=9.12ms
+[2018.02.25-18.02.52:326][222]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/blanco263E720248F33A96EFC642AB8D8EE462.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/blanco.uasset'
+[2018.02.25-18.02.52:334][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Materials/blanco.uasset
