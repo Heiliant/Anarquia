@@ -726,3 +726,195 @@ LogInit: Object subsystem initialized
 [2018.02.28-13.12.22:430][988]LogSavePackage: Save=14.68ms
 [2018.02.28-13.12.22:430][988]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/pressButtonFAC311D14A8CDF347431B790CEACB2C9.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/pressButton.uasset'
 [2018.02.28-13.12.22:437][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/pressButton.uasset
+[2018.02.28-13.13.41:893][726]BlueprintLog: New page: Compile NewTutorial
+[2018.02.28-13.16.14:524][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/pressButton.SKEL_pressButton_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/pressButton.PackageMetaData'
+[2018.02.28-13.16.14:524][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/pressButton.pressButton_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/pressButton.PackageMetaData'
+[2018.02.28-13.16.14:524][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/pressButton.pressButton:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/pressButton.PackageMetaData'
+[2018.02.28-13.16.14:524][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/pressButton.pressButton:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/pressButton.PackageMetaData'
+[2018.02.28-13.16.14:524][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/pressButton.pressButton:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/pressButton.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.Ascensor:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.Ascensor_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.Ascensor_C:BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.SKEL_Ascensor_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.Ascensor_C:ExecuteUbergraph_Ascensor' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.Ascensor_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.Ascensor_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.Ascensor_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.Ascensor_C:Widget' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.Ascensor_C:Box' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.Ascensor_C:Cube' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.Ascensor_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.SKEL_Ascensor_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.SKEL_Ascensor_C:BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.SKEL_Ascensor_C:ExecuteUbergraph_Ascensor' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.SKEL_Ascensor_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.SKEL_Ascensor_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.SKEL_Ascensor_C:Widget' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.SKEL_Ascensor_C:Box' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.SKEL_Ascensor_C:Cube' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:535][362]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.SKEL_Ascensor_C:DefaultSceneRoot' ref from Metadata '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.PackageMetaData'
+[2018.02.28-13.16.14:576][362]LogSavePackage: Save=16.04ms
+[2018.02.28-13.16.14:576][362]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/pressButton262FC5904D02D0B9D12C7A936245B255.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/pressButton.uasset'
+[2018.02.28-13.16.14:583][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/pressButton.uasset
+[2018.02.28-13.16.14:646][362]LogSavePackage: Save=46.85ms
+[2018.02.28-13.16.14:647][362]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/AscensorEECB908A4CA6B7A057C3C2B54C42D7A7.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.uasset'
+[2018.02.28-13.16.14:653][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.uasset
+[2018.02.28-13.16.14:687][362]LogSavePackage: Save=5.34ms
+[2018.02.28-13.16.14:687][362]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/AscensorD9A6FA8D4AB2849DBB5920A450A7CC4A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.uasset'
+[2018.02.28-13.16.14:694][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.uasset
+[2018.02.28-13.22.22:366][712]LogSavePackage: Save=301.78ms
+[2018.02.28-13.22.22:366][712]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto21837555D40D4BAC2BFADB8A353D74315.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto2.umap'
+[2018.02.28-13.22.22:370][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto2.umap
+[2018.02.28-13.22.22:374][712]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.366
+[2018.02.28-13.22.22:374][712]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.366
+[2018.02.28-13.35.01:065][989]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.28-13.35.01:119][989]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.28-13.35.01:119][989]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.28-13.35.01:119][989]LogPlayLevel: [PlayLevel] Compiling Ascensor before play...
+[2018.02.28-13.35.01:656][989]LogPlayLevel: PlayLevel: Blueprint regeneration took 536 ms (1 blueprints)
+[2018.02.28-13.35.01:656][989]PIE: New page: PIE session: NewTutorial (Feb 28, 2018, 3:35:01 PM)
+[2018.02.28-13.35.01:657][989]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.28-13.35.01:662][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004821s)
+[2018.02.28-13.35.01:662][989]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.28-13.35.01:663][989]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2018.02.28-13.35.01:663][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.005959s)
+[2018.02.28-13.35.01:691][989]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-13.35.01:700][989]LogInit: FAudioDevice initialized.
+[2018.02.28-13.35.01:735][989]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.28-13.35.01:741][989]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.28-14.35.01
+[2018.02.28-13.35.01:742][989]LogWorld: Bringing up level for play took: 0.004037
+[2018.02.28-13.35.01:751][989]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.49
+[2018.02.28-13.35.01:751][989]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.28-13.35.20:627][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.28-13.35.20:682][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.28-13.35.24:798][681]LogEditorViewport: Clicking on Actor (LMB): Ascensor_C (Ascensor)
+[2018.02.28-13.35.25:548][764]Cmd: DELETE
+[2018.02.28-13.35.25:548][764]Cmd: ACTOR DELETE
+[2018.02.28-13.35.25:548][764]LogEditorActor: Deleted Actor: Ascensor_C
+[2018.02.28-13.35.25:568][764]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.02.28-13.35.38:310][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Ascensor_C_343' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:310][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Ascensor_C_430' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:310][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Widget_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:310][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ComponentDelegateBinding_1' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:310][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:310][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Box_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_Ascensor' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' or package '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' or package '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Widget' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Box' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cube' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Ascensor_C_426' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Ascensor_C_425' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cube_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Ascensor_C_1' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:311][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:312][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Ascensor_C_0' or package '/Engine/Transient'.
+[2018.02.28-13.35.38:312][673]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Ascensor_C_429' or package '/Engine/Transient'.
+[2018.02.28-13.35.53:086][298]LogActorFactory: Actor Factory created Cube
+[2018.02.28-13.35.53:849][380]LogActorFactory: Actor Factory created Cube
+[2018.02.28-13.36.49:205][531]LogActorFactory: Actor Factory created Cylinder
+[2018.02.28-13.36.50:225][623]LogActorFactory: Actor Factory created Cylinder
+[2018.02.28-13.37.12:613][ 78]LogActorFactory: Actor Factory created Cube
+[2018.02.28-13.37.13:976][209]LogActorFactory: Actor Factory created Cube
+[2018.02.28-13.38.13:561][537]BlueprintLog: New page: Compile LuzAscensor
+[2018.02.28-13.38.56:645][405]LogSavePackage: Save=280.39ms
+[2018.02.28-13.38.56:645][405]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto3E7E95BAF4BFAF96F01BA059F8E4F675C.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto3.umap'
+[2018.02.28-13.38.56:649][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto3.umap
+[2018.02.28-13.38.56:652][405]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.349
+[2018.02.28-13.38.56:652][405]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.349
+[2018.02.28-13.38.56:654][405]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor] ([3] browsable assets)...
+[2018.02.28-13.38.56:654][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor]
+[2018.02.28-13.38.56:685][405]LogSavePackage: Save=5.13ms
+[2018.02.28-13.38.56:685][405]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Ascensor_Auto37E27BDE741D025231F4998A2D47FC79D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor_Auto3.uasset'
+[2018.02.28-13.38.56:688][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor_Auto3.uasset
+[2018.02.28-13.38.56:690][405]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/LuzAscensor] ([1] browsable assets)...
+[2018.02.28-13.38.56:690][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/LuzAscensor]
+[2018.02.28-13.38.56:707][405]LogSavePackage: Save=13.60ms
+[2018.02.28-13.38.56:707][405]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LuzAscensor_Auto3FE8B5EFA478A23534E9649B2B8F8887B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/LuzAscensor_Auto3.uasset'
+[2018.02.28-13.38.56:710][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/LuzAscensor_Auto3.uasset
+[2018.02.28-13.38.56:710][405]LogFileHelpers: Auto-saving content packages took 0.057
+[2018.02.28-13.40.13:379][708]BlueprintLog: New page: Compile LuzAscensor
+[2018.02.28-13.40.14:908][813]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.28-13.40.14:939][813]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.28-13.40.14:939][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-13.40.14:939][813]PIE: New page: PIE session: NewTutorial (Feb 28, 2018, 3:40:14 PM)
+[2018.02.28-13.40.14:943][813]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.28-13.40.14:947][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004841s)
+[2018.02.28-13.40.14:948][813]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.28-13.40.14:948][813]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2018.02.28-13.40.14:948][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.005911s)
+[2018.02.28-13.40.14:979][813]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-13.40.14:988][813]LogInit: FAudioDevice initialized.
+[2018.02.28-13.40.15:023][813]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.28-13.40.15:025][813]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.28-14.40.15
+[2018.02.28-13.40.15:026][813]LogWorld: Bringing up level for play took: 0.001811
+[2018.02.28-13.40.15:031][813]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.23
+[2018.02.28-13.40.15:031][813]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.28-13.40.21:752][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.28-13.40.21:803][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.28-13.41.01:070][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.28-13.41.07:034][386]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0007 seconds. Added 15 classes and 2 folders.
+[2018.02.28-13.41.07:054][386]LogInit: Transaction tracking system initialized
+[2018.02.28-13.41.07:071][386]EditorErrors: New page: Matinee Initialization
+[2018.02.28-13.41.17:901][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.28-13.42.51:158][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.28-13.42.51:695][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.28-13.42.51:784][970]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.02.28-13.42.53:420][154]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.02.28-13.44.26:263][755]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2018.02.28-13.45.38:591][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.02.28-13.45.41:518][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.02.28-13.45.43:008][474]LogEditorViewport: Clicking on Actor (LMB): paredes_C (paredes3)
+[2018.02.28-13.45.43:964][582]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerAscensor)
+[2018.02.28-13.49.04:144][988]LogExit: Transaction tracking system shut down
+[2018.02.28-13.49.04:478][988]LogSavePackage: Save=300.02ms
+[2018.02.28-13.49.04:478][988]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto42BF1BAF348FF9E915EBD4E8B806F5C2B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto4.umap'
+[2018.02.28-13.49.04:482][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto4.umap
+[2018.02.28-13.49.04:485][988]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.367
+[2018.02.28-13.49.04:485][988]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.367
+[2018.02.28-13.49.04:487][988]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/LuzAscensor] ([1] browsable assets)...
+[2018.02.28-13.49.04:487][988]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/LuzAscensor]
+[2018.02.28-13.49.04:505][988]LogSavePackage: Save=14.29ms
+[2018.02.28-13.49.04:505][988]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/LuzAscensor_Auto4C96436C34EFAA9D0EA0B4C8297173D85.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/LuzAscensor_Auto4.uasset'
+[2018.02.28-13.49.04:508][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/LuzAscensor_Auto4.uasset
+[2018.02.28-13.49.04:508][988]LogFileHelpers: Auto-saving content packages took 0.022
+[2018.02.28-14.01.59:501][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.02.28-14.02.02:299][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.02.28-14.02.02:713][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.02.28-14.02.02:982][308]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.02.28-14.02.03:215][331]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.02.28-14.02.39:583][ 51]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (matineeAscensor)
+[2018.02.28-14.04.29:832][ 74]LogSavePackage: Save=301.26ms
+[2018.02.28-14.04.29:832][ 74]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto50BC0DCD6480ED4FC95E4BF9FE09E9031.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto5.umap'
+[2018.02.28-14.04.29:836][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto5.umap
+[2018.02.28-14.04.29:839][ 74]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.369
+[2018.02.28-14.04.29:839][ 74]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.369
+[2018.02.28-14.08.35:843][479]BlueprintLog: New page: Compile NewTutorial
+[2018.02.28-14.09.12:666][791]BlueprintLog: New page: Compile LuzAscensor
+[2018.02.28-14.09.49:333][ 68]BlueprintLog: New page: Compile NewTutorial
+[2018.02.28-14.09.50:575][192]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.28-14.09.50:603][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.28-14.09.50:603][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.28-14.09.50:603][192]PIE: New page: PIE session: NewTutorial (Feb 28, 2018, 4:09:50 PM)
+[2018.02.28-14.09.50:604][192]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.02.28-14.09.50:632][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027733s)
+[2018.02.28-14.09.50:633][192]LogAIModule: Creating AISystem for world NewTutorial
+[2018.02.28-14.09.50:633][192]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2018.02.28-14.09.50:633][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.029118s)
+[2018.02.28-14.09.50:663][192]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.28-14.09.50:674][192]LogInit: FAudioDevice initialized.
+[2018.02.28-14.09.50:707][192]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.28-14.09.50:710][192]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.02.28-15.09.50
+[2018.02.28-14.09.50:710][192]LogWorld: Bringing up level for play took: 0.001914
+[2018.02.28-14.09.50:715][192]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.546
+[2018.02.28-14.09.50:715][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.28-14.10.48:157][ 76]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.02.28-14.10.48:216][ 76]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
