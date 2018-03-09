@@ -1263,3 +1263,1408 @@ Make sure 'DialogosUI_C' has been compiled for  Get nextButton
 [2018.03.09-11.48.26:726][577]LogSavePackage: Save=22.25ms
 [2018.03.09-11.48.26:726][577]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/NewTutorial_BuiltDataBC9C0C084BA6F78F2A14C6AD768D1E4A.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial_BuiltData.uasset'
 [2018.03.09-11.48.26:727][577]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial_BuiltData.uasset
+[2018.03.09-11.49.57:426][758]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/javiergarciagomez/Downloads/Ascensor.FBX)
+[2018.03.09-11.49.57:457][758]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.09-11.49.57:457][758]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.03.09-11.49.57:457][758]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.03.09-11.49.57:457][758]LogFbx: ItemName: Model, ItemCount : 1
+[2018.03.09-11.49.57:457][758]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.09-11.49.57:466][758]LogFbx: Loading FBX Scene from ../../../../../../Users/javiergarciagomez/Downloads/Ascensor.FBX
+[2018.03.09-11.49.57:476][758]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.09-11.50.04:410][758]LogFbx: Loading FBX Scene from ../../../../../../Users/javiergarciagomez/Downloads/Ascensor.FBX
+[2018.03.09-11.50.04:418][758]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.09-11.50.04:427][758]LogStaticMesh: Building static mesh Ascensor...
+[2018.03.09-11.50.04:473][758]LogStaticMesh: Built static mesh [0.05s] /Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor.Ascensor
+[2018.03.09-11.50.04:482][758]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.09-11.50.11:324][171]LogActorFactory: Actor Factory created Ascensor
+[2018.03.09-11.50.11:711][217]LogActorFactory: Actor Factory created Ascensor
+[2018.03.09-11.50.41:973][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.03.09-11.50.48:180][295]LogSavePackage: Save=15.79ms
+[2018.03.09-11.50.48:180][295]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensor25FC27A24785C0DE05C20889734862DE.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.uasset'
+[2018.03.09-11.50.48:185][295]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensor.uasset
+[2018.03.09-11.51.02:367][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ascensor)
+[2018.03.09-11.51.20:480][745]LogRenderer: Reallocating scene render targets to support 1292x900 NumSamples 1 (Frame:288).
+[2018.03.09-11.52.41:181][224]BlueprintLog: New page: Compile AscensorBp
+[2018.03.09-11.52.57:790][146]LogEditorTransaction: Undo Modify Component(s)
+[2018.03.09-11.53.07:668][930]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/javiergarciagomez/Downloads/PuertaAscensor.FBX)
+[2018.03.09-11.53.07:675][930]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.09-11.53.07:675][930]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.03.09-11.53.07:675][930]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.03.09-11.53.07:675][930]LogFbx: ItemName: Model, ItemCount : 1
+[2018.03.09-11.53.07:675][930]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.09-11.53.07:681][930]LogFbx: Loading FBX Scene from ../../../../../../Users/javiergarciagomez/Downloads/PuertaAscensor.FBX
+[2018.03.09-11.53.07:687][930]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.09-11.53.10:073][930]LogFbx: Loading FBX Scene from ../../../../../../Users/javiergarciagomez/Downloads/PuertaAscensor.FBX
+[2018.03.09-11.53.10:079][930]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.09-11.53.10:083][930]LogStaticMesh: Building static mesh PuertaAscensor...
+[2018.03.09-11.53.10:085][930]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensor.PuertaAscensor
+[2018.03.09-11.53.10:087][930]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.09-11.53.17:224][488]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:1).
+[2018.03.09-11.54.25:590][957]LogSavePackage: Save=14.05ms
+[2018.03.09-11.54.25:590][957]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/PuertaAscensor5246997144D007FB7649CDA7EE6B93CF.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensor.uasset'
+[2018.03.09-11.54.25:595][957]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensor.uasset
+[2018.03.09-11.54.33:909][885]BlueprintLog: New page: Compile AscensorBp
+[2018.03.09-11.54.47:623][381]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-11.54.47:623][381]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-11.54.47:623][381]LogUObjectGlobals:Warning: Failed to find object 'Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial'
+[2018.03.09-11.55.38:519][902]BlueprintLog: New page: Compile AscensorBp
+[2018.03.09-11.55.40:198][ 30]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-11.55.40:224][ 30]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-11.55.40:224][ 30]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.09-11.55.40:224][ 30]LogPlayLevel: [PlayLevel] Compiling DialogosUI before play...
+[2018.03.09-11.55.40:335][ 30]LogPlayLevel: [PlayLevel] Compiling NewTutorial before play...
+[2018.03.09-11.55.40:467][ 30]LogPlayLevel: PlayLevel: Blueprint regeneration took 243 ms (2 blueprints)
+[2018.03.09-11.55.40:468][ 30]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 1:55:40 PM)
+[2018.03.09-11.55.40:468][ 30]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-11.55.40:474][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006093s)
+[2018.03.09-11.55.40:475][ 30]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-11.55.40:475][ 30]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2018.03.09-11.55.40:475][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.007304s)
+[2018.03.09-11.55.40:498][ 30]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-11.55.40:506][ 30]LogInit: FAudioDevice initialized.
+[2018.03.09-11.55.40:539][ 30]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-11.55.40:542][ 30]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-12.55.40
+[2018.03.09-11.55.40:543][ 30]LogWorld: Bringing up level for play took: 0.002099
+[2018.03.09-11.55.40:547][ 30]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 1.105
+[2018.03.09-11.55.40:547][ 30]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-11.55.51:358][311]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-11.55.51:409][311]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-11.55.52:276][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ascensor)
+[2018.03.09-11.55.53:177][507]Cmd: DELETE
+[2018.03.09-11.55.53:177][507]Cmd: ACTOR DELETE
+[2018.03.09-11.55.53:178][507]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.09-11.55.53:195][507]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.03.09-11.56.09:139][181]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-11.56.09:166][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-11.56.09:166][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-11.56.09:166][181]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 1:56:09 PM)
+[2018.03.09-11.56.09:167][181]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-11.56.09:173][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006121s)
+[2018.03.09-11.56.09:173][181]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-11.56.09:174][181]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2018.03.09-11.56.09:174][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.007029s)
+[2018.03.09-11.56.09:199][181]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-11.56.09:205][181]LogInit: FAudioDevice initialized.
+[2018.03.09-11.56.09:238][181]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-11.56.09:240][181]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-12.56.09
+[2018.03.09-11.56.09:241][181]LogWorld: Bringing up level for play took: 0.001776
+[2018.03.09-11.56.09:244][181]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.196
+[2018.03.09-11.56.09:245][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-11.56.21:980][708]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-11.56.22:019][708]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-11.56.28:508][400]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-11.56.28:508][400]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-11.57.07:868][997]Cmd: MODE SCALEGRID=1
+[2018.03.09-11.57.11:403][417]Cmd: MODE SCALEGRID=0
+[2018.03.09-11.57.33:034][827]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-11.57.56:148][326]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-11.58.37:738][ 64]BlueprintLog: New page: Compile AscensorBp
+[2018.03.09-11.58.40:844][344]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-11.58.40:844][344]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-11.59.02:797][701]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-11.59.11:305][653]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-11.59.25:218][186]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: AscensorBp_C_0.Cube6 Cube 
+[2018.03.09-11.59.25:218][186]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: AscensorBp_150.Cube6 Cube 
+[2018.03.09-11.59.27:720][480]BlueprintLog: New page: Compile AscensorBp
+[2018.03.09-11.59.29:176][588]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-11.59.29:202][588]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-11.59.29:202][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-11.59.29:202][588]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 1:59:29 PM)
+[2018.03.09-11.59.29:203][588]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-11.59.29:209][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006786s)
+[2018.03.09-11.59.29:210][588]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-11.59.29:210][588]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2018.03.09-11.59.29:210][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.007814s)
+[2018.03.09-11.59.29:233][588]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-11.59.29:241][588]LogInit: FAudioDevice initialized.
+[2018.03.09-11.59.29:270][588]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-11.59.29:272][588]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-12.59.29
+[2018.03.09-11.59.29:273][588]LogWorld: Bringing up level for play took: 0.001935
+[2018.03.09-11.59.29:277][588]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.152
+[2018.03.09-11.59.29:277][588]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-11.59.48:452][888]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-11.59.48:495][888]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.00.11:894][606]LogEditorTransaction: Undo Modify Component(s)
+[2018.03.09-12.00.12:179][636]LogEditorTransaction: Undo Modify Component(s)
+[2018.03.09-12.00.12:509][673]LogEditorTransaction: Undo Attach Components
+[2018.03.09-12.00.20:199][572]BlueprintLog: New page: Compile AscensorBp
+[2018.03.09-12.00.21:551][711]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-12.00.21:577][711]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.00.21:577][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-12.00.21:577][711]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 2:00:21 PM)
+[2018.03.09-12.00.21:577][711]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-12.00.21:583][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006189s)
+[2018.03.09-12.00.21:584][711]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-12.00.21:584][711]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2018.03.09-12.00.21:584][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.007206s)
+[2018.03.09-12.00.21:611][711]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-12.00.21:618][711]LogInit: FAudioDevice initialized.
+[2018.03.09-12.00.21:651][711]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-12.00.21:654][711]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-13.00.21
+[2018.03.09-12.00.21:655][711]LogWorld: Bringing up level for play took: 0.002187
+[2018.03.09-12.00.21:658][711]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.232
+[2018.03.09-12.00.21:659][711]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.00.38:343][712]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.00.38:384][712]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.01.03:341][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/NewTutorial" FILE="D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.03.09-12.01.03:674][694]LogSavePackage: Save=315.16ms
+[2018.03.09-12.01.03:674][694]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/NewTutorial_Auto4FE8C594C4D7D18F2BFA233BD54B030E3.tmp' to 'D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto4.umap'
+[2018.03.09-12.01.03:677][694]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto4.umap
+[2018.03.09-12.01.03:680][694]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.357
+[2018.03.09-12.01.03:680][694]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.357
+[2018.03.09-12.01.03:683][694]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI] ([1] browsable assets)...
+[2018.03.09-12.01.03:683][694]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI]
+[2018.03.09-12.01.03:707][694]LogSavePackage: Save=8.96ms
+[2018.03.09-12.01.03:707][694]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/DialogosUI_Auto42CB4E2EF4D45E069818E75B481B679B7.tmp' to 'D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI_Auto4.uasset'
+[2018.03.09-12.01.03:711][694]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI_Auto4.uasset
+[2018.03.09-12.01.03:712][694]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp] ([1] browsable assets)...
+[2018.03.09-12.01.03:758][694]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp.AscensorBp]
+[2018.03.09-12.01.03:758][694]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp]
+[2018.03.09-12.01.03:788][694]LogSavePackage: Save=26.65ms
+[2018.03.09-12.01.03:788][694]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/AscensorBp_Auto4549432E14182018E679DB8812F7BB11B.tmp' to 'D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp_Auto4.uasset'
+[2018.03.09-12.01.03:791][694]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp_Auto4.uasset
+[2018.03.09-12.01.03:791][694]LogFileHelpers: Auto-saving content packages took 0.109
+[2018.03.09-12.02.00:622][526]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/javiergarciagomez/Downloads/Ascensorpintado.png)
+[2018.03.09-12.02.00:672][526]LogTexture:Display: Building textures: Ascensorpintado (AutoDXT, 1024X1024)
+[2018.03.09-12.02.06:222][ 70]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.02.41:955][  6]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-12.02.41:980][  6]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.02.41:980][  6]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-12.02.41:980][  6]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 2:02:41 PM)
+[2018.03.09-12.02.41:981][  6]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-12.02.41:987][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005890s)
+[2018.03.09-12.02.41:987][  6]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-12.02.41:988][  6]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2018.03.09-12.02.41:988][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.007303s)
+[2018.03.09-12.02.42:012][  6]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-12.02.42:020][  6]LogInit: FAudioDevice initialized.
+[2018.03.09-12.02.42:050][  6]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-12.02.42:053][  6]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-13.02.42
+[2018.03.09-12.02.42:054][  6]LogWorld: Bringing up level for play took: 0.002254
+[2018.03.09-12.02.42:057][  6]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.637
+[2018.03.09-12.02.42:057][  6]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.02.58:300][954]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.02.58:343][954]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.03.30:967][201]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/javiergarciagomez/Downloads/PuertaAscensorpintado.png)
+[2018.03.09-12.03.31:013][201]LogTexture:Display: Building textures: PuertaAscensorpintado (AutoDXT, 1024X1024)
+[2018.03.09-12.03.35:447][631]LogMaterial: Missing cached shader map for material PuertaAscensorpintado_Mat, compiling. 
+[2018.03.09-12.03.45:677][627]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.03.45:803][627]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.03.45:809][627]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.03.45:824][627]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.03.45:860][627]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.03.47:187][758]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.03.47:187][758]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.03.47:187][758]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.03.47:187][758]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.03.48:265][886]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.03.48:302][886]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.03.49:391][ 10]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.03.49:391][ 10]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.03.49:391][ 10]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.03.49:391][ 10]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.03.50:271][115]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.03.50:289][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.03.51:387][240]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.03.51:387][240]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.03.51:387][240]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.03.51:387][240]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.03.53:466][489]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.03.53:483][489]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.03.54:572][612]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2018.03.09-12.03.54:572][612]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.03.54:572][612]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.03.54:572][612]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.03.56:755][874]LogMaterialEditor: Saving and Compiling material Ascensorpintado_Mat
+[2018.03.09-12.03.57:577][874]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.03.57:618][874]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.03.57:638][874]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.03.57:675][874]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.03.58:385][874]TextureStreamingBuild:Display: Compiling optional shaders took 0.715 seconds.
+[2018.03.09-12.03.59:551][874]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.09-12.03.59:635][874]LogSavePackage: Save=16.80ms
+[2018.03.09-12.03.59:635][874]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensorpintado_Mat207E6B70418F982F51FFBABD3CB7A9C8.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset'
+[2018.03.09-12.03.59:641][874]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset
+[2018.03.09-12.03.59:648][874]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2018.03.09-12.03.59:648][874]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.03.59:648][874]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.03.09-12.03.59:648][874]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.04.07:473][785]LogMaterialEditor: Saving and Compiling material Ascensorpintado_Mat
+[2018.03.09-12.04.07:505][785]LogSavePackage: Save=6.63ms
+[2018.03.09-12.04.07:505][785]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensorpintado_MatF52EF4054609D063394D7F844A545E5A.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset'
+[2018.03.09-12.04.07:508][785]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset
+[2018.03.09-12.04.09:950][ 57]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-12.04.09:976][ 57]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.04.09:976][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-12.04.09:976][ 57]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 2:04:09 PM)
+[2018.03.09-12.04.09:977][ 57]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-12.04.09:983][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006336s)
+[2018.03.09-12.04.09:984][ 57]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-12.04.09:984][ 57]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2018.03.09-12.04.09:984][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.007606s)
+[2018.03.09-12.04.10:007][ 57]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-12.04.10:015][ 57]LogInit: FAudioDevice initialized.
+[2018.03.09-12.04.10:044][ 57]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-12.04.10:048][ 57]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-13.04.10
+[2018.03.09-12.04.10:048][ 57]LogWorld: Bringing up level for play took: 0.002240
+[2018.03.09-12.04.10:052][ 57]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.635
+[2018.03.09-12.04.10:052][ 57]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.04.18:203][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.04.18:246][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.04.20:108][250]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.20:146][250]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.04.21:766][437]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2018.03.09-12.04.21:766][437]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.04.21:766][437]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.04.21:766][437]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.04.21:960][460]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.21:974][460]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.04.23:152][594]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2018.03.09-12.04.23:152][594]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.04.23:152][594]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.04.23:152][594]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.04.25:831][915]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.25:844][915]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.04.26:928][ 38]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2018.03.09-12.04.26:928][ 38]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.04.26:928][ 38]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.04.26:928][ 38]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.04.28:615][239]LogMaterialEditor: Saving and Compiling material Ascensorpintado_Mat
+[2018.03.09-12.04.29:433][239]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.29:473][239]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.29:495][239]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.29:531][239]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.30:250][239]TextureStreamingBuild:Display: Compiling optional shaders took 0.724 seconds.
+[2018.03.09-12.04.31:504][239]LogSavePackage: Save=16.68ms
+[2018.03.09-12.04.31:504][239]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensorpintado_Mat90CBFB45428A79CB383954ABE93C0901.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset'
+[2018.03.09-12.04.31:510][239]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset
+[2018.03.09-12.04.31:516][239]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2018.03.09-12.04.31:516][239]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.04.31:516][239]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.03.09-12.04.31:516][239]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.04.36:426][813]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.36:444][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.04.37:523][934]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2018.03.09-12.04.37:523][934]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.04.37:523][934]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.04.37:523][934]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.04.38:432][ 43]LogMaterialEditor: Saving and Compiling material Ascensorpintado_Mat
+[2018.03.09-12.04.39:263][ 43]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.39:300][ 43]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.39:321][ 43]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.39:357][ 43]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.40:067][ 43]TextureStreamingBuild:Display: Compiling optional shaders took 0.714 seconds.
+[2018.03.09-12.04.41:325][ 43]LogSavePackage: Save=15.98ms
+[2018.03.09-12.04.41:325][ 43]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensorpintado_Mat244DB2794F87A6A4F22862A63C87A959.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset'
+[2018.03.09-12.04.41:331][ 43]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset
+[2018.03.09-12.04.41:338][ 43]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2018.03.09-12.04.41:338][ 43]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.04.41:338][ 43]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.03.09-12.04.41:338][ 43]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.04.51:949][301]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.51:989][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.04.53:090][425]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.04.53:090][425]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.04.53:090][425]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.04.53:090][425]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.04.54:233][562]LogMaterialEditor: Saving and Compiling material Ascensorpintado_Mat
+[2018.03.09-12.04.55:057][562]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.55:095][562]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.55:116][562]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.55:152][562]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.04.55:871][562]TextureStreamingBuild:Display: Compiling optional shaders took 0.725 seconds.
+[2018.03.09-12.04.57:124][562]LogSavePackage: Save=16.31ms
+[2018.03.09-12.04.57:124][562]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensorpintado_MatC8313F154508FF3950804EA08443A576.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset'
+[2018.03.09-12.04.57:130][562]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset
+[2018.03.09-12.04.57:137][562]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.04.57:137][562]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.04.57:137][562]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.03.09-12.04.57:137][562]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.05.02:582][202]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling. 
+[2018.03.09-12.05.08:743][941]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.08:757][941]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.09:853][ 66]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.05.09:853][ 66]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.05.09:853][ 66]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.05.09:853][ 66]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.05.10:899][190]LogMaterialEditor: Saving and Compiling material Ascensorpintado_Mat
+[2018.03.09-12.05.11:720][190]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.11:759][190]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.11:780][190]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.11:817][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.12:526][190]TextureStreamingBuild:Display: Compiling optional shaders took 0.715 seconds.
+[2018.03.09-12.05.13:762][190]LogSavePackage: Save=15.43ms
+[2018.03.09-12.05.13:762][190]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensorpintado_Mat6ADF66AC48398AC33976A7BCF52C25CB.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset'
+[2018.03.09-12.05.13:768][190]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset
+[2018.03.09-12.05.13:774][190]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.05.13:774][190]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.05.13:774][190]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.03.09-12.05.13:774][190]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.05.32:612][417]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.32:630][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.33:882][560]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.03.09-12.05.33:882][560]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.05.33:882][560]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.05.33:882][560]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.05.37:037][938]LogMaterialEditor: Applying material Ascensorpintado_Mat
+[2018.03.09-12.05.37:860][938]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.37:897][938]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.37:918][938]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.37:954][938]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.38:694][938]TextureStreamingBuild:Display: Compiling optional shaders took 0.744 seconds.
+[2018.03.09-12.05.40:363][121]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.03.09-12.05.40:363][121]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.05.40:363][121]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.03.09-12.05.40:363][121]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.05.45:579][736]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.45:618][736]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.45:624][736]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.45:662][736]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.46:458][825]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.46:496][825]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.47:642][954]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.05.47:642][954]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.05.47:642][954]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.05.47:642][954]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.05.50:253][260]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.05.50:293][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.50:298][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.51:334][377]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.05.51:334][377]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.05.51:334][377]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.05.51:334][377]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.05.59:209][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:213][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:243][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:247][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:295][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:299][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:329][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:333][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:364][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:368][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:397][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:402][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:431][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:435][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:465][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:469][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:498][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:503][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:533][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:537][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:567][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:571][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:601][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:605][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:636][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:640][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:669][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:673][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:875][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:880][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:909][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:913][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:943][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:947][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.05.59:977][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.05.59:982][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:012][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:016][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:046][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:050][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:080][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:084][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:614][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:618][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:708][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:712][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:741][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:746][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:776][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:781][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:810][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:815][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:844][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:849][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:878][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:883][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:912][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:916][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:946][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:950][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.00:981][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.00:985][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:014][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:019][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:048][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:053][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:083][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:087][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:117][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:121][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:151][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:156][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:186][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:190][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:219][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:224][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:253][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:257][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:288][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:292][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:322][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:327][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:357][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:361][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:391][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:395][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:425][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:429][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:459][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:463][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:560][413]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:564][413]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:592][413]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.01:605][413]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:609][413]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:639][413]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:644][413]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:777][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:781][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:879][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:883][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:911][433]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.01:925][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:930][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.01:959][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.01:964][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.02:320][471]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.02:324][471]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.02:360][472]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.02:365][472]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.02:395][472]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.02:399][472]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.02:430][472]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.02:434][472]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.02:464][472]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.02:469][472]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.02:830][511]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.02:834][511]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.02:862][511]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.02:876][511]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.02:880][511]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.02:911][511]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.02:915][511]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.03:652][593]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.03:656][593]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.03:722][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.03:726][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.03:756][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.03:760][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.03:968][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.03:972][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.04:000][618]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.04:014][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.04:019][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.04:049][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.04:053][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.05:329][764]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.06.05:329][764]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.06.05:329][764]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.06.05:329][764]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.06.08:669][162]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.08:685][162]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.08:689][162]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.09:903][299]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.03.09-12.06.09:903][299]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.06.09:903][299]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.06.09:903][299]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.06.12:513][610]LogMaterialEditor: Saving and Compiling material Ascensorpintado_Mat
+[2018.03.09-12.06.13:333][610]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.13:372][610]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.13:392][610]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.13:432][610]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.14:154][610]TextureStreamingBuild:Display: Compiling optional shaders took 0.726 seconds.
+[2018.03.09-12.06.15:383][610]LogSavePackage: Save=15.59ms
+[2018.03.09-12.06.15:383][610]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensorpintado_Mat324A2F1941EF1D793011F89111FF66D4.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset'
+[2018.03.09-12.06.15:394][610]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset
+[2018.03.09-12.06.15:399][610]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.03.09-12.06.15:399][610]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.06.15:399][610]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.03.09-12.06.15:399][610]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.06.21:164][278]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.21:165][278]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Ascensorpintado_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.09-12.06.21:165][278]LogMaterial:Warning: 	(Node TextureSample) Coercion failed: Material.VectorExpressions[1].rgb: float3 -> float2
+[2018.03.09-12.06.21:168][278]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.21:170][278]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.21:196][278]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Coercion failed: Material.VectorExpressions[1].rgb: float3 -> float2
+[2018.03.09-12.06.24:174][631]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.24:175][631]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Ascensorpintado_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.09-12.06.24:175][631]LogMaterial:Warning: 	(Node TextureSample) Coercion failed: Material.VectorExpressions[1].rgb: float3 -> float2
+[2018.03.09-12.06.24:200][631]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.24:202][631]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.24:208][631]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.24:208][631]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Ascensorpintado_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.09-12.06.24:208][631]LogMaterial:Warning: 	(Node TextureSample) Coercion failed: Material.VectorExpressions[1].rgb: float3 -> float2
+[2018.03.09-12.06.24:239][631]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.24:240][631]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.25:055][724]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.25:094][724]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.25:099][724]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.26:161][844]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.03.09-12.06.26:161][844]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.06.26:161][844]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.06.26:161][844]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.06.27:555][ 10]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.27:590][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.27:594][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.27:600][ 10]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.27:639][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.27:643][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.27:699][ 13]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.06.27:738][ 13]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.06.27:743][ 13]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.06.28:904][145]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.06.28:904][145]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.06.28:904][145]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.06.28:904][145]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.08.40:899][967]LogMaterialEditor: Saving and Compiling material Ascensorpintado_Mat
+[2018.03.09-12.08.41:713][967]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.08.41:749][967]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.08.41:771][967]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.08.41:808][967]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.08.42:850][967]TextureStreamingBuild:Display: Compiling optional shaders took 1.047 seconds.
+[2018.03.09-12.08.44:086][967]LogSavePackage: Save=15.74ms
+[2018.03.09-12.08.44:086][967]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensorpintado_Mat29BF38A4466A5F2DAF7612AD67F453A4.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset'
+[2018.03.09-12.08.44:092][967]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset
+[2018.03.09-12.08.44:100][967]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.08.44:100][967]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.08.44:100][967]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.03.09-12.08.44:100][967]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.09.25:854][958]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.25:891][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.09.25:896][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.09.25:902][958]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.25:941][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.09.25:945][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.09.27:793][168]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.27:830][168]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.09.27:834][168]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.09.29:153][319]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.09.29:154][319]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.09.29:154][319]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.09.29:154][319]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.09.29:269][332]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.29:288][332]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.09.29:292][332]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.09.30:551][476]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.09.30:551][476]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.09.30:551][476]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.09.30:551][476]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.09.30:920][519]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.30:936][519]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.09.30:940][519]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.09.32:024][642]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.03.09-12.09.32:024][642]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.09.32:024][642]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.09.32:024][642]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.09.34:105][890]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.34:120][890]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.09.34:124][890]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.09.35:211][ 13]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.03.09-12.09.35:211][ 13]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.09.35:211][ 13]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.09.35:211][ 13]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.09.36:939][218]LogMaterialEditor: Saving and Compiling material Ascensorpintado_Mat
+[2018.03.09-12.09.37:764][218]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.37:803][218]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.37:825][218]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.37:862][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.38:582][218]TextureStreamingBuild:Display: Compiling optional shaders took 0.725 seconds.
+[2018.03.09-12.09.39:867][218]LogSavePackage: Save=14.94ms
+[2018.03.09-12.09.39:867][218]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensorpintado_Mat99FFE1304859557350F989BE2529C364.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset'
+[2018.03.09-12.09.39:872][218]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset
+[2018.03.09-12.09.39:880][218]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.03.09-12.09.39:880][218]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.09.39:880][218]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.03.09-12.09.39:880][218]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.09.48:696][267]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.48:733][267]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.09.48:737][267]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.09.48:743][267]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.48:781][267]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.09.48:786][267]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.09.50:001][404]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.03.09-12.09.50:001][404]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.09.50:001][404]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.09.50:001][404]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.09.56:072][130]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.56:113][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.09.56:117][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.09.56:124][130]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.56:162][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.09.56:167][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.09.56:572][173]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.09.56:610][173]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.09.56:614][173]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.09.57:801][308]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.03.09-12.09.57:801][308]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.09.57:801][308]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.09.57:801][308]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.10.00:211][595]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.10.00:250][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.10.00:254][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.10.01:385][723]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.03.09-12.10.01:385][723]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.10.01:385][723]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.10.01:385][723]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.10.01:670][756]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.10.01:688][756]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.10.01:692][756]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.10.02:802][882]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2018.03.09-12.10.02:802][882]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.10.02:802][882]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.10.02:802][882]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.10.03:883][ 10]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.10.03:922][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.10.03:927][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.10.03:933][ 10]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.10.03:973][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.10.03:977][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.10.04:051][ 15]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.10.04:088][ 15]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.10.04:093][ 15]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.10.05:255][147]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.10.05:255][147]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.10.05:255][147]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.10.05:255][147]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.10.07:482][412]LogMaterialEditor: Applying material Ascensorpintado_Mat
+[2018.03.09-12.10.08:302][412]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.10.08:339][412]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.10.08:360][412]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.10.08:397][412]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.10.09:129][412]TextureStreamingBuild:Display: Compiling optional shaders took 0.737 seconds.
+[2018.03.09-12.10.10:834][598]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.10.10:834][598]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.10.10:834][598]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.03.09-12.10.10:834][598]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.11.33:392][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/NewTutorial" FILE="D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.03.09-12.11.33:726][470]LogSavePackage: Save=317.71ms
+[2018.03.09-12.11.33:726][470]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/NewTutorial_Auto54934987A4E2415161CD2628266AE8636.tmp' to 'D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto5.umap'
+[2018.03.09-12.11.33:729][470]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto5.umap
+[2018.03.09-12.11.33:732][470]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.360
+[2018.03.09-12.11.33:732][470]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.360
+[2018.03.09-12.11.33:734][470]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp] ([1] browsable assets)...
+[2018.03.09-12.11.33:747][470]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp.AscensorBp]
+[2018.03.09-12.11.33:747][470]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp]
+[2018.03.09-12.11.33:777][470]LogSavePackage: Save=26.74ms
+[2018.03.09-12.11.33:777][470]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/AscensorBp_Auto55C04340D4C4BD33F83DE899EEEDFBF86.tmp' to 'D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp_Auto5.uasset'
+[2018.03.09-12.11.33:779][470]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp_Auto5.uasset
+[2018.03.09-12.11.33:780][470]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado] ([1] browsable assets)...
+[2018.03.09-12.11.33:787][470]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado.Ascensorpintado]
+[2018.03.09-12.11.33:787][470]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado]
+[2018.03.09-12.11.33:801][470]LogSavePackage: Save=10.38ms
+[2018.03.09-12.11.33:801][470]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensorpintado_Auto5E2D881CE49ADDF6CCA3E6682A202DC4F.tmp' to 'D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Auto5.uasset'
+[2018.03.09-12.11.33:804][470]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Auto5.uasset
+[2018.03.09-12.11.33:805][470]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat] ([1] browsable assets)...
+[2018.03.09-12.11.33:819][470]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.Ascensorpintado_Mat]
+[2018.03.09-12.11.33:819][470]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat]
+[2018.03.09-12.11.33:845][470]LogSavePackage: Save=16.12ms
+[2018.03.09-12.11.33:845][470]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensorpintado_Mat_Auto537C2F2A045D9AC8088E0B6B60D287E54.tmp' to 'D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat_Auto5.uasset'
+[2018.03.09-12.11.33:847][470]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat_Auto5.uasset
+[2018.03.09-12.11.33:848][470]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado] ([1] browsable assets)...
+[2018.03.09-12.11.33:855][470]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado.PuertaAscensorpintado]
+[2018.03.09-12.11.33:855][470]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado]
+[2018.03.09-12.11.33:869][470]LogSavePackage: Save=9.50ms
+[2018.03.09-12.11.33:869][470]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/PuertaAscensorpintado_Auto50477C4564B2874AC208C578C62194C21.tmp' to 'D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado_Auto5.uasset'
+[2018.03.09-12.11.33:871][470]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado_Auto5.uasset
+[2018.03.09-12.11.33:872][470]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado_Mat] ([1] browsable assets)...
+[2018.03.09-12.11.33:885][470]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado_Mat.PuertaAscensorpintado_Mat]
+[2018.03.09-12.11.33:885][470]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado_Mat]
+[2018.03.09-12.11.33:903][470]LogSavePackage: Save=13.96ms
+[2018.03.09-12.11.33:903][470]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/PuertaAscensorpintado_Mat_Auto50A6AA26E4AE6D96B5D0C9596C6BE680F.tmp' to 'D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado_Mat_Auto5.uasset'
+[2018.03.09-12.11.33:906][470]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado_Mat_Auto5.uasset
+[2018.03.09-12.11.33:906][470]LogFileHelpers: Auto-saving content packages took 0.173
+[2018.03.09-12.12.54:141][ 94]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-12.12.54:142][ 94]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-12.13.35:270][848]Cmd: MODE ROTGRID=0
+[2018.03.09-12.13.51:035][658]LogEditorTransaction: Undo Modify Component(s)
+[2018.03.09-12.13.51:054][658]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.13.51:069][658]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.13.51:073][658]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.13.52:835][852]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.13.52:835][852]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.13.52:835][852]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.13.52:835][852]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.14.01:950][912]LogEditorTransaction: Undo Modify Component(s)
+[2018.03.09-12.14.01:963][912]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.14.02:001][912]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.14.02:005][912]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.09-12.14.03:155][ 38]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.14.03:155][ 38]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.14.03:155][ 38]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.14.03:155][ 38]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.14.20:963][ 83]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.14.20:998][ 83]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.09-12.14.22:128][211]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.14.22:128][211]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.14.22:128][211]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.14.22:128][211]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.14.23:120][330]LogMaterialEditor: Saving and Compiling material Ascensorpintado_Mat
+[2018.03.09-12.14.23:944][330]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.14.23:986][330]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.14.24:006][330]LogMaterial: Missing cached shader map for material Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.14.24:185][330]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.09-12.14.24:764][330]TextureStreamingBuild:Display: Compiling optional shaders took 0.584 seconds.
+[2018.03.09-12.14.25:995][330]LogSavePackage: Save=15.19ms
+[2018.03.09-12.14.25:995][330]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/Ascensorpintado_Mat5C629E8C46672FB1D5B72A85BFDCBAB6.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset'
+[2018.03.09-12.14.26:005][330]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado_Mat.uasset
+[2018.03.09-12.14.26:010][330]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.14.26:010][330]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.03.09-12.14.26:010][330]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.03.09-12.14.26:010][330]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.09-12.14.42:038][169]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.14.42:145][169]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.14.42:160][169]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.14.43:394][298]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.03.09-12.14.43:394][298]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.14.43:394][298]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.14.49:508][ 27]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.14.50:542][140]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.03.09-12.14.50:542][140]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.14.50:542][140]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.14.51:741][281]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.14.51:779][281]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.52:792][395]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.03.09-12.14.52:792][395]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.14.52:792][395]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.14.55:692][741]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.55:722][741]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.55:758][742]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.55:787][742]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.55:817][742]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.55:847][742]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.55:876][742]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.55:906][742]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.55:935][742]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.55:965][742]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.56:328][782]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.56:357][782]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.56:386][782]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.56:932][843]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.56:968][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.56:998][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.57:027][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.57:057][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.57:087][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.57:116][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.57:444][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.57:472][879]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.14.57:486][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.57:516][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.14.58:754][ 19]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.03.09-12.14.58:754][ 19]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.14.58:754][ 19]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.15.00:208][193]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.15.00:222][193]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.15.01:339][318]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.03.09-12.15.01:339][318]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.15.01:339][318]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.15.05:695][835]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.15.05:732][835]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.15.05:739][835]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.15.05:775][835]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.15.06:957][968]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.03.09-12.15.06:957][968]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.15.06:957][968]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.15.07:478][ 30]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.15.07:514][ 30]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.15.08:549][148]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.03.09-12.15.08:549][148]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.15.08:549][148]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.15.09:311][239]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.15.09:328][239]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.15.10:416][363]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.03.09-12.15.10:416][363]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.15.10:416][363]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.15.10:604][385]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.15.10:621][385]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.15.11:760][514]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.15.11:760][514]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.15.11:760][514]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.15.17:814][240]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.15.17:829][240]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2018.03.09-12.15.18:831][353]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.15.18:831][353]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.15.18:831][353]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.15.20:548][559]LogMaterialEditor: Saving and Compiling material RedEmisive_Mat
+[2018.03.09-12.15.21:371][559]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.15.21:408][559]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.15.21:429][559]LogMaterial: Missing cached shader map for material RedEmisive_Mat, compiling. 
+[2018.03.09-12.15.21:467][559]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy RedEmisive_Mat, compiling. 
+[2018.03.09-12.15.22:137][559]TextureStreamingBuild:Display: Compiling optional shaders took 0.675 seconds.
+[2018.03.09-12.15.23:347][559]LogSavePackage: Save=14.14ms
+[2018.03.09-12.15.23:347][559]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/RedEmisive_MatF7A3DE7A44031D9D247FA2B9E29A0149.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/RedEmisive_Mat.uasset'
+[2018.03.09-12.15.23:352][559]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/RedEmisive_Mat.uasset
+[2018.03.09-12.15.23:360][559]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.15.23:360][559]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.15.23:360][559]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.15.32:720][593]BlueprintLog: New page: Compile AscensorBp
+[2018.03.09-12.15.34:755][768]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-12.15.34:780][768]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.15.34:780][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-12.15.34:780][768]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 2:15:34 PM)
+[2018.03.09-12.15.34:780][768]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-12.15.34:787][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006658s)
+[2018.03.09-12.15.34:788][768]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-12.15.34:788][768]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2018.03.09-12.15.34:788][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.007749s)
+[2018.03.09-12.15.34:810][768]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-12.15.34:817][768]LogInit: FAudioDevice initialized.
+[2018.03.09-12.15.34:851][768]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-12.15.34:854][768]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-13.15.34
+[2018.03.09-12.15.34:854][768]LogWorld: Bringing up level for play took: 0.001905
+[2018.03.09-12.15.34:858][768]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.526
+[2018.03.09-12.15.34:858][768]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.15.48:476][401]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.15.48:521][401]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.16.11:733][138]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-12.16.11:734][138]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.03.09-12.16.26:132][762]BlueprintLog: New page: Compile AscensorBp
+[2018.03.09-12.16.31:181][270]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-12.16.31:208][270]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.16.31:208][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-12.16.31:209][270]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 2:16:31 PM)
+[2018.03.09-12.16.31:209][270]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-12.16.31:216][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006452s)
+[2018.03.09-12.16.31:216][270]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-12.16.31:217][270]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2018.03.09-12.16.31:217][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.007707s)
+[2018.03.09-12.16.31:239][270]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-12.16.31:247][270]LogInit: FAudioDevice initialized.
+[2018.03.09-12.16.31:276][270]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-12.16.31:279][270]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-13.16.31
+[2018.03.09-12.16.31:279][270]LogWorld: Bringing up level for play took: 0.002347
+[2018.03.09-12.16.31:283][270]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.099
+[2018.03.09-12.16.31:283][270]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.17.14:126][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.17.14:167][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.17.18:895][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.03.09-12.17.28:773][112]Cmd: DELETE
+[2018.03.09-12.17.28:773][112]Cmd: ACTOR DELETE
+[2018.03.09-12.17.31:092][112]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.09-12.17.31:110][112]LogEditorActor: Deleted 1 Actors (2.337 secs)
+[2018.03.09-12.17.32:182][220]LogEditorViewport: Clicking on Actor (LMB): AscensorBp_C (AscensorBp)
+[2018.03.09-12.18.08:769][356]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-12.18.08:796][356]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.18.08:796][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-12.18.08:796][356]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 2:18:08 PM)
+[2018.03.09-12.18.08:796][356]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-12.18.08:802][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006395s)
+[2018.03.09-12.18.08:803][356]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-12.18.08:804][356]LogPlayLevel: PIE: World Init took: (0.001224s)
+[2018.03.09-12.18.08:804][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.007962s)
+[2018.03.09-12.18.08:845][356]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-12.18.08:852][356]LogInit: FAudioDevice initialized.
+[2018.03.09-12.18.08:885][356]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-12.18.08:888][356]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-13.18.08
+[2018.03.09-12.18.08:889][356]LogWorld: Bringing up level for play took: 0.002082
+[2018.03.09-12.18.08:892][356]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.485
+[2018.03.09-12.18.08:892][356]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.18.15:043][ 93]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.18.15:084][ 93]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.18.16:136][207]LogEditorViewport: Clicking on Actor (LMB): AscensorBp_C (AscensorBp)
+[2018.03.09-12.18.26:552][372]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-12.18.26:578][372]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.18.26:578][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-12.18.26:578][372]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 2:18:26 PM)
+[2018.03.09-12.18.26:578][372]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-12.18.26:585][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006264s)
+[2018.03.09-12.18.26:585][372]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-12.18.26:585][372]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2018.03.09-12.18.26:586][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.007317s)
+[2018.03.09-12.18.26:609][372]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-12.18.26:616][372]LogInit: FAudioDevice initialized.
+[2018.03.09-12.18.26:646][372]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-12.18.26:649][372]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-13.18.26
+[2018.03.09-12.18.26:650][372]LogWorld: Bringing up level for play took: 0.002255
+[2018.03.09-12.18.26:653][372]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.723
+[2018.03.09-12.18.26:654][372]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.18.32:804][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.18.32:843][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.18.36:766][547]LogEditorViewport: Clicking on Actor (LMB): AscensorBp_C (AscensorBp)
+[2018.03.09-12.18.47:211][731]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (matineeAscensor)
+[2018.03.09-12.18.50:300][963]LogInit: Transaction tracking system initialized
+[2018.03.09-12.18.50:300][963]EditorErrors: New page: Matinee Initialization
+[2018.03.09-12.19.23:477][898]LogEditorViewport: Clicking on Actor (LMB): AscensorBp_C (AscensorBp)
+[2018.03.09-12.20.26:081][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/NewTutorial" FILE="D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.09-12.20.26:444][689]LogSavePackage: Save=321.47ms
+[2018.03.09-12.20.26:444][689]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/NewTutorial65C71A294E127FBFCC10DE90120E8A13.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap'
+[2018.03.09-12.20.26:454][689]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap
+[2018.03.09-12.20.26:493][689]LogFileHelpers: Saving map 'NewTutorial' took 0.608
+[2018.03.09-12.20.29:873][ 60]BlueprintLog: New page: Compile NewTutorial
+[2018.03.09-12.20.30:003][ 60]LogExit: Transaction tracking system shut down
+[2018.03.09-12.20.34:206][561]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-12.20.34:231][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.20.34:231][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-12.20.34:231][561]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 2:20:34 PM)
+[2018.03.09-12.20.34:232][561]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-12.20.34:238][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006060s)
+[2018.03.09-12.20.34:239][561]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-12.20.34:239][561]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2018.03.09-12.20.34:239][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.007582s)
+[2018.03.09-12.20.34:263][561]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-12.20.34:270][561]LogInit: FAudioDevice initialized.
+[2018.03.09-12.20.34:303][561]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-12.20.34:306][561]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-13.20.34
+[2018.03.09-12.20.34:307][561]LogWorld: Bringing up level for play took: 0.002067
+[2018.03.09-12.20.34:310][561]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.939
+[2018.03.09-12.20.34:311][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.21.01:472][819]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.21.01:519][819]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.21.04:614][170]LogEditorViewport: Clicking on Actor (LMB): AscensorBp_C (AscensorBp)
+[2018.03.09-12.21.23:406][258]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.23:512][258]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.23:525][258]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.25:205][441]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.03.09-12.21.25:205][441]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.21.25:205][441]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.21.27:966][767]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.28:003][767]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.29:043][885]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.03.09-12.21.29:043][885]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.21.29:043][885]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.21.30:176][ 19]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.30:212][ 19]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.31:188][128]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.03.09-12.21.31:188][128]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.21.31:188][128]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.21.32:384][271]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.32:420][271]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.33:463][389]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.33:481][389]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.34:589][515]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.03.09-12.21.34:589][515]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.21.34:589][515]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.21.36:067][692]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.36:085][692]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.37:069][803]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.03.09-12.21.37:069][803]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.21.37:069][803]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.21.38:574][982]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.38:591][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.39:692][107]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.03.09-12.21.39:692][107]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.21.39:692][107]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.21.42:055][390]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.42:069][390]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.43:178][514]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2018.03.09-12.21.43:178][514]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.21.43:178][514]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.21.43:523][555]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.43:539][555]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.44:688][686]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.21.44:688][686]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.21.44:688][686]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.21.47:348][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:377][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:406][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:436][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:466][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:496][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:526][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:555][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:584][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:614][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:644][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:674][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:874][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:904][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:933][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:963][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.47:992][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.48:944][126]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.48:987][127]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.49:016][127]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.49:047][127]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.49:077][127]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.49:107][127]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.49:136][127]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.49:429][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.49:457][158]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.49:470][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.49:499][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.50:761][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.50:791][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.50:821][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.09-12.21.50:854][302]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.21.50:854][302]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.21.50:854][302]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.03.09-12.21.58:311][193]LogMaterialEditor: Saving and Compiling material GreenEmisive_Mat
+[2018.03.09-12.21.59:136][193]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.59:173][193]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.59:194][193]LogMaterial: Missing cached shader map for material GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.59:230][193]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GreenEmisive_Mat, compiling. 
+[2018.03.09-12.21.59:900][193]TextureStreamingBuild:Display: Compiling optional shaders took 0.674 seconds.
+[2018.03.09-12.22.01:110][193]LogSavePackage: Save=13.21ms
+[2018.03.09-12.22.01:110][193]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/GreenEmisive_Mat19EB9D784E804BB58584A1964BC22E29.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/GreenEmisive_Mat.uasset'
+[2018.03.09-12.22.01:115][193]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/GreenEmisive_Mat.uasset
+[2018.03.09-12.22.01:125][193]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.03.09-12.22.01:125][193]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.03.09-12.22.01:125][193]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.03.09-12.22.44:567][287]LogEditorViewport: Clicking on Actor (LMB): AscensorBp_C (AscensorBp)
+[2018.03.09-12.23.10:902][ 79]BlueprintLog: New page: Compile AscensorBp
+[2018.03.09-12.23.44:275][906]BlueprintLog: New page: Compile NewTutorial
+[2018.03.09-12.24.43:301][581]LogSavePackage: Save=29.09ms
+[2018.03.09-12.24.43:301][581]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/AscensorBpDADDF5804A46490F5CF23C8F0643C54F.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp.uasset'
+[2018.03.09-12.24.43:310][581]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp.uasset
+[2018.03.09-12.25.42:340][556]BlueprintLog: New page: Compile NewTutorial
+[2018.03.09-12.25.43:979][735]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-12.25.44:002][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.25.44:002][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-12.25.44:002][735]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 2:25:44 PM)
+[2018.03.09-12.25.44:003][735]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-12.25.44:010][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006559s)
+[2018.03.09-12.25.44:011][735]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-12.25.44:011][735]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2018.03.09-12.25.44:011][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.008183s)
+[2018.03.09-12.25.44:033][735]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-12.25.44:041][735]LogInit: FAudioDevice initialized.
+[2018.03.09-12.25.44:074][735]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-12.25.44:077][735]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-13.25.44
+[2018.03.09-12.25.44:077][735]LogWorld: Bringing up level for play took: 0.002046
+[2018.03.09-12.25.44:081][735]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.722
+[2018.03.09-12.25.44:081][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.26.10:700][928]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.26.10:751][928]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.26.54:717][140]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-12.26.54:741][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.26.54:741][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-12.26.54:741][140]PIE: New page: PIE session: NewTutorial (Mar 9, 2018, 2:26:54 PM)
+[2018.03.09-12.26.54:742][140]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.09-12.26.54:749][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007111s)
+[2018.03.09-12.26.54:750][140]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.09-12.26.54:750][140]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2018.03.09-12.26.54:751][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.008653s)
+[2018.03.09-12.26.54:772][140]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.09-12.26.54:779][140]LogInit: FAudioDevice initialized.
+[2018.03.09-12.26.54:811][140]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-12.26.54:814][140]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.09-13.26.54
+[2018.03.09-12.26.54:814][140]LogWorld: Bringing up level for play took: 0.002274
+[2018.03.09-12.26.54:818][140]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.538
+[2018.03.09-12.26.54:818][140]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.28.26:752][168]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.28.26:801][168]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.09-12.28.35:763][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/NewTutorial" FILE="D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.09-12.28.36:135][201]LogSavePackage: Save=339.36ms
+[2018.03.09-12.28.36:135][201]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/NewTutorial1B0B50C24F300E3A80C4EF9AE00E0B47.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap'
+[2018.03.09-12.28.36:140][201]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap
+[2018.03.09-12.28.36:181][201]LogFileHelpers: Saving map 'NewTutorial' took 0.605
+[2018.03.09-12.28.37:913][398]LogSavePackage: Save=19.80ms
+[2018.03.09-12.28.37:913][398]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/AscensorBpE022DC64450ED28428A0FBA5A2B496E9.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp.uasset'
+[2018.03.09-12.28.37:915][398]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/AscensorBp.uasset
+[2018.03.09-12.28.44:801][197]LogSavePackage: Save=8.74ms
+[2018.03.09-12.28.44:801][197]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/DialogosUI1DF0658D45FFCE49F6FA25AB500819D2.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI.uasset'
+[2018.03.09-12.28.44:811][197]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI.uasset
+[2018.03.09-12.28.44:913][197]LogSavePackage: Save=86.37ms
+[2018.03.09-12.28.44:913][197]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/AscensorpintadoC8CEB78C4491EED30C5F108C2B69CD95.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado.uasset'
+[2018.03.09-12.28.44:921][197]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/Ascensorpintado.uasset
+[2018.03.09-12.28.45:016][197]LogSavePackage: Save=80.54ms
+[2018.03.09-12.28.45:016][197]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/PuertaAscensorpintado68AACC68490FAF5520B65AAA6B28AD57.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado.uasset'
+[2018.03.09-12.28.45:023][197]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado.uasset
+[2018.03.09-12.28.45:060][197]LogSavePackage: Save=14.56ms
+[2018.03.09-12.28.45:061][197]LogSavePackage: Moving 'D:/Anarquia/Proyecto2/Saved/PuertaAscensorpintado_MatBD4B33964B66935D2F819DA39522A9F6.tmp' to 'D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado_Mat.uasset'
+[2018.03.09-12.28.45:067][197]LogSavePackage:Display: Finished SavePackage D:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Ascensor/PuertaAscensorpintado_Mat.uasset
+[2018.03.09-12.28.46:739][360]Cmd: QUIT_EDITOR
+[2018.03.09-12.28.47:029][360]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.09-12.28.47:044][360]LogExit: Preparing to exit.
+[2018.03.09-12.28.47:319][360]LogExit: Editor shut down
+[2018.03.09-12.28.47:329][360]LogExit: Transaction tracking system shut down
+[2018.03.09-12.28.47:470][360]LogObj: Freed 0b from 0 cluster array pools.
+[2018.03.09-12.28.47:470][360]LogExit: Object subsystem successfully closed.
+[2018.03.09-12.28.47:490][360]LogD3D11RHI: Shutdown
+[2018.03.09-12.28.47:490][360]LogD3D11RHI: CleanupD3DDevice
+[2018.03.09-12.28.47:633][360]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.09-12.28.47:706][360]LogModuleManager: Shutting down and abandoning module MaterialEditor (542)
+[2018.03.09-12.28.47:706][360]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (540)
+[2018.03.09-12.28.47:706][360]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2018.03.09-12.28.47:706][360]LogModuleManager: Shutting down and abandoning module DistCurveEditor (536)
+[2018.03.09-12.28.47:706][360]LogModuleManager: Shutting down and abandoning module Matinee (534)
+[2018.03.09-12.28.47:706][360]LogModuleManager: Shutting down and abandoning module SequencerWidgets (532)
+[2018.03.09-12.28.47:706][360]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2018.03.09-12.28.47:706][360]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2018.03.09-12.28.47:707][360]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2018.03.09-12.28.47:707][360]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.03.09-12.28.47:707][360]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.03.09-12.28.47:707][360]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.03.09-12.28.47:707][360]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.03.09-12.28.47:707][360]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.03.09-12.28.47:708][360]LogDirectoryWatcher: A directory notification for 'D:/Anarquia/Proyecto2/Content/Collections/' was aborted.
+[2018.03.09-12.28.47:708][360]LogDirectoryWatcher: A directory notification for 'D:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/' was aborted.
+[2018.03.09-12.28.47:708][360]LogDirectoryWatcher: A directory notification for 'D:/Anarquia/Proyecto2/Saved/Collections/' was aborted.
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.03.09-12.28.47:708][360]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.03.09-12.28.47:709][360]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.03.09-12.28.47:710][360]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.03.09-12.28.47:710][360]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.03.09-12.28.47:710][360]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.03.09-12.28.47:711][360]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.03.09-12.28.47:711][360]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.03.09-12.28.47:712][360]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.03.09-12.28.47:712][360]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.03.09-12.28.47:712][360]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.03.09-12.28.48:317][360]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.03.09-12.28.48:317][360]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.03.09-12.28.48:317][360]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.03.09-12.28.48:318][360]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.03.09-12.28.48:318][360]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.03.09-12.28.48:318][360]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.03.09-12.28.48:318][360]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.03.09-12.28.48:318][360]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.03.09-12.28.48:319][360]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.03.09-12.28.48:319][360]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.03.09-12.28.48:319][360]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.03.09-12.28.48:320][360]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.03.09-12.28.48:320][360]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.03.09-12.28.48:320][360]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.03.09-12.28.48:320][360]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.03.09-12.28.48:320][360]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.03.09-12.28.48:320][360]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.03.09-12.28.48:320][360]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.03.09-12.28.48:320][360]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.03.09-12.28.48:320][360]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.03.09-12.28.48:320][360]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.03.09-12.28.48:321][360]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.03.09-12.28.48:322][360]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.03.09-12.28.48:322][360]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.03.09-12.28.48:386][360]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.03.09-12.28.48:386][360]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.03.09-12.28.48:387][360]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.03.09-12.28.48:388][360]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.03.09-12.28.48:388][360]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.03.09-12.28.48:388][360]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.03.09-12.28.48:388][360]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.03.09-12.28.48:389][360]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.03.09-12.28.48:389][360]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.03.09-12.28.48:389][360]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.03.09-12.28.48:399][360]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.03.09-12.28.48:400][360]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.03.09-12.28.48:400][360]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.03.09-12.28.48:401][360]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.03.09-12.28.48:401][360]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.03.09-12.28.48:401][360]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.03.09-12.28.48:401][360]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.03.09-12.28.48:401][360]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.03.09-12.28.48:401][360]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.03.09-12.28.48:401][360]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.03.09-12.28.48:401][360]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.03.09-12.28.48:402][360]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.03.09-12.28.48:402][360]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.03.09-12.28.48:402][360]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.03.09-12.28.48:402][360]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.03.09-12.28.48:402][360]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.03.09-12.28.48:402][360]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.03.09-12.28.48:402][360]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.03.09-12.28.48:402][360]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.03.09-12.28.48:402][360]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.03.09-12.28.48:533][360]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.03.09-12.28.48:535][360]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.03.09-12.28.48:535][360]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.03.09-12.28.48:535][360]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.03.09-12.28.48:535][360]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.03.09-12.28.48:535][360]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.03.09-12.28.48:535][360]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.03.09-12.28.48:535][360]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.03.09-12.28.48:535][360]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.03.09-12.28.48:535][360]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.03.09-12.28.48:535][360]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.03.09-12.28.48:535][360]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.03.09-12.28.48:536][360]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.03.09-12.28.48:537][360]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.03.09-12.28.48:537][360]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.03.09-12.28.48:537][360]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.03.09-12.28.48:537][360]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.03.09-12.28.48:537][360]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.03.09-12.28.48:537][360]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.03.09-12.28.48:637][360]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.03.09-12.28.48:737][360]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.03.09-12.28.48:738][360]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.03.09-12.28.48:738][360]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.03.09-12.28.48:738][360]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.03.09-12.28.48:738][360]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.03.09-12.28.48:738][360]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.03.09-12.28.48:738][360]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.03.09-12.28.48:738][360]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.03.09-12.28.48:738][360]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.03.09-12.28.48:738][360]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.03.09-12.28.48:741][360]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.03.09-12.28.48:741][360]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.03.09-12.28.48:742][360]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.03.09-12.28.48:742][360]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.03.09-12.28.48:742][360]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.03.09-12.28.48:742][360]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.03.09-12.28.48:743][360]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.03.09-12.28.48:743][360]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.03.09-12.28.48:743][360]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.03.09-12.28.48:743][360]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.03.09-12.28.48:744][360]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.03.09-12.28.48:744][360]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.03.09-12.28.48:744][360]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.03.09-12.28.48:744][360]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.03.09-12.28.48:744][360]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.03.09-12.28.48:744][360]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.03.09-12.28.48:744][360]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.03.09-12.28.48:745][360]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.03.09-12.28.48:745][360]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.03.09-12.28.48:750][360]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.03.09-12.28.48:750][360]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.03.09-12.28.48:750][360]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.03.09-12.28.48:750][360]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.03.09-12.28.48:750][360]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.03.09-12.28.48:750][360]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.03.09-12.28.48:940][360]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.09-12.28.48:940][360]LogDirectoryWatcher: A directory notification for 'D:/Anarquia/Proyecto2/Content/' was aborted.
+[2018.03.09-12.28.48:940][360]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.09-12.28.48:940][360]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.03.09-12.28.48:944][360]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.03.09-12.28.48:945][360]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.03.09-12.28.48:945][360]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.03.09-12.28.48:945][360]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.03.09-12.28.48:945][360]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.03.09-12.28.48:945][360]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.03.09-12.28.48:945][360]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.03.09-12.28.48:945][360]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.03.09-12.28.48:945][360]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.03.09-12.28.48:969][360]LogDerivedDataCache: Shutdown
+[2018.03.09-12.28.48:969][360]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.03.09-12.28.48:969][360]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.03.09-12.28.48:969][360]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.03.09-12.28.48:970][360]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.03.09-12.28.48:970][360]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.03.09-12.28.48:970][360]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.03.09-12.28.48:971][360]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.03.09-12.28.48:972][360]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.03.09-12.28.48:972][360]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.09-12.28.48:972][360]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.09-12.28.48:972][360]LogOnline:Display: Unloading online subsystem: NULL
+[2018.03.09-12.28.48:972][360]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.09-12.28.48:972][360]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.09-12.28.48:972][360]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.09-12.28.48:972][360]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBDD829F1-4DD1-9BCF-0A8A-18BC1F4793A3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=0e69d85741d696303a8d9dafd7e741bd%7C%7C4de4ee59-3de1-47a6-9e8c-38cda48c02c7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.09-12.28.49:000][360]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.09-12.28.49:001][360]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.03.09-12.28.49:001][360]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.03.09-12.28.49:002][360]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.03.09-12.28.49:002][360]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.03.09-12.28.49:002][360]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.03.09-12.28.49:002][360]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.03.09-12.28.49:002][360]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.03.09-12.28.49:002][360]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.03.09-12.28.49:004][360]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.03.09-12.28.49:005][360]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.03.09-12.28.49:005][360]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.03.09-12.28.49:005][360]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.03.09-12.28.49:005][360]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.03.09-12.28.49:005][360]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.03.09-12.28.49:005][360]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.03.09-12.28.49:005][360]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.09-12.28.49:005][360]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.09-12.28.49:005][360]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.09-12.28.49:007][360]LogExit: Exiting.
+[2018.03.09-12.28.49:030][360]Log file closed, 03/09/18 13:28:49
