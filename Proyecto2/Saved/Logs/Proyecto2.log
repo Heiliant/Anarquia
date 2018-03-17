@@ -215,3 +215,1074 @@ LogInit: Object subsystem initialized
 [2018.03.17-18.05.37:118][248]Cmd: MAP CHECKDEP NOCLEARLOG
 [2018.03.17-18.05.37:244][248]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 125.031ms to complete.
 [2018.03.17-18.05.37:244][248]LogFileHelpers: Loading map 'Distrito1_2_Exp' took 0.409
+[2018.03.17-18.06.06:357][766]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/edificio rico estanteria doble.FBX)
+[2018.03.17-18.06.06:364][766]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.17-18.06.06:364][766]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.03.17-18.06.06:364][766]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.03.17-18.06.06:364][766]LogFbx: ItemName: Model, ItemCount : 1
+[2018.03.17-18.06.06:364][766]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.17-18.06.06:364][766]LogFbx: ItemName: Material, ItemCount : 1
+[2018.03.17-18.06.06:364][766]LogFbx: ItemName: Texture, ItemCount : 1
+[2018.03.17-18.06.06:364][766]LogFbx: ItemName: Video, ItemCount : 1
+[2018.03.17-18.06.06:369][766]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/edificio rico estanteria doble.FBX
+[2018.03.17-18.06.06:375][766]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.17-18.06.08:171][766]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/edificio rico estanteria doble.FBX
+[2018.03.17-18.06.08:177][766]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.17-18.06.08:180][766]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Material__2'
+[2018.03.17-18.06.08:180][766]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/Material__2'
+[2018.03.17-18.06.08:187][766]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriadoble2'
+[2018.03.17-18.06.08:187][766]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriadoble2'
+[2018.03.17-18.06.08:187][766]LogFbxMaterialImport:Warning: Unable to find Texture file C:\Users\xavi\Pictures\edificio_rico_estanteriadoble2.png
+[2018.03.17-18.06.08:189][766]LogMaterial: Missing cached shader map for material Material__2, compiling. 
+[2018.03.17-18.06.08:228][766]LogStaticMesh: Building static mesh edificio_rico_estanteria_doble...
+[2018.03.17-18.06.08:246][766]LogStaticMesh: Built static mesh [0.02s] /Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteria_doble.edificio_rico_estanteria_doble
+[2018.03.17-18.06.08:257][766]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.17-18.06.08:274][766]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Downloads/edificio_rico_estanteriarara.FBX)
+[2018.03.17-18.06.08:285][766]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Downloads/edificio_rico_estanteriarara.FBX
+[2018.03.17-18.06.08:291][766]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.17-18.06.08:294][766]LogStaticMesh: Building static mesh edificio_rico_estanteriarara...
+[2018.03.17-18.06.08:304][766]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriarara.edificio_rico_estanteriarara
+[2018.03.17-18.06.08:321][766]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.17-18.06.20:167][263]LogSavePackage: Save=14.41ms
+[2018.03.17-18.06.20:167][263]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_rico_estanteria_doble7BA4735C4221A7FBD8230798102BD062.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteria_doble.uasset'
+[2018.03.17-18.06.20:172][263]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteria_doble.uasset
+[2018.03.17-18.06.20:207][263]LogSavePackage: Save=16.57ms
+[2018.03.17-18.06.20:207][263]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_rico_estanteriararaCE1127C0421054363F7C8DA9B8A530A1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriarara.uasset'
+[2018.03.17-18.06.20:213][263]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriarara.uasset
+[2018.03.17-18.06.53:274][497]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/JAVITO/Downloads/edificio_rico_estanteriadoble.psd)
+[2018.03.17-18.06.56:852][497]LogTexture:Display: Building textures: edificio_rico_estanteriadoble (AutoDXT, 8000X8000)
+[2018.03.17-18.07.26:704][497]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/JAVITO/Downloads/edificio_rico_estanteriarara1.psd)
+[2018.03.17-18.07.32:203][497]LogTexture:Display: Building textures: edificio_rico_estanteriarara1 (AutoDXT, 8000X8000)
+[2018.03.17-18.07.43:901][497]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/JAVITO/Downloads/edificio_rico_pantallas.psd)
+[2018.03.17-18.07.49:393][497]LogTexture:Display: Building textures: edificio_rico_pantallas (AutoDXT, 8000X8000)
+[2018.03.17-18.08.11:096][390]LogSavePackage: Save=1080.45ms
+[2018.03.17-18.08.11:096][390]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp885139AE459C146E4B6A9C8F06CD717F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap'
+[2018.03.17-18.08.11:102][390]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap
+[2018.03.17-18.08.36:832][641]LogMaterial: Missing cached shader map for material edificio_rico_estanteriadoble_Mat, compiling. 
+[2018.03.17-18.08.36:856][641]LogMaterial: Missing cached shader map for material edificio_rico_estanteriarara1_Mat, compiling. 
+[2018.03.17-18.08.36:881][641]LogMaterial: Missing cached shader map for material edificio_rico_pantallas_Mat, compiling. 
+[2018.03.17-18.08.39:394][752]MapCheck: New page: Map Check
+[2018.03.17-18.08.39:464][752]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.17-18.08.39:464][752]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.17-18.08.39:735][752]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.08.40:773][752]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.17-18.08.40:781][752]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.03.17-18.08.40:788][752]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Suelodeprueba_Mat, compiling. 
+[2018.03.17-18.08.40:796][752]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2018.03.17-18.08.40:803][752]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy phong1, compiling. 
+[2018.03.17-18.08.40:809][752]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaskedUnlitSpriteMaterial, compiling. 
+[2018.03.17-18.08.40:815][752]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy compuerta_rightMat, compiling. 
+[2018.03.17-18.08.40:822][752]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy compuerta_leftMat, compiling. 
+[2018.03.17-18.08.40:830][752]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy marcoPuertaMat, compiling. 
+[2018.03.17-18.08.40:838][752]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy marcoPuertaKey_Mat, compiling. 
+[2018.03.17-18.08.40:845][752]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.03.17-18.08.41:305][752]TextureStreamingBuild:Display: Compiling optional shaders took 0.538 seconds.
+[2018.03.17-18.08.41:312][752]LogLevel:Display: Export Material TexCoord Scales took 0.007 seconds.
+[2018.03.17-18.08.41:333][752]TextureStreamingBuild:Display: Build Texture Streaming took 0.020 seconds.
+[2018.03.17-18.08.41:344][752]LightingResults: New page: Lighting Build - Mar 17, 2018, 8:08:41 PM
+[2018.03.17-18.08.41:558][752]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.17-18.08.41:692][752]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.17-18.08.41:716][752]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.17-18.08.42:735][752]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.17-18.08.42:735][752]LogSwarmInterface: [TryOpenConnection] Local Process ID is 580
+[2018.03.17-18.08.45:669][752]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.03.17-18.08.45:670][752]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.17-18.08.45:670][752]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.17-18.08.45:670][752]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.17-18.08.45:670][752]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.17-18.08.45:670][752]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.17-18.08.45:931][752]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.17-18.08.45:931][752]MapCheck: New page: Distrito1_2_Exp - Mar 17, 2018, 8:08:45 PM
+[2018.03.17-18.08.45:932][752]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2018.03.17-18.08.45:932][752]MapCheck:Warning: Warning camera_GEN_VARIABLE_2DCamMinimap_C_CAT_12 Static mesh actor has NULL StaticMesh property 
+[2018.03.17-18.08.45:932][752]MapCheck:Warning: Warning Gates14 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:932][752]MapCheck:Warning: Warning Gates3 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:932][752]MapCheck:Warning: Warning Gates2 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:932][752]MapCheck:Warning: Warning Gates1_508 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:932][752]MapCheck:Warning: Warning Gates15 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:932][752]MapCheck:Warning: Warning Gates4 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:932][752]MapCheck:Warning: Warning Gates5 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:932][752]MapCheck:Warning: Warning Gates6 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:932][752]MapCheck:Warning: Warning Gates7 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:932][752]MapCheck:Warning: Warning Gates8 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:933][752]MapCheck:Warning: Warning Gates9 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:933][752]MapCheck:Warning: Warning Gates10 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:933][752]MapCheck:Warning: Warning Gates11 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:933][752]MapCheck:Warning: Warning Gates12 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.45:933][752]MapCheck:Warning: Warning Gates13 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.46:826][752]MapCheck: Info Map check complete: 1 Error(s), 16 Warning(s), took 894.577ms to complete.
+[2018.03.17-18.08.46:849][752]LogEditorBuildUtils: Build time 0:07
+[2018.03.17-18.08.50:729][805]LightingResults:Warning: Warning escaleras Object has wrapping UVs.
+[2018.03.17-18.08.50:729][805]LightingResults:Warning: Warning escaleras Object has wrapping UVs.
+[2018.03.17-18.08.50:729][805]LightingResults:Warning: Warning escaleras Object has wrapping UVs.
+[2018.03.17-18.08.50:729][805]LightingResults:Warning: Warning escaleras Object has wrapping UVs.
+[2018.03.17-18.08.50:729][805]LightingResults:Warning: Warning escaleras Object has wrapping UVs.
+[2018.03.17-18.08.50:742][806]Job is a success!
+[2018.03.17-18.08.51:530][807]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.03.17-18.08.51:530][807]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.03.17-18.08.51:530][807]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.03.17-18.08.51:530][807]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2018.03.17-18.08.51:530][807]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2018.03.17-18.08.51:530][807]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2018.03.17-18.08.51:530][807]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 128X64)
+[2018.03.17-18.08.51:530][807]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2018.03.17-18.08.51:530][807]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2018.03.17-18.08.51:640][807]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 128X64)
+[2018.03.17-18.08.51:640][807]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X64)
+[2018.03.17-18.08.51:640][807]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 512X512)
+[2018.03.17-18.08.51:728][807]Lightmass on PC-JAVITO: 3.07 sec total, 151 ms importing, 24 ms setup, 1.04 sec photons, 1.81 sec processing, 0 ms extra exporting [176/176 mappings]. Threads: 12.5 sec total, 4.52 sec processing.
+[2018.03.17-18.08.51:804][807]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.08.51:878][807]LogStaticLightingSystem: Illumination: 10.3 sec (337 ms encoding lightmaps, 69 ms encoding shadowmaps)
+[2018.03.17-18.08.51:878][807]LogStaticLightingSystem: Lightmap texture memory:  3.4 MB (0.7 MB streaming, 2.7 MB non-streaming), 6 textures
+[2018.03.17-18.08.51:878][807]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.1 MB streaming, 0.3 MB non-streaming), 3 textures
+[2018.03.17-18.08.56:680][807]DumpUnbuiltLightIteractions
+[2018.03.17-18.08.56:680][807]Lights with unbuilt interactions: 0
+[2018.03.17-18.08.56:680][807]
+[2018.03.17-18.08.56:680][807]Primitives with unbuilt interactions: 0
+[2018.03.17-18.08.56:700][808]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.17-18.08.56:700][808]MapCheck: New page: Distrito1_2_Exp - Mar 17, 2018, 8:08:56 PM
+[2018.03.17-18.08.56:832][808]MapCheck:Warning: Warning camera_GEN_VARIABLE_2DCamMinimap_C_CAT_12 Static mesh actor has NULL StaticMesh property 
+[2018.03.17-18.08.56:832][808]MapCheck:Warning: Warning Gates14 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:832][808]MapCheck:Warning: Warning Gates3 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:832][808]MapCheck:Warning: Warning Gates2 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:832][808]MapCheck:Warning: Warning Gates1_508 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:832][808]MapCheck:Warning: Warning Gates15 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:832][808]MapCheck:Warning: Warning Gates4 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:833][808]MapCheck:Warning: Warning Gates5 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:833][808]MapCheck:Warning: Warning Gates6 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:833][808]MapCheck:Warning: Warning Gates7 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:833][808]MapCheck:Warning: Warning Gates8 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:833][808]MapCheck:Warning: Warning Gates9 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:833][808]MapCheck:Warning: Warning Gates10 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:833][808]MapCheck:Warning: Warning Gates11 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:833][808]MapCheck:Warning: Warning Gates12 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:833][808]MapCheck:Warning: Warning Gates13 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.03.17-18.08.56:983][808]MapCheck: Info Map check complete: 0 Error(s), 16 Warning(s), took 283.011ms to complete.
+[2018.03.17-18.09.06:282][988]LogSavePackage: Save=1128.76ms
+[2018.03.17-18.09.06:282][988]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp1C04B74B40EDFA664FCFFFB723782B02.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap'
+[2018.03.17-18.09.06:288][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap
+[2018.03.17-18.09.06:344][988]LogFileHelpers: Saving map 'Distrito1_2_Exp' took 1.382
+[2018.03.17-18.09.06:508][988]LogSavePackage: Save=111.09ms
+[2018.03.17-18.09.06:508][988]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp_BuiltData8A1D4B6D44135D89F6D487A576A2C682.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp_BuiltData.uasset'
+[2018.03.17-18.09.06:514][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp_BuiltData.uasset
+[2018.03.17-18.09.06:598][988]LogSavePackage: Save=14.12ms
+[2018.03.17-18.09.06:598][988]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/2DCamMinimap6C62BB6647B67732EB81EB8078F941B9.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/minimapa/2DCamMinimap.uasset'
+[2018.03.17-18.09.06:605][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/minimapa/2DCamMinimap.uasset
+[2018.03.17-18.09.14:015][988]LogSavePackage: Save=7334.51ms
+[2018.03.17-18.09.14:015][988]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_rico_estanteriadobleFBAF245C462BA5F77BC061AAE571FF42.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriadoble.uasset'
+[2018.03.17-18.09.14:023][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriadoble.uasset
+[2018.03.17-18.09.20:625][988]LogSavePackage: Save=6559.66ms
+[2018.03.17-18.09.20:626][988]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_rico_estanteriarara1AB4C6F50465107123B78019AEF2FB747.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriarara1.uasset'
+[2018.03.17-18.09.20:632][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriarara1.uasset
+[2018.03.17-18.09.29:077][988]LogSavePackage: Save=8428.84ms
+[2018.03.17-18.09.29:077][988]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_rico_pantallas8D5B20814E6E50E3FA0902A26F9DDCA8.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_pantallas.uasset'
+[2018.03.17-18.09.29:083][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_pantallas.uasset
+[2018.03.17-18.09.29:167][988]LogSavePackage: Save=15.48ms
+[2018.03.17-18.09.29:167][988]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_rico_estanteriadoble_MatD11162674C4D5AFD3780AC8585708ECA.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriadoble_Mat.uasset'
+[2018.03.17-18.09.29:174][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriadoble_Mat.uasset
+[2018.03.17-18.09.29:212][988]LogSavePackage: Save=16.21ms
+[2018.03.17-18.09.29:212][988]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_rico_estanteriarara1_Mat56FA2EE84B75462A23EEC090581A58A8.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriarara1_Mat.uasset'
+[2018.03.17-18.09.29:218][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_estanteriarara1_Mat.uasset
+[2018.03.17-18.09.29:255][988]LogSavePackage: Save=15.76ms
+[2018.03.17-18.09.29:255][988]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_rico_pantallas_Mat38A62F8446310DC38ABF4FBD9A5CAB3A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_pantallas_Mat.uasset'
+[2018.03.17-18.09.29:261][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoRico/edificio_rico_pantallas_Mat.uasset
+[2018.03.17-18.10.38:374][841]LogActorFactory: Actor Factory created edificio_rico_estanteriarara
+[2018.03.17-18.10.39:615][983]LogActorFactory: Actor Factory created edificio_rico_estanteriarara
+[2018.03.17-18.10.52:757][931]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.10.55:509][931]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.10.55:509][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.10.55:509][931]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:10:55 PM)
+[2018.03.17-18.10.55:512][931]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.10.55:554][931]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.10.55:556][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043445s)
+[2018.03.17-18.10.55:556][931]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.10.55:556][931]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2018.03.17-18.10.55:557][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.044464s)
+[2018.03.17-18.10.55:583][931]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.10.55:594][931]LogInit: FAudioDevice initialized.
+[2018.03.17-18.10.56:110][931]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.10.56:123][931]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.10.56
+[2018.03.17-18.10.56:126][931]LogWorld: Bringing up level for play took: 0.013036
+[2018.03.17-18.10.56:194][931]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.03.17-18.10.56:201][931]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.141
+[2018.03.17-18.10.56:202][931]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.10.56:215][931]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.10.56:943][984]LogScriptCore:Warning: Script Msg: Divide by zero: Divide_IntInt
+[2018.03.17-18.10.56:956][985]LogNet: Browse: /Game/ThirdPersonBP/Maps/levelScore
+[2018.03.17-18.10.56:965][985]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/levelScore
+[2018.03.17-18.10.56:986][985]Cmd: MEM
+[2018.03.17-18.10.56:997][985]LogMemory: Platform Memory Stats for Windows
+[2018.03.17-18.10.56:997][985]LogMemory: Process Physical Memory: 3432.20 MB used, 5843.71 MB peak
+[2018.03.17-18.10.56:997][985]LogMemory: Process Virtual Memory: 4515.51 MB used, 6632.09 MB peak
+[2018.03.17-18.10.56:997][985]LogMemory: Physical Memory: 10553.34 MB used,  22162.23 MB free, 32715.57 MB total
+[2018.03.17-18.10.56:997][985]LogMemory: Virtual Memory: 5898.94 MB used,  22162.23 MB free, 134217728.00 MB total
+[2018.03.17-18.10.56:997][985]LogMemory: 
+[2018.03.17-18.10.56:997][985]Allocator Stats for TBB: (not implemented)
+[2018.03.17-18.10.57:778][985]LogAIModule: Creating AISystem for world levelScore
+[2018.03.17-18.10.57:779][985]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.10.57:785][985]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_levelScore.levelScore up for play (max tick rate 0) at 2018.03.17-19.10.57
+[2018.03.17-18.10.57:785][985]LogWorld: Bringing up level for play took: 0.005008
+[2018.03.17-18.10.57:785][985]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.17-18.10.57:788][985]LogLoad: Took 0.823976 seconds to LoadMap(/Game/ThirdPersonBP/Maps/levelScore)
+[2018.03.17-18.10.57:897][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.10.57:953][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.11.09:016][862]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.03.17-18.11.10:556][969]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-18.11.15:195][269]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-18.11.18:898][566]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-18.11.21:478][745]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-18.11.25:297][ 46]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-18.11.26:305][132]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-18.11.26:777][172]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-18.11.28:521][305]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.11.28:555][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.11.28:555][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.11.28:556][305]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:11:28 PM)
+[2018.03.17-18.11.28:560][305]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.11.28:598][305]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.11.28:600][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040553s)
+[2018.03.17-18.11.28:601][305]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.11.28:601][305]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2018.03.17-18.11.28:601][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.041565s)
+[2018.03.17-18.11.28:626][305]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.11.28:636][305]LogInit: FAudioDevice initialized.
+[2018.03.17-18.11.28:668][305]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.11.28:681][305]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.11.28
+[2018.03.17-18.11.28:683][305]LogWorld: Bringing up level for play took: 0.013401
+[2018.03.17-18.11.28:691][305]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.63
+[2018.03.17-18.11.28:691][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.11.28:722][305]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.11.30:829][477]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.11.30:893][477]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.11.34:294][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara)
+[2018.03.17-18.11.53:663][328]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.11.53:698][328]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.11.53:698][328]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.11.53:699][328]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:11:53 PM)
+[2018.03.17-18.11.53:703][328]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.11.53:750][328]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.11.53:752][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048555s)
+[2018.03.17-18.11.53:753][328]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.11.53:753][328]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2018.03.17-18.11.53:753][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.049556s)
+[2018.03.17-18.11.53:780][328]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.11.53:790][328]LogInit: FAudioDevice initialized.
+[2018.03.17-18.11.53:824][328]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.11.53:836][328]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.11.53
+[2018.03.17-18.11.53:838][328]LogWorld: Bringing up level for play took: 0.013141
+[2018.03.17-18.11.53:845][328]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.215
+[2018.03.17-18.11.53:845][328]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.11.53:875][328]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.11.56:677][572]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.11.56:742][572]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.12.00:215][849]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.12.00:253][849]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.12.00:253][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.12.00:254][849]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:12:00 PM)
+[2018.03.17-18.12.00:254][849]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.12.00:296][849]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.12.00:299][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044730s)
+[2018.03.17-18.12.00:300][849]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.12.00:300][849]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2018.03.17-18.12.00:300][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.046022s)
+[2018.03.17-18.12.00:326][849]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.12.00:335][849]LogInit: FAudioDevice initialized.
+[2018.03.17-18.12.00:371][849]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.12.00:384][849]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.12.00
+[2018.03.17-18.12.00:386][849]LogWorld: Bringing up level for play took: 0.013146
+[2018.03.17-18.12.00:394][849]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.334
+[2018.03.17-18.12.00:394][849]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.12.00:427][849]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.12.05:569][289]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.12.05:649][289]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.12.06:181][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara)
+[2018.03.17-18.12.15:308][960]LogActorFactory: Actor Factory created edificio_rico_estanteria_doble
+[2018.03.17-18.12.15:933][999]LogActorFactory: Actor Factory created edificio_rico_estanteria_doble
+[2018.03.17-18.13.01:735][513]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.13.01:767][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.13.01:767][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.13.01:767][513]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:13:01 PM)
+[2018.03.17-18.13.01:769][513]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.13.01:809][513]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.13.01:811][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041974s)
+[2018.03.17-18.13.01:812][513]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.13.01:812][513]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2018.03.17-18.13.01:812][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.042894s)
+[2018.03.17-18.13.01:841][513]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.13.01:851][513]LogInit: FAudioDevice initialized.
+[2018.03.17-18.13.01:883][513]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.13.01:895][513]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.13.01
+[2018.03.17-18.13.01:897][513]LogWorld: Bringing up level for play took: 0.013122
+[2018.03.17-18.13.01:904][513]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.157
+[2018.03.17-18.13.01:904][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.13.01:938][513]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.13.04:721][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.13.04:804][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.13.05:363][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteria_doble)
+[2018.03.17-18.13.20:387][890]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.13.20:421][890]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.13.20:421][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.13.20:421][890]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:13:20 PM)
+[2018.03.17-18.13.20:422][890]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.13.20:465][890]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.13.20:467][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044618s)
+[2018.03.17-18.13.20:467][890]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.13.20:468][890]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2018.03.17-18.13.20:468][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.045712s)
+[2018.03.17-18.13.20:495][890]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.13.20:505][890]LogInit: FAudioDevice initialized.
+[2018.03.17-18.13.20:534][890]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.13.20:547][890]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.13.20
+[2018.03.17-18.13.20:549][890]LogWorld: Bringing up level for play took: 0.013186
+[2018.03.17-18.13.20:556][890]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.496
+[2018.03.17-18.13.20:557][890]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.13.20:589][890]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.13.28:355][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.13.28:420][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.13.39:210][380]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.13.39:241][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.13.39:241][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.13.39:241][380]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:13:39 PM)
+[2018.03.17-18.13.39:242][380]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.13.39:284][380]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.13.39:286][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043624s)
+[2018.03.17-18.13.39:287][380]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.13.39:287][380]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2018.03.17-18.13.39:287][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.044912s)
+[2018.03.17-18.13.39:315][380]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.13.39:325][380]LogInit: FAudioDevice initialized.
+[2018.03.17-18.13.39:359][380]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.13.39:372][380]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.13.39
+[2018.03.17-18.13.39:374][380]LogWorld: Bringing up level for play took: 0.013312
+[2018.03.17-18.13.39:382][380]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.679
+[2018.03.17-18.13.39:391][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.13.39:423][380]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.13.48:454][148]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.13.48:518][148]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.13.49:202][203]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteria_doble)
+[2018.03.17-18.14.01:916][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara)
+[2018.03.17-18.14.04:246][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara)
+[2018.03.17-18.14.35:803][593]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.14.35:843][593]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.14.35:843][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.14.35:844][593]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:14:35 PM)
+[2018.03.17-18.14.35:847][593]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.14.35:886][593]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.14.35:888][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041068s)
+[2018.03.17-18.14.35:889][593]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.14.35:889][593]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2018.03.17-18.14.35:889][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.042050s)
+[2018.03.17-18.14.35:918][593]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.14.35:929][593]LogInit: FAudioDevice initialized.
+[2018.03.17-18.14.35:964][593]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.14.35:980][593]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.14.35
+[2018.03.17-18.14.35:983][593]LogWorld: Bringing up level for play took: 0.016284
+[2018.03.17-18.14.35:990][593]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.071
+[2018.03.17-18.14.35:991][593]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.14.36:027][593]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.14.40:285][973]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.14.40:349][973]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.15.00:314][685]LogActorFactory: Actor Factory created edificio_grande_texturizado
+[2018.03.17-18.15.02:169][827]LogActorFactory: Actor Factory created edificio_grande_texturizado
+[2018.03.17-18.15.14:626][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_grande_texturizado2)
+[2018.03.17-18.15.36:603][597]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.15.36:636][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.15.36:636][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.15.36:636][597]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:15:36 PM)
+[2018.03.17-18.15.36:637][597]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.15.36:676][597]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.15.36:678][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040661s)
+[2018.03.17-18.15.36:678][597]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.15.36:678][597]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2018.03.17-18.15.36:679][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.041701s)
+[2018.03.17-18.15.36:704][597]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.15.36:714][597]LogInit: FAudioDevice initialized.
+[2018.03.17-18.15.36:744][597]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.15.36:760][597]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.15.36
+[2018.03.17-18.15.36:764][597]LogWorld: Bringing up level for play took: 0.019156
+[2018.03.17-18.15.36:778][597]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.718
+[2018.03.17-18.15.36:779][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.15.36:812][597]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.15.39:225][808]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.15.39:307][808]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.15.57:592][290]LogActorFactory: Actor Factory created edificio_rico_alto_estantería_doble
+[2018.03.17-18.15.58:977][381]LogActorFactory: Actor Factory created edificio_rico_alto_estantería_doble
+[2018.03.17-18.16.03:088][725]Cmd: DELETE
+[2018.03.17-18.16.03:088][725]Cmd: ACTOR DELETE
+[2018.03.17-18.16.03:091][725]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.17-18.16.03:105][725]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.03.17-18.16.06:317][954]LogActorFactory: Actor Factory created Edificio5
+[2018.03.17-18.16.07:858][ 38]LogActorFactory: Actor Factory created Edificio5
+[2018.03.17-18.16.08:512][ 94]LogActorFactory: Actor Factory created Edificio5
+[2018.03.17-18.16.13:031][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio5)
+[2018.03.17-18.16.13:697][473]Cmd: DELETE
+[2018.03.17-18.16.13:698][473]Cmd: ACTOR DELETE
+[2018.03.17-18.16.13:699][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.17-18.16.13:712][473]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.03.17-18.16.14:954][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteria_doble)
+[2018.03.17-18.16.29:318][670]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (edificio_rico_estanteria_doble2)
+[2018.03.17-18.16.33:347][737]Cmd: ACTOR MIRROR X=-1
+[2018.03.17-18.16.58:671][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteria_doble)
+[2018.03.17-18.17.01:726][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteria_doble2)
+[2018.03.17-18.17.08:115][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteria_doble2)
+[2018.03.17-18.17.27:645][847]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.17.27:676][847]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.17.27:677][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.17.27:677][847]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:17:27 PM)
+[2018.03.17-18.17.27:687][847]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.17.27:734][847]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.17.27:736][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049115s)
+[2018.03.17-18.17.27:737][847]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.17.27:737][847]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2018.03.17-18.17.27:737][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.050177s)
+[2018.03.17-18.17.27:766][847]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.17.27:777][847]LogInit: FAudioDevice initialized.
+[2018.03.17-18.17.27:809][847]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.17.27:822][847]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.17.27
+[2018.03.17-18.17.27:825][847]LogWorld: Bringing up level for play took: 0.014276
+[2018.03.17-18.17.27:833][847]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.228
+[2018.03.17-18.17.27:833][847]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.17.27:867][847]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.17.37:297][683]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=35.92 Y=120.61 Z=0.00 Location: X=-7799.62 Y=-879.72 Z=493.08 Normal: X=-0.66 Y=-0.75 Z=0.00 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.17.38:935][810]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.17.40:660][940]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=25.53 Y=-23.83 Z=0.00 Location: X=-7609.28 Y=-502.42 Z=448.54 Normal: X=-0.99 Y=-0.15 Z=-0.04 PenetrationDepth:19.625 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.17.41:660][ 19]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=18.10 Y=-16.14 Z=0.00 Location: X=-7624.23 Y=-509.19 Z=450.40 Normal: X=-0.89 Y=-0.45 Z=-0.01 PenetrationDepth:26.338 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (23 other events since notify)
+[2018.03.17-18.17.42:671][101]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=37.97 Y=-33.86 Z=0.00 Location: X=-7624.23 Y=-509.19 Z=450.40 Normal: X=-0.78 Y=-0.62 Z=-0.01 PenetrationDepth:39.400 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (67 other events since notify)
+[2018.03.17-18.17.43:681][185]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=34.95 Y=-31.16 Z=0.00 Location: X=-7624.23 Y=-509.19 Z=450.40 Normal: X=-0.79 Y=-0.61 Z=0.01 PenetrationDepth:3.715 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (69 other events since notify)
+[2018.03.17-18.17.44:099][221]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.17.44:187][229]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=45.80 Y=194.69 Z=0.00 Location: X=-7575.13 Y=-706.18 Z=493.12 Normal: X=0.56 Y=-0.83 Z=0.00 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (5 other events since notify)
+[2018.03.17-18.17.44:866][286]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.17.45:922][369]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=18.22 Y=-15.36 Z=0.00 Location: X=-7548.17 Y=-597.47 Z=450.40 Normal: X=-0.52 Y=-0.85 Z=-0.00 PenetrationDepth:15.608 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (23 other events since notify)
+[2018.03.17-18.17.45:935][370]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=53.18 Y=67.16 Z=0.00 Location: X=-7477.92 Y=-694.89 Z=493.12 Normal: X=0.17 Y=-0.99 Z=0.00 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (10 other events since notify)
+[2018.03.17-18.17.46:933][451]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=305.83 Y=-257.82 Z=0.00 Location: X=-7548.17 Y=-597.47 Z=450.40 Normal: X=-0.65 Y=-0.76 Z=-0.01 PenetrationDepth:39.441 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (81 other events since notify)
+[2018.03.17-18.17.46:946][452]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-8.33 Y=199.83 Z=0.00 Location: X=-7395.10 Y=-720.76 Z=493.12 Normal: X=0.76 Y=-0.65 Z=0.00 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (18 other events since notify)
+[2018.03.17-18.17.47:318][484]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.17.47:730][519]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.17.48:327][569]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=-14.32 Y=13.45 Z=0.00 Location: X=-7548.17 Y=-597.47 Z=450.40 Normal: X=-0.30 Y=-0.94 Z=-0.18 PenetrationDepth:27.604 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (38 other events since notify)
+[2018.03.17-18.17.48:376][573]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.17.48:747][604]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.17.49:412][661]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-950.17 Y=-162.40 Z=0.00 Location: X=-7753.69 Y=-720.48 Z=467.61 Normal: X=0.95 Y=-0.21 Z=-0.22 PenetrationDepth:20.024 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.17.49:637][680]LogCharacterMovement: agentEnemyN_C_4 is stuck and failed to move! Velocity: X=-198.87 Y=-206.91 Z=0.00 Location: X=-7467.31 Y=-51.21 Z=450.40 Normal: X=-0.19 Y=0.98 Z=0.00 PenetrationDepth:0.249 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.17.51:572][839]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=191.22 Y=-82.33 Z=0.00 Location: X=-7526.06 Y=-796.07 Z=450.40 Normal: X=0.22 Y=0.97 Z=0.00 PenetrationDepth:9.323 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.17.52:308][897]LogCharacterMovement: agentEnemyN_C_4 is stuck and failed to move! Velocity: X=-137.57 Y=-244.86 Z=0.00 Location: X=-7307.58 Y=-194.90 Z=450.25 Normal: X=-0.36 Y=0.85 Z=-0.38 PenetrationDepth:1.365 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (17 other events since notify)
+[2018.03.17-18.17.53:932][ 31]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.17.54:372][ 67]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.17.54:605][ 86]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=-310.13 Y=-246.78 Z=0.00 Location: X=-7269.29 Y=-155.02 Z=455.77 Normal: X=-0.64 Y=0.76 Z=-0.09 PenetrationDepth:31.562 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.17.55:019][119]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.17.55:396][150]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.17.57:860][350]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.17.58:940][436]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=49.70 Y=-54.02 Z=0.00 Location: X=-7547.17 Y=-17.41 Z=491.12 Normal: X=-0.53 Y=0.83 Z=-0.14 PenetrationDepth:21.073 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (8 other events since notify)
+[2018.03.17-18.17.59:796][505]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=-392.31 Y=78.07 Z=0.00 Location: X=-7414.97 Y=-393.40 Z=463.39 Normal: X=0.74 Y=-0.46 Z=0.49 PenetrationDepth:2.656 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (7 other events since notify)
+[2018.03.17-18.18.00:602][565]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=-360.27 Y=173.79 Z=0.00 Location: X=-7364.84 Y=-263.59 Z=450.43 Normal: X=0.22 Y=-0.97 Z=0.00 PenetrationDepth:0.066 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (12 other events since notify)
+[2018.03.17-18.18.00:672][570]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.01:100][601]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.01:601][639]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=18.35 Y=-18.39 Z=0.00 Location: X=-7548.65 Y=-76.82 Z=493.12 Normal: X=-0.96 Y=-0.28 Z=0.00 PenetrationDepth:15.384 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-18.18.01:769][652]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.02:127][679]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.04:282][838]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=-76.38 Y=44.80 Z=0.00 Location: X=-7361.02 Y=-238.04 Z=450.26 Normal: X=0.99 Y=0.10 Z=-0.11 PenetrationDepth:0.281 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.18.04:413][848]LogCharacterMovement: antidisturbiosEnemy_C_0 is stuck and failed to move! Velocity: X=6.81 Y=26.77 Z=0.00 Location: X=-7492.34 Y=-272.89 Z=492.93 Normal: X=-0.97 Y=-0.17 Z=0.14 PenetrationDepth:45.016 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.18.05:160][903]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=58.80 Y=43.25 Z=0.00 Location: X=-7573.20 Y=-169.71 Z=450.38 Normal: X=-0.08 Y=-1.00 Z=-0.01 PenetrationDepth:2.558 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (33 other events since notify)
+[2018.03.17-18.18.06:540][ 13]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=-174.21 Y=46.29 Z=0.00 Location: X=-7301.82 Y=-241.17 Z=450.40 Normal: X=-0.11 Y=-0.99 Z=0.02 PenetrationDepth:0.015 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (31 other events since notify)
+[2018.03.17-18.18.07:083][ 56]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=35.02 Y=-57.72 Z=0.00 Location: X=-7331.04 Y=-176.43 Z=450.38 Normal: X=-0.97 Y=0.25 Z=-0.01 PenetrationDepth:32.752 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-18.18.07:206][ 66]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.07:238][ 69]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=1.77 Y=-123.59 Z=0.00 Location: X=-7098.23 Y=-512.20 Z=448.43 Normal: X=-0.98 Y=-0.03 Z=-0.21 PenetrationDepth:21.591 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.18.07:301][ 74]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-16.34 Y=6.23 Z=0.00 Location: X=-6827.89 Y=-593.32 Z=467.81 Normal: X=-0.47 Y=-0.88 Z=-0.00 PenetrationDepth:15.397 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-18.18.07:656][104]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.07:800][116]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=-193.93 Y=185.49 Z=0.00 Location: X=-7298.75 Y=-317.98 Z=470.39 Normal: X=-0.45 Y=-0.72 Z=0.53 PenetrationDepth:0.066 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.18.08:163][146]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=323.50 Y=-8.20 Z=0.00 Location: X=-7317.67 Y=-166.80 Z=448.28 Normal: X=-0.70 Y=0.65 Z=-0.30 PenetrationDepth:2.764 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (50 other events since notify)
+[2018.03.17-18.18.08:365][163]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.08:670][188]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.08:812][200]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=15.31 Y=399.71 Z=0.00 Location: X=-7449.93 Y=-332.28 Z=448.39 Normal: X=-0.72 Y=-0.11 Z=-0.69 PenetrationDepth:14.552 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (16 other events since notify)
+[2018.03.17-18.18.09:867][287]LogCharacterMovement: agentEnemyN_C_4 is stuck and failed to move! Velocity: X=-342.19 Y=139.82 Z=0.00 Location: X=-7211.05 Y=-250.85 Z=450.40 Normal: X=0.90 Y=-0.44 Z=-0.00 PenetrationDepth:0.921 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (24 other events since notify)
+[2018.03.17-18.18.10:636][346]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.11:064][379]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.11:635][423]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.12:061][455]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.15:019][690]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.15:875][761]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.18:952][ 11]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-2.84 Y=47.53 Z=0.00 Location: X=-6809.43 Y=-405.55 Z=510.85 Normal: X=0.96 Y=0.03 Z=0.26 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (23 other events since notify)
+[2018.03.17-18.18.19:244][ 35]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.19:320][ 41]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=13.80 Y=-20.67 Z=0.00 Location: X=-6888.87 Y=-314.04 Z=448.65 Normal: X=0.21 Y=0.98 Z=0.00 PenetrationDepth:0.423 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-18.18.19:332][ 42]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=97.90 Y=-258.60 Z=0.00 Location: X=-6969.06 Y=-347.74 Z=448.29 Normal: X=-0.89 Y=0.17 Z=-0.43 PenetrationDepth:0.102 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (15 other events since notify)
+[2018.03.17-18.18.19:392][ 47]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=122.51 Y=16.45 Z=0.00 Location: X=-6894.96 Y=-235.66 Z=448.30 Normal: X=-0.61 Y=0.57 Z=-0.55 PenetrationDepth:0.349 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (21 other events since notify)
+[2018.03.17-18.18.19:656][ 68]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.20:322][123]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.20:702][153]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.21:463][216]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-108.64 Y=-16.31 Z=0.00 Location: X=-6748.17 Y=-603.33 Z=469.47 Normal: X=0.13 Y=-0.99 Z=-0.00 PenetrationDepth:32.347 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.18.21:466][216]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.22:906][331]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.26:777][636]LogCharacterMovement: agentEnemyN_C_4 is stuck and failed to move! Velocity: X=359.83 Y=-174.70 Z=0.00 Location: X=-6757.33 Y=-94.97 Z=450.16 Normal: X=-0.41 Y=0.91 Z=0.00 PenetrationDepth:1.701 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.18.27:597][705]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.28:064][743]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.28:664][793]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.29:008][822]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.29:194][838]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=0.24 Y=282.94 Z=0.00 Location: X=-6615.08 Y=-62.94 Z=467.60 Normal: X=-0.46 Y=-0.62 Z=-0.64 PenetrationDepth:16.077 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (4 other events since notify)
+[2018.03.17-18.18.32:399][101]LogCharacterMovement: agentEnemyN_C_4 is stuck and failed to move! Velocity: X=2.38 Y=-193.99 Z=0.00 Location: X=-6568.98 Y=-92.68 Z=450.39 Normal: X=-0.17 Y=0.98 Z=-0.00 PenetrationDepth:1.582 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-18.18.35:027][310]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=7.64 Y=-31.35 Z=0.00 Location: X=-6756.45 Y=212.82 Z=467.51 Normal: X=0.66 Y=0.60 Z=-0.45 PenetrationDepth:1.197 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (11 other events since notify)
+[2018.03.17-18.18.35:259][329]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.18.36:670][443]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.38:716][614]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.40:883][797]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.43:010][983]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.45:439][198]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.18.52:999][841]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.18.53:078][841]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.21.03:631][654]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.17-18.21.13:808][891]LogSavePackage: Save=1081.88ms
+[2018.03.17-18.21.13:808][891]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp_Auto1B58676784AB0DDF6428002A9A3EFC61A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_2_Exp_Auto1.umap'
+[2018.03.17-18.21.13:812][891]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_2_Exp_Auto1.umap
+[2018.03.17-18.21.13:815][891]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp' took 1.144
+[2018.03.17-18.21.13:815][891]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.144
+[2018.03.17-18.32.16:742][ 63]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates1)
+[2018.03.17-18.33.02:368][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara)
+[2018.03.17-18.34.39:733][404]LogActorFactory: Actor Factory created edificio_rico_pantallas_texturizado
+[2018.03.17-18.34.41:142][495]LogActorFactory: Actor Factory created edificio_rico_pantallas_texturizado
+[2018.03.17-18.36.14:497][500]LogActorFactory: Actor Factory created muroPiedra
+[2018.03.17-18.36.15:034][529]LogActorFactory: Actor Factory created muroPiedra
+[2018.03.17-18.37.11:475][849]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.37.11:510][849]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.37.11:510][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.37.11:510][849]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:37:11 PM)
+[2018.03.17-18.37.11:524][849]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.37.11:572][849]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.37.11:574][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049827s)
+[2018.03.17-18.37.11:575][849]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.37.11:575][849]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2018.03.17-18.37.11:575][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.050940s)
+[2018.03.17-18.37.11:614][849]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.37.11:624][849]LogInit: FAudioDevice initialized.
+[2018.03.17-18.37.11:656][849]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.37.11:668][849]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.37.11
+[2018.03.17-18.37.11:671][849]LogWorld: Bringing up level for play took: 0.013546
+[2018.03.17-18.37.11:679][849]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.381
+[2018.03.17-18.37.11:679][849]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.37.11:687][849]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.37.19:144][484]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.37.19:863][541]LogCharacterMovement: gunner_C_0 is stuck and failed to move! Velocity: X=-475.56 Y=-365.84 Z=0.00 Location: X=-7836.99 Y=52.00 Z=467.48 Normal: X=0.70 Y=0.63 Z=-0.34 PenetrationDepth:0.347 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.37.20:379][583]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=101.94 Y=-386.79 Z=0.00 Location: X=-7820.03 Y=-249.82 Z=450.40 Normal: X=-0.63 Y=0.78 Z=0.00 PenetrationDepth:6.546 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.37.24:202][896]LogCharacterMovement: gunner_C_0 is stuck and failed to move! Velocity: X=243.03 Y=138.04 Z=0.00 Location: X=-7865.14 Y=96.86 Z=469.57 Normal: X=-0.95 Y=-0.31 Z=0.00 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-18.37.24:357][909]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.37.24:415][914]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=59.46 Y=188.56 Z=0.00 Location: X=-7799.31 Y=-72.00 Z=450.25 Normal: X=-0.94 Y=-0.35 Z=-0.01 PenetrationDepth:7.656 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.37.24:622][931]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.37.27:250][147]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.37.27:403][160]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=0.74 Y=23.89 Z=0.00 Location: X=-7976.74 Y=74.27 Z=468.02 Normal: X=0.42 Y=-0.81 Z=-0.41 PenetrationDepth:61.437 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.37.28:478][251]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=-574.62 Y=-66.01 Z=0.00 Location: X=-7879.50 Y=85.92 Z=448.60 Normal: X=0.68 Y=0.26 Z=-0.68 PenetrationDepth:38.577 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.37.30:170][385]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=71.83 Y=-98.70 Z=0.00 Location: X=-7606.03 Y=-74.71 Z=469.60 Normal: X=-0.25 Y=0.97 Z=0.00 PenetrationDepth:2.088 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (7 other events since notify)
+[2018.03.17-18.37.31:173][466]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=221.75 Y=-2.66 Z=0.00 Location: X=-7605.65 Y=-74.88 Z=468.41 Normal: X=0.27 Y=0.61 Z=-0.74 PenetrationDepth:8.118 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (39 other events since notify)
+[2018.03.17-18.37.32:035][536]LogCharacterMovement: gunner_C_0 is stuck and failed to move! Velocity: X=22.54 Y=-26.89 Z=0.00 Location: X=-7907.84 Y=-92.95 Z=469.49 Normal: X=-0.96 Y=0.22 Z=-0.15 PenetrationDepth:0.175 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (4 other events since notify)
+[2018.03.17-18.37.35:378][806]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.37.35:827][841]LogCharacterMovement: gunner_C_0 is stuck and failed to move! Velocity: X=433.00 Y=-264.36 Z=0.00 Location: X=-7827.03 Y=16.19 Z=469.60 Normal: X=-0.49 Y=0.87 Z=0.00 PenetrationDepth:10.296 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (7 other events since notify)
+[2018.03.17-18.37.38:971][ 93]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.37.39:142][108]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-33.31 Y=35.07 Z=0.00 Location: X=-7706.01 Y=-221.17 Z=493.12 Normal: X=0.55 Y=-0.84 Z=-0.00 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.37.39:940][174]LogCharacterMovement: antidisturbiosEnemy_C_0 is stuck and failed to move! Velocity: X=199.95 Y=4.48 Z=0.00 Location: X=-7728.09 Y=109.57 Z=491.00 Normal: X=-0.47 Y=0.84 Z=-0.26 PenetrationDepth:0.315 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.37.41:005][262]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.37.44:647][556]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.37.55:538][427]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=-15.82 Y=22.10 Z=0.00 Location: X=-7269.30 Y=-432.50 Z=450.39 Normal: X=0.93 Y=-0.36 Z=0.00 PenetrationDepth:8.660 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-18.37.56:269][489]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=255.56 Y=542.85 Z=0.00 Location: X=-7781.00 Y=62.06 Z=469.42 Normal: X=0.38 Y=-0.93 Z=0.00 PenetrationDepth:0.234 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (30 other events since notify)
+[2018.03.17-18.38.00:977][895]LogNet: Browse: /Game/ThirdPersonBP/Maps/Distrito1_2_Exp
+[2018.03.17-18.38.00:977][895]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Distrito1_2_Exp
+[2018.03.17-18.38.01:011][895]Cmd: MEM
+[2018.03.17-18.38.01:025][895]LogMemory: Platform Memory Stats for Windows
+[2018.03.17-18.38.01:025][895]LogMemory: Process Physical Memory: 3384.84 MB used, 5843.71 MB peak
+[2018.03.17-18.38.01:025][895]LogMemory: Process Virtual Memory: 4348.88 MB used, 6632.09 MB peak
+[2018.03.17-18.38.01:025][895]LogMemory: Physical Memory: 10315.23 MB used,  22400.34 MB free, 32715.57 MB total
+[2018.03.17-18.38.01:025][895]LogMemory: Virtual Memory: 5791.38 MB used,  22400.34 MB free, 134217728.00 MB total
+[2018.03.17-18.38.01:025][895]LogMemory: 
+[2018.03.17-18.38.01:025][895]Allocator Stats for TBB: (not implemented)
+[2018.03.17-18.38.01:025][895]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.38.01:062][895]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.38.01:064][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039748s)
+[2018.03.17-18.38.01:065][895]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.38.01:065][895]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2018.03.17-18.38.01:065][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.040694s)
+[2018.03.17-18.38.01:065][895]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.38.01:078][895]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.38.01
+[2018.03.17-18.38.01:080][895]LogWorld: Bringing up level for play took: 0.013049
+[2018.03.17-18.38.01:087][895]LogLoad: Took 0.109287 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp)
+[2018.03.17-18.38.01:090][895]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.38.05:878][290]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.38.07:013][382]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.38.11:514][745]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.38.12:236][806]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.38.16:562][155]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.38.17:545][235]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=53.07 Y=8.04 Z=0.00 Location: X=-7333.55 Y=-276.07 Z=449.26 Normal: X=0.11 Y=-0.16 Z=-0.98 PenetrationDepth:37.730 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.38.17:546][235]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=68.57 Y=181.49 Z=0.00 Location: X=-7227.49 Y=-195.37 Z=450.40 Normal: X=0.86 Y=-0.51 Z=-0.00 PenetrationDepth:0.242 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.38.19:015][352]LogCharacterMovement: gunner_C_0 is stuck and failed to move! Velocity: X=202.65 Y=-294.72 Z=0.00 Location: X=-7338.77 Y=-329.75 Z=467.52 Normal: X=-0.55 Y=-0.57 Z=-0.61 PenetrationDepth:3.480 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.38.21:702][567]LogCharacterMovement: gunner_C_0 is stuck and failed to move! Velocity: X=-47.07 Y=-16.13 Z=0.00 Location: X=-7472.05 Y=-329.25 Z=467.49 Normal: X=0.34 Y=0.93 Z=-0.11 PenetrationDepth:23.357 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (9 other events since notify)
+[2018.03.17-18.38.30:413][313]LogNet: Browse: /Game/ThirdPersonBP/Maps/Distrito1_2_Exp
+[2018.03.17-18.38.30:413][313]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Distrito1_2_Exp
+[2018.03.17-18.38.30:439][313]Cmd: MEM
+[2018.03.17-18.38.30:451][313]LogMemory: Platform Memory Stats for Windows
+[2018.03.17-18.38.30:451][313]LogMemory: Process Physical Memory: 3385.79 MB used, 5843.71 MB peak
+[2018.03.17-18.38.30:451][313]LogMemory: Process Virtual Memory: 4339.27 MB used, 6632.09 MB peak
+[2018.03.17-18.38.30:451][313]LogMemory: Physical Memory: 10325.27 MB used,  22390.30 MB free, 32715.57 MB total
+[2018.03.17-18.38.30:451][313]LogMemory: Virtual Memory: 5826.57 MB used,  22390.30 MB free, 134217728.00 MB total
+[2018.03.17-18.38.30:451][313]LogMemory: 
+[2018.03.17-18.38.30:451][313]Allocator Stats for TBB: (not implemented)
+[2018.03.17-18.38.30:451][313]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.38.30:489][313]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.38.30:491][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040524s)
+[2018.03.17-18.38.30:492][313]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.38.30:492][313]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2018.03.17-18.38.30:492][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.041578s)
+[2018.03.17-18.38.30:492][313]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.38.30:505][313]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.38.30
+[2018.03.17-18.38.30:507][313]LogWorld: Bringing up level for play took: 0.013263
+[2018.03.17-18.38.30:514][313]LogLoad: Took 0.101516 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp)
+[2018.03.17-18.38.30:518][313]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.38.37:117][865]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=72.58 Y=-286.40 Z=0.00 Location: X=-7769.19 Y=-233.62 Z=449.50 Normal: X=-0.99 Y=-0.04 Z=-0.13 PenetrationDepth:3.275 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.38.38:048][943]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.38.38:521][981]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.38.39:098][ 28]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=-17.47 Y=-18.30 Z=0.00 Location: X=-7750.08 Y=-274.47 Z=449.91 Normal: X=-0.70 Y=0.69 Z=-0.18 PenetrationDepth:2.902 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.38.39:110][ 29]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.38.39:450][ 57]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.38.39:544][ 65]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=33.40 Y=29.26 Z=0.00 Location: X=-7935.63 Y=-389.08 Z=467.96 Normal: X=-0.77 Y=0.37 Z=-0.52 PenetrationDepth:18.371 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.38.42:250][284]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=26.79 Y=42.06 Z=0.00 Location: X=-7773.12 Y=-274.80 Z=449.96 Normal: X=-0.94 Y=0.34 Z=-0.09 PenetrationDepth:5.916 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-18.38.43:534][393]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=-339.88 Y=77.89 Z=0.00 Location: X=-7695.74 Y=-192.81 Z=448.75 Normal: X=-0.17 Y=-0.75 Z=-0.64 PenetrationDepth:28.126 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (15 other events since notify)
+[2018.03.17-18.38.44:382][465]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.38.46:443][642]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.39.03:776][126]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.39.05:183][246]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.39.11:850][810]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.39.24:157][834]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.39.24:720][883]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.39.25:091][915]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.39.25:467][948]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=75.40 Y=243.48 Z=0.00 Location: X=-7755.67 Y=201.77 Z=467.48 Normal: X=-0.71 Y=-0.44 Z=-0.55 PenetrationDepth:2.550 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (6 other events since notify)
+[2018.03.17-18.39.25:810][978]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.39.26:219][ 14]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.39.31:633][468]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.39.35:224][777]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.39.40:407][224]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.39.43:944][539]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.39.44:012][539]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.41.49:762][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra)
+[2018.03.17-18.42.33:785][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra)
+[2018.03.17-18.43.31:030][190]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.43.31:064][190]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.43.31:064][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.43.31:064][190]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:43:31 PM)
+[2018.03.17-18.43.31:077][190]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.43.31:116][190]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.43.31:118][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041626s)
+[2018.03.17-18.43.31:119][190]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.43.31:119][190]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2018.03.17-18.43.31:119][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.042726s)
+[2018.03.17-18.43.31:148][190]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.43.31:158][190]LogInit: FAudioDevice initialized.
+[2018.03.17-18.43.31:192][190]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.43.31:205][190]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.43.31
+[2018.03.17-18.43.31:208][190]LogWorld: Bringing up level for play took: 0.013818
+[2018.03.17-18.43.31:215][190]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.845
+[2018.03.17-18.43.31:216][190]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.43.31:251][190]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.43.36:447][630]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=19.41 Y=-15.75 Z=0.00 Location: X=-7555.15 Y=-448.33 Z=469.43 Normal: X=-0.98 Y=0.19 Z=0.00 PenetrationDepth:20.517 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.43.38:202][774]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=512.66 Y=-267.13 Z=0.00 Location: X=-7702.01 Y=-213.53 Z=448.37 Normal: X=-0.98 Y=-0.11 Z=-0.18 PenetrationDepth:35.644 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.43.38:203][774]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=-477.74 Y=323.50 Z=0.00 Location: X=-7319.46 Y=-463.09 Z=448.35 Normal: X=-0.26 Y=-0.86 Z=-0.44 PenetrationDepth:7.614 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.43.40:352][961]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=-7.01 Y=23.13 Z=0.00 Location: X=-7336.51 Y=-465.36 Z=448.62 Normal: X=0.43 Y=-0.80 Z=-0.41 PenetrationDepth:24.269 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (10 other events since notify)
+[2018.03.17-18.43.41:933][ 86]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=64.47 Y=42.33 Z=0.00 Location: X=-7290.08 Y=-314.47 Z=450.17 Normal: X=0.03 Y=-0.95 Z=-0.31 PenetrationDepth:0.543 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (26 other events since notify)
+[2018.03.17-18.43.54:609][109]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=173.92 Y=136.72 Z=0.00 Location: X=-6775.98 Y=491.78 Z=467.60 Normal: X=0.51 Y=-0.84 Z=-0.17 PenetrationDepth:57.140 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (11 other events since notify)
+[2018.03.17-18.43.55:340][172]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=61.46 Y=314.22 Z=0.00 Location: X=-7107.64 Y=-555.77 Z=448.30 Normal: X=0.78 Y=-0.44 Z=-0.45 PenetrationDepth:0.655 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.43.55:607][195]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=373.51 Y=437.33 Z=0.00 Location: X=-6946.44 Y=301.66 Z=448.30 Normal: X=-0.83 Y=-0.46 Z=-0.31 PenetrationDepth:21.189 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-18.43.58:541][433]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=29.82 Y=-39.80 Z=0.00 Location: X=-6777.77 Y=165.79 Z=450.40 Normal: X=-0.95 Y=0.30 Z=-0.00 PenetrationDepth:5.654 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.43.59:119][480]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-21.91 Y=11.68 Z=0.00 Location: X=-6679.14 Y=122.41 Z=469.48 Normal: X=0.18 Y=-0.98 Z=-0.06 PenetrationDepth:10.546 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (8 other events since notify)
+[2018.03.17-18.44.00:650][604]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-14.60 Y=-18.74 Z=0.00 Location: X=-6681.28 Y=123.48 Z=469.44 Normal: X=-0.30 Y=0.95 Z=-0.03 PenetrationDepth:30.046 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (29 other events since notify)
+[2018.03.17-18.44.00:809][617]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=-22.97 Y=11.05 Z=0.00 Location: X=-6489.95 Y=135.73 Z=450.40 Normal: X=0.38 Y=-0.93 Z=-0.00 PenetrationDepth:37.403 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (11 other events since notify)
+[2018.03.17-18.44.01:292][657]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.01:436][669]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=-34.70 Y=-72.82 Z=0.00 Location: X=-6778.48 Y=150.28 Z=448.38 Normal: X=-0.60 Y=0.28 Z=-0.75 PenetrationDepth:3.779 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-18.44.01:698][691]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.01:734][694]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.01:785][698]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-21.71 Y=-473.63 Z=0.00 Location: X=-6601.42 Y=228.57 Z=491.13 Normal: X=0.06 Y=0.95 Z=-0.30 PenetrationDepth:5.130 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.44.02:759][779]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.44.03:129][811]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-0.38 Y=-48.35 Z=0.00 Location: X=-6787.76 Y=-74.09 Z=469.40 Normal: X=0.77 Y=-0.63 Z=-0.14 PenetrationDepth:33.204 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (9 other events since notify)
+[2018.03.17-18.44.04:559][929]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=16.84 Y=-160.48 Z=0.00 Location: X=-6787.18 Y=-88.40 Z=467.52 Normal: X=0.84 Y=-0.36 Z=-0.41 PenetrationDepth:52.047 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (8 other events since notify)
+[2018.03.17-18.44.05:587][ 11]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-1253.98 Y=1530.81 Z=0.00 Location: X=-6795.01 Y=-87.37 Z=467.45 Normal: X=-1.00 Y=-0.08 Z=-0.01 PenetrationDepth:37.807 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (13 other events since notify)
+[2018.03.17-18.44.05:588][ 11]LogCharacterMovement: antidisturbiosEnemy_C_0 is stuck and failed to move! Velocity: X=-17.42 Y=16.20 Z=0.00 Location: X=-6666.99 Y=-84.05 Z=494.12 Normal: X=-0.53 Y=-0.84 Z=0.09 PenetrationDepth:11.816 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.44.06:648][ 96]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-23.70 Y=-77.58 Z=0.00 Location: X=-6669.65 Y=65.78 Z=493.12 Normal: X=0.47 Y=0.88 Z=-0.00 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (5 other events since notify)
+[2018.03.17-18.44.06:950][121]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=-22.61 Y=9.31 Z=0.00 Location: X=-6779.19 Y=-199.95 Z=449.25 Normal: X=0.88 Y=-0.47 Z=0.00 PenetrationDepth:21.273 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (15 other events since notify)
+[2018.03.17-18.44.07:137][136]LogCharacterMovement: antidisturbiosEnemy_C_0 is stuck and failed to move! Velocity: X=-6.86 Y=40.74 Z=0.00 Location: X=-6652.12 Y=-195.45 Z=491.00 Normal: X=0.58 Y=-0.80 Z=-0.13 PenetrationDepth:2.316 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (41 other events since notify)
+[2018.03.17-18.44.07:694][182]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-10.44 Y=-60.75 Z=0.00 Location: X=-6678.69 Y=62.15 Z=493.12 Normal: X=0.45 Y=0.89 Z=-0.00 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (12 other events since notify)
+[2018.03.17-18.44.07:973][204]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=-22.98 Y=-6.38 Z=0.00 Location: X=-6754.97 Y=-210.87 Z=448.43 Normal: X=1.00 Y=-0.03 Z=0.00 PenetrationDepth:5.063 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (61 other events since notify)
+[2018.03.17-18.44.09:379][317]LogCharacterMovement: antidisturbiosEnemy_C_0 is stuck and failed to move! Velocity: X=-24.16 Y=22.97 Z=0.00 Location: X=-6691.11 Y=-166.88 Z=493.12 Normal: X=0.99 Y=-0.09 Z=-0.10 PenetrationDepth:15.198 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-18.44.10:009][369]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.44.14:858][770]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.44.18:408][ 67]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.44.18:987][114]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-189.31 Y=64.50 Z=0.00 Location: X=-6777.55 Y=45.91 Z=490.98 Normal: X=0.44 Y=0.68 Z=-0.59 PenetrationDepth:0.603 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.44.20:205][212]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=-41.91 Y=-23.08 Z=0.00 Location: X=-7008.76 Y=-30.59 Z=450.39 Normal: X=0.98 Y=-0.16 Z=-0.13 PenetrationDepth:0.053 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (35 other events since notify)
+[2018.03.17-18.44.25:141][618]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.44.33:519][316]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-839.38 Y=903.80 Z=0.00 Location: X=-7435.74 Y=-10.14 Z=469.63 Normal: X=0.98 Y=0.20 Z=0.00 PenetrationDepth:0.570 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.44.34:221][376]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.34:268][380]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.34:326][385]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.44.34:955][438]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=114.94 Y=-343.96 Z=0.00 Location: X=-7428.97 Y=-101.12 Z=469.53 Normal: X=-0.72 Y=0.68 Z=-0.16 PenetrationDepth:0.629 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (21 other events since notify)
+[2018.03.17-18.44.39:227][786]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.39:730][826]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.40:497][887]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.40:559][892]LogCharacterMovement: antidisturbiosEnemy_C_0 is stuck and failed to move! Velocity: X=-95.46 Y=450.13 Z=0.00 Location: X=-7436.95 Y=174.40 Z=495.44 Normal: X=-0.95 Y=-0.21 Z=-0.23 PenetrationDepth:21.192 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.44.41:160][940]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.41:323][953]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.41:678][981]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.44.42:626][ 59]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=771.20 Y=-86.08 Z=0.00 Location: X=-7636.77 Y=88.38 Z=467.54 Normal: X=-0.75 Y=0.65 Z=-0.11 PenetrationDepth:25.662 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (4 other events since notify)
+[2018.03.17-18.44.44:713][231]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=83.86 Y=49.53 Z=0.00 Location: X=-7493.87 Y=-53.21 Z=493.46 Normal: X=-0.77 Y=-0.63 Z=0.13 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (14 other events since notify)
+[2018.03.17-18.44.45:235][274]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.47:362][451]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=144.21 Y=138.58 Z=0.00 Location: X=-7395.68 Y=-242.56 Z=524.64 Normal: X=0.24 Y=-0.90 Z=0.36 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-18.44.51:423][793]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.51:860][830]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.52:508][886]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.44.52:880][918]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.44.53:017][930]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-24.48 Y=0.30 Z=0.00 Location: X=-6762.48 Y=306.27 Z=493.08 Normal: X=0.83 Y=-0.56 Z=0.00 PenetrationDepth:36.491 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.44.55:553][145]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-21.79 Y=-8.87 Z=0.00 Location: X=-6728.13 Y=304.57 Z=491.08 Normal: X=0.22 Y=0.95 Z=-0.20 PenetrationDepth:75.118 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (17 other events since notify)
+[2018.03.17-18.44.58:244][377]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-75.69 Y=-79.31 Z=0.00 Location: X=-6629.31 Y=448.95 Z=467.46 Normal: X=-0.13 Y=0.98 Z=-0.13 PenetrationDepth:1.013 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-18.45.00:922][604]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=103.59 Y=84.02 Z=0.00 Location: X=-6507.77 Y=-81.69 Z=467.49 Normal: X=0.58 Y=-0.78 Z=-0.21 PenetrationDepth:1.576 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-18.45.00:936][605]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.01:437][648]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.02:160][711]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.06:396][ 72]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.06:886][113]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.07:545][168]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.07:802][190]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.45.08:241][227]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=167.45 Y=-177.89 Z=0.00 Location: X=-6694.30 Y=-9.75 Z=467.52 Normal: X=0.71 Y=0.70 Z=-0.08 PenetrationDepth:15.389 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (4 other events since notify)
+[2018.03.17-18.45.11:094][467]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.11:617][511]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.12:049][547]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.45.14:046][715]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-14.61 Y=18.90 Z=0.00 Location: X=-6473.24 Y=162.45 Z=469.38 Normal: X=-0.98 Y=-0.19 Z=0.00 PenetrationDepth:1.159 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (9 other events since notify)
+[2018.03.17-18.45.16:725][944]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.17:290][992]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.17:367][999]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-86.77 Y=-77.75 Z=0.00 Location: X=-6541.70 Y=235.76 Z=492.15 Normal: X=0.13 Y=0.97 Z=-0.20 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (7 other events since notify)
+[2018.03.17-18.45.18:048][ 56]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.18:056][ 57]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=29.80 Y=15.00 Z=0.00 Location: X=-6523.86 Y=-147.78 Z=467.68 Normal: X=-0.67 Y=-0.38 Z=-0.64 PenetrationDepth:8.024 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (23 other events since notify)
+[2018.03.17-18.45.18:800][122]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.18:844][126]LogCharacterMovement: antidisturbiosEnemy_C_0 is stuck and failed to move! Velocity: X=336.33 Y=330.74 Z=0.00 Location: X=-6616.20 Y=-59.10 Z=529.56 Normal: X=0.84 Y=-0.51 Z=0.18 PenetrationDepth:65.566 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (13 other events since notify)
+[2018.03.17-18.45.20:785][298]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.27:282][855]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.27:692][891]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.28:336][947]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.28:701][979]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.45.28:989][  4]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-209.57 Y=-99.28 Z=0.00 Location: X=-7119.84 Y=181.55 Z=467.61 Normal: X=-0.44 Y=0.86 Z=-0.25 PenetrationDepth:44.633 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.45.31:722][238]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.45.33:136][359]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.45.34:632][486]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.17-18.45.36:712][658]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.45.46:874][631]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.45.46:932][631]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.46.03:963][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra4)
+[2018.03.17-18.46.20:731][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra3)
+[2018.03.17-18.46.25:341][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra4)
+[2018.03.17-18.46.29:743][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra)
+[2018.03.17-18.46.33:733][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra2)
+[2018.03.17-18.47.06:683][192]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (edificio_rico_pantallas_texturizado2)
+[2018.03.17-18.47.15:009][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra2)
+[2018.03.17-18.48.22:422][695]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.48.22:460][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.48.22:460][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.48.22:460][695]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:48:22 PM)
+[2018.03.17-18.48.22:462][695]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.48.22:513][695]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.48.22:515][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052783s)
+[2018.03.17-18.48.22:515][695]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.48.22:515][695]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2018.03.17-18.48.22:516][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.053903s)
+[2018.03.17-18.48.22:549][695]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.48.22:560][695]LogInit: FAudioDevice initialized.
+[2018.03.17-18.48.22:597][695]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.48.22:610][695]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.48.22
+[2018.03.17-18.48.22:612][695]LogWorld: Bringing up level for play took: 0.013710
+[2018.03.17-18.48.22:621][695]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.56
+[2018.03.17-18.48.22:621][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.48.22:654][695]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.48.27:382][ 75]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.48.32:484][482]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.48.32:690][498]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=-144.66 Y=-114.23 Z=0.00 Location: X=-7311.93 Y=-413.90 Z=448.60 Normal: X=0.77 Y=-0.15 Z=-0.63 PenetrationDepth:5.317 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.48.33:398][555]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.48.33:759][585]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=-13.63 Y=-90.48 Z=0.00 Location: X=-7589.75 Y=-361.63 Z=448.54 Normal: X=-0.86 Y=0.41 Z=-0.29 PenetrationDepth:10.897 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.48.33:980][603]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.48.36:413][805]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=-22.07 Y=-121.48 Z=0.00 Location: X=-7415.78 Y=-472.77 Z=449.89 Normal: X=-0.53 Y=0.78 Z=-0.34 PenetrationDepth:6.092 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.48.37:583][893]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=48.13 Y=130.30 Z=0.00 Location: X=-7437.03 Y=-633.18 Z=448.33 Normal: X=-0.37 Y=-0.54 Z=-0.76 PenetrationDepth:1.134 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (54 other events since notify)
+[2018.03.17-18.48.37:824][912]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=0.89 Y=-25.12 Z=0.00 Location: X=-7415.78 Y=-472.77 Z=449.89 Normal: X=-0.98 Y=0.21 Z=-0.00 PenetrationDepth:28.591 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.48.39:269][ 30]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=551.70 Y=-155.32 Z=0.00 Location: X=-7316.62 Y=-231.92 Z=448.25 Normal: X=0.71 Y=0.66 Z=-0.25 PenetrationDepth:15.656 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-18.48.41:115][180]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=-265.52 Y=299.17 Z=0.00 Location: X=-7325.46 Y=-257.00 Z=449.25 Normal: X=0.46 Y=-0.88 Z=-0.13 PenetrationDepth:4.376 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (43 other events since notify)
+[2018.03.17-18.48.41:163][184]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=-160.77 Y=135.99 Z=0.00 Location: X=-7543.73 Y=-368.94 Z=448.42 Normal: X=-0.80 Y=-0.57 Z=-0.20 PenetrationDepth:14.555 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (7 other events since notify)
+[2018.03.17-18.48.42:125][261]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=-23.13 Y=0.81 Z=0.00 Location: X=-7326.46 Y=-259.08 Z=448.32 Normal: X=0.79 Y=-0.26 Z=-0.55 PenetrationDepth:25.396 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (73 other events since notify)
+[2018.03.17-18.48.43:132][344]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=-16.83 Y=-18.83 Z=0.00 Location: X=-7326.46 Y=-259.08 Z=448.32 Normal: X=0.63 Y=0.36 Z=-0.69 PenetrationDepth:28.929 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (63 other events since notify)
+[2018.03.17-18.48.47:268][670]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.48.47:655][701]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.48.49:622][860]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.48.50:890][961]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.17-18.48.54:419][247]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.48.58:527][590]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.48.59:871][707]LogAnimMontage:Warning: JumpToSectionName 0 bEndOfSection: 0 failed for Montage beat_crouchToHealMontage
+[2018.03.17-18.49.07:328][342]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.49.09:410][519]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.49.11:862][721]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.49.12:208][750]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-275.31 Y=-8.56 Z=0.00 Location: X=-6426.63 Y=-303.42 Z=467.48 Normal: X=0.97 Y=0.20 Z=-0.12 PenetrationDepth:3.844 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.49.12:618][785]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.49.13:036][821]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.49.13:655][875]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.49.14:024][907]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.49.17:903][236]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.49.21:357][530]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.49.21:460][539]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.49.23:542][718]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.49.27:283][ 35]LogAnimMontage:Warning: JumpToSectionName 0 bEndOfSection: 0 failed for Montage beat_crouchToHealMontage
+[2018.03.17-18.50.17:797][352]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.50.18:195][383]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.50.18:695][423]LogCharacterMovement: agentEnemyN_C_6 is stuck and failed to move! Velocity: X=-53.67 Y=-321.02 Z=0.00 Location: X=-631.81 Y=746.55 Z=126.87 Normal: X=0.69 Y=0.26 Z=-0.67 PenetrationDepth:0.215 Actor:antidisturbiosEnemy_C_3 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.50.18:839][434]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.50.19:215][464]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.50.19:993][526]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.50.23:524][791]LogCharacterMovement: agentEnemyN_C_4 is stuck and failed to move! Velocity: X=-90.98 Y=-324.36 Z=0.00 Location: X=-950.91 Y=462.90 Z=126.88 Normal: X=0.96 Y=0.17 Z=-0.23 PenetrationDepth:11.502 Actor:antidisturbiosEnemy_C_3 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.50.24:260][845]LogCharacterMovement: agentEnemyN_C_7 is stuck and failed to move! Velocity: X=-103.23 Y=-386.45 Z=0.00 Location: X=-787.03 Y=512.70 Z=127.08 Normal: X=0.32 Y=0.89 Z=-0.33 PenetrationDepth:1.005 Actor:antidisturbiosEnemy_C_3 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.50.24:825][885]LogCharacterMovement: agentEnemyN_C_4 is stuck and failed to move! Velocity: X=33.08 Y=-6.28 Z=0.00 Location: X=-950.56 Y=462.96 Z=126.86 Normal: X=-0.52 Y=0.67 Z=-0.53 PenetrationDepth:8.236 Actor:antidisturbiosEnemy_C_3 Component:shield BoneName:None (16 other events since notify)
+[2018.03.17-18.50.25:346][923]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.50.25:958][970]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.50.26:271][993]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.50.26:964][ 44]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.50.27:396][ 75]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.50.28:166][131]LogCharacterMovement: antidisturbiosEnemy_C_2 is stuck and failed to move! Velocity: X=54.89 Y=192.32 Z=0.00 Location: X=-668.35 Y=218.55 Z=169.57 Normal: X=0.42 Y=-0.90 Z=-0.15 PenetrationDepth:2.131 Actor:antidisturbiosEnemy_C_3 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.50.28:425][150]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.50.29:668][244]LogCharacterMovement: agentEnemyN_C_5 is stuck and failed to move! Velocity: X=-14.12 Y=20.64 Z=0.00 Location: X=-586.36 Y=398.23 Z=128.95 Normal: X=-0.32 Y=-0.93 Z=-0.18 PenetrationDepth:8.118 Actor:antidisturbiosEnemy_C_2 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.50.31:955][422]LogCharacterMovement: agentEnemyN_C_6 is stuck and failed to move! Velocity: X=133.93 Y=79.06 Z=0.00 Location: X=-757.70 Y=657.22 Z=128.95 Normal: X=-0.21 Y=-0.98 Z=-0.01 PenetrationDepth:21.028 Actor:antidisturbiosEnemy_C_2 Component:shield BoneName:None (15 other events since notify)
+[2018.03.17-18.50.32:828][489]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.50.33:538][544]LogCharacterMovement: agentEnemyN_C_5 is stuck and failed to move! Velocity: X=-153.57 Y=369.35 Z=0.00 Location: X=-596.03 Y=614.76 Z=128.95 Normal: X=-0.21 Y=-0.98 Z=-0.05 PenetrationDepth:1.988 Actor:antidisturbiosEnemy_C_2 Component:shield BoneName:None (13 other events since notify)
+[2018.03.17-18.50.34:537][624]LogCharacterMovement: agentEnemyN_C_5 is stuck and failed to move! Velocity: X=389.36 Y=91.62 Z=0.00 Location: X=-609.60 Y=632.80 Z=128.70 Normal: X=-0.09 Y=-0.99 Z=-0.12 PenetrationDepth:34.486 Actor:antidisturbiosEnemy_C_2 Component:shield BoneName:None (57 other events since notify)
+[2018.03.17-18.50.34:823][645]LogCharacterMovement: agentEnemyN_C_6 is stuck and failed to move! Velocity: X=21.09 Y=-15.75 Z=0.00 Location: X=-770.25 Y=724.30 Z=127.52 Normal: X=0.03 Y=1.00 Z=0.00 PenetrationDepth:22.167 Actor:antidisturbiosEnemy_C_2 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.50.36:194][747]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.50.36:410][763]LogCharacterMovement: agentEnemyN_C_5 is stuck and failed to move! Velocity: X=272.29 Y=499.44 Z=0.00 Location: X=-457.13 Y=553.52 Z=127.00 Normal: X=0.29 Y=-0.66 Z=-0.69 PenetrationDepth:2.755 Actor:antidisturbiosEnemy_C_2 Component:shield BoneName:None (8 other events since notify)
+[2018.03.17-18.50.36:766][791]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.50.37:417][844]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.50.40:245][ 76]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.17-18.50.42:352][250]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.50.59:621][706]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=-267.70 Y=96.64 Z=0.00 Location: X=2796.88 Y=1133.45 Z=129.03 Normal: X=0.95 Y=-0.31 Z=0.02 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.50.59:822][722]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.50.59:880][727]LogCharacterMovement: agentEnemyN_C_10 is stuck and failed to move! Velocity: X=-242.25 Y=318.30 Z=0.00 Location: X=2718.78 Y=970.23 Z=127.09 Normal: X=0.04 Y=-0.72 Z=-0.70 PenetrationDepth:3.727 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.51.00:293][760]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.00:952][812]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.01:310][842]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.51.03:353][  1]LogCharacterMovement: agentEnemyN_C_10 is stuck and failed to move! Velocity: X=12.79 Y=-122.19 Z=0.00 Location: X=2703.68 Y=938.67 Z=129.31 Normal: X=-0.00 Y=1.00 Z=0.07 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-18.51.03:581][ 20]LogCharacterMovement: agentEnemyN_C_11 is stuck and failed to move! Velocity: X=-117.59 Y=-94.35 Z=0.00 Location: X=2779.60 Y=988.15 Z=128.20 Normal: X=-0.04 Y=0.62 Z=-0.78 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.51.04:097][ 63]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=119.41 Y=-169.91 Z=0.00 Location: X=2693.85 Y=1069.25 Z=128.95 Normal: X=0.25 Y=0.97 Z=-0.00 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (23 other events since notify)
+[2018.03.17-18.51.04:608][105]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.04:774][118]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.51.04:785][119]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=-161.84 Y=-264.68 Z=0.00 Location: X=2581.27 Y=1130.96 Z=126.86 Normal: X=0.48 Y=0.37 Z=-0.79 PenetrationDepth:2.385 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.51.05:547][180]LogCharacterMovement: agentEnemyN_C_10 is stuck and failed to move! Velocity: X=54.97 Y=-281.67 Z=0.00 Location: X=2441.62 Y=1141.57 Z=128.95 Normal: X=-0.86 Y=0.50 Z=0.00 PenetrationDepth:0.491 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (14 other events since notify)
+[2018.03.17-18.51.05:587][183]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.06:054][220]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.06:638][265]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.07:001][292]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.51.08:448][398]LogBlueprintUserMessages: [KeyGates_C_0] Tienes Llave
+[2018.03.17-18.51.09:101][443]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=27.43 Y=-9.84 Z=0.00 Location: X=2606.02 Y=1138.97 Z=128.95 Normal: X=-0.17 Y=0.98 Z=-0.11 PenetrationDepth:37.583 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (5 other events since notify)
+[2018.03.17-18.51.09:500][471]LogCharacterMovement: agentEnemyN_C_10 is stuck and failed to move! Velocity: X=8.80 Y=-26.44 Z=0.00 Location: X=2539.11 Y=1125.53 Z=127.78 Normal: X=-0.32 Y=0.04 Z=-0.95 PenetrationDepth:38.975 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (21 other events since notify)
+[2018.03.17-18.51.10:120][515]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=19.53 Y=-21.84 Z=0.00 Location: X=2649.89 Y=1112.38 Z=128.87 Normal: X=-0.40 Y=0.91 Z=0.00 PenetrationDepth:6.507 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (49 other events since notify)
+[2018.03.17-18.51.11:128][586]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=190.76 Y=35.33 Z=0.00 Location: X=2647.80 Y=1113.35 Z=127.29 Normal: X=-0.08 Y=0.88 Z=-0.46 PenetrationDepth:26.593 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (60 other events since notify)
+[2018.03.17-18.51.11:563][616]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=258.59 Y=-35.22 Z=0.00 Location: X=2862.37 Y=1025.54 Z=128.88 Normal: X=0.00 Y=0.99 Z=-0.11 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (3 other events since notify)
+[2018.03.17-18.51.12:138][656]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=284.88 Y=-34.68 Z=0.00 Location: X=2657.24 Y=1108.88 Z=128.09 Normal: X=-0.66 Y=0.49 Z=-0.57 PenetrationDepth:10.262 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (49 other events since notify)
+[2018.03.17-18.51.16:714][ 45]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=17.61 Y=-20.98 Z=0.00 Location: X=2503.83 Y=1047.51 Z=137.11 Normal: X=0.25 Y=0.96 Z=-0.09 PenetrationDepth:26.686 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (30 other events since notify)
+[2018.03.17-18.51.17:247][ 89]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.51.17:716][129]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=179.63 Y=-349.87 Z=0.00 Location: X=2493.55 Y=1051.11 Z=127.23 Normal: X=-0.42 Y=0.75 Z=-0.51 PenetrationDepth:21.083 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (54 other events since notify)
+[2018.03.17-18.51.18:728][214]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=284.96 Y=34.05 Z=0.00 Location: X=2493.06 Y=1051.81 Z=126.98 Normal: X=-0.61 Y=0.70 Z=-0.38 PenetrationDepth:8.050 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (84 other events since notify)
+[2018.03.17-18.51.19:155][248]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.19:216][253]LogCharacterMovement: agentEnemyN_C_8 is stuck and failed to move! Velocity: X=118.48 Y=77.79 Z=0.00 Location: X=2773.47 Y=895.95 Z=128.30 Normal: X=-0.42 Y=-0.26 Z=-0.87 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.51.19:609][285]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.19:825][301]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=26.71 Y=7.32 Z=0.00 Location: X=2642.13 Y=993.97 Z=128.72 Normal: X=-0.81 Y=0.02 Z=-0.59 PenetrationDepth:0.191 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-18.51.20:221][330]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.20:597][357]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.51.20:828][373]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=321.05 Y=6.03 Z=0.00 Location: X=2668.59 Y=998.84 Z=128.71 Normal: X=-0.98 Y=0.20 Z=-0.01 PenetrationDepth:5.005 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (37 other events since notify)
+[2018.03.17-18.51.21:861][450]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=175.29 Y=-89.35 Z=0.00 Location: X=2655.41 Y=972.90 Z=128.83 Normal: X=-0.95 Y=0.32 Z=-0.03 PenetrationDepth:2.534 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (50 other events since notify)
+[2018.03.17-18.51.21:948][456]LogCharacterMovement: agentEnemyN_C_11 is stuck and failed to move! Velocity: X=229.28 Y=-97.48 Z=0.00 Location: X=2698.67 Y=1166.69 Z=128.91 Normal: X=-0.98 Y=0.17 Z=-0.00 PenetrationDepth:0.529 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (17 other events since notify)
+[2018.03.17-18.51.22:092][467]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=23.35 Y=7.75 Z=0.00 Location: X=3018.86 Y=915.95 Z=147.70 Normal: X=-0.58 Y=-0.70 Z=-0.41 PenetrationDepth:63.346 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.51.22:740][517]LogCharacterMovement: agentEnemyN_C_8 is stuck and failed to move! Velocity: X=96.50 Y=-57.29 Z=0.00 Location: X=2920.40 Y=981.28 Z=127.45 Normal: X=-0.75 Y=-0.61 Z=-0.25 PenetrationDepth:1.894 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (9 other events since notify)
+[2018.03.17-18.51.22:992][537]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=77.78 Y=35.52 Z=0.00 Location: X=2697.84 Y=912.22 Z=128.75 Normal: X=-0.93 Y=0.34 Z=-0.16 PenetrationDepth:1.065 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (24 other events since notify)
+[2018.03.17-18.51.23:167][551]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-9.84 Y=24.67 Z=0.00 Location: X=2975.62 Y=885.63 Z=150.21 Normal: X=-0.80 Y=-0.60 Z=0.00 PenetrationDepth:38.169 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (19 other events since notify)
+[2018.03.17-18.51.23:939][613]LogCharacterMovement: agentEnemyN_C_10 is stuck and failed to move! Velocity: X=23.06 Y=-11.55 Z=0.00 Location: X=2899.04 Y=922.79 Z=128.67 Normal: X=-0.76 Y=0.64 Z=-0.07 PenetrationDepth:22.303 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (15 other events since notify)
+[2018.03.17-18.51.23:994][617]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=156.22 Y=-115.04 Z=0.00 Location: X=2697.84 Y=912.22 Z=128.75 Normal: X=-0.96 Y=0.28 Z=-0.00 PenetrationDepth:11.212 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (71 other events since notify)
+[2018.03.17-18.51.24:151][629]LogCharacterMovement: agentEnemyN_C_8 is stuck and failed to move! Velocity: X=16.80 Y=-21.24 Z=0.00 Location: X=2944.96 Y=978.94 Z=128.15 Normal: X=0.41 Y=0.90 Z=-0.12 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (21 other events since notify)
+[2018.03.17-18.51.24:998][691]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=142.99 Y=-248.83 Z=0.00 Location: X=2697.84 Y=912.22 Z=128.75 Normal: X=-0.97 Y=0.25 Z=-0.00 PenetrationDepth:12.763 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (73 other events since notify)
+[2018.03.17-18.51.25:596][739]LogCharacterMovement: agentEnemyN_C_10 is stuck and failed to move! Velocity: X=-11.97 Y=-21.61 Z=0.00 Location: X=2909.20 Y=796.58 Z=128.71 Normal: X=-0.86 Y=0.51 Z=-0.00 PenetrationDepth:28.358 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (17 other events since notify)
+[2018.03.17-18.51.26:003][771]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=-102.26 Y=-10.22 Z=0.00 Location: X=2697.84 Y=912.22 Z=128.75 Normal: X=-0.89 Y=0.46 Z=-0.00 PenetrationDepth:35.860 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (78 other events since notify)
+[2018.03.17-18.51.26:104][779]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=-156.75 Y=7.63 Z=0.00 Location: X=2814.22 Y=907.12 Z=128.95 Normal: X=0.62 Y=-0.79 Z=-0.02 PenetrationDepth:2.273 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (30 other events since notify)
+[2018.03.17-18.51.26:977][852]LogCharacterMovement: agentEnemyN_C_8 is stuck and failed to move! Velocity: X=36.42 Y=229.42 Z=0.00 Location: X=2910.84 Y=665.68 Z=129.25 Normal: X=-0.42 Y=-0.89 Z=0.19 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (3 other events since notify)
+[2018.03.17-18.51.28:448][972]LogCharacterMovement: agentEnemyN_C_11 is stuck and failed to move! Velocity: X=-31.79 Y=-28.35 Z=0.00 Location: X=2728.07 Y=1004.59 Z=126.84 Normal: X=-0.46 Y=0.83 Z=-0.32 PenetrationDepth:0.937 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (3 other events since notify)
+[2018.03.17-18.51.28:583][983]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=-10.75 Y=-22.28 Z=0.00 Location: X=2762.48 Y=872.11 Z=127.78 Normal: X=-0.85 Y=-0.52 Z=0.00 PenetrationDepth:38.851 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (6 other events since notify)
+[2018.03.17-18.51.28:584][983]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=-20.27 Y=14.18 Z=0.00 Location: X=2701.87 Y=901.80 Z=128.91 Normal: X=-0.85 Y=-0.52 Z=0.00 PenetrationDepth:2.613 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (9 other events since notify)
+[2018.03.17-18.51.28:633][987]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.28:912][  9]LogCharacterMovement: agentEnemyN_C_10 is stuck and failed to move! Velocity: X=-21.60 Y=1.06 Z=0.00 Location: X=2550.14 Y=1089.99 Z=128.70 Normal: X=0.48 Y=-0.81 Z=-0.33 PenetrationDepth:1.172 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (18 other events since notify)
+[2018.03.17-18.51.32:315][277]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=37.90 Y=42.09 Z=0.00 Location: X=2818.64 Y=831.85 Z=126.82 Normal: X=-0.87 Y=-0.49 Z=-0.09 PenetrationDepth:2.709 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (48 other events since notify)
+[2018.03.17-18.51.32:599][298]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=24.48 Y=11.45 Z=0.00 Location: X=2801.78 Y=946.83 Z=132.41 Normal: X=-0.95 Y=-0.31 Z=-0.04 PenetrationDepth:41.255 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (23 other events since notify)
+[2018.03.17-18.51.33:442][360]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.51.33:602][372]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=398.95 Y=28.92 Z=0.00 Location: X=2801.78 Y=946.83 Z=132.41 Normal: X=-0.97 Y=-0.19 Z=-0.18 PenetrationDepth:36.940 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (42 other events since notify)
+[2018.03.17-18.51.33:614][373]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=177.68 Y=91.82 Z=0.00 Location: X=2778.20 Y=868.47 Z=128.51 Normal: X=-0.97 Y=-0.18 Z=-0.17 PenetrationDepth:0.086 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (50 other events since notify)
+[2018.03.17-18.51.34:604][448]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=377.79 Y=-131.43 Z=0.00 Location: X=2770.93 Y=971.03 Z=129.37 Normal: X=-0.94 Y=0.34 Z=0.00 PenetrationDepth:47.363 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (66 other events since notify)
+[2018.03.17-18.51.34:653][452]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=24.96 Y=-5.51 Z=0.00 Location: X=2714.41 Y=934.41 Z=128.95 Normal: X=-0.95 Y=0.33 Z=0.00 PenetrationDepth:5.252 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (39 other events since notify)
+[2018.03.17-18.51.34:777][462]LogCharacterMovement: antidisturbiosEnemy_C_5 is stuck and failed to move! Velocity: X=56.49 Y=47.81 Z=0.00 Location: X=2672.85 Y=1047.00 Z=169.76 Normal: X=-0.95 Y=-0.11 Z=-0.30 PenetrationDepth:25.989 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.51.35:680][528]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=25.44 Y=13.60 Z=0.00 Location: X=2712.17 Y=941.39 Z=128.77 Normal: X=-0.97 Y=0.24 Z=-0.01 PenetrationDepth:0.008 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (34 other events since notify)
+[2018.03.17-18.51.35:999][550]LogCharacterMovement: agentEnemyN_C_9 is stuck and failed to move! Velocity: X=99.09 Y=91.48 Z=0.00 Location: X=2837.61 Y=1025.08 Z=128.95 Normal: X=-0.87 Y=0.50 Z=0.00 PenetrationDepth:0.115 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (49 other events since notify)
+[2018.03.17-18.51.36:832][610]LogCharacterMovement: antidisturbiosEnemy_C_6 is stuck and failed to move! Velocity: X=20.32 Y=-23.60 Z=0.00 Location: X=2768.90 Y=1198.10 Z=169.65 Normal: X=-0.58 Y=0.81 Z=-0.12 PenetrationDepth:51.156 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.51.37:083][627]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.51.37:171][634]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=113.87 Y=6.12 Z=0.00 Location: X=2757.92 Y=968.25 Z=128.74 Normal: X=-1.00 Y=-0.09 Z=-0.03 PenetrationDepth:2.936 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (12 other events since notify)
+[2018.03.17-18.51.38:787][755]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=84.96 Y=0.73 Z=0.00 Location: X=2733.79 Y=933.41 Z=128.92 Normal: X=-0.81 Y=0.58 Z=0.00 PenetrationDepth:8.351 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (22 other events since notify)
+[2018.03.17-18.51.38:841][759]LogCharacterMovement: antidisturbiosEnemy_C_6 is stuck and failed to move! Velocity: X=134.86 Y=-130.84 Z=0.00 Location: X=2790.24 Y=1211.43 Z=169.61 Normal: X=-0.68 Y=0.73 Z=-0.08 PenetrationDepth:10.105 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (15 other events since notify)
+[2018.03.17-18.51.39:679][829]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.51.39:798][839]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=27.87 Y=8.96 Z=0.00 Location: X=2692.26 Y=1028.19 Z=128.95 Normal: X=-0.87 Y=0.48 Z=-0.09 PenetrationDepth:3.526 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (17 other events since notify)
+[2018.03.17-18.51.39:897][847]LogCharacterMovement: antidisturbiosEnemy_C_6 is stuck and failed to move! Velocity: X=136.71 Y=-118.35 Z=0.00 Location: X=2736.35 Y=1310.14 Z=169.61 Normal: X=-0.67 Y=0.74 Z=-0.08 PenetrationDepth:10.950 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (7 other events since notify)
+[2018.03.17-18.51.41:400][962]LogCharacterMovement: antidisturbiosEnemy_C_6 is stuck and failed to move! Velocity: X=55.91 Y=-73.83 Z=0.00 Location: X=2680.68 Y=1345.17 Z=171.67 Normal: X=-0.79 Y=0.61 Z=-0.00 PenetrationDepth:0.183 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (11 other events since notify)
+[2018.03.17-18.51.42:231][ 33]LogCharacterMovement: antidisturbiosEnemy_C_5 is stuck and failed to move! Velocity: X=153.99 Y=64.24 Z=0.00 Location: X=2551.43 Y=1234.39 Z=171.65 Normal: X=-0.89 Y=0.47 Z=-0.00 PenetrationDepth:6.044 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (28 other events since notify)
+[2018.03.17-18.51.42:408][ 49]LogCharacterMovement: antidisturbiosEnemy_C_6 is stuck and failed to move! Velocity: X=136.04 Y=-137.38 Z=0.00 Location: X=2631.01 Y=1392.83 Z=169.62 Normal: X=-0.68 Y=0.73 Z=-0.09 PenetrationDepth:26.364 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (20 other events since notify)
+[2018.03.17-18.51.42:659][ 72]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.42:672][ 73]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.43:023][104]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.43:208][120]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.43:620][157]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=639.47 Y=603.85 Z=0.00 Location: X=2537.89 Y=1164.50 Z=146.32 Normal: X=-0.75 Y=0.10 Z=-0.66 PenetrationDepth:28.265 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (7 other events since notify)
+[2018.03.17-18.51.43:666][161]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.43:722][166]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.44:059][196]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.51.49:924][697]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.50:509][743]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.53:920][ 11]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.53:979][ 16]LogCharacterMovement: antidisturbiosEnemy_C_5 is stuck and failed to move! Velocity: X=371.15 Y=-154.75 Z=0.00 Location: X=2852.48 Y=701.79 Z=171.75 Normal: X=-0.39 Y=-0.92 Z=-0.00 PenetrationDepth:44.971 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (13 other events since notify)
+[2018.03.17-18.51.54:366][ 50]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.54:557][ 67]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-820.92 Y=-554.07 Z=0.00 Location: X=2721.11 Y=615.64 Z=146.03 Normal: X=-0.92 Y=0.23 Z=-0.32 PenetrationDepth:7.618 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (20 other events since notify)
+[2018.03.17-18.51.58:993][435]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.51.59:533][476]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.52.01:518][625]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.52.01:957][660]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.52.02:594][711]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.52.02:965][743]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.52.06:026][ 14]LogCharacterMovement: antidisturbiosEnemy_C_5 is stuck and failed to move! Velocity: X=2.35 Y=21.80 Z=0.00 Location: X=2315.49 Y=468.97 Z=171.79 Normal: X=-1.00 Y=0.06 Z=0.04 PenetrationDepth:43.786 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (6 other events since notify)
+[2018.03.17-18.52.06:137][ 24]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-10.55 Y=35.81 Z=0.00 Location: X=2215.60 Y=547.62 Z=147.85 Normal: X=0.96 Y=0.27 Z=0.00 PenetrationDepth:6.606 Actor:antidisturbiosEnemy_C_5 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.52.07:955][180]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=53.18 Y=-1.41 Z=0.00 Location: X=2450.93 Y=407.90 Z=128.92 Normal: X=0.91 Y=-0.12 Z=-0.40 PenetrationDepth:1.482 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (9 other events since notify)
+[2018.03.17-18.52.08:784][246]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.52.12:104][521]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.52.12:820][586]LogCharacterMovement: agentEnemyN_C_12 is stuck and failed to move! Velocity: X=-13.55 Y=-19.65 Z=0.00 Location: X=2579.71 Y=436.35 Z=128.53 Normal: X=0.19 Y=0.98 Z=-0.02 PenetrationDepth:33.793 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-18.52.14:291][718]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.52.14:755][760]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.52.15:698][844]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.52.15:899][861]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-216.66 Y=-171.22 Z=0.00 Location: X=2548.47 Y=521.18 Z=146.13 Normal: X=0.84 Y=0.43 Z=-0.33 PenetrationDepth:18.526 Actor:antidisturbiosEnemy_C_6 Component:shield BoneName:None (16 other events since notify)
+[2018.03.17-18.52.16:398][904]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.52.17:881][ 26]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.17-18.52.24:270][610]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.52.25:442][721]LogAnimMontage:Warning: JumpToSectionName 0 bEndOfSection: 0 failed for Montage beat_crouchToHealMontage
+[2018.03.17-18.52.32:227][336]LogAnimMontage:Warning: JumpToSectionName 0 bEndOfSection: 0 failed for Montage beat_crouchToHealMontage
+[2018.03.17-18.52.33:300][432]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-6.61 Y=23.75 Z=0.00 Location: X=2527.86 Y=377.41 Z=148.15 Normal: X=0.99 Y=0.13 Z=-0.00 PenetrationDepth:5.677 Actor:antidisturbiosEnemy_C_7 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-18.52.38:088][823]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.52.38:797][878]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.52.41:992][122]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.52.42:867][191]LogCharacterMovement: gunner_C_3 is stuck and failed to move! Velocity: X=148.82 Y=50.68 Z=0.00 Location: X=2824.41 Y=724.74 Z=148.29 Normal: X=-0.99 Y=-0.11 Z=0.06 PenetrationDepth:0.563 Actor:antidisturbiosEnemy_C_7 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.52.52:710][  7]LogScriptCore:Warning: Script Msg: Divide by zero: Divide_IntInt
+[2018.03.17-18.52.52:721][  8]LogNet: Browse: /Game/ThirdPersonBP/Maps/levelScore
+[2018.03.17-18.52.52:730][  8]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/levelScore
+[2018.03.17-18.52.52:752][  8]Cmd: MEM
+[2018.03.17-18.52.52:764][  8]LogMemory: Platform Memory Stats for Windows
+[2018.03.17-18.52.52:764][  8]LogMemory: Process Physical Memory: 3382.15 MB used, 5843.71 MB peak
+[2018.03.17-18.52.52:764][  8]LogMemory: Process Virtual Memory: 4352.97 MB used, 6632.09 MB peak
+[2018.03.17-18.52.52:764][  8]LogMemory: Physical Memory: 10411.88 MB used,  22303.69 MB free, 32715.57 MB total
+[2018.03.17-18.52.52:764][  8]LogMemory: Virtual Memory: 5770.82 MB used,  22303.69 MB free, 134217728.00 MB total
+[2018.03.17-18.52.52:765][  8]LogMemory: 
+[2018.03.17-18.52.52:765][  8]Allocator Stats for TBB: (not implemented)
+[2018.03.17-18.52.53:517][  8]LogAIModule: Creating AISystem for world levelScore
+[2018.03.17-18.52.53:518][  8]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.52.53:524][  8]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_levelScore.levelScore up for play (max tick rate 0) at 2018.03.17-19.52.53
+[2018.03.17-18.52.53:524][  8]LogWorld: Bringing up level for play took: 0.004704
+[2018.03.17-18.52.53:525][  8]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.17-18.52.53:528][  8]LogLoad: Took 0.797368 seconds to LoadMap(/Game/ThirdPersonBP/Maps/levelScore)
+[2018.03.17-18.52.56:953][394]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.52.57:005][394]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.53.26:936][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado)
+[2018.03.17-18.53.41:646][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra4)
+[2018.03.17-18.53.55:707][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado)
+[2018.03.17-18.53.59:731][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra7)
+[2018.03.17-18.54.08:347][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado)
+[2018.03.17-18.54.13:908][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra7)
+[2018.03.17-18.54.19:501][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado)
+[2018.03.17-18.54.19:653][360]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (edificio_rico_pantallas_texturizado)
+[2018.03.17-18.54.22:161][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra7)
+[2018.03.17-18.54.32:286][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado)
+[2018.03.17-18.54.35:406][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado)
+[2018.03.17-18.54.42:084][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra7)
+[2018.03.17-18.54.45:821][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado)
+[2018.03.17-18.54.51:587][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra7)
+[2018.03.17-18.57.26:163][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara3)
+[2018.03.17-18.58.26:812][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_grande_texturizado2)
+[2018.03.17-18.59.01:339][921]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-18.59.01:370][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.59.01:370][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-18.59.01:370][921]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 8:59:01 PM)
+[2018.03.17-18.59.01:373][921]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-18.59.01:423][921]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-18.59.01:426][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052874s)
+[2018.03.17-18.59.01:426][921]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-18.59.01:426][921]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2018.03.17-18.59.01:427][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.053902s)
+[2018.03.17-18.59.01:456][921]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-18.59.01:467][921]LogInit: FAudioDevice initialized.
+[2018.03.17-18.59.01:498][921]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-18.59.01:511][921]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-19.59.01
+[2018.03.17-18.59.01:513][921]LogWorld: Bringing up level for play took: 0.013896
+[2018.03.17-18.59.01:521][921]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.539
+[2018.03.17-18.59.01:522][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-18.59.01:554][921]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-18.59.06:115][297]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.59.06:127][298]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-127.17 Y=-215.61 Z=0.00 Location: X=-7817.27 Y=-482.06 Z=467.62 Normal: X=-0.15 Y=0.98 Z=-0.16 PenetrationDepth:41.600 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.59.06:549][333]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.59.07:173][382]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-18.59.08:456][484]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.59.09:287][551]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=-23.66 Y=7.64 Z=0.00 Location: X=-7690.02 Y=-445.04 Z=448.87 Normal: X=-0.15 Y=-0.90 Z=-0.40 PenetrationDepth:36.686 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.59.10:882][675]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=112.25 Y=17.82 Z=0.00 Location: X=-7639.07 Y=-421.71 Z=450.21 Normal: X=-0.90 Y=-0.44 Z=-0.05 PenetrationDepth:7.042 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (48 other events since notify)
+[2018.03.17-18.59.11:881][754]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=276.10 Y=78.30 Z=0.00 Location: X=-7639.07 Y=-421.71 Z=450.21 Normal: X=-0.95 Y=-0.30 Z=-0.05 PenetrationDepth:9.751 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (75 other events since notify)
+[2018.03.17-18.59.13:026][845]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=16.33 Y=-18.89 Z=0.00 Location: X=-7639.07 Y=-421.71 Z=450.21 Normal: X=-0.95 Y=-0.29 Z=-0.16 PenetrationDepth:19.308 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (14 other events since notify)
+[2018.03.17-18.59.13:140][854]LogCharacterMovement: gunner_C_0 is stuck and failed to move! Velocity: X=325.37 Y=86.26 Z=0.00 Location: X=-7625.98 Y=-614.19 Z=468.75 Normal: X=-0.88 Y=-0.45 Z=-0.16 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.59.13:990][923]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=17.52 Y=-24.10 Z=0.00 Location: X=-7564.03 Y=-644.25 Z=469.60 Normal: X=0.02 Y=1.00 Z=-0.04 PenetrationDepth:54.768 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-18.59.14:239][943]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=192.50 Y=-550.65 Z=0.00 Location: X=-7643.97 Y=-428.40 Z=448.36 Normal: X=-0.93 Y=0.32 Z=-0.18 PenetrationDepth:30.691 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (5 other events since notify)
+[2018.03.17-18.59.20:988][475]LogCharacterMovement: gunner_C_0 is stuck and failed to move! Velocity: X=-170.09 Y=-200.65 Z=0.00 Location: X=-7764.18 Y=-655.75 Z=469.80 Normal: X=0.98 Y=-0.09 Z=0.19 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (4 other events since notify)
+[2018.03.17-18.59.21:863][544]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=89.05 Y=15.08 Z=0.00 Location: X=-7673.35 Y=-267.81 Z=450.21 Normal: X=-0.90 Y=0.41 Z=-0.15 PenetrationDepth:1.916 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.59.22:869][622]LogCharacterMovement: agentEnemyN_C_2 is stuck and failed to move! Velocity: X=334.39 Y=219.50 Z=0.00 Location: X=-7688.82 Y=-243.08 Z=448.35 Normal: X=-0.92 Y=0.35 Z=-0.18 PenetrationDepth:5.591 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (67 other events since notify)
+[2018.03.17-18.59.29:050][102]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=196.55 Y=37.00 Z=0.00 Location: X=-7364.74 Y=-928.47 Z=493.12 Normal: X=0.13 Y=-0.99 Z=0.00 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-18.59.32:959][415]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.59.37:851][800]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.59.46:683][511]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-18.59.50:638][829]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=491.71 Y=-117.91 Z=0.00 Location: X=-7315.49 Y=-294.42 Z=450.40 Normal: X=0.22 Y=0.96 Z=-0.16 PenetrationDepth:26.704 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (17 other events since notify)
+[2018.03.17-18.59.52:981][ 18]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=380.84 Y=-122.30 Z=0.00 Location: X=-7278.81 Y=-300.09 Z=448.32 Normal: X=-0.10 Y=0.90 Z=-0.42 PenetrationDepth:1.417 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (17 other events since notify)
+[2018.03.17-18.59.55:515][222]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=333.99 Y=-220.11 Z=0.00 Location: X=-7278.50 Y=-232.89 Z=450.35 Normal: X=-0.70 Y=0.71 Z=-0.05 PenetrationDepth:1.642 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (14 other events since notify)
+[2018.03.17-18.59.55:860][250]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-176.80 Y=-635.70 Z=0.00 Location: X=-7034.48 Y=-436.89 Z=467.46 Normal: X=-0.83 Y=-0.55 Z=-0.03 PenetrationDepth:9.729 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (5 other events since notify)
+[2018.03.17-18.59.56:754][322]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-199.96 Y=4.08 Z=0.00 Location: X=-7079.14 Y=-255.77 Z=494.29 Normal: X=0.63 Y=-0.77 Z=0.15 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-18.59.58:778][487]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=34.73 Y=196.96 Z=0.00 Location: X=-7023.90 Y=-224.94 Z=491.01 Normal: X=-0.23 Y=-0.91 Z=-0.34 PenetrationDepth:1.679 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (16 other events since notify)
+[2018.03.17-19.00.01:076][671]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.01:519][705]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.02:246][763]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.02:400][776]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=658.62 Y=-289.07 Z=0.00 Location: X=-7207.00 Y=223.58 Z=450.40 Normal: X=-0.37 Y=-0.92 Z=-0.13 PenetrationDepth:24.813 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (15 other events since notify)
+[2018.03.17-19.00.06:155][ 82]LogCharacterMovement: antidisturbiosEnemy_C_0 is stuck and failed to move! Velocity: X=-119.29 Y=-143.37 Z=0.00 Location: X=-7366.11 Y=81.53 Z=491.03 Normal: X=0.72 Y=0.43 Z=-0.54 PenetrationDepth:1.166 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-19.00.07:282][174]LogAnimMontage:Warning: JumpToSectionName 0 bEndOfSection: 0 failed for Montage beat_crouchToHealMontage
+[2018.03.17-19.00.12:853][638]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=42.68 Y=21.53 Z=0.00 Location: X=-6685.04 Y=-625.30 Z=467.70 Normal: X=0.66 Y=-0.75 Z=0.08 PenetrationDepth:1.943 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-19.00.13:023][652]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-119.77 Y=15.37 Z=0.00 Location: X=-6771.91 Y=-791.57 Z=492.87 Normal: X=0.66 Y=-0.75 Z=-0.07 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-19.00.15:520][864]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.15:597][871]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.15:708][881]LogCharacterMovement: antidisturbiosEnemy_C_0 is stuck and failed to move! Velocity: X=122.73 Y=-432.72 Z=0.00 Location: X=-6791.44 Y=-535.17 Z=492.08 Normal: X=-0.03 Y=1.00 Z=0.00 PenetrationDepth:8.403 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-19.00.16:030][909]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.16:461][946]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-19.00.17:074][999]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=102.85 Y=-94.70 Z=0.00 Location: X=-6984.81 Y=-699.37 Z=469.21 Normal: X=-0.66 Y=-0.74 Z=-0.16 PenetrationDepth:51.120 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (5 other events since notify)
+[2018.03.17-19.00.25:105][679]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.25:559][717]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.26:194][771]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.26:561][803]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-19.00.26:968][839]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=148.03 Y=-96.55 Z=0.00 Location: X=-6787.86 Y=52.05 Z=468.95 Normal: X=-0.61 Y=-0.74 Z=-0.28 PenetrationDepth:7.689 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-19.00.30:477][130]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=191.48 Y=-17.67 Z=0.00 Location: X=-6887.15 Y=140.39 Z=493.07 Normal: X=-0.67 Y=0.74 Z=-0.02 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (13 other events since notify)
+[2018.03.17-19.00.37:806][739]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.38:262][778]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.38:342][785]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-127.55 Y=-35.94 Z=0.00 Location: X=-7019.35 Y=-7.27 Z=493.07 Normal: X=0.80 Y=0.59 Z=0.07 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (3 other events since notify)
+[2018.03.17-19.00.38:901][832]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.39:269][863]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-19.00.39:764][905]LogCharacterMovement: antidisturbiosEnemy_C_0 is stuck and failed to move! Velocity: X=-89.89 Y=4.88 Z=0.00 Location: X=-7167.56 Y=-239.80 Z=493.12 Normal: X=-0.67 Y=-0.73 Z=0.08 PenetrationDepth:1.644 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (10 other events since notify)
+[2018.03.17-19.00.39:862][913]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.40:440][963]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-179.70 Y=-87.80 Z=0.00 Location: X=-7186.01 Y=-36.22 Z=491.16 Normal: X=0.35 Y=0.85 Z=-0.39 PenetrationDepth:4.471 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (11 other events since notify)
+[2018.03.17-19.00.41:033][ 13]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.41:067][ 16]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=273.56 Y=337.09 Z=0.00 Location: X=-7170.26 Y=-248.64 Z=467.63 Normal: X=0.84 Y=-0.49 Z=-0.22 PenetrationDepth:13.674 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (6 other events since notify)
+[2018.03.17-19.00.44:853][333]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.45:298][371]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-19.00.46:301][456]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-19.01.02:300][829]LogCharacterMovement: agentEnemyN_C_4 is stuck and failed to move! Velocity: X=-95.08 Y=360.52 Z=0.00 Location: X=-5883.95 Y=-4868.90 Z=-151.09 Normal: X=-0.93 Y=-0.26 Z=-0.25 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_3 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-19.01.02:326][831]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-19.01.02:409][831]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-19.01.06:057][ 47]LogSavePackage: Save=1077.51ms
+[2018.03.17-19.01.06:057][ 47]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp55661C1D4F1E12B09074FE8586344364.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap'
+[2018.03.17-19.01.06:064][ 47]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap
+[2018.03.17-19.01.06:256][ 47]LogSavePackage: Save=103.49ms
+[2018.03.17-19.01.06:256][ 47]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp_BuiltDataA1FE41A449CB7D383C8C46B9D1656AC0.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp_BuiltData.uasset'
+[2018.03.17-19.01.06:261][ 47]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp_BuiltData.uasset
