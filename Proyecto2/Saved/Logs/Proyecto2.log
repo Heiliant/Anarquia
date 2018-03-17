@@ -430,3 +430,453 @@ LogInit: Object subsystem initialized
 [2018.03.17-12.18.17:993][241]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
 [2018.03.17-12.18.18:086][241]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
 [2018.03.17-12.19.04:217][396]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-12.20.31:259][628]LogTexture:Display: Building textures: Gunnerpintado (AutoDXT, 1024X1024)
+[2018.03.17-12.20.31:373][628]LogMaterial: Missing cached shader map for material Gunnerpintado_Mat, compiling. 
+[2018.03.17-12.20.31:448][628]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/enemies/gunner/anims/gunner_death.gunner_death
+[2018.03.17-12.20.31:594][628]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/enemies/gunner/anims/Standing_React_Small_From_Front_02.Standing_React_Small_From_Front_02
+[2018.03.17-12.20.31:648][628]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/enemies/gunner/anims/gunner_idle.gunner_idle
+[2018.03.17-12.20.31:689][628]LogTexture:Display: Building textures: Suelodeprueba (AutoDXT, 2048X2048)
+[2018.03.17-12.20.32:534][628]LogAudioDerivedData:Display: Building compressed audio format OGG wave Rich_district_alpha...
+[2018.03.17-12.20.35:129][628]LogMaterial: Missing cached shader map for material phong1, compiling. 
+[2018.03.17-12.20.35:260][628]LogTexture:Display: Building textures: sargent_colorVerde (AutoDXT, 1024X1024)
+[2018.03.17-12.20.35:565][628]LogTexture:Display: Building textures: keyTexture (AutoDXT, 2048X2048)
+[2018.03.17-12.20.36:923][628]LogMaterial: Missing cached shader map for material keyTexture_Mat, compiling. 
+[2018.03.17-12.20.36:953][628]LogStaticMesh: Building static mesh key...
+[2018.03.17-12.20.36:997][628]LogStaticMesh: Built static mesh [0.04s] /Game/ThirdPersonBP/Blueprints/gamemodes/exploración/key.key
+[2018.03.17-12.20.37:016][628]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_13' invalid (1544 verts, 0 indices).
+[2018.03.17-12.20.37:097][628]LogStaticMesh: Building static mesh escaleras...
+[2018.03.17-12.20.37:097][628]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.03.17-12.20.37:118][628]LogStaticMesh: Built static mesh [0.02s] /Game/ThirdPersonBP/Blueprints/PropsWorld/escaleras.escaleras
+[2018.03.17-12.20.37:178][628]LogTexture:Display: Building textures: sargent_colorRojo (AutoDXT, 1024X1024)
+[2018.03.17-12.20.37:368][628]LogMaterial: Missing cached shader map for material sargent_colorRojo_Mat, compiling. 
+[2018.03.17-12.20.37:452][628]LogMaterial: Missing cached shader map for material sargent_colorVerde_Mat, compiling. 
+[2018.03.17-12.20.37:622][628]LogMaterial: Missing cached shader map for material donut_Mat, compiling. 
+[2018.03.17-12.20.37:723][628]LogMaterial: Missing cached shader map for material donut_MatUI, compiling. 
+[2018.03.17-12.20.37:806][628]LogTexture:Display: Building textures: GunnerpintadoRojo (AutoDXT, 1024X1024)
+[2018.03.17-12.20.38:025][628]LogMaterial: Missing cached shader map for material GunnerpintadoRojo_Mat, compiling. 
+[2018.03.17-12.20.38:087][628]LogTexture:Display: Building textures: Gunnerpintado_Hurt (AutoDXT, 1024X1024)
+[2018.03.17-12.20.38:325][628]LogTexture:Display: Building textures: GunnerpintadoVerde (AutoDXT, 1024X1024)
+[2018.03.17-12.20.38:533][628]LogMaterial: Missing cached shader map for material GunnerpintadoVerde_Mat, compiling. 
+[2018.03.17-12.20.38:715][628]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/enemies/gunner/anims/gunner_run.gunner_run
+[2018.03.17-12.20.38:715][628]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/enemies/gunner/anims/gunner_walk.gunner_walk
+[2018.03.17-12.20.38:798][628]LogTexture:Display: Building textures: T_NoiseMask_Merged_06 (AutoDXT, 1024X1024)
+[2018.03.17-12.20.39:503][628]LogMaterial: Missing cached shader map for material Suelodeprueba_Mat, compiling. 
+[2018.03.17-12.20.39:563][628]LogMaterial: Missing cached shader map for material marcoPuertaKey_Mat, compiling. 
+[2018.03.17-12.20.39:585][628]LogMaterial: Missing cached shader map for material Gunnerpintado_Hurt_Mat, compiling. 
+[2018.03.17-12.20.39:631][628]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/enemies/gunner/anims/gunner_shot.gunner_shot
+[2018.03.17-12.20.39:681][628]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-12.20.41:143][628]LogSavePackage: Save=16.59ms
+[2018.03.17-12.20.41:143][628]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/DialogosUI5B04CA324582B7F38AC5C9B4415E64CC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI.uasset'
+[2018.03.17-12.20.41:157][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI.uasset
+[2018.03.17-12.20.42:743][628]LogSavePackage: Save=1302.98ms
+[2018.03.17-12.20.42:743][628]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial58A49AAE4036BB2BD1487C92FE80CA7F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap'
+[2018.03.17-12.20.42:754][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap
+[2018.03.17-12.20.42:838][628]LogFileHelpers: Saving map 'NewTutorial' took 1.681
+[2018.03.17-12.20.42:841][628]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.17-12.20.42:842][628]LightingResults: New page: Lighting Build
+[2018.03.17-12.20.42:843][628]LoadErrors: New page: Loading map: Distrito1_2_Exp.umap
+[2018.03.17-12.20.42:846][628]MapCheck: New page: Map Check
+[2018.03.17-12.20.42:846][628]LightingResults: New page: Lighting Build
+[2018.03.17-12.20.43:459][628]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.17-12.20.43:571][628]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.17-12.20.43:757][628]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 185.312ms to complete.
+[2018.03.17-12.20.43:760][628]LogFileHelpers: Loading map 'Distrito1_2_Exp' took 0.921
+[2018.03.17-12.22.19:639][395]LogMaterial: Missing cached shader map for material Farola_MAT, compiling. 
+[2018.03.17-12.22.19:998][395]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.17-12.22.20:246][395]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.17-12.22.20:246][395]LightingResults: New page: Lighting Build
+[2018.03.17-12.22.20:247][395]LoadErrors: New page: Loading map: Tutorial.umap
+[2018.03.17-12.22.20:254][395]MapCheck: New page: Map Check
+[2018.03.17-12.22.20:254][395]LightingResults: New page: Lighting Build
+[2018.03.17-12.22.21:494][395]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.17-12.22.21:599][395]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.17-12.22.21:806][395]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 206.525ms to complete.
+[2018.03.17-12.22.21:807][395]LogFileHelpers: Loading map 'Tutorial' took 1.562
+[2018.03.17-12.22.24:753][568]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.17-12.22.24:786][568]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.17-12.22.24:786][568]LightingResults: New page: Lighting Build
+[2018.03.17-12.22.24:787][568]LoadErrors: New page: Loading map: NewTutorial.umap
+[2018.03.17-12.22.24:794][568]MapCheck: New page: Map Check
+[2018.03.17-12.22.24:794][568]LightingResults: New page: Lighting Build
+[2018.03.17-12.22.25:118][568]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.17-12.22.25:190][568]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.17-12.22.25:329][568]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 139.197ms to complete.
+[2018.03.17-12.22.25:330][568]LogFileHelpers: Loading map 'NewTutorial' took 0.545
+[2018.03.17-12.23.03:654][659]LogSlate: Took 0.025505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.17-12.23.10:885][403]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-12.24.25:338][738]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-12.25.05:146][214]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-12.25.05:238][214]LogBlueprint:Error: [Compiler PersistentLevel.NewTutorial] Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.03.17-12.25.05:591][214]BlueprintEditorCompileResults:Error: Error The current value of the ' Array ' pin is invalid: Array inputs (like 'Array') must have an input wired into them (try connecting a MakeArray node).
+[2018.03.17-12.25.05:591][214]LogBlueprint:Warning: [Compiler PersistentLevel.NewTutorial] Warning [3795.10] Compile of PersistentLevel.NewTutorial failed. 1 Fatal Issue(s) 0 Warning(s) [in 444 ms] (/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial)
+[2018.03.17-12.25.39:442][138]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-12.26.31:553][ 98]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-12.27.09:312][199]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-12.34.37:617][147]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-12.35.03:054][775]LogSavePackage: Save=861.73ms
+[2018.03.17-12.35.03:054][775]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto1C00A9E3E4F2E821F8CDB56AF34D953BD.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto1.umap'
+[2018.03.17-12.35.03:059][775]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto1.umap
+[2018.03.17-12.35.03:062][775]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 0.931
+[2018.03.17-12.35.03:062][775]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.931
+[2018.03.17-12.38.39:882][127]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-12.40.20:725][182]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-12.40.29:446][638]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-12.40.29:478][638]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-12.40.29:478][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-12.40.29:478][638]PIE: New page: PIE session: NewTutorial (Mar 17, 2018, 2:40:29 PM)
+[2018.03.17-12.40.29:479][638]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.17-12.40.29:497][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018120s)
+[2018.03.17-12.40.29:498][638]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.17-12.40.29:498][638]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2018.03.17-12.40.29:498][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.019407s)
+[2018.03.17-12.40.29:531][638]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-12.40.29:541][638]LogInit: FAudioDevice initialized.
+[2018.03.17-12.40.29:572][638]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-12.40.29:577][638]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.17-13.40.29
+[2018.03.17-12.40.29:577][638]LogWorld: Bringing up level for play took: 0.004073
+[2018.03.17-12.40.29:583][638]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.478
+[2018.03.17-12.40.29:583][638]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-12.40.47:954][838]LogActorComponent:Error: May not destroy component BoxComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial:PersistentLevel.InicioTrigger.CollisionComp owned by TriggerBox /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial:PersistentLevel.InicioTrigger.
+[2018.03.17-12.42.12:768][935]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-12.42.14:894][188]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-12.42.16:448][374]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-12.42.19:749][769]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-12.42.35:492][644]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-12.42.35:587][644]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-12.42.39:769][988]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.17-12.42.48:825][ 43]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-12.43.04:581][758]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-12.43.15:578][927]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight40)
+[2018.03.17-12.43.23:319][770]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight39)
+[2018.03.17-12.43.28:047][287]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight38)
+[2018.03.17-12.43.30:543][554]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight41)
+[2018.03.17-12.43.51:283][746]LogEditorViewport: Clicking on Actor (LMB): paredes_C (paredes)
+[2018.03.17-12.43.54:582][ 76]MapCheck: New page: Map Check
+[2018.03.17-12.43.54:594][ 76]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.17-12.43.54:595][ 76]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.17-12.43.55:075][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.17-12.43.55:081][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.03.17-12.43.55:087][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blanco, compiling. 
+[2018.03.17-12.43.55:093][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.03.17-12.43.55:099][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PuertaAscensorpintado_Mat, compiling. 
+[2018.03.17-12.43.55:105][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy soporteBoton_occlusion_Mat, compiling. 
+[2018.03.17-12.43.55:111][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy button_Mat, compiling. 
+[2018.03.17-12.43.55:117][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.17-12.43.55:123][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy transparente, compiling. 
+[2018.03.17-12.43.55:128][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GreenEmisive_Mat, compiling. 
+[2018.03.17-12.43.55:134][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy fire1_Mat, compiling. 
+[2018.03.17-12.43.55:139][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy fire2_Mat, compiling. 
+[2018.03.17-12.43.55:145][ 76]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pareddeprueba_Mat, compiling. 
+[2018.03.17-12.43.55:983][ 76]TextureStreamingBuild:Display: Compiling optional shaders took 0.913 seconds.
+[2018.03.17-12.43.55:990][ 76]LogLevel:Display: Export Material TexCoord Scales took 0.007 seconds.
+[2018.03.17-12.43.56:002][ 76]TextureStreamingBuild:Display: Build Texture Streaming took 0.012 seconds.
+[2018.03.17-12.43.56:021][ 76]LightingResults: New page: Lighting Build - Mar 17, 2018, 2:43:56 PM
+[2018.03.17-12.43.56:029][ 76]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.17-12.43.56:032][ 76]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.17-12.43.56:032][ 76]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.17-12.43.56:033][ 76]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.17-12.43.56:033][ 76]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8996
+[2018.03.17-12.44.00:570][ 76]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.17-12.44.00:570][ 76]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.17-12.44.00:570][ 76]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.17-12.44.00:570][ 76]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.17-12.44.00:570][ 76]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.17-12.44.00:570][ 76]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.17-12.44.00:725][ 76]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.17-12.44.00:725][ 76]MapCheck: New page: NewTutorial - Mar 17, 2018, 2:44:00 PM
+[2018.03.17-12.44.00:727][ 76]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.03.17-12.44.01:040][ 76]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 314.524ms to complete.
+[2018.03.17-12.44.01:062][ 76]LogEditorBuildUtils: Build time 0:06
+[2018.03.17-12.44.05:312][274]Job is a success!
+[2018.03.17-12.44.05:602][275]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.03.17-12.44.05:602][275]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.17-12.44.05:602][275]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.03.17-12.44.05:602][275]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.17-12.44.05:644][275]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X128)
+[2018.03.17-12.44.05:677][275]Lightmass on PC-JAVITO: 3.82 sec total, 139 ms importing, 26 ms setup, 2.04 sec photons, 1.58 sec processing, 0 ms extra exporting [42/42 mappings]. Threads: 10.9 sec total, 6.77 sec processing.
+[2018.03.17-12.44.05:685][275]LogStaticLightingSystem: Illumination: 9.64 sec (223 ms encoding lightmaps, 38 ms encoding shadowmaps)
+[2018.03.17-12.44.05:685][275]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.17-12.44.05:685][275]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.03.17-12.44.06:575][275]DumpUnbuiltLightIteractions
+[2018.03.17-12.44.06:575][275]Lights with unbuilt interactions: 0
+[2018.03.17-12.44.06:575][275]
+[2018.03.17-12.44.06:575][275]Primitives with unbuilt interactions: 0
+[2018.03.17-12.44.06:605][276]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.17-12.44.06:605][276]MapCheck: New page: NewTutorial - Mar 17, 2018, 2:44:06 PM
+[2018.03.17-12.44.06:755][276]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 149.404ms to complete.
+[2018.03.17-12.44.19:992][698]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-12.44.20:022][698]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-12.44.20:022][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-12.44.20:022][698]PIE: New page: PIE session: NewTutorial (Mar 17, 2018, 2:44:20 PM)
+[2018.03.17-12.44.20:022][698]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.17-12.44.20:048][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025052s)
+[2018.03.17-12.44.20:048][698]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.17-12.44.20:049][698]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2018.03.17-12.44.20:049][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.026459s)
+[2018.03.17-12.44.20:081][698]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-12.44.20:090][698]LogInit: FAudioDevice initialized.
+[2018.03.17-12.44.20:124][698]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-12.44.20:129][698]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.17-13.44.20
+[2018.03.17-12.44.20:130][698]LogWorld: Bringing up level for play took: 0.004491
+[2018.03.17-12.44.20:137][698]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.077
+[2018.03.17-12.44.20:138][698]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-12.44.21:898][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-12.44.22:001][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-12.44.26:153][346]LogEditorViewport: Clicking on Actor (LMB): paredes_C (paredes5)
+[2018.03.17-12.44.29:220][692]Cmd: DELETE
+[2018.03.17-12.44.29:220][692]Cmd: ACTOR DELETE
+[2018.03.17-12.44.29:221][692]LogEditorActor: Deleted Actor: paredes_C
+[2018.03.17-12.44.29:240][692]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.03.17-12.44.31:529][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2018.03.17-12.44.32:529][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2018.03.17-12.44.33:321][107]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube28)
+[2018.03.17-12.44.35:561][322]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube29)
+[2018.03.17-12.44.36:119][362]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube30)
+[2018.03.17-12.44.36:623][406]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube31)
+[2018.03.17-12.44.37:214][464]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube32)
+[2018.03.17-12.44.37:950][537]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube33)
+[2018.03.17-12.44.38:467][587]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube26)
+[2018.03.17-12.44.38:863][624]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube25)
+[2018.03.17-12.44.39:321][667]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube24)
+[2018.03.17-12.44.39:742][706]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube23)
+[2018.03.17-12.44.40:142][742]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube22)
+[2018.03.17-12.44.40:535][778]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube21)
+[2018.03.17-12.44.41:249][848]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube20)
+[2018.03.17-12.44.41:616][881]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube13)
+[2018.03.17-12.44.41:994][915]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube14)
+[2018.03.17-12.44.42:355][947]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube15)
+[2018.03.17-12.44.44:698][174]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube15)
+[2018.03.17-12.44.45:086][208]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube16)
+[2018.03.17-12.44.46:404][337]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube17)
+[2018.03.17-12.44.47:430][434]Cmd: TRANSACTION UNDO
+[2018.03.17-12.44.47:430][434]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.17-12.44.47:640][448]Cmd: TRANSACTION UNDO
+[2018.03.17-12.44.47:640][448]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.17-12.44.47:810][457]Cmd: TRANSACTION UNDO
+[2018.03.17-12.44.47:810][457]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.17-12.44.48:309][502]Cmd: TRANSACTION UNDO
+[2018.03.17-12.44.48:309][502]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.17-12.44.49:168][585]Cmd: TRANSACTION UNDO
+[2018.03.17-12.44.49:168][585]LogEditorTransaction: Undo Move Actors
+[2018.03.17-12.44.49:173][585]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.Cube31.StaticMeshComponent0) Component already registered.
+[2018.03.17-12.44.49:173][585]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.Cube26.StaticMeshComponent0) Component already registered.
+[2018.03.17-12.44.49:174][585]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.Cube20.StaticMeshComponent0) Component already registered.
+[2018.03.17-12.44.50:068][671]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube15)
+[2018.03.17-12.44.50:776][736]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube16)
+[2018.03.17-12.44.51:256][778]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube17)
+[2018.03.17-12.44.51:697][817]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube18)
+[2018.03.17-12.44.52:794][922]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube19)
+[2018.03.17-12.44.53:970][ 34]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube12)
+[2018.03.17-12.44.54:332][ 64]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube11)
+[2018.03.17-12.44.54:913][117]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube10)
+[2018.03.17-12.44.55:488][169]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube9)
+[2018.03.17-12.45.00:101][577]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube7)
+[2018.03.17-12.45.00:626][607]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube6)
+[2018.03.17-12.45.01:114][649]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2018.03.17-12.46.08:193][855]MapCheck: New page: Map Check
+[2018.03.17-12.46.08:206][855]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.17-12.46.08:207][855]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.17-12.46.08:797][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.17-12.46.08:803][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2018.03.17-12.46.08:809][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blanco, compiling. 
+[2018.03.17-12.46.08:815][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.03.17-12.46.08:821][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PuertaAscensorpintado_Mat, compiling. 
+[2018.03.17-12.46.08:826][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy soporteBoton_occlusion_Mat, compiling. 
+[2018.03.17-12.46.08:833][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy button_Mat, compiling. 
+[2018.03.17-12.46.08:838][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GreenEmisive_Mat, compiling. 
+[2018.03.17-12.46.08:844][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy transparente, compiling. 
+[2018.03.17-12.46.08:850][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy fire1_Mat, compiling. 
+[2018.03.17-12.46.08:856][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy fire2_Mat, compiling. 
+[2018.03.17-12.46.08:861][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.17-12.46.08:867][855]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pareddeprueba_Mat, compiling. 
+[2018.03.17-12.46.09:834][855]TextureStreamingBuild:Display: Compiling optional shaders took 1.042 seconds.
+[2018.03.17-12.46.09:840][855]LogLevel:Display: Export Material TexCoord Scales took 0.006 seconds.
+[2018.03.17-12.46.09:854][855]TextureStreamingBuild:Display: Build Texture Streaming took 0.014 seconds.
+[2018.03.17-12.46.09:878][855]LightingResults: New page: Lighting Build - Mar 17, 2018, 2:46:09 PM
+[2018.03.17-12.46.09:886][855]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.17-12.46.09:888][855]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.17-12.46.09:888][855]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.17-12.46.09:889][855]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.17-12.46.09:889][855]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8996
+[2018.03.17-12.46.14:398][855]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.17-12.46.14:398][855]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.17-12.46.14:398][855]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.17-12.46.14:398][855]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.17-12.46.14:398][855]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.17-12.46.14:398][855]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.17-12.46.14:561][855]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.17-12.46.14:561][855]MapCheck: New page: NewTutorial - Mar 17, 2018, 2:46:14 PM
+[2018.03.17-12.46.14:563][855]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.03.17-12.46.14:742][855]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 181.899ms to complete.
+[2018.03.17-12.46.14:765][855]LogEditorBuildUtils: Build time 0:06
+[2018.03.17-12.46.20:193][ 87]Job is a success!
+[2018.03.17-12.46.20:592][ 88]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.03.17-12.46.20:592][ 88]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.17-12.46.20:592][ 88]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.03.17-12.46.20:592][ 88]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.17-12.46.20:678][ 88]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X256)
+[2018.03.17-12.46.20:711][ 88]Lightmass on PC-JAVITO: 4.88 sec total, 119 ms importing, 24 ms setup, 2.07 sec photons, 2.64 sec processing, 0 ms extra exporting [69/69 mappings]. Threads: 18.3 sec total, 11.7 sec processing.
+[2018.03.17-12.46.20:719][ 88]LogStaticLightingSystem: Illumination: 10.8 sec (322 ms encoding lightmaps, 69 ms encoding shadowmaps)
+[2018.03.17-12.46.20:719][ 88]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.17-12.46.20:719][ 88]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.03.17-12.46.26:405][ 88]DumpUnbuiltLightIteractions
+[2018.03.17-12.46.26:405][ 88]Lights with unbuilt interactions: 0
+[2018.03.17-12.46.26:405][ 88]
+[2018.03.17-12.46.26:405][ 88]Primitives with unbuilt interactions: 0
+[2018.03.17-12.46.26:425][ 89]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.17-12.46.26:426][ 89]MapCheck: New page: NewTutorial - Mar 17, 2018, 2:46:26 PM
+[2018.03.17-12.46.26:580][ 89]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 153.624ms to complete.
+[2018.03.17-12.46.40:067][315]Cmd: TRANSACTION UNDO
+[2018.03.17-12.46.40:067][315]LogEditorTransaction: Undo Move Actors
+[2018.03.17-12.46.40:075][315]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.Cube51.StaticMeshComponent0) Component already registered.
+[2018.03.17-12.46.40:077][315]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.Cube55.StaticMeshComponent0) Component already registered.
+[2018.03.17-12.46.40:078][315]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.Cube36.StaticMeshComponent0) Component already registered.
+[2018.03.17-12.46.40:079][315]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.Cube40.StaticMeshComponent0) Component already registered.
+[2018.03.17-12.46.41:127][403]LogEditorViewport: Clicking on Actor (LMB): paredes_C (paredes4)
+[2018.03.17-12.46.41:851][480]Cmd: DELETE
+[2018.03.17-12.46.41:851][480]Cmd: ACTOR DELETE
+[2018.03.17-12.46.41:852][480]LogEditorActor: Deleted Actor: paredes_C
+[2018.03.17-12.46.41:872][480]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.03.17-12.47.19:837][903]LogSavePackage: Save=914.84ms
+[2018.03.17-12.47.19:837][903]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto22960493749B8ACEFEF1814A9439D3F64.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto2.umap'
+[2018.03.17-12.47.19:846][903]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto2.umap
+[2018.03.17-12.47.19:852][903]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 1.001
+[2018.03.17-12.47.19:853][903]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.001
+[2018.03.17-12.47.19:856][903]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Maps/NewTutorial_BuiltData] ([1] browsable assets)...
+[2018.03.17-12.47.19:856][903]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Maps/NewTutorial_BuiltData]
+[2018.03.17-12.47.19:926][903]LogSavePackage: Save=25.65ms
+[2018.03.17-12.47.19:926][903]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_BuiltData_Auto2D7EC28014A4CD2916B6815970C81972E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_BuiltData_Auto2.uasset'
+[2018.03.17-12.47.19:930][903]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_BuiltData_Auto2.uasset
+[2018.03.17-12.47.19:930][903]LogFileHelpers: Auto-saving content packages took 0.076
+[2018.03.17-14.11.30:760][476]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.03.17-14.15.50:029][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2018.03.17-14.15.50:710][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2018.03.17-14.15.51:710][648]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube28)
+[2018.03.17-14.15.52:359][712]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube29)
+[2018.03.17-14.15.53:035][781]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube30)
+[2018.03.17-14.15.53:514][827]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube31)
+[2018.03.17-14.15.54:005][874]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube32)
+[2018.03.17-14.15.54:562][928]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube33)
+[2018.03.17-14.15.55:471][ 18]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube26)
+[2018.03.17-14.15.55:832][ 50]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube25)
+[2018.03.17-14.15.56:233][ 87]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube24)
+[2018.03.17-14.15.56:628][122]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube23)
+[2018.03.17-14.15.57:054][161]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube22)
+[2018.03.17-14.15.57:481][200]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube21)
+[2018.03.17-14.15.58:054][255]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube20)
+[2018.03.17-14.15.58:452][290]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube13)
+[2018.03.17-14.15.58:811][321]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube14)
+[2018.03.17-14.15.59:190][355]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube15)
+[2018.03.17-14.15.59:627][395]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube16)
+[2018.03.17-14.16.00:070][434]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube17)
+[2018.03.17-14.16.00:512][474]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube18)
+[2018.03.17-14.16.00:975][515]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube19)
+[2018.03.17-14.16.01:344][545]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube12)
+[2018.03.17-14.16.01:742][580]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube11)
+[2018.03.17-14.16.02:141][615]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube10)
+[2018.03.17-14.16.03:070][703]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube9)
+[2018.03.17-14.16.03:925][784]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube6)
+[2018.03.17-14.16.04:269][813]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2018.03.17-14.16.06:576][  8]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube7)
+[2018.03.17-14.16.09:191][257]LogEditorViewport: Clicking on Actor (context menu): paredes_C (paredes6)
+[2018.03.17-14.16.10:867][440]Cmd: TRANSACTION UNDO
+[2018.03.17-14.16.10:867][440]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.03.17-14.17.20:852][989]LogEditorViewport: Clicking on Actor (LMB): paredes_C (paredes)
+[2018.03.17-14.17.21:729][ 85]Cmd: DELETE
+[2018.03.17-14.17.21:729][ 85]Cmd: ACTOR DELETE
+[2018.03.17-14.17.21:730][ 85]LogEditorActor: Deleted Actor: paredes_C
+[2018.03.17-14.17.21:755][ 85]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2018.03.17-14.17.24:277][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube81)
+[2018.03.17-14.17.25:176][432]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube82)
+[2018.03.17-14.17.25:849][497]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube83)
+[2018.03.17-14.17.26:515][560]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube84)
+[2018.03.17-14.17.29:199][790]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube85)
+[2018.03.17-14.17.29:738][838]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube86)
+[2018.03.17-14.17.30:262][887]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube87)
+[2018.03.17-14.17.30:568][913]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube80)
+[2018.03.17-14.17.30:911][943]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube79)
+[2018.03.17-14.17.31:313][978]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube78)
+[2018.03.17-14.17.31:759][ 18]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube77)
+[2018.03.17-14.17.32:182][ 54]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube76)
+[2018.03.17-14.17.32:547][ 85]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube75)
+[2018.03.17-14.17.33:046][130]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube74)
+[2018.03.17-14.17.33:569][177]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube67)
+[2018.03.17-14.17.33:969][210]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube68)
+[2018.03.17-14.17.34:462][254]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube69)
+[2018.03.17-14.17.34:901][293]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube70)
+[2018.03.17-14.17.35:308][327]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube71)
+[2018.03.17-14.17.35:740][364]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube72)
+[2018.03.17-14.17.36:264][410]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube73)
+[2018.03.17-14.17.36:748][452]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube66)
+[2018.03.17-14.17.37:123][483]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube65)
+[2018.03.17-14.17.37:534][518]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube64)
+[2018.03.17-14.17.38:659][618]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube64)
+[2018.03.17-14.17.39:025][648]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube63)
+[2018.03.17-14.17.39:436][683]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube62)
+[2018.03.17-14.17.39:828][716]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube61)
+[2018.03.17-14.17.40:391][766]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube5)
+[2018.03.17-14.18.32:772][466]MapCheck: New page: Map Check
+[2018.03.17-14.18.32:787][466]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.17-14.18.32:788][466]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.17-14.18.33:389][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.17-14.18.33:395][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, compiling. 
+[2018.03.17-14.18.33:401][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blanco, compiling. 
+[2018.03.17-14.18.33:407][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.03.17-14.18.33:413][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PuertaAscensorpintado_Mat, compiling. 
+[2018.03.17-14.18.33:419][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy soporteBoton_occlusion_Mat, compiling. 
+[2018.03.17-14.18.33:425][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy button_Mat, compiling. 
+[2018.03.17-14.18.33:431][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy transparente, compiling. 
+[2018.03.17-14.18.33:437][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GreenEmisive_Mat, compiling. 
+[2018.03.17-14.18.33:442][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy fire1_Mat, compiling. 
+[2018.03.17-14.18.33:447][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy fire2_Mat, compiling. 
+[2018.03.17-14.18.33:453][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ascensorpintado_Mat, compiling. 
+[2018.03.17-14.18.33:459][466]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pareddeprueba_Mat, compiling. 
+[2018.03.17-14.18.34:405][466]TextureStreamingBuild:Display: Compiling optional shaders took 1.021 seconds.
+[2018.03.17-14.18.34:412][466]LogLevel:Display: Export Material TexCoord Scales took 0.007 seconds.
+[2018.03.17-14.18.34:432][466]TextureStreamingBuild:Display: Build Texture Streaming took 0.020 seconds.
+[2018.03.17-14.18.34:453][466]LightingResults: New page: Lighting Build - Mar 17, 2018, 4:18:34 PM
+[2018.03.17-14.18.34:462][466]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.17-14.18.34:464][466]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.17-14.18.34:464][466]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.17-14.18.34:465][466]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.17-14.18.34:465][466]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8996
+[2018.03.17-14.18.38:974][466]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.17-14.18.38:974][466]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.17-14.18.38:974][466]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.17-14.18.38:974][466]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.17-14.18.38:974][466]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.17-14.18.38:974][466]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.17-14.18.39:150][466]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.17-14.18.39:151][466]MapCheck: New page: NewTutorial - Mar 17, 2018, 4:18:39 PM
+[2018.03.17-14.18.39:153][466]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.03.17-14.18.39:463][466]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 312.443ms to complete.
+[2018.03.17-14.18.39:485][466]LogEditorBuildUtils: Build time 0:06
+[2018.03.17-14.18.47:117][705]Job is a success!
+[2018.03.17-14.18.48:071][706]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.03.17-14.18.48:072][706]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.03.17-14.18.48:072][706]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.17-14.18.48:072][706]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.17-14.18.48:234][706]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X512)
+[2018.03.17-14.18.48:269][706]Lightmass on PC-JAVITO: 7.69 sec total, 121 ms importing, 26 ms setup, 2.63 sec photons, 4.87 sec processing, 0 ms extra exporting [123/123 mappings]. Threads: 33.9 sec total, 21.0 sec processing.
+[2018.03.17-14.18.48:273][706]LogStaticLightingSystem: Illumination: 13.4 sec (477 ms encoding lightmaps, 159 ms encoding shadowmaps)
+[2018.03.17-14.18.48:273][706]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.17-14.18.48:273][706]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.03.17-14.18.53:983][706]DumpUnbuiltLightIteractions
+[2018.03.17-14.18.53:983][706]Lights with unbuilt interactions: 0
+[2018.03.17-14.18.53:983][706]
+[2018.03.17-14.18.53:983][706]Primitives with unbuilt interactions: 0
+[2018.03.17-14.18.53:994][707]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.17-14.18.53:994][707]MapCheck: New page: NewTutorial - Mar 17, 2018, 4:18:53 PM
+[2018.03.17-14.18.54:151][707]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 157.076ms to complete.
+[2018.03.17-14.19.20:525][561]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight39)
+[2018.03.17-14.19.25:721][  7]LogSavePackage: Save=981.41ms
+[2018.03.17-14.19.25:721][  7]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto3C85CA9A84889BEEDD45D5089133F9B28.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto3.umap'
+[2018.03.17-14.19.25:727][  7]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto3.umap
+[2018.03.17-14.19.25:730][  7]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 1.052
+[2018.03.17-14.19.25:730][  7]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.052
+[2018.03.17-14.19.25:732][  7]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Maps/NewTutorial_BuiltData] ([1] browsable assets)...
+[2018.03.17-14.19.25:732][  7]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Maps/NewTutorial_BuiltData]
+[2018.03.17-14.19.25:929][  7]LogSavePackage: Save=29.67ms
+[2018.03.17-14.19.25:929][  7]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_BuiltData_Auto35C9228A04E0ADF62EB25FA9DBFFB0DEC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_BuiltData_Auto3.uasset'
+[2018.03.17-14.19.25:935][  7]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_BuiltData_Auto3.uasset
+[2018.03.17-14.19.25:935][  7]LogFileHelpers: Auto-saving content packages took 0.203
