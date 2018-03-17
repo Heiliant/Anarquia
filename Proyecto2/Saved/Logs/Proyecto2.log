@@ -880,3 +880,542 @@ LogInit: Object subsystem initialized
 [2018.03.17-14.19.25:929][  7]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_BuiltData_Auto35C9228A04E0ADF62EB25FA9DBFFB0DEC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_BuiltData_Auto3.uasset'
 [2018.03.17-14.19.25:935][  7]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_BuiltData_Auto3.uasset
 [2018.03.17-14.19.25:935][  7]LogFileHelpers: Auto-saving content packages took 0.203
+[2018.03.17-14.29.37:679][804]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-14.29.37:711][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.29.37:711][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-14.29.37:711][804]PIE: New page: PIE session: NewTutorial (Mar 17, 2018, 4:29:37 PM)
+[2018.03.17-14.29.37:712][804]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.17-14.29.37:736][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024269s)
+[2018.03.17-14.29.37:737][804]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.17-14.29.37:737][804]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2018.03.17-14.29.37:737][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.025607s)
+[2018.03.17-14.29.37:775][804]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-14.29.37:784][804]LogInit: FAudioDevice initialized.
+[2018.03.17-14.29.37:817][804]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-14.29.37:825][804]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.17-15.29.37
+[2018.03.17-14.29.37:826][804]LogWorld: Bringing up level for play took: 0.007190
+[2018.03.17-14.29.37:831][804]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial -0.229
+[2018.03.17-14.29.37:832][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.29.38:818][918]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.29.38:868][918]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.29.56:677][817]BlueprintLog: New page: Compile DialogosUI
+[2018.03.17-14.29.56:892][817]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.03.17-14.29.58:282][968]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-14.29.58:316][968]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.29.58:316][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-14.29.58:316][968]PIE: New page: PIE session: NewTutorial (Mar 17, 2018, 4:29:58 PM)
+[2018.03.17-14.29.58:317][968]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.17-14.29.58:341][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023945s)
+[2018.03.17-14.29.58:341][968]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.17-14.29.58:342][968]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2018.03.17-14.29.58:342][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.024995s)
+[2018.03.17-14.29.58:372][968]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-14.29.58:384][968]LogInit: FAudioDevice initialized.
+[2018.03.17-14.29.58:421][968]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-14.29.58:429][968]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.17-15.29.58
+[2018.03.17-14.29.58:429][968]LogWorld: Bringing up level for play took: 0.007124
+[2018.03.17-14.29.58:434][968]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.374
+[2018.03.17-14.29.58:435][968]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.29.59:349][ 76]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.29.59:399][ 76]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.30.07:495][968]BlueprintLog: New page: Compile DialogosUI
+[2018.03.17-14.30.07:722][968]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.03.17-14.30.08:986][107]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-14.30.09:019][107]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.30.09:019][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-14.30.09:019][107]PIE: New page: PIE session: NewTutorial (Mar 17, 2018, 4:30:09 PM)
+[2018.03.17-14.30.09:020][107]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.17-14.30.09:046][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026227s)
+[2018.03.17-14.30.09:047][107]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.17-14.30.09:047][107]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2018.03.17-14.30.09:047][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.027299s)
+[2018.03.17-14.30.09:081][107]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-14.30.09:090][107]LogInit: FAudioDevice initialized.
+[2018.03.17-14.30.09:122][107]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-14.30.09:132][107]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.17-15.30.09
+[2018.03.17-14.30.09:132][107]LogWorld: Bringing up level for play took: 0.008430
+[2018.03.17-14.30.09:138][107]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 1.077
+[2018.03.17-14.30.09:138][107]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.30.13:428][620]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.30.13:478][620]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.30.42:492][615]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.43:349][615]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.857 s
+[2018.03.17-14.30.43:349][615]LogOutputDevice:Error: === Handled ensure: ===
+[2018.03.17-14.30.43:349][615]LogOutputDevice:Error: 
+[2018.03.17-14.30.43:349][615]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2018.03.17-14.30.43:349][615]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.03.17-14.30.43:349][615]LogOutputDevice:Error: Stack: 
+[2018.03.17-14.30.43:349][615]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001FFEE2B6
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001FD9B8C2
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001FDB1E86
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000CA47556
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000001780D27B
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000162024AA
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000160A72CC
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000160AA6D9
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000161C8035
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000001AEADB57
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000001AEB4B61
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000001B0D48D3
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000001AF0F604
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000001AEE77FC
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000001AED814C
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001FFE15B0
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001FFCB7D1
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001FFE33DB
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001FFC7B22
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: USER32.dll!0x0000000050D5B85D
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: USER32.dll!0x0000000050D5B1EF
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001FFE3CE6
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor.exe!0x000000002676DB44
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor.exe!0x000000002675F0B0
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor.exe!0x000000002675F12A
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor.exe!0x0000000026770CF9
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: UE4Editor.exe!0x00000000267725F7
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: KERNEL32.DLL!0x0000000050F51FE4
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: ntdll.dll!0x000000005386EFC1
+[2018.03.17-14.30.43:350][615]LogOutputDevice:Error: 
+[2018.03.17-14.30.43:358][615]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.17-14.30.47:795][615]LogStats:                    SendNewReport -  4.437 s
+[2018.03.17-14.30.47:795][615]LogStats:             FDebug::EnsureFailed -  5.303 s
+[2018.03.17-14.30.47:796][615]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:702][662]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:702][662]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:704][662]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:704][662]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:706][662]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:716][662]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:733][663]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:735][663]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:746][663]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:759][664]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:760][664]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:766][664]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:776][665]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:778][665]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:785][665]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:796][666]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:798][666]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:804][666]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:816][667]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:821][667]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:833][668]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:839][668]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:850][669]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:855][669]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:867][670]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:872][670]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:885][671]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:891][671]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:905][672]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:911][672]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:923][673]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:928][673]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:940][674]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:945][674]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:956][675]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:961][675]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:972][676]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:978][676]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:989][677]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.48:994][677]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:005][678]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:010][678]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:022][679]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:027][679]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:038][680]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:043][680]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:054][681]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:060][681]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:071][682]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:076][682]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:090][683]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:099][683]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:118][684]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:127][684]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:146][685]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:152][685]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:166][686]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:172][686]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:183][687]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:184][687]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:190][687]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:201][688]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:202][688]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:208][688]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:218][689]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:219][689]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:224][689]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:235][690]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:236][690]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:241][690]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:253][691]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:258][691]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:269][692]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:275][692]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:286][693]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:291][693]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:303][694]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:308][694]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:319][695]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:324][695]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:335][696]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:340][696]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:353][697]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:359][697]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:371][698]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:377][698]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:389][699]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:396][699]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:408][700]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:413][700]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:426][701]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:432][701]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:444][702]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:449][702]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:463][703]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:469][703]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:480][704]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:486][704]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:498][705]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:504][705]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:516][706]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:521][706]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:534][707]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:539][707]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:551][708]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:556][708]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:568][709]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:573][709]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:585][710]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:590][710]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:601][711]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:607][711]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:618][712]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:623][712]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:636][713]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:641][713]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:653][714]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:658][714]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:674][715]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:681][715]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:695][716]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:700][716]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:712][717]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:717][717]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:729][718]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:734][718]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:746][719]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:752][719]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:763][720]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:768][720]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:783][721]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:788][721]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:800][722]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:805][722]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:817][723]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:822][723]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:833][724]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:838][724]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:849][725]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:854][725]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:866][726]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:871][726]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:882][727]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:887][727]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:898][728]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:903][728]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:914][729]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:919][729]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:931][730]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:936][730]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:948][731]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:953][731]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:966][732]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:971][732]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:982][733]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.49:988][733]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.50:000][734]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.50:006][734]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.50:017][735]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.50:022][735]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:252][835]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:273][836]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:292][837]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:292][837]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:294][837]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:294][837]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:295][837]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:300][837]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:314][838]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:315][838]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:320][838]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:335][839]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:340][839]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:355][840]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:360][840]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:375][841]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:380][841]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:395][842]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:399][842]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:414][843]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:418][843]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:434][844]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:439][844]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:455][845]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:460][845]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:475][846]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:481][846]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:496][847]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:501][847]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:516][848]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:521][848]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:537][849]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:542][849]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:557][850]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:561][850]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:578][851]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:582][851]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:623][852]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:633][852]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:660][853]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:666][853]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:684][854]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:690][854]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:705][855]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:710][855]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:726][856]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:731][856]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:746][857]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:751][857]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:768][858]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:772][858]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:799][859]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:804][859]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:820][860]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:825][860]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:841][861]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:846][861]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:862][862]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:870][862]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:900][863]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:909][863]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:932][864]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:938][864]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:955][865]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:960][865]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:977][866]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.52:983][866]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:000][867]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:006][867]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:022][868]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:028][868]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:045][869]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:050][869]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:066][870]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:071][870]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:087][871]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:092][871]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:108][872]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:113][872]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:129][873]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:134][873]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:149][874]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:154][874]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:170][875]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:176][875]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:194][876]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:198][876]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:224][877]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:229][877]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:245][878]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:251][878]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:266][879]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:272][879]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:287][880]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:293][880]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:309][881]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:314][881]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:330][882]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:335][882]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:351][883]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:356][883]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:372][884]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:380][884]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:411][885]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:419][885]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:462][886]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:470][886]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:499][887]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:508][887]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:537][888]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:546][888]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:575][889]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:583][889]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:602][890]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:607][890]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:624][891]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:629][891]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:645][892]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:650][892]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:665][893]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:670][893]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:690][894]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:696][894]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:712][895]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:717][895]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:733][896]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:737][896]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:756][897]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:762][897]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:779][898]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:785][898]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:805][899]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:810][899]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:828][900]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:833][900]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:848][901]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:853][901]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:868][902]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:873][902]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:888][903]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:893][903]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:908][904]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:913][904]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:928][905]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:933][905]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:949][906]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:953][906]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:968][907]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:973][907]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:988][908]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.53:993][908]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:008][909]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:013][909]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:028][910]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:033][910]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:048][911]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:053][911]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:068][912]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:073][912]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:088][913]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:093][913]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:108][914]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:113][914]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:133][915]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:141][915]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:166][916]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.30.54:171][916]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.05:992][563]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.25:980][960]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.25:980][960]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.25:981][960]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.25:982][960]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.25:987][960]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.26:001][961]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.26:002][961]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.26:007][961]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:677][347]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:678][347]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:682][347]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:690][347]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:706][348]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:708][348]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:714][348]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:725][349]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:727][349]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:732][349]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:742][350]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:743][350]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:748][350]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:758][351]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:759][351]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:764][351]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:774][352]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:775][352]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:780][352]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:792][353]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:796][353]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:806][354]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:807][354]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:812][354]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:823][355]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:830][355]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:847][356]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:855][356]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:873][357]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:880][357]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:897][358]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:905][358]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:919][359]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:924][359]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:935][360]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:939][360]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:955][361]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:963][361]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:978][362]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:983][362]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:993][363]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.50:998][363]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.31.54:546][506]LogUObjectArray:Warning: Invalid object index -572662307
+[2018.03.17-14.32.19:633][ 92]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-14.32.54:499][480]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-14.34.54:865][506]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-14.35.04:972][419]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-14.35.10:806][  8]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-14.35.36:685][  8]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube24)
+[2018.03.17-14.35.36:777][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.35.36:777][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-14.35.36:777][  8]PIE: New page: PIE session: NewTutorial (Mar 17, 2018, 4:35:36 PM)
+[2018.03.17-14.35.36:778][  8]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial
+[2018.03.17-14.35.36:802][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023986s)
+[2018.03.17-14.35.36:803][  8]LogAIModule: Creating AISystem for world NewTutorial
+[2018.03.17-14.35.36:803][  8]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2018.03.17-14.35.36:803][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial (0.025223s)
+[2018.03.17-14.35.36:834][  8]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-14.35.36:844][  8]LogInit: FAudioDevice initialized.
+[2018.03.17-14.35.36:881][  8]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-14.35.36:890][  8]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial up for play (max tick rate 0) at 2018.03.17-15.35.36
+[2018.03.17-14.35.36:891][  8]LogWorld: Bringing up level for play took: 0.008449
+[2018.03.17-14.35.36:899][  8]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial 0.839
+[2018.03.17-14.35.36:900][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.35.55:022][172]LogActorComponent:Error: May not destroy component BoxComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial:PersistentLevel.InicioTrigger.CollisionComp owned by TriggerBox /Game/ThirdPersonBP/Maps/UEDPIE_0_NewTutorial.NewTutorial:PersistentLevel.InicioTrigger.
+[2018.03.17-14.37.38:648][955]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-14.37.40:842][196]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-14.37.43:515][494]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-14.37.46:158][803]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-14.38.01:854][548]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-14.38.03:864][784]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-14.38.09:671][453]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-14.38.11:832][711]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-14.38.14:236][998]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-14.38.42:288][295]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-14.38.43:311][416]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.38.43:421][416]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/NewTutorial.NewTutorial:PersistentLevel.NewTutorial'
+[2018.03.17-14.39.46:394][ 88]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-14.40.15:130][381]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-14.40.15:236][381]LogClass:Warning: Type mismatch in spawnNumber of NewTutorial_C - Previous (IntProperty) Current(ArrayProperty) for package:  FObjectReader
+[2018.03.17-14.40.23:420][125]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-14.40.31:570][844]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-14.41.09:530][247]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-14.47.13:613][464]LogSavePackage: Save=1087.45ms
+[2018.03.17-14.47.13:613][464]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_Auto4176AC37B4F7C4D403FCCE9A478574911.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto4.umap'
+[2018.03.17-14.47.13:618][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/NewTutorial_Auto4.umap
+[2018.03.17-14.47.13:621][464]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/NewTutorial' took 1.164
+[2018.03.17-14.47.13:621][464]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.164
+[2018.03.17-14.47.13:623][464]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI] ([1] browsable assets)...
+[2018.03.17-14.47.13:623][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI]
+[2018.03.17-14.47.13:658][464]LogSavePackage: Save=10.42ms
+[2018.03.17-14.47.13:658][464]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/DialogosUI_Auto4E2BE72B6458CC448581735A1D7FE3978.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI_Auto4.uasset'
+[2018.03.17-14.47.13:662][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI_Auto4.uasset
+[2018.03.17-14.47.13:662][464]LogFileHelpers: Auto-saving content packages took 0.040
+[2018.03.17-14.55.52:421][150]BlueprintLog: New page: Compile NewTutorial
+[2018.03.17-14.56.01:247][900]LogSavePackage: Save=987.85ms
+[2018.03.17-14.56.01:247][900]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorialC801B64C436C012DB817A59CDDCB0230.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap'
+[2018.03.17-14.56.01:259][900]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial.umap
+[2018.03.17-14.56.01:455][900]LogSavePackage: Save=112.33ms
+[2018.03.17-14.56.01:455][900]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/NewTutorial_BuiltData29452A0F42199C16D0C3B88BC38969EE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial_BuiltData.uasset'
+[2018.03.17-14.56.01:466][900]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/NewTutorial_BuiltData.uasset
+[2018.03.17-14.56.04:194][165]LogSavePackage: Save=10.15ms
+[2018.03.17-14.56.04:194][165]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/DialogosUIB32A9F8C4D6EF672002DF084146F6E7D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI.uasset'
+[2018.03.17-14.56.04:203][165]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/tutorial/Dialogos/DialogosUI.uasset
