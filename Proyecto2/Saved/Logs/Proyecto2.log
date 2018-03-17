@@ -1286,3 +1286,336 @@ LogInit: Object subsystem initialized
 [2018.03.17-19.01.06:256][ 47]LogSavePackage: Save=103.49ms
 [2018.03.17-19.01.06:256][ 47]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp_BuiltDataA1FE41A449CB7D383C8C46B9D1656AC0.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp_BuiltData.uasset'
 [2018.03.17-19.01.06:261][ 47]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp_BuiltData.uasset
+[2018.03.17-19.03.46:122][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2018.03.17-19.03.57:583][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_grande_texturizado3)
+[2018.03.17-19.04.10:953][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara5)
+[2018.03.17-19.04.57:655][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube35)
+[2018.03.17-19.05.01:227][499]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_112' invalid (1440 verts, 0 indices).
+[2018.03.17-19.05.02:901][589]Cmd: TRANSACTION UNDO
+[2018.03.17-19.05.02:901][589]LogEditorTransaction: Undo Move Actors
+[2018.03.17-19.05.02:923][589]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2018.03.17-19.05.02:927][589]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2018.03.17-19.05.02:932][589]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-19.05.09:139][983]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_160' invalid (1476 verts, 0 indices).
+[2018.03.17-19.05.12:977][273]Cmd: TRANSACTION UNDO
+[2018.03.17-19.05.12:977][273]LogEditorTransaction: Undo Scale Actors
+[2018.03.17-19.05.12:998][273]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2018.03.17-19.05.13:002][273]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2018.03.17-19.05.13:007][273]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-19.05.15:609][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube35)
+[2018.03.17-19.05.17:734][524]Cmd: TRANSACTION UNDO
+[2018.03.17-19.05.17:734][524]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.17-19.05.17:764][524]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-19.05.18:220][538]Cmd: TRANSACTION UNDO
+[2018.03.17-19.05.18:220][538]LogEditorTransaction: Undo Select Brush Surface
+[2018.03.17-19.05.18:247][538]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-19.05.46:264][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara5)
+[2018.03.17-19.05.49:072][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_grande_texturizado3)
+[2018.03.17-19.06.32:522][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_grande_texturizado4)
+[2018.03.17-19.06.33:102][423]Cmd: DELETE
+[2018.03.17-19.06.33:102][423]Cmd: ACTOR DELETE
+[2018.03.17-19.06.33:104][423]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.17-19.06.33:120][423]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.03.17-19.06.34:117][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara5)
+[2018.03.17-19.06.59:751][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra10)
+[2018.03.17-19.08.06:646][798]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.03.17-19.08.08:553][951]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-19.08.12:312][203]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-19.08.12:951][252]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-19.08.14:828][400]Cmd: TRANSACTION UNDO
+[2018.03.17-19.08.14:828][400]LogEditorTransaction: Undo Snap Actors To Floor
+[2018.03.17-19.08.17:419][476]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-19.08.18:096][510]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-19.08.19:523][611]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-19.08.19:558][611]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-19.08.19:558][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-19.08.19:558][611]PIE: New page: PIE session: Distrito1_2_Exp (Mar 17, 2018, 9:08:19 PM)
+[2018.03.17-19.08.19:559][611]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-19.08.19:600][611]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-19.08.19:602][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043331s)
+[2018.03.17-19.08.19:603][611]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-19.08.19:603][611]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2018.03.17-19.08.19:603][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.044381s)
+[2018.03.17-19.08.19:634][611]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-19.08.19:644][611]LogInit: FAudioDevice initialized.
+[2018.03.17-19.08.19:677][611]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-19.08.19:693][611]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-20.08.19
+[2018.03.17-19.08.19:695][611]LogWorld: Bringing up level for play took: 0.017047
+[2018.03.17-19.08.19:728][611]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.332
+[2018.03.17-19.08.19:729][611]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-19.08.19:763][611]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-19.08.29:309][448]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-19.08.29:367][448]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-19.11.15:947][869]LogSavePackage: Save=1093.21ms
+[2018.03.17-19.11.15:947][869]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp_Auto24D50510A4B42E6010A70D3A7F91A0CE5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_2_Exp_Auto2.umap'
+[2018.03.17-19.11.15:950][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_2_Exp_Auto2.umap
+[2018.03.17-19.11.15:956][869]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp' took 1.149
+[2018.03.17-19.11.15:956][869]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.149
+[2018.03.17-19.19.35:431][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado2)
+[2018.03.17-19.19.57:778][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra5)
+[2018.03.17-19.20.24:956][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado3)
+[2018.03.17-19.20.29:393][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra13)
+[2018.03.17-19.20.43:110][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra13)
+[2018.03.17-19.20.50:603][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado3)
+[2018.03.17-19.21.13:761][405]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_208' invalid (1394 verts, 0 indices).
+[2018.03.17-19.21.14:192][431]Cmd: TRANSACTION UNDO
+[2018.03.17-19.21.14:192][431]LogEditorTransaction: Undo Move Actors
+[2018.03.17-19.21.14:213][431]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2018.03.17-19.21.14:213][431]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2018.03.17-19.21.14:218][431]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-19.21.14:712][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado3)
+[2018.03.17-19.21.46:438][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_grande_texturizado2)
+[2018.03.17-19.21.49:928][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_grande_texturizado4)
+[2018.03.17-19.22.01:554][678]Cmd: TRANSACTION UNDO
+[2018.03.17-19.22.01:554][678]LogEditorTransaction: Undo Scale Actors
+[2018.03.17-19.22.24:091][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteria_doble)
+[2018.03.17-19.23.27:248][751]LogSavePackage: Save=1098.46ms
+[2018.03.17-19.23.27:248][751]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp_Auto3D8D328934E0397B815A2B4BFEB50F663.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_2_Exp_Auto3.umap'
+[2018.03.17-19.23.27:252][751]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_2_Exp_Auto3.umap
+[2018.03.17-19.23.27:255][751]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp' took 1.156
+[2018.03.17-19.23.27:255][751]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.156
+[2018.03.17-22.34.46:783][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_grande_texturizado4)
+[2018.03.17-22.35.31:444][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra2)
+[2018.03.17-22.36.45:045][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra15)
+[2018.03.17-22.36.59:322][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra16)
+[2018.03.17-22.38.15:323][487]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-22.38.15:355][487]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.38.15:355][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-22.38.15:356][487]PIE: New page: PIE session: Distrito1_2_Exp (Mar 18, 2018, 12:38:15 AM)
+[2018.03.17-22.38.15:356][487]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-22.38.15:400][487]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-22.38.15:404][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047180s)
+[2018.03.17-22.38.15:404][487]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-22.38.15:405][487]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2018.03.17-22.38.15:405][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.048637s)
+[2018.03.17-22.38.15:437][487]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-22.38.15:449][487]LogInit: FAudioDevice initialized.
+[2018.03.17-22.38.15:484][487]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-22.38.15:513][487]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-23.38.15
+[2018.03.17-22.38.15:515][487]LogWorld: Bringing up level for play took: 0.028264
+[2018.03.17-22.38.15:522][487]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.538
+[2018.03.17-22.38.15:523][487]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.38.15:559][487]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-22.38.20:153][890]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.38.20:216][890]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.38.22:682][ 70]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.03.17-22.38.24:352][186]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-22.38.25:531][228]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-22.38.27:062][334]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-22.38.27:842][386]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-22.38.32:413][666]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.17-22.38.33:240][703]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-22.38.33:282][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.38.33:282][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-22.38.33:283][703]PIE: New page: PIE session: Distrito1_2_Exp (Mar 18, 2018, 12:38:33 AM)
+[2018.03.17-22.38.33:283][703]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-22.38.33:324][703]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-22.38.33:326][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043225s)
+[2018.03.17-22.38.33:327][703]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-22.38.33:327][703]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2018.03.17-22.38.33:327][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.044246s)
+[2018.03.17-22.38.33:354][703]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-22.38.33:363][703]LogInit: FAudioDevice initialized.
+[2018.03.17-22.38.33:396][703]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-22.38.33:410][703]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-23.38.33
+[2018.03.17-22.38.33:414][703]LogWorld: Bringing up level for play took: 0.015970
+[2018.03.17-22.38.33:423][703]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.638
+[2018.03.17-22.38.33:423][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.38.33:460][703]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-22.39.02:992][251]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.39.03:046][251]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.39.09:859][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra16)
+[2018.03.17-22.39.10:716][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra17)
+[2018.03.17-22.39.11:680][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra16)
+[2018.03.17-22.39.55:481][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra19)
+[2018.03.17-22.40.00:157][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra15)
+[2018.03.17-22.40.03:339][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra14)
+[2018.03.17-22.40.08:197][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra16)
+[2018.03.17-22.40.23:428][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra20)
+[2018.03.17-22.40.31:107][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra19)
+[2018.03.17-22.40.42:558][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteria_doble3)
+[2018.03.17-22.40.43:210][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado3)
+[2018.03.17-22.41.12:674][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado4)
+[2018.03.17-22.41.21:636][995]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteria_doble4)
+[2018.03.17-22.42.44:848][797]LogSavePackage: Save=1183.62ms
+[2018.03.17-22.42.44:848][797]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp_Auto446FF069D4DB7D2AE4D9B009DA5EC7B24.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_2_Exp_Auto4.umap'
+[2018.03.17-22.42.44:852][797]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_2_Exp_Auto4.umap
+[2018.03.17-22.42.44:862][797]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp' took 1.248
+[2018.03.17-22.42.44:862][797]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.248
+[2018.03.17-22.44.02:887][654]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-22.44.02:918][654]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.44.02:918][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-22.44.02:918][654]PIE: New page: PIE session: Distrito1_2_Exp (Mar 18, 2018, 12:44:02 AM)
+[2018.03.17-22.44.02:918][654]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-22.44.02:964][654]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-22.44.02:966][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047766s)
+[2018.03.17-22.44.02:967][654]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-22.44.02:967][654]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2018.03.17-22.44.02:967][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.048937s)
+[2018.03.17-22.44.03:002][654]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-22.44.03:014][654]LogInit: FAudioDevice initialized.
+[2018.03.17-22.44.03:047][654]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-22.44.03:061][654]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-23.44.03
+[2018.03.17-22.44.03:063][654]LogWorld: Bringing up level for play took: 0.014556
+[2018.03.17-22.44.03:071][654]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 1.01
+[2018.03.17-22.44.03:071][654]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.44.03:106][654]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-22.44.13:962][577]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=32.04 Y=46.51 Z=0.00 Location: X=-1011.45 Y=944.40 Z=171.68 Normal: X=-0.98 Y=-0.22 Z=0.00 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-22.44.24:732][420]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-22.44.26:864][578]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-22.44.30:413][862]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-22.44.32:821][ 57]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=-284.08 Y=834.01 Z=0.00 Location: X=43.04 Y=597.31 Z=126.81 Normal: X=0.91 Y=0.40 Z=-0.12 PenetrationDepth:15.860 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-22.44.34:611][193]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=-8.49 Y=-26.13 Z=0.00 Location: X=-145.00 Y=499.30 Z=128.95 Normal: X=-0.68 Y=0.74 Z=0.00 PenetrationDepth:35.083 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-22.44.35:004][223]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-2.29 Y=-24.51 Z=0.00 Location: X=-170.64 Y=615.14 Z=171.68 Normal: X=-0.30 Y=0.95 Z=0.00 PenetrationDepth:32.634 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (2 other events since notify)
+[2018.03.17-22.44.39:800][609]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-22.44.40:097][634]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=-36.70 Y=32.21 Z=0.00 Location: X=-87.71 Y=635.74 Z=128.95 Normal: X=0.73 Y=0.68 Z=0.00 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-22.44.41:100][718]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=-138.28 Y=83.82 Z=0.00 Location: X=-288.33 Y=762.31 Z=128.73 Normal: X=0.57 Y=-0.81 Z=-0.17 PenetrationDepth:1.633 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (15 other events since notify)
+[2018.03.17-22.44.41:840][778]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-22.44.42:497][831]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-22.44.42:800][855]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-22.44.43:126][882]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=36.18 Y=-121.10 Z=0.00 Location: X=-302.13 Y=899.69 Z=146.04 Normal: X=0.85 Y=0.36 Z=-0.38 PenetrationDepth:0.023 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-22.44.44:951][ 29]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-22.44.59:650][163]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=137.68 Y=-145.06 Z=0.00 Location: X=-392.75 Y=849.00 Z=171.83 Normal: X=-0.24 Y=0.95 Z=0.18 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (34 other events since notify)
+[2018.03.17-22.45.00:042][194]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-22.45.00:502][232]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-22.45.01:077][280]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-22.45.01:446][311]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-22.45.05:098][604]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-22.45.05:156][609]LogCharacterMovement: antidisturbiosEnemy_C_0 is stuck and failed to move! Velocity: X=10.02 Y=3.80 Z=0.00 Location: X=-10.53 Y=809.53 Z=171.65 Normal: X=0.71 Y=0.68 Z=-0.20 PenetrationDepth:15.513 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-22.45.05:601][646]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-344.98 Y=911.83 Z=0.00 Location: X=-66.34 Y=926.12 Z=146.05 Normal: X=-0.43 Y=-0.90 Z=-0.13 PenetrationDepth:3.530 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-22.45.08:210][859]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.17-22.45.10:222][ 29]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-22.45.13:111][265]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=767.29 Y=-114.43 Z=0.00 Location: X=-813.49 Y=782.08 Z=146.03 Normal: X=0.03 Y=0.99 Z=-0.15 PenetrationDepth:32.663 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-22.45.13:136][267]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-22.45.14:241][358]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-22.45.17:168][593]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-22.45.17:624][628]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-76.22 Y=-118.51 Z=0.00 Location: X=-596.58 Y=774.02 Z=146.06 Normal: X=-0.39 Y=-0.54 Z=-0.75 PenetrationDepth:5.726 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (3 other events since notify)
+[2018.03.17-22.45.18:586][704]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-22.45.20:075][831]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.17-22.45.24:896][212]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.45.24:967][212]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.45.47:946][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra20)
+[2018.03.17-22.46.06:939][389]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-22.46.06:968][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.46.06:969][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-22.46.06:969][389]PIE: New page: PIE session: Distrito1_2_Exp (Mar 18, 2018, 12:46:06 AM)
+[2018.03.17-22.46.06:969][389]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-22.46.07:010][389]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-22.46.07:012][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042828s)
+[2018.03.17-22.46.07:013][389]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-22.46.07:013][389]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2018.03.17-22.46.07:013][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.043844s)
+[2018.03.17-22.46.07:040][389]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-22.46.07:051][389]LogInit: FAudioDevice initialized.
+[2018.03.17-22.46.07:080][389]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-22.46.07:094][389]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.17-23.46.07
+[2018.03.17-22.46.07:096][389]LogWorld: Bringing up level for play took: 0.014885
+[2018.03.17-22.46.07:104][389]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 1.043
+[2018.03.17-22.46.07:104][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.46.07:141][389]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-22.46.17:968][325]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.46.18:037][325]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-22.46.20:384][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra15)
+[2018.03.17-22.46.25:995][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra16)
+[2018.03.17-22.46.30:559][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra14)
+[2018.03.17-22.54.19:176][527]LogSavePackage: Save=1090.90ms
+[2018.03.17-22.54.19:176][527]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp_Auto51146B6214AC3A9117B3F3896CDFDBDA1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_2_Exp_Auto5.umap'
+[2018.03.17-22.54.19:180][527]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_2_Exp_Auto5.umap
+[2018.03.17-22.54.19:183][527]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp' took 1.147
+[2018.03.17-22.54.19:183][527]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.147
+[2018.03.17-23.01.44:786][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara5)
+[2018.03.17-23.02.11:613][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara7)
+[2018.03.17-23.02.44:590][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara7)
+[2018.03.17-23.02.48:235][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado4)
+[2018.03.17-23.03.25:082][858]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-23.03.25:115][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-23.03.25:115][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-23.03.25:115][858]PIE: New page: PIE session: Distrito1_2_Exp (Mar 18, 2018, 1:03:25 AM)
+[2018.03.17-23.03.25:116][858]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-23.03.25:158][858]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-23.03.25:161][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044335s)
+[2018.03.17-23.03.25:161][858]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-23.03.25:161][858]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2018.03.17-23.03.25:162][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.045478s)
+[2018.03.17-23.03.25:193][858]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-23.03.25:204][858]LogInit: FAudioDevice initialized.
+[2018.03.17-23.03.25:239][858]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-23.03.25:254][858]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.18-00.03.25
+[2018.03.17-23.03.25:257][858]LogWorld: Bringing up level for play took: 0.016347
+[2018.03.17-23.03.25:267][858]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.794
+[2018.03.17-23.03.25:267][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-23.03.25:307][858]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-23.03.41:752][224]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-23.03.43:594][371]LogCharacterMovement: agentEnemyN_C_3 is stuck and failed to move! Velocity: X=-13.82 Y=48.16 Z=0.00 Location: X=-1425.49 Y=1332.92 Z=128.95 Normal: X=0.77 Y=-0.64 Z=0.00 PenetrationDepth:1.780 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-23.03.48:767][793]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=29.79 Y=6.55 Z=0.00 Location: X=-1011.63 Y=1137.16 Z=128.89 Normal: X=-0.98 Y=0.21 Z=-0.01 PenetrationDepth:16.950 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-23.03.50:020][899]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=100.61 Y=-19.69 Z=0.00 Location: X=-984.58 Y=1127.01 Z=128.89 Normal: X=-1.00 Y=-0.06 Z=-0.02 PenetrationDepth:35.094 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (65 other events since notify)
+[2018.03.17-23.03.51:218][  0]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=272.29 Y=-90.67 Z=0.00 Location: X=-996.45 Y=1140.77 Z=127.10 Normal: X=-0.91 Y=0.28 Z=-0.31 PenetrationDepth:1.255 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (35 other events since notify)
+[2018.03.17-23.03.52:218][ 85]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=52.89 Y=-14.10 Z=0.00 Location: X=-994.95 Y=1139.12 Z=126.89 Normal: X=-0.89 Y=-0.24 Z=-0.38 PenetrationDepth:35.799 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (66 other events since notify)
+[2018.03.17-23.03.52:723][127]LogCharacterMovement: agentEnemyN_C_0 is stuck and failed to move! Velocity: X=-125.07 Y=671.02 Z=0.00 Location: X=-868.76 Y=1185.43 Z=128.95 Normal: X=0.98 Y=0.19 Z=0.00 PenetrationDepth:12.977 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-23.03.52:911][143]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-23.03.53:786][218]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=-132.96 Y=208.32 Z=0.00 Location: X=-994.95 Y=1139.12 Z=126.89 Normal: X=-0.92 Y=-0.38 Z=0.04 PenetrationDepth:4.215 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (34 other events since notify)
+[2018.03.17-23.04.00:092][762]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-23.04.00:526][799]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-23.04.01:421][877]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-23.04.02:338][957]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-23.04.09:259][557]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-23.04.09:293][560]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=35.61 Y=-17.14 Z=0.00 Location: X=-1171.34 Y=928.33 Z=146.08 Normal: X=0.89 Y=-0.12 Z=-0.45 PenetrationDepth:5.933 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-23.04.23:475][770]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-1128.50 Y=-597.36 Z=0.00 Location: X=-265.99 Y=1362.32 Z=146.48 Normal: X=0.72 Y=0.45 Z=-0.53 PenetrationDepth:8.870 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (5 other events since notify)
+[2018.03.17-23.04.24:071][820]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-23.04.33:523][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-23.04.33:608][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-23.04.38:721][ 16]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.17-23.04.38:756][ 16]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-23.04.38:756][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-23.04.38:756][ 16]PIE: New page: PIE session: Distrito1_2_Exp (Mar 18, 2018, 1:04:38 AM)
+[2018.03.17-23.04.38:757][ 16]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.17-23.04.38:796][ 16]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_62' invalid (1544 verts, 0 indices).
+[2018.03.17-23.04.38:798][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041730s)
+[2018.03.17-23.04.38:799][ 16]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.17-23.04.38:799][ 16]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2018.03.17-23.04.38:799][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.042885s)
+[2018.03.17-23.04.38:826][ 16]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-23.04.38:838][ 16]LogInit: FAudioDevice initialized.
+[2018.03.17-23.04.38:870][ 16]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.17-23.04.38:884][ 16]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.18-00.04.38
+[2018.03.17-23.04.38:887][ 16]LogWorld: Bringing up level for play took: 0.015314
+[2018.03.17-23.04.38:895][ 16]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.835
+[2018.03.17-23.04.38:896][ 16]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-23.04.38:933][ 16]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.17-23.04.56:181][454]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-23.04.58:240][630]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-23.05.00:355][808]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-23.05.01:999][939]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=191.22 Y=351.33 Z=0.00 Location: X=-7607.88 Y=-466.53 Z=458.20 Normal: X=0.35 Y=-0.94 Z=-0.00 PenetrationDepth:0.245 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-23.05.07:659][396]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-23.05.12:903][827]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=-39.68 Y=62.83 Z=0.00 Location: X=-7485.44 Y=-134.47 Z=449.12 Normal: X=-0.46 Y=-0.78 Z=-0.42 PenetrationDepth:0.970 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (14 other events since notify)
+[2018.03.17-23.05.13:914][909]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=-42.92 Y=320.75 Z=0.00 Location: X=-7489.25 Y=-135.18 Z=448.91 Normal: X=0.61 Y=-0.57 Z=-0.55 PenetrationDepth:18.736 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (70 other events since notify)
+[2018.03.17-23.05.23:375][692]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-23.05.23:791][727]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-23.05.24:606][797]LogAnimMontage:Warning: JumpToSectionName play bEndOfSection: 0 failed for Montage antidisturbios_hitBack_Montage
+[2018.03.17-23.05.25:245][851]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=27.93 Y=35.04 Z=0.00 Location: X=-7066.51 Y=-608.49 Z=469.60 Normal: X=0.83 Y=-0.56 Z=0.00 PenetrationDepth:22.490 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.17-23.05.26:455][953]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=-1.19 Y=28.80 Z=0.00 Location: X=-7080.46 Y=-603.37 Z=469.60 Normal: X=-0.99 Y=-0.17 Z=-0.00 PenetrationDepth:28.113 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (1 other events since notify)
+[2018.03.17-23.05.31:836][394]LogBlueprintUserMessages: [beatAnimBP_C_0] Hello
+[2018.03.17-23.05.52:866][178]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-23.05.52:955][178]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.17-23.05.55:985][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra2)
+[2018.03.17-23.06.06:093][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra5)
+[2018.03.17-23.06.15:863][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado)
+[2018.03.17-23.06.22:560][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra7)
+[2018.03.17-23.06.47:310][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra2)
+[2018.03.17-23.07.36:286][ 40]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates4)
+[2018.03.17-23.08.24:065][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara7)
+[2018.03.17-23.08.53:113][761]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates8)
+[2018.03.17-23.09.02:306][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara8)
+[2018.03.17-23.09.12:558][194]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates8)
+[2018.03.17-23.09.20:969][846]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates10)
+[2018.03.17-23.09.53:651][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra19)
+[2018.03.17-23.10.51:194][499]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (muroPiedra22)
+[2018.03.17-23.10.51:930][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra22)
+[2018.03.17-23.11.27:454][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra22)
+[2018.03.17-23.12.29:215][680]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates6)
+[2018.03.17-23.12.44:549][771]LogSavePackage: Save=1124.71ms
+[2018.03.17-23.12.44:549][771]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp97E22A754DDF61EA6109FB995ABEA244.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap'
+[2018.03.17-23.12.44:562][771]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap
+[2018.03.17-23.12.44:760][771]LogSavePackage: Save=102.03ms
+[2018.03.17-23.12.44:760][771]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_2_Exp_BuiltData0440D1794DDA01C3A019B7B6F7534CF6.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp_BuiltData.uasset'
+[2018.03.17-23.12.44:764][771]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp_BuiltData.uasset
