@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-13AABDF24614E47D52A077B01C3049D1_0000</CrashGUID>
+<ProcessId>6532</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<SecondsSinceStart>2520</SecondsSinceStart>
+<GameName>UE4-Proyecto2</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineModeEx>Vanilla</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.16.3-3561208+++UE4+Release-4.16</EngineVersion>
+<CommandLine>&quot;D:/Users/abala/Documents/SourceTree/Anarquia/Proyecto2/Proyecto2.uproject&quot;-EpicPortal </CommandLine>
+<LanguageLCID>3082</LanguageLCID>
+<AppDefaultLocale>es-ES</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.16-CL-3561208</BuildVersion>
+<IsUE4Release>true</IsUE4Release>
+<UserName></UserName>
+<BaseDir>D:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/</BaseDir>
+<RootDir>D:/Program Files (x86)/Epic Games/UE_4.16/</RootDir>
+<MachineId>BCAFD3214C68DCDBF7D965AA7C1E6842</MachineId>
+<LoginId>bcafd3214c68dcdbf7d965aa7c1e6842</LoginId>
+<EpicAccountId>a36ae3ccbc7849d9a8dc3e72594eb8b2</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint>Layout=&quot;TextureEditor_Properties&quot; Label=&quot;Details&quot; Content=SVerticalBox</UserActivityHint>
+<ErrorMessage>Assertion failed: IsInRenderingThread() [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\MediaAssets\Private\Misc\MediaTextureResource.cpp] [Line: 565] &nl;&nl;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1050 Ti</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>12841807872</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>12</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>5865865216</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140729122365440</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>1747533824</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>4236644352</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>6305427456</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>6620442624</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+</FGenericCrashContext>
