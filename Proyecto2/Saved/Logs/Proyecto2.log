@@ -1139,3 +1139,1189 @@ LogInit: Object subsystem initialized
 [2018.03.22-10.54.30:588][562]LogLoad: Took 0.844527 seconds to LoadMap(/Game/ThirdPersonBP/Maps/levelScore)
 [2018.03.22-10.54.35:190][ 83]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
 [2018.03.22-10.54.35:223][ 83]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-10.59.13:575][154]LogRenderer: Reallocating scene render targets to support 1208x596 NumSamples 1 (Frame:3656).
+[2018.03.22-10.59.13:622][155]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:3658).
+[2018.03.22-10.59.13:666][156]LogRenderer: Reallocating scene render targets to support 1208x612 NumSamples 1 (Frame:3660).
+[2018.03.22-10.59.13:711][157]LogRenderer: Reallocating scene render targets to support 1208x624 NumSamples 1 (Frame:3662).
+[2018.03.22-10.59.13:795][159]LogRenderer: Reallocating scene render targets to support 1208x628 NumSamples 1 (Frame:3666).
+[2018.03.22-10.59.13:843][160]LogRenderer: Reallocating scene render targets to support 1208x640 NumSamples 1 (Frame:3668).
+[2018.03.22-10.59.13:889][161]LogRenderer: Reallocating scene render targets to support 1208x648 NumSamples 1 (Frame:3670).
+[2018.03.22-10.59.13:936][162]LogRenderer: Reallocating scene render targets to support 1208x652 NumSamples 1 (Frame:3672).
+[2018.03.22-10.59.15:722][370]LogRenderer: Reallocating scene render targets to support 1212x652 NumSamples 1 (Frame:3882).
+[2018.03.22-10.59.15:765][371]LogRenderer: Reallocating scene render targets to support 1244x652 NumSamples 1 (Frame:3884).
+[2018.03.22-10.59.15:812][372]LogRenderer: Reallocating scene render targets to support 1272x652 NumSamples 1 (Frame:3886).
+[2018.03.22-10.59.15:855][373]LogRenderer: Reallocating scene render targets to support 1292x652 NumSamples 1 (Frame:3888).
+[2018.03.22-10.59.15:904][374]LogRenderer: Reallocating scene render targets to support 1312x652 NumSamples 1 (Frame:3890).
+[2018.03.22-10.59.15:949][375]LogRenderer: Reallocating scene render targets to support 1344x652 NumSamples 1 (Frame:3892).
+[2018.03.22-10.59.15:996][376]LogRenderer: Reallocating scene render targets to support 1368x652 NumSamples 1 (Frame:3894).
+[2018.03.22-10.59.16:043][377]LogRenderer: Reallocating scene render targets to support 1376x652 NumSamples 1 (Frame:3896).
+[2018.03.22-10.59.16:089][378]LogRenderer: Reallocating scene render targets to support 1380x652 NumSamples 1 (Frame:3898).
+[2018.03.22-10.59.16:136][379]LogRenderer: Reallocating scene render targets to support 1384x652 NumSamples 1 (Frame:3900).
+[2018.03.22-10.59.23:470][232]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2018.03.22-10.59.23:486][232]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.03.22-10.59.23:507][232]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.03.22-10.59.23:534][232]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.03.22-10.59.23:559][232]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2018.03.22-10.59.23:591][232]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.03.22-10.59.23:608][232]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.03.22-10.59.23:627][232]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.03.22-10.59.23:648][232]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.03.22-10.59.23:671][232]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2018.03.22-10.59.23:692][232]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.03.22-10.59.23:714][232]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.03.22-10.59.23:736][232]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-10.59.23:746][232]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-10.59.23:764][232]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-10.59.23:782][232]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-10.59.23:800][232]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-10.59.23:819][232]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-10.59.23:838][232]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-10.59.23:858][232]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-10.59.23:927][232]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.03.22-10.59.25:011][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.03.22-10.59.43:963][918]LogTexture:Display: Building textures: Texture2D_43 (BGRA8, 32X32)
+[2018.03.22-10.59.43:970][918]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-10.59.44:011][918]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-10.59.44:175][918]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.03.22-11.00.22:714][282]LogTexture:Display: Building textures: Texture2D_44 (BGRA8, 32X32)
+[2018.03.22-11.00.22:726][282]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-11.00.22:775][282]LogTexture:Display: Building textures: Texture2D_45 (BGRA8, 32X32)
+[2018.03.22-11.00.22:786][282]LogTexture:Display: Building textures: Texture2D_46 (BGRA8, 32X32)
+[2018.03.22-11.00.40:780][ 71]LogTexture:Display: Building textures: Texture2D_47 (BGRA8, 32X32)
+[2018.03.22-11.01.44:281][930]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.22-11.01.44:663][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.01.44:663][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-11.01.44:663][930]PIE: New page: PIE session: Distrito1_2_Exp (Mar 22, 2018, 1:01:44 PM)
+[2018.03.22-11.01.44:665][930]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.22-11.01.44:710][930]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_347' invalid (1537 verts, 0 indices).
+[2018.03.22-11.01.44:711][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045986s)
+[2018.03.22-11.01.44:712][930]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.22-11.01.44:712][930]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2018.03.22-11.01.44:712][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.046985s)
+[2018.03.22-11.01.44:727][930]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-11.01.44:734][930]LogInit: FAudioDevice initialized.
+[2018.03.22-11.01.44:765][930]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.22-11.01.44:777][930]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.22-12.01.44
+[2018.03.22-11.01.44:780][930]LogWorld: Bringing up level for play took: 0.013813
+[2018.03.22-11.01.44:791][930]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.414
+[2018.03.22-11.01.44:792][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.01.44:797][930]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.22-11.01.50:477][592]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.01.51:381][695]LogCharacterMovement: antidisturbiosEnemy_C_1 is stuck and failed to move! Velocity: X=-198.87 Y=-21.20 Z=0.00 Location: X=-7750.70 Y=-130.60 Z=491.37 Normal: X=0.09 Y=-0.21 Z=-0.97 PenetrationDepth:4.462 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.22-11.02.08:582][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.02.08:620][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.04.02:841][ 45]LogActorFactory: Actor Factory created Cube
+[2018.03.22-11.04.03:594][128]LogActorFactory: Actor Factory created Cube
+[2018.03.22-11.04.06:970][436]LogSlate: Took 0.005519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.22-11.04.13:623][993]LogTexture:Display: Building textures: water (AutoDXT, 1920X1920)
+[2018.03.22-11.04.14:693][993]LogMaterial: Missing cached shader map for material Agua_MAT, compiling. 
+[2018.03.22-11.05.16:461][551]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.22-11.05.16:496][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.05.16:496][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-11.05.16:496][551]PIE: New page: PIE session: Distrito1_2_Exp (Mar 22, 2018, 1:05:16 PM)
+[2018.03.22-11.05.16:496][551]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.22-11.05.16:540][551]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_347' invalid (1537 verts, 0 indices).
+[2018.03.22-11.05.16:541][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044720s)
+[2018.03.22-11.05.16:541][551]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.22-11.05.16:542][551]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2018.03.22-11.05.16:542][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.045627s)
+[2018.03.22-11.05.16:556][551]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-11.05.16:563][551]LogInit: FAudioDevice initialized.
+[2018.03.22-11.05.16:595][551]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.22-11.05.16:607][551]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.22-12.05.16
+[2018.03.22-11.05.16:609][551]LogWorld: Bringing up level for play took: 0.013481
+[2018.03.22-11.05.16:619][551]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.243
+[2018.03.22-11.05.16:620][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.05.16:655][551]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.22-11.05.20:328][986]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.05.20:328][986]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.05.20:611][ 17]LogCharacterMovement: beat_C_0 is stuck and failed to move! Velocity: X=290.34 Y=129.60 Z=0.00 Location: X=-7961.61 Y=-124.93 Z=469.60 Normal: X=-0.95 Y=0.31 Z=0.00 PenetrationDepth:3.043 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.22-11.05.20:865][ 44]LogCharacterMovement: antidisturbiosEnemy_C_0 is stuck and failed to move! Velocity: X=28.93 Y=-197.90 Z=0.00 Location: X=-7961.76 Y=192.15 Z=491.57 Normal: X=-0.63 Y=0.75 Z=-0.20 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_1 Component:shield BoneName:None (0 other events since notify)
+[2018.03.22-11.05.21:742][147]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.05.22:323][214]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.05.22:526][238]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.05.22:760][266]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.05.22:809][272]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.05.23:560][362]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.05.24:622][489]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.05.25:012][536]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.05.42:241][602]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.05.42:289][602]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.06.04:985][761]LogTexture:Display: Building textures: Texture2D_48 (BGRA8, 32X32)
+[2018.03.22-11.06.04:997][761]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-11.06.05:047][761]LogTexture:Display: Building textures: Texture2D_49 (BGRA8, 32X32)
+[2018.03.22-11.06.09:455][197]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.03.22-11.07.02:624][537]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.22-11.07.02:951][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.07.02:951][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-11.07.02:951][537]PIE: New page: PIE session: Distrito1_2_Exp (Mar 22, 2018, 1:07:02 PM)
+[2018.03.22-11.07.02:952][537]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.22-11.07.02:995][537]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_347' invalid (1537 verts, 0 indices).
+[2018.03.22-11.07.02:997][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045133s)
+[2018.03.22-11.07.02:997][537]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.22-11.07.02:997][537]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2018.03.22-11.07.02:998][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.046135s)
+[2018.03.22-11.07.03:022][537]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-11.07.03:029][537]LogInit: FAudioDevice initialized.
+[2018.03.22-11.07.03:063][537]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.22-11.07.03:075][537]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.22-12.07.03
+[2018.03.22-11.07.03:077][537]LogWorld: Bringing up level for play took: 0.013251
+[2018.03.22-11.07.03:087][537]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.726
+[2018.03.22-11.07.03:087][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.07.03:093][537]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.22-11.07.06:475][909]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.07.08:767][163]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.07.08:794][166]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.07.08:876][175]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.07.09:612][261]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.07.09:697][271]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.07.09:816][285]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.07.10:054][313]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.22-11.07.29:003][579]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.07.29:036][579]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.07.35:221][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.03.22-11.08.01:089][738]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.22-11.08.01:416][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.08.01:416][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-11.08.01:416][738]PIE: New page: PIE session: Distrito1_2_Exp (Mar 22, 2018, 1:08:01 PM)
+[2018.03.22-11.08.01:417][738]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.22-11.08.01:461][738]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_347' invalid (1537 verts, 0 indices).
+[2018.03.22-11.08.01:462][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045488s)
+[2018.03.22-11.08.01:463][738]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.22-11.08.01:463][738]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2018.03.22-11.08.01:463][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.046305s)
+[2018.03.22-11.08.01:477][738]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-11.08.01:484][738]LogInit: FAudioDevice initialized.
+[2018.03.22-11.08.01:514][738]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.22-11.08.01:527][738]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.22-12.08.01
+[2018.03.22-11.08.01:530][738]LogWorld: Bringing up level for play took: 0.014344
+[2018.03.22-11.08.01:539][738]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp -0.812
+[2018.03.22-11.08.01:540][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.08.01:544][738]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.22-11.08.05:278][153]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.08.05:894][225]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.08.06:300][273]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.08.06:715][321]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.08.07:402][403]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.08.07:909][464]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.08.08:109][488]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.08.08:309][512]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.08.09:222][621]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.09.26:440][881]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.09.26:440][881]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.09.26:443][881]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.09.29:145][204]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.09.29:620][261]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.09.33:568][734]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.09.51:668][906]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.09.51:671][906]LogCharacterMovement: agentEnemyN_C_11 is stuck and failed to move! Velocity: X=-14.07 Y=9.66 Z=0.00 Location: X=1996.77 Y=-4215.91 Z=152.14 Normal: X=0.74 Y=-0.67 Z=0.00 PenetrationDepth:11.465 Actor:antidisturbiosEnemy_C_6 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2018.03.22-11.09.51:863][929]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.09.52:417][995]LogBlueprintUserMessages: [KeyGates_C_0] Tienes Llave
+[2018.03.22-11.09.52:775][ 38]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.09.55:182][326]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.09.56:311][461]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.10.21:782][515]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.10.21:978][538]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.10.24:690][862]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.10.26:493][ 78]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.10.26:494][ 78]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.10.28:589][329]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.10.31:606][691]LogScriptCore:Warning: Script Msg: Divide by zero: Divide_IntInt
+[2018.03.22-11.10.31:615][692]LogNet: Browse: /Game/ThirdPersonBP/Maps/levelScore
+[2018.03.22-11.10.31:615][692]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/levelScore
+[2018.03.22-11.10.31:638][692]Cmd: MEM
+[2018.03.22-11.10.31:648][692]LogMemory: Platform Memory Stats for Windows
+[2018.03.22-11.10.31:648][692]LogMemory: Process Physical Memory: 2650.46 MB used, 4536.14 MB peak
+[2018.03.22-11.10.31:648][692]LogMemory: Process Virtual Memory: 3877.24 MB used, 5561.77 MB peak
+[2018.03.22-11.10.31:648][692]LogMemory: Physical Memory: 7047.90 MB used,  9298.98 MB free, 16346.88 MB total
+[2018.03.22-11.10.31:648][692]LogMemory: Virtual Memory: 5117.67 MB used,  9298.98 MB free, 134217728.00 MB total
+[2018.03.22-11.10.31:648][692]LogMemory: 
+[2018.03.22-11.10.31:648][692]Allocator Stats for TBB: (not implemented)
+[2018.03.22-11.10.32:646][692]LogAIModule: Creating AISystem for world levelScore
+[2018.03.22-11.10.32:646][692]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.22-11.10.32:650][692]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_levelScore.levelScore up for play (max tick rate 0) at 2018.03.22-12.10.32
+[2018.03.22-11.10.32:651][692]LogWorld: Bringing up level for play took: 0.003274
+[2018.03.22-11.10.32:651][692]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.22-11.10.32:653][692]LogLoad: Took 1.038056 seconds to LoadMap(/Game/ThirdPersonBP/Maps/levelScore)
+[2018.03.22-11.10.34:601][909]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.10.34:645][909]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.10.53:033][777]Cmd: TRANSACTION UNDO
+[2018.03.22-11.10.53:033][777]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.03.22-11.10.53:044][777]LogTexture:Display: Building textures: Texture2D_49 (BGRA8, 32X32)
+[2018.03.22-11.10.53:054][777]LogTexture:Display: Building textures: Texture2D_48 (BGRA8, 32X32)
+[2018.03.22-11.10.53:422][789]Cmd: TRANSACTION UNDO
+[2018.03.22-11.10.53:422][789]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.03.22-11.10.53:432][789]LogTexture:Display: Building textures: Texture2D_48 (BGRA8, 32X32)
+[2018.03.22-11.10.53:441][789]LogTexture:Display: Building textures: Texture2D_49 (BGRA8, 32X32)
+[2018.03.22-11.11.03:966][690]Cmd: TRANSACTION UNDO
+[2018.03.22-11.11.03:966][690]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.03.22-11.11.03:977][690]LogTexture:Display: Building textures: Texture2D_49 (BGRA8, 32X32)
+[2018.03.22-11.11.03:988][690]LogTexture:Display: Building textures: Texture2D_48 (BGRA8, 32X32)
+[2018.03.22-11.11.20:165][401]LogTexture:Display: Building textures: Texture2D_50 (BGRA8, 32X32)
+[2018.03.22-11.11.33:091][854]LogTexture:Display: Building textures: Texture2D_51 (BGRA8, 32X32)
+[2018.03.22-11.11.39:054][560]LogTexture:Display: Building textures: Texture2D_52 (BGRA8, 32X32)
+[2018.03.22-11.13.06:669][253]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.22-11.13.06:700][253]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.13.06:700][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-11.13.06:700][253]PIE: New page: PIE session: Distrito1_2_Exp (Mar 22, 2018, 1:13:06 PM)
+[2018.03.22-11.13.06:702][253]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.22-11.13.06:747][253]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_347' invalid (1537 verts, 0 indices).
+[2018.03.22-11.13.06:748][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046161s)
+[2018.03.22-11.13.06:749][253]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.22-11.13.06:749][253]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2018.03.22-11.13.06:749][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.047010s)
+[2018.03.22-11.13.06:770][253]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-11.13.06:776][253]LogInit: FAudioDevice initialized.
+[2018.03.22-11.13.06:810][253]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.22-11.13.06:824][253]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.22-12.13.06
+[2018.03.22-11.13.06:826][253]LogWorld: Bringing up level for play took: 0.013824
+[2018.03.22-11.13.06:836][253]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.508
+[2018.03.22-11.13.06:836][253]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.13.06:869][253]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.22-11.13.10:205][647]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.13.11:314][774]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.13.12:536][917]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.13.12:838][953]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.13.12:838][953]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.13.13:545][ 37]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.13.13:745][ 61]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.13.42:484][501]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.13.42:518][501]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.13.45:456][831]LogActorFactory: Actor Factory created Cube
+[2018.03.22-11.13.46:767][976]LogActorFactory: Actor Factory created Cube
+[2018.03.22-11.14.43:476][ 83]LogMaterial: Missing cached shader map for material transparente, compiling. 
+[2018.03.22-11.14.53:064][114]LogMaterial: Missing cached shader map for material transparente, compiling. 
+[2018.03.22-11.14.53:333][114]LogMaterial: Missing cached shader map for material transparente, compiling. 
+[2018.03.22-11.14.53:352][114]LogMaterial: Missing cached shader map for material transparente, compiling. 
+[2018.03.22-11.14.53:402][114]LogSlate: Took 0.005001 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.22-11.15.01:573][917]LogMaterial: Missing cached shader map for material transparente, compiling. 
+[2018.03.22-11.15.03:661][124]LogMaterial: Missing cached shader map for material transparente, compiling. 
+[2018.03.22-11.15.06:818][443]LogMaterial: Missing cached shader map for material transparente, compiling. 
+[2018.03.22-11.15.09:073][674]LogMaterial: Missing cached shader map for material transparente, compiling. 
+[2018.03.22-11.15.21:254][940]MaterialEditorStats: Info Base pass shader: 48 instructions
+[2018.03.22-11.15.21:254][940]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.03.22-11.15.21:254][940]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.03.22-11.15.27:227][533]LogMaterial: Missing cached shader map for material transparente, compiling. 
+[2018.03.22-11.15.30:543][804]LogMaterialEditor: Applying material transparente
+[2018.03.22-11.15.31:100][804]LogMaterial: Missing cached shader map for material transparente, compiling. 
+[2018.03.22-11.15.31:151][804]LogMaterial: Missing cached shader map for material transparente, compiling. 
+[2018.03.22-11.15.31:194][804]LogMaterial: Missing cached shader map for material transparente, compiling. 
+[2018.03.22-11.15.31:239][804]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy transparente, compiling. 
+[2018.03.22-11.15.32:561][804]TextureStreamingBuild:Display: Compiling optional shaders took 1.327 seconds.
+[2018.03.22-11.15.33:012][822]LogMaterialEditor: Saving and Compiling material transparente
+[2018.03.22-11.15.34:925][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/imageResources/transparente" FILE="F:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/imageResources/transparente.uasset" SILENT=true
+[2018.03.22-11.15.34:964][822]LogSavePackage: Save=16.23ms
+[2018.03.22-11.15.34:964][822]LogSavePackage: Moving 'F:/Anarquia/Proyecto2/Saved/transparente358F51194D84205278021694A0F3667D.tmp' to 'F:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/imageResources/transparente.uasset'
+[2018.03.22-11.15.34:971][822]LogSavePackage:Display: Finished SavePackage F:/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/imageResources/transparente.uasset
+[2018.03.22-11.15.34:975][822]MaterialEditorStats: Info Base pass shader: 48 instructions
+[2018.03.22-11.15.34:975][822]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.03.22-11.15.34:975][822]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.03.22-11.15.36:087][850]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 32X32)
+[2018.03.22-11.15.36:089][850]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 32X32)
+[2018.03.22-11.15.36:090][850]LogTexture:Display: Building textures: Texture2D_37 (BGRA8, 32X32)
+[2018.03.22-11.15.36:090][850]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 32X32)
+[2018.03.22-11.15.36:090][850]LogTexture:Display: Building textures: Texture2D_39 (BGRA8, 32X32)
+[2018.03.22-11.15.36:090][850]LogTexture:Display: Building textures: Texture2D_40 (BGRA8, 32X32)
+[2018.03.22-11.15.36:091][850]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 32X32)
+[2018.03.22-11.15.36:091][850]LogTexture:Display: Building textures: Texture2D_35 (BGRA8, 32X32)
+[2018.03.22-11.15.36:091][850]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 32X32)
+[2018.03.22-11.15.36:091][850]LogTexture:Display: Building textures: Texture2D_38 (BGRA8, 32X32)
+[2018.03.22-11.15.36:092][850]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 32X32)
+[2018.03.22-11.15.36:092][850]LogTexture:Display: Building textures: Texture2D_33 (BGRA8, 32X32)
+[2018.03.22-11.15.36:093][850]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 32X32)
+[2018.03.22-11.15.36:093][850]LogTexture:Display: Building textures: Texture2D_34 (BGRA8, 32X32)
+[2018.03.22-11.15.36:093][850]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 32X32)
+[2018.03.22-11.15.36:094][850]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 32X32)
+[2018.03.22-11.15.36:094][850]LogTexture:Display: Building textures: Texture2D_41 (BGRA8, 32X32)
+[2018.03.22-11.15.36:094][850]LogTexture:Display: Building textures: Texture2D_32 (BGRA8, 32X32)
+[2018.03.22-11.15.36:094][850]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 32X32)
+[2018.03.22-11.15.36:095][850]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 32X32)
+[2018.03.22-11.15.36:095][850]LogTexture:Display: Building textures: Texture2D_31 (BGRA8, 32X32)
+[2018.03.22-11.15.36:095][850]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 32X32)
+[2018.03.22-11.15.36:095][850]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 32X32)
+[2018.03.22-11.15.36:096][850]LogTexture:Display: Building textures: Texture2D_42 (BGRA8, 32X32)
+[2018.03.22-11.15.36:096][850]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 32X32)
+[2018.03.22-11.15.36:096][850]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 32X32)
+[2018.03.22-11.15.36:097][850]LogTexture:Display: Building textures: Texture2D_47 (BGRA8, 32X32)
+[2018.03.22-11.15.36:097][850]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 32X32)
+[2018.03.22-11.15.36:097][850]LogTexture:Display: Building textures: Texture2D_30 (BGRA8, 32X32)
+[2018.03.22-11.15.36:097][850]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 32X32)
+[2018.03.22-11.15.36:098][850]LogTexture:Display: Building textures: Texture2D_48 (BGRA8, 32X32)
+[2018.03.22-11.15.36:098][850]LogTexture:Display: Building textures: Texture2D_49 (BGRA8, 32X32)
+[2018.03.22-11.15.36:098][850]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 32X32)
+[2018.03.22-11.15.36:098][850]LogTexture:Display: Building textures: Texture2D_44 (BGRA8, 32X32)
+[2018.03.22-11.15.36:099][850]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 32X32)
+[2018.03.22-11.15.36:099][850]LogTexture:Display: Building textures: Texture2D_22 (BGRA8, 32X32)
+[2018.03.22-11.15.36:099][850]LogTexture:Display: Building textures: Texture2D_50 (BGRA8, 32X32)
+[2018.03.22-11.15.36:099][850]LogTexture:Display: Building textures: Texture2D_28 (BGRA8, 32X32)
+[2018.03.22-11.15.36:100][850]LogTexture:Display: Building textures: Texture2D_26 (BGRA8, 32X32)
+[2018.03.22-11.15.36:100][850]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 32X32)
+[2018.03.22-11.15.36:100][850]LogTexture:Display: Building textures: Texture2D_45 (BGRA8, 32X32)
+[2018.03.22-11.15.36:100][850]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 32X32)
+[2018.03.22-11.15.36:101][850]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 32X32)
+[2018.03.22-11.15.36:101][850]LogTexture:Display: Building textures: Texture2D_29 (BGRA8, 32X32)
+[2018.03.22-11.15.36:101][850]LogTexture:Display: Building textures: Texture2D_51 (BGRA8, 32X32)
+[2018.03.22-11.15.36:102][850]LogTexture:Display: Building textures: Texture2D_52 (BGRA8, 32X32)
+[2018.03.22-11.15.36:102][850]LogTexture:Display: Building textures: Texture2D_27 (BGRA8, 32X32)
+[2018.03.22-11.15.36:102][850]LogTexture:Display: Building textures: Texture2D_43 (BGRA8, 32X32)
+[2018.03.22-11.15.36:102][850]LogTexture:Display: Building textures: Texture2D_46 (BGRA8, 32X32)
+[2018.03.22-11.15.36:103][850]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 32X32)
+[2018.03.22-11.15.36:103][850]LogTexture:Display: Building textures: Texture2D_24 (BGRA8, 32X32)
+[2018.03.22-11.15.36:103][850]LogTexture:Display: Building textures: Texture2D_25 (BGRA8, 32X32)
+[2018.03.22-11.15.37:183][850]LogSavePackage: Save=1479.44ms
+[2018.03.22-11.15.37:183][850]LogSavePackage: Moving 'F:/Anarquia/Proyecto2/Saved/Distrito1_2_Exp_Auto102364342472672D0C27E6F93D80D5909.tmp' to 'F:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_2_Exp_Auto1.umap'
+[2018.03.22-11.15.37:187][850]LogSavePackage:Display: Finished SavePackage F:/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_2_Exp_Auto1.umap
+[2018.03.22-11.15.37:193][850]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp' took 1.551
+[2018.03.22-11.15.37:193][850]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.551
+[2018.03.22-11.15.50:445][281]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.22-11.15.50:478][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.15.50:478][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-11.15.50:478][281]PIE: New page: PIE session: Distrito1_2_Exp (Mar 22, 2018, 1:15:50 PM)
+[2018.03.22-11.15.50:478][281]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.22-11.15.50:520][281]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_347' invalid (1537 verts, 0 indices).
+[2018.03.22-11.15.50:522][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043791s)
+[2018.03.22-11.15.50:522][281]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.22-11.15.50:522][281]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2018.03.22-11.15.50:522][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.044581s)
+[2018.03.22-11.15.50:540][281]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-11.15.50:547][281]LogInit: FAudioDevice initialized.
+[2018.03.22-11.15.50:579][281]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.22-11.15.50:590][281]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.22-12.15.50
+[2018.03.22-11.15.50:593][281]LogWorld: Bringing up level for play took: 0.013110
+[2018.03.22-11.15.50:602][281]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.278
+[2018.03.22-11.15.50:603][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.15.50:632][281]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.22-11.15.53:839][657]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.15.54:760][762]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.15.55:373][833]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.15.55:985][905]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.15.56:010][908]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.15.56:585][977]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.15.56:811][  4]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.15.56:986][ 25]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.15.57:186][ 49]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.16.39:629][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.16.39:682][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.16.52:103][605]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.03.22-11.17.04:920][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2018.03.22-11.17.36:055][565]Cmd: EDIT CUT
+[2018.03.22-11.17.36:061][565]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.22-11.17.36:073][565]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.03.22-11.17.38:755][878]Cmd: TRANSACTION UNDO
+[2018.03.22-11.17.38:755][878]LogEditorTransaction: Undo Cut
+[2018.03.22-11.17.40:153][ 18]Cmd: TRANSACTION UNDO
+[2018.03.22-11.17.40:153][ 18]LogEditorTransaction: Undo Move Actors
+[2018.03.22-11.18.09:674][164]Cmd: TRANSACTION UNDO
+[2018.03.22-11.18.09:674][164]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.03.22-11.18.09:685][164]LogTexture:Display: Building textures: Texture2D_42 (BGRA8, 32X32)
+[2018.03.22-11.18.10:050][188]Cmd: TRANSACTION UNDO
+[2018.03.22-11.18.10:050][188]LogEditorTransaction: Undo Edit Brush Size
+[2018.03.22-11.18.10:685][224]Cmd: TRANSACTION UNDO
+[2018.03.22-11.18.10:685][224]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.03.22-11.18.11:088][239]Cmd: TRANSACTION UNDO
+[2018.03.22-11.18.11:088][239]LogEditorTransaction: Undo Move Actors
+[2018.03.22-11.18.21:468][215]Cmd: TRANSACTION UNDO
+[2018.03.22-11.18.21:468][215]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.03.22-11.18.21:484][215]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_157) Component already registered.
+[2018.03.22-11.18.21:494][215]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_158) Component already registered.
+[2018.03.22-11.18.21:494][215]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_167) Component already registered.
+[2018.03.22-11.18.21:494][215]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Landscape_0.LandscapeComponent_58) Component already registered.
+[2018.03.22-11.18.32:332][335]Cmd: TRANSACTION UNDO
+[2018.03.22-11.18.32:332][335]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.03.22-11.18.32:358][335]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 32X32)
+[2018.03.22-11.18.32:365][335]LogTexture:Display: Building textures: Texture2D_44 (BGRA8, 32X32)
+[2018.03.22-11.18.32:373][335]LogTexture:Display: Building textures: Texture2D_42 (BGRA8, 32X32)
+[2018.03.22-11.18.32:388][335]LogTexture:Display: Building textures: Texture2D_41 (BGRA8, 32X32)
+[2018.03.22-11.18.38:105][916]Cmd: TRANSACTION UNDO
+[2018.03.22-11.18.38:105][916]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.03.22-11.18.38:116][916]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 32X32)
+[2018.03.22-11.18.38:126][916]LogTexture:Display: Building textures: Texture2D_42 (BGRA8, 32X32)
+[2018.03.22-11.18.38:137][916]LogTexture:Display: Building textures: Texture2D_47 (BGRA8, 32X32)
+[2018.03.22-11.18.38:147][916]LogTexture:Display: Building textures: Texture2D_44 (BGRA8, 32X32)
+[2018.03.22-11.19.26:283][375]Cmd: TRANSACTION UNDO
+[2018.03.22-11.19.26:283][375]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.03.22-11.19.26:293][375]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 32X32)
+[2018.03.22-11.19.26:310][375]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_134) Component already registered.
+[2018.03.22-11.19.26:331][375]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Landscape_0.LandscapeComponent_34) Component already registered.
+[2018.03.22-11.19.26:331][375]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_124) Component already registered.
+[2018.03.22-11.19.26:331][375]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Landscape_0.LandscapeComponent_24) Component already registered.
+[2018.03.22-11.19.26:331][375]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_135) Component already registered.
+[2018.03.22-11.19.26:341][375]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Landscape_0.LandscapeComponent_35) Component already registered.
+[2018.03.22-11.19.26:753][388]Cmd: TRANSACTION UNDO
+[2018.03.22-11.19.26:753][388]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.03.22-11.19.26:764][388]LogTexture:Display: Building textures: Texture2D_47 (BGRA8, 32X32)
+[2018.03.22-11.19.26:772][388]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 32X32)
+[2018.03.22-11.21.30:054][647]LogTexture:Display: Building textures: arbol_textura (AutoDXT, 1920X1920)
+[2018.03.22-11.21.31:077][647]LogMaterial: Missing cached shader map for material wire_177088028, compiling. 
+[2018.03.22-11.21.31:122][647]LogStaticMesh: Building static mesh arbol_texturizado...
+[2018.03.22-11.21.31:141][647]LogStaticMesh: Built static mesh [0.02s] /Game/ThirdPersonBP/Blueprints/PropsWorld/propsDistritos/Distrito_Rico/Arboles/arbol_texturizado.arbol_texturizado
+[2018.03.22-11.21.42:560][182]LogActorFactory: Actor Factory created arbol_texturizado
+[2018.03.22-11.21.52:172][243]Cmd: TRANSACTION UNDO
+[2018.03.22-11.21.52:172][243]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.22.07:190][783]Cmd: TRANSACTION UNDO
+[2018.03.22-11.22.07:190][783]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.22.29:122][ 85]Cmd: TRANSACTION UNDO
+[2018.03.22-11.22.29:122][ 85]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.22.29:579][130]Cmd: TRANSACTION UNDO
+[2018.03.22-11.22.29:579][130]LogEditorTransaction: Undo Edit Max
+[2018.03.22-11.22.29:978][172]Cmd: TRANSACTION UNDO
+[2018.03.22-11.22.29:978][172]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.22.30:427][220]Cmd: TRANSACTION UNDO
+[2018.03.22-11.22.30:427][220]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.22.30:930][275]Cmd: TRANSACTION UNDO
+[2018.03.22-11.22.30:930][275]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.22.52:032][486]Cmd: TRANSACTION UNDO
+[2018.03.22-11.22.52:032][486]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.22.52:227][503]Cmd: TRANSACTION UNDO
+[2018.03.22-11.22.52:227][503]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.22.52:420][518]Cmd: TRANSACTION UNDO
+[2018.03.22-11.22.52:420][518]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.22.52:819][559]Cmd: TRANSACTION UNDO
+[2018.03.22-11.22.52:819][559]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.22.53:029][580]Cmd: TRANSACTION UNDO
+[2018.03.22-11.22.53:029][580]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.22.53:487][631]Cmd: TRANSACTION UNDO
+[2018.03.22-11.22.53:487][631]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.23.00:064][338]Cmd: TRANSACTION UNDO
+[2018.03.22-11.23.00:064][338]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.23.00:396][370]Cmd: TRANSACTION UNDO
+[2018.03.22-11.23.00:396][370]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.23.12:341][794]Cmd: TRANSACTION UNDO
+[2018.03.22-11.23.12:341][794]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.23.16:493][282]Cmd: TRANSACTION UNDO
+[2018.03.22-11.23.16:493][282]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.24.22:104][304]Cmd: TRANSACTION UNDO
+[2018.03.22-11.24.22:104][304]LogEditorTransaction: Undo Foliage Editing
+[2018.03.22-11.25.04:776][360]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.22-11.25.04:806][360]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.25.04:806][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-11.25.04:806][360]PIE: New page: PIE session: Distrito1_2_Exp (Mar 22, 2018, 1:25:04 PM)
+[2018.03.22-11.25.04:807][360]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.22-11.25.04:852][360]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_347' invalid (1537 verts, 0 indices).
+[2018.03.22-11.25.04:853][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046106s)
+[2018.03.22-11.25.04:853][360]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.22-11.25.04:853][360]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2018.03.22-11.25.04:854][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.046971s)
+[2018.03.22-11.25.04:869][360]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-11.25.04:875][360]LogInit: FAudioDevice initialized.
+[2018.03.22-11.25.04:909][360]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.22-11.25.04:923][360]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.22-12.25.04
+[2018.03.22-11.25.04:925][360]LogWorld: Bringing up level for play took: 0.014397
+[2018.03.22-11.25.04:935][360]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.637
+[2018.03.22-11.25.04:935][360]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.25.04:971][360]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.22-11.25.08:123][723]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.25.08:128][723]LogCharacterMovement: agentEnemyN_C_1 is stuck and failed to move! Velocity: X=-11.89 Y=-12.31 Z=0.00 Location: X=-7726.49 Y=359.76 Z=483.19 Normal: X=0.74 Y=0.67 Z=-0.06 PenetrationDepth:0.000 Actor:antidisturbiosEnemy_C_0 Component:shield BoneName:None (0 other events since notify)
+[2018.03.22-11.25.10:159][955]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.25.10:490][994]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.25.10:567][  3]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.25.11:779][148]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.25.14:777][506]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.25.15:177][554]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.25.15:577][602]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.25.28:506][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.25.28:544][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.25.29:840][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Distrito1_2_Exp" FILE="F:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.22-11.25.30:254][302]LogTexture:Display: Building textures: Texture2D_37 (BGRA8, 32X32)
+[2018.03.22-11.25.30:256][302]LogTexture:Display: Building textures: Texture2D_39 (BGRA8, 32X32)
+[2018.03.22-11.25.30:256][302]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 32X32)
+[2018.03.22-11.25.30:256][302]LogTexture:Display: Building textures: Texture2D_38 (BGRA8, 32X32)
+[2018.03.22-11.25.30:257][302]LogTexture:Display: Building textures: Texture2D_34 (BGRA8, 32X32)
+[2018.03.22-11.25.30:257][302]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 32X32)
+[2018.03.22-11.25.30:257][302]LogTexture:Display: Building textures: Texture2D_41 (BGRA8, 32X32)
+[2018.03.22-11.25.30:258][302]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 32X32)
+[2018.03.22-11.25.30:258][302]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 32X32)
+[2018.03.22-11.25.30:258][302]LogTexture:Display: Building textures: Texture2D_31 (BGRA8, 32X32)
+[2018.03.22-11.25.30:258][302]LogTexture:Display: Building textures: Texture2D_42 (BGRA8, 32X32)
+[2018.03.22-11.25.30:259][302]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 32X32)
+[2018.03.22-11.25.30:259][302]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 32X32)
+[2018.03.22-11.25.30:259][302]LogTexture:Display: Building textures: Texture2D_47 (BGRA8, 32X32)
+[2018.03.22-11.25.30:259][302]LogTexture:Display: Building textures: Texture2D_30 (BGRA8, 32X32)
+[2018.03.22-11.25.30:260][302]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 32X32)
+[2018.03.22-11.25.30:260][302]LogTexture:Display: Building textures: Texture2D_48 (BGRA8, 32X32)
+[2018.03.22-11.25.30:261][302]LogTexture:Display: Building textures: Texture2D_49 (BGRA8, 32X32)
+[2018.03.22-11.25.30:261][302]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 32X32)
+[2018.03.22-11.25.30:261][302]LogTexture:Display: Building textures: Texture2D_44 (BGRA8, 32X32)
+[2018.03.22-11.25.30:262][302]LogTexture:Display: Building textures: Texture2D_22 (BGRA8, 32X32)
+[2018.03.22-11.25.30:262][302]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 32X32)
+[2018.03.22-11.25.30:262][302]LogTexture:Display: Building textures: Texture2D_50 (BGRA8, 32X32)
+[2018.03.22-11.25.30:262][302]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 32X32)
+[2018.03.22-11.25.30:263][302]LogTexture:Display: Building textures: Texture2D_28 (BGRA8, 32X32)
+[2018.03.22-11.25.30:263][302]LogTexture:Display: Building textures: Texture2D_26 (BGRA8, 32X32)
+[2018.03.22-11.25.30:263][302]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 32X32)
+[2018.03.22-11.25.30:263][302]LogTexture:Display: Building textures: Texture2D_45 (BGRA8, 32X32)
+[2018.03.22-11.25.30:264][302]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 32X32)
+[2018.03.22-11.25.30:264][302]LogTexture:Display: Building textures: Texture2D_29 (BGRA8, 32X32)
+[2018.03.22-11.25.30:264][302]LogTexture:Display: Building textures: Texture2D_51 (BGRA8, 32X32)
+[2018.03.22-11.25.30:264][302]LogTexture:Display: Building textures: Texture2D_52 (BGRA8, 32X32)
+[2018.03.22-11.25.30:265][302]LogTexture:Display: Building textures: Texture2D_27 (BGRA8, 32X32)
+[2018.03.22-11.25.30:265][302]LogTexture:Display: Building textures: Texture2D_43 (BGRA8, 32X32)
+[2018.03.22-11.25.30:265][302]LogTexture:Display: Building textures: Texture2D_46 (BGRA8, 32X32)
+[2018.03.22-11.25.30:265][302]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 32X32)
+[2018.03.22-11.25.30:266][302]LogTexture:Display: Building textures: Texture2D_24 (BGRA8, 32X32)
+[2018.03.22-11.25.31:342][302]LogSavePackage: Save=1460.07ms
+[2018.03.22-11.25.31:342][302]LogSavePackage: Moving 'F:/Anarquia/Proyecto2/Saved/Distrito1_2_Exp1B1B05594024DC3EFC0D57A7F571BD59.tmp' to 'F:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap'
+[2018.03.22-11.25.31:348][302]LogSavePackage:Display: Finished SavePackage F:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap
+[2018.03.22-11.25.45:840][856]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.03.22-11.25.50:716][364]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.03.22-11.25.51:982][507]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.22-11.26.00:103][884]LogTexture:Display: Building textures: Texture2D_53 (BGRA8, 32X32)
+[2018.03.22-11.26.00:113][884]LogTexture:Display: Building textures: Texture2D_54 (BGRA8, 32X32)
+[2018.03.22-11.26.00:117][884]LogTexture:Display: Building textures: Texture2D_54 (BGRA8, 32X32)
+[2018.03.22-11.26.00:128][884]LogTexture:Display: Building textures: Texture2D_54 (BGRA8, 32X32)
+[2018.03.22-11.26.00:134][884]LogTexture:Display: Building textures: Texture2D_55 (BGRA8, 32X32)
+[2018.03.22-11.26.00:148][884]LogTexture:Display: Building textures: Texture2D_54 (BGRA8, 32X32)
+[2018.03.22-11.26.00:155][884]LogTexture:Display: Building textures: Texture2D_56 (BGRA8, 32X32)
+[2018.03.22-11.26.00:170][884]LogTexture:Display: Building textures: Texture2D_54 (BGRA8, 32X32)
+[2018.03.22-11.26.00:176][884]LogTexture:Display: Building textures: Texture2D_57 (BGRA8, 32X32)
+[2018.03.22-11.26.00:186][884]LogTexture:Display: Building textures: Texture2D_58 (BGRA8, 32X32)
+[2018.03.22-11.26.00:190][884]LogTexture:Display: Building textures: Texture2D_58 (BGRA8, 32X32)
+[2018.03.22-11.26.00:201][884]LogTexture:Display: Building textures: Texture2D_58 (BGRA8, 32X32)
+[2018.03.22-11.26.00:208][884]LogTexture:Display: Building textures: Texture2D_59 (BGRA8, 32X32)
+[2018.03.22-11.26.00:222][884]LogTexture:Display: Building textures: Texture2D_58 (BGRA8, 32X32)
+[2018.03.22-11.26.00:228][884]LogTexture:Display: Building textures: Texture2D_60 (BGRA8, 32X32)
+[2018.03.22-11.26.00:243][884]LogTexture:Display: Building textures: Texture2D_58 (BGRA8, 32X32)
+[2018.03.22-11.26.00:250][884]LogTexture:Display: Building textures: Texture2D_61 (BGRA8, 32X32)
+[2018.03.22-11.26.00:260][884]LogTexture:Display: Building textures: Texture2D_62 (BGRA8, 32X32)
+[2018.03.22-11.26.00:264][884]LogTexture:Display: Building textures: Texture2D_62 (BGRA8, 32X32)
+[2018.03.22-11.26.00:274][884]LogTexture:Display: Building textures: Texture2D_62 (BGRA8, 32X32)
+[2018.03.22-11.26.00:280][884]LogTexture:Display: Building textures: Texture2D_63 (BGRA8, 32X32)
+[2018.03.22-11.26.00:295][884]LogTexture:Display: Building textures: Texture2D_62 (BGRA8, 32X32)
+[2018.03.22-11.26.00:302][884]LogTexture:Display: Building textures: Texture2D_64 (BGRA8, 32X32)
+[2018.03.22-11.26.00:311][884]LogTexture:Display: Building textures: Texture2D_65 (BGRA8, 32X32)
+[2018.03.22-11.26.00:315][884]LogTexture:Display: Building textures: Texture2D_65 (BGRA8, 32X32)
+[2018.03.22-11.26.00:325][884]LogTexture:Display: Building textures: Texture2D_65 (BGRA8, 32X32)
+[2018.03.22-11.26.00:332][884]LogTexture:Display: Building textures: Texture2D_66 (BGRA8, 32X32)
+[2018.03.22-11.26.00:346][884]LogTexture:Display: Building textures: Texture2D_65 (BGRA8, 32X32)
+[2018.03.22-11.26.00:352][884]LogTexture:Display: Building textures: Texture2D_67 (BGRA8, 32X32)
+[2018.03.22-11.26.00:366][884]LogTexture:Display: Building textures: Texture2D_62 (BGRA8, 32X32)
+[2018.03.22-11.26.00:372][884]LogTexture:Display: Building textures: Texture2D_68 (BGRA8, 32X32)
+[2018.03.22-11.26.00:386][884]LogTexture:Display: Building textures: Texture2D_65 (BGRA8, 32X32)
+[2018.03.22-11.26.00:392][884]LogTexture:Display: Building textures: Texture2D_69 (BGRA8, 32X32)
+[2018.03.22-11.26.00:402][884]LogTexture:Display: Building textures: Texture2D_70 (BGRA8, 32X32)
+[2018.03.22-11.26.00:406][884]LogTexture:Display: Building textures: Texture2D_70 (BGRA8, 32X32)
+[2018.03.22-11.26.00:416][884]LogTexture:Display: Building textures: Texture2D_70 (BGRA8, 32X32)
+[2018.03.22-11.26.00:423][884]LogTexture:Display: Building textures: Texture2D_71 (BGRA8, 32X32)
+[2018.03.22-11.26.00:437][884]LogTexture:Display: Building textures: Texture2D_70 (BGRA8, 32X32)
+[2018.03.22-11.26.00:444][884]LogTexture:Display: Building textures: Texture2D_72 (BGRA8, 32X32)
+[2018.03.22-11.26.00:454][884]LogTexture:Display: Building textures: Texture2D_73 (BGRA8, 32X32)
+[2018.03.22-11.26.00:459][884]LogTexture:Display: Building textures: Texture2D_73 (BGRA8, 32X32)
+[2018.03.22-11.26.00:469][884]LogTexture:Display: Building textures: Texture2D_73 (BGRA8, 32X32)
+[2018.03.22-11.26.00:475][884]LogTexture:Display: Building textures: Texture2D_74 (BGRA8, 32X32)
+[2018.03.22-11.26.00:490][884]LogTexture:Display: Building textures: Texture2D_73 (BGRA8, 32X32)
+[2018.03.22-11.26.00:497][884]LogTexture:Display: Building textures: Texture2D_75 (BGRA8, 32X32)
+[2018.03.22-11.26.00:506][884]LogTexture:Display: Building textures: Texture2D_76 (BGRA8, 32X32)
+[2018.03.22-11.26.00:510][884]LogTexture:Display: Building textures: Texture2D_76 (BGRA8, 32X32)
+[2018.03.22-11.26.00:520][884]LogTexture:Display: Building textures: Texture2D_76 (BGRA8, 32X32)
+[2018.03.22-11.26.00:527][884]LogTexture:Display: Building textures: Texture2D_77 (BGRA8, 32X32)
+[2018.03.22-11.26.00:537][884]LogTexture:Display: Building textures: Texture2D_78 (BGRA8, 32X32)
+[2018.03.22-11.26.00:541][884]LogTexture:Display: Building textures: Texture2D_78 (BGRA8, 32X32)
+[2018.03.22-11.26.00:551][884]LogTexture:Display: Building textures: Texture2D_78 (BGRA8, 32X32)
+[2018.03.22-11.26.00:558][884]LogTexture:Display: Building textures: Texture2D_79 (BGRA8, 32X32)
+[2018.03.22-11.26.00:567][884]LogTexture:Display: Building textures: Texture2D_80 (BGRA8, 32X32)
+[2018.03.22-11.26.00:572][884]LogTexture:Display: Building textures: Texture2D_80 (BGRA8, 32X32)
+[2018.03.22-11.26.00:582][884]LogTexture:Display: Building textures: Texture2D_80 (BGRA8, 32X32)
+[2018.03.22-11.26.00:588][884]LogTexture:Display: Building textures: Texture2D_81 (BGRA8, 32X32)
+[2018.03.22-11.26.00:598][884]LogTexture:Display: Building textures: Texture2D_82 (BGRA8, 32X32)
+[2018.03.22-11.26.00:602][884]LogTexture:Display: Building textures: Texture2D_82 (BGRA8, 32X32)
+[2018.03.22-11.26.00:612][884]LogTexture:Display: Building textures: Texture2D_82 (BGRA8, 32X32)
+[2018.03.22-11.26.00:619][884]LogTexture:Display: Building textures: Texture2D_83 (BGRA8, 32X32)
+[2018.03.22-11.26.00:633][884]LogTexture:Display: Building textures: Texture2D_76 (BGRA8, 32X32)
+[2018.03.22-11.26.00:639][884]LogTexture:Display: Building textures: Texture2D_84 (BGRA8, 32X32)
+[2018.03.22-11.26.00:653][884]LogTexture:Display: Building textures: Texture2D_70 (BGRA8, 32X32)
+[2018.03.22-11.26.00:659][884]LogTexture:Display: Building textures: Texture2D_85 (BGRA8, 32X32)
+[2018.03.22-11.26.00:672][884]LogTexture:Display: Building textures: Texture2D_78 (BGRA8, 32X32)
+[2018.03.22-11.26.00:679][884]LogTexture:Display: Building textures: Texture2D_86 (BGRA8, 32X32)
+[2018.03.22-11.26.00:693][884]LogTexture:Display: Building textures: Texture2D_80 (BGRA8, 32X32)
+[2018.03.22-11.26.00:699][884]LogTexture:Display: Building textures: Texture2D_87 (BGRA8, 32X32)
+[2018.03.22-11.26.00:709][884]LogTexture:Display: Building textures: Texture2D_88 (BGRA8, 32X32)
+[2018.03.22-11.26.00:714][884]LogTexture:Display: Building textures: Texture2D_88 (BGRA8, 32X32)
+[2018.03.22-11.26.00:724][884]LogTexture:Display: Building textures: Texture2D_88 (BGRA8, 32X32)
+[2018.03.22-11.26.00:731][884]LogTexture:Display: Building textures: Texture2D_89 (BGRA8, 32X32)
+[2018.03.22-11.26.00:745][884]LogTexture:Display: Building textures: Texture2D_88 (BGRA8, 32X32)
+[2018.03.22-11.26.00:752][884]LogTexture:Display: Building textures: Texture2D_90 (BGRA8, 32X32)
+[2018.03.22-11.26.00:762][884]LogTexture:Display: Building textures: Texture2D_91 (BGRA8, 32X32)
+[2018.03.22-11.26.00:767][884]LogTexture:Display: Building textures: Texture2D_91 (BGRA8, 32X32)
+[2018.03.22-11.26.00:777][884]LogTexture:Display: Building textures: Texture2D_91 (BGRA8, 32X32)
+[2018.03.22-11.26.00:784][884]LogTexture:Display: Building textures: Texture2D_92 (BGRA8, 32X32)
+[2018.03.22-11.26.00:799][884]LogTexture:Display: Building textures: Texture2D_91 (BGRA8, 32X32)
+[2018.03.22-11.26.00:806][884]LogTexture:Display: Building textures: Texture2D_93 (BGRA8, 32X32)
+[2018.03.22-11.26.00:816][884]LogTexture:Display: Building textures: Texture2D_94 (BGRA8, 32X32)
+[2018.03.22-11.26.00:821][884]LogTexture:Display: Building textures: Texture2D_94 (BGRA8, 32X32)
+[2018.03.22-11.26.00:831][884]LogTexture:Display: Building textures: Texture2D_94 (BGRA8, 32X32)
+[2018.03.22-11.26.00:838][884]LogTexture:Display: Building textures: Texture2D_95 (BGRA8, 32X32)
+[2018.03.22-11.26.00:848][884]LogTexture:Display: Building textures: Texture2D_96 (BGRA8, 32X32)
+[2018.03.22-11.26.00:853][884]LogTexture:Display: Building textures: Texture2D_96 (BGRA8, 32X32)
+[2018.03.22-11.26.00:863][884]LogTexture:Display: Building textures: Texture2D_96 (BGRA8, 32X32)
+[2018.03.22-11.26.00:869][884]LogTexture:Display: Building textures: Texture2D_97 (BGRA8, 32X32)
+[2018.03.22-11.26.00:880][884]LogTexture:Display: Building textures: Texture2D_98 (BGRA8, 32X32)
+[2018.03.22-11.26.00:884][884]LogTexture:Display: Building textures: Texture2D_98 (BGRA8, 32X32)
+[2018.03.22-11.26.00:894][884]LogTexture:Display: Building textures: Texture2D_98 (BGRA8, 32X32)
+[2018.03.22-11.26.00:901][884]LogTexture:Display: Building textures: Texture2D_99 (BGRA8, 32X32)
+[2018.03.22-11.26.00:911][884]LogTexture:Display: Building textures: Texture2D_100 (BGRA8, 32X32)
+[2018.03.22-11.26.00:915][884]LogTexture:Display: Building textures: Texture2D_100 (BGRA8, 32X32)
+[2018.03.22-11.26.00:925][884]LogTexture:Display: Building textures: Texture2D_100 (BGRA8, 32X32)
+[2018.03.22-11.26.00:932][884]LogTexture:Display: Building textures: Texture2D_101 (BGRA8, 32X32)
+[2018.03.22-11.26.00:945][884]LogTexture:Display: Building textures: Texture2D_94 (BGRA8, 32X32)
+[2018.03.22-11.26.00:952][884]LogTexture:Display: Building textures: Texture2D_102 (BGRA8, 32X32)
+[2018.03.22-11.26.00:961][884]LogTexture:Display: Building textures: Texture2D_103 (BGRA8, 32X32)
+[2018.03.22-11.26.00:966][884]LogTexture:Display: Building textures: Texture2D_103 (BGRA8, 32X32)
+[2018.03.22-11.26.00:976][884]LogTexture:Display: Building textures: Texture2D_103 (BGRA8, 32X32)
+[2018.03.22-11.26.00:982][884]LogTexture:Display: Building textures: Texture2D_104 (BGRA8, 32X32)
+[2018.03.22-11.26.00:996][884]LogTexture:Display: Building textures: Texture2D_103 (BGRA8, 32X32)
+[2018.03.22-11.26.01:003][884]LogTexture:Display: Building textures: Texture2D_105 (BGRA8, 32X32)
+[2018.03.22-11.26.01:012][884]LogTexture:Display: Building textures: Texture2D_106 (BGRA8, 32X32)
+[2018.03.22-11.26.01:016][884]LogTexture:Display: Building textures: Texture2D_106 (BGRA8, 32X32)
+[2018.03.22-11.26.01:026][884]LogTexture:Display: Building textures: Texture2D_106 (BGRA8, 32X32)
+[2018.03.22-11.26.01:033][884]LogTexture:Display: Building textures: Texture2D_107 (BGRA8, 32X32)
+[2018.03.22-11.26.01:046][884]LogTexture:Display: Building textures: Texture2D_106 (BGRA8, 32X32)
+[2018.03.22-11.26.01:053][884]LogTexture:Display: Building textures: Texture2D_108 (BGRA8, 32X32)
+[2018.03.22-11.26.01:067][884]LogTexture:Display: Building textures: Texture2D_96 (BGRA8, 32X32)
+[2018.03.22-11.26.01:073][884]LogTexture:Display: Building textures: Texture2D_109 (BGRA8, 32X32)
+[2018.03.22-11.26.01:083][884]LogTexture:Display: Building textures: Texture2D_110 (BGRA8, 32X32)
+[2018.03.22-11.26.01:087][884]LogTexture:Display: Building textures: Texture2D_110 (BGRA8, 32X32)
+[2018.03.22-11.26.01:097][884]LogTexture:Display: Building textures: Texture2D_110 (BGRA8, 32X32)
+[2018.03.22-11.26.01:104][884]LogTexture:Display: Building textures: Texture2D_111 (BGRA8, 32X32)
+[2018.03.22-11.26.01:114][884]LogTexture:Display: Building textures: Texture2D_112 (BGRA8, 32X32)
+[2018.03.22-11.26.01:118][884]LogTexture:Display: Building textures: Texture2D_112 (BGRA8, 32X32)
+[2018.03.22-11.26.01:128][884]LogTexture:Display: Building textures: Texture2D_112 (BGRA8, 32X32)
+[2018.03.22-11.26.01:135][884]LogTexture:Display: Building textures: Texture2D_113 (BGRA8, 32X32)
+[2018.03.22-11.26.01:145][884]LogTexture:Display: Building textures: Texture2D_114 (BGRA8, 32X32)
+[2018.03.22-11.26.01:149][884]LogTexture:Display: Building textures: Texture2D_114 (BGRA8, 32X32)
+[2018.03.22-11.26.01:162][884]LogTexture:Display: Building textures: Texture2D_114 (BGRA8, 32X32)
+[2018.03.22-11.26.01:168][884]LogTexture:Display: Building textures: Texture2D_115 (BGRA8, 32X32)
+[2018.03.22-11.26.01:178][884]LogTexture:Display: Building textures: Texture2D_116 (BGRA8, 32X32)
+[2018.03.22-11.26.01:182][884]LogTexture:Display: Building textures: Texture2D_116 (BGRA8, 32X32)
+[2018.03.22-11.26.01:192][884]LogTexture:Display: Building textures: Texture2D_116 (BGRA8, 32X32)
+[2018.03.22-11.26.01:199][884]LogTexture:Display: Building textures: Texture2D_117 (BGRA8, 32X32)
+[2018.03.22-11.26.01:209][884]LogTexture:Display: Building textures: Texture2D_118 (BGRA8, 32X32)
+[2018.03.22-11.26.01:213][884]LogTexture:Display: Building textures: Texture2D_118 (BGRA8, 32X32)
+[2018.03.22-11.26.01:223][884]LogTexture:Display: Building textures: Texture2D_118 (BGRA8, 32X32)
+[2018.03.22-11.26.01:230][884]LogTexture:Display: Building textures: Texture2D_119 (BGRA8, 32X32)
+[2018.03.22-11.26.01:244][884]LogTexture:Display: Building textures: Texture2D_110 (BGRA8, 32X32)
+[2018.03.22-11.26.01:250][884]LogTexture:Display: Building textures: Texture2D_120 (BGRA8, 32X32)
+[2018.03.22-11.26.01:260][884]LogTexture:Display: Building textures: Texture2D_121 (BGRA8, 32X32)
+[2018.03.22-11.26.01:265][884]LogTexture:Display: Building textures: Texture2D_121 (BGRA8, 32X32)
+[2018.03.22-11.26.01:275][884]LogTexture:Display: Building textures: Texture2D_121 (BGRA8, 32X32)
+[2018.03.22-11.26.01:281][884]LogTexture:Display: Building textures: Texture2D_122 (BGRA8, 32X32)
+[2018.03.22-11.26.01:296][884]LogTexture:Display: Building textures: Texture2D_121 (BGRA8, 32X32)
+[2018.03.22-11.26.01:302][884]LogTexture:Display: Building textures: Texture2D_123 (BGRA8, 32X32)
+[2018.03.22-11.26.01:312][884]LogTexture:Display: Building textures: Texture2D_124 (BGRA8, 32X32)
+[2018.03.22-11.26.01:316][884]LogTexture:Display: Building textures: Texture2D_124 (BGRA8, 32X32)
+[2018.03.22-11.26.01:326][884]LogTexture:Display: Building textures: Texture2D_124 (BGRA8, 32X32)
+[2018.03.22-11.26.01:333][884]LogTexture:Display: Building textures: Texture2D_125 (BGRA8, 32X32)
+[2018.03.22-11.26.01:347][884]LogTexture:Display: Building textures: Texture2D_124 (BGRA8, 32X32)
+[2018.03.22-11.26.01:353][884]LogTexture:Display: Building textures: Texture2D_126 (BGRA8, 32X32)
+[2018.03.22-11.26.01:366][884]LogTexture:Display: Building textures: Texture2D_112 (BGRA8, 32X32)
+[2018.03.22-11.26.01:373][884]LogTexture:Display: Building textures: Texture2D_127 (BGRA8, 32X32)
+[2018.03.22-11.26.01:383][884]LogTexture:Display: Building textures: Texture2D_128 (BGRA8, 32X32)
+[2018.03.22-11.26.01:387][884]LogTexture:Display: Building textures: Texture2D_128 (BGRA8, 32X32)
+[2018.03.22-11.26.01:397][884]LogTexture:Display: Building textures: Texture2D_128 (BGRA8, 32X32)
+[2018.03.22-11.26.01:404][884]LogTexture:Display: Building textures: Texture2D_129 (BGRA8, 32X32)
+[2018.03.22-11.26.01:418][884]LogTexture:Display: Building textures: Texture2D_128 (BGRA8, 32X32)
+[2018.03.22-11.26.01:424][884]LogTexture:Display: Building textures: Texture2D_130 (BGRA8, 32X32)
+[2018.03.22-11.26.01:434][884]LogTexture:Display: Building textures: Texture2D_131 (BGRA8, 32X32)
+[2018.03.22-11.26.01:439][884]LogTexture:Display: Building textures: Texture2D_131 (BGRA8, 32X32)
+[2018.03.22-11.26.01:448][884]LogTexture:Display: Building textures: Texture2D_131 (BGRA8, 32X32)
+[2018.03.22-11.26.01:456][884]LogTexture:Display: Building textures: Texture2D_132 (BGRA8, 32X32)
+[2018.03.22-11.26.01:470][884]LogTexture:Display: Building textures: Texture2D_131 (BGRA8, 32X32)
+[2018.03.22-11.26.01:476][884]LogTexture:Display: Building textures: Texture2D_133 (BGRA8, 32X32)
+[2018.03.22-11.26.01:490][884]LogTexture:Display: Building textures: Texture2D_118 (BGRA8, 32X32)
+[2018.03.22-11.26.01:497][884]LogTexture:Display: Building textures: Texture2D_134 (BGRA8, 32X32)
+[2018.03.22-11.26.01:511][884]LogTexture:Display: Building textures: Texture2D_114 (BGRA8, 32X32)
+[2018.03.22-11.26.01:517][884]LogTexture:Display: Building textures: Texture2D_135 (BGRA8, 32X32)
+[2018.03.22-11.26.01:527][884]LogTexture:Display: Building textures: Texture2D_136 (BGRA8, 32X32)
+[2018.03.22-11.26.01:532][884]LogTexture:Display: Building textures: Texture2D_136 (BGRA8, 32X32)
+[2018.03.22-11.26.01:541][884]LogTexture:Display: Building textures: Texture2D_136 (BGRA8, 32X32)
+[2018.03.22-11.26.01:548][884]LogTexture:Display: Building textures: Texture2D_137 (BGRA8, 32X32)
+[2018.03.22-11.26.01:562][884]LogTexture:Display: Building textures: Texture2D_136 (BGRA8, 32X32)
+[2018.03.22-11.26.01:569][884]LogTexture:Display: Building textures: Texture2D_138 (BGRA8, 32X32)
+[2018.03.22-11.26.01:583][884]LogTexture:Display: Building textures: Texture2D_136 (BGRA8, 32X32)
+[2018.03.22-11.26.01:589][884]LogTexture:Display: Building textures: Texture2D_139 (BGRA8, 32X32)
+[2018.03.22-11.26.01:599][884]LogTexture:Display: Building textures: Texture2D_140 (BGRA8, 32X32)
+[2018.03.22-11.26.01:603][884]LogTexture:Display: Building textures: Texture2D_140 (BGRA8, 32X32)
+[2018.03.22-11.26.01:617][884]LogTexture:Display: Building textures: Texture2D_140 (BGRA8, 32X32)
+[2018.03.22-11.26.01:623][884]LogTexture:Display: Building textures: Texture2D_141 (BGRA8, 32X32)
+[2018.03.22-11.26.01:637][884]LogTexture:Display: Building textures: Texture2D_140 (BGRA8, 32X32)
+[2018.03.22-11.26.01:643][884]LogTexture:Display: Building textures: Texture2D_142 (BGRA8, 32X32)
+[2018.03.22-11.26.01:653][884]LogTexture:Display: Building textures: Texture2D_143 (BGRA8, 32X32)
+[2018.03.22-11.26.01:657][884]LogTexture:Display: Building textures: Texture2D_143 (BGRA8, 32X32)
+[2018.03.22-11.26.01:667][884]LogTexture:Display: Building textures: Texture2D_143 (BGRA8, 32X32)
+[2018.03.22-11.26.01:674][884]LogTexture:Display: Building textures: Texture2D_144 (BGRA8, 32X32)
+[2018.03.22-11.26.01:689][884]LogTexture:Display: Building textures: Texture2D_143 (BGRA8, 32X32)
+[2018.03.22-11.26.01:696][884]LogTexture:Display: Building textures: Texture2D_145 (BGRA8, 32X32)
+[2018.03.22-11.26.01:709][884]LogTexture:Display: Building textures: Texture2D_116 (BGRA8, 32X32)
+[2018.03.22-11.26.01:716][884]LogTexture:Display: Building textures: Texture2D_146 (BGRA8, 32X32)
+[2018.03.22-11.26.01:730][884]LogTexture:Display: Building textures: Texture2D_98 (BGRA8, 32X32)
+[2018.03.22-11.26.01:736][884]LogTexture:Display: Building textures: Texture2D_147 (BGRA8, 32X32)
+[2018.03.22-11.26.01:750][884]LogTexture:Display: Building textures: Texture2D_100 (BGRA8, 32X32)
+[2018.03.22-11.26.01:756][884]LogTexture:Display: Building textures: Texture2D_148 (BGRA8, 32X32)
+[2018.03.22-11.26.01:770][884]LogTexture:Display: Building textures: Texture2D_140 (BGRA8, 32X32)
+[2018.03.22-11.26.01:776][884]LogTexture:Display: Building textures: Texture2D_149 (BGRA8, 32X32)
+[2018.03.22-11.26.01:789][884]LogTexture:Display: Building textures: Texture2D_82 (BGRA8, 32X32)
+[2018.03.22-11.26.01:796][884]LogTexture:Display: Building textures: Texture2D_150 (BGRA8, 32X32)
+[2018.03.22-11.26.01:805][884]LogTexture:Display: Building textures: Texture2D_151 (BGRA8, 32X32)
+[2018.03.22-11.26.01:810][884]LogTexture:Display: Building textures: Texture2D_151 (BGRA8, 32X32)
+[2018.03.22-11.26.01:819][884]LogTexture:Display: Building textures: Texture2D_151 (BGRA8, 32X32)
+[2018.03.22-11.26.01:825][884]LogTexture:Display: Building textures: Texture2D_152 (BGRA8, 32X32)
+[2018.03.22-11.26.01:843][884]LogTexture:Display: Building textures: Texture2D_151 (BGRA8, 32X32)
+[2018.03.22-11.26.01:849][884]LogTexture:Display: Building textures: Texture2D_153 (BGRA8, 32X32)
+[2018.03.22-11.26.01:863][884]LogTexture:Display: Building textures: Texture2D_151 (BGRA8, 32X32)
+[2018.03.22-11.26.01:870][884]LogTexture:Display: Building textures: Texture2D_154 (BGRA8, 32X32)
+[2018.03.22-11.26.01:879][884]LogTexture:Display: Building textures: Texture2D_155 (BGRA8, 32X32)
+[2018.03.22-11.26.01:884][884]LogTexture:Display: Building textures: Texture2D_155 (BGRA8, 32X32)
+[2018.03.22-11.26.01:894][884]LogTexture:Display: Building textures: Texture2D_155 (BGRA8, 32X32)
+[2018.03.22-11.26.01:900][884]LogTexture:Display: Building textures: Texture2D_156 (BGRA8, 32X32)
+[2018.03.22-11.26.01:914][884]LogTexture:Display: Building textures: Texture2D_155 (BGRA8, 32X32)
+[2018.03.22-11.26.01:921][884]LogTexture:Display: Building textures: Texture2D_157 (BGRA8, 32X32)
+[2018.03.22-11.26.01:931][884]LogTexture:Display: Building textures: Texture2D_158 (BGRA8, 32X32)
+[2018.03.22-11.26.01:935][884]LogTexture:Display: Building textures: Texture2D_158 (BGRA8, 32X32)
+[2018.03.22-11.26.01:945][884]LogTexture:Display: Building textures: Texture2D_158 (BGRA8, 32X32)
+[2018.03.22-11.26.01:952][884]LogTexture:Display: Building textures: Texture2D_159 (BGRA8, 32X32)
+[2018.03.22-11.26.01:969][884]LogTexture:Display: Building textures: Texture2D_158 (BGRA8, 32X32)
+[2018.03.22-11.26.01:975][884]LogTexture:Display: Building textures: Texture2D_160 (BGRA8, 32X32)
+[2018.03.22-11.26.01:989][884]LogTexture:Display: Building textures: Texture2D_158 (BGRA8, 32X32)
+[2018.03.22-11.26.01:996][884]LogTexture:Display: Building textures: Texture2D_161 (BGRA8, 32X32)
+[2018.03.22-11.26.02:010][884]LogTexture:Display: Building textures: Texture2D_158 (BGRA8, 32X32)
+[2018.03.22-11.26.02:016][884]LogTexture:Display: Building textures: Texture2D_162 (BGRA8, 32X32)
+[2018.03.22-11.26.02:026][884]LogTexture:Display: Building textures: Texture2D_163 (BGRA8, 32X32)
+[2018.03.22-11.26.02:030][884]LogTexture:Display: Building textures: Texture2D_163 (BGRA8, 32X32)
+[2018.03.22-11.26.02:040][884]LogTexture:Display: Building textures: Texture2D_163 (BGRA8, 32X32)
+[2018.03.22-11.26.02:047][884]LogTexture:Display: Building textures: Texture2D_164 (BGRA8, 32X32)
+[2018.03.22-11.26.02:060][884]LogTexture:Display: Building textures: Texture2D_163 (BGRA8, 32X32)
+[2018.03.22-11.26.02:067][884]LogTexture:Display: Building textures: Texture2D_165 (BGRA8, 32X32)
+[2018.03.22-11.26.02:082][884]LogTexture:Display: Building textures: Texture2D_163 (BGRA8, 32X32)
+[2018.03.22-11.26.02:088][884]LogTexture:Display: Building textures: Texture2D_166 (BGRA8, 32X32)
+[2018.03.22-11.26.02:102][884]LogTexture:Display: Building textures: Texture2D_163 (BGRA8, 32X32)
+[2018.03.22-11.26.02:108][884]LogTexture:Display: Building textures: Texture2D_167 (BGRA8, 32X32)
+[2018.03.22-11.26.02:118][884]LogTexture:Display: Building textures: Texture2D_168 (BGRA8, 32X32)
+[2018.03.22-11.26.02:122][884]LogTexture:Display: Building textures: Texture2D_168 (BGRA8, 32X32)
+[2018.03.22-11.26.02:132][884]LogTexture:Display: Building textures: Texture2D_168 (BGRA8, 32X32)
+[2018.03.22-11.26.02:139][884]LogTexture:Display: Building textures: Texture2D_169 (BGRA8, 32X32)
+[2018.03.22-11.26.02:153][884]LogTexture:Display: Building textures: Texture2D_168 (BGRA8, 32X32)
+[2018.03.22-11.26.02:160][884]LogTexture:Display: Building textures: Texture2D_170 (BGRA8, 32X32)
+[2018.03.22-11.26.02:170][884]LogTexture:Display: Building textures: Texture2D_171 (BGRA8, 32X32)
+[2018.03.22-11.26.02:174][884]LogTexture:Display: Building textures: Texture2D_171 (BGRA8, 32X32)
+[2018.03.22-11.26.02:184][884]LogTexture:Display: Building textures: Texture2D_171 (BGRA8, 32X32)
+[2018.03.22-11.26.02:191][884]LogTexture:Display: Building textures: Texture2D_172 (BGRA8, 32X32)
+[2018.03.22-11.26.02:205][884]LogTexture:Display: Building textures: Texture2D_171 (BGRA8, 32X32)
+[2018.03.22-11.26.02:212][884]LogTexture:Display: Building textures: Texture2D_173 (BGRA8, 32X32)
+[2018.03.22-11.26.02:225][884]LogTexture:Display: Building textures: Texture2D_171 (BGRA8, 32X32)
+[2018.03.22-11.26.02:232][884]LogTexture:Display: Building textures: Texture2D_174 (BGRA8, 32X32)
+[2018.03.22-11.26.02:242][884]LogTexture:Display: Building textures: Texture2D_175 (BGRA8, 32X32)
+[2018.03.22-11.26.02:246][884]LogTexture:Display: Building textures: Texture2D_175 (BGRA8, 32X32)
+[2018.03.22-11.26.02:256][884]LogTexture:Display: Building textures: Texture2D_175 (BGRA8, 32X32)
+[2018.03.22-11.26.02:262][884]LogTexture:Display: Building textures: Texture2D_176 (BGRA8, 32X32)
+[2018.03.22-11.26.02:281][884]LogTexture:Display: Building textures: Texture2D_175 (BGRA8, 32X32)
+[2018.03.22-11.26.02:287][884]LogTexture:Display: Building textures: Texture2D_177 (BGRA8, 32X32)
+[2018.03.22-11.26.02:301][884]LogTexture:Display: Building textures: Texture2D_175 (BGRA8, 32X32)
+[2018.03.22-11.26.02:307][884]LogTexture:Display: Building textures: Texture2D_178 (BGRA8, 32X32)
+[2018.03.22-11.26.02:321][884]LogTexture:Display: Building textures: Texture2D_175 (BGRA8, 32X32)
+[2018.03.22-11.26.02:327][884]LogTexture:Display: Building textures: Texture2D_179 (BGRA8, 32X32)
+[2018.03.22-11.26.02:337][884]LogTexture:Display: Building textures: Texture2D_180 (BGRA8, 32X32)
+[2018.03.22-11.26.02:341][884]LogTexture:Display: Building textures: Texture2D_180 (BGRA8, 32X32)
+[2018.03.22-11.26.02:351][884]LogTexture:Display: Building textures: Texture2D_180 (BGRA8, 32X32)
+[2018.03.22-11.26.02:359][884]LogTexture:Display: Building textures: Texture2D_181 (BGRA8, 32X32)
+[2018.03.22-11.26.02:371][884]LogTexture:Display: Building textures: Texture2D_180 (BGRA8, 32X32)
+[2018.03.22-11.26.02:378][884]LogTexture:Display: Building textures: Texture2D_182 (BGRA8, 32X32)
+[2018.03.22-11.26.02:392][884]LogTexture:Display: Building textures: Texture2D_180 (BGRA8, 32X32)
+[2018.03.22-11.26.02:399][884]LogTexture:Display: Building textures: Texture2D_183 (BGRA8, 32X32)
+[2018.03.22-11.26.02:412][884]LogTexture:Display: Building textures: Texture2D_180 (BGRA8, 32X32)
+[2018.03.22-11.26.02:419][884]LogTexture:Display: Building textures: Texture2D_184 (BGRA8, 32X32)
+[2018.03.22-11.26.02:428][884]LogTexture:Display: Building textures: Texture2D_185 (BGRA8, 32X32)
+[2018.03.22-11.26.02:433][884]LogTexture:Display: Building textures: Texture2D_185 (BGRA8, 32X32)
+[2018.03.22-11.26.02:443][884]LogTexture:Display: Building textures: Texture2D_185 (BGRA8, 32X32)
+[2018.03.22-11.26.02:449][884]LogTexture:Display: Building textures: Texture2D_186 (BGRA8, 32X32)
+[2018.03.22-11.26.02:465][884]LogTexture:Display: Building textures: Texture2D_185 (BGRA8, 32X32)
+[2018.03.22-11.26.02:474][884]LogTexture:Display: Building textures: Texture2D_187 (BGRA8, 32X32)
+[2018.03.22-11.26.02:487][884]LogTexture:Display: Building textures: Texture2D_185 (BGRA8, 32X32)
+[2018.03.22-11.26.02:493][884]LogTexture:Display: Building textures: Texture2D_188 (BGRA8, 32X32)
+[2018.03.22-11.26.02:507][884]LogTexture:Display: Building textures: Texture2D_185 (BGRA8, 32X32)
+[2018.03.22-11.26.02:514][884]LogTexture:Display: Building textures: Texture2D_189 (BGRA8, 32X32)
+[2018.03.22-11.26.02:523][884]LogTexture:Display: Building textures: Texture2D_190 (BGRA8, 32X32)
+[2018.03.22-11.26.02:528][884]LogTexture:Display: Building textures: Texture2D_190 (BGRA8, 32X32)
+[2018.03.22-11.26.02:537][884]LogTexture:Display: Building textures: Texture2D_190 (BGRA8, 32X32)
+[2018.03.22-11.26.02:544][884]LogTexture:Display: Building textures: Texture2D_191 (BGRA8, 32X32)
+[2018.03.22-11.26.02:558][884]LogTexture:Display: Building textures: Texture2D_190 (BGRA8, 32X32)
+[2018.03.22-11.26.02:565][884]LogTexture:Display: Building textures: Texture2D_192 (BGRA8, 32X32)
+[2018.03.22-11.26.02:578][884]LogTexture:Display: Building textures: Texture2D_190 (BGRA8, 32X32)
+[2018.03.22-11.26.08:972][417]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume2)
+[2018.03.22-11.26.12:242][712]Cmd: TRANSACTION UNDO
+[2018.03.22-11.26.12:242][712]LogEditorTransaction: Undo Move Actors
+[2018.03.22-11.26.12:880][765]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.22-11.26.31:679][335]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.03.22-11.26.54:601][129]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.22-11.26.55:003][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.26.55:003][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-11.26.55:003][129]PIE: New page: PIE session: Distrito1_2_Exp (Mar 22, 2018, 1:26:55 PM)
+[2018.03.22-11.26.55:004][129]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp
+[2018.03.22-11.26.55:056][129]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.ModelComponent_347' invalid (1537 verts, 0 indices).
+[2018.03.22-11.26.55:057][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053494s)
+[2018.03.22-11.26.55:058][129]LogAIModule: Creating AISystem for world Distrito1_2_Exp
+[2018.03.22-11.26.55:058][129]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2018.03.22-11.26.55:058][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp (0.054383s)
+[2018.03.22-11.26.55:077][129]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-11.26.55:083][129]LogInit: FAudioDevice initialized.
+[2018.03.22-11.26.55:114][129]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.22-11.26.55:129][129]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp.Distrito1_2_Exp up for play (max tick rate 0) at 2018.03.22-12.26.55
+[2018.03.22-11.26.55:132][129]LogWorld: Bringing up level for play took: 0.015901
+[2018.03.22-11.26.55:145][129]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_2_Exp 0.86
+[2018.03.22-11.26.55:145][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.26.55:150][129]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.22-11.26.59:203][585]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.02:180][927]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.02:380][951]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.17:597][774]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.17:598][774]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.17:792][795]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.18:614][888]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.19:825][ 29]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.20:423][100]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.21:629][242]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2018.03.22-11.27.24:075][527]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.24:277][551]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.24:479][575]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.25:380][681]LogBlueprintUserMessages: [KeyGates_C_0] Tienes Llave
+[2018.03.22-11.27.37:338][115]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.41:736][641]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.44:180][934]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.44:980][ 30]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.57:912][579]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.59:220][736]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.27.59:620][784]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.04:095][319]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.04:770][400]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.09:641][984]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.10:444][ 78]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.11:447][198]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.11:648][222]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.11:949][258]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.12:240][293]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.12:441][317]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.12:850][366]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.13:050][390]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.13:442][437]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.14:254][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.16:315][781]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2018.03.22-11.28.20:382][269]LogScriptCore:Warning: Script Msg: Divide by zero: Divide_IntInt
+[2018.03.22-11.28.20:391][270]LogNet: Browse: /Game/ThirdPersonBP/Maps/levelScore
+[2018.03.22-11.28.20:391][270]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/levelScore
+[2018.03.22-11.28.20:413][270]Cmd: MEM
+[2018.03.22-11.28.20:424][270]LogMemory: Platform Memory Stats for Windows
+[2018.03.22-11.28.20:424][270]LogMemory: Process Physical Memory: 2807.15 MB used, 4536.14 MB peak
+[2018.03.22-11.28.20:424][270]LogMemory: Process Virtual Memory: 4110.77 MB used, 5561.77 MB peak
+[2018.03.22-11.28.20:424][270]LogMemory: Physical Memory: 7243.73 MB used,  9103.15 MB free, 16346.88 MB total
+[2018.03.22-11.28.20:424][270]LogMemory: Virtual Memory: 5440.71 MB used,  9103.15 MB free, 134217728.00 MB total
+[2018.03.22-11.28.20:424][270]LogMemory: 
+[2018.03.22-11.28.20:424][270]Allocator Stats for TBB: (not implemented)
+[2018.03.22-11.28.21:410][270]LogAIModule: Creating AISystem for world levelScore
+[2018.03.22-11.28.21:410][270]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.22-11.28.21:415][270]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_levelScore.levelScore up for play (max tick rate 0) at 2018.03.22-12.28.21
+[2018.03.22-11.28.21:415][270]LogWorld: Bringing up level for play took: 0.003906
+[2018.03.22-11.28.21:415][270]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.22-11.28.21:418][270]LogLoad: Took 1.026817 seconds to LoadMap(/Game/ThirdPersonBP/Maps/levelScore)
+[2018.03.22-11.28.23:317][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.28.23:359][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_2_Exp.Distrito1_2_Exp:PersistentLevel.Distrito1_2_Exp'
+[2018.03.22-11.28.30:364][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2018.03.22-11.28.42:720][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2018.03.22-11.28.43:412][682]Cmd: DELETE
+[2018.03.22-11.28.43:413][682]Cmd: ACTOR DELETE
+[2018.03.22-11.28.43:414][682]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.22-11.28.43:425][682]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.03.22-11.28.43:916][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2018.03.22-11.28.44:063][746]Cmd: DELETE
+[2018.03.22-11.28.44:071][746]Cmd: ACTOR DELETE
+[2018.03.22-11.28.44:072][746]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.22-11.28.44:083][746]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.03.22-11.28.45:169][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Distrito1_2_Exp" FILE="F:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.22-11.28.47:327][871]LogSavePackage: Save=1767.87ms
+[2018.03.22-11.28.47:331][871]LogSavePackage: Moving 'F:/Anarquia/Proyecto2/Saved/Distrito1_2_ExpD43967C7453B5D7834A1DBBB17D2A166.tmp' to 'F:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap'
+[2018.03.22-11.28.47:337][871]LogSavePackage:Display: Finished SavePackage F:/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_2_Exp.umap
+[2018.03.22-11.30.35:003][435]Cmd: QUIT_EDITOR
+[2018.03.22-11.30.35:641][435]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.22-11.30.35:655][435]LogExit: Preparing to exit.
+[2018.03.22-11.30.35:870][435]LogExit: Editor shut down
+[2018.03.22-11.30.35:874][435]LogExit: Transaction tracking system shut down
+[2018.03.22-11.30.36:073][435]LogObj: Freed 0b from 0 cluster array pools.
+[2018.03.22-11.30.36:073][435]LogExit: Object subsystem successfully closed.
+[2018.03.22-11.30.36:090][435]LogD3D11RHI: Shutdown
+[2018.03.22-11.30.36:090][435]LogD3D11RHI: CleanupD3DDevice
+[2018.03.22-11.30.36:256][435]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.22-11.30.36:276][435]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (534)
+[2018.03.22-11.30.36:276][435]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
+[2018.03.22-11.30.36:276][435]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (530)
+[2018.03.22-11.30.36:276][435]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2018.03.22-11.30.36:276][435]LogModuleManager: Shutting down and abandoning module SynthBenchmark (526)
+[2018.03.22-11.30.36:276][435]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.03.22-11.30.36:276][435]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.03.22-11.30.36:276][435]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.03.22-11.30.36:276][435]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.03.22-11.30.36:276][435]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.03.22-11.30.36:277][435]LogDirectoryWatcher: A directory notification for 'F:/Anarquia/Proyecto2/Content/Collections/' was aborted.
+[2018.03.22-11.30.36:277][435]LogDirectoryWatcher: A directory notification for 'F:/Anarquia/Proyecto2/Content/Developers/javiergarciagomez/Collections/' was aborted.
+[2018.03.22-11.30.36:277][435]LogDirectoryWatcher: A directory notification for 'F:/Anarquia/Proyecto2/Saved/Collections/' was aborted.
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.03.22-11.30.36:277][435]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.03.22-11.30.36:278][435]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.03.22-11.30.36:279][435]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.03.22-11.30.36:280][435]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.03.22-11.30.36:280][435]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.03.22-11.30.36:281][435]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.03.22-11.30.36:281][435]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.03.22-11.30.36:281][435]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.03.22-11.30.36:281][435]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.03.22-11.30.36:281][435]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.03.22-11.30.37:026][435]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.03.22-11.30.37:026][435]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.03.22-11.30.37:026][435]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.03.22-11.30.37:027][435]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.03.22-11.30.37:028][435]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.03.22-11.30.37:028][435]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.03.22-11.30.37:028][435]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.03.22-11.30.37:028][435]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.03.22-11.30.37:029][435]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.03.22-11.30.37:029][435]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.03.22-11.30.37:029][435]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.03.22-11.30.37:029][435]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.03.22-11.30.37:029][435]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.03.22-11.30.37:029][435]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.03.22-11.30.37:029][435]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.03.22-11.30.37:029][435]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.03.22-11.30.37:030][435]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.03.22-11.30.37:030][435]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.03.22-11.30.37:030][435]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.03.22-11.30.37:030][435]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.03.22-11.30.37:030][435]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.03.22-11.30.37:031][435]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.03.22-11.30.37:032][435]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.03.22-11.30.37:032][435]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.03.22-11.30.37:098][435]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.03.22-11.30.37:098][435]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.03.22-11.30.37:099][435]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.03.22-11.30.37:100][435]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.03.22-11.30.37:100][435]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.03.22-11.30.37:100][435]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.03.22-11.30.37:100][435]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.03.22-11.30.37:101][435]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.03.22-11.30.37:101][435]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.03.22-11.30.37:101][435]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.03.22-11.30.37:105][435]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.03.22-11.30.37:105][435]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.03.22-11.30.37:105][435]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.03.22-11.30.37:106][435]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.03.22-11.30.37:106][435]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.03.22-11.30.37:106][435]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.03.22-11.30.37:107][435]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.03.22-11.30.37:107][435]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.03.22-11.30.37:107][435]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.03.22-11.30.37:107][435]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.03.22-11.30.37:107][435]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.03.22-11.30.37:107][435]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.03.22-11.30.37:108][435]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.03.22-11.30.37:108][435]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.03.22-11.30.37:108][435]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.03.22-11.30.37:108][435]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.03.22-11.30.37:108][435]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.03.22-11.30.37:108][435]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.03.22-11.30.37:108][435]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.03.22-11.30.37:108][435]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.03.22-11.30.37:168][435]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.03.22-11.30.37:169][435]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.03.22-11.30.37:170][435]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.03.22-11.30.37:171][435]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.03.22-11.30.37:171][435]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.03.22-11.30.37:171][435]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.03.22-11.30.37:171][435]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.03.22-11.30.37:171][435]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.03.22-11.30.37:171][435]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.03.22-11.30.37:271][435]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.03.22-11.30.37:372][435]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.03.22-11.30.37:372][435]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.03.22-11.30.37:372][435]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.03.22-11.30.37:372][435]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.03.22-11.30.37:372][435]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.03.22-11.30.37:372][435]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.03.22-11.30.37:373][435]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.03.22-11.30.37:373][435]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.03.22-11.30.37:373][435]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.03.22-11.30.37:373][435]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.03.22-11.30.37:376][435]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.03.22-11.30.37:376][435]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.03.22-11.30.37:376][435]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.03.22-11.30.37:376][435]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.03.22-11.30.37:376][435]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.03.22-11.30.37:376][435]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.03.22-11.30.37:377][435]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.03.22-11.30.37:377][435]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.03.22-11.30.37:377][435]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.03.22-11.30.37:377][435]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.03.22-11.30.37:378][435]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.03.22-11.30.37:378][435]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.03.22-11.30.37:378][435]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.03.22-11.30.37:378][435]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.03.22-11.30.37:380][435]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.03.22-11.30.37:380][435]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.03.22-11.30.37:380][435]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.03.22-11.30.37:381][435]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.03.22-11.30.37:381][435]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.03.22-11.30.37:383][435]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.03.22-11.30.37:383][435]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.03.22-11.30.37:383][435]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.03.22-11.30.37:383][435]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.03.22-11.30.37:383][435]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.03.22-11.30.37:383][435]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.03.22-11.30.37:626][435]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.22-11.30.37:626][435]LogDirectoryWatcher: A directory notification for 'F:/Anarquia/Proyecto2/Content/' was aborted.
+[2018.03.22-11.30.37:626][435]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.22-11.30.37:626][435]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.03.22-11.30.37:629][435]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.03.22-11.30.37:630][435]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.03.22-11.30.37:630][435]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.03.22-11.30.37:630][435]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.03.22-11.30.37:630][435]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.03.22-11.30.37:630][435]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.03.22-11.30.37:630][435]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.03.22-11.30.37:630][435]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.03.22-11.30.37:630][435]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.03.22-11.30.37:663][435]LogDerivedDataCache: Shutdown
+[2018.03.22-11.30.37:663][435]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.03.22-11.30.37:663][435]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.03.22-11.30.37:663][435]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.03.22-11.30.37:664][435]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.03.22-11.30.37:665][435]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.03.22-11.30.37:665][435]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.22-11.30.37:666][435]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.22-11.30.37:666][435]LogOnline:Display: Unloading online subsystem: NULL
+[2018.03.22-11.30.37:667][435]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.22-11.30.37:667][435]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.22-11.30.37:667][435]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.22-11.30.37:668][435]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5BCB2A18-4B8B-22CE-1E32-A092C0CA9B90%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=ec3aaece48cc464ce64348988a9e6a5d%7C%7C5a5b8364-8250-4810-bb7b-23a8eb26836c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.22-11.30.37:678][435]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.22-11.30.37:679][435]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.03.22-11.30.37:679][435]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.03.22-11.30.37:680][435]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.03.22-11.30.37:680][435]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.03.22-11.30.37:680][435]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.03.22-11.30.37:680][435]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.03.22-11.30.37:680][435]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.03.22-11.30.37:680][435]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.03.22-11.30.37:681][435]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.03.22-11.30.37:682][435]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.03.22-11.30.37:682][435]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.03.22-11.30.37:682][435]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.03.22-11.30.37:682][435]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.03.22-11.30.37:682][435]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.03.22-11.30.37:682][435]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.03.22-11.30.37:682][435]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.22-11.30.37:682][435]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.22-11.30.37:682][435]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.22-11.30.37:684][435]LogExit: Exiting.
+[2018.03.22-11.30.37:717][435]Log file closed, 03/22/18 12:30:37
