@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-D815F7684C1A16F9E22D08BD5C5344D0_0000</CrashGUID>
+		<ProcessId>12260</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>431</SecondsSinceStart>
+		<GameName>UE4-Proyecto2</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.16.3-3561208+++UE4+Release-4.16</EngineVersion>
+		<CommandLine>&quot;C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Proyecto2.uproject&quot;-EpicPortal</CommandLine>
+		<LanguageLCID>3082</LanguageLCID>
+		<AppDefaultLocale>es-ES</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.16-CL-3561208</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>JAVITO</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.16/</RootDir>
+		<MachineId>B8E2D62E46F8C18F476BA388F82D5B81</MachineId>
+		<LoginId>b8e2d62e46f8c18f476ba388f82d5b81</LoginId>
+		<EpicAccountId>372cf09feb4c448981332750e16ea5a3</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;LevelEditorToolBar&quot; Label=&quot;Barra de Herramientas&quot; Content=SHorizontalBox</UserActivityHint>
+		<ErrorMessage>Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 8] &nl;FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1060 6GB</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>34304765952</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>25755475968</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140732627189760</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>2528202752</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>4659097600</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>3647148032</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>5762203648</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636573520815980000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
