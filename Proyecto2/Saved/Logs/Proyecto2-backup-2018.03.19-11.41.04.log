@@ -1,0 +1,1299 @@
+﻿Log file open, 03/19/18 11:18:40
+LogInit:Display: Running engine for game: Proyecto2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(513012885) SRandInit(513012885).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.117459
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.12.0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.19-10.18.41:766][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.19-10.18.41:766][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.19-10.18.41:788][  0]LogInit: Computer: g4-015
+[2018.03.19-10.18.41:788][  0]LogInit: User: alexbalasteguigaya
+[2018.03.19-10.18.41:788][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.19-10.18.41:788][  0]LogInit: High frequency timer resolution =3.117186 MHz
+[2018.03.19-10.18.41:788][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.03.19-10.18.41:788][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.19-10.18.41:788][  0]LogMemory: Process Physical Memory: 275.36 MB used, 275.36 MB peak
+[2018.03.19-10.18.41:788][  0]LogMemory: Process Virtual Memory: 270.47 MB used, 270.47 MB peak
+[2018.03.19-10.18.41:788][  0]LogMemory: Physical Memory: 3392.20 MB used,  12954.68 MB free, 16346.88 MB total
+[2018.03.19-10.18.41:788][  0]LogMemory: Virtual Memory: 681.13 MB used,  12954.68 MB free, 134217728.00 MB total
+[2018.03.19-10.18.42:181][  0]LogInit: Using OS detected language (en-US).
+[2018.03.19-10.18.42:181][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.19-10.18.42:187][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.19-10.18.43:455][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.19-10.18.43:500][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.03.19-10.18.43:500][  0]LogD3D11RHI:       4062/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.19-10.18.43:503][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.19-10.18.43:503][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.19-10.18.43:503][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.19-10.18.43:508][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.19-10.18.43:508][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.19-10.18.43:508][  0]LogWindows: EnumDisplayDevices:
+[2018.03.19-10.18.43:508][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.03.19-10.18.43:508][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.19-10.18.43:508][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.19-10.18.43:508][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.19-10.18.43:508][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.19-10.18.43:508][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.03.19-10.18.43:508][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.19-10.18.43:508][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.19-10.18.43:508][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.19-10.18.43:535][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.19-10.18.43:547][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.19-10.18.43:596][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/5104/).
+[2018.03.19-10.18.43:596][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alexbalasteguigaya/AppData/Local/Temp/UnrealShaderWorkingDir/4F9F73F741A46FC35BC8719653962079/'.
+[2018.03.19-10.18.43:596][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.03.19-10.18.45:166][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.19-10.18.45:398][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.03.19-10.18.45:625][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.19-10.18.45:852][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.03.19-10.18.46:081][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.03.19-10.18.46:314][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.19-10.18.46:541][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.19-10.18.46:771][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.19-10.18.46:991][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.03.19-10.18.47:219][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.03.19-10.18.47:445][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.19-10.18.47:671][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.19-10.18.47:902][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.19-10.18.48:135][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.19-10.18.48:366][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.19-10.18.48:820][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.19-10.18.48:820][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.19-10.18.49:038][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.03.19-10.18.49:414][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.03.19-10.18.49:551][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.03.19-10.18.49:775][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.19-10.18.50:002][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.19-10.18.50:227][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.19-10.18.50:455][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.03.19-10.18.50:455][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.03.19-10.18.53:092][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.03.19-10.18.53:163][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/alexbalasteguigaya/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.19-10.18.53:163][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/alexbalasteguigaya/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.03.19-10.18.53:163][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.19-10.18.53:163][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.19-10.18.53:163][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.19-10.18.53:163][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.19-10.18.53:178][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.19-10.18.53:191][  0]LogDerivedDataCache: Using Local data cache path C:/Users/alexbalasteguigaya/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.19-10.18.53:200][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.19-10.18.53:200][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.19-10.18.53:201][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.19-10.18.53:201][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.19-10.18.53:648][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.19-10.18.53:722][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.19-10.18.54:174][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.19-10.18.54:415][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.19-10.18.54:670][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.19-10.18.54:670][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.03.19-10.18.54:670][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.03.19-10.18.56:154][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
+[2018.03.19-10.18.56:329][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2018.03.19-10.18.56:541][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.070448 seconds
+[2018.03.19-10.18.56:545][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.03.19-10.18.56:545][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.03.19-10.18.56:545][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.19-10.18.56:996][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.19-10.19.05:808][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.19-10.19.05:965][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.19-10.19.08:257][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.19-10.19.09:996][  0]SourceControl: Info Source control is disabled
+[2018.03.19-10.19.10:053][  0]SourceControl: Info Source control is disabled
+[2018.03.19-10.19.10:292][  0]SourceControl: Info Source control is disabled
+[2018.03.19-10.19.10:530][  0]SourceControl: Info Source control is disabled
+[2018.03.19-10.19.13:878][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.19-10.19.16:629][  0]LogEngine: Initializing Engine...
+[2018.03.19-10.19.16:631][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.19-10.19.16:631][  0]LogHMD: GearVR starting with CPU: 2 GPU: 3 MinimumVsyncs: 1
+[2018.03.19-10.19.16:678][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.19-10.19.18:921][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.19-10.19.18:922][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.19-10.19.19:111][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.19-10.19.19:111][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.19-10.19.19:783][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.19-10.19.19:794][  0]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.19-10.19.19:817][  0]LogInit: FAudioDevice initialized.
+[2018.03.19-10.19.19:860][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/alexbalasteguigaya/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.19-10.19.19:870][  0]LogInit: Texture streaming: Enabled
+[2018.03.19-10.19.20:445][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.19-10.19.21:583][  0]LogInit: Transaction tracking system initialized
+[2018.03.19-10.19.23:294][  0]BlueprintLog: New page: Editor Load
+[2018.03.19-10.19.28:422][  0]LocalizationService: Info Localization service is disabled
+[2018.03.19-10.19.32:006][  0]LogConsoleResponse:Display: 
+[2018.03.19-10.19.32:306][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.19-10.19.32:307][  0]LogCook:Display: Mobile HDR setting 1
+[2018.03.19-10.19.32:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/' took 0.06s
+[2018.03.19-10.19.37:630][  0]SourceControl: Info Source control is disabled
+[2018.03.19-10.19.37:630][  0]Cmd: MAP LOAD FILE="../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.19-10.19.37:631][  0]LightingResults: New page: Lighting Build
+[2018.03.19-10.19.37:854][  0]MapCheck: New page: Map Check
+[2018.03.19-10.19.37:854][  0]LightingResults: New page: Lighting Build
+[2018.03.19-10.19.42:724][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.19-10.19.43:758][  0]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/Materials/Bottle_MAT.Bottle_MAT needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.03.19-10.19.43:760][  0]LogMaterial: Missing cached shader map for material Bottle_MAT, compiling. 
+[2018.03.19-10.19.43:841][  0]MapCheck:Warning: Warning Bottle_MAT Material /Game/ThirdPersonBP/Blueprints/Materials/Bottle_MAT.Bottle_MAT was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.03.19-10.19.43:845][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.19-10.19.43:881][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.19-10.19.44:158][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 277.503ms to complete.
+[2018.03.19-10.19.44:163][  0]LogFileHelpers: Loading map 'MainMenu' took 6.533
+[2018.03.19-10.19.44:429][  0]LogCollectionManager: Loaded 0 collections in 0.001807 seconds
+[2018.03.19-10.19.44:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/Collections/' took 0.01s
+[2018.03.19-10.19.44:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/Developers/alexbalasteguigaya/Collections/' took 0.01s
+[2018.03.19-10.19.44:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/Collections/' took 0.01s
+[2018.03.19-10.19.44:716][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.03.19-10.19.44:725][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2329 classes and 491 folders.
+[2018.03.19-10.19.45:123][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.03.19-10.19.45:521][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.03.19-10.19.45:780][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.03.19-10.19.45:957][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.03.19-10.19.45:961][  0]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.19-10.19.45:962][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.19-10.19.45:973][  0]LogSlate: Took 0.006142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.19-10.19.46:134][  0]LogRenderer: Reallocating scene render targets to support 1212x576 NumSamples 1 (Frame:1).
+[2018.03.19-10.19.46:232][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.03.19-10.19.46:511][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.03.19-10.19.46:511][  0]LogLoad: (Engine Initialization) Total time: 69.00 seconds
+[2018.03.19-10.19.46:512][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.08 seconds
+[2018.03.19-10.19.46:512][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.19-10.19.46:521][  0]LogOcInput: OculusInput pre-init called
+[2018.03.19-10.19.46:526][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.12.0
+[2018.03.19-10.19.46:526][  0]LogHMD: Starting GearVRController plugin
+[2018.03.19-10.19.46:561][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.19-10.19.46:608][  0]LogSlate: Took 0.005225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.19-10.19.46:619][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/' took 0.07s
+[2018.03.19-10.19.46:626][  1]LogAssetRegistry: Asset discovery search completed in 50.3218 seconds
+[2018.03.19-10.19.46:629][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.19-10.19.46:629][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2018.03.19-10.19.47:552][ 93]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.19-10.19.54:827][896]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.19-10.19.55:661][896]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.19-10.19.56:710][896]LogAIModule: Creating AISystem for world Distrito1_3_Conq
+[2018.03.19-10.19.56:791][896]Cmd: MAP LOAD FILE="../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Conq.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.19-10.19.56:791][896]LightingResults: New page: Lighting Build
+[2018.03.19-10.19.56:792][896]LoadErrors: New page: Loading map: Distrito1_3_Conq.umap
+[2018.03.19-10.19.56:795][896]MapCheck: New page: Map Check
+[2018.03.19-10.19.56:795][896]LightingResults: New page: Lighting Build
+[2018.03.19-10.19.56:872][896]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.19-10.19.56:933][896]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.19-10.19.57:223][896]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 290.447ms to complete.
+[2018.03.19-10.19.57:225][896]LogFileHelpers: Loading map 'Distrito1_3_Conq' took 0.435
+[2018.03.19-10.19.58:203][  5]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.19-10.19.58:307][  5]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.19.58:307][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-10.19.58:307][  5]PIE: New page: PIE session: Distrito1_3_Conq (Mar 19, 2018, 12:19:58 PM)
+[2018.03.19-10.19.58:308][  5]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq
+[2018.03.19-10.19.58:335][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027753s)
+[2018.03.19-10.19.58:336][  5]LogAIModule: Creating AISystem for world Distrito1_3_Conq
+[2018.03.19-10.19.58:336][  5]LogPlayLevel: PIE: World Init took: (0.000489s)
+[2018.03.19-10.19.58:336][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq.Distrito1_3_Conq (0.028522s)
+[2018.03.19-10.19.58:352][  5]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.19-10.19.58:359][  5]LogInit: FAudioDevice initialized.
+[2018.03.19-10.19.58:406][  5]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.19-10.19.58:414][  5]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq.Distrito1_3_Conq up for play (max tick rate 0) at 2018.03.19-11.19.58
+[2018.03.19-10.19.58:415][  5]LogWorld: Bringing up level for play took: 0.006304
+[2018.03.19-10.19.58:655][  5]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.03.19-10.19.58:664][  5]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (Distrito1_3_Conq_C_1)
+[2018.03.19-10.19.58:667][  5]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq 0.667
+[2018.03.19-10.19.58:667][  5]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.19.58:677][  5]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.19-10.19.59:862][139]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.19.59:895][139]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.20.32:242][111]LogEditorFactories: Performing atomic reimport of [C:/Users/alexbalasteguigaya/Downloads/Beat-last-version (1).fbx]
+[2018.03.19-10.20.32:303][111]LogFbx: Loading FBX Scene from C:/Users/alexbalasteguigaya/Downloads/Beat-last-version (1).fbx
+[2018.03.19-10.20.32:416][111]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node START [Sphere001] 
+[2018.03.19-10.20.32:423][111]LogFbx: 	Total Deformer Count 1339802496.
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node Attribute Child 1] Sphere001 (Type Mesh).
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node END [Sphere001]
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node START [Sphere002] 
+[2018.03.19-10.20.32:423][111]LogFbx: 	Total Deformer Count 1339802496.
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node Attribute Child 1] Sphere002 (Type Mesh).
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node END [Sphere002]
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node START [Aqua Dream Hair] 
+[2018.03.19-10.20.32:423][111]LogFbx: 	Total Deformer Count 75068048.
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node Attribute Child 1] Aqua Dream Hair (Type Mesh).
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node END [Aqua Dream Hair]
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node START [rButtock] 
+[2018.03.19-10.20.32:423][111]LogFbx: 	Total Deformer Count 1611717160.
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node Attribute Child 1] rButtock (Type Mesh).
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node END [rButtock]
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node START [tinker] 
+[2018.03.19-10.20.32:423][111]LogFbx: 	Total Deformer Count 1611714920.
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node Attribute Child 1] tinker (Type Mesh).
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node END [tinker]
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node START [Beat-clothes] 
+[2018.03.19-10.20.32:423][111]LogFbx: 	Total Deformer Count 75070368.
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node Attribute Child 1] Beat-clothes (Type Mesh).
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node END [Beat-clothes]
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node START [Beat-remodel] 
+[2018.03.19-10.20.32:423][111]LogFbx: 	Total Deformer Count 75070368.
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node Attribute Child 1] Beat-remodel (Type Mesh).
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node END [Beat-remodel]
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node START [Beat-boots] 
+[2018.03.19-10.20.32:423][111]LogFbx: 	Total Deformer Count 1339802496.
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node Attribute Child 1] Beat-boots (Type Mesh).
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node END [Beat-boots]
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node START [Beat-remodel] 
+[2018.03.19-10.20.32:423][111]LogFbx: 	Total Deformer Count 75061008.
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node Attribute Child 1] Beat-remodel (Type Mesh).
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node END [Beat-remodel]
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node START [Beat-boots] 
+[2018.03.19-10.20.32:423][111]LogFbx: 	Total Deformer Count 1339802496.
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:423][111]LogFbx: =================================================
+[2018.03.19-10.20.32:423][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:423][111]LogFbx: 		[Node Attribute Child 1] Beat-boots (Type Mesh).
+[2018.03.19-10.20.32:423][111]LogFbx: Dumping Node END [Beat-boots]
+[2018.03.19-10.20.32:424][111]LogFbx: =================================================
+[2018.03.19-10.20.32:424][111]LogFbx: Dumping Node START [Sphere001] 
+[2018.03.19-10.20.32:424][111]LogFbx: 	Total Deformer Count 1339802496.
+[2018.03.19-10.20.32:424][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:424][111]LogFbx: =================================================
+[2018.03.19-10.20.32:424][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:424][111]LogFbx: 		[Node Attribute Child 1] Sphere001 (Type Mesh).
+[2018.03.19-10.20.32:424][111]LogFbx: Dumping Node END [Sphere001]
+[2018.03.19-10.20.32:424][111]LogFbx: =================================================
+[2018.03.19-10.20.32:424][111]LogFbx: Dumping Node START [Sphere002] 
+[2018.03.19-10.20.32:424][111]LogFbx: 	Total Deformer Count 1339802496.
+[2018.03.19-10.20.32:424][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:424][111]LogFbx: =================================================
+[2018.03.19-10.20.32:424][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:424][111]LogFbx: 		[Node Attribute Child 1] Sphere002 (Type Mesh).
+[2018.03.19-10.20.32:424][111]LogFbx: Dumping Node END [Sphere002]
+[2018.03.19-10.20.32:424][111]LogFbx: =================================================
+[2018.03.19-10.20.32:424][111]LogFbx: Dumping Node START [Aqua Dream Hair] 
+[2018.03.19-10.20.32:424][111]LogFbx: 	Total Deformer Count 75063088.
+[2018.03.19-10.20.32:424][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:424][111]LogFbx: =================================================
+[2018.03.19-10.20.32:424][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:424][111]LogFbx: 		[Node Attribute Child 1] Aqua Dream Hair (Type Mesh).
+[2018.03.19-10.20.32:424][111]LogFbx: Dumping Node END [Aqua Dream Hair]
+[2018.03.19-10.20.32:424][111]LogFbx: =================================================
+[2018.03.19-10.20.32:424][111]LogFbx: Dumping Node START [rButtock] 
+[2018.03.19-10.20.32:424][111]LogFbx: 	Total Deformer Count 1611714920.
+[2018.03.19-10.20.32:424][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:424][111]LogFbx: =================================================
+[2018.03.19-10.20.32:424][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:424][111]LogFbx: 		[Node Attribute Child 1] rButtock (Type Mesh).
+[2018.03.19-10.20.32:424][111]LogFbx: Dumping Node END [rButtock]
+[2018.03.19-10.20.32:424][111]LogFbx: =================================================
+[2018.03.19-10.20.32:424][111]LogFbx: Dumping Node START [rButtock] 
+[2018.03.19-10.20.32:424][111]LogFbx: 	Total Deformer Count 1611724440.
+[2018.03.19-10.20.32:424][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:424][111]LogFbx: =================================================
+[2018.03.19-10.20.32:425][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:425][111]LogFbx: 		[Node Attribute Child 1] rButtock (Type Mesh).
+[2018.03.19-10.20.32:425][111]LogFbx: Dumping Node END [rButtock]
+[2018.03.19-10.20.32:425][111]LogFbx: =================================================
+[2018.03.19-10.20.32:425][111]LogFbx: Dumping Node START [tinker] 
+[2018.03.19-10.20.32:425][111]LogFbx: 	Total Deformer Count 1611724440.
+[2018.03.19-10.20.32:425][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:425][111]LogFbx: =================================================
+[2018.03.19-10.20.32:425][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:425][111]LogFbx: 		[Node Attribute Child 1] tinker (Type Mesh).
+[2018.03.19-10.20.32:425][111]LogFbx: Dumping Node END [tinker]
+[2018.03.19-10.20.32:425][111]LogFbx: =================================================
+[2018.03.19-10.20.32:425][111]LogFbx: Dumping Node START [Beat-clothes] 
+[2018.03.19-10.20.32:425][111]LogFbx: 	Total Deformer Count 75069328.
+[2018.03.19-10.20.32:425][111]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.20.32:425][111]LogFbx: =================================================
+[2018.03.19-10.20.32:425][111]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.20.32:425][111]LogFbx: 		[Node Attribute Child 1] Beat-clothes (Type Mesh).
+[2018.03.19-10.20.32:425][111]LogFbx: Dumping Node END [Beat-clothes]
+[2018.03.19-10.20.32:426][111]LogFbx: Valid bind pose for Pose (BindPose) - Beat-remodel
+[2018.03.19-10.20.32:427][111]LogFbx: Triangulating skeletal mesh Beat-remodel
+[2018.03.19-10.20.33:311][111]LogFbx: Triangulating skeletal mesh Sphere001
+[2018.03.19-10.20.33:381][111]LogFbx: Triangulating skeletal mesh Sphere002
+[2018.03.19-10.20.33:448][111]LogFbx: Triangulating skeletal mesh rButtock
+[2018.03.19-10.20.35:742][111]LogFbx: Triangulating skeletal mesh Beat-clothes
+[2018.03.19-10.20.36:157][111]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2018.03.19-10.20.40:003][111]LogSkeletalMesh: Section 0: 3812 vertices, 2 active bones
+[2018.03.19-10.20.40:004][111]LogSkeletalMesh: Section 1: 19424 vertices, 6 active bones
+[2018.03.19-10.20.40:005][111]LogSkeletalMesh: Section 2: 11125 vertices, 52 active bones
+[2018.03.19-10.20.40:005][111]LogSkeletalMesh: Section 3: 1617 vertices, 3 active bones
+[2018.03.19-10.20.40:006][111]LogSkeletalMesh: Section 4: 20465 vertices, 6 active bones
+[2018.03.19-10.20.44:089][111]LogSkeletalMesh: Section 0: Material=0, 5528 triangles
+[2018.03.19-10.20.44:089][111]LogSkeletalMesh: Section 1: Material=1, 35072 triangles
+[2018.03.19-10.20.44:089][111]LogSkeletalMesh: Section 2: Material=2, 17628 triangles
+[2018.03.19-10.20.44:089][111]LogSkeletalMesh: Section 3: Material=3, 1847 triangles
+[2018.03.19-10.20.44:089][111]LogSkeletalMesh: Section 4: Material=4, 33434 triangles
+[2018.03.19-10.20.44:106][111]LogEditorFactories: -- imported successfully
+[2018.03.19-10.20.44:130][111]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Eyes' was rename 'Eyes_ncl1_1' 
+[2018.03.19-10.20.44:130][111]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.19-10.21.03:960][371]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/alexbalasteguigaya/Downloads/Beat-last-version (1).fbx)
+[2018.03.19-10.21.03:991][371]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.19-10.21.03:991][371]LogFbx: ItemName: NodeAttribute, ItemCount : 66
+[2018.03.19-10.21.03:991][371]LogFbx: ItemName: Model, ItemCount : 74
+[2018.03.19-10.21.03:991][371]LogFbx: ItemName: Material, ItemCount : 7
+[2018.03.19-10.21.03:991][371]LogFbx: ItemName: Texture, ItemCount : 7
+[2018.03.19-10.21.03:991][371]LogFbx: ItemName: Video, ItemCount : 7
+[2018.03.19-10.21.03:992][371]LogFbx: ItemName: AnimationStack, ItemCount : 2
+[2018.03.19-10.21.03:992][371]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2018.03.19-10.21.03:992][371]LogFbx: ItemName: Geometry, ItemCount : 8
+[2018.03.19-10.21.03:992][371]LogFbx: ItemName: AnimationCurve, ItemCount : 357
+[2018.03.19-10.21.03:992][371]LogFbx: ItemName: AnimationCurveNode, ItemCount : 68
+[2018.03.19-10.21.03:992][371]LogFbx: ItemName: Pose, ItemCount : 1
+[2018.03.19-10.21.03:992][371]LogFbx: ItemName: Deformer, ItemCount : 96
+[2018.03.19-10.21.03:996][371]LogFbx: Loading FBX Scene from ../../../../../../Users/alexbalasteguigaya/Downloads/Beat-last-version (1).fbx
+[2018.03.19-10.21.04:110][371]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.19-10.21.04:118][371]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Eyes' was rename 'Eyes_ncl1_1' 
+[2018.03.19-10.21.09:956][371]LogFbx: Loading FBX Scene from ../../../../../../Users/alexbalasteguigaya/Downloads/Beat-last-version (1).fbx
+[2018.03.19-10.21.10:070][371]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.19-10.21.10:076][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node START [Sphere001] 
+[2018.03.19-10.21.10:077][371]LogFbx: 	Total Deformer Count 44779392.
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node Attribute Child 1] Sphere001 (Type Mesh).
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node END [Sphere001]
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node START [Sphere002] 
+[2018.03.19-10.21.10:077][371]LogFbx: 	Total Deformer Count 44779392.
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node Attribute Child 1] Sphere002 (Type Mesh).
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node END [Sphere002]
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node START [Aqua Dream Hair] 
+[2018.03.19-10.21.10:077][371]LogFbx: 	Total Deformer Count -1725068496.
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node Attribute Child 1] Aqua Dream Hair (Type Mesh).
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node END [Aqua Dream Hair]
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node START [rButtock] 
+[2018.03.19-10.21.10:077][371]LogFbx: 	Total Deformer Count 571701952.
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node Attribute Child 1] rButtock (Type Mesh).
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node END [rButtock]
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node START [tinker] 
+[2018.03.19-10.21.10:077][371]LogFbx: 	Total Deformer Count 571699040.
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node Attribute Child 1] tinker (Type Mesh).
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node END [tinker]
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node START [Beat-clothes] 
+[2018.03.19-10.21.10:077][371]LogFbx: 	Total Deformer Count -1725069616.
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node Attribute Child 1] Beat-clothes (Type Mesh).
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node END [Beat-clothes]
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node START [Beat-remodel] 
+[2018.03.19-10.21.10:077][371]LogFbx: 	Total Deformer Count 550629712.
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node Attribute Child 1] Beat-remodel (Type Mesh).
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node END [Beat-remodel]
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node START [Beat-boots] 
+[2018.03.19-10.21.10:077][371]LogFbx: 	Total Deformer Count 44779392.
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node Attribute Child 1] Beat-boots (Type Mesh).
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node END [Beat-boots]
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node START [Beat-remodel] 
+[2018.03.19-10.21.10:077][371]LogFbx: 	Total Deformer Count 550630032.
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node Attribute Child 1] Beat-remodel (Type Mesh).
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node END [Beat-remodel]
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node START [Beat-boots] 
+[2018.03.19-10.21.10:077][371]LogFbx: 	Total Deformer Count 44779392.
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:077][371]LogFbx: =================================================
+[2018.03.19-10.21.10:077][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:077][371]LogFbx: 		[Node Attribute Child 1] Beat-boots (Type Mesh).
+[2018.03.19-10.21.10:077][371]LogFbx: Dumping Node END [Beat-boots]
+[2018.03.19-10.21.10:078][371]LogFbx: =================================================
+[2018.03.19-10.21.10:078][371]LogFbx: Dumping Node START [Sphere001] 
+[2018.03.19-10.21.10:078][371]LogFbx: 	Total Deformer Count 44779392.
+[2018.03.19-10.21.10:078][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:078][371]LogFbx: =================================================
+[2018.03.19-10.21.10:078][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:078][371]LogFbx: 		[Node Attribute Child 1] Sphere001 (Type Mesh).
+[2018.03.19-10.21.10:078][371]LogFbx: Dumping Node END [Sphere001]
+[2018.03.19-10.21.10:078][371]LogFbx: =================================================
+[2018.03.19-10.21.10:078][371]LogFbx: Dumping Node START [Sphere002] 
+[2018.03.19-10.21.10:078][371]LogFbx: 	Total Deformer Count 44779392.
+[2018.03.19-10.21.10:078][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:078][371]LogFbx: =================================================
+[2018.03.19-10.21.10:078][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:078][371]LogFbx: 		[Node Attribute Child 1] Sphere002 (Type Mesh).
+[2018.03.19-10.21.10:078][371]LogFbx: Dumping Node END [Sphere002]
+[2018.03.19-10.21.10:078][371]LogFbx: =================================================
+[2018.03.19-10.21.10:078][371]LogFbx: Dumping Node START [Aqua Dream Hair] 
+[2018.03.19-10.21.10:078][371]LogFbx: 	Total Deformer Count 550620592.
+[2018.03.19-10.21.10:078][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:078][371]LogFbx: =================================================
+[2018.03.19-10.21.10:078][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:078][371]LogFbx: 		[Node Attribute Child 1] Aqua Dream Hair (Type Mesh).
+[2018.03.19-10.21.10:078][371]LogFbx: Dumping Node END [Aqua Dream Hair]
+[2018.03.19-10.21.10:078][371]LogFbx: =================================================
+[2018.03.19-10.21.10:078][371]LogFbx: Dumping Node START [rButtock] 
+[2018.03.19-10.21.10:078][371]LogFbx: 	Total Deformer Count 571699040.
+[2018.03.19-10.21.10:078][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:078][371]LogFbx: =================================================
+[2018.03.19-10.21.10:078][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:078][371]LogFbx: 		[Node Attribute Child 1] rButtock (Type Mesh).
+[2018.03.19-10.21.10:078][371]LogFbx: Dumping Node END [rButtock]
+[2018.03.19-10.21.10:078][371]LogFbx: =================================================
+[2018.03.19-10.21.10:078][371]LogFbx: Dumping Node START [rButtock] 
+[2018.03.19-10.21.10:078][371]LogFbx: 	Total Deformer Count 571700328.
+[2018.03.19-10.21.10:078][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:078][371]LogFbx: =================================================
+[2018.03.19-10.21.10:078][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:078][371]LogFbx: 		[Node Attribute Child 1] rButtock (Type Mesh).
+[2018.03.19-10.21.10:078][371]LogFbx: Dumping Node END [rButtock]
+[2018.03.19-10.21.10:078][371]LogFbx: =================================================
+[2018.03.19-10.21.10:078][371]LogFbx: Dumping Node START [tinker] 
+[2018.03.19-10.21.10:078][371]LogFbx: 	Total Deformer Count 571700328.
+[2018.03.19-10.21.10:078][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:079][371]LogFbx: =================================================
+[2018.03.19-10.21.10:079][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:079][371]LogFbx: 		[Node Attribute Child 1] tinker (Type Mesh).
+[2018.03.19-10.21.10:079][371]LogFbx: Dumping Node END [tinker]
+[2018.03.19-10.21.10:079][371]LogFbx: =================================================
+[2018.03.19-10.21.10:079][371]LogFbx: Dumping Node START [Beat-clothes] 
+[2018.03.19-10.21.10:079][371]LogFbx: 	Total Deformer Count 550620352.
+[2018.03.19-10.21.10:079][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.10:079][371]LogFbx: =================================================
+[2018.03.19-10.21.10:079][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.10:079][371]LogFbx: 		[Node Attribute Child 1] Beat-clothes (Type Mesh).
+[2018.03.19-10.21.10:079][371]LogFbx: Dumping Node END [Beat-clothes]
+[2018.03.19-10.21.10:080][371]LogFbx: Valid bind pose for Pose (BindPose) - Beat-remodel
+[2018.03.19-10.21.10:081][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Material__271'
+[2018.03.19-10.21.10:082][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Material__271'
+[2018.03.19-10.21.10:082][371]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/character/meshes/Material__271.Material__271 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.03.19-10.21.10:084][371]LogMaterial: Missing cached shader map for material Material__271, compiling. 
+[2018.03.19-10.21.10:128][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/beat_skin'
+[2018.03.19-10.21.10:129][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/beat_skin'
+[2018.03.19-10.21.10:924][371]LogTexture:Display: Building textures: beat_skin (AutoDXT, 8000X8000)
+[2018.03.19-10.21.15:924][371]LogMaterial: Missing cached shader map for material Material__271, compiling. 
+[2018.03.19-10.21.15:959][371]LogFbx: Triangulating skeletal mesh Beat-remodel
+[2018.03.19-10.21.16:921][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Material__273'
+[2018.03.19-10.21.16:921][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Material__273'
+[2018.03.19-10.21.16:922][371]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/character/meshes/Material__273.Material__273 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.03.19-10.21.16:929][371]LogMaterial: Missing cached shader map for material Material__273, compiling. 
+[2018.03.19-10.21.16:967][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/boots'
+[2018.03.19-10.21.16:968][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/boots'
+[2018.03.19-10.21.17:759][371]LogTexture:Display: Building textures: boots (AutoDXT, 8000X8000)
+[2018.03.19-10.21.22:402][371]LogMaterial: Missing cached shader map for material Material__273, compiling. 
+[2018.03.19-10.21.22:457][371]LogFbx: Triangulating skeletal mesh Sphere001
+[2018.03.19-10.21.22:539][371]LogFbx: Triangulating skeletal mesh Sphere002
+[2018.03.19-10.21.22:612][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Aqua_Dream_Hair_Handle1Mtl'
+[2018.03.19-10.21.22:612][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Aqua_Dream_Hair_Handle1Mtl'
+[2018.03.19-10.21.22:612][371]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/character/meshes/Aqua_Dream_Hair_Handle1Mtl.Aqua_Dream_Hair_Handle1Mtl needed to have new flag set bUsedWithSkeletalMesh !
+[2018.03.19-10.21.22:619][371]LogMaterial: Missing cached shader map for material Aqua_Dream_Hair_Handle1Mtl, compiling. 
+[2018.03.19-10.21.22:659][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Handle1Tex'
+[2018.03.19-10.21.22:659][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Handle1Tex'
+[2018.03.19-10.21.22:683][371]LogTexture:Display: Building textures: Handle1Tex (AutoDXT, 256X256)
+[2018.03.19-10.21.22:757][371]LogTexture:Display: Building textures: Handle1Tex (AutoDXT, 256X256)
+[2018.03.19-10.21.22:808][371]LogMaterial: Missing cached shader map for material Aqua_Dream_Hair_Handle1Mtl, compiling. 
+[2018.03.19-10.21.22:858][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Material__169'
+[2018.03.19-10.21.22:858][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Material__169'
+[2018.03.19-10.21.22:859][371]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/character/meshes/Material__169.Material__169 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.03.19-10.21.22:861][371]LogMaterial: Missing cached shader map for material Material__169, compiling. 
+[2018.03.19-10.21.22:901][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/pants'
+[2018.03.19-10.21.22:901][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/pants'
+[2018.03.19-10.21.23:781][371]LogTexture:Display: Building textures: pants (AutoDXT, 8000X8000)
+[2018.03.19-10.21.28:755][371]LogMaterial: Missing cached shader map for material Material__169, compiling. 
+[2018.03.19-10.21.28:797][371]LogFbx: Triangulating skeletal mesh rButtock
+[2018.03.19-10.21.31:418][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Material__272'
+[2018.03.19-10.21.31:418][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Material__272'
+[2018.03.19-10.21.31:418][371]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/character/meshes/Material__272.Material__272 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.03.19-10.21.31:434][371]LogMaterial: Missing cached shader map for material Material__272, compiling. 
+[2018.03.19-10.21.31:472][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/headphones'
+[2018.03.19-10.21.31:472][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/headphones'
+[2018.03.19-10.21.32:353][371]LogTexture:Display: Building textures: headphones (AutoDXT, 8000X8000)
+[2018.03.19-10.21.37:012][371]LogMaterial: Missing cached shader map for material Material__272, compiling. 
+[2018.03.19-10.21.37:059][371]LogFbx: Triangulating skeletal mesh Beat-clothes
+[2018.03.19-10.21.37:531][371]LogFbx:Warning: Bones digested - 65  Depth of hierarchy - 12
+[2018.03.19-10.21.41:486][371]LogSkeletalMesh: Section 0: 11125 vertices, 52 active bones
+[2018.03.19-10.21.41:487][371]LogSkeletalMesh: Section 1: 19424 vertices, 6 active bones
+[2018.03.19-10.21.41:488][371]LogSkeletalMesh: Section 2: 1617 vertices, 3 active bones
+[2018.03.19-10.21.41:489][371]LogSkeletalMesh: Section 3: 20465 vertices, 6 active bones
+[2018.03.19-10.21.41:489][371]LogSkeletalMesh: Section 4: 3812 vertices, 2 active bones
+[2018.03.19-10.21.45:683][371]LogSkeletalMesh: Section 0: Material=0, 17628 triangles
+[2018.03.19-10.21.45:683][371]LogSkeletalMesh: Section 1: Material=1, 35072 triangles
+[2018.03.19-10.21.45:683][371]LogSkeletalMesh: Section 2: Material=2, 1847 triangles
+[2018.03.19-10.21.45:683][371]LogSkeletalMesh: Section 3: Material=3, 33434 triangles
+[2018.03.19-10.21.45:683][371]LogSkeletalMesh: Section 4: Material=4, 5528 triangles
+[2018.03.19-10.21.45:707][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Beat-last-version__1__PhysicsAsset'
+[2018.03.19-10.21.45:707][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Beat-last-version__1__PhysicsAsset'
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node START [Sphere001] 
+[2018.03.19-10.21.45:733][371]LogFbx: 	Total Deformer Count -1089445184.
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node Attribute Child 1] Sphere001 (Type Mesh).
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node END [Sphere001]
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node START [Sphere002] 
+[2018.03.19-10.21.45:733][371]LogFbx: 	Total Deformer Count -1089445184.
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node Attribute Child 1] Sphere002 (Type Mesh).
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node END [Sphere002]
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node START [Aqua Dream Hair] 
+[2018.03.19-10.21.45:733][371]LogFbx: 	Total Deformer Count -873366944.
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node Attribute Child 1] Aqua Dream Hair (Type Mesh).
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node END [Aqua Dream Hair]
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node START [rButtock] 
+[2018.03.19-10.21.45:733][371]LogFbx: 	Total Deformer Count -1090215080.
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node Attribute Child 1] rButtock (Type Mesh).
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node END [rButtock]
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node START [tinker] 
+[2018.03.19-10.21.45:733][371]LogFbx: 	Total Deformer Count -1090215304.
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node Attribute Child 1] tinker (Type Mesh).
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node END [tinker]
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node START [Beat-clothes] 
+[2018.03.19-10.21.45:733][371]LogFbx: 	Total Deformer Count -873367504.
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node Attribute Child 1] Beat-clothes (Type Mesh).
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node END [Beat-clothes]
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node START [Beat-remodel] 
+[2018.03.19-10.21.45:733][371]LogFbx: 	Total Deformer Count -873367504.
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node Attribute Child 1] Beat-remodel (Type Mesh).
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node END [Beat-remodel]
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node START [Beat-boots] 
+[2018.03.19-10.21.45:733][371]LogFbx: 	Total Deformer Count -1089445184.
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:733][371]LogFbx: =================================================
+[2018.03.19-10.21.45:733][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:733][371]LogFbx: 		[Node Attribute Child 1] Beat-boots (Type Mesh).
+[2018.03.19-10.21.45:733][371]LogFbx: Dumping Node END [Beat-boots]
+[2018.03.19-10.21.45:734][371]LogFbx: =================================================
+[2018.03.19-10.21.45:734][371]LogFbx: Dumping Node START [Beat-remodel] 
+[2018.03.19-10.21.45:734][371]LogFbx: 	Total Deformer Count -873367984.
+[2018.03.19-10.21.45:734][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:734][371]LogFbx: =================================================
+[2018.03.19-10.21.45:734][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:734][371]LogFbx: 		[Node Attribute Child 1] Beat-remodel (Type Mesh).
+[2018.03.19-10.21.45:734][371]LogFbx: Dumping Node END [Beat-remodel]
+[2018.03.19-10.21.45:734][371]LogFbx: =================================================
+[2018.03.19-10.21.45:734][371]LogFbx: Dumping Node START [Beat-boots] 
+[2018.03.19-10.21.45:734][371]LogFbx: 	Total Deformer Count -1089445184.
+[2018.03.19-10.21.45:734][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:734][371]LogFbx: =================================================
+[2018.03.19-10.21.45:734][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:734][371]LogFbx: 		[Node Attribute Child 1] Beat-boots (Type Mesh).
+[2018.03.19-10.21.45:734][371]LogFbx: Dumping Node END [Beat-boots]
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node START [Sphere001] 
+[2018.03.19-10.21.45:735][371]LogFbx: 	Total Deformer Count -1089445184.
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node Attribute Child 1] Sphere001 (Type Mesh).
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node END [Sphere001]
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node START [Sphere002] 
+[2018.03.19-10.21.45:735][371]LogFbx: 	Total Deformer Count -1089445184.
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node Attribute Child 1] Sphere002 (Type Mesh).
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node END [Sphere002]
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node START [Aqua Dream Hair] 
+[2018.03.19-10.21.45:735][371]LogFbx: 	Total Deformer Count -873368784.
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node Attribute Child 1] Aqua Dream Hair (Type Mesh).
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node END [Aqua Dream Hair]
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node START [rButtock] 
+[2018.03.19-10.21.45:735][371]LogFbx: 	Total Deformer Count -1090215304.
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node Attribute Child 1] rButtock (Type Mesh).
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node END [rButtock]
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node START [rButtock] 
+[2018.03.19-10.21.45:735][371]LogFbx: 	Total Deformer Count -1090215472.
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node Attribute Child 1] rButtock (Type Mesh).
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node END [rButtock]
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node START [tinker] 
+[2018.03.19-10.21.45:735][371]LogFbx: 	Total Deformer Count -1090215472.
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node Attribute Child 1] tinker (Type Mesh).
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node END [tinker]
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node START [Beat-clothes] 
+[2018.03.19-10.21.45:735][371]LogFbx: 	Total Deformer Count -873369584.
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.03.19-10.21.45:735][371]LogFbx: =================================================
+[2018.03.19-10.21.45:735][371]LogFbx: 	Attribute () Type (4).
+[2018.03.19-10.21.45:735][371]LogFbx: 		[Node Attribute Child 1] Beat-clothes (Type Mesh).
+[2018.03.19-10.21.45:735][371]LogFbx: Dumping Node END [Beat-clothes]
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(0) Hips
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(1) Spine
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(2) Spine1
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(3) Spine2
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(4) Neck
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(5) Head
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(8) LeftArm
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(10) LeftHand
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(31) RightShoulder
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(32) RightArm
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(33) RightForeArm
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(34) RightHand
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(39) RightHandIndex1
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(40) RightHandIndex2
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(41) RightHandIndex3
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(42) RightHandIndex4
+[2018.03.19-10.21.45:735][371]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(47) RightHandRing1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(48) RightHandRing2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(49) RightHandRing3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(50) RightHandRing4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(51) RightHandPinky1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(52) RightHandPinky2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(53) RightHandPinky3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(54) RightHandPinky4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(56) LeftLeg
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(57) LeftFoot
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(61) RightLeg
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(62) RightFoot
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(63) RightToeBase
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(64) RightToe_End
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(0) Hips
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(1) Spine
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(2) Spine1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(3) Spine2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(4) Neck
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(5) Head
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(8) LeftArm
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(10) LeftHand
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(31) RightShoulder
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(32) RightArm
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(33) RightForeArm
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(34) RightHand
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(39) RightHandIndex1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(40) RightHandIndex2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(41) RightHandIndex3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(42) RightHandIndex4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(47) RightHandRing1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(48) RightHandRing2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(49) RightHandRing3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(50) RightHandRing4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(51) RightHandPinky1
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(52) RightHandPinky2
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(53) RightHandPinky3
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(54) RightHandPinky4
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(56) LeftLeg
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(57) LeftFoot
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(61) RightLeg
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(62) RightFoot
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(63) RightToeBase
+[2018.03.19-10.21.45:736][371]LogFbx: SortedLinks :(64) RightToe_End
+[2018.03.19-10.21.45:737][371]LogFbx: Parsing AnimStack Take 001
+[2018.03.19-10.21.45:737][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Beat-last-version__1__Anim_Take_001'
+[2018.03.19-10.21.45:737][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Beat-last-version__1__Anim_Take_001'
+[2018.03.19-10.21.46:134][371]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/character/meshes/Beat-last-version__1__Anim_Take_001.Beat-last-version__1__Anim_Take_001
+[2018.03.19-10.21.46:142][371]LogFbx: Parsing AnimStack mixamo.com
+[2018.03.19-10.21.46:144][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Beat-last-version__1__Anim_mixamo_com'
+[2018.03.19-10.21.46:145][371]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/character/meshes/Beat-last-version__1__Anim_mixamo_com'
+[2018.03.19-10.21.46:223][371]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/character/meshes/Beat-last-version__1__Anim_mixamo_com.Beat-last-version__1__Anim_mixamo_com
+[2018.03.19-10.21.46:233][371]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'Eyes' was rename 'Eyes_ncl1_1' 
+[2018.03.19-10.21.46:233][371]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.19-10.22.02:347][100]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2018.03.19-10.22.06:094][100]LogSavePackage: Save=1190.42ms
+[2018.03.19-10.22.06:094][100]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/beat6DC8FADE4951F6D2D51EDB8AA58E8C98.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/beat.uasset'
+[2018.03.19-10.22.06:104][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/beat.uasset
+[2018.03.19-10.22.06:216][100]LogSavePackage: Save=5.96ms
+[2018.03.19-10.22.06:216][100]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/Beat-clothes-riggedF3B21025430A2D38B31A0F9757868196.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Beat-clothes-rigged.uasset'
+[2018.03.19-10.22.06:227][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Beat-clothes-rigged.uasset
+[2018.03.19-10.22.24:576][569]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.03.19-10.22.24:734][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.19-10.22.25:222][569]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2018.03.19-10.22.37:641][820]LogSlate: Took 0.005781 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.19-10.22.37:679][820]LogRenderer: Reallocating scene render targets to support 1212x888 NumSamples 1 (Frame:361).
+[2018.03.19-10.22.46:708][424]LogSavePackage: Save=123.66ms
+[2018.03.19-10.22.46:708][424]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/Beat-last-version__1_3BCE193E43163D1516EF00BE62100EBE.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Beat-last-version__1_.uasset'
+[2018.03.19-10.22.46:716][424]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Beat-last-version__1_.uasset
+[2018.03.19-10.22.49:395][701]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.19-10.22.49:423][701]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.22.49:423][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-10.22.49:424][701]PIE: New page: PIE session: Distrito1_3_Conq (Mar 19, 2018, 12:22:49 PM)
+[2018.03.19-10.22.49:426][701]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq
+[2018.03.19-10.22.49:455][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028651s)
+[2018.03.19-10.22.49:455][701]LogAIModule: Creating AISystem for world Distrito1_3_Conq
+[2018.03.19-10.22.49:455][701]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2018.03.19-10.22.49:456][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq.Distrito1_3_Conq (0.029529s)
+[2018.03.19-10.22.49:471][701]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.19-10.22.49:478][701]LogInit: FAudioDevice initialized.
+[2018.03.19-10.22.49:511][701]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.19-10.22.49:517][701]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq.Distrito1_3_Conq up for play (max tick rate 0) at 2018.03.19-11.22.49
+[2018.03.19-10.22.49:518][701]LogWorld: Bringing up level for play took: 0.006253
+[2018.03.19-10.22.49:525][701]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (Distrito1_3_Conq_C_1)
+[2018.03.19-10.22.49:527][701]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq -0.465
+[2018.03.19-10.22.49:527][701]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.22.49:553][701]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.19-10.22.50:672][834]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.22.50:704][834]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.22.55:363][180]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2018.03.19-10.22.56:035][180]LogSlate: Took 0.004572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.19-10.23.10:285][957]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.19-10.23.10:315][957]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.23.10:315][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-10.23.10:315][957]PIE: New page: PIE session: Distrito1_3_Conq (Mar 19, 2018, 12:23:10 PM)
+[2018.03.19-10.23.10:316][957]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq
+[2018.03.19-10.23.10:344][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027797s)
+[2018.03.19-10.23.10:345][957]LogAIModule: Creating AISystem for world Distrito1_3_Conq
+[2018.03.19-10.23.10:345][957]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2018.03.19-10.23.10:345][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq.Distrito1_3_Conq (0.028604s)
+[2018.03.19-10.23.10:369][957]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.19-10.23.10:375][957]LogInit: FAudioDevice initialized.
+[2018.03.19-10.23.10:407][957]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.19-10.23.10:413][957]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq.Distrito1_3_Conq up for play (max tick rate 0) at 2018.03.19-11.23.10
+[2018.03.19-10.23.10:415][957]LogWorld: Bringing up level for play took: 0.006300
+[2018.03.19-10.23.10:423][957]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (Distrito1_3_Conq_C_1)
+[2018.03.19-10.23.10:425][957]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq 0.434
+[2018.03.19-10.23.10:425][957]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.23.10:450][957]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.19-10.23.12:536][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.23.12:569][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.23.26:387][395]BlueprintLog: New page: Compile beat
+[2018.03.19-10.23.29:909][395]LogSavePackage: Save=1188.22ms
+[2018.03.19-10.23.29:909][395]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/beat2936CFBA44F8FE96F7FE5FA78E8CEE39.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/beat.uasset'
+[2018.03.19-10.23.29:919][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/beat.uasset
+[2018.03.19-10.23.31:880][574]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.19-10.23.31:910][574]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.23.31:910][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-10.23.31:910][574]PIE: New page: PIE session: Distrito1_3_Conq (Mar 19, 2018, 12:23:31 PM)
+[2018.03.19-10.23.31:911][574]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq
+[2018.03.19-10.23.31:939][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028268s)
+[2018.03.19-10.23.31:940][574]LogAIModule: Creating AISystem for world Distrito1_3_Conq
+[2018.03.19-10.23.31:940][574]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2018.03.19-10.23.31:940][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq.Distrito1_3_Conq (0.029056s)
+[2018.03.19-10.23.31:961][574]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.19-10.23.31:967][574]LogInit: FAudioDevice initialized.
+[2018.03.19-10.23.31:995][574]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.19-10.23.32:002][574]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq.Distrito1_3_Conq up for play (max tick rate 0) at 2018.03.19-11.23.32
+[2018.03.19-10.23.32:003][574]LogWorld: Bringing up level for play took: 0.006401
+[2018.03.19-10.23.32:012][574]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (None) or object (Distrito1_3_Conq_C_1)
+[2018.03.19-10.23.32:014][574]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Conq 0.024
+[2018.03.19-10.23.32:014][574]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.23.32:036][574]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.03.19-10.23.40:222][555]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.23.40:257][555]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Conq.Distrito1_3_Conq:PersistentLevel.Distrito1_3_Conq'
+[2018.03.19-10.28.08:132][924]LogSavePackage: Save=17.10ms
+[2018.03.19-10.28.08:132][924]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/Aqua_Dream_Hair_Handle1Mtl04D079424EFB13D852490CAC4B912118.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Aqua_Dream_Hair_Handle1Mtl.uasset'
+[2018.03.19-10.28.08:142][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Aqua_Dream_Hair_Handle1Mtl.uasset
+[2018.03.19-10.28.10:279][924]LogSavePackage: Save=2118.71ms
+[2018.03.19-10.28.10:279][924]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/beat_skin09C8E1AC451E3640AC90B98771F04607.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/beat_skin.uasset'
+[2018.03.19-10.28.10:287][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/beat_skin.uasset
+[2018.03.19-10.28.12:534][924]LogSavePackage: Save=2231.52ms
+[2018.03.19-10.28.12:534][924]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/boots1599EBB9462D37F54FEB8496EAD93B5B.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/boots.uasset'
+[2018.03.19-10.28.12:541][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/boots.uasset
+[2018.03.19-10.28.12:583][924]LogSavePackage: Save=21.00ms
+[2018.03.19-10.28.12:583][924]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/Handle1TexFD09B5694E635C26C85B6F9404AA50C9.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Handle1Tex.uasset'
+[2018.03.19-10.28.12:590][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Handle1Tex.uasset
+[2018.03.19-10.28.14:837][924]LogSavePackage: Save=2233.07ms
+[2018.03.19-10.28.14:837][924]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/headphones00B8B5B44C19AADDE82143AF2FADB3A0.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/headphones.uasset'
+[2018.03.19-10.28.14:844][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/headphones.uasset
+[2018.03.19-10.28.14:905][924]LogSavePackage: Save=16.67ms
+[2018.03.19-10.28.14:905][924]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/Material__169A07009A0416661475AC8A296B1736DCA.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Material__169.uasset'
+[2018.03.19-10.28.14:913][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Material__169.uasset
+[2018.03.19-10.28.14:974][924]LogSavePackage: Save=15.99ms
+[2018.03.19-10.28.14:974][924]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/Material__2713C937FFE4C3713EA87E2919898C43BC3.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Material__271.uasset'
+[2018.03.19-10.28.14:981][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Material__271.uasset
+[2018.03.19-10.28.15:038][924]LogSavePackage: Save=16.91ms
+[2018.03.19-10.28.15:038][924]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/Material__272BA426C134BC4474C5F520EB3BE62DEA3.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Material__272.uasset'
+[2018.03.19-10.28.15:049][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Material__272.uasset
+[2018.03.19-10.28.15:107][924]LogSavePackage: Save=17.10ms
+[2018.03.19-10.28.15:107][924]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/Material__2737537AA914463C4CD99F723BA8C56B973.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Material__273.uasset'
+[2018.03.19-10.28.15:117][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/Material__273.uasset
+[2018.03.19-10.28.17:276][924]LogSavePackage: Save=2144.25ms
+[2018.03.19-10.28.17:276][924]LogSavePackage: Moving '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/pants075AA878403954CAE4680187ECE75497.tmp' to '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/pants.uasset'
+[2018.03.19-10.28.17:284][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/character/meshes/pants.uasset
+[2018.03.19-10.28.17:626][924]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.19-10.28.17:852][925]Cmd: QUIT_EDITOR
+[2018.03.19-10.28.17:906][925]LogExit: Preparing to exit.
+[2018.03.19-10.28.18:123][925]LogDirectoryWatcher: A directory notification for 'C:/Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/' was aborted.
+[2018.03.19-10.28.18:171][925]LogExit: Editor shut down
+[2018.03.19-10.28.18:175][925]LogExit: Transaction tracking system shut down
+[2018.03.19-10.28.18:400][925]LogObj: Freed 0b from 0 cluster array pools.
+[2018.03.19-10.28.18:400][925]LogExit: Object subsystem successfully closed.
+[2018.03.19-10.28.18:427][925]LogD3D11RHI: Shutdown
+[2018.03.19-10.28.18:427][925]LogD3D11RHI: CleanupD3DDevice
+[2018.03.19-10.28.18:561][925]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.19-10.28.18:616][925]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2018.03.19-10.28.18:616][925]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2018.03.19-10.28.18:616][925]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (532)
+[2018.03.19-10.28.18:616][925]LogModuleManager: Shutting down and abandoning module SkeletonEditor (530)
+[2018.03.19-10.28.18:616][925]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (528)
+[2018.03.19-10.28.18:616][925]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2018.03.19-10.28.18:616][925]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.03.19-10.28.18:616][925]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.03.19-10.28.18:616][925]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.03.19-10.28.18:616][925]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.03.19-10.28.18:616][925]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.03.19-10.28.18:617][925]LogDirectoryWatcher: A directory notification for 'C:/Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/Collections/' was aborted.
+[2018.03.19-10.28.18:617][925]LogDirectoryWatcher: A directory notification for 'C:/Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/Developers/alexbalasteguigaya/Collections/' was aborted.
+[2018.03.19-10.28.18:617][925]LogDirectoryWatcher: A directory notification for 'C:/Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Saved/Collections/' was aborted.
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.03.19-10.28.18:617][925]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.03.19-10.28.19:341][925]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.03.19-10.28.19:342][925]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.03.19-10.28.19:342][925]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.03.19-10.28.19:342][925]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.03.19-10.28.19:342][925]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.03.19-10.28.19:342][925]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.03.19-10.28.19:342][925]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.03.19-10.28.19:342][925]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.03.19-10.28.19:405][925]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.03.19-10.28.19:405][925]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.03.19-10.28.19:405][925]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.03.19-10.28.19:405][925]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.03.19-10.28.19:405][925]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.03.19-10.28.19:405][925]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.03.19-10.28.19:405][925]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.03.19-10.28.19:405][925]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.03.19-10.28.19:405][925]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.03.19-10.28.19:405][925]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.03.19-10.28.19:414][925]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.03.19-10.28.19:663][925]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.03.19-10.28.19:664][925]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.03.19-10.28.19:665][925]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.03.19-10.28.19:665][925]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.03.19-10.28.19:665][925]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.03.19-10.28.19:665][925]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.03.19-10.28.19:665][925]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.03.19-10.28.19:665][925]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.03.19-10.28.19:766][925]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.03.19-10.28.19:866][925]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.03.19-10.28.19:866][925]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.03.19-10.28.19:866][925]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.03.19-10.28.19:866][925]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.03.19-10.28.19:866][925]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.03.19-10.28.19:866][925]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.03.19-10.28.19:867][925]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.03.19-10.28.19:867][925]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.03.19-10.28.19:867][925]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.03.19-10.28.19:867][925]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.03.19-10.28.19:872][925]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.03.19-10.28.19:876][925]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.03.19-10.28.19:876][925]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.03.19-10.28.19:876][925]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.03.19-10.28.19:876][925]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.03.19-10.28.19:877][925]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.03.19-10.28.19:877][925]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.03.19-10.28.19:969][925]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.19-10.28.19:969][925]LogDirectoryWatcher: A directory notification for '../../../../../../Users/alexbalasteguigaya/Documents/sourceTree/anarquia/Proyecto2/Content/' was aborted.
+[2018.03.19-10.28.19:970][925]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.19-10.28.19:970][925]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.03.19-10.28.19:973][925]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.03.19-10.28.19:973][925]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.03.19-10.28.19:973][925]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.03.19-10.28.19:973][925]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.03.19-10.28.19:973][925]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.03.19-10.28.19:973][925]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.03.19-10.28.19:973][925]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.03.19-10.28.19:973][925]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.03.19-10.28.19:973][925]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.03.19-10.28.19:974][925]LogDerivedDataCache: Shutdown
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.03.19-10.28.19:974][925]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.19-10.28.19:975][925]LogOnline:Display: Unloading online subsystem: NULL
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.19-10.28.19:975][925]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.19-10.28.19:975][925]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.19-10.28.19:975][925]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B41B2AA79-41F0-5DC6-5E47-EEA432E63B30%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a37d6e234be0e3f197f44f8f8dabf8c3%7Ca36ae3ccbc7849d9a8dc3e72594eb8b2%7C4de4ee59-3de1-47a6-9e8c-38cda48c02c7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.19-10.28.19:983][925]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.19-10.28.19:984][925]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.03.19-10.28.19:984][925]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.03.19-10.28.19:984][925]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.03.19-10.28.19:984][925]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.03.19-10.28.19:984][925]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.03.19-10.28.19:984][925]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.03.19-10.28.19:984][925]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.03.19-10.28.19:984][925]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.03.19-10.28.19:985][925]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.03.19-10.28.19:985][925]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.03.19-10.28.19:985][925]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.03.19-10.28.19:985][925]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.03.19-10.28.19:985][925]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.03.19-10.28.19:985][925]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.03.19-10.28.19:985][925]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.03.19-10.28.19:985][925]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.19-10.28.19:985][925]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.19-10.28.19:985][925]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.19-10.28.19:987][925]LogExit: Exiting.
+[2018.03.19-10.28.20:012][925]Log file closed, 03/19/18 11:28:20
