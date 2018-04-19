@@ -1824,3 +1824,815 @@ LogInit: Object subsystem initialized
 [2018.04.19-20.43.38:229][ 48]LogSavePackage: Save=1615.85ms
 [2018.04.19-20.43.38:229][ 48]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_3_Exp3057864B41E8EDB9EF9A86A54C2BC892.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap'
 [2018.04.19-20.43.38:233][ 48]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap
+[2018.04.19-21.19.57:684][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado4)
+[2018.04.19-21.20.12:687][800]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-21.20.20:739][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado2)
+[2018.04.19-21.20.37:679][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara5)
+[2018.04.19-21.20.59:733][683]LogEditorViewport: Clicking Background
+[2018.04.19-21.21.00:049][707]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_grande_texturizado2)
+[2018.04.19-21.21.24:679][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara7)
+[2018.04.19-21.22.03:222][930]LogSavePackage: Save=1602.98ms
+[2018.04.19-21.22.03:222][930]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_3_Exp_Auto2B7EA25C14E3E2D525F81DC932D17873D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_3_Exp_Auto2.umap'
+[2018.04.19-21.22.03:226][930]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_3_Exp_Auto2.umap
+[2018.04.19-21.22.03:237][930]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp' took 1.700
+[2018.04.19-21.22.03:237][930]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.700
+[2018.04.19-21.45.31:457][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra34)
+[2018.04.19-21.45.32:196][ 19]Cmd: DELETE
+[2018.04.19-21.45.32:196][ 19]Cmd: ACTOR DELETE
+[2018.04.19-21.45.32:198][ 19]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.45.32:221][ 19]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.04.19-21.45.36:324][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja15)
+[2018.04.19-21.45.37:151][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja20)
+[2018.04.19-21.45.59:260][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja21)
+[2018.04.19-21.46.00:070][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja22)
+[2018.04.19-21.46.03:144][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja21)
+[2018.04.19-21.46.04:761][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja22)
+[2018.04.19-21.46.12:510][134]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-21.46.23:342][849]LogSavePackage: Save=1536.99ms
+[2018.04.19-21.46.23:342][849]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_3_Exp717D4D6148C5A371C0ED198298E35F82.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap'
+[2018.04.19-21.46.23:352][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap
+[2018.04.19-21.46.34:281][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra33)
+[2018.04.19-21.46.34:943][782]Cmd: DELETE
+[2018.04.19-21.46.34:943][782]Cmd: ACTOR DELETE
+[2018.04.19-21.46.34:945][782]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.46.34:970][782]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2018.04.19-21.46.42:667][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra6)
+[2018.04.19-21.46.43:875][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra5)
+[2018.04.19-21.46.52:057][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra42)
+[2018.04.19-21.46.52:777][333]Cmd: DELETE
+[2018.04.19-21.46.52:777][333]Cmd: ACTOR DELETE
+[2018.04.19-21.46.52:778][333]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.46.52:795][333]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.04.19-21.46.53:766][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra44)
+[2018.04.19-21.46.54:532][505]Cmd: DELETE
+[2018.04.19-21.46.54:532][505]Cmd: ACTOR DELETE
+[2018.04.19-21.46.54:533][505]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.46.54:549][505]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.19-21.46.55:226][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra43)
+[2018.04.19-21.46.55:601][603]Cmd: DELETE
+[2018.04.19-21.46.55:601][603]Cmd: ACTOR DELETE
+[2018.04.19-21.46.55:603][603]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.46.55:622][603]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.04.19-21.46.56:009][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra41)
+[2018.04.19-21.46.56:154][642]Cmd: DELETE
+[2018.04.19-21.46.56:154][642]Cmd: ACTOR DELETE
+[2018.04.19-21.46.56:156][642]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.46.56:173][642]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.04.19-21.46.59:051][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra10)
+[2018.04.19-21.47.04:966][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra40)
+[2018.04.19-21.47.05:125][435]Cmd: DELETE
+[2018.04.19-21.47.05:125][435]Cmd: ACTOR DELETE
+[2018.04.19-21.47.05:127][435]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.47.05:142][435]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.19-21.47.05:535][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra39)
+[2018.04.19-21.47.05:677][482]Cmd: DELETE
+[2018.04.19-21.47.05:677][482]Cmd: ACTOR DELETE
+[2018.04.19-21.47.05:679][482]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.47.05:694][482]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.19-21.47.07:119][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra37)
+[2018.04.19-21.47.07:411][643]Cmd: DELETE
+[2018.04.19-21.47.07:412][643]Cmd: ACTOR DELETE
+[2018.04.19-21.47.07:413][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.47.07:428][643]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.04.19-21.47.07:825][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra38)
+[2018.04.19-21.47.07:932][692]Cmd: DELETE
+[2018.04.19-21.47.07:932][692]Cmd: ACTOR DELETE
+[2018.04.19-21.47.07:936][692]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.47.07:952][692]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.04.19-21.47.09:058][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra65)
+[2018.04.19-21.47.09:426][846]Cmd: DELETE
+[2018.04.19-21.47.09:426][846]Cmd: ACTOR DELETE
+[2018.04.19-21.47.09:428][846]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.47.09:443][846]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.04.19-21.47.09:851][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra66)
+[2018.04.19-21.47.10:029][900]Cmd: DELETE
+[2018.04.19-21.47.10:029][900]Cmd: ACTOR DELETE
+[2018.04.19-21.47.10:030][900]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.47.10:046][900]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.19-21.47.10:489][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra67)
+[2018.04.19-21.47.10:912][982]Cmd: DELETE
+[2018.04.19-21.47.10:912][982]Cmd: ACTOR DELETE
+[2018.04.19-21.47.10:914][982]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.47.10:929][982]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.19-21.47.15:397][255]LogSavePackage: Save=1494.12ms
+[2018.04.19-21.47.15:397][255]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_3_ExpEF30A1D4476D8C85A31786B7CCCAE213.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap'
+[2018.04.19-21.47.15:408][255]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap
+[2018.04.19-21.47.19:138][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra10)
+[2018.04.19-21.48.04:746][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra10)
+[2018.04.19-21.48.07:485][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra11)
+[2018.04.19-21.48.10:982][771]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra10)
+[2018.04.19-21.48.11:859][814]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra12)
+[2018.04.19-21.48.37:502][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra14)
+[2018.04.19-21.48.38:393][ 16]Cmd: DELETE
+[2018.04.19-21.48.38:393][ 16]Cmd: ACTOR DELETE
+[2018.04.19-21.48.38:395][ 16]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.48.38:414][ 16]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.04.19-21.48.39:624][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra15)
+[2018.04.19-21.48.48:403][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra10)
+[2018.04.19-21.48.49:447][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra11)
+[2018.04.19-21.48.50:371][ 64]Cmd: DELETE
+[2018.04.19-21.48.50:371][ 64]Cmd: ACTOR DELETE
+[2018.04.19-21.48.50:374][ 64]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.48.50:393][ 64]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.04.19-21.48.51:204][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra10)
+[2018.04.19-21.48.55:974][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra12)
+[2018.04.19-21.49.01:671][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra10)
+[2018.04.19-21.49.12:758][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra13)
+[2018.04.19-21.49.25:215][594]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-21.49.30:240][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra13)
+[2018.04.19-21.50.00:997][552]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-21.50.36:934][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra28)
+[2018.04.19-21.50.47:800][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteria_doble6)
+[2018.04.19-21.51.03:416][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra14)
+[2018.04.19-21.51.39:566][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteria_doble6)
+[2018.04.19-21.51.50:032][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_grande_texturizado3)
+[2018.04.19-21.52.04:989][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja23)
+[2018.04.19-21.52.08:942][533]Cmd: TRANSACTION UNDO
+[2018.04.19-21.52.08:942][533]LogEditorTransaction: Undo Move Actors
+[2018.04.19-21.52.31:019][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja25)
+[2018.04.19-21.52.34:222][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2018.04.19-21.52.34:722][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja26)
+[2018.04.19-21.52.58:647][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2018.04.19-21.53.01:171][600]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.04.19-21.53.02:322][600]LogSavePackage: Save=1636.47ms
+[2018.04.19-21.53.02:322][600]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_3_ExpC64812A6413BF0B09AB2B89949F9FF62.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap'
+[2018.04.19-21.53.02:332][600]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap
+[2018.04.19-21.53.10:838][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra27)
+[2018.04.19-21.53.11:664][267]Cmd: DELETE
+[2018.04.19-21.53.11:664][267]Cmd: ACTOR DELETE
+[2018.04.19-21.53.11:666][267]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.53.11:683][267]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.04.19-21.53.12:720][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra28)
+[2018.04.19-21.53.13:346][428]Cmd: DELETE
+[2018.04.19-21.53.13:346][428]Cmd: ACTOR DELETE
+[2018.04.19-21.53.13:348][428]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-21.53.13:363][428]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.19-22.03.02:343][436]LogSavePackage: Save=1574.80ms
+[2018.04.19-22.03.02:343][436]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_3_Exp_Auto3FDE606B64B7E2941288E10B984BD1C48.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_3_Exp_Auto3.umap'
+[2018.04.19-22.03.02:348][436]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito1_3_Exp_Auto3.umap
+[2018.04.19-22.03.02:353][436]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp' took 1.637
+[2018.04.19-22.03.02:353][436]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.637
+[2018.04.19-22.03.49:982][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja25)
+[2018.04.19-22.03.57:658][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra12)
+[2018.04.19-22.04.23:662][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja28)
+[2018.04.19-22.04.28:444][437]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-22.04.29:355][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja28)
+[2018.04.19-22.04.34:251][894]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-22.04.36:385][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja29)
+[2018.04.19-22.04.37:490][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja28)
+[2018.04.19-22.04.38:097][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja29)
+[2018.04.19-22.04.38:673][195]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (verja29)
+[2018.04.19-22.05.20:380][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra52)
+[2018.04.19-22.05.31:229][527]LogSavePackage: Save=1476.75ms
+[2018.04.19-22.05.31:229][527]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_3_Exp23ABDDB840CBC2D9F3AF949BE47CD4B1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap'
+[2018.04.19-22.05.31:238][527]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap
+[2018.04.19-22.05.45:495][754]LogActorFactory: Actor Factory created Plane
+[2018.04.19-22.05.46:467][818]LogActorFactory: Actor Factory created Plane
+[2018.04.19-22.07.09:730][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.19-22.07.13:632][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.04.19-22.07.21:245][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.19-22.07.41:281][335]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane)
+[2018.04.19-22.07.41:772][351]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane2)
+[2018.04.19-22.07.42:269][385]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane3)
+[2018.04.19-22.07.48:565][807]LogEditorViewport: Clicking Background
+[2018.04.19-22.07.54:469][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane4)
+[2018.04.19-22.07.57:778][560]Cmd: TRANSACTION UNDO
+[2018.04.19-22.07.57:778][560]LogEditorTransaction: Undo Move Actors
+[2018.04.19-22.07.58:761][625]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-22.08.02:941][807]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 32X32)
+[2018.04.19-22.08.02:963][807]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 32X32)
+[2018.04.19-22.08.02:983][807]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 32X32)
+[2018.04.19-22.08.03:005][807]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 32X32)
+[2018.04.19-22.08.03:025][807]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 32X32)
+[2018.04.19-22.08.03:047][807]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 32X32)
+[2018.04.19-22.08.03:065][807]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 32X32)
+[2018.04.19-22.08.03:092][807]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 32X32)
+[2018.04.19-22.08.03:117][807]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 32X32)
+[2018.04.19-22.08.03:142][807]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 32X32)
+[2018.04.19-22.08.03:175][807]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 32X32)
+[2018.04.19-22.08.03:205][807]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 32X32)
+[2018.04.19-22.08.03:229][807]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 32X32)
+[2018.04.19-22.08.03:252][807]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 32X32)
+[2018.04.19-22.08.03:271][807]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 32X32)
+[2018.04.19-22.08.03:291][807]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 32X32)
+[2018.04.19-22.08.03:311][807]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 32X32)
+[2018.04.19-22.08.03:329][807]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 32X32)
+[2018.04.19-22.08.03:346][807]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 32X32)
+[2018.04.19-22.08.03:368][807]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 32X32)
+[2018.04.19-22.08.03:388][807]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 32X32)
+[2018.04.19-22.08.03:406][807]LogTexture:Display: Building textures: Texture2D_22 (BGRA8, 32X32)
+[2018.04.19-22.08.03:423][807]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 32X32)
+[2018.04.19-22.08.03:443][807]LogTexture:Display: Building textures: Texture2D_24 (BGRA8, 32X32)
+[2018.04.19-22.08.03:463][807]LogTexture:Display: Building textures: Texture2D_25 (BGRA8, 32X32)
+[2018.04.19-22.08.03:482][807]LogTexture:Display: Building textures: Texture2D_26 (BGRA8, 32X32)
+[2018.04.19-22.08.03:504][807]LogTexture:Display: Building textures: Texture2D_27 (BGRA8, 32X32)
+[2018.04.19-22.08.03:525][807]LogTexture:Display: Building textures: Texture2D_28 (BGRA8, 32X32)
+[2018.04.19-22.08.03:545][807]LogTexture:Display: Building textures: Texture2D_29 (BGRA8, 32X32)
+[2018.04.19-22.08.03:564][807]LogTexture:Display: Building textures: Texture2D_30 (BGRA8, 32X32)
+[2018.04.19-22.08.03:589][807]LogTexture:Display: Building textures: Texture2D_31 (BGRA8, 32X32)
+[2018.04.19-22.08.03:609][807]LogTexture:Display: Building textures: Texture2D_32 (BGRA8, 32X32)
+[2018.04.19-22.08.03:628][807]LogTexture:Display: Building textures: Texture2D_33 (BGRA8, 32X32)
+[2018.04.19-22.08.03:648][807]LogTexture:Display: Building textures: Texture2D_34 (BGRA8, 32X32)
+[2018.04.19-22.08.03:666][807]LogTexture:Display: Building textures: Texture2D_35 (BGRA8, 32X32)
+[2018.04.19-22.08.03:686][807]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 32X32)
+[2018.04.19-22.08.03:705][807]LogTexture:Display: Building textures: Texture2D_37 (BGRA8, 32X32)
+[2018.04.19-22.08.03:724][807]LogTexture:Display: Building textures: Texture2D_38 (BGRA8, 32X32)
+[2018.04.19-22.08.03:742][807]LogTexture:Display: Building textures: Texture2D_39 (BGRA8, 32X32)
+[2018.04.19-22.08.03:760][807]LogTexture:Display: Building textures: Texture2D_40 (BGRA8, 32X32)
+[2018.04.19-22.08.03:781][807]LogTexture:Display: Building textures: Texture2D_41 (BGRA8, 32X32)
+[2018.04.19-22.08.03:800][807]LogTexture:Display: Building textures: Texture2D_42 (BGRA8, 32X32)
+[2018.04.19-22.08.03:823][807]LogTexture:Display: Building textures: Texture2D_43 (BGRA8, 32X32)
+[2018.04.19-22.08.03:851][807]LogTexture:Display: Building textures: Texture2D_44 (BGRA8, 32X32)
+[2018.04.19-22.08.03:877][807]LogTexture:Display: Building textures: Texture2D_45 (BGRA8, 32X32)
+[2018.04.19-22.08.03:898][807]LogTexture:Display: Building textures: Texture2D_46 (BGRA8, 32X32)
+[2018.04.19-22.08.03:923][807]LogTexture:Display: Building textures: Texture2D_47 (BGRA8, 32X32)
+[2018.04.19-22.08.03:945][807]LogTexture:Display: Building textures: Texture2D_48 (BGRA8, 32X32)
+[2018.04.19-22.08.03:963][807]LogTexture:Display: Building textures: Texture2D_49 (BGRA8, 32X32)
+[2018.04.19-22.08.03:983][807]LogTexture:Display: Building textures: Texture2D_50 (BGRA8, 32X32)
+[2018.04.19-22.08.04:003][807]LogTexture:Display: Building textures: Texture2D_51 (BGRA8, 32X32)
+[2018.04.19-22.08.04:021][807]LogTexture:Display: Building textures: Texture2D_52 (BGRA8, 32X32)
+[2018.04.19-22.08.04:040][807]LogTexture:Display: Building textures: Texture2D_53 (BGRA8, 32X32)
+[2018.04.19-22.08.04:058][807]LogTexture:Display: Building textures: Texture2D_54 (BGRA8, 32X32)
+[2018.04.19-22.08.04:080][807]LogTexture:Display: Building textures: Texture2D_55 (BGRA8, 32X32)
+[2018.04.19-22.08.04:104][807]LogTexture:Display: Building textures: Texture2D_56 (BGRA8, 32X32)
+[2018.04.19-22.08.04:122][807]LogTexture:Display: Building textures: Texture2D_57 (BGRA8, 32X32)
+[2018.04.19-22.08.04:144][807]LogTexture:Display: Building textures: Texture2D_58 (BGRA8, 32X32)
+[2018.04.19-22.08.04:166][807]LogTexture:Display: Building textures: Texture2D_59 (BGRA8, 32X32)
+[2018.04.19-22.08.04:185][807]LogTexture:Display: Building textures: Texture2D_60 (BGRA8, 32X32)
+[2018.04.19-22.08.04:203][807]LogTexture:Display: Building textures: Texture2D_61 (BGRA8, 32X32)
+[2018.04.19-22.08.04:224][807]LogTexture:Display: Building textures: Texture2D_62 (BGRA8, 32X32)
+[2018.04.19-22.08.04:248][807]LogTexture:Display: Building textures: Texture2D_63 (BGRA8, 32X32)
+[2018.04.19-22.08.04:270][807]LogTexture:Display: Building textures: Texture2D_64 (BGRA8, 32X32)
+[2018.04.19-22.08.04:296][807]LogTexture:Display: Building textures: Texture2D_65 (BGRA8, 32X32)
+[2018.04.19-22.08.04:323][807]LogTexture:Display: Building textures: Texture2D_66 (BGRA8, 32X32)
+[2018.04.19-22.08.04:339][807]LogTexture:Display: Building textures: Texture2D_67 (BGRA8, 32X32)
+[2018.04.19-22.08.04:369][807]LogTexture:Display: Building textures: Texture2D_68 (BGRA8, 32X32)
+[2018.04.19-22.08.04:393][807]LogTexture:Display: Building textures: Texture2D_69 (BGRA8, 32X32)
+[2018.04.19-22.08.04:419][807]LogTexture:Display: Building textures: Texture2D_70 (BGRA8, 32X32)
+[2018.04.19-22.08.04:451][807]LogTexture:Display: Building textures: Texture2D_71 (BGRA8, 32X32)
+[2018.04.19-22.08.04:474][807]LogTexture:Display: Building textures: Texture2D_72 (BGRA8, 32X32)
+[2018.04.19-22.08.04:495][807]LogTexture:Display: Building textures: Texture2D_73 (BGRA8, 32X32)
+[2018.04.19-22.08.04:517][807]LogTexture:Display: Building textures: Texture2D_74 (BGRA8, 32X32)
+[2018.04.19-22.08.04:536][807]LogTexture:Display: Building textures: Texture2D_75 (BGRA8, 32X32)
+[2018.04.19-22.08.04:559][807]LogTexture:Display: Building textures: Texture2D_76 (BGRA8, 32X32)
+[2018.04.19-22.08.04:577][807]LogTexture:Display: Building textures: Texture2D_77 (BGRA8, 32X32)
+[2018.04.19-22.08.04:598][807]LogTexture:Display: Building textures: Texture2D_78 (BGRA8, 32X32)
+[2018.04.19-22.08.04:617][807]LogTexture:Display: Building textures: Texture2D_79 (BGRA8, 32X32)
+[2018.04.19-22.08.04:638][807]LogTexture:Display: Building textures: Texture2D_80 (BGRA8, 32X32)
+[2018.04.19-22.08.04:655][807]LogTexture:Display: Building textures: Texture2D_81 (BGRA8, 32X32)
+[2018.04.19-22.08.04:676][807]LogTexture:Display: Building textures: Texture2D_82 (BGRA8, 32X32)
+[2018.04.19-22.08.04:695][807]LogTexture:Display: Building textures: Texture2D_83 (BGRA8, 32X32)
+[2018.04.19-22.08.04:715][807]LogTexture:Display: Building textures: Texture2D_84 (BGRA8, 32X32)
+[2018.04.19-22.08.04:736][807]LogTexture:Display: Building textures: Texture2D_85 (BGRA8, 32X32)
+[2018.04.19-22.08.04:755][807]LogTexture:Display: Building textures: Texture2D_86 (BGRA8, 32X32)
+[2018.04.19-22.08.04:775][807]LogTexture:Display: Building textures: Texture2D_87 (BGRA8, 32X32)
+[2018.04.19-22.08.04:794][807]LogTexture:Display: Building textures: Texture2D_88 (BGRA8, 32X32)
+[2018.04.19-22.08.04:814][807]LogTexture:Display: Building textures: Texture2D_89 (BGRA8, 32X32)
+[2018.04.19-22.08.04:833][807]LogTexture:Display: Building textures: Texture2D_90 (BGRA8, 32X32)
+[2018.04.19-22.08.04:853][807]LogTexture:Display: Building textures: Texture2D_91 (BGRA8, 32X32)
+[2018.04.19-22.08.04:871][807]LogTexture:Display: Building textures: Texture2D_92 (BGRA8, 32X32)
+[2018.04.19-22.08.04:890][807]LogTexture:Display: Building textures: Texture2D_93 (BGRA8, 32X32)
+[2018.04.19-22.08.04:911][807]LogTexture:Display: Building textures: Texture2D_94 (BGRA8, 32X32)
+[2018.04.19-22.08.04:933][807]LogTexture:Display: Building textures: Texture2D_95 (BGRA8, 32X32)
+[2018.04.19-22.08.04:953][807]LogTexture:Display: Building textures: Texture2D_96 (BGRA8, 32X32)
+[2018.04.19-22.08.04:974][807]LogTexture:Display: Building textures: Texture2D_97 (BGRA8, 32X32)
+[2018.04.19-22.08.04:995][807]LogTexture:Display: Building textures: Texture2D_98 (BGRA8, 32X32)
+[2018.04.19-22.08.05:016][807]LogTexture:Display: Building textures: Texture2D_99 (BGRA8, 32X32)
+[2018.04.19-22.08.05:036][807]LogTexture:Display: Building textures: Texture2D_100 (BGRA8, 32X32)
+[2018.04.19-22.08.05:058][807]LogTexture:Display: Building textures: Texture2D_101 (BGRA8, 32X32)
+[2018.04.19-22.08.05:078][807]LogTexture:Display: Building textures: Texture2D_102 (BGRA8, 32X32)
+[2018.04.19-22.08.05:097][807]LogTexture:Display: Building textures: Texture2D_103 (BGRA8, 32X32)
+[2018.04.19-22.08.05:118][807]LogTexture:Display: Building textures: Texture2D_104 (BGRA8, 32X32)
+[2018.04.19-22.08.05:138][807]LogTexture:Display: Building textures: Texture2D_105 (BGRA8, 32X32)
+[2018.04.19-22.08.05:156][807]LogTexture:Display: Building textures: Texture2D_106 (BGRA8, 32X32)
+[2018.04.19-22.08.05:179][807]LogTexture:Display: Building textures: Texture2D_107 (BGRA8, 32X32)
+[2018.04.19-22.08.05:198][807]LogTexture:Display: Building textures: Texture2D_108 (BGRA8, 32X32)
+[2018.04.19-22.08.05:219][807]LogTexture:Display: Building textures: Texture2D_109 (BGRA8, 32X32)
+[2018.04.19-22.08.05:240][807]LogTexture:Display: Building textures: Texture2D_110 (BGRA8, 32X32)
+[2018.04.19-22.08.05:259][807]LogTexture:Display: Building textures: Texture2D_111 (BGRA8, 32X32)
+[2018.04.19-22.08.05:278][807]LogTexture:Display: Building textures: Texture2D_112 (BGRA8, 32X32)
+[2018.04.19-22.08.05:299][807]LogTexture:Display: Building textures: Texture2D_113 (BGRA8, 32X32)
+[2018.04.19-22.08.05:317][807]LogTexture:Display: Building textures: Texture2D_114 (BGRA8, 32X32)
+[2018.04.19-22.08.05:335][807]LogTexture:Display: Building textures: Texture2D_115 (BGRA8, 32X32)
+[2018.04.19-22.08.05:353][807]LogTexture:Display: Building textures: Texture2D_116 (BGRA8, 32X32)
+[2018.04.19-22.08.05:370][807]LogTexture:Display: Building textures: Texture2D_117 (BGRA8, 32X32)
+[2018.04.19-22.08.05:394][807]LogTexture:Display: Building textures: Texture2D_118 (BGRA8, 32X32)
+[2018.04.19-22.08.05:413][807]LogTexture:Display: Building textures: Texture2D_119 (BGRA8, 32X32)
+[2018.04.19-22.08.05:433][807]LogTexture:Display: Building textures: Texture2D_120 (BGRA8, 32X32)
+[2018.04.19-22.08.06:574][808]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-22.08.06:629][808]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-22.08.24:501][627]LogSavePackage: Save=2091.57ms
+[2018.04.19-22.08.24:501][627]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_3_Exp487F22E647CE739E24A35F9E659F2AFD.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap'
+[2018.04.19-22.08.24:515][627]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap
+[2018.04.19-22.08.39:849][654]Cmd: TRANSACTION UNDO
+[2018.04.19-22.08.39:849][654]LogEditorTransaction: Undo Foliage Editing
+[2018.04.19-22.08.42:764][829]Cmd: TRANSACTION UNDO
+[2018.04.19-22.08.42:764][829]LogEditorTransaction: Undo Foliage Editing
+[2018.04.19-22.08.43:951][912]Cmd: TRANSACTION UNDO
+[2018.04.19-22.08.43:951][912]LogEditorTransaction: Undo Foliage Editing
+[2018.04.19-22.08.45:639][ 31]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-22.09.11:945][875]Cmd: SELECT NONE
+[2018.04.19-22.09.34:770][701]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.04.19-22.09.35:159][720]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-22.09.41:967][ 44]LogEditorViewport: Clicking Background
+[2018.04.19-22.09.45:324][271]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-22.09.47:873][336]LogTexture:Display: Building textures: Texture2D_121 (BGRA8, 32X32)
+[2018.04.19-22.09.47:899][336]LogTexture:Display: Building textures: Texture2D_122 (BGRA8, 32X32)
+[2018.04.19-22.09.47:928][336]LogTexture:Display: Building textures: Texture2D_123 (BGRA8, 32X32)
+[2018.04.19-22.09.47:959][336]LogTexture:Display: Building textures: Texture2D_124 (BGRA8, 32X32)
+[2018.04.19-22.09.47:986][336]LogTexture:Display: Building textures: Texture2D_125 (BGRA8, 32X32)
+[2018.04.19-22.09.48:014][336]LogTexture:Display: Building textures: Texture2D_126 (BGRA8, 32X32)
+[2018.04.19-22.09.48:043][336]LogTexture:Display: Building textures: Texture2D_127 (BGRA8, 32X32)
+[2018.04.19-22.09.48:071][336]LogTexture:Display: Building textures: Texture2D_128 (BGRA8, 32X32)
+[2018.04.19-22.09.48:096][336]LogTexture:Display: Building textures: Texture2D_129 (BGRA8, 32X32)
+[2018.04.19-22.09.48:127][336]LogTexture:Display: Building textures: Texture2D_130 (BGRA8, 32X32)
+[2018.04.19-22.09.48:156][336]LogTexture:Display: Building textures: Texture2D_131 (BGRA8, 32X32)
+[2018.04.19-22.09.48:183][336]LogTexture:Display: Building textures: Texture2D_132 (BGRA8, 32X32)
+[2018.04.19-22.09.48:211][336]LogTexture:Display: Building textures: Texture2D_133 (BGRA8, 32X32)
+[2018.04.19-22.09.48:241][336]LogTexture:Display: Building textures: Texture2D_134 (BGRA8, 32X32)
+[2018.04.19-22.09.48:266][336]LogTexture:Display: Building textures: Texture2D_135 (BGRA8, 32X32)
+[2018.04.19-22.09.48:295][336]LogTexture:Display: Building textures: Texture2D_136 (BGRA8, 32X32)
+[2018.04.19-22.09.48:317][336]LogTexture:Display: Building textures: Texture2D_137 (BGRA8, 32X32)
+[2018.04.19-22.09.48:343][336]LogTexture:Display: Building textures: Texture2D_138 (BGRA8, 32X32)
+[2018.04.19-22.09.48:371][336]LogTexture:Display: Building textures: Texture2D_139 (BGRA8, 32X32)
+[2018.04.19-22.09.48:395][336]LogTexture:Display: Building textures: Texture2D_140 (BGRA8, 32X32)
+[2018.04.19-22.09.48:422][336]LogTexture:Display: Building textures: Texture2D_141 (BGRA8, 32X32)
+[2018.04.19-22.09.48:452][336]LogTexture:Display: Building textures: Texture2D_142 (BGRA8, 32X32)
+[2018.04.19-22.09.48:476][336]LogTexture:Display: Building textures: Texture2D_143 (BGRA8, 32X32)
+[2018.04.19-22.09.48:504][336]LogTexture:Display: Building textures: Texture2D_144 (BGRA8, 32X32)
+[2018.04.19-22.09.48:534][336]LogTexture:Display: Building textures: Texture2D_145 (BGRA8, 32X32)
+[2018.04.19-22.09.48:563][336]LogTexture:Display: Building textures: Texture2D_146 (BGRA8, 32X32)
+[2018.04.19-22.09.48:596][336]LogTexture:Display: Building textures: Texture2D_147 (BGRA8, 32X32)
+[2018.04.19-22.09.48:624][336]LogTexture:Display: Building textures: Texture2D_148 (BGRA8, 32X32)
+[2018.04.19-22.09.48:652][336]LogTexture:Display: Building textures: Texture2D_149 (BGRA8, 32X32)
+[2018.04.19-22.09.48:683][336]LogTexture:Display: Building textures: Texture2D_150 (BGRA8, 32X32)
+[2018.04.19-22.09.48:711][336]LogTexture:Display: Building textures: Texture2D_151 (BGRA8, 32X32)
+[2018.04.19-22.09.48:736][336]LogTexture:Display: Building textures: Texture2D_152 (BGRA8, 32X32)
+[2018.04.19-22.09.48:763][336]LogTexture:Display: Building textures: Texture2D_153 (BGRA8, 32X32)
+[2018.04.19-22.09.48:793][336]LogTexture:Display: Building textures: Texture2D_154 (BGRA8, 32X32)
+[2018.04.19-22.09.48:821][336]LogTexture:Display: Building textures: Texture2D_155 (BGRA8, 32X32)
+[2018.04.19-22.09.48:849][336]LogTexture:Display: Building textures: Texture2D_156 (BGRA8, 32X32)
+[2018.04.19-22.09.48:877][336]LogTexture:Display: Building textures: Texture2D_157 (BGRA8, 32X32)
+[2018.04.19-22.09.48:903][336]LogTexture:Display: Building textures: Texture2D_158 (BGRA8, 32X32)
+[2018.04.19-22.09.48:935][336]LogTexture:Display: Building textures: Texture2D_159 (BGRA8, 32X32)
+[2018.04.19-22.09.48:961][336]LogTexture:Display: Building textures: Texture2D_160 (BGRA8, 32X32)
+[2018.04.19-22.09.48:986][336]LogTexture:Display: Building textures: Texture2D_161 (BGRA8, 32X32)
+[2018.04.19-22.09.49:014][336]LogTexture:Display: Building textures: Texture2D_162 (BGRA8, 32X32)
+[2018.04.19-22.09.49:043][336]LogTexture:Display: Building textures: Texture2D_163 (BGRA8, 32X32)
+[2018.04.19-22.09.49:072][336]LogTexture:Display: Building textures: Texture2D_164 (BGRA8, 32X32)
+[2018.04.19-22.09.49:100][336]LogTexture:Display: Building textures: Texture2D_165 (BGRA8, 32X32)
+[2018.04.19-22.09.49:128][336]LogTexture:Display: Building textures: Texture2D_166 (BGRA8, 32X32)
+[2018.04.19-22.09.49:159][336]LogTexture:Display: Building textures: Texture2D_167 (BGRA8, 32X32)
+[2018.04.19-22.09.49:187][336]LogTexture:Display: Building textures: Texture2D_168 (BGRA8, 32X32)
+[2018.04.19-22.09.49:209][336]LogTexture:Display: Building textures: Texture2D_169 (BGRA8, 32X32)
+[2018.04.19-22.09.49:242][336]LogTexture:Display: Building textures: Texture2D_170 (BGRA8, 32X32)
+[2018.04.19-22.09.49:271][336]LogTexture:Display: Building textures: Texture2D_171 (BGRA8, 32X32)
+[2018.04.19-22.09.49:297][336]LogTexture:Display: Building textures: Texture2D_172 (BGRA8, 32X32)
+[2018.04.19-22.09.49:327][336]LogTexture:Display: Building textures: Texture2D_173 (BGRA8, 32X32)
+[2018.04.19-22.09.49:354][336]LogTexture:Display: Building textures: Texture2D_174 (BGRA8, 32X32)
+[2018.04.19-22.09.49:381][336]LogTexture:Display: Building textures: Texture2D_175 (BGRA8, 32X32)
+[2018.04.19-22.09.49:410][336]LogTexture:Display: Building textures: Texture2D_176 (BGRA8, 32X32)
+[2018.04.19-22.09.49:437][336]LogTexture:Display: Building textures: Texture2D_177 (BGRA8, 32X32)
+[2018.04.19-22.09.49:466][336]LogTexture:Display: Building textures: Texture2D_178 (BGRA8, 32X32)
+[2018.04.19-22.09.49:493][336]LogTexture:Display: Building textures: Texture2D_179 (BGRA8, 32X32)
+[2018.04.19-22.09.49:519][336]LogTexture:Display: Building textures: Texture2D_180 (BGRA8, 32X32)
+[2018.04.19-22.09.49:553][336]LogTexture:Display: Building textures: Texture2D_181 (BGRA8, 32X32)
+[2018.04.19-22.09.49:580][336]LogTexture:Display: Building textures: Texture2D_182 (BGRA8, 32X32)
+[2018.04.19-22.09.49:616][336]LogTexture:Display: Building textures: Texture2D_183 (BGRA8, 32X32)
+[2018.04.19-22.09.49:651][336]LogTexture:Display: Building textures: Texture2D_184 (BGRA8, 32X32)
+[2018.04.19-22.09.49:686][336]LogTexture:Display: Building textures: Texture2D_185 (BGRA8, 32X32)
+[2018.04.19-22.09.49:714][336]LogTexture:Display: Building textures: Texture2D_186 (BGRA8, 32X32)
+[2018.04.19-22.09.49:745][336]LogTexture:Display: Building textures: Texture2D_187 (BGRA8, 32X32)
+[2018.04.19-22.09.49:772][336]LogTexture:Display: Building textures: Texture2D_188 (BGRA8, 32X32)
+[2018.04.19-22.09.49:799][336]LogTexture:Display: Building textures: Texture2D_189 (BGRA8, 32X32)
+[2018.04.19-22.09.49:827][336]LogTexture:Display: Building textures: Texture2D_190 (BGRA8, 32X32)
+[2018.04.19-22.09.49:855][336]LogTexture:Display: Building textures: Texture2D_191 (BGRA8, 32X32)
+[2018.04.19-22.09.49:882][336]LogTexture:Display: Building textures: Texture2D_192 (BGRA8, 32X32)
+[2018.04.19-22.09.49:912][336]LogTexture:Display: Building textures: Texture2D_193 (BGRA8, 32X32)
+[2018.04.19-22.09.49:943][336]LogTexture:Display: Building textures: Texture2D_194 (BGRA8, 32X32)
+[2018.04.19-22.09.49:972][336]LogTexture:Display: Building textures: Texture2D_195 (BGRA8, 32X32)
+[2018.04.19-22.09.49:996][336]LogTexture:Display: Building textures: Texture2D_196 (BGRA8, 32X32)
+[2018.04.19-22.09.50:025][336]LogTexture:Display: Building textures: Texture2D_197 (BGRA8, 32X32)
+[2018.04.19-22.09.50:050][336]LogTexture:Display: Building textures: Texture2D_198 (BGRA8, 32X32)
+[2018.04.19-22.09.50:077][336]LogTexture:Display: Building textures: Texture2D_199 (BGRA8, 32X32)
+[2018.04.19-22.09.50:104][336]LogTexture:Display: Building textures: Texture2D_200 (BGRA8, 32X32)
+[2018.04.19-22.09.50:128][336]LogTexture:Display: Building textures: Texture2D_201 (BGRA8, 32X32)
+[2018.04.19-22.09.50:156][336]LogTexture:Display: Building textures: Texture2D_202 (BGRA8, 32X32)
+[2018.04.19-22.09.50:188][336]LogTexture:Display: Building textures: Texture2D_203 (BGRA8, 32X32)
+[2018.04.19-22.09.50:217][336]LogTexture:Display: Building textures: Texture2D_204 (BGRA8, 32X32)
+[2018.04.19-22.09.50:244][336]LogTexture:Display: Building textures: Texture2D_205 (BGRA8, 32X32)
+[2018.04.19-22.09.50:276][336]LogTexture:Display: Building textures: Texture2D_206 (BGRA8, 32X32)
+[2018.04.19-22.09.50:304][336]LogTexture:Display: Building textures: Texture2D_207 (BGRA8, 32X32)
+[2018.04.19-22.09.50:333][336]LogTexture:Display: Building textures: Texture2D_208 (BGRA8, 32X32)
+[2018.04.19-22.09.50:360][336]LogTexture:Display: Building textures: Texture2D_209 (BGRA8, 32X32)
+[2018.04.19-22.09.50:390][336]LogTexture:Display: Building textures: Texture2D_210 (BGRA8, 32X32)
+[2018.04.19-22.09.50:419][336]LogTexture:Display: Building textures: Texture2D_211 (BGRA8, 32X32)
+[2018.04.19-22.09.50:448][336]LogTexture:Display: Building textures: Texture2D_212 (BGRA8, 32X32)
+[2018.04.19-22.09.50:476][336]LogTexture:Display: Building textures: Texture2D_213 (BGRA8, 32X32)
+[2018.04.19-22.09.50:504][336]LogTexture:Display: Building textures: Texture2D_214 (BGRA8, 32X32)
+[2018.04.19-22.09.50:539][336]LogTexture:Display: Building textures: Texture2D_215 (BGRA8, 32X32)
+[2018.04.19-22.09.50:564][336]LogTexture:Display: Building textures: Texture2D_216 (BGRA8, 32X32)
+[2018.04.19-22.09.50:596][336]LogTexture:Display: Building textures: Texture2D_217 (BGRA8, 32X32)
+[2018.04.19-22.09.50:622][336]LogTexture:Display: Building textures: Texture2D_218 (BGRA8, 32X32)
+[2018.04.19-22.09.50:649][336]LogTexture:Display: Building textures: Texture2D_219 (BGRA8, 32X32)
+[2018.04.19-22.09.50:678][336]LogTexture:Display: Building textures: Texture2D_220 (BGRA8, 32X32)
+[2018.04.19-22.09.50:704][336]LogTexture:Display: Building textures: Texture2D_221 (BGRA8, 32X32)
+[2018.04.19-22.09.50:732][336]LogTexture:Display: Building textures: Texture2D_222 (BGRA8, 32X32)
+[2018.04.19-22.09.50:757][336]LogTexture:Display: Building textures: Texture2D_223 (BGRA8, 32X32)
+[2018.04.19-22.09.50:788][336]LogTexture:Display: Building textures: Texture2D_224 (BGRA8, 32X32)
+[2018.04.19-22.09.50:814][336]LogTexture:Display: Building textures: Texture2D_225 (BGRA8, 32X32)
+[2018.04.19-22.09.50:839][336]LogTexture:Display: Building textures: Texture2D_226 (BGRA8, 32X32)
+[2018.04.19-22.09.50:867][336]LogTexture:Display: Building textures: Texture2D_227 (BGRA8, 32X32)
+[2018.04.19-22.09.50:894][336]LogTexture:Display: Building textures: Texture2D_228 (BGRA8, 32X32)
+[2018.04.19-22.09.50:922][336]LogTexture:Display: Building textures: Texture2D_229 (BGRA8, 32X32)
+[2018.04.19-22.09.50:946][336]LogTexture:Display: Building textures: Texture2D_230 (BGRA8, 32X32)
+[2018.04.19-22.09.50:976][336]LogTexture:Display: Building textures: Texture2D_231 (BGRA8, 32X32)
+[2018.04.19-22.09.51:009][336]LogTexture:Display: Building textures: Texture2D_232 (BGRA8, 32X32)
+[2018.04.19-22.09.51:042][336]LogTexture:Display: Building textures: Texture2D_233 (BGRA8, 32X32)
+[2018.04.19-22.09.51:071][336]LogTexture:Display: Building textures: Texture2D_234 (BGRA8, 32X32)
+[2018.04.19-22.09.51:099][336]LogTexture:Display: Building textures: Texture2D_235 (BGRA8, 32X32)
+[2018.04.19-22.09.51:124][336]LogTexture:Display: Building textures: Texture2D_236 (BGRA8, 32X32)
+[2018.04.19-22.09.51:159][336]LogTexture:Display: Building textures: Texture2D_237 (BGRA8, 32X32)
+[2018.04.19-22.09.51:194][336]LogTexture:Display: Building textures: Texture2D_238 (BGRA8, 32X32)
+[2018.04.19-22.09.51:221][336]LogTexture:Display: Building textures: Texture2D_239 (BGRA8, 32X32)
+[2018.04.19-22.09.51:249][336]LogTexture:Display: Building textures: Texture2D_240 (BGRA8, 32X32)
+[2018.04.19-22.10.02:156][715]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.19-22.10.05:672][863]LogEditorViewport: Clicking Background
+[2018.04.19-22.10.14:235][508]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.19-22.10.14:279][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp:PersistentLevel.Distrito1_3_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp:PersistentLevel.Distrito1_3_Exp'
+[2018.04.19-22.10.14:280][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-22.10.14:280][508]PIE: New page: PIE session: Distrito1_3_Exp (Apr 20, 2018, 2:10:14 AM)
+[2018.04.19-22.10.14:280][508]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Exp
+[2018.04.19-22.10.14:391][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.110149s)
+[2018.04.19-22.10.14:392][508]LogAIModule: Creating AISystem for world Distrito1_3_Exp
+[2018.04.19-22.10.14:392][508]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2018.04.19-22.10.14:392][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Exp.Distrito1_3_Exp (0.111827s)
+[2018.04.19-22.10.14:431][508]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-22.10.14:449][508]LogInit: FAudioDevice initialized.
+[2018.04.19-22.10.14:492][508]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:514][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:515][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.19-22.10.14:515][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.19-22.10.14:529][508]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Exp.Distrito1_3_Exp up for play (max tick rate 144) at 2018.04.20-00.10.14
+[2018.04.19-22.10.14:533][508]LogWorld: Bringing up level for play took: 0.038911
+[2018.04.19-22.10.14:569][508]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito1_3_Exp -0.461
+[2018.04.19-22.10.14:569][508]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp:PersistentLevel.Distrito1_3_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp:PersistentLevel.Distrito1_3_Exp'
+[2018.04.19-22.10.14:580][508]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.04.19-22.10.31:605][ 21]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp:PersistentLevel.Distrito1_3_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp:PersistentLevel.Distrito1_3_Exp'
+[2018.04.19-22.10.31:660][ 21]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp:PersistentLevel.Distrito1_3_Exp' with GeneratedClass '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Distrito1_3_Exp.Distrito1_3_Exp:PersistentLevel.Distrito1_3_Exp'
+[2018.04.19-22.10.38:545][357]LogSavePackage: Save=2483.36ms
+[2018.04.19-22.10.38:545][357]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_3_Exp5FDFE48D45A7844A262CF48987FF0BCB.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap'
+[2018.04.19-22.10.38:558][357]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap
+[2018.04.19-22.13.19:703][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado6)
+[2018.04.19-22.13.24:191][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara12)
+[2018.04.19-22.13.29:464][392]Cmd: TRANSACTION UNDO
+[2018.04.19-22.13.29:464][392]LogEditorTransaction: Undo Move Actors
+[2018.04.19-22.13.32:666][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteria_doble3)
+[2018.04.19-22.13.46:726][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_estanteriarara11)
+[2018.04.19-22.13.47:384][740]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (edificio_rico_estanteriarara12)
+[2018.04.19-22.14.30:773][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube36)
+[2018.04.19-22.14.35:750][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_rico_pantallas_texturizado7)
+[2018.04.19-22.14.52:750][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube36)
+[2018.04.19-22.14.55:805][835]LogSavePackage: Save=2307.28ms
+[2018.04.19-22.14.55:805][835]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_3_Exp3162E7114EC91997892479B1E0E9B7B5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap'
+[2018.04.19-22.14.55:815][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap
+[2018.04.19-22.17.54:266][837]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.19-22.18.40:149][880]Cmd: TRANSACTION UNDO
+[2018.04.19-22.18.40:149][880]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2018.04.19-22.18.40:855][903]Cmd: TRANSACTION UNDO
+[2018.04.19-22.18.40:855][903]LogEditorTransaction: Undo Edit Brush Size
+[2018.04.19-22.18.41:337][936]Cmd: TRANSACTION UNDO
+[2018.04.19-22.18.41:337][936]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.19-22.19.25:785][343]Cmd: TRANSACTION UNDO
+[2018.04.19-22.19.25:785][343]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2018.04.19-22.19.25:829][343]LogTexture:Display: Building textures: Texture2D_38 (BGRA8, 32X32)
+[2018.04.19-22.19.25:865][343]LogTexture:Display: Building textures: Texture2D_51 (BGRA8, 32X32)
+[2018.04.19-22.20.46:723][ 98]LogTexture:Display: Building textures: Texture2D_51 (BGRA8, 32X32)
+[2018.04.19-22.20.46:725][ 98]LogTexture:Display: Building textures: Texture2D_50 (BGRA8, 32X32)
+[2018.04.19-22.20.46:726][ 98]LogTexture:Display: Building textures: Texture2D_38 (BGRA8, 32X32)
+[2018.04.19-22.20.46:726][ 98]LogTexture:Display: Building textures: Texture2D_37 (BGRA8, 32X32)
+[2018.04.19-22.20.48:585][ 98]LogSavePackage: Save=2450.69ms
+[2018.04.19-22.20.48:585][ 98]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_3_Exp3B0585FA4B41F6CFCF0149BAF49AD8AE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap'
+[2018.04.19-22.20.48:593][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap
+[2018.04.19-22.21.16:193][359]LogTexture:Display: Building textures: Texture2D_64 (BGRA8, 32X32)
+[2018.04.19-22.21.16:195][359]LogTexture:Display: Building textures: Texture2D_63 (BGRA8, 32X32)
+[2018.04.19-22.21.16:196][359]LogTexture:Display: Building textures: Texture2D_51 (BGRA8, 32X32)
+[2018.04.19-22.21.16:196][359]LogTexture:Display: Building textures: Texture2D_50 (BGRA8, 32X32)
+[2018.04.19-22.21.17:939][359]LogSavePackage: Save=2320.05ms
+[2018.04.19-22.21.17:939][359]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito1_3_Exp810AE28841660C221A84BCA22E64513E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap'
+[2018.04.19-22.21.17:947][359]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito1_3_Exp.umap
+[2018.04.19-22.21.19:483][437]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.19-22.21.19:842][438]Cmd: QUIT_EDITOR
+[2018.04.19-22.21.20:829][438]LogExit: Preparing to exit.
+[2018.04.19-22.21.21:530][438]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' was aborted.
+[2018.04.19-22.21.21:640][438]LogExit: Editor shut down
+[2018.04.19-22.21.21:644][438]LogExit: Transaction tracking system shut down
+[2018.04.19-22.21.21:932][438]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.19-22.21.21:933][438]LogExit: Object subsystem successfully closed.
+[2018.04.19-22.21.21:960][438]LogD3D11RHI: Shutdown
+[2018.04.19-22.21.21:960][438]LogD3D11RHI: CleanupD3DDevice
+[2018.04.19-22.21.22:182][438]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.19-22.21.22:239][438]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (532)
+[2018.04.19-22.21.22:239][438]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (530)
+[2018.04.19-22.21.22:239][438]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.04.19-22.21.22:239][438]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2018.04.19-22.21.22:255][438]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.04.19-22.21.22:255][438]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.04.19-22.21.22:255][438]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.04.19-22.21.22:255][438]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.04.19-22.21.22:255][438]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.04.19-22.21.22:256][438]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' was aborted.
+[2018.04.19-22.21.22:256][438]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' was aborted.
+[2018.04.19-22.21.22:256][438]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' was aborted.
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.04.19-22.21.22:256][438]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.04.19-22.21.22:258][438]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.04.19-22.21.22:259][438]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.04.19-22.21.22:613][438]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.04.19-22.21.22:613][438]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.04.19-22.21.22:613][438]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.04.19-22.21.22:613][438]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.04.19-22.21.22:613][438]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.04.19-22.21.22:613][438]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.04.19-22.21.22:613][438]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.04.19-22.21.22:613][438]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.04.19-22.21.22:615][438]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.04.19-22.21.22:615][438]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.04.19-22.21.22:615][438]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.04.19-22.21.22:615][438]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.04.19-22.21.22:615][438]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.04.19-22.21.22:615][438]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.04.19-22.21.22:615][438]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.04.19-22.21.22:615][438]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.04.19-22.21.22:615][438]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.04.19-22.21.22:616][438]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.04.19-22.21.22:616][438]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.04.19-22.21.22:616][438]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.04.19-22.21.22:616][438]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.04.19-22.21.22:616][438]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.04.19-22.21.22:654][438]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.04.19-22.21.22:654][438]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.04.19-22.21.22:708][438]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.04.19-22.21.22:708][438]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.04.19-22.21.22:708][438]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.04.19-22.21.22:709][438]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.04.19-22.21.22:709][438]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.04.19-22.21.22:709][438]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.04.19-22.21.22:709][438]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.04.19-22.21.22:709][438]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.04.19-22.21.22:709][438]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.04.19-22.21.22:709][438]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.04.19-22.21.22:715][438]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.04.19-22.21.22:715][438]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.04.19-22.21.22:715][438]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.04.19-22.21.22:715][438]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.04.19-22.21.22:715][438]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.04.19-22.21.22:715][438]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.04.19-22.21.22:715][438]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.04.19-22.21.22:717][438]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.04.19-22.21.22:838][438]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.04.19-22.21.22:839][438]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.04.19-22.21.22:839][438]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.04.19-22.21.22:839][438]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.04.19-22.21.22:839][438]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.04.19-22.21.22:839][438]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.04.19-22.21.22:839][438]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.04.19-22.21.22:839][438]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.04.19-22.21.22:841][438]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.04.19-22.21.22:841][438]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.04.19-22.21.22:841][438]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.04.19-22.21.22:842][438]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.04.19-22.21.22:842][438]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.04.19-22.21.22:842][438]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.04.19-22.21.22:842][438]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.04.19-22.21.22:842][438]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.04.19-22.21.22:842][438]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.04.19-22.21.22:942][438]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.04.19-22.21.23:043][438]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.04.19-22.21.23:043][438]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.04.19-22.21.23:043][438]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.04.19-22.21.23:043][438]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.04.19-22.21.23:043][438]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.04.19-22.21.23:043][438]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.04.19-22.21.23:048][438]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.04.19-22.21.23:048][438]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.04.19-22.21.23:048][438]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.04.19-22.21.23:048][438]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.04.19-22.21.23:055][438]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.04.19-22.21.23:055][438]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.04.19-22.21.23:072][438]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.04.19-22.21.23:077][438]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.04.19-22.21.23:077][438]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.04.19-22.21.23:077][438]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.04.19-22.21.23:077][438]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.04.19-22.21.23:077][438]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.04.19-22.21.23:077][438]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.04.19-22.21.23:241][438]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.19-22.21.23:241][438]LogDirectoryWatcher: A directory notification for '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' was aborted.
+[2018.04.19-22.21.23:241][438]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.19-22.21.23:241][438]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.04.19-22.21.23:249][438]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.04.19-22.21.23:252][438]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.04.19-22.21.23:252][438]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.04.19-22.21.23:252][438]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.04.19-22.21.23:252][438]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.04.19-22.21.23:252][438]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.04.19-22.21.23:252][438]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.04.19-22.21.23:252][438]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.04.19-22.21.23:252][438]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.19-22.21.23:253][438]LogDerivedDataCache: Shutdown
+[2018.04.19-22.21.23:254][438]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.19-22.21.23:254][438]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.19-22.21.23:254][438]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.19-22.21.23:276][438]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.19-22.21.23:276][438]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.19-22.21.23:276][438]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.19-22.21.23:276][438]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.19-22.21.23:276][438]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.19-22.21.23:276][438]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.19-22.21.23:276][438]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.19-22.21.23:277][438]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.19-22.21.23:278][438]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.19-22.21.23:278][438]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.19-22.21.23:278][438]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.19-22.21.23:278][438]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.19-22.21.23:278][438]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.19-22.21.23:278][438]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.19-22.21.23:278][438]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.19-22.21.23:303][438]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.19-22.21.23:304][438]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.19-22.21.23:304][438]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.19-22.21.23:304][438]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B24FB8331-4B69-0CE4-0C49-41B3FCB8C939%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=b8e2d62e46f8c18f476ba388f82d5b81%7C372cf09feb4c448981332750e16ea5a3%7C4df19abe-310a-492d-afeb-8a554a180440&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.19-22.21.23:337][438]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.19-22.21.23:339][438]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.19-22.21.23:339][438]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.19-22.21.23:339][438]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.19-22.21.23:340][438]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.19-22.21.23:341][438]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.19-22.21.23:341][438]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.19-22.21.23:341][438]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.19-22.21.23:341][438]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.19-22.21.23:346][438]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.19-22.21.23:346][438]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.19-22.21.23:346][438]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.19-22.21.23:346][438]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.19-22.21.23:346][438]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.19-22.21.23:346][438]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.19-22.21.23:346][438]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.19-22.21.23:346][438]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.19-22.21.23:346][438]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.19-22.21.23:346][438]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.19-22.21.23:348][438]LogExit: Exiting.
+[2018.04.19-22.21.23:394][438]Log file closed, 04/20/18 00:21:23
