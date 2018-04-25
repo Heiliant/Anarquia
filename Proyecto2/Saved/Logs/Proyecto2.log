@@ -2543,3 +2543,464 @@ LogInit: Object subsystem initialized
 [2018.04.25-17.59.41:141][903]LogStaticLightingSystem: Illumination: 25.7 sec (1.48 sec encoding lightmaps, 272 ms encoding shadowmaps)
 [2018.04.25-17.59.41:141][903]LogStaticLightingSystem: Lightmap texture memory:  7.9 MB (5.9 MB streaming, 2.0 MB non-streaming), 60 textures
 [2018.04.25-17.59.41:141][903]LogStaticLightingSystem: Shadowmap texture memory: 2.1 MB (1.5 MB streaming, 0.7 MB non-streaming), 30 textures
+[2018.04.25-17.59.50:798][903]DumpUnbuiltLightIteractions
+[2018.04.25-17.59.50:798][903]Lights with unbuilt interactions: 0
+[2018.04.25-17.59.50:798][903]
+[2018.04.25-17.59.50:798][903]Primitives with unbuilt interactions: 0
+[2018.04.25-17.59.50:813][904]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.25-17.59.50:813][904]MapCheck: New page: Distrito2_2_Exp - Apr 25, 2018, 9:59:50 PM
+[2018.04.25-17.59.50:821][904]MapCheck:Warning: Warning Gates10 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:821][904]MapCheck:Warning: Warning Gates14 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:821][904]MapCheck:Warning: Warning Gates2 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:821][904]MapCheck:Warning: Warning Gates16 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:821][904]MapCheck:Warning: Warning Gates13 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:821][904]MapCheck:Warning: Warning Gates3 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:822][904]MapCheck:Warning: Warning Gates17 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:822][904]MapCheck:Warning: Warning Gates1_266 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:822][904]MapCheck:Warning: Warning Gates5 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:822][904]MapCheck:Warning: Warning Gates6 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:822][904]MapCheck:Warning: Warning Gates7 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:822][904]MapCheck:Warning: Warning Gates8 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:822][904]MapCheck:Warning: Warning Gates9 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:822][904]MapCheck:Warning: Warning Gates12 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:822][904]MapCheck:Warning: Warning Gates15 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:822][904]MapCheck:Warning: Warning Gates18 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:822][904]MapCheck:Warning: Warning Gates19 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:823][904]MapCheck:Warning: Warning Gates4 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:823][904]MapCheck:Warning: Warning Gates11 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.50:823][904]MapCheck:Warning: Warning Gates20 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.51:086][904]MapCheck: Info Map check complete: 0 Error(s), 20 Warning(s), took 272.166ms to complete.
+[2018.04.25-18.01.15:073][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado)
+[2018.04.25-18.01.28:906][149]Cmd: DELETE
+[2018.04.25-18.01.28:906][149]Cmd: ACTOR DELETE
+[2018.04.25-18.01.28:908][149]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-18.01.28:928][149]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.04.25-18.01.31:398][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada8)
+[2018.04.25-18.01.54:024][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada8)
+[2018.04.25-18.06.37:671][253]LogSavePackage: Save=964.01ms
+[2018.04.25-18.06.37:671][253]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_Auto8E1EFE7304008158F8C4E5D86B65A0F7B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_Auto8.umap'
+[2018.04.25-18.06.37:675][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_Auto8.umap
+[2018.04.25-18.06.37:680][253]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito2_2_Exp' took 1.026
+[2018.04.25-18.06.37:680][253]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.026
+[2018.04.25-18.06.37:738][253]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData] ([1] browsable assets)...
+[2018.04.25-18.06.37:738][253]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData]
+[2018.04.25-18.06.37:864][253]LogSavePackage: Save=101.08ms
+[2018.04.25-18.06.37:865][253]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData_Auto8335E57AE4E2C477036AD91B66E64F380.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData_Auto8.uasset'
+[2018.04.25-18.06.37:868][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData_Auto8.uasset
+[2018.04.25-18.06.37:868][253]LogFileHelpers: Auto-saving content packages took 0.185
+[2018.04.25-18.06.44:699][358]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.08.34:797][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra50)
+[2018.04.25-18.09.11:183][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra66)
+[2018.04.25-18.09.13:417][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra67)
+[2018.04.25-18.09.21:458][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio17)
+[2018.04.25-18.09.23:544][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada9)
+[2018.04.25-18.09.54:158][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra59)
+[2018.04.25-18.10.18:353][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra69)
+[2018.04.25-18.10.18:916][660]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.10.21:544][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra69)
+[2018.04.25-18.10.23:661][124]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.10.25:102][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra69)
+[2018.04.25-18.10.35:387][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra69)
+[2018.04.25-18.10.36:045][234]Cmd: DELETE
+[2018.04.25-18.10.36:045][234]Cmd: ACTOR DELETE
+[2018.04.25-18.10.36:048][234]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-18.10.36:068][234]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.04.25-18.11.12:732][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio17)
+[2018.04.25-18.11.22:528][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra68)
+[2018.04.25-18.11.37:887][910]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.11.43:912][400]LogSavePackage: Save=1078.93ms
+[2018.04.25-18.11.43:912][400]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp61066D294ED02E040A961FAF262477B6.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-18.11.43:921][400]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-18.11.44:477][400]LogSavePackage: Save=464.52ms
+[2018.04.25-18.11.44:477][400]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData0CEA943748E950B365AF5CB79A56E4A6.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-18.11.44:485][400]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-18.12.16:267][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra50)
+[2018.04.25-18.12.29:511][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada9)
+[2018.04.25-18.12.34:250][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra66)
+[2018.04.25-18.12.52:245][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra70)
+[2018.04.25-18.21.45:753][112]LogSavePackage: Save=1041.54ms
+[2018.04.25-18.21.45:753][112]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_Auto9C0C6F7E44A8786CAA46C968FA931D777.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_Auto9.umap'
+[2018.04.25-18.21.45:756][112]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_Auto9.umap
+[2018.04.25-18.21.45:761][112]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito2_2_Exp' took 1.108
+[2018.04.25-18.21.45:761][112]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.108
+[2018.04.25-18.39.56:731][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra71)
+[2018.04.25-18.40.02:768][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra73)
+[2018.04.25-18.40.12:833][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja39)
+[2018.04.25-18.40.25:590][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja47)
+[2018.04.25-18.40.45:074][291]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.40.50:544][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio8)
+[2018.04.25-18.40.54:238][232]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.40.55:669][365]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio6)
+[2018.04.25-18.40.58:202][611]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.41.10:740][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra71)
+[2018.04.25-18.41.21:703][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja46)
+[2018.04.25-18.41.22:618][121]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja47)
+[2018.04.25-18.41.23:882][249]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja48)
+[2018.04.25-18.41.24:343][292]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja49)
+[2018.04.25-18.41.26:328][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja50)
+[2018.04.25-18.41.27:245][602]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja51)
+[2018.04.25-18.41.28:419][724]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja49)
+[2018.04.25-18.41.28:984][779]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja48)
+[2018.04.25-18.41.29:511][830]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja47)
+[2018.04.25-18.41.31:620][ 50]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja46)
+[2018.04.25-18.41.51:170][947]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.25-18.41.59:771][715]LogSavePackage: Save=998.86ms
+[2018.04.25-18.41.59:772][715]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp600A786141AC001B3FCDECAC6F7A82D3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-18.41.59:784][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-18.42.00:392][715]LogSavePackage: Save=489.19ms
+[2018.04.25-18.42.00:392][715]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataAB2227C3456DB0423BD3E68D72CE6061.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-18.42.00:398][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-18.42.15:125][153]LogSavePackage: Save=980.76ms
+[2018.04.25-18.42.15:126][153]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp06A8400A46E9CA45C33E0CB17CC2E1B9.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-18.42.15:129][153]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-18.42.15:756][153]LogSavePackage: Save=558.38ms
+[2018.04.25-18.42.15:756][153]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData8522B1114FA9B8EB4992359DCA6F9A92.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-18.42.15:762][153]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-18.42.19:025][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra75)
+[2018.04.25-18.42.53:730][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra77)
+[2018.04.25-18.43.00:036][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra78)
+[2018.04.25-18.43.12:240][532]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra76)
+[2018.04.25-18.43.12:936][584]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra77)
+[2018.04.25-18.43.13:422][630]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra78)
+[2018.04.25-18.43.26:963][941]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.43.30:455][187]LogSavePackage: Save=1053.96ms
+[2018.04.25-18.43.30:455][187]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp459BD2DB4A60DCE20090998FB88CA7DC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-18.43.30:463][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-18.43.30:979][187]LogSavePackage: Save=438.12ms
+[2018.04.25-18.43.30:979][187]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataE8CD0F114B1AF2A4E4B04083FDD63E15.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-18.43.30:986][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-18.44.24:593][ 84]MapCheck: New page: Map Check
+[2018.04.25-18.44.24:618][ 84]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.25-18.44.24:618][ 84]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.25-18.44.25:362][ 84]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.44.25:362][ 84]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.44.25:362][ 84]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.44.25:362][ 84]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.44.25:363][ 84]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.44.25:363][ 84]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.44.25:367][ 84]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.44.25:367][ 84]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.44.25:367][ 84]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.44.25:367][ 84]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.44.25:367][ 84]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.44.25:367][ 84]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.44.25:367][ 84]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.44.25:367][ 84]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.44.25:367][ 84]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.44.25:367][ 84]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.44.25:367][ 84]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.44.25:367][ 84]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.44.25:529][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.04.25-18.44.25:536][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, compiling. 
+[2018.04.25-18.44.25:543][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Suelodeprueba_Mat, compiling. 
+[2018.04.25-18.44.25:549][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.04.25-18.44.25:557][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy waterMat, compiling. 
+[2018.04.25-18.44.25:565][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy compuerta_rightMat, compiling. 
+[2018.04.25-18.44.25:572][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaskedUnlitSpriteMaterial, compiling. 
+[2018.04.25-18.44.25:580][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy compuerta_leftMat, compiling. 
+[2018.04.25-18.44.25:588][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy marcoPuertaMat, compiling. 
+[2018.04.25-18.44.25:596][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__2, compiling. 
+[2018.04.25-18.44.25:604][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificio_pobre_ancho_Mat, compiling. 
+[2018.04.25-18.44.25:611][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificiopobreescalera_Mat, compiling. 
+[2018.04.25-18.44.25:618][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificiopobrerepisa_Mat, compiling. 
+[2018.04.25-18.44.25:624][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy verjaTexture_Mat, compiling. 
+[2018.04.25-18.44.25:630][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy vallaTexture_Mat, compiling. 
+[2018.04.25-18.44.25:636][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy muroPiedraTexture_Mat, compiling. 
+[2018.04.25-18.44.25:641][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EdificioDelgado_MAT, compiling. 
+[2018.04.25-18.44.26:753][ 84]TextureStreamingBuild:Display: Compiling optional shaders took 1.228 seconds.
+[2018.04.25-18.44.26:764][ 84]LogLevel:Display: Export Material TexCoord Scales took 0.011 seconds.
+[2018.04.25-18.44.26:802][ 84]TextureStreamingBuild:Display: Build Texture Streaming took 0.038 seconds.
+[2018.04.25-18.44.26:825][ 84]LightingResults: New page: Lighting Build - Apr 25, 2018, 10:44:26 PM
+[2018.04.25-18.44.26:874][ 84]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.25-18.44.26:876][ 84]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.25-18.44.26:876][ 84]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.25-18.44.26:877][ 84]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.25-18.44.26:877][ 84]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1432
+[2018.04.25-18.44.31:386][ 84]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.04.25-18.44.31:387][ 84]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.25-18.44.31:387][ 84]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.25-18.44.31:387][ 84]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.25-18.44.31:387][ 84]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.25-18.44.31:387][ 84]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.25-18.44.31:606][ 84]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.04.25-18.44.31:606][ 84]MapCheck: New page: Distrito2_2_Exp - Apr 25, 2018, 10:44:31 PM
+[2018.04.25-18.44.31:612][ 84]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates10 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates14 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates2 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates16 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates13 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates3 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates17 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates1_266 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates5 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates6 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates7 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates8 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates9 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates12 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates15 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates18 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates19 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates4 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates11 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.31:613][ 84]MapCheck:Warning: Warning Gates20 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.44.36:812][ 84]MapCheck: Info Map check complete: 1 Error(s), 20 Warning(s), took 5,205.626ms to complete.
+[2018.04.25-18.44.36:834][ 84]LogEditorBuildUtils: Build time 0:12
+[2018.04.25-18.44.55:581][940]Job is a success!
+[2018.04.25-18.44.57:475][941]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 512X512)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 512X512)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 512X512)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 512X512)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap1_30 (AutoDXT, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_1_30 (DXT1, 128X128)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT, 64X64)
+[2018.04.25-18.44.57:476][941]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_93 (G8, 1024X128)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_94 (G8, 256X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_95 (G8, 1024X256)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_96 (G8, 1024X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_92 (G8, 1024X512)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_98 (G8, 256X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_99 (G8, 256X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_100 (G8, 256X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_91 (G8, 1024X512)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_101 (G8, 256X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_103 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_102 (G8, 256X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_104 (G8, 128X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_106 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_107 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_108 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_105 (G8, 256X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_109 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_111 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_110 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_112 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_113 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_114 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_116 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_115 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_117 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_118 (G8, 64X64)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_120 (G8, 32X32)
+[2018.04.25-18.44.57:676][941]LogTexture:Display: Building textures: ShadowMapTexture2D_119 (G8, 64X64)
+[2018.04.25-18.44.57:694][941]LogTexture:Display: Building textures: ShadowMapTexture2D_97 (G8, 1024X256)
+[2018.04.25-18.44.57:708][941]Lightmass on PC-JAVITO: 19.7 sec total, 495 ms importing, 280 ms setup, 1.49 sec photons, 17.4 sec processing, 0 ms extra exporting [676/676 mappings]. Threads: 2:02 min total, 1:30 min processing.
+[2018.04.25-18.44.57:795][941]LogStaticLightingSystem: Illumination: 30.9 sec (1.48 sec encoding lightmaps, 212 ms encoding shadowmaps)
+[2018.04.25-18.44.57:795][941]LogStaticLightingSystem: Lightmap texture memory:  8.5 MB (6.5 MB streaming, 2.0 MB non-streaming), 62 textures
+[2018.04.25-18.44.57:795][941]LogStaticLightingSystem: Shadowmap texture memory: 2.5 MB (1.8 MB streaming, 0.7 MB non-streaming), 30 textures
+[2018.04.25-18.45.03:404][941]DumpUnbuiltLightIteractions
+[2018.04.25-18.45.03:404][941]Lights with unbuilt interactions: 0
+[2018.04.25-18.45.03:404][941]
+[2018.04.25-18.45.03:404][941]Primitives with unbuilt interactions: 0
+[2018.04.25-18.45.03:422][942]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.25-18.45.03:422][942]MapCheck: New page: Distrito2_2_Exp - Apr 25, 2018, 10:45:03 PM
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates10 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates14 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates2 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates16 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates13 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates3 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates17 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates1_266 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates5 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates6 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates7 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates8 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates9 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates12 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates15 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates18 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates19 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates4 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:437][942]MapCheck:Warning: Warning Gates11 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:438][942]MapCheck:Warning: Warning Gates20 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-18.45.03:598][942]MapCheck: Info Map check complete: 0 Error(s), 20 Warning(s), took 175.343ms to complete.
+[2018.04.25-18.45.34:939][279]LogSavePackage: Save=993.49ms
+[2018.04.25-18.45.34:939][279]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_ExpA3935970406165A64DE114A84C9E3358.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-18.45.34:947][279]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-18.45.35:513][279]LogSavePackage: Save=483.97ms
+[2018.04.25-18.45.35:513][279]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataAE165EA54E8310EDF9620384DC4116E6.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-18.45.35:521][279]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-18.45.54:128][163]LogSavePackage: Save=1050.94ms
+[2018.04.25-18.45.54:128][163]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp629736CC42BDFBDFC53322BCC4BAFA6B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-18.45.54:133][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-18.45.54:702][163]LogSavePackage: Save=487.63ms
+[2018.04.25-18.45.54:702][163]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData5ED939D7481EC0F1A7B5FD8FF05A8C33.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-18.45.54:707][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-18.45.59:776][659]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.25-18.46.16:290][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra68)
+[2018.04.25-18.47.22:900][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra84)
+[2018.04.25-18.47.23:399][186]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra85)
+[2018.04.25-18.47.23:824][223]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra86)
+[2018.04.25-18.48.02:745][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra89)
+[2018.04.25-18.48.09:209][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra90)
+[2018.04.25-18.48.13:394][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra89)
+[2018.04.25-18.48.16:336][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra88)
+[2018.04.25-18.48.20:218][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra89)
+[2018.04.25-18.48.23:010][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra90)
+[2018.04.25-18.48.30:376][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra91)
+[2018.04.25-18.48.34:978][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra90)
+[2018.04.25-18.48.38:926][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra91)
+[2018.04.25-18.48.44:001][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra89)
+[2018.04.25-18.48.46:246][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra88)
+[2018.04.25-18.48.48:105][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra87)
+[2018.04.25-18.49.21:774][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra91)
+[2018.04.25-18.49.37:300][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra75)
+[2018.04.25-18.50.36:896][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra97)
+[2018.04.25-18.50.52:684][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada9)
+[2018.04.25-18.50.56:014][597]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.51.05:535][597]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.51.12:565][230]LogSavePackage: Save=1036.74ms
+[2018.04.25-18.51.12:565][230]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp8159D817444D4D42F3290A891C1E588E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-18.51.12:576][230]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-18.51.13:181][230]LogSavePackage: Save=492.56ms
+[2018.04.25-18.51.13:181][230]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData448D1CCC4EE2C3FDBDD196AB4A1D1594.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-18.51.13:185][230]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-18.51.58:331][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra97)
+[2018.04.25-18.52.08:997][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra97)
+[2018.04.25-18.52.31:664][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra66)
+[2018.04.25-18.52.42:887][456]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.25-18.53.39:541][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra96)
+[2018.04.25-18.54.18:927][289]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.54.20:216][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra99)
+[2018.04.25-18.54.21:463][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra98)
+[2018.04.25-18.54.22:021][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra99)
+[2018.04.25-18.54.25:871][940]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.54.36:842][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja27)
+[2018.04.25-18.55.07:168][ 30]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.04.25-18.55.07:944][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja61)
+[2018.04.25-18.55.19:891][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja62)
+[2018.04.25-18.55.29:711][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja63)
+[2018.04.25-18.55.35:785][939]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.55.38:340][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja63)
+[2018.04.25-18.55.43:222][632]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-18.55.44:862][686]LogSavePackage: Save=1040.65ms
+[2018.04.25-18.55.44:862][686]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_ExpCB6E8153412C4C9D6DC644BDC398956A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-18.55.44:869][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-18.55.45:481][686]LogSavePackage: Save=537.15ms
+[2018.04.25-18.55.45:481][686]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataE47540954C8EE0B5C89DA899084251BB.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-18.55.45:486][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-18.56.19:669][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (valla9)
+[2018.04.25-18.56.21:385][279]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.56.21:385][279]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.56.21:385][279]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.56.21:385][279]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.56.21:385][279]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.56.21:385][279]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.56.58:825][962]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.56.58:825][962]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.56.58:826][962]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.56.58:826][962]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.56.58:826][962]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.56.58:826][962]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.57.02:272][299]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.57.02:272][299]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.57.02:272][299]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.57.02:272][299]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.57.02:272][299]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.57.02:272][299]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.57.05:935][668]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.57.05:935][668]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.57.05:935][668]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.57.05:935][668]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.57.05:935][668]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.57.05:935][668]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.57.09:234][  2]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.57.09:234][  2]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.57.09:234][  2]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.57.09:234][  2]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.57.09:234][  2]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-18.57.09:235][  2]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-18.57.19:465][974]LogSavePackage: Save=1040.27ms
+[2018.04.25-18.57.19:465][974]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp5EED2A3E4F58409D2EE56FA741C7B3D4.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-18.57.19:473][974]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-18.57.20:075][974]LogSavePackage: Save=511.53ms
+[2018.04.25-18.57.20:075][974]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData6164B6B54F37FC2DC8E8EBA5ED299303.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-18.57.20:080][974]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-18.57.53:325][974]LogSavePackage: Save=999.97ms
+[2018.04.25-18.57.53:325][974]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp0D6D800C44C33C52E84FF7A28D9762E7.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-18.57.53:330][974]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-18.57.53:940][974]LogSavePackage: Save=527.14ms
+[2018.04.25-18.57.53:940][974]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData9392363648CC9BB149941A840D224B7E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-18.57.53:948][974]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-19.39.29:247][631]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-19.47.57:312][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada3)
+[2018.04.25-19.48.29:559][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio17)
+[2018.04.25-19.49.01:170][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado)
+[2018.04.25-19.49.34:052][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.25-19.49.46:493][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra79)
+[2018.04.25-19.50.32:314][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra100)
+[2018.04.25-19.50.47:631][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra103)
+[2018.04.25-19.50.50:966][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra102)
+[2018.04.25-19.50.55:855][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra103)
+[2018.04.25-19.50.57:960][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra104)
+[2018.04.25-19.51.15:980][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra104)
+[2018.04.25-19.51.24:753][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra105)
+[2018.04.25-19.51.25:867][978]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra104)
+[2018.04.25-19.51.26:376][ 25]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra103)
+[2018.04.25-19.51.26:875][ 73]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra102)
+[2018.04.25-19.51.27:331][116]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra100)
+[2018.04.25-19.51.28:557][243]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra101)
+[2018.04.25-19.51.33:273][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra105)
+[2018.04.25-19.52.17:325][ 95]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-19.52.49:300][483]LogSavePackage: Save=1057.23ms
+[2018.04.25-19.52.49:300][483]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_Auto092641B3640D3FBB88869D69E8E5E2B75.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_Auto0.umap'
+[2018.04.25-19.52.49:304][483]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_Auto0.umap
+[2018.04.25-19.52.49:309][483]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito2_2_Exp' took 1.108
+[2018.04.25-19.52.49:309][483]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.108
