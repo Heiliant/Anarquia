@@ -3004,3 +3004,1128 @@ LogInit: Object subsystem initialized
 [2018.04.25-19.52.49:304][483]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_Auto0.umap
 [2018.04.25-19.52.49:309][483]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito2_2_Exp' took 1.108
 [2018.04.25-19.52.49:309][483]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.108
+[2018.04.25-19.53.59:591][753]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-19.54.17:590][671]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.25-19.54.25:501][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra75)
+[2018.04.25-19.54.31:378][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja53)
+[2018.04.25-19.54.32:402][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja52)
+[2018.04.25-19.54.32:771][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra75)
+[2018.04.25-19.55.08:811][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra114)
+[2018.04.25-19.55.10:933][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra113)
+[2018.04.25-19.55.13:071][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra114)
+[2018.04.25-19.55.15:242][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra116)
+[2018.04.25-19.55.17:060][647]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-19.56.46:143][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio11)
+[2018.04.25-19.58.00:207][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra98)
+[2018.04.25-19.58.57:399][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio17)
+[2018.04.25-19.59.00:519][416]LogSavePackage: Save=1018.41ms
+[2018.04.25-19.59.00:519][416]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp87103332485000E45BD7978939423A19.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-19.59.00:526][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-19.59.01:086][416]LogSavePackage: Save=471.40ms
+[2018.04.25-19.59.01:086][416]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData702840BD414E11766D7FBA9A4D0F5B76.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-19.59.01:091][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-19.59.12:706][568]LogSavePackage: Save=1086.02ms
+[2018.04.25-19.59.12:708][568]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_ExpB6DE5E7A414BB771D2EC5C8028F79668.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-19.59.12:712][568]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-19.59.13:265][568]LogSavePackage: Save=483.47ms
+[2018.04.25-19.59.13:265][568]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData5BDBFBCA48BB6D6ADB40ECBAB436ACCE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-19.59.13:270][568]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-19.59.30:612][480]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates13)
+[2018.04.25-20.00.31:818][113]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.00.32:169][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra53)
+[2018.04.25-20.01.28:849][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja58)
+[2018.04.25-20.01.55:388][902]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja65)
+[2018.04.25-20.01.55:727][924]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja64)
+[2018.04.25-20.02.12:550][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja69)
+[2018.04.25-20.03.20:878][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra124)
+[2018.04.25-20.03.44:185][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio21)
+[2018.04.25-20.04.13:268][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio22)
+[2018.04.25-20.04.15:201][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio22)
+[2018.04.25-20.04.18:986][490]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.04.22:537][733]LogSavePackage: Save=1046.33ms
+[2018.04.25-20.04.22:537][733]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp20DD030242792BBB5C4AE1A59BF5E3B8.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-20.04.22:548][733]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-20.04.23:132][733]LogSavePackage: Save=496.09ms
+[2018.04.25-20.04.23:133][733]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData6761ED894C98DECE644104ABC399201E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-20.04.23:138][733]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-20.04.34:688][934]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-20.04.34:724][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-20.04.34:724][934]PIE: New page: PIE session: Distrito2_2_Exp (Apr 26, 2018, 12:04:34 AM)
+[2018.04.25-20.04.34:724][934]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-20.04.34:800][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075264s)
+[2018.04.25-20.04.34:800][934]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-20.04.34:800][934]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2018.04.25-20.04.34:801][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.076571s)
+[2018.04.25-20.04.34:837][934]LogInit: XAudio2 using 'VX2757 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.25-20.04.34:847][934]LogInit: FAudioDevice initialized.
+[2018.04.25-20.04.34:884][934]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-20.04.34:897][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:897][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:898][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:898][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:898][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:898][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:900][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:900][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:900][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:900][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:900][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:900][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:900][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:900][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:900][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:900][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:900][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:900][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:908][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:908][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:908][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:908][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:908][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:908][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:908][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:908][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:908][934]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.04.34:908][934]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.04.34:911][934]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-22.04.34
+[2018.04.25-20.04.34:915][934]LogWorld: Bringing up level for play took: 0.029181
+[2018.04.25-20.04.34:923][934]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 0.925
+[2018.04.25-20.05.31:958][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra97)
+[2018.04.25-20.06.00:336][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra97)
+[2018.04.25-20.06.00:843][988]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.07.01:289][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado)
+[2018.04.25-20.07.48:267][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio14)
+[2018.04.25-20.14.34:517][822]LogSavePackage: Save=1069.79ms
+[2018.04.25-20.14.34:517][822]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_Auto13FEA0D2F4DEC586EBC6DDCBABC8AEDFF.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_Auto1.umap'
+[2018.04.25-20.14.34:521][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_Auto1.umap
+[2018.04.25-20.14.34:526][822]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito2_2_Exp' took 1.119
+[2018.04.25-20.14.34:526][822]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.119
+[2018.04.25-20.14.43:267][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio22)
+[2018.04.25-20.15.14:864][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio20)
+[2018.04.25-20.15.18:592][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio23)
+[2018.04.25-20.15.22:736][738]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Edificio24)
+[2018.04.25-20.15.25:529][945]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Edificio24)
+[2018.04.25-20.15.26:187][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio24)
+[2018.04.25-20.15.34:650][863]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Edificio24)
+[2018.04.25-20.15.38:174][ 95]Cmd: ACTOR MIRROR Y=-1
+[2018.04.25-20.15.39:886][280]Cmd: TRANSACTION UNDO
+[2018.04.25-20.15.39:886][280]LogEditorTransaction: Undo Mirroring Actors
+[2018.04.25-20.15.40:396][321]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Edificio24)
+[2018.04.25-20.15.45:326][694]Cmd: ACTOR MIRROR X=-1
+[2018.04.25-20.16.46:295][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra127)
+[2018.04.25-20.16.49:045][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra128)
+[2018.04.25-20.16.49:991][544]Cmd: DELETE
+[2018.04.25-20.16.49:991][544]Cmd: ACTOR DELETE
+[2018.04.25-20.16.49:993][544]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.16.50:013][544]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.04.25-20.16.53:581][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada9)
+[2018.04.25-20.17.25:508][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja27)
+[2018.04.25-20.17.33:894][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada12)
+[2018.04.25-20.17.42:414][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja74)
+[2018.04.25-20.17.58:945][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja74)
+[2018.04.25-20.18.06:586][193]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.25-20.18.08:866][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja75)
+[2018.04.25-20.18.10:725][538]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.18.12:004][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja74)
+[2018.04.25-20.18.13:113][788]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.18.13:512][825]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.18.13:914][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja75)
+[2018.04.25-20.18.45:510][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio24)
+[2018.04.25-20.18.47:477][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja77)
+[2018.04.25-20.18.49:043][343]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.18.51:339][454]LogSavePackage: Save=1148.08ms
+[2018.04.25-20.18.51:339][454]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp2D14387948DF060BADA5C393FF513DA5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-20.18.51:346][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-20.18.51:921][454]LogSavePackage: Save=490.94ms
+[2018.04.25-20.18.51:921][454]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataABEB81764328FD9F3214E79BF9304B3E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-20.18.51:926][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-20.18.59:086][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio22)
+[2018.04.25-20.19.32:822][536]Cmd: DELETE
+[2018.04.25-20.19.32:822][536]Cmd: ACTOR DELETE
+[2018.04.25-20.19.32:825][536]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.19.32:843][536]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.04.25-20.19.35:555][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado5)
+[2018.04.25-20.19.55:157][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado6)
+[2018.04.25-20.20.02:413][365]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra127)
+[2018.04.25-20.20.20:635][160]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.20.23:316][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra128)
+[2018.04.25-20.20.27:515][884]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.21.22:490][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra128)
+[2018.04.25-20.21.29:322][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado7)
+[2018.04.25-20.21.34:534][129]Cmd: DELETE
+[2018.04.25-20.21.34:534][129]Cmd: ACTOR DELETE
+[2018.04.25-20.21.34:536][129]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.21.34:558][129]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.04.25-20.21.38:379][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio19)
+[2018.04.25-20.21.52:423][872]Cmd: DELETE
+[2018.04.25-20.21.52:423][872]Cmd: ACTOR DELETE
+[2018.04.25-20.21.52:425][872]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.21.52:446][872]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.04.25-20.21.54:174][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra129)
+[2018.04.25-20.22.03:884][ 23]Cmd: TRANSACTION UNDO
+[2018.04.25-20.22.03:884][ 23]LogEditorTransaction: Undo Scale Actors
+[2018.04.25-20.22.09:808][641]Cmd: TRANSACTION UNDO
+[2018.04.25-20.22.09:808][641]LogEditorTransaction: Undo Rotate Actors
+[2018.04.25-20.22.10:586][711]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (muroPiedra130)
+[2018.04.25-20.22.12:725][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra131)
+[2018.04.25-20.22.15:100][ 95]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (muroPiedra130)
+[2018.04.25-20.22.17:081][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra131)
+[2018.04.25-20.22.17:452][267]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (muroPiedra131)
+[2018.04.25-20.22.22:127][606]Cmd: ACTOR MIRROR Y=-1
+[2018.04.25-20.22.32:559][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra130)
+[2018.04.25-20.22.37:272][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra132)
+[2018.04.25-20.22.37:865][167]Cmd: DELETE
+[2018.04.25-20.22.37:865][167]Cmd: ACTOR DELETE
+[2018.04.25-20.22.37:868][167]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.22.37:888][167]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.04.25-20.22.44:173][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio19)
+[2018.04.25-20.23.08:668][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja76)
+[2018.04.25-20.23.33:573][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja79)
+[2018.04.25-20.23.37:931][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja80)
+[2018.04.25-20.23.49:768][181]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.23.55:483][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja81)
+[2018.04.25-20.23.59:166][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja81)
+[2018.04.25-20.24.00:504][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja80)
+[2018.04.25-20.24.01:653][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja79)
+[2018.04.25-20.24.08:311][966]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.24.11:225][151]LogSavePackage: Save=1082.13ms
+[2018.04.25-20.24.11:225][151]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp44B4EDC4436BD9086F8329BD575CFD20.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-20.24.11:233][151]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-20.24.11:832][151]LogSavePackage: Save=503.16ms
+[2018.04.25-20.24.11:832][151]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataBD5CC58C4BE0EEB0E5262880FA94BC4A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-20.24.11:838][151]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-20.24.32:718][304]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-20.24.32:754][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-20.24.32:754][304]PIE: New page: PIE session: Distrito2_2_Exp (Apr 26, 2018, 12:24:32 AM)
+[2018.04.25-20.24.32:754][304]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-20.24.32:827][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072440s)
+[2018.04.25-20.24.32:828][304]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-20.24.32:828][304]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2018.04.25-20.24.32:828][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.073940s)
+[2018.04.25-20.24.32:856][304]LogInit: XAudio2 using 'VX2757 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.25-20.24.32:869][304]LogInit: FAudioDevice initialized.
+[2018.04.25-20.24.32:904][304]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-20.24.32:918][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:918][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:918][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:918][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:918][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:918][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:921][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:921][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:921][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:921][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:921][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:921][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:921][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:921][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:921][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:921][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:921][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:921][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:928][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:928][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:928][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:928][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:928][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:928][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:928][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:928][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:928][304]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.32:928][304]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.32:931][304]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-22.24.32
+[2018.04.25-20.24.32:934][304]LogWorld: Bringing up level for play took: 0.027893
+[2018.04.25-20.24.32:940][304]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 0.942
+[2018.04.25-20.24.39:823][964]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.04.25-20.24.41:913][187]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.25-20.24.43:237][322]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-20.24.43:273][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-20.24.43:273][322]PIE: New page: PIE session: Distrito2_2_Exp (Apr 26, 2018, 12:24:43 AM)
+[2018.04.25-20.24.43:274][322]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-20.24.43:350][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076216s)
+[2018.04.25-20.24.43:351][322]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-20.24.43:351][322]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2018.04.25-20.24.43:351][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.077377s)
+[2018.04.25-20.24.43:380][322]LogInit: XAudio2 using 'VX2757 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.25-20.24.43:387][322]LogInit: FAudioDevice initialized.
+[2018.04.25-20.24.43:422][322]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-20.24.43:435][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:435][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:435][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:435][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:435][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:435][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:437][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:437][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:437][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:437][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:437][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:437][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:437][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:437][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:437][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:437][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:437][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:437][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:445][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:445][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:445][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:445][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:445][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:445][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:445][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:445][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:445][322]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.24.43:445][322]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.24.43:448][322]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-22.24.43
+[2018.04.25-20.24.43:451][322]LogWorld: Bringing up level for play took: 0.027098
+[2018.04.25-20.24.43:456][322]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp -0.542
+[2018.04.25-20.24.56:216][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio22)
+[2018.04.25-20.24.59:671][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio21)
+[2018.04.25-20.25.24:793][431]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.25.26:751][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio26)
+[2018.04.25-20.25.34:027][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio23)
+[2018.04.25-20.25.42:852][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio26)
+[2018.04.25-20.25.48:268][783]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (muroPiedra124)
+[2018.04.25-20.25.49:331][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra127)
+[2018.04.25-20.26.06:989][523]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.26.08:441][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra132)
+[2018.04.25-20.26.11:751][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio26)
+[2018.04.25-20.26.21:516][894]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.26.23:314][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra132)
+[2018.04.25-20.28.25:829][133]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.28.40:009][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio22)
+[2018.04.25-20.29.10:959][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra133)
+[2018.04.25-20.29.14:265][901]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.29.17:986][129]LogSavePackage: Save=1095.95ms
+[2018.04.25-20.29.17:986][129]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp493D8EA14EB3DC265C35C1A3A01CD79B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-20.29.17:994][129]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-20.29.18:575][129]LogSavePackage: Save=486.36ms
+[2018.04.25-20.29.18:575][129]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData78120A80477D04BA683DCC917EA24C43.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-20.29.18:581][129]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-20.29.23:914][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra128)
+[2018.04.25-20.30.01:627][205]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra138)
+[2018.04.25-20.30.02:240][234]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra137)
+[2018.04.25-20.30.02:830][290]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra136)
+[2018.04.25-20.30.03:435][347]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra135)
+[2018.04.25-20.30.04:081][406]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra134)
+[2018.04.25-20.30.20:846][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra140)
+[2018.04.25-20.30.23:153][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra141)
+[2018.04.25-20.30.27:762][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra142)
+[2018.04.25-20.30.30:880][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra143)
+[2018.04.25-20.30.34:163][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra144)
+[2018.04.25-20.30.37:420][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra145)
+[2018.04.25-20.30.45:868][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra139)
+[2018.04.25-20.30.49:715][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra139)
+[2018.04.25-20.30.53:377][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra138)
+[2018.04.25-20.30.55:515][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra137)
+[2018.04.25-20.30.58:314][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra136)
+[2018.04.25-20.31.00:235][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra135)
+[2018.04.25-20.31.05:509][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra139)
+[2018.04.25-20.31.10:790][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra138)
+[2018.04.25-20.31.13:763][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra137)
+[2018.04.25-20.31.16:102][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra136)
+[2018.04.25-20.31.18:891][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra135)
+[2018.04.25-20.31.21:326][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra134)
+[2018.04.25-20.31.24:092][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra135)
+[2018.04.25-20.31.30:981][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra147)
+[2018.04.25-20.31.31:763][398]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra139)
+[2018.04.25-20.31.32:153][431]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra138)
+[2018.04.25-20.31.32:960][505]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra136)
+[2018.04.25-20.31.33:371][541]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra135)
+[2018.04.25-20.31.34:589][640]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra134)
+[2018.04.25-20.31.35:440][724]Cmd: DELETE
+[2018.04.25-20.31.35:440][724]Cmd: ACTOR DELETE
+[2018.04.25-20.31.35:442][724]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.31.35:443][724]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.31.35:443][724]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.31.35:444][724]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.31.35:444][724]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.31.35:444][724]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.31.35:463][724]LogEditorActor: Deleted 6 Actors (0.024 secs)
+[2018.04.25-20.31.36:909][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra137)
+[2018.04.25-20.31.37:584][959]Cmd: DELETE
+[2018.04.25-20.31.37:584][959]Cmd: ACTOR DELETE
+[2018.04.25-20.31.37:587][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.31.37:604][959]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.04.25-20.31.39:947][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra146)
+[2018.04.25-20.31.40:462][227]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra145)
+[2018.04.25-20.31.40:857][261]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra144)
+[2018.04.25-20.31.41:261][297]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra143)
+[2018.04.25-20.31.41:682][335]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra142)
+[2018.04.25-20.31.42:090][371]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra141)
+[2018.04.25-20.31.42:486][406]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra140)
+[2018.04.25-20.32.19:758][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra161)
+[2018.04.25-20.32.24:159][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado7)
+[2018.04.25-20.32.35:881][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio27)
+[2018.04.25-20.33.12:623][881]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.33.15:407][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado7)
+[2018.04.25-20.35.08:355][ 68]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush60)
+[2018.04.25-20.35.13:252][481]Cmd: ACTOR MIRROR Z=-1
+[2018.04.25-20.35.19:180][ 38]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush60)
+[2018.04.25-20.35.24:476][435]Cmd: ACTOR MIRROR X=-1
+[2018.04.25-20.35.25:944][577]Cmd: TRANSACTION UNDO
+[2018.04.25-20.35.25:944][577]LogEditorTransaction: Undo Mirroring Actors
+[2018.04.25-20.35.25:969][577]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp:PersistentLevel.BoxBrush12.BrushComponent0) Component already registered.
+[2018.04.25-20.35.25:970][577]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2018.04.25-20.35.25:970][577]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp:PersistentLevel.LinearStairBrush3.BrushComponent0) Component already registered.
+[2018.04.25-20.35.25:971][577]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp:PersistentLevel.BoxBrush18.BrushComponent0) Component already registered.
+[2018.04.25-20.35.25:983][577]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp:PersistentLevel.BoxBrush47.BrushComponent0) Component already registered.
+[2018.04.25-20.35.25:983][577]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp:PersistentLevel.BoxBrush42_44.BrushComponent0) Component already registered.
+[2018.04.25-20.35.25:984][577]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp:PersistentLevel.BoxBrush56.BrushComponent0) Component already registered.
+[2018.04.25-20.35.25:984][577]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp:PersistentLevel.BoxBrush52.BrushComponent0) Component already registered.
+[2018.04.25-20.35.25:985][577]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp:PersistentLevel.BoxBrush27_24.BrushComponent0) Component already registered.
+[2018.04.25-20.35.25:985][577]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp:PersistentLevel.BoxBrush30.BrushComponent0) Component already registered.
+[2018.04.25-20.35.25:986][577]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp:PersistentLevel.LinearStairBrush8.BrushComponent0) Component already registered.
+[2018.04.25-20.35.25:986][577]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp:PersistentLevel.LinearStairBrush6.BrushComponent0) Component already registered.
+[2018.04.25-20.35.26:401][603]Cmd: TRANSACTION UNDO
+[2018.04.25-20.35.26:401][603]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.04.25-20.35.33:188][151]Cmd: ACTOR MIRROR Y=-1
+[2018.04.25-20.35.43:599][ 57]Cmd: ACTOR MIRROR Y=-1
+[2018.04.25-20.36.21:138][702]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.37.11:728][574]LogSavePackage: Save=1505.67ms
+[2018.04.25-20.37.11:728][574]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp85872ADC4A7FAA8D923C2EB242D1BB89.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-20.37.11:736][574]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-20.37.12:310][574]LogSavePackage: Save=477.98ms
+[2018.04.25-20.37.12:310][574]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData6F7169DD41EC8A39E1B2D3B5FFD21C4B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-20.37.12:315][574]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-20.37.33:264][752]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-20.37.33:299][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-20.37.33:299][752]PIE: New page: PIE session: Distrito2_2_Exp (Apr 26, 2018, 12:37:33 AM)
+[2018.04.25-20.37.33:299][752]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-20.37.33:402][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102055s)
+[2018.04.25-20.37.33:402][752]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-20.37.33:403][752]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2018.04.25-20.37.33:403][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.103486s)
+[2018.04.25-20.37.33:446][752]LogInit: XAudio2 using 'VX2757 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.25-20.37.33:457][752]LogInit: FAudioDevice initialized.
+[2018.04.25-20.37.33:492][752]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-20.37.33:511][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:511][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:512][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:512][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:512][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:512][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:515][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:515][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:515][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:515][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:515][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:515][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:515][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:515][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:515][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:515][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:515][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:515][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:525][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:525][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:525][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:525][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:525][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:525][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:525][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:525][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:526][752]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-20.37.33:526][752]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-20.37.33:531][752]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-22.37.33
+[2018.04.25-20.37.33:536][752]LogWorld: Bringing up level for play took: 0.040198
+[2018.04.25-20.37.33:545][752]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp -0.454
+[2018.04.25-20.38.19:288][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada12)
+[2018.04.25-20.38.45:722][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada13)
+[2018.04.25-20.38.50:171][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada13)
+[2018.04.25-20.39.00:273][422]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (barraca_balcon_texturizada14)
+[2018.04.25-20.39.06:219][936]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (barraca_balcon_texturizada14)
+[2018.04.25-20.39.07:416][ 32]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (barraca_balcon_texturizada13)
+[2018.04.25-20.39.12:820][571]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.39.20:149][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio25)
+[2018.04.25-20.40.08:578][732]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.40.12:129][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio31)
+[2018.04.25-20.40.13:137][ 63]Cmd: DELETE
+[2018.04.25-20.40.13:137][ 63]Cmd: ACTOR DELETE
+[2018.04.25-20.40.13:140][ 63]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.40.13:159][ 63]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.04.25-20.40.16:928][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio30)
+[2018.04.25-20.40.17:527][569]Cmd: EDIT CUT
+[2018.04.25-20.40.17:535][569]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-20.40.17:553][569]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.04.25-20.40.19:110][755]Cmd: TRANSACTION UNDO
+[2018.04.25-20.40.19:110][755]LogEditorTransaction: Undo Cut
+[2018.04.25-20.40.19:554][786]Cmd: TRANSACTION UNDO
+[2018.04.25-20.40.19:555][786]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.25-20.40.19:986][834]Cmd: TRANSACTION UNDO
+[2018.04.25-20.40.19:986][834]LogEditorTransaction: Undo Delete Actors
+[2018.04.25-20.40.27:639][525]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.40.31:913][806]LogSavePackage: Save=1255.10ms
+[2018.04.25-20.40.31:913][806]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_ExpB381F411496F4D8805F5E8AB6DBDD308.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-20.40.31:921][806]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-20.40.32:504][806]LogSavePackage: Save=500.29ms
+[2018.04.25-20.40.32:504][806]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataEBE690CD4DF6081EECCEB8A52374817D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-20.40.32:509][806]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-20.40.45:816][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio25)
+[2018.04.25-20.41.18:139][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado8)
+[2018.04.25-20.41.23:588][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio33)
+[2018.04.25-20.41.38:998][601]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.41.58:926][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja76)
+[2018.04.25-20.42.37:623][  5]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja85)
+[2018.04.25-20.42.38:236][ 41]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja84)
+[2018.04.25-20.42.38:743][ 87]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja83)
+[2018.04.25-20.42.39:327][140]LogEditorViewport: Clicking on Actor (CTRL LMB): Gates1_C (Gates17)
+[2018.04.25-20.42.41:438][368]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja82)
+[2018.04.25-20.42.43:827][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja82)
+[2018.04.25-20.42.45:308][755]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja83)
+[2018.04.25-20.42.45:935][815]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja84)
+[2018.04.25-20.42.46:519][869]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja85)
+[2018.04.25-20.42.47:452][960]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja86)
+[2018.04.25-20.42.57:172][888]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-20.43.56:614][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja91)
+[2018.04.25-20.43.57:374][372]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja90)
+[2018.04.25-20.43.57:962][428]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja89)
+[2018.04.25-20.43.58:743][503]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja88)
+[2018.04.25-20.44.00:811][666]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja87)
+[2018.04.25-20.44.04:031][942]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja82)
+[2018.04.25-20.44.04:802][ 17]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja83)
+[2018.04.25-20.44.05:409][ 74]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja84)
+[2018.04.25-20.44.06:077][138]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja85)
+[2018.04.25-20.44.06:588][185]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (verja86)
+[2018.04.25-20.44.25:331][895]LogSavePackage: Save=1230.33ms
+[2018.04.25-20.44.25:331][895]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp07E56E5A4CD9A868FAC6B4989496BBDF.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-20.44.25:338][895]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-20.44.25:910][895]LogSavePackage: Save=478.48ms
+[2018.04.25-20.44.25:910][895]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData6C9E00E34D5806E994C71E92E5667ED7.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-20.44.25:914][895]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-21.44.36:877][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio31)
+[2018.04.25-21.44.40:232][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada15)
+[2018.04.25-21.44.53:390][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada16)
+[2018.04.25-21.44.54:101][497]Cmd: DELETE
+[2018.04.25-21.44.54:101][497]Cmd: ACTOR DELETE
+[2018.04.25-21.44.54:104][497]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-21.44.54:123][497]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.04.25-21.45.02:088][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio31)
+[2018.04.25-21.45.07:660][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio36)
+[2018.04.25-21.45.08:261][920]Cmd: DELETE
+[2018.04.25-21.45.08:261][920]Cmd: ACTOR DELETE
+[2018.04.25-21.45.08:264][920]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-21.45.08:283][920]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.04.25-21.45.11:181][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado8)
+[2018.04.25-21.45.46:459][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado11)
+[2018.04.25-21.45.47:076][470]Cmd: DELETE
+[2018.04.25-21.45.47:077][470]Cmd: ACTOR DELETE
+[2018.04.25-21.45.47:079][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-21.45.47:100][470]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.04.25-21.45.54:179][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra153)
+[2018.04.25-21.46.24:594][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra169)
+[2018.04.25-21.46.29:566][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra170)
+[2018.04.25-21.46.33:752][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra169)
+[2018.04.25-21.46.43:281][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra170)
+[2018.04.25-21.46.51:149][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra170)
+[2018.04.25-21.46.51:916][834]Cmd: DELETE
+[2018.04.25-21.46.51:916][834]Cmd: ACTOR DELETE
+[2018.04.25-21.46.51:919][834]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-21.46.51:938][834]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.04.25-21.46.52:905][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra169)
+[2018.04.25-21.47.22:275][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada15)
+[2018.04.25-21.48.13:459][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja93)
+[2018.04.25-21.49.32:435][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio30)
+[2018.04.25-21.50.05:514][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra172)
+[2018.04.25-21.50.40:831][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja97)
+[2018.04.25-21.50.51:315][493]Cmd: DELETE
+[2018.04.25-21.50.51:315][493]Cmd: ACTOR DELETE
+[2018.04.25-21.50.51:319][493]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-21.50.51:338][493]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.04.25-21.50.53:542][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja112)
+[2018.04.25-21.51.02:618][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja87)
+[2018.04.25-21.51.26:125][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra174)
+[2018.04.25-21.51.27:064][132]Cmd: DELETE
+[2018.04.25-21.51.27:064][132]Cmd: ACTOR DELETE
+[2018.04.25-21.51.27:067][132]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-21.51.27:088][132]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.04.25-21.51.27:555][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra175)
+[2018.04.25-21.51.27:641][188]Cmd: DELETE
+[2018.04.25-21.51.27:641][188]Cmd: ACTOR DELETE
+[2018.04.25-21.51.27:644][188]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-21.51.27:662][188]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.04.25-21.51.29:569][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio29)
+[2018.04.25-21.51.47:669][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra176)
+[2018.04.25-21.51.59:011][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado8)
+[2018.04.25-21.52.32:339][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio35)
+[2018.04.25-21.53.07:193][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado12)
+[2018.04.25-21.53.12:714][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio39)
+[2018.04.25-21.53.26:763][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio29)
+[2018.04.25-21.53.28:251][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada13)
+[2018.04.25-21.53.51:658][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio33)
+[2018.04.25-21.53.53:211][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio40)
+[2018.04.25-21.54.10:272][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio29)
+[2018.04.25-21.57.17:167][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra172)
+[2018.04.25-21.57.41:382][738]Cmd: DELETE
+[2018.04.25-21.57.41:382][738]Cmd: ACTOR DELETE
+[2018.04.25-21.57.41:385][738]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-21.57.41:405][738]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.04.25-21.57.42:320][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra175)
+[2018.04.25-21.57.45:670][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra174)
+[2018.04.25-21.57.46:266][153]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra175)
+[2018.04.25-21.57.56:342][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra175)
+[2018.04.25-21.58.04:134][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra175)
+[2018.04.25-21.58.05:880][136]Cmd: DELETE
+[2018.04.25-21.58.05:880][136]Cmd: ACTOR DELETE
+[2018.04.25-21.58.05:883][136]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-21.58.05:901][136]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.04.25-21.58.07:010][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra174)
+[2018.04.25-21.58.07:690][330]Cmd: DELETE
+[2018.04.25-21.58.07:690][330]Cmd: ACTOR DELETE
+[2018.04.25-21.58.07:693][330]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-21.58.07:713][330]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.04.25-21.58.10:380][631]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-21.58.14:023][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra180)
+[2018.04.25-21.58.18:971][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra181)
+[2018.04.25-21.58.22:205][828]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-21.58.24:382][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra180)
+[2018.04.25-21.58.55:397][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio40)
+[2018.04.25-21.59.00:673][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra184)
+[2018.04.25-21.59.06:779][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra183)
+[2018.04.25-21.59.18:148][293]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-21.59.24:944][869]LogSavePackage: Save=1278.39ms
+[2018.04.25-21.59.24:944][869]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp5FE4D8104E6FE2141B274C9A56310E38.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-21.59.24:953][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-21.59.25:548][869]LogSavePackage: Save=500.79ms
+[2018.04.25-21.59.25:548][869]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataA48AA2484FA4540F1D16DCA3FC0B9D27.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-21.59.25:553][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-21.59.47:845][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra147)
+[2018.04.25-21.59.48:827][140]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra148)
+[2018.04.25-21.59.49:739][219]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra149)
+[2018.04.25-21.59.50:540][287]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra150)
+[2018.04.25-21.59.51:133][335]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra151)
+[2018.04.25-21.59.51:667][378]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra152)
+[2018.04.25-21.59.52:150][417]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra153)
+[2018.04.25-22.00.30:306][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra191)
+[2018.04.25-22.00.37:440][646]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-22.00.45:884][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra197)
+[2018.04.25-22.00.54:886][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra199)
+[2018.04.25-22.01.53:085][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra204)
+[2018.04.25-22.01.58:169][263]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra203)
+[2018.04.25-22.01.58:685][309]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra202)
+[2018.04.25-22.02.00:628][499]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra202)
+[2018.04.25-22.02.01:731][608]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra201)
+[2018.04.25-22.02.02:735][706]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra200)
+[2018.04.25-22.02.03:317][759]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra199)
+[2018.04.25-22.02.22:876][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada13)
+[2018.04.25-22.02.23:989][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra210)
+[2018.04.25-22.02.24:550][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra209)
+[2018.04.25-22.02.26:485][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra210)
+[2018.04.25-22.02.27:307][988]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (muroPiedra210)
+[2018.04.25-22.02.32:972][395]LogSavePackage: Save=1352.29ms
+[2018.04.25-22.02.32:972][395]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_ExpCC5583C4451294B8517B8A99B57E4378.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-22.02.32:981][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-22.02.33:586][395]LogSavePackage: Save=529.31ms
+[2018.04.25-22.02.33:586][395]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData0A9F24EF4C7715DA87E5FFA6E3B36620.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-22.02.33:591][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-22.02.48:788][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio8)
+[2018.04.25-22.02.53:093][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio21)
+[2018.04.25-22.03.01:227][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada12)
+[2018.04.25-22.03.09:130][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada18)
+[2018.04.25-22.03.26:614][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio15)
+[2018.04.25-22.03.28:404][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio15)
+[2018.04.25-22.03.41:740][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado4)
+[2018.04.25-22.03.56:547][269]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-22.04.00:936][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio20)
+[2018.04.25-22.04.05:753][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada11)
+[2018.04.25-22.04.10:920][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado3)
+[2018.04.25-22.10.22:319][557]LogSavePackage: Save=1373.69ms
+[2018.04.25-22.10.22:319][557]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_ExpD0D886EA4E0AD91956CCB6899303651A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-22.10.22:326][557]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-22.10.22:397][557]LogFileHelpers: Saving map 'Distrito2_2_Exp' took 1.686
+[2018.04.25-22.11.42:483][580]Cmd: TRANSACTION UNDO
+[2018.04.25-22.11.42:483][580]LogEditorTransaction: Undo Foliage Editing
+[2018.04.25-22.13.26:942][135]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-22.13.26:977][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-22.13.26:978][135]PIE: New page: PIE session: Distrito2_2_Exp (Apr 26, 2018, 2:13:26 AM)
+[2018.04.25-22.13.26:978][135]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-22.13.27:067][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088739s)
+[2018.04.25-22.13.27:068][135]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-22.13.27:068][135]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2018.04.25-22.13.27:069][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.090240s)
+[2018.04.25-22.13.27:102][135]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-22.13.27:112][135]LogInit: FAudioDevice initialized.
+[2018.04.25-22.13.27:147][135]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-22.13.27:159][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:159][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:160][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:160][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:160][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:160][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:162][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:162][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:162][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:162][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:162][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:162][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:162][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:162][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:162][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:162][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:162][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:162][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:169][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:169][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:169][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:169][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:169][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:169][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:169][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:169][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:169][135]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.13.27:169][135]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.13.27:177][135]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.26-00.13.27
+[2018.04.25-22.13.27:181][135]LogWorld: Bringing up level for play took: 0.032511
+[2018.04.25-22.13.27:187][135]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 1.189
+[2018.04.25-22.14.44:300][625]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-22.14.47:300][873]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.04.25-22.15.00:885][311]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.04.25-22.15.00:901][311]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.04.25-22.15.00:937][311]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.04.25-22.15.00:982][311]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.04.25-22.15.01:039][311]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.04.25-22.15.01:098][311]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.04.25-22.15.01:155][311]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.04.25-22.15.01:214][311]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.04.25-22.15.01:275][311]LogMaterial: Missing cached shader map for material LandsCape_MAT, compiling. 
+[2018.04.25-22.15.05:135][490]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2018.04.25-22.15.05:201][490]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2018.04.25-22.15.05:230][490]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2018.04.25-22.15.05:261][490]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2018.04.25-22.15.05:291][490]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2018.04.25-22.15.05:319][490]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2018.04.25-22.15.05:351][490]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2018.04.25-22.15.05:380][490]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2018.04.25-22.15.05:408][490]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2018.04.25-22.15.05:439][490]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2018.04.25-22.15.05:467][490]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2018.04.25-22.15.36:160][677]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2018.04.25-22.15.36:187][677]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2018.04.25-22.15.36:213][677]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2018.04.25-22.15.36:314][679]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2018.04.25-22.15.37:981][788]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2018.04.25-22.15.38:665][811]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2018.04.25-22.15.41:605][993]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2018.04.25-22.15.41:726][996]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2018.04.25-22.15.41:837][999]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2018.04.25-22.15.42:863][ 46]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 64X64)
+[2018.04.25-22.19.28:385][284]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2018.04.25-22.19.28:388][284]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2018.04.25-22.19.28:388][284]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2018.04.25-22.19.28:389][284]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2018.04.25-22.19.28:389][284]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2018.04.25-22.19.28:390][284]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 64X64)
+[2018.04.25-22.19.28:390][284]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2018.04.25-22.19.28:391][284]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2018.04.25-22.19.28:392][284]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2018.04.25-22.19.28:392][284]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2018.04.25-22.19.28:393][284]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2018.04.25-22.19.28:393][284]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2018.04.25-22.19.28:394][284]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2018.04.25-22.19.28:394][284]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2018.04.25-22.19.28:395][284]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2018.04.25-22.19.28:395][284]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2018.04.25-22.19.28:396][284]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2018.04.25-22.19.28:396][284]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2018.04.25-22.19.28:397][284]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2018.04.25-22.19.28:397][284]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2018.04.25-22.19.28:398][284]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2018.04.25-22.19.29:648][284]LogSavePackage: Save=1482.45ms
+[2018.04.25-22.19.29:648][284]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_ExpE690EDC1494197AC194A389BF430C2F8.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-22.19.29:659][284]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-22.19.30:253][284]LogSavePackage: Save=500.08ms
+[2018.04.25-22.19.30:253][284]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData2863179B4ED05B934F691FAAADA8C5AC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-22.19.30:259][284]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-22.19.34:563][513]LogSavePackage: Save=1428.48ms
+[2018.04.25-22.19.34:563][513]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_ExpE3807F9C4FCE33867732F892DF62043C.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-22.19.34:568][513]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-22.19.35:178][513]LogSavePackage: Save=537.98ms
+[2018.04.25-22.19.35:178][513]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData3539A33C4133367C7B6D2DBCDE47F810.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-22.19.35:183][513]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-22.19.42:180][857]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-22.19.42:214][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-22.19.42:214][857]PIE: New page: PIE session: Distrito2_2_Exp (Apr 26, 2018, 2:19:42 AM)
+[2018.04.25-22.19.42:215][857]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-22.19.42:307][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092521s)
+[2018.04.25-22.19.42:308][857]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-22.19.42:308][857]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2018.04.25-22.19.42:308][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.093809s)
+[2018.04.25-22.19.42:353][857]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-22.19.42:363][857]LogInit: FAudioDevice initialized.
+[2018.04.25-22.19.42:397][857]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-22.19.42:412][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:412][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:412][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:412][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:412][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:412][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:414][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:414][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:414][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:414][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:415][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:415][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:415][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:415][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:415][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:415][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:415][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:415][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:422][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:422][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:422][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:422][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:422][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:422][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:422][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:422][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:422][857]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.19.42:422][857]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.19.42:431][857]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.26-00.19.42
+[2018.04.25-22.19.42:434][857]LogWorld: Bringing up level for play took: 0.035785
+[2018.04.25-22.19.42:441][857]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 0.443
+[2018.04.25-22.20.19:829][175]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-22.20.19:863][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-22.20.19:864][175]PIE: New page: PIE session: Distrito2_2_Exp (Apr 26, 2018, 2:20:19 AM)
+[2018.04.25-22.20.19:864][175]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-22.20.19:965][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.101285s)
+[2018.04.25-22.20.19:966][175]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-22.20.19:966][175]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2018.04.25-22.20.19:967][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.102635s)
+[2018.04.25-22.20.19:995][175]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-22.20.20:004][175]LogInit: FAudioDevice initialized.
+[2018.04.25-22.20.20:043][175]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-22.20.20:055][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:056][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:056][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:056][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:056][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:056][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:058][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:058][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:058][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:058][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:058][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:058][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:058][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:058][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:058][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:058][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:058][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:058][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:065][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:065][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:065][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:065][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:066][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:066][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:066][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:066][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:066][175]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-22.20.20:066][175]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-22.20.20:074][175]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.26-00.20.20
+[2018.04.25-22.20.20:077][175]LogWorld: Bringing up level for play took: 0.033318
+[2018.04.25-22.20.20:083][175]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 0.085
+[2018.04.25-22.20.26:070][682]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2018.04.25-22.20.26:072][682]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2018.04.25-22.20.26:072][682]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2018.04.25-22.20.26:073][682]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2018.04.25-22.20.26:074][682]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2018.04.25-22.20.26:074][682]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2018.04.25-22.20.26:074][682]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2018.04.25-22.20.27:277][682]LogSavePackage: Save=1424.03ms
+[2018.04.25-22.20.27:277][682]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp095FB2C94EE48B2960D20B96B3D374C4.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-22.20.27:284][682]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-22.20.27:882][682]LogSavePackage: Save=518.76ms
+[2018.04.25-22.20.27:883][682]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataA15B97684308B0AF5EAE5E9E7E855906.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-22.20.27:888][682]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-22.20.29:226][744]Cmd: QUIT_EDITOR
+[2018.04.25-22.20.30:176][744]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.25-22.20.30:192][744]LogExit: Preparing to exit.
+[2018.04.25-22.20.30:638][744]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' was aborted.
+[2018.04.25-22.20.30:749][744]LogExit: Editor shut down
+[2018.04.25-22.20.30:752][744]LogExit: Transaction tracking system shut down
+[2018.04.25-22.20.30:985][744]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.25-22.20.30:985][744]LogExit: Object subsystem successfully closed.
+[2018.04.25-22.20.31:010][744]LogD3D11RHI: Shutdown
+[2018.04.25-22.20.31:010][744]LogD3D11RHI: CleanupD3DDevice
+[2018.04.25-22.20.31:204][744]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.25-22.20.31:250][744]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2018.04.25-22.20.31:250][744]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2018.04.25-22.20.31:250][744]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (530)
+[2018.04.25-22.20.31:250][744]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (528)
+[2018.04.25-22.20.31:250][744]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2018.04.25-22.20.31:250][744]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.04.25-22.20.31:250][744]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.04.25-22.20.31:250][744]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.04.25-22.20.31:251][744]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.04.25-22.20.31:251][744]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.04.25-22.20.31:251][744]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.04.25-22.20.31:251][744]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.04.25-22.20.31:251][744]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.04.25-22.20.31:251][744]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' was aborted.
+[2018.04.25-22.20.31:252][744]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' was aborted.
+[2018.04.25-22.20.31:252][744]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' was aborted.
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.04.25-22.20.31:252][744]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.04.25-22.20.31:430][744]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.04.25-22.20.31:430][744]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.04.25-22.20.31:430][744]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.04.25-22.20.31:430][744]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.04.25-22.20.31:430][744]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.04.25-22.20.31:430][744]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.04.25-22.20.31:430][744]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.04.25-22.20.31:430][744]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.04.25-22.20.31:430][744]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.04.25-22.20.31:430][744]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.04.25-22.20.31:431][744]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.04.25-22.20.31:431][744]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.04.25-22.20.31:431][744]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.04.25-22.20.31:431][744]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.04.25-22.20.31:431][744]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.04.25-22.20.31:431][744]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.04.25-22.20.31:431][744]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.04.25-22.20.31:431][744]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.04.25-22.20.31:431][744]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.04.25-22.20.31:431][744]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.04.25-22.20.31:431][744]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.04.25-22.20.31:431][744]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.04.25-22.20.31:599][744]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.04.25-22.20.31:599][744]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.04.25-22.20.31:652][744]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.04.25-22.20.31:652][744]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.04.25-22.20.31:652][744]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.04.25-22.20.31:652][744]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.04.25-22.20.31:652][744]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.04.25-22.20.31:652][744]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.04.25-22.20.31:652][744]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.04.25-22.20.31:652][744]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.04.25-22.20.31:652][744]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.04.25-22.20.31:652][744]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.04.25-22.20.31:664][744]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.04.25-22.20.31:792][744]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.04.25-22.20.31:793][744]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.04.25-22.20.31:793][744]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.04.25-22.20.31:793][744]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.04.25-22.20.31:793][744]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.04.25-22.20.31:793][744]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.04.25-22.20.31:793][744]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.04.25-22.20.31:793][744]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.04.25-22.20.31:793][744]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.04.25-22.20.31:793][744]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.04.25-22.20.31:794][744]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.04.25-22.20.31:794][744]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.04.25-22.20.31:794][744]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.04.25-22.20.31:794][744]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.04.25-22.20.31:794][744]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.04.25-22.20.31:794][744]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.04.25-22.20.31:894][744]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.04.25-22.20.31:995][744]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.04.25-22.20.31:995][744]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.04.25-22.20.31:995][744]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.04.25-22.20.31:995][744]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.04.25-22.20.31:995][744]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.04.25-22.20.31:995][744]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.04.25-22.20.31:996][744]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.04.25-22.20.31:996][744]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.04.25-22.20.31:996][744]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.04.25-22.20.31:996][744]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.04.25-22.20.31:999][744]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.04.25-22.20.31:999][744]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.04.25-22.20.32:016][744]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.04.25-22.20.32:016][744]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.04.25-22.20.32:016][744]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.04.25-22.20.32:016][744]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.04.25-22.20.32:016][744]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.04.25-22.20.32:016][744]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.04.25-22.20.32:017][744]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.04.25-22.20.32:017][744]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.04.25-22.20.32:017][744]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.04.25-22.20.32:017][744]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.04.25-22.20.32:017][744]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.04.25-22.20.32:017][744]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.04.25-22.20.32:017][744]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.04.25-22.20.32:017][744]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.04.25-22.20.32:017][744]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.04.25-22.20.32:017][744]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.04.25-22.20.32:017][744]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.04.25-22.20.32:019][744]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.04.25-22.20.32:019][744]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.04.25-22.20.32:019][744]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.04.25-22.20.32:019][744]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.04.25-22.20.32:019][744]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.04.25-22.20.32:019][744]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.04.25-22.20.32:160][744]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.25-22.20.32:160][744]LogDirectoryWatcher: A directory notification for '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' was aborted.
+[2018.04.25-22.20.32:161][744]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.25-22.20.32:161][744]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.04.25-22.20.32:165][744]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.04.25-22.20.32:166][744]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.04.25-22.20.32:166][744]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.04.25-22.20.32:166][744]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.04.25-22.20.32:166][744]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.04.25-22.20.32:166][744]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.04.25-22.20.32:166][744]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.04.25-22.20.32:166][744]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.04.25-22.20.32:166][744]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.25-22.20.32:180][744]LogDerivedDataCache: Shutdown
+[2018.04.25-22.20.32:181][744]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.25-22.20.32:181][744]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.25-22.20.32:181][744]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.25-22.20.32:196][744]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.25-22.20.32:196][744]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.25-22.20.32:216][744]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.25-22.20.32:216][744]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.25-22.20.32:216][744]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.25-22.20.32:216][744]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8290B6E6-41A6-CF6F-DF8A-EDBFC9ACEB40%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=b8e2d62e46f8c18f476ba388f82d5b81%7C372cf09feb4c448981332750e16ea5a3%7C4df19abe-310a-492d-afeb-8a554a180440&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.25-22.20.32:238][744]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.25-22.20.32:240][744]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.25-22.20.32:240][744]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.25-22.20.32:240][744]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.25-22.20.32:240][744]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.25-22.20.32:240][744]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.25-22.20.32:240][744]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.25-22.20.32:240][744]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.25-22.20.32:240][744]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.25-22.20.32:242][744]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.25-22.20.32:242][744]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.25-22.20.32:242][744]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.25-22.20.32:242][744]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.25-22.20.32:242][744]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.25-22.20.32:242][744]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.25-22.20.32:242][744]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.25-22.20.32:242][744]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.25-22.20.32:242][744]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.25-22.20.32:242][744]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.25-22.20.32:245][744]LogExit: Exiting.
+[2018.04.25-22.20.32:275][744]Log file closed, 04/26/18 00:20:32
