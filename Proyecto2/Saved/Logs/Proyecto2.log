@@ -1401,3 +1401,1145 @@ LogInit: Object subsystem initialized
 [2018.04.25-16.45.08:936][701]LogSavePackage: Save=228.62ms
 [2018.04.25-16.45.08:936][701]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataFD29C6D2455E27296C6C688D3168FC9F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
 [2018.04.25-16.45.08:941][701]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-16.46.05:478][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja17)
+[2018.04.25-16.46.11:494][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada2)
+[2018.04.25-16.46.50:399][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra24)
+[2018.04.25-16.48.00:589][403]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra26)
+[2018.04.25-16.48.04:661][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra26)
+[2018.04.25-16.48.08:376][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra27)
+[2018.04.25-16.48.13:505][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra26)
+[2018.04.25-16.48.14:820][734]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra27)
+[2018.04.25-16.48.31:875][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra28)
+[2018.04.25-16.48.57:252][963]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-16.49.04:977][678]LogSavePackage: Save=895.86ms
+[2018.04.25-16.49.04:977][678]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp28112E234D829868EB2005A3CC16B5FE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-16.49.04:984][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-16.49.05:278][678]LogSavePackage: Save=218.23ms
+[2018.04.25-16.49.05:278][678]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataE061D5344D95E2E9A7572B91F4FA4E49.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-16.49.05:282][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-16.49.51:008][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio5)
+[2018.04.25-16.49.51:533][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio2)
+[2018.04.25-16.50.42:729][384]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.04.25-16.50.47:854][955]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.25-16.50.48:485][ 19]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-16.50.48:519][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-16.50.48:519][ 19]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 8:50:48 PM)
+[2018.04.25-16.50.48:520][ 19]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-16.50.48:598][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078181s)
+[2018.04.25-16.50.48:599][ 19]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-16.50.48:599][ 19]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2018.04.25-16.50.48:600][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.079757s)
+[2018.04.25-16.50.48:631][ 19]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-16.50.48:642][ 19]LogInit: FAudioDevice initialized.
+[2018.04.25-16.50.48:678][ 19]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-16.50.48:694][ 19]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.50.48:694][ 19]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.50.48:694][ 19]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.50.48:694][ 19]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.50.48:695][ 19]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.50.48:695][ 19]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.50.48:697][ 19]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.50.48:697][ 19]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.50.48:697][ 19]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.50.48:697][ 19]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.50.48:698][ 19]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.50.48:698][ 19]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.50.48:698][ 19]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.50.48:698][ 19]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.50.48:698][ 19]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.50.48:698][ 19]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.50.48:698][ 19]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.50.48:698][ 19]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.50.48:701][ 19]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-18.50.48
+[2018.04.25-16.50.48:705][ 19]LogWorld: Bringing up level for play took: 0.024767
+[2018.04.25-16.50.48:712][ 19]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 0.714
+[2018.04.25-16.51.12:024][671]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-16.51.12:060][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-16.51.12:060][671]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 8:51:12 PM)
+[2018.04.25-16.51.12:061][671]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-16.51.12:134][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073229s)
+[2018.04.25-16.51.12:135][671]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-16.51.12:135][671]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2018.04.25-16.51.12:135][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.074324s)
+[2018.04.25-16.51.12:162][671]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-16.51.12:171][671]LogInit: FAudioDevice initialized.
+[2018.04.25-16.51.12:205][671]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-16.51.12:220][671]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.12:220][671]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.12:220][671]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.12:220][671]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.12:220][671]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.12:220][671]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.12:223][671]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.12:223][671]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.12:224][671]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.12:224][671]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.12:224][671]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.12:224][671]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.12:224][671]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.12:224][671]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.12:224][671]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.12:224][671]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.12:224][671]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.12:224][671]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.12:227][671]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-18.51.12
+[2018.04.25-16.51.12:230][671]LogWorld: Bringing up level for play took: 0.023289
+[2018.04.25-16.51.12:238][671]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 0.24
+[2018.04.25-16.51.48:700][343]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-16.51.48:733][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-16.51.48:733][343]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 8:51:48 PM)
+[2018.04.25-16.51.48:734][343]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-16.51.48:798][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063523s)
+[2018.04.25-16.51.48:798][343]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-16.51.48:798][343]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2018.04.25-16.51.48:799][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.064564s)
+[2018.04.25-16.51.48:831][343]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-16.51.48:840][343]LogInit: FAudioDevice initialized.
+[2018.04.25-16.51.48:877][343]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-16.51.48:890][343]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.48:890][343]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.48:890][343]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.48:890][343]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.48:890][343]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.48:890][343]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.48:893][343]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.48:893][343]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.48:893][343]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.48:893][343]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.48:893][343]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.48:893][343]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.48:893][343]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.48:893][343]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.48:893][343]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.48:893][343]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.48:893][343]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.51.48:893][343]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.51.48:895][343]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-18.51.48
+[2018.04.25-16.51.48:897][343]LogWorld: Bringing up level for play took: 0.019144
+[2018.04.25-16.51.48:903][343]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 0.905
+[2018.04.25-16.51.56:724][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja6)
+[2018.04.25-16.54.07:155][864]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-16.54.07:190][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-16.54.07:190][864]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 8:54:07 PM)
+[2018.04.25-16.54.07:190][864]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-16.54.07:253][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062164s)
+[2018.04.25-16.54.07:253][864]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-16.54.07:253][864]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2018.04.25-16.54.07:254][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.063355s)
+[2018.04.25-16.54.07:279][864]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-16.54.07:289][864]LogInit: FAudioDevice initialized.
+[2018.04.25-16.54.07:320][864]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-16.54.07:333][864]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.07:333][864]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.07:333][864]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.07:333][864]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.07:333][864]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.07:333][864]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.07:335][864]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.07:335][864]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.07:335][864]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.07:335][864]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.07:335][864]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.07:335][864]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.07:335][864]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.07:335][864]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.07:335][864]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.07:335][864]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.07:335][864]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.07:335][864]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.07:338][864]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-18.54.07
+[2018.04.25-16.54.07:340][864]LogWorld: Bringing up level for play took: 0.018692
+[2018.04.25-16.54.07:346][864]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp -0.652
+[2018.04.25-16.54.13:086][444]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.04.25-16.54.13:836][444]LogSavePackage: Save=909.90ms
+[2018.04.25-16.54.13:836][444]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp9707C8D74754D0B9BE42639B0BBF8165.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-16.54.13:843][444]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-16.54.14:152][444]LogSavePackage: Save=221.14ms
+[2018.04.25-16.54.14:152][444]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData49F403034C65F2B80E8C419081D8F6E3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-16.54.14:156][444]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-16.54.14:774][485]MapCheck: New page: Map Check
+[2018.04.25-16.54.14:790][485]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.25-16.54.14:791][485]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.25-16.54.15:402][485]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.15:402][485]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.15:402][485]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.15:402][485]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.15:402][485]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.15:402][485]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.15:407][485]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.15:407][485]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.15:407][485]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.15:407][485]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.15:407][485]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.15:407][485]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.15:407][485]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.15:407][485]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.15:407][485]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.15:407][485]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.15:408][485]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.54.15:408][485]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.54.15:645][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.04.25-16.54.15:652][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.04.25-16.54.15:658][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Suelodeprueba_Mat, compiling. 
+[2018.04.25-16.54.15:663][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.04.25-16.54.15:770][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy waterMat, compiling. 
+[2018.04.25-16.54.15:783][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy compuerta_rightMat, compiling. 
+[2018.04.25-16.54.15:795][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy compuerta_leftMat, compiling. 
+[2018.04.25-16.54.15:801][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy marcoPuertaMat, compiling. 
+[2018.04.25-16.54.15:806][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaskedUnlitSpriteMaterial, compiling. 
+[2018.04.25-16.54.15:811][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__2, compiling. 
+[2018.04.25-16.54.15:817][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificio_pobre_ancho_Mat, compiling. 
+[2018.04.25-16.54.15:822][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificiopobreescalera_Mat, compiling. 
+[2018.04.25-16.54.15:828][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificiopobrerepisa_Mat, compiling. 
+[2018.04.25-16.54.15:834][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy verjaTexture_Mat, compiling. 
+[2018.04.25-16.54.15:841][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy vallaTexture_Mat, compiling. 
+[2018.04.25-16.54.15:847][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy muroPiedraTexture_Mat, compiling. 
+[2018.04.25-16.54.17:163][485]TextureStreamingBuild:Display: Compiling optional shaders took 1.524 seconds.
+[2018.04.25-16.54.17:182][485]LogLevel:Display: Export Material TexCoord Scales took 0.019 seconds.
+[2018.04.25-16.54.17:210][485]TextureStreamingBuild:Display: Build Texture Streaming took 0.028 seconds.
+[2018.04.25-16.54.17:227][485]LightingResults: New page: Lighting Build - Apr 25, 2018, 8:54:17 PM
+[2018.04.25-16.54.17:367][485]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.25-16.54.17:418][485]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.25-16.54.17:429][485]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.25-16.54.18:446][485]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.25-16.54.18:446][485]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1432
+[2018.04.25-16.54.22:915][485]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.04.25-16.54.22:915][485]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.25-16.54.22:915][485]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.25-16.54.22:915][485]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.25-16.54.22:915][485]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.25-16.54.22:915][485]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.25-16.54.23:191][485]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.04.25-16.54.23:191][485]MapCheck: New page: Distrito2_2_Exp - Apr 25, 2018, 8:54:23 PM
+[2018.04.25-16.54.23:193][485]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.04.25-16.54.23:201][485]MapCheck:Warning: Warning Gates10 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:201][485]MapCheck:Warning: Warning Gates14 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates2 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates16 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates13 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates3 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates17 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates1_266 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates5 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates6 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates7 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates8 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates9 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates12 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates15 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates18 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates19 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates4 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates11 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:202][485]MapCheck:Warning: Warning Gates20 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.23:397][485]MapCheck: Info Map check complete: 1 Error(s), 20 Warning(s), took 206.295ms to complete.
+[2018.04.25-16.54.23:419][485]LogEditorBuildUtils: Build time 0:08
+[2018.04.25-16.54.23:945][494]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__2, compiling. 
+[2018.04.25-16.54.23:981][494]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__2, compiling. 
+[2018.04.25-16.54.24:001][495]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer edificio_pobre_ancho_Mat, compiling. 
+[2018.04.25-16.54.24:007][495]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer edificio_pobre_ancho_Mat, compiling. 
+[2018.04.25-16.54.24:029][496]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer edificiopobreescalera_Mat, compiling. 
+[2018.04.25-16.54.24:038][496]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer edificiopobreescalera_Mat, compiling. 
+[2018.04.25-16.54.24:064][497]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer edificiopobrerepisa_Mat, compiling. 
+[2018.04.25-16.54.24:072][497]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer edificiopobrerepisa_Mat, compiling. 
+[2018.04.25-16.54.24:097][498]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer verjaTexture_Mat, compiling. 
+[2018.04.25-16.54.24:106][498]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer verjaTexture_Mat, compiling. 
+[2018.04.25-16.54.24:132][499]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer vallaTexture_Mat, compiling. 
+[2018.04.25-16.54.24:141][499]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer vallaTexture_Mat, compiling. 
+[2018.04.25-16.54.41:915][211]Job is a success!
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 128X128)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 128X128)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 256X256)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 256X256)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1, 128X128)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:355][212]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 256X256)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1, 256X256)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 256X256)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1, 256X256)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 256X256)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1, 256X256)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_30 (AutoDXT, 256X256)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_30 (DXT1, 256X256)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap1_31 (AutoDXT, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_1_31 (DXT1, 128X128)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT, 64X64)
+[2018.04.25-16.54.43:356][212]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (G8, 256X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (G8, 256X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (G8, 256X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (G8, 256X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (G8, 512X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (G8, 256X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (G8, 256X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (G8, 256X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (G8, 256X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (G8, 256X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (G8, 256X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (G8, 64X64)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (G8, 32X32)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (G8, 1024X512)
+[2018.04.25-16.54.43:530][212]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (G8, 1024X512)
+[2018.04.25-16.54.43:681][212]Lightmass on PC-JAVITO: 15.1 sec total, 721 ms importing, 255 ms setup, 1.33 sec photons, 12.7 sec processing, 0 ms extra exporting [575/575 mappings]. Threads: 1:29 min total, 1:05 min processing.
+[2018.04.25-16.54.43:747][212]LogStaticLightingSystem: Illumination: 26.4 sec (1.05 sec encoding lightmaps, 167 ms encoding shadowmaps)
+[2018.04.25-16.54.43:747][212]LogStaticLightingSystem: Lightmap texture memory:  5.9 MB (3.9 MB streaming, 2.0 MB non-streaming), 64 textures
+[2018.04.25-16.54.43:747][212]LogStaticLightingSystem: Shadowmap texture memory: 1.7 MB (1.0 MB streaming, 0.7 MB non-streaming), 30 textures
+[2018.04.25-16.54.44:927][212]DumpUnbuiltLightIteractions
+[2018.04.25-16.54.44:927][212]Lights with unbuilt interactions: 0
+[2018.04.25-16.54.44:927][212]
+[2018.04.25-16.54.44:927][212]Primitives with unbuilt interactions: 0
+[2018.04.25-16.54.44:936][213]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.25-16.54.44:936][213]MapCheck: New page: Distrito2_2_Exp - Apr 25, 2018, 8:54:44 PM
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates10 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates14 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates2 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates16 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates13 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates3 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates17 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates1_266 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates5 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates6 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates7 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates8 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates9 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:949][213]MapCheck:Warning: Warning Gates12 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:950][213]MapCheck:Warning: Warning Gates15 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:950][213]MapCheck:Warning: Warning Gates18 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:950][213]MapCheck:Warning: Warning Gates19 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:950][213]MapCheck:Warning: Warning Gates4 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:950][213]MapCheck:Warning: Warning Gates11 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.44:950][213]MapCheck:Warning: Warning Gates20 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-16.54.45:137][213]MapCheck: Info Map check complete: 0 Error(s), 20 Warning(s), took 201.55ms to complete.
+[2018.04.25-16.54.56:680][300]LogSavePackage: Save=894.16ms
+[2018.04.25-16.54.56:680][300]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp37F57E1B4CA7B5DE7B418AAE760BA595.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-16.54.56:688][300]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-16.54.57:104][300]LogSavePackage: Save=340.97ms
+[2018.04.25-16.54.57:104][300]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData8E0DAA91418D7E69C02440803061D005.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-16.54.57:111][300]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-16.55.24:015][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio5)
+[2018.04.25-16.55.26:908][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.25-16.55.27:703][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio12)
+[2018.04.25-16.55.28:376][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio5)
+[2018.04.25-16.55.28:968][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio12)
+[2018.04.25-16.55.51:627][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra2)
+[2018.04.25-16.56.00:143][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra32)
+[2018.04.25-16.56.11:280][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio12)
+[2018.04.25-16.56.13:495][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra32)
+[2018.04.25-16.56.19:964][463]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio12)
+[2018.04.25-16.56.27:447][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra2)
+[2018.04.25-16.56.40:662][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra3)
+[2018.04.25-16.56.45:692][718]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-16.56.55:835][592]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates3)
+[2018.04.25-16.57.04:987][398]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-16.57.05:023][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-16.57.05:024][398]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 8:57:05 PM)
+[2018.04.25-16.57.05:025][398]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-16.57.05:100][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075920s)
+[2018.04.25-16.57.05:101][398]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-16.57.05:101][398]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2018.04.25-16.57.05:102][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.077104s)
+[2018.04.25-16.57.05:131][398]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-16.57.05:142][398]LogInit: FAudioDevice initialized.
+[2018.04.25-16.57.05:179][398]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-16.57.05:193][398]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.05:193][398]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.05:194][398]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.05:194][398]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.05:194][398]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.05:194][398]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.05:196][398]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.05:196][398]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.05:196][398]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.05:196][398]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.05:196][398]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.05:196][398]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.05:196][398]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.05:196][398]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.05:196][398]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.05:196][398]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.05:196][398]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.05:196][398]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.05:199][398]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-18.57.05
+[2018.04.25-16.57.05:202][398]LogWorld: Bringing up level for play took: 0.021704
+[2018.04.25-16.57.05:207][398]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp -0.791
+[2018.04.25-16.57.08:480][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja22)
+[2018.04.25-16.57.11:684][891]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.04.25-16.57.13:007][  8]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.25-16.57.13:705][ 71]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-16.57.13:741][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-16.57.13:741][ 71]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 8:57:13 PM)
+[2018.04.25-16.57.13:742][ 71]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-16.57.13:807][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065105s)
+[2018.04.25-16.57.13:808][ 71]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-16.57.13:808][ 71]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2018.04.25-16.57.13:808][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.066163s)
+[2018.04.25-16.57.13:836][ 71]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-16.57.13:844][ 71]LogInit: FAudioDevice initialized.
+[2018.04.25-16.57.13:879][ 71]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-16.57.13:892][ 71]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.13:892][ 71]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.13:892][ 71]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.13:892][ 71]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.13:892][ 71]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.13:892][ 71]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.13:895][ 71]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.13:895][ 71]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.13:895][ 71]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.13:895][ 71]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.13:895][ 71]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.13:895][ 71]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.13:895][ 71]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.13:895][ 71]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.13:895][ 71]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.13:895][ 71]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.13:895][ 71]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-16.57.13:895][ 71]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-16.57.13:899][ 71]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-18.57.13
+[2018.04.25-16.57.13:902][ 71]LogWorld: Bringing up level for play took: 0.021456
+[2018.04.25-16.57.13:908][ 71]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp -0.09
+[2018.04.25-17.01.00:465][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio12)
+[2018.04.25-17.01.43:775][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio12)
+[2018.04.25-17.01.56:565][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra32)
+[2018.04.25-17.02.25:002][267]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.02.30:859][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra34)
+[2018.04.25-17.02.52:767][645]Cmd: DELETE
+[2018.04.25-17.02.52:767][645]Cmd: ACTOR DELETE
+[2018.04.25-17.02.52:770][645]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-17.02.52:784][645]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.04.25-17.02.54:598][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra34)
+[2018.04.25-17.03.06:257][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra35)
+[2018.04.25-17.03.12:594][336]Cmd: MODE ROTGRID=0
+[2018.04.25-17.03.17:416][780]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.03.24:704][443]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-17.03.24:741][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-17.03.24:742][443]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 9:03:24 PM)
+[2018.04.25-17.03.24:742][443]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-17.03.24:814][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071493s)
+[2018.04.25-17.03.24:814][443]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-17.03.24:814][443]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2018.04.25-17.03.24:815][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.072574s)
+[2018.04.25-17.03.24:840][443]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-17.03.24:849][443]LogInit: FAudioDevice initialized.
+[2018.04.25-17.03.24:880][443]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-17.03.24:893][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.03.24:893][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.03.24:894][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.03.24:894][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.03.24:894][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.03.24:894][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.03.24:896][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.03.24:896][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.03.24:896][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.03.24:896][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.03.24:896][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.03.24:896][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.03.24:896][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.03.24:896][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.03.24:896][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.03.24:896][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.03.24:897][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.03.24:897][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.03.24:901][443]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-19.03.24
+[2018.04.25-17.03.24:905][443]LogWorld: Bringing up level for play took: 0.023309
+[2018.04.25-17.03.24:911][443]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 0.913
+[2018.04.25-17.03.41:626][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio6)
+[2018.04.25-17.03.47:994][498]Cmd: TRANSACTION UNDO
+[2018.04.25-17.03.47:994][498]LogEditorTransaction: Undo Rotate Actors
+[2018.04.25-17.03.49:829][642]Cmd: MODE ROTGRID=1
+[2018.04.25-17.04.19:088][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra35)
+[2018.04.25-17.05.09:029][903]LogSavePackage: Save=901.19ms
+[2018.04.25-17.05.09:029][903]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_Auto7863CE3354C7146694F46D8BC23F21B2F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_Auto7.umap'
+[2018.04.25-17.05.09:032][903]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Distrito2_2_Exp_Auto7.umap
+[2018.04.25-17.05.09:038][903]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Distrito2_2_Exp' took 0.949
+[2018.04.25-17.05.09:038][903]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.949
+[2018.04.25-17.06.39:091][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra36)
+[2018.04.25-17.09.36:097][600]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (muroPiedra35)
+[2018.04.25-17.09.37:216][682]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.09.39:312][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra36)
+[2018.04.25-17.10.06:199][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja25)
+[2018.04.25-17.12.57:078][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja26)
+[2018.04.25-17.12.58:993][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja27)
+[2018.04.25-17.13.09:522][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja26)
+[2018.04.25-17.13.17:955][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja28)
+[2018.04.25-17.13.38:093][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja28)
+[2018.04.25-17.13.48:787][639]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.13.52:404][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja29)
+[2018.04.25-17.14.07:151][274]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.14.10:102][439]LogSavePackage: Save=908.28ms
+[2018.04.25-17.14.10:102][439]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp14F33F1445F8C1DC1537B4B68156A475.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-17.14.10:110][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-17.14.10:573][439]LogSavePackage: Save=364.71ms
+[2018.04.25-17.14.10:573][439]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataE0AE62AA497AB4D74B7DC0B3A9DCC365.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-17.14.10:578][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-17.14.42:870][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio13)
+[2018.04.25-17.15.18:306][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra32)
+[2018.04.25-17.20.44:317][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra41)
+[2018.04.25-17.20.45:544][771]Cmd: DELETE
+[2018.04.25-17.20.45:544][771]Cmd: ACTOR DELETE
+[2018.04.25-17.20.45:547][771]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-17.20.45:563][771]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.04.25-17.20.50:660][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra40)
+[2018.04.25-17.20.55:256][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra39)
+[2018.04.25-17.20.55:398][694]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (muroPiedra39)
+[2018.04.25-17.21.07:692][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra39)
+[2018.04.25-17.21.10:911][ 95]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.21.12:042][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra41)
+[2018.04.25-17.21.12:643][225]Cmd: DELETE
+[2018.04.25-17.21.12:643][225]Cmd: ACTOR DELETE
+[2018.04.25-17.21.12:646][225]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-17.21.12:662][225]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.04.25-17.23.09:446][490]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra40)
+[2018.04.25-17.23.25:719][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja26)
+[2018.04.25-17.24.12:619][126]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.24.20:985][874]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.25-17.24.22:936][ 29]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-17.24.22:974][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-17.24.22:974][ 29]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 9:24:22 PM)
+[2018.04.25-17.24.22:975][ 29]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-17.24.23:046][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071397s)
+[2018.04.25-17.24.23:047][ 29]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-17.24.23:047][ 29]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2018.04.25-17.24.23:047][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.072630s)
+[2018.04.25-17.24.23:075][ 29]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-17.24.23:086][ 29]LogInit: FAudioDevice initialized.
+[2018.04.25-17.24.23:124][ 29]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-17.24.23:142][ 29]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.24.23:142][ 29]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.24.23:143][ 29]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.24.23:143][ 29]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.24.23:143][ 29]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.24.23:143][ 29]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.24.23:145][ 29]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.24.23:145][ 29]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.24.23:145][ 29]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.24.23:145][ 29]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.24.23:145][ 29]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.24.23:145][ 29]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.24.23:145][ 29]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.24.23:145][ 29]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.24.23:145][ 29]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.24.23:145][ 29]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.24.23:145][ 29]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.24.23:145][ 29]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.24.23:149][ 29]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-19.24.23
+[2018.04.25-17.24.23:152][ 29]LogWorld: Bringing up level for play took: 0.025618
+[2018.04.25-17.24.23:158][ 29]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 1.161
+[2018.04.25-17.24.28:698][421]LogSavePackage: Save=915.41ms
+[2018.04.25-17.24.28:698][421]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_ExpFA239AB241C03AA8C80387A0524403E8.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-17.24.28:707][421]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-17.24.29:188][421]LogSavePackage: Save=383.04ms
+[2018.04.25-17.24.29:188][421]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataDD2BA084442DF9BCBAE41CA0A3731669.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-17.24.29:194][421]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-17.24.57:165][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra37)
+[2018.04.25-17.25.57:323][ 62]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates5)
+[2018.04.25-17.25.58:357][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra41)
+[2018.04.25-17.26.20:730][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra41)
+[2018.04.25-17.26.28:498][838]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates5)
+[2018.04.25-17.27.37:513][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra41)
+[2018.04.25-17.27.39:214][768]LogEditorViewport: Clicking on Actor (CTRL LMB): Gates1_C (Gates4)
+[2018.04.25-17.27.40:464][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra42)
+[2018.04.25-17.27.41:444][  5]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra41)
+[2018.04.25-17.28.08:118][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra43)
+[2018.04.25-17.28.10:903][101]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.28.13:769][285]LogSavePackage: Save=988.35ms
+[2018.04.25-17.28.13:769][285]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp291C0B224A5CB7125BAF328BAC2A2D70.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-17.28.13:777][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-17.28.14:197][285]LogSavePackage: Save=345.91ms
+[2018.04.25-17.28.14:197][285]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData30712FDD431C1B4CBF2CCE960FA6EAE8.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-17.28.14:202][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-17.28.54:972][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada2)
+[2018.04.25-17.29.37:100][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada6)
+[2018.04.25-17.29.37:854][445]Cmd: DELETE
+[2018.04.25-17.29.37:854][445]Cmd: ACTOR DELETE
+[2018.04.25-17.29.37:856][445]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-17.29.37:870][445]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.04.25-17.29.38:955][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada5)
+[2018.04.25-17.29.42:600][893]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.29.53:843][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio11)
+[2018.04.25-17.31.43:878][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra44)
+[2018.04.25-17.31.46:586][ 33]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.31.47:845][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra43)
+[2018.04.25-17.31.52:118][523]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.31.55:307][833]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.32.05:692][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra43)
+[2018.04.25-17.32.49:254][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra45)
+[2018.04.25-17.33.05:116][319]LogEditorViewport: Clicking on Actor (LMB): sala_C (sala50)
+[2018.04.25-17.33.20:911][399]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.33.23:085][502]LogSavePackage: Save=981.02ms
+[2018.04.25-17.33.23:086][502]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp80B27AFD4132647BEF91A38C9AECE5BA.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-17.33.23:093][502]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-17.33.23:534][502]LogSavePackage: Save=340.86ms
+[2018.04.25-17.33.23:534][502]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData080EFA7341D7EA920C2D3FB23B64424F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-17.33.23:539][502]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-17.33.29:637][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio16)
+[2018.04.25-17.33.38:680][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio16)
+[2018.04.25-17.33.38:753][991]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.04.25-17.34.39:379][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra46)
+[2018.04.25-17.34.48:600][195]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.34.57:442][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio15)
+[2018.04.25-17.35.23:944][385]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates14)
+[2018.04.25-17.35.33:185][168]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-17.35.33:220][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-17.35.33:220][168]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 9:35:33 PM)
+[2018.04.25-17.35.33:220][168]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-17.35.33:286][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066036s)
+[2018.04.25-17.35.33:287][168]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-17.35.33:287][168]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2018.04.25-17.35.33:287][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.067166s)
+[2018.04.25-17.35.33:316][168]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-17.35.33:326][168]LogInit: FAudioDevice initialized.
+[2018.04.25-17.35.33:363][168]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-17.35.33:375][168]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.33:375][168]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.33:376][168]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.33:376][168]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.33:376][168]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.33:376][168]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.33:378][168]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.33:378][168]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.33:378][168]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.33:378][168]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.33:378][168]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.33:378][168]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.33:378][168]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.33:378][168]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.33:378][168]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.33:378][168]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.33:378][168]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.33:378][168]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.33:382][168]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-19.35.33
+[2018.04.25-17.35.33:385][168]LogWorld: Bringing up level for play took: 0.020545
+[2018.04.25-17.35.33:390][168]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp -0.608
+[2018.04.25-17.35.42:117][994]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.04.25-17.35.43:490][111]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.25-17.35.44:241][171]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-17.35.44:274][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-17.35.44:275][171]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 9:35:44 PM)
+[2018.04.25-17.35.44:275][171]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-17.35.44:338][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063310s)
+[2018.04.25-17.35.44:339][171]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-17.35.44:339][171]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2018.04.25-17.35.44:339][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.064340s)
+[2018.04.25-17.35.44:363][171]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-17.35.44:372][171]LogInit: FAudioDevice initialized.
+[2018.04.25-17.35.44:404][171]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-17.35.44:417][171]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.44:417][171]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.44:417][171]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.44:417][171]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.44:417][171]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.44:417][171]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.44:420][171]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.44:420][171]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.44:420][171]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.44:420][171]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.44:420][171]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.44:420][171]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.44:420][171]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.44:420][171]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.44:420][171]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.44:420][171]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.44:421][171]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.35.44:421][171]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.35.44:426][171]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-19.35.44
+[2018.04.25-17.35.44:430][171]LogWorld: Bringing up level for play took: 0.024716
+[2018.04.25-17.35.44:439][171]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 0.441
+[2018.04.25-17.35.53:951][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio17)
+[2018.04.25-17.35.54:933][305]Cmd: DELETE
+[2018.04.25-17.35.54:933][305]Cmd: ACTOR DELETE
+[2018.04.25-17.35.54:935][305]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-17.35.54:947][305]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.04.25-17.35.56:088][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra47)
+[2018.04.25-17.36.15:506][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra48)
+[2018.04.25-17.36.18:906][633]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.36.21:511][802]LogSavePackage: Save=932.71ms
+[2018.04.25-17.36.21:511][802]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp602978E844AE0E66719C48BECC86C10C.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-17.36.21:519][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-17.36.21:948][802]LogSavePackage: Save=341.36ms
+[2018.04.25-17.36.21:948][802]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataA163E0C8456C467F864F24A1A4399920.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-17.36.21:953][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-17.36.52:276][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra29)
+[2018.04.25-17.37.14:092][100]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.37.14:564][143]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.04.25-17.37.15:239][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra50)
+[2018.04.25-17.37.17:815][473]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.37.21:110][705]LogSavePackage: Save=965.37ms
+[2018.04.25-17.37.21:110][705]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp3A7538894E7FA24E7CA0A38C77F859CF.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-17.37.21:119][705]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-17.37.21:541][705]LogSavePackage: Save=340.69ms
+[2018.04.25-17.37.21:541][705]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData550855F1465C1194BB680593E25E5443.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-17.37.21:546][705]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-17.37.41:984][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra45)
+[2018.04.25-17.38.16:930][198]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.38.23:077][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada4)
+[2018.04.25-17.38.51:677][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja28)
+[2018.04.25-17.39.08:639][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada7)
+[2018.04.25-17.39.14:680][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja36)
+[2018.04.25-17.39.26:634][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja37)
+[2018.04.25-17.39.31:634][477]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.39.35:692][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra49)
+[2018.04.25-17.40.23:558][497]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.40.29:667][ 29]LogSavePackage: Save=977.10ms
+[2018.04.25-17.40.29:667][ 29]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp7C71699843EDA5E7CB9822B3D17F12C3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-17.40.29:676][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-17.40.30:110][ 29]LogSavePackage: Save=338.37ms
+[2018.04.25-17.40.30:110][ 29]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData6BE07A9F43488D2DBDD89EB06E4904AE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-17.40.30:114][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-17.41.38:846][250]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates8)
+[2018.04.25-17.41.48:806][192]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates9)
+[2018.04.25-17.41.56:441][916]LogEditorViewport: Clicking on Actor (LMB): Gates1_C (Gates10)
+[2018.04.25-17.42.30:051][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra37)
+[2018.04.25-17.42.49:122][ 11]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra55)
+[2018.04.25-17.43.05:058][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra56)
+[2018.04.25-17.43.06:067][623]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (muroPiedra55)
+[2018.04.25-17.43.08:497][868]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.43.17:869][681]LogSavePackage: Save=988.61ms
+[2018.04.25-17.43.17:869][681]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp3E14DA2F4C9396CCE7319496C040017E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-17.43.17:878][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-17.43.18:294][681]LogSavePackage: Save=338.81ms
+[2018.04.25-17.43.18:294][681]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData098A1BBF4839EB840E4D6B910B4649D5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-17.43.18:299][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-17.44.10:742][544]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja18)
+[2018.04.25-17.44.58:321][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio5)
+[2018.04.25-17.44.59:717][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja44)
+[2018.04.25-17.45.02:908][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja44)
+[2018.04.25-17.45.05:753][774]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.45.12:678][443]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-17.45.12:713][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-17.45.12:713][443]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 9:45:12 PM)
+[2018.04.25-17.45.12:714][443]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-17.45.12:781][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066574s)
+[2018.04.25-17.45.12:781][443]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-17.45.12:782][443]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2018.04.25-17.45.12:782][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.067729s)
+[2018.04.25-17.45.12:805][443]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-17.45.12:816][443]LogInit: FAudioDevice initialized.
+[2018.04.25-17.45.12:849][443]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-17.45.12:862][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.45.12:862][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.45.12:862][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.45.12:862][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.45.12:862][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.45.12:862][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.45.12:864][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.45.12:864][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.45.12:864][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.45.12:864][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.45.12:864][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.45.12:864][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.45.12:864][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.45.12:865][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.45.12:865][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.45.12:865][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.45.12:865][443]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.45.12:865][443]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.45.12:869][443]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-19.45.12
+[2018.04.25-17.45.12:872][443]LogWorld: Bringing up level for play took: 0.021581
+[2018.04.25-17.45.12:878][443]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 0.88
+[2018.04.25-17.45.32:098][132]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2018.04.25-17.45.33:630][132]LogSlate: Took 0.054109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.25-17.45.59:329][804]LogActorFactory: Actor Factory created Edificio5
+[2018.04.25-17.45.59:974][845]LogActorFactory: Actor Factory created Edificio5
+[2018.04.25-17.46.05:912][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio17)
+[2018.04.25-17.46.06:727][523]Cmd: DELETE
+[2018.04.25-17.46.06:727][523]Cmd: ACTOR DELETE
+[2018.04.25-17.46.06:729][523]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-17.46.06:753][523]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2018.04.25-17.46.12:275][101]LogActorFactory: Actor Factory created edificio_pobre_delgado_texturizado
+[2018.04.25-17.46.12:609][118]LogActorFactory: Actor Factory created edificio_pobre_delgado_texturizado
+[2018.04.25-17.46.34:330][638]LogSavePackage: Save=19.97ms
+[2018.04.25-17.46.34:330][638]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/edificio_pobre_delgado_texturizado78C43C0341E1C7BD9C797ABB22E61F68.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/edificio_pobre_delgado_texturizado.uasset'
+[2018.04.25-17.46.34:348][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/edificio_pobre_delgado_texturizado.uasset
+[2018.04.25-17.47.12:233][272]LogSavePackage: Save=18.05ms
+[2018.04.25-17.47.12:234][272]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Edificio63942A41D4E060F13FA4C9CA1A122139A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio6.uasset'
+[2018.04.25-17.47.12:243][272]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio6.uasset
+[2018.04.25-17.48.36:752][ 18]LogSavePackage: Save=22.19ms
+[2018.04.25-17.48.36:752][ 18]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Edificio5021757B046A75CC5A77BF2A8D71C2CA6.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio5.uasset'
+[2018.04.25-17.48.36:777][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio5.uasset
+[2018.04.25-17.48.46:795][705]LogSavePackage: Save=15.71ms
+[2018.04.25-17.48.46:795][705]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Edificio26ACB6ABF4F79512564E95697EADC3F45.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio2.uasset'
+[2018.04.25-17.48.46:803][705]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Edificios/distritoPobre/Edificio2.uasset
+[2018.04.25-17.48.48:551][834]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-17.48.48:586][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-17.48.48:586][834]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 9:48:48 PM)
+[2018.04.25-17.48.48:587][834]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-17.48.48:654][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067220s)
+[2018.04.25-17.48.48:654][834]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-17.48.48:655][834]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2018.04.25-17.48.48:655][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.068262s)
+[2018.04.25-17.48.48:690][834]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-17.48.48:699][834]LogInit: FAudioDevice initialized.
+[2018.04.25-17.48.48:732][834]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-17.48.48:744][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.48.48:744][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.48.48:745][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.48.48:745][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.48.48:745][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.48.48:745][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.48.48:747][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.48.48:747][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.48.48:747][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.48.48:747][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.48.48:747][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.48.48:747][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.48.48:747][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.48.48:747][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.48.48:747][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.48.48:747][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.48.48:747][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.48.48:747][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.48.48:752][834]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-19.48.48
+[2018.04.25-17.48.48:754][834]LogWorld: Bringing up level for play took: 0.020723
+[2018.04.25-17.48.48:759][834]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp 0.761
+[2018.04.25-17.49.06:574][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado)
+[2018.04.25-17.50.48:342][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado)
+[2018.04.25-17.51.16:756][732]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.51.19:867][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado)
+[2018.04.25-17.51.26:020][613]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.51.29:504][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio13)
+[2018.04.25-17.51.32:763][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio17)
+[2018.04.25-17.51.52:642][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado)
+[2018.04.25-17.52.02:685][138]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.52.08:797][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada5)
+[2018.04.25-17.52.38:047][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barraca_balcon_texturizada9)
+[2018.04.25-17.52.38:713][488]Cmd: DELETE
+[2018.04.25-17.52.38:713][488]Cmd: ACTOR DELETE
+[2018.04.25-17.52.38:716][488]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-17.52.38:734][488]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.04.25-17.52.41:067][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja44)
+[2018.04.25-17.52.57:530][430]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.53.00:318][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja45)
+[2018.04.25-17.53.03:213][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (verja45)
+[2018.04.25-17.53.04:370][ 85]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.53.07:028][239]LogSavePackage: Save=969.59ms
+[2018.04.25-17.53.07:028][239]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_ExpDE56CE2B450EAB696309099BC3F970D4.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-17.53.07:037][239]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-17.53.07:510][239]LogSavePackage: Save=358.95ms
+[2018.04.25-17.53.07:510][239]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltData31ECA36443DDC568E1AC5B8A10BCF78B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-17.53.07:515][239]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-17.53.19:678][436]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.04.25-17.53.22:726][663]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.25-17.53.23:373][721]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.25-17.53.24:904][820]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.25-17.53.25:772][908]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-17.53.25:807][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-17.53.25:807][908]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 9:53:25 PM)
+[2018.04.25-17.53.25:808][908]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-17.53.25:878][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070282s)
+[2018.04.25-17.53.25:878][908]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-17.53.25:879][908]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2018.04.25-17.53.25:879][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.071421s)
+[2018.04.25-17.53.25:907][908]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-17.53.25:917][908]LogInit: FAudioDevice initialized.
+[2018.04.25-17.53.25:955][908]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-17.53.25:968][908]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.53.25:968][908]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.53.25:968][908]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.53.25:968][908]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.53.25:968][908]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.53.25:968][908]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.53.25:970][908]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.53.25:970][908]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.53.25:970][908]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.53.25:970][908]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.53.25:970][908]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.53.25:970][908]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.53.25:970][908]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.53.25:970][908]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.53.25:970][908]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.53.25:970][908]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.53.25:970][908]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.53.25:970][908]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.53.25:976][908]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-19.53.25
+[2018.04.25-17.53.25:978][908]LogWorld: Bringing up level for play took: 0.022276
+[2018.04.25-17.53.25:984][908]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp -0.014
+[2018.04.25-17.54.49:904][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra27)
+[2018.04.25-17.55.28:793][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra63)
+[2018.04.25-17.55.30:963][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra62)
+[2018.04.25-17.55.34:862][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra61)
+[2018.04.25-17.55.38:904][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra62)
+[2018.04.25-17.55.42:820][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra63)
+[2018.04.25-17.55.45:352][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra64)
+[2018.04.25-17.55.51:528][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (muroPiedra64)
+[2018.04.25-17.55.55:338][808]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.25-17.55.57:386][902]LogSavePackage: Save=1011.89ms
+[2018.04.25-17.55.57:387][902]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_ExpC11D8AA34C891EC6572E769E1E52DD73.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap'
+[2018.04.25-17.55.57:394][902]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp.umap
+[2018.04.25-17.55.57:831][902]LogSavePackage: Save=356.60ms
+[2018.04.25-17.55.57:831][902]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Distrito2_2_Exp_BuiltDataEB270DFB4C9A88EC24B3AA80945953FD.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset'
+[2018.04.25-17.55.57:835][902]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Distrito2_2_Exp_BuiltData.uasset
+[2018.04.25-17.57.52:985][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado)
+[2018.04.25-17.58.20:104][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (edificio_pobre_delgado_texturizado3)
+[2018.04.25-17.58.20:769][560]Cmd: DELETE
+[2018.04.25-17.58.20:769][560]Cmd: ACTOR DELETE
+[2018.04.25-17.58.20:771][560]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.25-17.58.20:791][560]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.04.25-17.58.23:527][834]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.25-17.58.23:562][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-17.58.23:562][834]PIE: New page: PIE session: Distrito2_2_Exp (Apr 25, 2018, 9:58:23 PM)
+[2018.04.25-17.58.23:563][834]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp
+[2018.04.25-17.58.23:633][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070397s)
+[2018.04.25-17.58.23:634][834]LogAIModule: Creating AISystem for world Distrito2_2_Exp
+[2018.04.25-17.58.23:635][834]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2018.04.25-17.58.23:635][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Distrito2_2_Exp.Distrito2_2_Exp to /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp (0.071990s)
+[2018.04.25-17.58.23:670][834]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.25-17.58.23:679][834]LogInit: FAudioDevice initialized.
+[2018.04.25-17.58.23:718][834]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.25-17.58.23:731][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.58.23:731][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.58.23:731][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.58.23:731][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.58.23:731][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.58.23:731][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.58.23:734][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.58.23:734][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.58.23:734][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.58.23:734][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.58.23:734][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.58.23:734][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.58.23:734][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.58.23:734][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.58.23:735][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.58.23:735][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.58.23:735][834]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.58.23:735][834]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.58.23:741][834]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp.Distrito2_2_Exp up for play (max tick rate 0) at 2018.04.25-19.58.23
+[2018.04.25-17.58.23:743][834]LogWorld: Bringing up level for play took: 0.023703
+[2018.04.25-17.58.23:749][834]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Distrito2_2_Exp -0.249
+[2018.04.25-17.59.13:113][765]MapCheck: New page: Map Check
+[2018.04.25-17.59.13:128][765]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.25-17.59.13:129][765]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.25-17.59.13:753][765]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.59.13:753][765]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.59.13:754][765]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.59.13:754][765]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.59.13:754][765]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.59.13:754][765]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.59.13:758][765]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.59.13:758][765]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.59.13:758][765]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.59.13:758][765]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.59.13:758][765]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.59.13:758][765]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.59.13:758][765]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.59.13:758][765]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.59.13:758][765]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.59.13:758][765]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.59.13:758][765]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.25-17.59.13:758][765]LogPhysics:Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Blueprints/PropsWorld/valla.valla] ScaledElem[0] invalid
+[2018.04.25-17.59.13:905][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.04.25-17.59.13:911][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2018.04.25-17.59.13:917][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Suelodeprueba_Mat, compiling. 
+[2018.04.25-17.59.13:924][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.04.25-17.59.13:931][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy waterMat, compiling. 
+[2018.04.25-17.59.13:937][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy compuerta_leftMat, compiling. 
+[2018.04.25-17.59.13:943][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaskedUnlitSpriteMaterial, compiling. 
+[2018.04.25-17.59.13:948][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy compuerta_rightMat, compiling. 
+[2018.04.25-17.59.13:955][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy marcoPuertaMat, compiling. 
+[2018.04.25-17.59.13:963][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__2, compiling. 
+[2018.04.25-17.59.13:971][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificio_pobre_ancho_Mat, compiling. 
+[2018.04.25-17.59.13:979][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificiopobreescalera_Mat, compiling. 
+[2018.04.25-17.59.13:987][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificiopobrerepisa_Mat, compiling. 
+[2018.04.25-17.59.13:996][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy verjaTexture_Mat, compiling. 
+[2018.04.25-17.59.14:005][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy vallaTexture_Mat, compiling. 
+[2018.04.25-17.59.14:012][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy muroPiedraTexture_Mat, compiling. 
+[2018.04.25-17.59.14:020][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EdificioDelgado_MAT, compiling. 
+[2018.04.25-17.59.15:041][765]TextureStreamingBuild:Display: Compiling optional shaders took 1.140 seconds.
+[2018.04.25-17.59.15:051][765]LogLevel:Display: Export Material TexCoord Scales took 0.010 seconds.
+[2018.04.25-17.59.15:085][765]TextureStreamingBuild:Display: Build Texture Streaming took 0.034 seconds.
+[2018.04.25-17.59.15:107][765]LightingResults: New page: Lighting Build - Apr 25, 2018, 9:59:15 PM
+[2018.04.25-17.59.15:162][765]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.25-17.59.15:164][765]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.25-17.59.15:164][765]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.25-17.59.15:165][765]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.25-17.59.15:165][765]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1432
+[2018.04.25-17.59.19:784][765]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.04.25-17.59.19:785][765]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.25-17.59.19:785][765]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.25-17.59.19:785][765]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.25-17.59.19:785][765]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.25-17.59.19:785][765]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.25-17.59.19:953][765]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.04.25-17.59.19:953][765]MapCheck: New page: Distrito2_2_Exp - Apr 25, 2018, 9:59:19 PM
+[2018.04.25-17.59.19:956][765]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates10 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates14 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates2 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates16 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates13 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates3 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates17 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates1_266 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates5 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates6 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates7 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates8 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates9 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:956][765]MapCheck:Warning: Warning Gates12 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:957][765]MapCheck:Warning: Warning Gates15 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:957][765]MapCheck:Warning: Warning Gates18 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:957][765]MapCheck:Warning: Warning Gates19 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:957][765]MapCheck:Warning: Warning Gates4 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:957][765]MapCheck:Warning: Warning Gates11 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.19:957][765]MapCheck:Warning: Warning Gates20 'color-blanco_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.04.25-17.59.20:121][765]MapCheck: Info Map check complete: 1 Error(s), 20 Warning(s), took 167.624ms to complete.
+[2018.04.25-17.59.20:143][765]LogEditorBuildUtils: Build time 0:07
+[2018.04.25-17.59.20:299][766]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer EdificioDelgado_MAT, compiling. 
+[2018.04.25-17.59.20:306][766]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer EdificioDelgado_MAT, compiling. 
+[2018.04.25-17.59.38:521][902]Job is a success!
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 512X512)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 512X512)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:740][903]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 128X128)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1, 128X128)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 256X256)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1, 256X256)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1, 128X128)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 256X256)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1, 256X256)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1, 128X128)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 256X256)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1, 256X256)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1, 128X128)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT, 128X128)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1, 128X128)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT, 64X64)
+[2018.04.25-17.59.40:741][903]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (G8, 1024X256)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (G8, 1024X128)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_65 (G8, 256X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (G8, 1024X512)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_66 (G8, 256X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_67 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_69 (G8, 256X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_70 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_71 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (G8, 1024X512)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_72 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_68 (G8, 512X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_74 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_73 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_75 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_76 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_77 (G8, 128X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_78 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_79 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_80 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_81 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_82 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_84 (G8, 64X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_86 (G8, 128X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_83 (G8, 256X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_88 (G8, 128X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_89 (G8, 128X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_90 (G8, 32X32)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_85 (G8, 512X64)
+[2018.04.25-17.59.41:014][903]LogTexture:Display: Building textures: ShadowMapTexture2D_87 (G8, 256X64)
+[2018.04.25-17.59.41:054][903]Lightmass on PC-JAVITO: 18.9 sec total, 290 ms importing, 249 ms setup, 1.41 sec photons, 16.9 sec processing, 0 ms extra exporting [643/643 mappings]. Threads: 1:58 min total, 1:23 min processing.
+[2018.04.25-17.59.41:141][903]LogStaticLightingSystem: Illumination: 25.7 sec (1.48 sec encoding lightmaps, 272 ms encoding shadowmaps)
+[2018.04.25-17.59.41:141][903]LogStaticLightingSystem: Lightmap texture memory:  7.9 MB (5.9 MB streaming, 2.0 MB non-streaming), 60 textures
+[2018.04.25-17.59.41:141][903]LogStaticLightingSystem: Shadowmap texture memory: 2.1 MB (1.5 MB streaming, 0.7 MB non-streaming), 30 textures
