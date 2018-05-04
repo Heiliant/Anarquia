@@ -1,0 +1,1829 @@
+﻿Log file open, 05/04/18 11:33:05
+LogInit:Display: Running engine for game: Proyecto2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(725904623) SRandInit(725904623).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.812936
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.12.0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.04-09.33.07:543][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.04-09.33.07:543][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.04-09.33.07:571][  0]LogInit: Computer: S5-15
+[2018.05.04-09.33.07:571][  0]LogInit: User: alexbalasteguigaya
+[2018.05.04-09.33.07:571][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.04-09.33.07:571][  0]LogInit: High frequency timer resolution =3.117186 MHz
+[2018.05.04-09.33.07:572][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.05.04-09.33.07:572][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.04-09.33.07:572][  0]LogMemory: Process Physical Memory: 273.60 MB used, 273.60 MB peak
+[2018.05.04-09.33.07:572][  0]LogMemory: Process Virtual Memory: 259.75 MB used, 259.75 MB peak
+[2018.05.04-09.33.07:572][  0]LogMemory: Physical Memory: 3738.50 MB used,  12608.38 MB free, 16346.88 MB total
+[2018.05.04-09.33.07:572][  0]LogMemory: Virtual Memory: 674.47 MB used,  12608.38 MB free, 134217728.00 MB total
+[2018.05.04-09.33.08:207][  0]LogInit: Using OS detected language (en-US).
+[2018.05.04-09.33.08:207][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.04-09.33.08:271][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.04-09.33.11:838][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.04-09.33.11:885][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.05.04-09.33.11:885][  0]LogD3D11RHI:       4062/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.04-09.33.11:889][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.04-09.33.11:889][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.04-09.33.11:889][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.04-09.33.11:894][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.04-09.33.11:894][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.04-09.33.11:894][  0]LogWindows: EnumDisplayDevices:
+[2018.05.04-09.33.11:894][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.05.04-09.33.11:894][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.05.04-09.33.11:894][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.05.04-09.33.11:895][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.05.04-09.33.11:895][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.04-09.33.11:895][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.05.04-09.33.11:895][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.04-09.33.11:895][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.04-09.33.11:895][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.05.04-09.33.11:923][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.04-09.33.11:952][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.05.04-09.33.12:007][  0]LogShaderCompilers: Guid format shader working directory is 29 characters bigger than the processId version (D:/anarquia/anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/7832/).
+[2018.05.04-09.33.12:007][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alexbalasteguigaya/AppData/Local/Temp/UnrealShaderWorkingDir/293E9DD7402223F60A1A00BE45124E9D/'.
+[2018.05.04-09.33.12:008][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.05.04-09.33.14:804][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.04-09.33.15:064][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.05.04-09.33.15:311][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.04-09.33.15:561][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.05.04-09.33.15:815][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.05.04-09.33.16:068][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.04-09.33.16:320][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.04-09.33.16:575][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.04-09.33.16:824][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.05.04-09.33.17:079][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.05.04-09.33.17:333][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.04-09.33.17:588][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.04-09.33.17:840][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.04-09.33.18:095][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.04-09.33.18:348][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.04-09.33.18:852][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.04-09.33.18:852][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.04-09.33.19:097][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.05.04-09.33.19:526][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.05.04-09.33.19:678][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.05.04-09.33.19:932][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.04-09.33.20:186][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.04-09.33.20:438][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.04-09.33.20:696][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.05.04-09.33.20:696][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.05.04-09.33.23:783][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.05.04-09.33.24:212][  0]LogDerivedDataCache: Loaded boot cache 0.43s 90MB C:/Users/alexbalasteguigaya/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.05.04-09.33.24:212][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/alexbalasteguigaya/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.05.04-09.33.24:212][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/anarquia/anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.04-09.33.24:212][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.04-09.33.24:212][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/anarquia/anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.04-09.33.24:212][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.04-09.33.24:237][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.04-09.33.24:251][  0]LogDerivedDataCache: Using Local data cache path C:/Users/alexbalasteguigaya/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.04-09.33.24:263][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.04-09.33.24:269][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.04-09.33.24:288][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.04-09.33.24:288][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.04-09.33.25:428][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.04-09.33.25:634][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.04-09.33.26:218][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.04-09.33.26:502][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.04-09.33.26:771][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.04-09.33.26:771][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.05.04-09.33.26:771][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.05.04-09.33.29:276][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
+[2018.05.04-09.33.29:501][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
+[2018.05.04-09.33.29:659][  0]LogAssetRegistry:Error: Failed to open file for write D:/anarquia/anarquia/Proyecto2/Intermediate/AssetRegistryCache/5a627529.bin
+[2018.05.04-09.33.29:668][  0]LogAssetRegistry:Error: Failed to open file for write D:/anarquia/anarquia/Proyecto2/Intermediate/AssetRegistryCache/1d5167fa.bin
+[2018.05.04-09.33.29:675][  0]LogAssetRegistry:Error: Failed to open file for write D:/anarquia/anarquia/Proyecto2/Intermediate/AssetRegistryCache/94c5d5a7.bin
+[2018.05.04-09.33.29:683][  0]LogAssetRegistry:Error: Failed to open file for write D:/anarquia/anarquia/Proyecto2/Intermediate/AssetRegistryCache/8e5c79a5.bin
+[2018.05.04-09.33.29:690][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.033345 seconds
+[2018.05.04-09.33.29:695][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.05.04-09.33.29:695][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.05.04-09.33.29:695][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.04-09.33.30:145][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.04-09.33.41:914][  0]LogAssetRegistry:Error: Failed to open file for write D:/anarquia/anarquia/Proyecto2/Intermediate/CachedAssetRegistry.bin
+[2018.05.04-09.33.41:914][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.04-09.33.42:091][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.04-09.33.44:640][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.04-09.33.46:556][  0]SourceControl: Info Source control is disabled
+[2018.05.04-09.33.46:597][  0]SourceControl: Info Source control is disabled
+[2018.05.04-09.33.46:863][  0]SourceControl: Info Source control is disabled
+[2018.05.04-09.33.47:132][  0]SourceControl: Info Source control is disabled
+[2018.05.04-09.33.50:978][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.04-09.33.54:112][  0]LogEngine: Initializing Engine...
+[2018.05.04-09.33.54:116][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.04-09.33.54:116][  0]LogHMD: GearVR starting with CPU: 2 GPU: 3 MinimumVsyncs: 1
+[2018.05.04-09.34.03:206][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.05.04-09.34.03:397][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.04-09.34.03:397][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.04-09.34.04:167][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.04-09.34.04:178][  0]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.04-09.34.04:188][  0]LogInit: FAudioDevice initialized.
+[2018.05.04-09.34.04:228][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/alexbalasteguigaya/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.05.04-09.34.04:240][  0]LogInit: Texture streaming: Enabled
+[2018.05.04-09.34.04:888][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.04-09.34.06:208][  0]LogInit: Transaction tracking system initialized
+[2018.05.04-09.34.08:124][  0]BlueprintLog: New page: Editor Load
+[2018.05.04-09.34.14:045][  0]LocalizationService: Info Localization service is disabled
+[2018.05.04-09.34.18:162][  0]LogConsoleResponse:Display: 
+[2018.05.04-09.34.18:556][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.04-09.34.18:556][  0]LogCook:Display: Mobile HDR setting 1
+[2018.05.04-09.34.18:742][  0]LogFileCache: Scanning file cache for directory 'D:/anarquia/anarquia/Proyecto2/Content/' took 0.03s
+[2018.05.04-09.34.24:792][  0]SourceControl: Info Source control is disabled
+[2018.05.04-09.34.24:793][  0]Cmd: MAP LOAD FILE="D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.04-09.34.24:795][  0]LightingResults: New page: Lighting Build
+[2018.05.04-09.34.25:054][  0]MapCheck: New page: Map Check
+[2018.05.04-09.34.25:054][  0]LightingResults: New page: Lighting Build
+[2018.05.04-09.34.25:609][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.04-09.34.25:609][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap.
+[2018.05.04-09.34.25:609][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu : Can't find file for asset. /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData
+[2018.05.04-09.34.25:686][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.04-09.34.25:686][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap.
+[2018.05.04-09.34.25:686][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu : Can't find file for asset. /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData
+[2018.05.04-09.34.25:697][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.04-09.34.25:697][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading NULL.
+[2018.05.04-09.34.25:697][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.04-09.34.25:697][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading NULL.
+[2018.05.04-09.34.25:814][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.04-09.34.25:814][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData.MainMenu_BuiltData Referenced by PersistentLevel
+[2018.05.04-09.34.25:814][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading NULL.
+[2018.05.04-09.34.25:814][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData.MainMenu_BuiltData Referenced by PersistentLevel
+[2018.05.04-09.34.25:976][  0]LogTexture:Display: Building textures: SARGENTO (BGRA8, 2324X1835)
+[2018.05.04-09.34.26:441][  0]LogTexture:Display: Building textures: GUNNER (BGRA8, 1166X1192)
+[2018.05.04-09.34.26:723][  0]LogTexture:Display: Building textures: ANTIDISTURBIOS (AutoDXT, 1404X1320)
+[2018.05.04-09.34.28:560][  0]LogMaterial: Missing cached shader map for material cuboTowerTexture_Mat, compiling. 
+[2018.05.04-09.34.28:663][  0]LogMaterial: Missing cached shader map for material Torre_BOSS_Mat, compiling. 
+[2018.05.04-09.34.28:720][  0]LogMaterial: Missing cached shader map for material cuboTowerTexture_Mat1, compiling. 
+[2018.05.04-09.34.28:957][  0]LogTexture:Display: Building textures: Agente (BGRA8, 883X1372)
+[2018.05.04-09.34.29:375][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.04-09.34.31:265][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.04-09.34.31:289][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.04-09.34.31:479][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 189.685ms to complete.
+[2018.05.04-09.34.31:479][  0]LogFileHelpers: Loading map 'MainMenu' took 6.687
+[2018.05.04-09.34.31:574][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.05.04-09.34.36:060][  0]LogCollectionManager: Loaded 0 collections in 0.001598 seconds
+[2018.05.04-09.34.36:366][  0]LogFileCache: Scanning file cache for directory 'D:/anarquia/anarquia/Proyecto2/Saved/Collections/' took 0.01s
+[2018.05.04-09.34.36:366][  0]LogFileCache: Scanning file cache for directory 'D:/anarquia/anarquia/Proyecto2/Content/Developers/alexbalasteguigaya/Collections/' took 0.01s
+[2018.05.04-09.34.36:366][  0]LogFileCache: Scanning file cache for directory 'D:/anarquia/anarquia/Proyecto2/Content/Collections/' took 0.01s
+[2018.05.04-09.34.36:366][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.05.04-09.34.36:375][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2329 classes and 491 folders.
+[2018.05.04-09.34.36:812][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.04-09.34.36:895][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.04-09.34.37:174][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.04-09.34.37:364][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.05.04-09.34.37:404][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.04-09.34.37:407][  0]LogSlate: Took 0.000638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.04-09.34.37:411][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.04-09.34.37:413][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.05.04-09.34.37:523][  0]LogRenderer: Reallocating scene render targets to support 1256x596 NumSamples 1 (Frame:1).
+[2018.05.04-09.34.42:970][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.05.04-09.34.43:262][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.04-09.34.43:262][  0]LogLoad: (Engine Initialization) Total time: 101.56 seconds
+[2018.05.04-09.34.43:262][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.59 seconds
+[2018.05.04-09.34.43:262][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.04-09.34.43:272][  0]LogOcInput: OculusInput pre-init called
+[2018.05.04-09.34.43:276][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.12.0
+[2018.05.04-09.34.43:277][  0]LogHMD: Starting GearVRController plugin
+[2018.05.04-09.34.43:309][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.04-09.34.43:365][  0]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.04-09.34.43:377][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/anarquia/anarquia/Proyecto2/Content/' took 0.09s
+[2018.05.04-09.34.43:393][  1]LogAssetRegistry: Asset discovery search completed in 73.9174 seconds
+[2018.05.04-09.34.43:395][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.04-09.34.43:395][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000158 seconds (updated 0 objects)
+[2018.05.04-09.34.44:313][ 87]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.04-09.36.03:215][668]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.04-09.36.03:497][668]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.04-09.36.03:497][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.04-09.36.03:498][668]PIE: New page: PIE session: MainMenu (May 4, 2018, 1:36:03 PM)
+[2018.05.04-09.36.03:498][668]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu
+[2018.05.04-09.36.03:529][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030253s)
+[2018.05.04-09.36.03:529][668]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.04-09.36.03:530][668]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2018.05.04-09.36.03:530][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu.MainMenu (0.031298s)
+[2018.05.04-09.36.03:546][668]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.04-09.36.03:553][668]LogInit: FAudioDevice initialized.
+[2018.05.04-09.36.04:604][668]LogBlueprint:Warning: [Compiler sargentEnemyN] Warning 'Antidisturbios Enemy' does not inherit from 'Base Enemy' ( Cast To antidisturbiosEnemy  would always fail).
+[2018.05.04-09.36.04:610][668]LogBlueprint:Warning: [Compiler sargentEnemyN] Warning [0182.91] Compile of sargentEnemyN successful, but with 1 Warning(s) [in 11 ms] (/Game/ThirdPersonBP/Blueprints/enemies/sargent/sargentEnemyN.sargentEnemyN)
+[2018.05.04-09.36.04:611][668]LogBlueprint:Warning: [Compiler sargentEnemyN] Warning [0182.91] Compile of sargentEnemyN successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/enemies/sargent/sargentEnemyN.sargentEnemyN)
+[2018.05.04-09.36.04:611][668]LogBlueprint:Warning: [Compiler sargentEnemyN] Warning [0182.91] Compile of sargentEnemyN successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/enemies/sargent/sargentEnemyN.sargentEnemyN)
+[2018.05.04-09.36.06:665][668]LogAudioDerivedData:Display: Building compressed audio format OGG wave magic...
+[2018.05.04-09.36.06:912][668]LogAudioDerivedData:Display: Building compressed audio format OGG wave zapsplat_impacts_crash_bicycle_hit_wall_18089...
+[2018.05.04-09.36.06:947][668]LogAudioDerivedData:Display: Building compressed audio format OGG wave zapsplat_foley_cane_bambo_stick_swing_whoosh_air_001_17291...
+[2018.05.04-09.36.07:350][668]LogMaterial: Missing cached shader map for material swordHandler_Mat, compiling. 
+[2018.05.04-09.36.07:431][668]LogMaterial: Missing cached shader map for material swordEdge_Mat, compiling. 
+[2018.05.04-09.36.07:558][668]LogMaterial: Missing cached shader map for material flechica_Mat, compiling. 
+[2018.05.04-09.36.08:643][668]LogAudioDerivedData:Display: Building compressed audio format OGG wave laser...
+[2018.05.04-09.36.08:705][668]LogAudioDerivedData:Display: Building compressed audio format OGG wave punch2...
+[2018.05.04-09.36.09:007][668]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.04-09.36.09:018][668]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.04-11.36.09
+[2018.05.04-09.36.09:019][668]LogWorld: Bringing up level for play took: 0.009062
+[2018.05.04-09.36.09:283][668]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.05.04-09.36.09:284][668]Cmd: r.PostProcessAAQuality 3
+[2018.05.04-09.36.09:285][668]r.PostProcessAAQuality = "3"
+[2018.05.04-09.36.09:285][668]Cmd: sg.ShadowQuality 2
+[2018.05.04-09.36.09:285][668]sg.ShadowQuality = "2"
+[2018.05.04-09.36.09:285][668]Cmd: r.ScreenPercentage 100
+[2018.05.04-09.36.09:285][668]r.ScreenPercentage = "100"
+[2018.05.04-09.36.09:286][668]Cmd: t.MaxFPS 60
+[2018.05.04-09.36.09:286][668]t.MaxFPS = "60"
+[2018.05.04-09.36.09:290][668]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu 5.545
+[2018.05.04-09.36.09:290][668]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.04-09.36.09:314][669]LogRenderer: Reallocating scene render targets to support 1256x596 NumSamples 1 (Frame:1).
+[2018.05.04-09.36.55:198][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.04-09.36.55:238][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.04-09.36.59:174][202]LogAudioDerivedData:Display: Building compressed audio format OGG wave Energetic_Upbeat_-_AShamaluevMusic...
+[2018.05.04-09.37.02:099][202]LogAudioDerivedData:Display: Building compressed audio format OGG wave Innovation_-_AShamaluevMusic...
+[2018.05.04-09.37.07:736][359]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.04-09.37.08:532][359]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2018.05.04-09.37.09:199][359]LogSlate: Took 0.004814 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.04-09.37.09:398][360]LogSlate: Took 0.004688 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.04-09.37.21:756][ 99]BlueprintLog: New page: Compile sharedMemory
+[2018.05.04-09.37.21:943][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/gamemodes/sharedMemory" FILE="D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset" SILENT=true
+[2018.05.04-09.37.21:998][ 99]LogSavePackage: Save=45.23ms
+[2018.05.04-09.37.21:998][ 99]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/sharedMemory72660944480BACC4E9A582B2CADBE360.tmp' to 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset'
+[2018.05.04-09.37.21:999][ 99]LogFileManager:Warning: DeleteFile was unable to delete 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset', retrying in .5s...
+[2018.05.04-09.37.22:500][ 99]LogFileManager:Error: Error deleting file 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset'.
+[2018.05.04-09.37.22:500][ 99]LogSavePackage:Error: Error saving 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset'
+[2018.05.04-09.37.22:502][ 99]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset
+[2018.05.04-09.37.32:582][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/gamemodes/sharedMemory" FILE="D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset" SILENT=true
+[2018.05.04-09.37.32:632][ 99]LogSavePackage: Save=45.23ms
+[2018.05.04-09.37.32:632][ 99]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/sharedMemoryE7E39A5B408F2D852B1F3F9349C27FFC.tmp' to 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset'
+[2018.05.04-09.37.32:633][ 99]LogFileManager:Warning: DeleteFile was unable to delete 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset', retrying in .5s...
+[2018.05.04-09.37.33:134][ 99]LogFileManager:Error: Error deleting file 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset'.
+[2018.05.04-09.37.33:134][ 99]LogSavePackage:Error: Error saving 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset'
+[2018.05.04-09.37.33:135][ 99]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset
+[2018.05.04-09.37.35:145][ 99]EditorErrors: New page: Save Output
+[2018.05.04-09.37.35:145][ 99]EditorErrors:Warning: Warning Error saving 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset'
+[2018.05.04-09.37.35:145][ 99]EditorErrors:Warning: Warning Error saving 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/gamemodes/sharedMemory.uasset'
+[2018.05.04-09.37.47:420][657]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.04-09.37.47:461][657]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.04-09.37.47:461][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.04-09.37.47:461][657]PIE: New page: PIE session: MainMenu (May 4, 2018, 1:37:47 PM)
+[2018.05.04-09.37.47:464][657]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu
+[2018.05.04-09.37.47:492][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027665s)
+[2018.05.04-09.37.47:492][657]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.04-09.37.47:492][657]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2018.05.04-09.37.47:493][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu.MainMenu (0.028532s)
+[2018.05.04-09.37.47:515][657]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.04-09.37.47:521][657]LogInit: FAudioDevice initialized.
+[2018.05.04-09.37.47:556][657]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.04-09.37.47:566][657]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.05.04-11.37.47
+[2018.05.04-09.37.47:567][657]LogWorld: Bringing up level for play took: 0.009001
+[2018.05.04-09.37.47:568][657]Cmd: r.PostProcessAAQuality 3
+[2018.05.04-09.37.47:568][657]r.PostProcessAAQuality = "3"
+[2018.05.04-09.37.47:568][657]Cmd: sg.ShadowQuality 2
+[2018.05.04-09.37.47:568][657]sg.ShadowQuality = "2"
+[2018.05.04-09.37.47:568][657]Cmd: r.ScreenPercentage 100
+[2018.05.04-09.37.47:568][657]r.ScreenPercentage = "100"
+[2018.05.04-09.37.47:568][657]Cmd: t.MaxFPS 60
+[2018.05.04-09.37.47:568][657]t.MaxFPS = "60"
+[2018.05.04-09.37.47:569][657]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu -0.172
+[2018.05.04-09.37.47:569][657]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.04-09.37.55:539][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.04-09.37.55:577][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.04-09.38.39:062][619]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.04-09.38.39:109][619]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.04-09.38.39:109][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.04-09.38.39:110][619]PIE: New page: PIE session: MainMenu (May 4, 2018, 1:38:39 PM)
+[2018.05.04-09.38.39:111][619]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu
+[2018.05.04-09.38.39:140][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029149s)
+[2018.05.04-09.38.39:140][619]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.04-09.38.39:140][619]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2018.05.04-09.38.39:141][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu.MainMenu (0.029949s)
+[2018.05.04-09.38.39:163][619]LogInit: XAudio2 using 'BenQ GL2250H-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.04-09.38.39:169][619]LogInit: FAudioDevice initialized.
+[2018.05.04-09.38.39:203][619]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.04-09.38.39:213][619]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.05.04-11.38.39
+[2018.05.04-09.38.39:214][619]LogWorld: Bringing up level for play took: 0.008639
+[2018.05.04-09.38.39:214][619]Cmd: r.PostProcessAAQuality 3
+[2018.05.04-09.38.39:214][619]r.PostProcessAAQuality = "3"
+[2018.05.04-09.38.39:215][619]Cmd: sg.ShadowQuality 2
+[2018.05.04-09.38.39:215][619]sg.ShadowQuality = "2"
+[2018.05.04-09.38.39:215][619]Cmd: r.ScreenPercentage 100
+[2018.05.04-09.38.39:215][619]r.ScreenPercentage = "100"
+[2018.05.04-09.38.39:215][619]Cmd: t.MaxFPS 60
+[2018.05.04-09.38.39:215][619]t.MaxFPS = "60"
+[2018.05.04-09.38.39:216][619]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu -0.523
+[2018.05.04-09.38.39:216][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.04-09.38.46:240][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.04-09.38.46:276][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.04-09.44.55:746][391]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.44.55:872][391]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.44.55:887][391]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.44.57:618][479]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.05.04-09.44.57:618][479]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.44.57:618][479]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-09.45.00:520][653]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.00:531][653]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.00:775][665]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.45.00:775][665]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.45.00:775][665]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.45.22:322][135]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.22:904][167]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.45.22:904][167]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.45.22:904][167]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.45.26:182][362]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.26:442][376]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.45.26:442][376]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.45.26:442][376]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.45.32:172][595]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.32:412][607]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.45.32:412][607]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.45.32:412][607]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.45.32:699][623]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.32:941][635]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.45.32:941][635]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.45.32:941][635]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.45.33:777][684]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.34:018][696]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.45.34:019][696]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.45.34:019][696]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.45.48:394][225]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.48:620][236]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.45.48:620][236]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.45.48:620][236]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.45.48:963][256]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.49:202][268]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.45.49:202][268]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.45.49:202][268]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.45.49:362][277]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.49:589][288]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.45.49:589][288]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.45.49:589][288]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.45.49:766][298]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.50:010][310]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.45.50:010][310]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.45.50:010][310]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.45.57:684][628]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.57:926][641]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.45.57:926][641]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.45.57:926][641]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.45.59:145][714]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.45.59:401][728]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.45.59:401][728]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.45.59:401][728]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.46.00:955][821]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.46.01:212][835]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.46.01:212][835]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.46.01:212][835]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.46.02:598][918]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.46.02:838][931]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.46.02:838][931]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.46.02:838][931]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.46.29:546][432]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.46.30:342][477]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.46.30:342][477]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.46.30:342][477]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.46.32:621][613]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.46.32:659][613]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.46.33:272][647]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.46.33:272][647]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.46.33:272][647]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.46.34:049][693]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.46.34:283][704]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.46.34:283][704]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.46.34:283][704]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.46.35:799][770]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu' took 0.019
+[2018.05.04-09.46.35:802][770]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivelNew] ([1] browsable assets)...
+[2018.05.04-09.46.35:802][770]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivelNew]
+[2018.05.04-09.46.36:089][770]LogSavePackage: Save=279.63ms
+[2018.05.04-09.46.36:089][770]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/SeleccionDeNivelNew_Auto1389E3A754B6D2AD49D088F9AACE30D7C.tmp' to 'D:/anarquia/anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivelNew_Auto1.uasset'
+[2018.05.04-09.46.36:091][770]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivelNew_Auto1.uasset
+[2018.05.04-09.46.36:092][770]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/gamemodes/sharedMemory] ([1] browsable assets)...
+[2018.05.04-09.46.36:092][770]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/gamemodes/sharedMemory]
+[2018.05.04-09.46.36:144][770]LogSavePackage: Save=43.84ms
+[2018.05.04-09.46.36:144][770]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/sharedMemory_Auto11E850E9A4129528C01F15498224646E8.tmp' to 'D:/anarquia/anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/gamemodes/sharedMemory_Auto1.uasset'
+[2018.05.04-09.46.36:145][770]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/gamemodes/sharedMemory_Auto1.uasset
+[2018.05.04-09.46.36:147][770]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material] ([1] browsable assets)...
+[2018.05.04-09.46.36:180][770]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.toonShade_Material]
+[2018.05.04-09.46.36:180][770]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material]
+[2018.05.04-09.46.36:197][770]LogSavePackage: Save=15.10ms
+[2018.05.04-09.46.36:197][770]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/toonShade_Material_Auto1406692F94BA37088890D8F8CE8C9EB45.tmp' to 'D:/anarquia/anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material_Auto1.uasset'
+[2018.05.04-09.46.36:199][770]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material_Auto1.uasset
+[2018.05.04-09.46.36:199][770]LogFileHelpers: Auto-saving content packages took 0.399
+[2018.05.04-09.46.39:641][919]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.46.39:885][931]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.46.39:885][931]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.46.39:885][931]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.46.43:473][146]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.46.43:718][159]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.46.43:718][159]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.46.43:718][159]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.47.29:616][766]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.47.30:189][799]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.47.30:189][799]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.47.30:189][799]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.47.51:097][ 52]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.47.51:810][ 92]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.47.51:810][ 92]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.47.51:810][ 92]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.47.53:029][165]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.47.53:323][181]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.47.53:323][181]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.47.53:323][181]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.47.54:082][226]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.47.54:307][237]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.47.54:307][237]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.47.54:307][237]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.47.56:044][341]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.47.56:383][360]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.47.56:383][360]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.47.56:383][360]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.48.00:877][629]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.48.01:106][640]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.48.01:106][640]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.48.01:106][640]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.48.02:494][723]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.48.02:733][736]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.48.02:733][736]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.48.02:733][736]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.48.12:903][149]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.48.13:137][161]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.48.13:137][161]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.48.13:137][161]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.48.17:293][410]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.48.17:537][423]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.48.17:538][423]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.48.17:538][423]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.48.17:810][439]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.48.18:038][451]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.48.18:038][451]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.48.18:038][451]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.48.28:764][997]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.48.28:969][  8]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.48.28:969][  8]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.48.28:969][  8]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.49.45:654][136]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.49.46:244][170]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.49.46:244][170]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.49.46:244][170]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.49.59:498][501]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.49.59:745][513]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.49.59:745][513]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.49.59:745][513]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.02:218][660]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.02:579][679]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.02:579][679]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.02:579][679]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.04:065][767]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.04:294][778]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.04:294][778]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.04:294][778]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.05:466][847]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.05:693][858]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.05:693][858]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.05:693][858]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.08:144][  4]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.08:372][ 15]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.08:372][ 15]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.08:372][ 15]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.10:858][164]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.11:100][177]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.11:100][177]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.11:100][177]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.12:270][247]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.12:514][260]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.12:514][260]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.12:514][260]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.13:126][296]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.13:358][307]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.13:358][307]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.13:358][307]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.14:361][367]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.14:586][379]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.14:586][379]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.14:586][379]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.16:072][468]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.16:413][487]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.16:413][487]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.16:413][487]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.16:925][517]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.17:173][529]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.17:173][529]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.17:173][529]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.17:992][578]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.18:217][590]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.18:217][590]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.18:217][590]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.19:453][664]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.19:743][680]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.19:743][680]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.19:743][680]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.20:455][722]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.20:686][733]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.20:686][733]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.20:686][733]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.21:656][791]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.21:896][804]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.21:896][804]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.21:896][804]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.23:166][880]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.23:456][896]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.23:456][896]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.23:456][896]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.37:224][217]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.37:460][228]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.37:460][228]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.37:460][228]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.39:630][358]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.39:956][376]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.39:956][376]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.39:956][376]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.40:746][422]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.41:166][444]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.41:166][444]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.41:166][444]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.43:719][597]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.43:979][611]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.43:979][611]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.43:979][611]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.44:437][637]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.44:657][647]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.44:657][647]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.44:657][647]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.46:310][746]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.46:550][759]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.46:550][759]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.46:550][759]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.47:938][841]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.48:174][852]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.48:174][852]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.48:174][852]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.49:844][952]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.50:337][961]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.50:337][961]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.50:337][961]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.56:865][136]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.57:098][147]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.57:098][147]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.57:098][147]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.50.57:728][184]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.50.57:955][194]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.50.57:955][194]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.50.57:955][194]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.04:427][485]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.04:460][485]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.05:032][516]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.05:032][516]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.05:032][516]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.06:201][586]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.06:442][599]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.06:442][599]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.06:442][599]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.08:681][732]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.09:069][752]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.09:069][752]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.09:069][752]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.09:440][773]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.09:776][790]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.09:776][790]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.09:776][790]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.10:298][820]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.10:536][831]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.10:536][831]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.10:536][831]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.12:807][967]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.13:048][980]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.13:048][980]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.13:048][980]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.14:952][ 94]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.15:193][107]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.15:193][107]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.15:193][107]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.17:513][246]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.17:772][260]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.17:772][260]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.17:772][260]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.23:574][453]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.23:810][464]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.23:810][464]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.23:810][464]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.25:356][556]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.25:584][566]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.25:584][566]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.25:584][566]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.26:275][607]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.26:513][618]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.26:513][618]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.26:513][618]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.27:660][686]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.27:887][696]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.27:887][696]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.27:887][696]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.30:058][824]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.30:148][825]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.05.04-09.51.30:149][825]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.05.04-09.51.30:149][825]LogMaterial:Warning: 	Missing Preview connection for function input 'Material'
+[2018.05.04-09.51.30:335][836]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.30:335][836]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.30:335][836]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.31:197][887]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.31:429][897]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.31:429][897]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.31:429][897]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.35:035][111]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.35:259][121]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.35:259][121]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.35:259][121]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.38:633][322]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.38:871][333]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.38:871][333]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.38:871][333]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.39:961][397]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.40:201][408]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.40:201][408]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.40:201][408]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.51.56:858][ 19]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSceneTexture'MaterialGraphNode_24.MaterialExpressionSceneTexture_5',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)'
+[2018.05.04-09.51.56:866][ 19]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.51.57:106][ 30]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.51.57:106][ 30]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.51.57:106][ 30]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.52.05:879][555]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.52.06:103][565]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.52.06:103][565]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.52.06:103][565]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.52.15:929][829]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.52.16:173][842]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.52.16:173][842]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.52.16:173][842]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.52.17:442][918]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.52.17:686][931]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.52.17:686][931]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.52.17:686][931]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.52.29:972][668]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.52.30:214][681]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.52.30:214][681]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.52.30:214][681]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.52.31:100][734]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.52.31:340][747]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.52.31:340][747]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.52.31:340][747]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.52.41:674][ 36]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.52.41:917][ 49]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.52.41:917][ 49]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.52.41:917][ 49]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.52.43:503][144]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.52.43:750][157]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.52.43:750][157]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.52.43:750][157]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.52.45:369][254]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.52.45:627][268]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.52.45:627][268]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.52.45:627][268]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.52.47:331][370]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.52.47:573][383]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.52.47:573][383]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.52.47:573][383]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.52.54:609][569]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.52.54:972][587]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.52.54:973][587]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.52.54:973][587]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.52.55:468][616]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.52.55:695][626]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.52.55:695][626]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.52.55:695][626]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.53.00:017][885]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.53.00:278][899]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.53.00:279][899]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.53.00:279][899]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.53.02:881][ 55]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.53.03:127][ 68]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.53.03:127][ 68]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.53.03:127][ 68]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.53.09:548][453]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.53.09:795][466]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.53.09:795][466]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.53.09:795][466]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.53.10:864][530]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.53.11:107][543]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.53.11:107][543]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.53.11:107][543]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.53.15:363][681]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.53.15:586][691]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.53.15:586][691]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.53.15:586][691]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.53.16:990][775]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.53.17:232][788]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.53.17:232][788]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.53.17:232][788]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.53.19:019][895]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.53.19:260][908]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.53.19:260][908]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.53.19:260][908]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.53.53:876][132]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.53.54:456][163]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.53.54:456][163]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.53.54:456][163]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.54.01:259][571]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.54.01:503][584]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.54.01:503][584]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.54.01:503][584]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.54.26:827][900]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.54.26:857][900]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.54.27:623][942]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.54.27:623][942]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.54.27:623][942]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.54.36:026][218]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.54.36:286][232]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.54.36:286][232]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.54.36:286][232]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.54.51:027][934]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.54.51:255][944]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.54.51:255][944]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.54.51:255][944]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.54.51:769][974]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.54.52:013][985]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.54.52:013][985]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.54.52:013][985]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.54.52:626][ 21]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.54.52:922][ 35]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.54.52:922][ 35]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.54.52:922][ 35]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.54.53:653][ 78]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.54.53:896][ 89]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.54.53:896][ 89]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.54.53:896][ 89]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.54.58:150][344]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.54.58:409][358]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.54.58:409][358]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.54.58:409][358]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.54.59:430][419]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.54.59:670][432]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.54.59:670][432]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.54.59:670][432]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.55.02:456][599]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.55.02:700][612]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.55.02:700][612]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.55.02:700][612]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.55.04:386][713]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.55.04:629][726]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.55.04:629][726]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.55.04:629][726]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.55.06:216][821]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.55.06:476][835]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.55.06:476][835]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.55.06:476][835]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.55.07:478][895]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.55.07:719][908]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.55.07:719][908]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.55.07:719][908]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.55.16:455][432]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.55.16:716][446]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.55.16:716][446]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.55.16:716][446]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.55.18:336][543]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.55.18:580][556]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.55.18:580][556]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.55.18:580][556]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.55.19:918][636]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.55.20:324][659]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.55.20:324][659]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.55.20:324][659]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.55.22:727][803]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.55.22:989][817]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.55.22:989][817]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.55.22:989][817]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.55.24:593][913]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.55.24:836][926]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.55.24:836][926]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.55.24:836][926]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.55.26:573][ 30]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.55.26:831][ 44]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.55.26:831][ 44]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.55.26:831][ 44]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.55.29:869][226]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.55.30:127][240]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.55.30:127][240]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.55.30:127][240]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.55.31:398][316]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.55.31:642][329]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.55.31:643][329]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.55.31:643][329]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.56.06:796][933]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.56.07:379][964]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.56.07:379][964]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.56.07:379][964]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.56.13:699][343]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.56.13:956][357]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.56.13:956][357]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.56.13:956][357]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.56.19:721][545]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.56.20:087][563]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.56.20:087][563]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.56.20:087][563]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.56.20:361][578]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.56.20:693][594]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.56.20:693][594]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.56.20:693][594]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.56.21:001][611]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.56.21:219][620]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.56.21:219][620]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.56.21:219][620]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.56.58:924][375]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.00:409][460]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.00:409][460]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.00:409][460]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.05:563][769]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.05:779][780]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.05:779][780]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.05:779][780]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.26:466][391]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.27:036][424]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.27:036][424]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.27:036][424]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.35:855][656]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.35:888][656]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.36:438][685]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.36:438][685]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.36:438][685]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.44:446][946]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.44:678][956]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.44:678][956]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.44:678][956]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.45:141][983]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.45:372][993]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.45:372][993]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.45:372][993]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.45:903][ 24]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.46:121][ 33]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.46:121][ 33]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.46:121][ 33]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.46:986][ 84]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.47:221][ 94]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.47:221][ 94]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.47:221][ 94]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.48:752][185]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.48:966][194]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.48:966][194]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.48:966][194]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.49:398][219]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.49:614][228]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.49:614][228]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.49:614][228]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.49:896][244]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.50:115][253]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.50:115][253]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.50:115][253]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.50:613][282]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.50:848][292]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.50:848][292]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.50:848][292]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.55:328][560]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.55:572][573]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.55:572][573]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.55:572][573]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.57.56:926][654]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.57:972][715]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.57.58:212][728]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.57.58:212][728]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.57.58:212][728]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.58.00:264][851]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.58.00:502][864]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.58.00:502][864]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.58.00:502][864]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.58.06:352][213]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.58.06:591][223]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.58.06:591][223]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.58.06:591][223]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.58.08:891][360]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.58.09:117][369]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.58.09:117][369]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.58.09:117][369]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.58.14:271][678]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.58.14:511][691]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.58.14:511][691]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.58.14:511][691]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.58.15:913][775]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.58.16:323][798]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.58.16:323][798]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.58.16:323][798]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.58.18:010][899]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.58.18:248][912]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.58.18:248][912]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.58.18:248][912]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.59.05:504][551]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.59.06:093][585]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.59.06:093][585]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.59.06:093][585]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.59.22:047][542]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.59.22:289][555]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.59.22:289][555]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.59.22:289][555]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.59.24:810][706]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.59.25:051][719]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.59.25:051][719]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.59.25:051][719]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.59.30:138][ 24]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.59.32:460][162]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.59.32:460][162]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.59.32:460][162]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.59.36:491][402]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.59.36:736][415]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.59.36:736][415]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.59.36:736][415]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-09.59.59:105][779]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-09.59.59:672][809]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-09.59.59:672][809]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-09.59.59:672][809]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.13:738][299]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.13:774][299]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.13:807][299]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.13:837][299]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.14:164][317]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.14:164][317]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.14:164][317]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.19:561][640]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.19:806][653]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.19:806][653]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.19:806][653]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.21:159][734]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.21:387][746]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.21:387][746]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.21:387][746]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.28:038][ 27]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.28:273][ 37]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.28:273][ 37]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.28:273][ 37]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.28:832][ 69]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.29:070][ 79]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.29:070][ 79]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.29:070][ 79]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.29:930][129]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.30:153][138]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.30:153][138]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.30:153][138]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.31:789][236]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.32:033][249]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.32:033][249]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.32:033][249]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.34:352][388]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.34:592][401]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.34:592][401]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.34:592][401]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.38:911][660]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.39:151][673]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.39:151][673]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.39:151][673]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.40:438][750]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.40:681][763]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.40:681][763]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.40:681][763]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.43:200][914]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.43:443][927]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.43:443][927]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.43:443][927]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.44:679][  1]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.44:939][ 15]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.44:939][ 15]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.44:939][ 15]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.52:798][329]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.53:025][338]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.53:025][338]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.53:025][338]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.54:761][441]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.54:986][450]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.54:986][450]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.54:986][450]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.56:156][520]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.56:397][533]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.56:397][533]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.56:397][533]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.00.57:100][575]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.00.57:339][588]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.00.57:339][588]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.00.57:339][588]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.04:089][992]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'MaterialGraphNode_71.MaterialExpressionTextureCoordinate_4')'
+[2018.05.04-10.01.04:100][992]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.04:320][  1]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.04:320][  1]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.04:320][  1]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.05:988][100]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'MaterialGraphNode_71.MaterialExpressionTextureCoordinate_5')'
+[2018.05.04-10.01.05:998][100]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.06:218][109]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.06:218][109]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.06:218][109]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.08:068][219]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'MaterialGraphNode_71.MaterialExpressionTextureCoordinate_6')'
+[2018.05.04-10.01.08:081][219]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.08:307][228]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.08:307][228]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.08:307][228]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.11:109][396]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.11:354][409]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.11:354][409]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.11:354][409]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.12:873][500]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.13:130][514]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.13:130][514]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.13:130][514]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.14:399][590]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.14:641][603]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.14:641][603]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.14:641][603]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.30:650][206]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.30:862][214]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.30:862][214]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.30:862][214]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.43:552][717]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.43:783][726]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.43:783][726]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.43:783][726]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.46:236][873]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.46:480][886]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.46:480][886]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.46:480][886]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.47:599][953]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.47:839][966]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.47:839][966]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.47:839][966]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.48:992][ 35]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.49:234][ 48]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.49:234][ 48]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.49:234][ 48]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.50:636][132]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.50:877][145]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.50:877][145]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.50:877][145]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.58:412][421]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.58:642][430]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.58:642][430]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.58:642][430]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.01.59:574][485]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.01.59:798][493]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.01.59:798][493]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.01.59:798][493]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.02:598][658]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.02:817][666]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.02:817][666]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.02:817][666]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.04:220][750]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.04:463][763]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.04:463][763]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.04:463][763]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.08:986][913]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.09:231][926]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.09:231][926]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.09:231][926]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.11:941][ 87]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.12:172][ 96]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.12:172][ 96]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.12:172][ 96]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.12:716][127]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.12:934][135]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.12:934][135]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.12:934][135]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.13:279][154]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.13:494][162]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.13:494][162]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.13:494][162]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.15:313][271]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.15:556][284]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.15:556][284]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.15:556][284]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.17:342][391]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.17:586][404]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.17:586][404]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.17:586][404]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.20:713][487]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.20:926][495]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.20:926][495]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.20:926][495]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.22:863][611]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.23:105][624]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.23:105][624]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.23:105][624]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.24:625][715]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.24:868][728]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.24:868][728]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.24:868][728]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.38:021][126]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.38:241][134]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.38:241][134]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.38:241][134]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.43:211][432]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.43:453][445]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.43:453][445]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.43:453][445]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.45:038][540]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.45:997][596]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.46:239][609]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.46:239][609]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.46:239][609]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.48:675][755]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.48:920][768]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.48:920][768]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.48:920][768]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.02.50:240][847]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.02.50:479][860]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.02.50:479][860]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.02.50:479][860]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.03:297][263]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.03:542][276]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.03:542][276]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.03:542][276]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.04:480][332]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.04:724][345]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.04:724][345]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.04:724][345]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.17:929][137]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.18:170][150]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.18:170][150]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.18:170][150]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.18:973][198]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.19:350][219]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.19:350][219]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.19:350][219]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.26:040][620]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.26:284][633]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.26:284][633]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.26:284][633]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.27:171][686]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.27:409][699]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.27:409][699]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.27:409][699]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.31:249][929]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.31:493][942]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.31:493][942]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.31:493][942]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.32:346][993]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.32:757][ 16]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.32:757][ 16]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.32:757][ 16]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.35:560][184]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.35:804][197]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.35:804][197]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.35:804][197]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.37:257][284]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.37:630][305]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.37:630][305]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.37:630][305]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.39:133][395]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.39:373][408]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.39:373][408]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.39:373][408]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.47:982][650]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.48:201][658]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.48:201][658]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.48:201][658]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.48:470][673]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.48:704][682]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.48:704][682]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.48:704][682]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.50:940][816]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.51:178][829]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.51:178][829]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.51:178][829]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.52:532][910]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.52:840][927]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.52:840][927]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.52:840][927]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.54:408][ 21]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.54:785][ 42]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.54:785][ 42]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.54:785][ 42]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.56:388][138]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.56:762][159]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.56:762][159]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.56:762][159]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.03.57:500][202]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.03.57:723][210]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.03.57:723][210]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.03.57:723][210]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.04.00:194][358]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.00:433][371]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.04.00:433][371]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.04.00:433][371]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.04.01:519][436]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.01:763][449]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.04.01:763][449]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.04.01:763][449]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.04.32:837][301]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.32:852][301]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.33:685][345]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.04.33:685][345]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.04.33:685][345]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.04.34:847][414]LogMaterialEditor: Saving and Compiling material toonShade_Material
+[2018.05.04-10.04.35:672][414]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.35:698][414]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.35:709][414]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.35:733][414]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.05.04-10.04.36:388][414]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.04-10.04.36:481][414]LogSavePackage: Save=36.31ms
+[2018.05.04-10.04.36:481][414]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/toonShade_MaterialE9B342814DA22132381CDF8F83C8F358.tmp' to 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset'
+[2018.05.04-10.04.36:489][414]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset
+[2018.05.04-10.04.46:796][767]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.47:037][776]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.04.47:037][776]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.04.47:037][776]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.04.47:390][796]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.47:611][804]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.04.47:611][804]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.04.47:611][804]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.04.48:782][874]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.49:025][887]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.04.49:025][887]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.04.49:025][887]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.04.50:161][955]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.50:457][971]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.04.50:457][971]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.04.50:457][971]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.04.51:692][ 44]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.51:902][ 51]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.04.51:902][ 51]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.04.51:902][ 51]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.04.52:371][ 78]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.52:595][ 86]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.04.52:595][ 86]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.04.52:595][ 86]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.04.55:265][246]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.04.55:525][260]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.04.55:525][260]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.04.55:525][260]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.05.00:828][578]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.05.01:072][591]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.05.01:072][591]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.05.01:072][591]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.05.34:249][879]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.05.34:829][908]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.05.34:829][908]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.05.34:829][908]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.05.35:692][959]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.05.35:937][968]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.05.35:937][968]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.05.35:937][968]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.05.36:839][ 21]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.05.38:552][115]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.05.38:777][123]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.05.38:777][123]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.05.38:777][123]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.05.40:648][235]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.05.40:907][249]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.05.40:907][249]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.05.40:907][249]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.05.42:076][319]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.05.42:317][332]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.05.42:317][332]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.05.42:317][332]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.05.47:336][633]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.05.47:595][647]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.05.47:595][647]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.05.47:595][647]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.08.02:935][612]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.08.03:080][613]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2018.05.04-10.08.03:606][644]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.08.03:606][644]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.08.03:606][644]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.08.05:243][742]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.08.05:501][756]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.08.05:501][756]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.08.05:501][756]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.08.52:349][253]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.08.52:920][282]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.08.52:920][282]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.08.52:920][282]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.08.53:155][295]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.08.53:380][303]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.08.53:380][303]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.08.53:380][303]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.08.54:600][376]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.08.54:856][390]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.08.54:856][390]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.08.54:856][390]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.08.56:127][466]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.08.56:389][480]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.08.56:389][480]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.08.56:389][480]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.08.56:940][512]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.08.57:173][520]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.08.57:173][520]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.08.57:173][520]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.08.57:525][540]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.08.57:749][548]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.08.57:749][548]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.08.57:749][548]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.08.59:519][654]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.08.59:826][671]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.08.59:826][671]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.08.59:826][671]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.09.02:111][807]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.09.03:623][889]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.09.03:849][897]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.09.03:849][897]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.09.03:849][897]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.09.05:603][  2]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.09.05:846][ 15]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.09.05:846][ 15]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.09.05:846][ 15]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.09.06:933][ 80]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.09.07:175][ 93]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.09.07:175][ 93]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.09.07:175][ 93]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.09.16:294][640]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.09.16:517][652]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.09.16:517][652]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.09.16:517][652]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.09.21:803][969]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.09.22:042][982]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.09.22:042][982]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.09.22:042][982]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.09.25:001][159]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.09.25:366][179]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.09.25:366][179]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.09.25:366][179]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.09.26:941][272]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.09.27:254][289]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.09.27:254][289]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.09.27:254][289]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.10.04:047][793]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.04:612][821]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.10.04:612][821]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.10.04:612][821]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.10.09:752][119]LogEditorTransaction: Undo Move Nodes
+[2018.05.04-10.10.09:779][119]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.10:002][124]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.10.10:002][124]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.10.10:002][124]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.10.16:526][506]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.16:799][521]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.10.16:799][521]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.10.16:799][521]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.10.18:402][617]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.18:729][635]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.10.18:729][635]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.10.18:729][635]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.10.28:655][957]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.28:687][957]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.29:282][987]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.10.29:282][987]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.10.29:282][987]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.10.32:833][197]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.32:895][197]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.33:014][198]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2018.05.04-10.10.33:241][211]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.10.33:241][211]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.10.33:241][211]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.10.34:610][292]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.34:828][299]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.10.34:828][299]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.10.34:828][299]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.10.38:009][487]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.38:040][487]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.38:373][501]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.10.38:373][501]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.10.38:373][501]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.10.53:582][411]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.53:824][424]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.10.53:824][424]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.10.53:824][424]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.10.54:783][481]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.10.55:040][495]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.10.55:040][495]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.10.55:040][495]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.11.14:076][777]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.14:288][784]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.11.14:288][784]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.11.14:288][784]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.11.15:274][842]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.15:480][848]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.11.15:480][848]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.11.15:480][848]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.11.18:395][ 20]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.18:610][ 27]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.11.18:610][ 27]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.11.18:610][ 27]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.11.21:413][195]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.21:654][208]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.11.21:654][208]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.11.21:654][208]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.11.35:370][909]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.35:401][909]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.36:031][941]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.11.36:031][941]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.11.36:031][941]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.11.37:268][ 15]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.37:505][ 28]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.11.37:505][ 28]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.11.37:505][ 28]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.11.39:091][123]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.39:334][136]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.11.39:334][136]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.11.39:334][136]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.11.40:909][229]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.40:941][229]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.04-10.11.41:215][241]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.11.41:215][241]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.11.41:215][241]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.11.46:089][413]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.46:098][413]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.04-10.11.46:391][429]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.11.46:391][429]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.11.46:391][429]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.11.49:366][603]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.49:397][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.04-10.11.49:403][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.11.49:412][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.11.49:446][603]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.49:475][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.11.49:825][619]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.11.49:825][619]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.11.49:825][619]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.11.54:347][890]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.54:354][890]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.11.54:623][904]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.11.54:623][904]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.11.54:623][904]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.11.56:108][993]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.56:121][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.11.56:563][ 18]MaterialEditorStats: Info Base pass shader without light map: 125 instructions
+[2018.05.04-10.11.56:563][ 18]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.11.56:563][ 18]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.05.04-10.11.56:563][ 18]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.11.58:181][115]LogMaterialEditor: Saving and Compiling material toonShade_Material
+[2018.05.04-10.11.58:990][115]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.59:015][115]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.59:027][115]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.11.59:055][115]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.05.04-10.12.00:153][115]LogSavePackage: Save=42.00ms
+[2018.05.04-10.12.00:153][115]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/toonShade_MaterialA7D83F4D46FA446B8C1303B9DD07A10E.tmp' to 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset'
+[2018.05.04-10.12.00:156][115]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset
+[2018.05.04-10.12.00:165][115]MaterialEditorStats: Info Base pass shader without light map: 125 instructions
+[2018.05.04-10.12.00:165][115]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.12.00:165][115]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.05.04-10.12.00:165][115]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.12.04:505][372]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.12.04:518][372]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.12.04:945][396]MaterialEditorStats: Info Base pass shader without light map: 125 instructions
+[2018.05.04-10.12.04:945][396]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.12.04:945][396]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.05.04-10.12.04:945][396]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.12.05:933][455]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.12.05:946][455]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.12.06:330][476]MaterialEditorStats: Info Base pass shader without light map: 125 instructions
+[2018.05.04-10.12.06:330][476]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.12.06:330][476]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.05.04-10.12.06:330][476]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.14.22:585][220]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.14.22:595][220]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.14.23:474][271]MaterialEditorStats: Info Base pass shader without light map: 87 instructions
+[2018.05.04-10.14.23:474][271]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.14.23:474][271]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.14.23:474][271]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.14.24:057][306]LogMaterialEditor: Saving and Compiling material toonShade_Material
+[2018.05.04-10.14.24:872][306]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.14.24:899][306]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.14.24:911][306]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.14.24:936][306]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.05.04-10.14.25:924][306]LogSavePackage: Save=40.77ms
+[2018.05.04-10.14.25:924][306]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/toonShade_MaterialE020179448675971890A0A98E663FF8C.tmp' to 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset'
+[2018.05.04-10.14.25:928][306]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset
+[2018.05.04-10.14.27:650][396]Cmd: TRANSACTION UNDO
+[2018.05.04-10.14.27:650][396]LogEditorTransaction: Undo Create Pin Link
+[2018.05.04-10.14.27:653][396]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.14.27:660][396]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.14.27:671][396]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.14.28:151][417]MaterialEditorStats: Info Base pass shader without light map: 125 instructions
+[2018.05.04-10.14.28:151][417]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.14.28:151][417]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.05.04-10.14.28:151][417]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.14.43:896][333]BlueprintLog: New page: Compile postProcesado
+[2018.05.04-10.14.44:026][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/postProcesado" FILE="D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Maps/postProcesado.uasset" SILENT=true
+[2018.05.04-10.14.44:047][333]LogSavePackage: Save=12.38ms
+[2018.05.04-10.14.44:047][333]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/postProcesadoF78DF9174911BCE8036BB19C5A8733EC.tmp' to 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Maps/postProcesado.uasset'
+[2018.05.04-10.14.44:050][333]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Maps/postProcesado.uasset
+[2018.05.04-10.15.03:951][518]Cmd: TRANSACTION UNDO
+[2018.05.04-10.15.03:951][518]LogEditorTransaction: Undo Create Actors
+[2018.05.04-10.15.03:956][518]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.15.03:968][518]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.15.04:707][560]MaterialEditorStats: Info Base pass shader without light map: 125 instructions
+[2018.05.04-10.15.04:707][560]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.15.04:707][560]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.05.04-10.15.04:707][560]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.15.13:074][ 56]Cmd: DELETE
+[2018.05.04-10.15.13:074][ 56]Cmd: ACTOR DELETE
+[2018.05.04-10.15.13:076][ 56]LogEditorActor: Deleted Actor: PostProcessVolume
+[2018.05.04-10.15.13:093][ 56]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.05.04-10.16.11:685][246]LogSavePackage: Save=959.81ms
+[2018.05.04-10.16.11:685][246]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/MainMenu_Auto2619945EA459975F9F49E23B5708031E7.tmp' to 'D:/anarquia/anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_Auto2.umap'
+[2018.05.04-10.16.11:687][246]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_Auto2.umap
+[2018.05.04-10.16.11:691][246]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu' took 0.994
+[2018.05.04-10.16.11:691][246]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.994
+[2018.05.04-10.18.59:038][392]BlueprintLog: New page: Compile postProcesado
+[2018.05.04-10.18.59:369][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/postProcesado" FILE="D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Maps/postProcesado.uasset" SILENT=true
+[2018.05.04-10.18.59:386][392]LogSavePackage: Save=13.96ms
+[2018.05.04-10.18.59:386][392]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/postProcesado52F2B6EE423AC26BD5B009983EF10CA6.tmp' to 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Maps/postProcesado.uasset'
+[2018.05.04-10.18.59:390][392]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Maps/postProcesado.uasset
+[2018.05.04-10.19.39:686][ 10]LogMaterialEditor: Saving and Compiling material toonShade_Material
+[2018.05.04-10.19.40:505][ 10]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.19.40:531][ 10]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.19.40:543][ 10]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.19.40:567][ 10]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.05.04-10.19.41:864][ 10]LogSavePackage: Save=41.41ms
+[2018.05.04-10.19.41:864][ 10]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/toonShade_Material027178CC47CB60621AFA3E84DC52EA0C.tmp' to 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset'
+[2018.05.04-10.19.41:867][ 10]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset
+[2018.05.04-10.19.41:875][ 10]MaterialEditorStats: Info Base pass shader without light map: 125 instructions
+[2018.05.04-10.19.41:875][ 10]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.19.41:875][ 10]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.05.04-10.19.41:875][ 10]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.19.44:888][185]BlueprintLog: New page: Compile postProcesado
+[2018.05.04-10.21.20:065][710]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.21.20:073][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.21.20:838][754]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.21.20:838][754]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.21.20:838][754]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.05.04-10.21.20:954][761]LogMaterialEditor: Saving and Compiling material toonShade_Material
+[2018.05.04-10.21.21:775][761]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.21.21:801][761]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.21.21:812][761]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.21.21:838][761]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.05.04-10.21.22:672][761]LogSavePackage: Save=40.81ms
+[2018.05.04-10.21.22:672][761]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/toonShade_Material4BD750604717E241F06572A6727A453C.tmp' to 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset'
+[2018.05.04-10.21.22:676][761]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset
+[2018.05.04-10.21.22:683][761]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.05.04-10.21.22:683][761]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.05.04-10.21.22:683][761]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.21.41:117][392]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.21.50:089][849]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.24.18:421][730]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.24.18:429][730]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.24.19:412][787]LogMaterialEditor: Saving and Compiling material toonShade_Material
+[2018.05.04-10.24.20:246][787]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.24.20:271][787]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.24.20:282][787]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.24.20:309][787]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.05.04-10.24.21:267][787]LogSavePackage: Save=40.23ms
+[2018.05.04-10.24.21:267][787]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/toonShade_MaterialF190B79048693F5245DA9BA90DA0CB51.tmp' to 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset'
+[2018.05.04-10.24.21:271][787]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset
+[2018.05.04-10.24.21:279][787]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.24.21:279][787]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.24.21:279][787]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.24.21:279][787]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.24.54:292][686]Cmd: TRANSACTION UNDO
+[2018.05.04-10.24.54:292][686]LogEditorTransaction: Undo Edit Intensity
+[2018.05.04-10.24.54:296][686]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.24.54:306][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.24.55:074][729]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.24.55:074][729]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.24.55:074][729]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.24.55:074][729]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.24.56:908][839]Cmd: TRANSACTION UNDO
+[2018.05.04-10.24.56:908][839]LogEditorTransaction: Undo Edit Intensity
+[2018.05.04-10.24.56:913][839]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.24.56:944][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.24.57:257][857]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.24.57:257][857]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.24.57:257][857]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.24.57:257][857]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.25.02:953][198]Cmd: TRANSACTION UNDO
+[2018.05.04-10.25.02:953][198]LogEditorTransaction: Undo Edit Affects World
+[2018.05.04-10.25.02:957][198]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.25.02:989][198]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.25.03:328][218]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.25.03:328][218]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.25.03:328][218]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.25.03:328][218]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.25.03:545][231]Cmd: TRANSACTION UNDO
+[2018.05.04-10.25.03:545][231]LogEditorTransaction: Undo Edit Use Temperature
+[2018.05.04-10.25.03:548][231]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.25.03:578][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.25.03:873][248]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.25.03:873][248]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.25.03:873][248]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.25.03:873][248]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.25.04:157][265]Cmd: TRANSACTION UNDO
+[2018.05.04-10.25.04:157][265]LogEditorTransaction: Undo Edit Use Temperature
+[2018.05.04-10.25.04:160][265]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.25.04:192][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.25.04:496][283]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.25.04:496][283]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.25.04:496][283]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.25.04:496][283]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.25.07:108][439]Cmd: TRANSACTION UNDO
+[2018.05.04-10.25.07:108][439]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.04-10.25.07:121][439]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.25.07:152][439]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.25.07:438][455]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.25.07:438][455]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.25.07:438][455]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.25.07:438][455]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.25.16:920][ 22]Cmd: TRANSACTION UNDO
+[2018.05.04-10.25.16:920][ 22]LogEditorTransaction: Undo Set Actor Visibility
+[2018.05.04-10.25.16:923][ 22]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.25.16:955][ 22]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.25.17:278][ 41]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.25.17:278][ 41]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.25.17:278][ 41]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.25.17:278][ 41]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.25.17:328][ 44]Cmd: TRANSACTION UNDO
+[2018.05.04-10.25.17:328][ 44]LogEditorTransaction: Undo Set Actor Visibility
+[2018.05.04-10.25.17:330][ 44]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.25.17:359][ 44]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.25.17:654][ 61]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.25.17:654][ 61]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.25.17:654][ 61]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.25.17:654][ 61]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.25.17:670][ 62]Cmd: TRANSACTION UNDO
+[2018.05.04-10.25.17:670][ 62]LogEditorTransaction: Undo Set Actor Visibility
+[2018.05.04-10.25.17:672][ 62]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.25.17:705][ 62]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.25.17:994][ 79]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.25.17:994][ 79]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.25.17:994][ 79]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.25.17:994][ 79]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.25.18:011][ 80]Cmd: TRANSACTION UNDO
+[2018.05.04-10.25.18:011][ 80]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.04-10.25.18:025][ 80]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.25.18:058][ 80]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.25.18:345][ 96]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.25.18:345][ 96]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.25.18:345][ 96]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.25.18:345][ 96]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.25.18:462][103]Cmd: TRANSACTION UNDO
+[2018.05.04-10.25.18:462][103]LogEditorTransaction: Undo Set Actor Visibility
+[2018.05.04-10.25.18:464][103]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.25.18:494][103]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.25.18:803][121]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.25.18:803][121]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.25.18:803][121]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.25.18:803][121]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.25.18:871][125]Cmd: TRANSACTION UNDO
+[2018.05.04-10.25.18:871][125]LogEditorTransaction: Undo Set Actor Visibility
+[2018.05.04-10.25.18:874][125]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.25.18:902][125]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.25.19:208][142]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.25.19:209][142]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.25.19:209][142]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.25.19:209][142]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.25.19:326][149]Cmd: TRANSACTION UNDO
+[2018.05.04-10.25.19:326][149]LogEditorTransaction: Undo Set Actor Visibility
+[2018.05.04-10.25.19:329][149]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.25.19:363][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.25.19:652][166]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.25.19:652][166]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.25.19:652][166]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.25.19:652][166]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.25.19:702][169]Cmd: TRANSACTION UNDO
+[2018.05.04-10.25.19:702][169]LogEditorTransaction: Undo Set Actor Visibility
+[2018.05.04-10.25.19:704][169]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.25.19:735][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.25.20:042][187]MaterialEditorStats: Info Base pass shader without light map: 82 instructions
+[2018.05.04-10.25.20:042][187]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.25.20:042][187]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.05.04-10.25.20:043][187]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.26.13:454][386]LogSavePackage: Save=939.45ms
+[2018.05.04-10.26.13:454][386]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/MainMenu_Auto319082113485CA934A8ACFEB71A3586A2.tmp' to 'D:/anarquia/anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_Auto3.umap'
+[2018.05.04-10.26.13:456][386]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_Auto3.umap
+[2018.05.04-10.26.13:460][386]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu' took 0.974
+[2018.05.04-10.26.13:460][386]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.974
+[2018.05.04-10.43.36:956][705]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.43.36:964][705]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.04-10.43.37:972][763]MaterialEditorStats: Info Base pass shader without light map: 125 instructions
+[2018.05.04-10.43.37:972][763]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.43.37:972][763]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.05.04-10.43.37:972][763]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.43.38:238][779]LogMaterialEditor: Saving and Compiling material toonShade_Material
+[2018.05.04-10.43.39:076][779]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.43.39:102][779]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.43.39:115][779]LogMaterial: Missing cached shader map for material toonShade_Material, compiling. 
+[2018.05.04-10.43.39:143][779]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.05.04-10.43.40:250][779]LogSavePackage: Save=39.81ms
+[2018.05.04-10.43.40:250][779]LogSavePackage: Moving 'D:/anarquia/anarquia/Proyecto2/Saved/toonShade_Material5CC02C294695F5E63BC65BA1013E6CF2.tmp' to 'D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset'
+[2018.05.04-10.43.40:253][779]LogSavePackage:Display: Finished SavePackage D:/anarquia/anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/shaders/cell/toonShade_Material.uasset
+[2018.05.04-10.43.40:261][779]MaterialEditorStats: Info Base pass shader without light map: 125 instructions
+[2018.05.04-10.43.40:261][779]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.05.04-10.43.40:261][779]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.05.04-10.43.40:261][779]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.04-10.44.25:679][495]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.05.04-10.44.40:723][372]MapCheck: New page: Map Check
+[2018.05.04-10.44.40:738][372]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.04-10.44.40:740][372]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.04-10.44.41:061][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.04-10.44.41:072][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.05.04-10.44.41:078][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy waterMat, compiling. 
+[2018.05.04-10.44.41:084][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy rascacielosMat, compiling. 
+[2018.05.04-10.44.41:091][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy gold, compiling. 
+[2018.05.04-10.44.41:096][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ramenMat, compiling. 
+[2018.05.04-10.44.41:102][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy phong1, compiling. 
+[2018.05.04-10.44.41:108][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy wire_108008137, compiling. 
+[2018.05.04-10.44.41:113][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy phong2, compiling. 
+[2018.05.04-10.44.41:119][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy phong3, compiling. 
+[2018.05.04-10.44.41:124][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy arbolMat, compiling. 
+[2018.05.04-10.44.41:133][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Bottle_MAT, compiling. 
+[2018.05.04-10.44.41:140][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__2, compiling. 
+[2018.05.04-10.44.41:145][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificio_rico_estanteriarara1_Mat, compiling. 
+[2018.05.04-10.44.41:152][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Farola_MAT, compiling. 
+[2018.05.04-10.44.41:157][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__2, compiling. 
+[2018.05.04-10.44.41:163][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy green, compiling. 
+[2018.05.04-10.44.41:168][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EdificioDelgado_MAT, compiling. 
+[2018.05.04-10.44.41:173][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_190, compiling. 
+[2018.05.04-10.44.41:179][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificio_pobre_ancho_Mat, compiling. 
+[2018.05.04-10.44.41:184][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificiopobrerepisa_Mat, compiling. 
+[2018.05.04-10.44.41:190][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy edificiopobreescalera_Mat, compiling. 
+[2018.05.04-10.44.41:195][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_191, compiling. 
+[2018.05.04-10.44.41:201][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy wire_007056011, compiling. 
+[2018.05.04-10.44.41:206][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Torre_BOSS_Mat, compiling. 
+[2018.05.04-10.44.41:218][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy cloudCartoon, compiling. 
+[2018.05.04-10.44.41:223][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.05.04-10.44.41:229][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy dirigible_pintado_Mat, compiling. 
+[2018.05.04-10.44.41:235][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy cuboTowerTexture_Mat, compiling. 
+[2018.05.04-10.44.41:240][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy cuboTowerTexture_Mat1, compiling. 
+[2018.05.04-10.44.41:246][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.05.04-10.44.42:730][372]TextureStreamingBuild:Display: Compiling optional shaders took 1.706 seconds.
+[2018.05.04-10.44.42:774][372]LogLevel:Display: Export Material TexCoord Scales took 0.043 seconds.
+[2018.05.04-10.44.42:786][372]TextureStreamingBuild:Display: Build Texture Streaming took 0.012 seconds.
+[2018.05.04-10.44.42:804][372]LightingResults: New page: Lighting Build - May 4, 2018, 2:44:42 PM
+[2018.05.04-10.44.42:820][372]LightingResults:Warning: Warning InstancedFoliageActor_0 The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2018.05.04-10.44.42:820][372]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2018.05.04-10.44.42:952][372]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.131 s
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: === Handled ensure: ===
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: 
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 8]
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: Stack: 
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002A7CE2B6
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002A57B8C2
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002A591E86
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002A526291
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000026A7608B
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000027A8AC02
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000002728F906
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000272D5499
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000002486CE2B
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000024830349
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000024852C8F
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000024830D9D
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000024182B8F
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000241660F9
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-LevelEditor.dll!0x0000000015C7E99C
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-LevelEditor.dll!0x0000000015C98E07
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002587EB7F
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025977EF2
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000258E3DD2
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000258E5079
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025957C05
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025A08F57
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025A35D7B
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025859E9C
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025829835
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000258CE5E2
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000258B720F
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000258A8391
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002A7C175B
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002A7AB7D1
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002A7C33DB
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002A7A7B22
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: USER32.dll!0x000000007547B85D
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: USER32.dll!0x000000007547B1EF
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002A7C3CE6
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor.exe!0x0000000034A2DB44
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor.exe!0x0000000034A1F0B0
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor.exe!0x0000000034A1F12A
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor.exe!0x0000000034A30CF9
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: UE4Editor.exe!0x0000000034A325F7
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: KERNEL32.DLL!0x00000000753D1FE4
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: ntdll.dll!0x0000000075EBF061
+[2018.05.04-10.44.42:952][372]LogOutputDevice:Error: 
+[2018.05.04-10.44.42:952][372]LogStats:                SubmitErrorReport -  0.000 s
