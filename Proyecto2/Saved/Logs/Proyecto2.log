@@ -544,3 +544,740 @@ LogInit: Object subsystem initialized
 [2018.05.15-14.33.26:413][616]LogSavePackage: Save=20.72ms
 [2018.05.15-14.33.26:413][616]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI3D77D4A74FF9E983DE820D9E9FF465B3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
 [2018.05.15-14.33.26:419][616]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.15-14.35.09:486][  9]LogAIModule: Creating AISystem for world 2_2
+[2018.05.15-14.35.09:623][  9]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/2_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.15-14.35.09:623][  9]LightingResults: New page: Lighting Build
+[2018.05.15-14.35.09:624][  9]LoadErrors: New page: Loading map: 2_2.umap
+[2018.05.15-14.35.09:629][  9]MapCheck: New page: Map Check
+[2018.05.15-14.35.09:629][  9]LightingResults: New page: Lighting Build
+[2018.05.15-14.35.13:969][  9]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.15-14.35.14:071][  9]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.15-14.35.14:269][  9]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 197.578ms to complete.
+[2018.05.15-14.35.14:270][  9]LogFileHelpers: Loading map '2_2' took 4.648
+[2018.05.15-14.35.44:426][687]LogRenderer: Reallocating scene render targets to support 1144x924 NumSamples 1 (Frame:1).
+[2018.05.15-14.35.45:146][727]LogSlate: Took 0.018712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.15-14.36.54:001][876]LogEditorTransaction: Undo Edit Text Material
+[2018.05.15-14.37.05:522][562]LogEditorTransaction: Undo Edit Font
+[2018.05.15-14.37.14:416][ 90]LogEditorTransaction: Undo Edit Font
+[2018.05.15-14.37.14:946][121]LogEditorTransaction: Undo Edit Font
+[2018.05.15-14.37.17:248][254]LogSavePackage: Save=22.51ms
+[2018.05.15-14.37.17:248][254]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_ActorFFC0A84B49159C5308082294F5DF2D62.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-14.37.17:255][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-14.39.21:460][ 86]LogEditorTransaction: Undo Modify Component(s)
+[2018.05.15-14.39.24:835][285]LogEditorTransaction: Undo Modify Component(s)
+[2018.05.15-14.39.34:500][860]LogEditorTransaction: Undo Modify Component(s)
+[2018.05.15-14.43.16:180][838]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.15-14.43.44:286][868]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-14.43.44:849][868]LogSavePackage: Save=32.77ms
+[2018.05.15-14.43.44:849][868]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_Actor35EFACE94DC28278FD2E75A44A0FC131.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-14.43.44:860][868]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-14.44.10:314][815]Cmd: TRANSACTION UNDO
+[2018.05.15-14.44.10:314][815]LogEditorTransaction: Undo Rotate Actors
+[2018.05.15-14.44.15:250][109]Cmd: MODE ROTGRID=1
+[2018.05.15-14.44.17:218][221]Cmd: MODE GRID=1
+[2018.05.15-14.44.18:711][308]Cmd: MODE SCALEGRID=1
+[2018.05.15-14.44.22:093][506]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.15-14.44.22:140][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.44.22:140][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-14.44.22:140][506]PIE: New page: PIE session: 2_2 (May 15, 2018, 6:44:22 PM)
+[2018.05.15-14.44.22:141][506]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2
+[2018.05.15-14.44.22:245][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104169s)
+[2018.05.15-14.44.22:246][506]LogAIModule: Creating AISystem for world 2_2
+[2018.05.15-14.44.22:246][506]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2018.05.15-14.44.22:247][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/2_2.2_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 (0.105843s)
+[2018.05.15-14.44.22:282][506]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-14.44.22:291][506]LogInit: FAudioDevice initialized.
+[2018.05.15-14.44.22:325][506]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.15-14.44.22:360][506]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 up for play (max tick rate 60) at 2018.05.15-16.44.22
+[2018.05.15-14.44.22:465][506]LogWorld: Bringing up level for play took: 0.137992
+[2018.05.15-14.44.22:642][506]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2 1.496
+[2018.05.15-14.44.22:643][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.44.22:680][506]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.05.15-14.44.30:318][952]LogRenderer: Reallocating scene render targets to support 1156x924 NumSamples 1 (Frame:443).
+[2018.05.15-14.44.30:358][953]LogRenderer: Reallocating scene render targets to support 1168x924 NumSamples 1 (Frame:444).
+[2018.05.15-14.44.30:401][954]LogRenderer: Reallocating scene render targets to support 1184x924 NumSamples 1 (Frame:445).
+[2018.05.15-14.44.30:441][955]LogRenderer: Reallocating scene render targets to support 1204x924 NumSamples 1 (Frame:446).
+[2018.05.15-14.44.30:481][956]LogRenderer: Reallocating scene render targets to support 1224x924 NumSamples 1 (Frame:447).
+[2018.05.15-14.44.30:525][957]LogRenderer: Reallocating scene render targets to support 1244x924 NumSamples 1 (Frame:448).
+[2018.05.15-14.44.30:566][958]LogRenderer: Reallocating scene render targets to support 1256x924 NumSamples 1 (Frame:449).
+[2018.05.15-14.44.30:607][959]LogRenderer: Reallocating scene render targets to support 1268x924 NumSamples 1 (Frame:450).
+[2018.05.15-14.44.30:648][960]LogRenderer: Reallocating scene render targets to support 1276x924 NumSamples 1 (Frame:451).
+[2018.05.15-14.44.30:775][961]LogRenderer: Reallocating scene render targets to support 1280x924 NumSamples 1 (Frame:452).
+[2018.05.15-14.44.30:809][962]LogRenderer: Reallocating scene render targets to support 1308x924 NumSamples 1 (Frame:453).
+[2018.05.15-14.44.30:868][963]LogRenderer: Reallocating scene render targets to support 1312x924 NumSamples 1 (Frame:454).
+[2018.05.15-14.44.30:909][964]LogRenderer: Reallocating scene render targets to support 1324x924 NumSamples 1 (Frame:455).
+[2018.05.15-14.44.30:950][965]LogRenderer: Reallocating scene render targets to support 1332x924 NumSamples 1 (Frame:456).
+[2018.05.15-14.44.32:477][ 54]LogRenderer: Reallocating scene render targets to support 1336x924 NumSamples 1 (Frame:540).
+[2018.05.15-14.44.32:518][ 55]LogRenderer: Reallocating scene render targets to support 1352x924 NumSamples 1 (Frame:541).
+[2018.05.15-14.44.32:560][ 56]LogRenderer: Reallocating scene render targets to support 1380x924 NumSamples 1 (Frame:542).
+[2018.05.15-14.44.32:601][ 57]LogRenderer: Reallocating scene render targets to support 1412x924 NumSamples 1 (Frame:543).
+[2018.05.15-14.44.32:646][ 58]LogRenderer: Reallocating scene render targets to support 1448x924 NumSamples 1 (Frame:544).
+[2018.05.15-14.44.32:690][ 59]LogRenderer: Reallocating scene render targets to support 1484x924 NumSamples 1 (Frame:545).
+[2018.05.15-14.44.32:732][ 60]LogRenderer: Reallocating scene render targets to support 1516x924 NumSamples 1 (Frame:546).
+[2018.05.15-14.44.32:774][ 61]LogRenderer: Reallocating scene render targets to support 1544x924 NumSamples 1 (Frame:547).
+[2018.05.15-14.44.32:816][ 62]LogRenderer: Reallocating scene render targets to support 1576x924 NumSamples 1 (Frame:548).
+[2018.05.15-14.44.32:865][ 63]LogRenderer: Reallocating scene render targets to support 1600x924 NumSamples 1 (Frame:549).
+[2018.05.15-14.44.32:910][ 64]LogRenderer: Reallocating scene render targets to support 1628x924 NumSamples 1 (Frame:550).
+[2018.05.15-14.44.32:957][ 65]LogRenderer: Reallocating scene render targets to support 1644x924 NumSamples 1 (Frame:551).
+[2018.05.15-14.44.33:051][ 66]LogRenderer: Reallocating scene render targets to support 1660x924 NumSamples 1 (Frame:552).
+[2018.05.15-14.44.33:092][ 67]LogRenderer: Reallocating scene render targets to support 1692x924 NumSamples 1 (Frame:553).
+[2018.05.15-14.44.33:130][ 68]LogRenderer: Reallocating scene render targets to support 1712x924 NumSamples 1 (Frame:554).
+[2018.05.15-14.44.33:168][ 69]LogRenderer: Reallocating scene render targets to support 1728x924 NumSamples 1 (Frame:555).
+[2018.05.15-14.44.33:205][ 70]LogRenderer: Reallocating scene render targets to support 1740x924 NumSamples 1 (Frame:556).
+[2018.05.15-14.44.33:245][ 71]LogRenderer: Reallocating scene render targets to support 1752x924 NumSamples 1 (Frame:557).
+[2018.05.15-14.44.33:287][ 72]LogRenderer: Reallocating scene render targets to support 1764x924 NumSamples 1 (Frame:558).
+[2018.05.15-14.44.33:324][ 73]LogRenderer: Reallocating scene render targets to support 1776x924 NumSamples 1 (Frame:559).
+[2018.05.15-14.44.33:360][ 74]LogRenderer: Reallocating scene render targets to support 1780x924 NumSamples 1 (Frame:560).
+[2018.05.15-14.44.33:403][ 75]LogRenderer: Reallocating scene render targets to support 1788x924 NumSamples 1 (Frame:561).
+[2018.05.15-14.44.33:440][ 76]LogRenderer: Reallocating scene render targets to support 1800x924 NumSamples 1 (Frame:562).
+[2018.05.15-14.44.33:480][ 77]LogRenderer: Reallocating scene render targets to support 1812x924 NumSamples 1 (Frame:563).
+[2018.05.15-14.44.33:523][ 78]LogRenderer: Reallocating scene render targets to support 1820x924 NumSamples 1 (Frame:564).
+[2018.05.15-14.44.33:568][ 79]LogRenderer: Reallocating scene render targets to support 1824x924 NumSamples 1 (Frame:565).
+[2018.05.15-14.44.33:604][ 80]LogRenderer: Reallocating scene render targets to support 1836x924 NumSamples 1 (Frame:566).
+[2018.05.15-14.44.33:646][ 81]LogRenderer: Reallocating scene render targets to support 1840x924 NumSamples 1 (Frame:567).
+[2018.05.15-14.44.33:687][ 82]LogRenderer: Reallocating scene render targets to support 1848x924 NumSamples 1 (Frame:568).
+[2018.05.15-14.44.33:732][ 83]LogRenderer: Reallocating scene render targets to support 1852x924 NumSamples 1 (Frame:569).
+[2018.05.15-14.44.33:767][ 84]LogRenderer: Reallocating scene render targets to support 1860x924 NumSamples 1 (Frame:570).
+[2018.05.15-14.44.47:657][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.44.47:735][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/submenusPause/EnemyData.EnemyData:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/submenusPause/MovementList.MovementList:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/submenusPause/OptionsN.OptionsN:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/character/ui/characterUI.characterUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_5.WidgetTree_86.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/flagProgressUI.flagProgressUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/OptionsMenuInicio.OptionsMenuInicio:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivelNew.SeleccionDeNivelNew:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:MenuPrincipalNew_C_6.WidgetTree_93.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.Tienda_UI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_8.WidgetTree_89.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivelNew.SeleccionDeNivelNew_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/elementosUI/blurEffect.blurEffect:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/OptionsMenuInicio.OptionsMenuInicio_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/character/ui/deathUI.deathUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/character/ui/characterUI.characterUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/submenusPause/EnemyData.EnemyData_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/submenusPause/MovementList.MovementList_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/flagProgressUI.flagProgressUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/submenusPause/OptionsN.OptionsN_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.Tienda_UI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:014][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/character/ui/deathUI.deathUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/elementosUI/blurEffect.blurEffect_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/iconosBandersUI.iconosBandersUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/iconosBandersUI.iconosBandersUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/beginCountdown.beginCountdown:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_2.WidgetTree_81.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/beginCountdown.beginCountdown_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/endOfGameUI.endOfGameUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/endOfGameUI.endOfGameUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/conquistaUI.conquistaUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/conquistaUI.conquistaUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/exploración/exploraciónUI.exploraciónUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/exploración/exploraciónUI.exploraciónUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_4.WidgetTree_85.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_7.WidgetTree_88.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_10.WidgetTree_91.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:MenuPrincipalNew_C_5.WidgetTree_92.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_11.WidgetTree_94.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_9.WidgetTree_90.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_6.WidgetTree_87.CanvasPanel_0
+[2018.05.15-14.47.51:015][630]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (Button /Engine/UMG/Editor/Transient.ButtonWeapons).  Import failed...
+[2018.05.15-14.47.51:015][630]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2018.05.15-14.48.37:848][403]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.15-14.48.38:187][403]LogSavePackage: Save=27.15ms
+[2018.05.15-14.48.38:187][403]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI9C6DA5D04D7228A329EDDE975B3693CF.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.15-14.48.38:196][403]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.15-14.48.38:201][403]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.15-14.49.36:725][857]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.15-14.49.36:996][857]LogSavePackage: Save=30.27ms
+[2018.05.15-14.49.36:996][857]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI14BD1CF54240294975EB0AAAC379FDD3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.15-14.49.37:004][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.15-14.49.37:011][857]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.15-14.49.57:991][ 99]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.15-14.49.58:251][ 99]LogSavePackage: Save=30.60ms
+[2018.05.15-14.49.58:251][ 99]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI931566954135795CB03B7E96D96C0DD5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.15-14.49.58:259][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.15-14.49.58:265][ 99]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.15-14.51.27:214][356]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-14.51.27:490][356]LogSavePackage: Save=38.70ms
+[2018.05.15-14.51.27:490][356]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_ActorD3495C6E450830A260ED7E935639CD9E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-14.51.27:499][356]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-14.51.40:080][100]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-14.51.40:088][100]LogBlueprint:Error: [Compiler Tienda_Actor] Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2018.05.15-14.51.40:479][100]LogSavePackage: Save=33.92ms
+[2018.05.15-14.51.40:479][100]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_Actor856B031744B344410687D3B39CD2AF44.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-14.51.40:488][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-14.51.40:494][100]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2018.05.15-14.51.40:501][100]LogBlueprint:Warning: [Compiler Tienda_Actor] Warning [8863.78] Compile of Tienda_Actor failed. 1 Fatal Issue(s) 0 Warning(s) [in 421 ms] (/Game/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.Tienda_Actor)
+[2018.05.15-14.51.48:010][547]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-14.51.48:281][547]LogSavePackage: Save=40.73ms
+[2018.05.15-14.51.48:282][547]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_ActorB064E8354DFF9BA4C5598EB5B204B6F3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-14.51.48:291][547]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-14.51.58:741][163]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-14.51.58:748][163]LogBlueprint:Error: [Compiler Tienda_Actor] Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2018.05.15-14.51.59:138][163]LogSavePackage: Save=33.74ms
+[2018.05.15-14.51.59:138][163]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_Actor4027B67149CCBF446FEAAC815C2BFA89.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-14.51.59:146][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-14.51.59:152][163]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2018.05.15-14.51.59:160][163]LogBlueprint:Warning: [Compiler Tienda_Actor] Warning [8882.44] Compile of Tienda_Actor failed. 1 Fatal Issue(s) 0 Warning(s) [in 419 ms] (/Game/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.Tienda_Actor)
+[2018.05.15-14.52.07:120][633]LogEditorTransaction: Undo Create Pin Link
+[2018.05.15-14.52.07:320][643]LogEditorTransaction: Undo Move Node
+[2018.05.15-14.52.07:548][655]LogEditorTransaction: Undo Add Node
+[2018.05.15-14.52.08:021][682]LogEditorTransaction: Undo Delete current selection
+[2018.05.15-14.52.09:715][782]LogEditorTransaction: Undo Delete current selection
+[2018.05.15-14.52.10:030][799]LogEditorTransaction: Undo Create Pin Link
+[2018.05.15-14.52.10:430][823]LogEditorTransaction: Undo Move Node
+[2018.05.15-14.52.10:765][841]LogEditorTransaction: Undo Create Pin Link
+[2018.05.15-14.52.11:140][862]LogEditorTransaction: Undo Move Node
+[2018.05.15-14.52.11:547][885]LogEditorTransaction: Undo Move Node
+[2018.05.15-14.52.12:152][920]LogEditorTransaction: Undo Delete current selection
+[2018.05.15-14.52.13:202][981]LogEditorTransaction: Undo Move Node
+[2018.05.15-14.52.13:727][ 11]LogEditorTransaction: Undo Add Node
+[2018.05.15-14.52.15:903][140]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-14.52.16:167][140]LogSavePackage: Save=35.48ms
+[2018.05.15-14.52.16:167][140]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_ActorED015DD44CC29CFB064A07A03DD7FE6A.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-14.52.16:176][140]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-14.52.19:159][311]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.15-14.52.19:213][311]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.52.19:213][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-14.52.19:214][311]PIE: New page: PIE session: 2_2 (May 15, 2018, 6:52:19 PM)
+[2018.05.15-14.52.19:214][311]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2
+[2018.05.15-14.52.19:313][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099071s)
+[2018.05.15-14.52.19:314][311]LogAIModule: Creating AISystem for world 2_2
+[2018.05.15-14.52.19:314][311]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2018.05.15-14.52.19:315][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/2_2.2_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 (0.100552s)
+[2018.05.15-14.52.19:354][311]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-14.52.19:363][311]LogInit: FAudioDevice initialized.
+[2018.05.15-14.52.19:397][311]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.15-14.52.19:428][311]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 up for play (max tick rate 60) at 2018.05.15-16.52.19
+[2018.05.15-14.52.19:431][311]LogWorld: Bringing up level for play took: 0.032059
+[2018.05.15-14.52.19:446][311]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2 0.299
+[2018.05.15-14.52.19:447][311]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.52.19:453][311]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.05.15-14.52.21:673][443]PIE:Error: Error SetInputMode_UIOnly expects a valid player controller as target
+[2018.05.15-14.52.26:158][712]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.52.26:209][712]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.52.51:627][217]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-14.52.51:894][217]LogSavePackage: Save=43.85ms
+[2018.05.15-14.52.51:894][217]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_Actor9094015E43BB684E42A93C91FEF4AF21.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-14.52.51:902][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-14.52.53:254][297]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.15-14.52.53:295][297]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.52.53:295][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-14.52.53:295][297]PIE: New page: PIE session: 2_2 (May 15, 2018, 6:52:53 PM)
+[2018.05.15-14.52.53:296][297]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2
+[2018.05.15-14.52.53:397][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100864s)
+[2018.05.15-14.52.53:397][297]LogAIModule: Creating AISystem for world 2_2
+[2018.05.15-14.52.53:398][297]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2018.05.15-14.52.53:398][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/2_2.2_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 (0.102223s)
+[2018.05.15-14.52.53:436][297]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-14.52.53:446][297]LogInit: FAudioDevice initialized.
+[2018.05.15-14.52.53:477][297]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.15-14.52.53:523][297]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 up for play (max tick rate 60) at 2018.05.15-16.52.53
+[2018.05.15-14.52.53:527][297]LogWorld: Bringing up level for play took: 0.047949
+[2018.05.15-14.52.53:543][297]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2 0.396
+[2018.05.15-14.52.53:544][297]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.52.53:552][297]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.05.15-14.52.59:175][633]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.52.59:231][633]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.53.13:926][496]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-14.53.14:200][496]LogSavePackage: Save=40.59ms
+[2018.05.15-14.53.14:200][496]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_ActorE67EC08146D212241559359728B9DE6D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-14.53.14:208][496]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-14.53.16:169][609]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.15-14.53.16:213][609]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.53.16:213][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-14.53.16:213][609]PIE: New page: PIE session: 2_2 (May 15, 2018, 6:53:16 PM)
+[2018.05.15-14.53.16:214][609]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2
+[2018.05.15-14.53.16:324][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.110397s)
+[2018.05.15-14.53.16:325][609]LogAIModule: Creating AISystem for world 2_2
+[2018.05.15-14.53.16:325][609]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2018.05.15-14.53.16:325][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/2_2.2_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 (0.111557s)
+[2018.05.15-14.53.16:361][609]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-14.53.16:372][609]LogInit: FAudioDevice initialized.
+[2018.05.15-14.53.16:408][609]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.15-14.53.16:440][609]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 up for play (max tick rate 60) at 2018.05.15-16.53.16
+[2018.05.15-14.53.16:444][609]LogWorld: Bringing up level for play took: 0.034717
+[2018.05.15-14.53.16:459][609]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2 -0.688
+[2018.05.15-14.53.16:460][609]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.53.16:467][609]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.05.15-14.53.20:197][832]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.53.20:249][832]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.53.53:732][140]LogSavePackage: Save=2190.80ms
+[2018.05.15-14.53.53:732][140]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/2_2_Auto2650730E6471E24DCD1AA118E2386320F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/2_2_Auto2.umap'
+[2018.05.15-14.53.53:738][140]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Maps/2_2_Auto2.umap
+[2018.05.15-14.53.53:743][140]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/2_2' took 2.256
+[2018.05.15-14.53.53:743][140]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.256
+[2018.05.15-14.59.38:928][217]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-14.59.39:210][217]LogSavePackage: Save=37.60ms
+[2018.05.15-14.59.39:210][217]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_Actor7F0F397F4044FB2E0ABB16A34BF8AE14.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-14.59.39:218][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-14.59.40:883][315]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.15-14.59.40:926][315]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.59.40:926][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-14.59.40:926][315]PIE: New page: PIE session: 2_2 (May 15, 2018, 6:59:40 PM)
+[2018.05.15-14.59.40:926][315]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2
+[2018.05.15-14.59.41:030][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103965s)
+[2018.05.15-14.59.41:031][315]LogAIModule: Creating AISystem for world 2_2
+[2018.05.15-14.59.41:031][315]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2018.05.15-14.59.41:031][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/2_2.2_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 (0.105158s)
+[2018.05.15-14.59.41:065][315]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-14.59.41:074][315]LogInit: FAudioDevice initialized.
+[2018.05.15-14.59.41:107][315]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.15-14.59.41:140][315]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 up for play (max tick rate 60) at 2018.05.15-16.59.41
+[2018.05.15-14.59.41:144][315]LogWorld: Bringing up level for play took: 0.034705
+[2018.05.15-14.59.41:160][315]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2 0.013
+[2018.05.15-14.59.41:160][315]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.59.41:167][315]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.05.15-14.59.43:975][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-14.59.44:030][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.00.23:709][841]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-15.00.23:983][841]LogSavePackage: Save=39.47ms
+[2018.05.15-15.00.23:983][841]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_Actor79EDBB62445B0E0A07762CA080BD5FF3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-15.00.23:992][841]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-15.00.25:091][904]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.15-15.00.25:134][904]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.00.25:134][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-15.00.25:134][904]PIE: New page: PIE session: 2_2 (May 15, 2018, 7:00:25 PM)
+[2018.05.15-15.00.25:135][904]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2
+[2018.05.15-15.00.25:235][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100127s)
+[2018.05.15-15.00.25:235][904]LogAIModule: Creating AISystem for world 2_2
+[2018.05.15-15.00.25:236][904]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2018.05.15-15.00.25:236][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/2_2.2_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 (0.101332s)
+[2018.05.15-15.00.25:267][904]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-15.00.25:276][904]LogInit: FAudioDevice initialized.
+[2018.05.15-15.00.25:311][904]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.15-15.00.25:344][904]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 up for play (max tick rate 60) at 2018.05.15-17.00.25
+[2018.05.15-15.00.25:347][904]LogWorld: Bringing up level for play took: 0.033859
+[2018.05.15-15.00.25:363][904]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2 0.216
+[2018.05.15-15.00.25:364][904]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.00.25:371][904]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.05.15-15.00.39:588][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.00.39:645][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.00.49:943][242]LogSavePackage: Save=2020.21ms
+[2018.05.15-15.00.49:943][242]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/2_2E111C14C44D8F1DFB4F47198CD2259EC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/2_2.umap'
+[2018.05.15-15.00.49:953][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/2_2.umap
+[2018.05.15-15.02.02:878][332]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.15-15.02.23:952][576]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-15.02.24:235][576]LogSavePackage: Save=42.84ms
+[2018.05.15-15.02.24:235][576]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_Actor3DF363584F352CD1FEA817BB462EFCC1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-15.02.24:244][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-15.02.27:036][741]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.15-15.02.27:079][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.02.27:079][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-15.02.27:080][741]PIE: New page: PIE session: 2_2 (May 15, 2018, 7:02:27 PM)
+[2018.05.15-15.02.27:080][741]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2
+[2018.05.15-15.02.27:201][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120222s)
+[2018.05.15-15.02.27:201][741]LogAIModule: Creating AISystem for world 2_2
+[2018.05.15-15.02.27:202][741]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2018.05.15-15.02.27:202][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/2_2.2_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 (0.121445s)
+[2018.05.15-15.02.27:232][741]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-15.02.27:241][741]LogInit: FAudioDevice initialized.
+[2018.05.15-15.02.27:276][741]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.15-15.02.27:309][741]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 up for play (max tick rate 60) at 2018.05.15-17.02.27
+[2018.05.15-15.02.27:312][741]LogWorld: Bringing up level for play took: 0.034598
+[2018.05.15-15.02.27:328][741]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2 0.181
+[2018.05.15-15.02.27:328][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.02.27:336][741]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.05.15-15.02.30:921][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.02.30:980][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.03.48:284][140]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-15.03.48:571][140]LogSavePackage: Save=47.26ms
+[2018.05.15-15.03.48:571][140]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_Actor5D4CC56C4C3A3A0A11BF5A93BBB663CC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-15.03.48:578][140]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-15.03.49:743][207]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.15-15.03.49:786][207]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.03.49:786][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-15.03.49:786][207]PIE: New page: PIE session: 2_2 (May 15, 2018, 7:03:49 PM)
+[2018.05.15-15.03.49:787][207]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2
+[2018.05.15-15.03.49:900][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113075s)
+[2018.05.15-15.03.49:901][207]LogAIModule: Creating AISystem for world 2_2
+[2018.05.15-15.03.49:901][207]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2018.05.15-15.03.49:901][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/2_2.2_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 (0.114424s)
+[2018.05.15-15.03.49:931][207]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-15.03.49:941][207]LogInit: FAudioDevice initialized.
+[2018.05.15-15.03.49:980][207]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.15-15.03.50:033][207]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 up for play (max tick rate 60) at 2018.05.15-17.03.50
+[2018.05.15-15.03.50:036][207]LogWorld: Bringing up level for play took: 0.054801
+[2018.05.15-15.03.50:054][207]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2 0.907
+[2018.05.15-15.03.50:054][207]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.03.50:062][207]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.05.15-15.03.56:245][576]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.03.56:302][576]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.05.00:668][822]BlueprintLog: New page: Compile Tienda_Actor
+[2018.05.15-15.05.00:971][822]LogSavePackage: Save=54.53ms
+[2018.05.15-15.05.00:971][822]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_ActorECDCFAF14D897DAFBE57E1AAD6F84DE0.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-15.05.00:978][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-15.05.09:617][298]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.15-15.05.09:660][298]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.05.09:660][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-15.05.09:661][298]PIE: New page: PIE session: 2_2 (May 15, 2018, 7:05:09 PM)
+[2018.05.15-15.05.09:661][298]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2
+[2018.05.15-15.05.09:781][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119169s)
+[2018.05.15-15.05.09:781][298]LogAIModule: Creating AISystem for world 2_2
+[2018.05.15-15.05.09:782][298]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2018.05.15-15.05.09:782][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/2_2.2_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 (0.120370s)
+[2018.05.15-15.05.09:816][298]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-15.05.09:825][298]LogInit: FAudioDevice initialized.
+[2018.05.15-15.05.09:861][298]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.15-15.05.09:891][298]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 up for play (max tick rate 60) at 2018.05.15-17.05.09
+[2018.05.15-15.05.09:894][298]LogWorld: Bringing up level for play took: 0.032104
+[2018.05.15-15.05.09:910][298]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2 0.763
+[2018.05.15-15.05.09:911][298]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.05.09:918][298]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.05.15-15.05.31:119][541]LogScriptCore:Warning: Script Msg: DestroySession - Invalid or uninitialized OnlineSubsystem
+[2018.05.15-15.05.31:119][541]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2018.05.15-15.05.32:845][645]LogScriptCore:Warning: Script Msg: DestroySession - Invalid or uninitialized OnlineSubsystem
+[2018.05.15-15.05.32:845][645]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2018.05.15-15.05.33:208][666]LogScriptCore:Warning: Script Msg: DestroySession - Invalid or uninitialized OnlineSubsystem
+[2018.05.15-15.05.33:208][666]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2018.05.15-15.05.36:544][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.05.36:626][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.05.50:165][664]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.15-15.05.50:422][664]LogSavePackage: Save=30.72ms
+[2018.05.15-15.05.50:422][664]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI178573284CDB62F9585E84A2DFA31C31.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.15-15.05.50:429][664]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.15-15.05.50:513][664]LogSavePackage: Save=53.56ms
+[2018.05.15-15.05.50:513][664]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_Actor457954A14B81285F60AA3EB531EB331B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-15.05.50:521][664]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-15.05.50:526][664]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.15-15.05.52:206][764]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.15-15.05.52:247][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.05.52:247][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-15.05.52:247][764]PIE: New page: PIE session: 2_2 (May 15, 2018, 7:05:52 PM)
+[2018.05.15-15.05.52:248][764]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2
+[2018.05.15-15.05.52:347][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099914s)
+[2018.05.15-15.05.52:348][764]LogAIModule: Creating AISystem for world 2_2
+[2018.05.15-15.05.52:348][764]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2018.05.15-15.05.52:348][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/2_2.2_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 (0.101097s)
+[2018.05.15-15.05.52:381][764]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-15.05.52:390][764]LogInit: FAudioDevice initialized.
+[2018.05.15-15.05.52:420][764]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.15-15.05.52:455][764]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 up for play (max tick rate 60) at 2018.05.15-17.05.52
+[2018.05.15-15.05.52:458][764]LogWorld: Bringing up level for play took: 0.035638
+[2018.05.15-15.05.52:474][764]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2 -0.673
+[2018.05.15-15.05.52:475][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.05.52:483][764]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.05.15-15.05.57:236][ 48]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.05.57:286][ 48]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.06.14:736][ 85]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.15-15.06.14:998][ 85]LogSavePackage: Save=29.87ms
+[2018.05.15-15.06.14:998][ 85]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI64820771412BF307C5CCA994DD8A973B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.15-15.06.15:006][ 85]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.15-15.06.15:012][ 85]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.15-15.06.16:191][155]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.15-15.06.16:232][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.06.16:232][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-15.06.16:232][155]PIE: New page: PIE session: 2_2 (May 15, 2018, 7:06:16 PM)
+[2018.05.15-15.06.16:232][155]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2
+[2018.05.15-15.06.16:340][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106993s)
+[2018.05.15-15.06.16:340][155]LogAIModule: Creating AISystem for world 2_2
+[2018.05.15-15.06.16:341][155]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2018.05.15-15.06.16:341][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/2_2.2_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 (0.108134s)
+[2018.05.15-15.06.16:374][155]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-15.06.16:383][155]LogInit: FAudioDevice initialized.
+[2018.05.15-15.06.16:417][155]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.15-15.06.16:449][155]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2.2_2 up for play (max tick rate 60) at 2018.05.15-17.06.16
+[2018.05.15-15.06.16:453][155]LogWorld: Bringing up level for play took: 0.034193
+[2018.05.15-15.06.16:470][155]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_2_2 -0.677
+[2018.05.15-15.06.16:471][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.06.16:479][155]LogAudio:Warning: Detected orphaned looping sound 'Rich_district_alpha'.
+[2018.05.15-15.06.28:592][881]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.06.28:646][881]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/2_2.2_2_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/2_2.2_2:PersistentLevel.2_2'
+[2018.05.15-15.06.42:249][553]LogSavePackage: Save=2038.86ms
+[2018.05.15-15.06.42:249][553]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/2_2672D33444BF45BAFCD97389BD8161117.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/2_2.umap'
+[2018.05.15-15.06.42:256][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/2_2.umap
+[2018.05.15-15.06.45:056][703]LogSavePackage: Save=50.45ms
+[2018.05.15-15.06.45:056][703]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_Actor955A10084EF45C81E1025B985E067504.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset'
+[2018.05.15-15.06.45:061][703]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_Actor.uasset
+[2018.05.15-16.17.39:237][418]Cmd: QUIT_EDITOR
+[2018.05.15-16.17.40:257][418]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.05.15-16.17.40:316][418]LogExit: Preparing to exit.
+[2018.05.15-16.17.41:179][418]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' was aborted.
+[2018.05.15-16.17.41:324][418]LogExit: Editor shut down
+[2018.05.15-16.17.41:328][418]LogExit: Transaction tracking system shut down
+[2018.05.15-16.17.42:129][418]LogObj: Freed 0b from 0 cluster array pools.
+[2018.05.15-16.17.42:129][418]LogExit: Object subsystem successfully closed.
+[2018.05.15-16.17.42:164][418]LogD3D11RHI: Shutdown
+[2018.05.15-16.17.42:164][418]LogD3D11RHI: CleanupD3DDevice
+[2018.05.15-16.17.42:297][418]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.15-16.17.43:049][418]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.05.15-16.17.43:049][418]LogModuleManager: Shutting down and abandoning module SequencerWidgets (530)
+[2018.05.15-16.17.43:049][418]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2018.05.15-16.17.43:049][418]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2018.05.15-16.17.43:075][418]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.05.15-16.17.43:075][418]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.05.15-16.17.43:075][418]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.05.15-16.17.43:075][418]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.05.15-16.17.43:098][418]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.05.15-16.17.43:099][418]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.05.15-16.17.43:099][418]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.05.15-16.17.43:099][418]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.05.15-16.17.43:099][418]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' was aborted.
+[2018.05.15-16.17.43:099][418]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' was aborted.
+[2018.05.15-16.17.43:099][418]LogDirectoryWatcher: A directory notification for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' was aborted.
+[2018.05.15-16.17.43:099][418]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.05.15-16.17.43:099][418]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.05.15-16.17.43:099][418]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.05.15-16.17.43:106][418]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.05.15-16.17.43:106][418]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.05.15-16.17.43:106][418]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.05.15-16.17.43:106][418]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.05.15-16.17.43:106][418]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.05.15-16.17.43:106][418]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.05.15-16.17.43:106][418]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.05.15-16.17.43:106][418]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.05.15-16.17.43:106][418]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.05.15-16.17.43:106][418]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.05.15-16.17.43:106][418]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.05.15-16.17.43:137][418]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.05.15-16.17.43:194][418]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.05.15-16.17.43:212][418]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.05.15-16.17.43:212][418]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.05.15-16.17.43:294][418]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.05.15-16.17.43:294][418]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.05.15-16.17.43:308][418]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.05.15-16.17.43:308][418]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.05.15-16.17.43:308][418]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.05.15-16.17.44:239][418]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.05.15-16.17.44:239][418]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.05.15-16.17.44:239][418]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.05.15-16.17.44:252][418]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.05.15-16.17.44:283][418]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.05.15-16.17.44:283][418]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.05.15-16.17.44:293][418]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.05.15-16.17.44:293][418]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.05.15-16.17.44:306][418]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.05.15-16.17.44:306][418]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.05.15-16.17.44:306][418]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.05.15-16.17.44:325][418]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.05.15-16.17.44:325][418]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.05.15-16.17.44:325][418]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.05.15-16.17.44:325][418]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.05.15-16.17.44:325][418]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.05.15-16.17.44:325][418]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.05.15-16.17.44:325][418]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.05.15-16.17.44:325][418]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.05.15-16.17.44:325][418]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.05.15-16.17.44:350][418]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.05.15-16.17.44:358][418]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.05.15-16.17.44:367][418]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.05.15-16.17.44:377][418]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.05.15-16.17.44:430][418]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.05.15-16.17.44:430][418]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.05.15-16.17.44:447][418]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.05.15-16.17.44:476][418]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.05.15-16.17.44:476][418]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.05.15-16.17.44:476][418]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.05.15-16.17.44:476][418]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.05.15-16.17.44:493][418]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.05.15-16.17.44:493][418]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.05.15-16.17.44:493][418]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.05.15-16.17.44:507][418]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.05.15-16.17.44:509][418]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.05.15-16.17.44:509][418]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.05.15-16.17.44:534][418]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.05.15-16.17.44:534][418]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.05.15-16.17.44:534][418]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.05.15-16.17.44:539][418]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.05.15-16.17.44:539][418]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.05.15-16.17.44:539][418]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.05.15-16.17.44:539][418]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.05.15-16.17.44:540][418]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.05.15-16.17.44:560][418]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.05.15-16.17.44:560][418]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.05.15-16.17.44:560][418]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.05.15-16.17.44:560][418]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.05.15-16.17.44:560][418]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.05.15-16.17.44:560][418]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.05.15-16.17.44:560][418]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.05.15-16.17.44:560][418]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.05.15-16.17.44:560][418]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.05.15-16.17.44:717][418]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.05.15-16.17.44:741][418]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.05.15-16.17.44:741][418]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.05.15-16.17.44:741][418]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.05.15-16.17.44:741][418]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.05.15-16.17.44:741][418]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.05.15-16.17.44:741][418]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.05.15-16.17.44:741][418]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.05.15-16.17.44:741][418]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.05.15-16.17.44:741][418]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.05.15-16.17.44:741][418]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.05.15-16.17.44:741][418]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.05.15-16.17.44:741][418]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.05.15-16.17.44:807][418]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.05.15-16.17.44:807][418]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.05.15-16.17.44:837][418]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.05.15-16.17.44:838][418]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.05.15-16.17.44:838][418]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.05.15-16.17.44:838][418]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.05.15-16.17.44:838][418]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.05.15-16.17.44:838][418]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.05.15-16.17.44:838][418]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.05.15-16.17.44:838][418]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.05.15-16.17.44:838][418]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.05.15-16.17.44:838][418]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.05.15-16.17.44:839][418]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.05.15-16.17.44:839][418]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.05.15-16.17.44:839][418]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.05.15-16.17.44:839][418]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.05.15-16.17.44:839][418]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.05.15-16.17.44:839][418]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.05.15-16.17.44:939][418]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.05.15-16.17.45:040][418]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.05.15-16.17.45:040][418]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.05.15-16.17.45:040][418]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.05.15-16.17.45:040][418]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.05.15-16.17.45:056][418]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.05.15-16.17.45:056][418]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.05.15-16.17.45:057][418]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.05.15-16.17.45:058][418]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.05.15-16.17.45:058][418]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.05.15-16.17.45:058][418]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.05.15-16.17.45:060][418]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.05.15-16.17.45:060][418]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.05.15-16.17.45:060][418]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.05.15-16.17.45:060][418]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.05.15-16.17.45:060][418]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.05.15-16.17.45:060][418]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.05.15-16.17.45:099][418]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.05.15-16.17.45:099][418]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.05.15-16.17.45:157][418]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.05.15-16.17.45:157][418]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.05.15-16.17.45:187][418]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.05.15-16.17.45:187][418]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.05.15-16.17.45:187][418]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.05.15-16.17.45:187][418]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.05.15-16.17.45:241][418]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.05.15-16.17.45:241][418]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.05.15-16.17.45:241][418]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.05.15-16.17.45:266][418]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.05.15-16.17.45:266][418]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.05.15-16.17.45:270][418]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.05.15-16.17.45:270][418]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.05.15-16.17.45:270][418]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.05.15-16.17.45:270][418]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.05.15-16.17.45:270][418]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.05.15-16.17.45:270][418]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.05.15-16.17.45:504][418]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.15-16.17.45:504][418]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.05.15-16.17.45:509][418]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.05.15-16.17.45:509][418]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.15-16.17.45:510][418]LogDirectoryWatcher: A directory notification for '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' was aborted.
+[2018.05.15-16.17.45:510][418]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.05.15-16.17.45:510][418]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.05.15-16.17.45:510][418]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.05.15-16.17.45:510][418]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.05.15-16.17.45:510][418]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.05.15-16.17.45:510][418]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.05.15-16.17.45:510][418]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.05.15-16.17.45:510][418]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.05.15-16.17.45:560][418]LogDerivedDataCache: Shutdown
+[2018.05.15-16.17.45:560][418]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.05.15-16.17.45:560][418]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.05.15-16.17.45:560][418]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.05.15-16.17.45:575][418]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.05.15-16.17.45:586][418]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.05.15-16.17.45:586][418]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.05.15-16.17.45:594][418]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.15-16.17.45:595][418]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.15-16.17.45:595][418]LogOnline:Display: Unloading online subsystem: NULL
+[2018.05.15-16.17.45:601][418]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.15-16.17.45:612][418]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.15-16.17.45:613][418]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.15-16.17.45:622][418]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA005EE1A-4C2E-AC6E-0C1B-5591F2150A55%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=b8e2d62e46f8c18f476ba388f82d5b81%7C372cf09feb4c448981332750e16ea5a3%7C4df19abe-310a-492d-afeb-8a554a180440&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.15-16.17.45:645][418]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.15-16.17.45:647][418]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.05.15-16.17.45:659][418]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.05.15-16.17.45:670][418]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.05.15-16.17.45:670][418]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.05.15-16.17.45:674][418]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.05.15-16.17.45:675][418]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.05.15-16.17.45:675][418]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.05.15-16.17.45:675][418]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.05.15-16.17.45:691][418]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.05.15-16.17.45:716][418]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.05.15-16.17.45:716][418]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.05.15-16.17.45:716][418]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.05.15-16.17.45:716][418]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.05.15-16.17.45:716][418]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.05.15-16.17.45:716][418]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.05.15-16.17.45:716][418]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.15-16.17.45:716][418]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.15-16.17.45:716][418]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.15-16.17.45:717][418]LogExit: Exiting.
+[2018.05.15-16.17.45:755][418]Log file closed, 05/15/18 18:17:45
