@@ -1,9 +1,9 @@
-﻿Log file open, 05/12/18 18:43:19
+﻿Log file open, 05/15/18 11:37:30
 LogInit:Display: Running engine for game: Proyecto2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1776125790) SRandInit(-1776125789).
+LogInit:Display: RandInit(-1611412273) SRandInit(-1611412273).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 3.559931
+LogStats: Stats thread started at 4.295495
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,322 +50,497 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.12-16.43.21:063][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.12-16.43.21:063][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.12-16.43.21:199][  0]LogInit: Computer: PC-JAVITO
-[2018.05.12-16.43.21:199][  0]LogInit: User: JAVITO
-[2018.05.12-16.43.21:199][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.12-16.43.21:199][  0]LogInit: High frequency timer resolution =3.320318 MHz
-[2018.05.12-16.43.21:199][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.05.12-16.43.21:199][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.12-16.43.21:199][  0]LogMemory: Process Physical Memory: 274.50 MB used, 274.50 MB peak
-[2018.05.12-16.43.21:199][  0]LogMemory: Process Virtual Memory: 260.71 MB used, 260.71 MB peak
-[2018.05.12-16.43.21:199][  0]LogMemory: Physical Memory: 6435.16 MB used,  26280.41 MB free, 32715.57 MB total
-[2018.05.12-16.43.21:199][  0]LogMemory: Virtual Memory: 676.52 MB used,  26280.41 MB free, 134217728.00 MB total
-[2018.05.12-16.43.22:105][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.05.12-16.43.22:105][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.05.12-16.43.33:123][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.12-16.43.33:222][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2018.05.12-16.43.33:222][  0]LogD3D11RHI:       6052/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.05.12-16.43.33:224][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.12-16.43.33:224][  0]LogD3D11RHI:       0/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.12-16.43.33:224][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.12-16.43.33:231][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.12-16.43.33:231][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.12-16.43.33:231][  0]LogWindows: EnumDisplayDevices:
-[2018.05.12-16.43.33:231][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2018.05.12-16.43.33:231][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2018.05.12-16.43.33:232][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.05.12-16.43.33:232][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.05.12-16.43.33:232][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.12-16.43.33:232][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2018.05.12-16.43.33:232][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.12-16.43.33:232][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.12-16.43.33:232][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.05.12-16.43.33:270][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.12-16.43.33:401][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.12-16.43.33:543][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/9764/).
-[2018.05.12-16.43.33:544][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JAVITO/AppData/Local/Temp/UnrealShaderWorkingDir/6B1D525D433661097525D393155E3859/'.
-[2018.05.12-16.43.33:544][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.05.12-16.43.39:323][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.12-16.43.39:411][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.05.12-16.43.39:481][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.12-16.43.39:557][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.05.12-16.43.39:651][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.05.12-16.43.39:747][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.12-16.43.39:831][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.12-16.43.39:923][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.12-16.43.40:015][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.05.12-16.43.40:171][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.05.12-16.43.40:286][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.12-16.43.40:402][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.12-16.43.40:484][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.12-16.43.40:558][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.12-16.43.40:651][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.12-16.43.40:871][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.12-16.43.40:871][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.12-16.43.40:937][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.05.12-16.43.41:124][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.05.12-16.43.41:165][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.05.12-16.43.41:253][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.12-16.43.41:340][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.12-16.43.41:436][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.12-16.43.41:536][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.05.12-16.43.41:536][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.05.12-16.43.43:130][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.05.12-16.43.44:023][  0]LogDerivedDataCache: Loaded boot cache 0.87s 90MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.05.12-16.43.44:023][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.05.12-16.43.44:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.12-16.43.44:024][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.12-16.43.44:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.12-16.43.44:024][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.12-16.43.44:234][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.12-16.43.44:262][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JAVITO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.12-16.43.44:280][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.12-16.43.44:337][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.12-16.43.44:457][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.12-16.43.44:457][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.12-16.43.51:561][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.12-16.43.52:230][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.05.12-16.43.53:037][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.12-16.43.53:268][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.12-16.43.53:356][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.12-16.43.53:356][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.05.12-16.43.53:356][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.05.12-16.43.59:140][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
-[2018.05.12-16.43.59:545][  0]LogAssetRegistry: FAssetRegistry took 0.0289 seconds to start up
-[2018.05.12-16.43.59:751][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.045178 seconds
-[2018.05.12-16.43.59:788][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.05.12-16.43.59:788][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2018.05.12-16.43.59:788][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.12-16.43.59:954][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.12-16.45.03:125][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.12-16.45.03:348][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.12-16.45.07:745][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.12-16.45.10:275][  0]SourceControl: Info Source control is disabled
-[2018.05.12-16.45.11:716][  0]SourceControl: Info Source control is disabled
-[2018.05.12-16.45.12:302][  0]SourceControl: Info Source control is disabled
-[2018.05.12-16.45.12:513][  0]SourceControl: Info Source control is disabled
-[2018.05.12-16.45.16:283][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.12-16.45.18:754][  0]LogEngine: Initializing Engine...
-[2018.05.12-16.45.18:773][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.12-16.45.19:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.12-16.45.19:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.12-16.45.19:616][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.12-16.45.19:777][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.12-16.45.19:885][  0]LogInit: FAudioDevice initialized.
-[2018.05.12-16.45.19:947][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.05.12-16.45.19:959][  0]LogInit: Texture streaming: Enabled
-[2018.05.12-16.45.20:357][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.12-16.45.21:754][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.05.12-16.45.22:478][  0]LogInit: Transaction tracking system initialized
-[2018.05.12-16.45.24:686][  0]BlueprintLog: New page: Editor Load
-[2018.05.12-16.45.30:964][  0]LocalizationService: Info Localization service is disabled
-[2018.05.12-16.45.36:877][  0]LogConsoleResponse:Display: 
-[2018.05.12-16.45.39:566][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' took 0.04s
-[2018.05.12-16.45.39:566][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.12-16.45.39:566][  0]LogCook:Display: Mobile HDR setting 1
-[2018.05.12-16.45.47:893][  0]SourceControl: Info Source control is disabled
-[2018.05.12-16.45.47:981][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.12-16.45.48:227][  0]LightingResults: New page: Lighting Build
-[2018.05.12-16.45.48:857][  0]MapCheck: New page: Map Check
-[2018.05.12-16.45.48:857][  0]LightingResults: New page: Lighting Build
-[2018.05.12-16.45.53:735][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
-[2018.05.12-16.45.53:735][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap.
-[2018.05.12-16.45.53:735][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu : Can't find file for asset. /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData
-[2018.05.12-16.46.01:422][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
-[2018.05.12-16.46.01:422][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap.
-[2018.05.12-16.46.01:423][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu : Can't find file for asset. /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData
-[2018.05.12-16.46.01:463][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
-[2018.05.12-16.46.01:464][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading NULL.
-[2018.05.12-16.46.01:464][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
-[2018.05.12-16.46.01:464][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading NULL.
-[2018.05.12-16.46.01:941][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
-[2018.05.12-16.46.01:941][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData.MainMenu_BuiltData Referenced by PersistentLevel
-[2018.05.12-16.46.01:941][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading NULL.
-[2018.05.12-16.46.01:941][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData.MainMenu_BuiltData Referenced by PersistentLevel
-[2018.05.12-16.46.42:000][  0]LogAIModule: Creating AISystem for world MainMenu
-[2018.05.12-16.47.01:476][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.12-16.47.01:589][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.12-16.47.01:818][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 176.359ms to complete.
-[2018.05.12-16.47.01:819][  0]LogFileHelpers: Loading map 'MainMenu' took 73.869
-[2018.05.12-16.47.02:898][  0]LogCollectionManager: Loaded 0 collections in 0.004458 seconds
-[2018.05.12-16.47.03:409][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
-[2018.05.12-16.47.03:409][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' took 0.01s
-[2018.05.12-16.47.03:409][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' took 0.01s
-[2018.05.12-16.47.03:409][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
-[2018.05.12-16.47.03:441][  0]LogContentBrowser: Native class hierarchy populated in 0.0225 seconds. Added 2329 classes and 491 folders.
-[2018.05.12-16.47.03:741][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.05.12-16.47.05:947][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2018.05.12-16.47.07:019][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.05.12-16.47.08:513][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.05.12-16.47.09:013][  0]LogSlate: Took 0.320595 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.12-16.47.09:233][  0]LogSlate: Took 0.216369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.12-16.47.09:456][  0]LogSlate: Took 0.219958 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.12-16.47.10:079][  0]LogRenderer: Reallocating scene render targets to support 1100x924 NumSamples 1 (Frame:1).
-[2018.05.12-16.47.11:028][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.05.12-16.47.11:351][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2018.05.12-16.47.11:351][  0]LogLoad: (Engine Initialization) Total time: 244.64 seconds
-[2018.05.12-16.47.11:351][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.90 seconds
-[2018.05.12-16.47.11:351][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.12-16.47.11:418][  0]LogOcInput: OculusInput pre-init called
-[2018.05.12-16.47.11:418][  0]LogHMD: Starting GearVRController plugin
-[2018.05.12-16.47.11:838][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.12-16.47.12:691][  1]LogSlate: Took 0.201148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.12-16.47.12:889][  3]LogAssetRegistry: Asset discovery search completed in 193.3692 seconds
-[2018.05.12-16.47.12:892][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.05.12-16.47.12:892][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
-[2018.05.12-16.47.17:373][505]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' took 5.92s
-[2018.05.12-16.49.59:027][791]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.12-16.49.59:085][791]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Desktop/Estanteria.FBX)
-[2018.05.12-16.49.59:181][791]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.05.12-16.49.59:181][791]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.05.12-16.49.59:181][791]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.05.12-16.49.59:181][791]LogFbx: ItemName: Model, ItemCount : 1
-[2018.05.12-16.49.59:181][791]LogFbx: ItemName: Geometry, ItemCount : 1
-[2018.05.12-16.49.59:217][791]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Estanteria.FBX
-[2018.05.12-16.49.59:240][791]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.12-16.50.11:213][791]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Estanteria.FBX
-[2018.05.12-16.50.11:221][791]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.12-16.50.11:272][791]LogStaticMesh: Building static mesh Estanteria...
-[2018.05.12-16.50.11:332][791]LogStaticMesh: Built static mesh [0.08s] /Game/ThirdPersonBP/Blueprints/PropsWorld/Estanteria.Estanteria
-[2018.05.12-16.50.11:572][791]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.12-16.50.11:937][791]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/JAVITO/Desktop/Estanteria_TEXT.psd)
-[2018.05.12-16.50.12:565][791]LogTexture:Display: Building textures: Estanteria_TEXT (AutoDXT, 2048X2048)
-[2018.05.12-16.50.13:469][791]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/JAVITO/Desktop/Mesa.FBX)
-[2018.05.12-16.50.13:481][791]LogFbx: Loading FBX Scene from ../../../../../../Users/JAVITO/Desktop/Mesa.FBX
-[2018.05.12-16.50.13:486][791]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.12-16.50.13:525][791]LogStaticMesh: Building static mesh Mesa...
-[2018.05.12-16.50.13:535][791]LogStaticMesh: Built static mesh [0.05s] /Game/ThirdPersonBP/Blueprints/PropsWorld/Mesa.Mesa
-[2018.05.12-16.50.13:639][791]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.12-16.50.13:960][791]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/JAVITO/Desktop/Mesa_TEXT.psd)
-[2018.05.12-16.50.14:251][791]LogTexture:Display: Building textures: Mesa_TEXT (AutoDXT, 2048X2048)
-[2018.05.12-16.50.31:237][601]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.05.12-16.50.31:689][613]Cmd: SELECT NONE
-[2018.05.12-16.50.31:873][624]Cmd: SELECT NONE
-[2018.05.12-16.50.32:073][648]Cmd: SELECT NONE
-[2018.05.12-16.50.32:282][673]Cmd: SELECT NONE
-[2018.05.12-16.50.32:499][699]Cmd: SELECT NONE
-[2018.05.12-16.50.32:715][725]Cmd: SELECT NONE
-[2018.05.12-16.50.32:916][749]Cmd: SELECT NONE
-[2018.05.12-16.50.33:124][774]Cmd: SELECT NONE
-[2018.05.12-16.50.38:692][343]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0014 seconds. Added 1 classes and 2 folders.
-[2018.05.12-16.50.52:979][887]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.04:649][138]LogMaterial: Missing cached shader map for material Mesa_TEXT_Mat, compiling. 
-[2018.05.12-16.51.11:636][881]LogSavePackage: Save=33.31ms
-[2018.05.12-16.51.11:636][881]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Mesa_Mat4DA1BBA740D28D00EB211B983FDE3CFC.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Mesa_Mat.uasset'
-[2018.05.12-16.51.11:644][881]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Mesa_Mat.uasset
-[2018.05.12-16.51.15:910][335]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.16:227][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.16:276][335]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.16:334][335]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.16:405][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.16:477][335]LogSlate: Took 0.059318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.05.12-16.51.17:558][362]MaterialEditorStats: Info Base pass shader: 81 instructions
-[2018.05.12-16.51.17:558][362]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.05.12-16.51.17:558][362]MaterialEditorStats: Info Texture samplers: 2/16
-[2018.05.12-16.51.17:558][362]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.12-16.51.19:072][501]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.19:132][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.19:528][514]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.19:593][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.20:160][543]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.20:220][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.22:066][681]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.22:099][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.22:951][726]MaterialEditorStats: Info Base pass shader: 81 instructions
-[2018.05.12-16.51.22:951][726]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.05.12-16.51.22:951][726]MaterialEditorStats: Info Texture samplers: 2/16
-[2018.05.12-16.51.22:951][726]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.12-16.51.24:018][827]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.24:053][827]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.24:921][872]MaterialEditorStats: Info Base pass shader: 84 instructions
-[2018.05.12-16.51.24:921][872]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.05.12-16.51.24:921][872]MaterialEditorStats: Info Texture samplers: 2/16
-[2018.05.12-16.51.24:921][872]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.12-16.51.26:211][997]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.26:240][997]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.27:141][ 45]MaterialEditorStats: Info Base pass shader: 84 instructions
-[2018.05.12-16.51.27:141][ 45]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.05.12-16.51.27:141][ 45]MaterialEditorStats: Info Texture samplers: 2/16
-[2018.05.12-16.51.27:141][ 45]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.12-16.51.34:219][703]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.34:238][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.35:152][756]MaterialEditorStats: Info Base pass shader: 84 instructions
-[2018.05.12-16.51.35:152][756]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.05.12-16.51.35:152][756]MaterialEditorStats: Info Texture samplers: 2/16
-[2018.05.12-16.51.35:152][756]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.12-16.51.38:597][ 74]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.38:627][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.39:497][123]MaterialEditorStats: Info Base pass shader: 84 instructions
-[2018.05.12-16.51.39:497][123]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.05.12-16.51.39:497][123]MaterialEditorStats: Info Texture samplers: 2/16
-[2018.05.12-16.51.39:497][123]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.12-16.51.41:056][265]LogMaterialEditor: Saving and Compiling material Estanteria_Mat
-[2018.05.12-16.51.41:692][265]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.41:819][265]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.41:865][265]LogMaterial: Missing cached shader map for material Estanteria_Mat, compiling. 
-[2018.05.12-16.51.41:938][265]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Estanteria_Mat, compiling. 
-[2018.05.12-16.51.42:493][265]TextureStreamingBuild:Display: Compiling optional shaders took 0.586 seconds.
-[2018.05.12-16.51.43:886][265]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.12-16.51.43:941][265]LogSavePackage: Save=17.14ms
-[2018.05.12-16.51.43:941][265]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Estanteria_Mat1CC8C58E46AE2BD65FAD5D9701DAB104.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Estanteria_Mat.uasset'
-[2018.05.12-16.51.43:948][265]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Estanteria_Mat.uasset
-[2018.05.12-16.51.43:955][265]MaterialEditorStats: Info Base pass shader: 84 instructions
-[2018.05.12-16.51.43:955][265]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.05.12-16.51.43:955][265]MaterialEditorStats: Info Texture samplers: 3/16
-[2018.05.12-16.51.43:955][265]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.12-16.51.48:516][691]LogMaterial: Missing cached shader map for material Mesa_Mat, compiling. 
-[2018.05.12-16.51.48:694][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.48:715][691]LogMaterial: Missing cached shader map for material Mesa_Mat, compiling. 
-[2018.05.12-16.51.48:752][691]LogMaterial: Missing cached shader map for material Mesa_Mat, compiling. 
-[2018.05.12-16.51.48:824][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.49:838][740]MaterialEditorStats: Info Base pass shader: 81 instructions
-[2018.05.12-16.51.49:838][740]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.05.12-16.51.49:838][740]MaterialEditorStats: Info Texture samplers: 2/16
-[2018.05.12-16.51.49:838][740]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.12-16.51.49:992][753]LogMaterial: Missing cached shader map for material Mesa_Mat, compiling. 
-[2018.05.12-16.51.50:096][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.50:975][797]MaterialEditorStats: Info Base pass shader: 81 instructions
-[2018.05.12-16.51.50:975][797]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.05.12-16.51.50:975][797]MaterialEditorStats: Info Texture samplers: 2/16
-[2018.05.12-16.51.50:975][797]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.12-16.51.52:070][895]LogMaterial: Missing cached shader map for material Mesa_Mat, compiling. 
-[2018.05.12-16.51.52:136][895]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.53:662][  4]LogMaterial: Missing cached shader map for material Mesa_Mat, compiling. 
-[2018.05.12-16.51.53:707][  4]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.54:581][ 52]MaterialEditorStats: Info Base pass shader: 84 instructions
-[2018.05.12-16.51.54:581][ 52]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.05.12-16.51.54:581][ 52]MaterialEditorStats: Info Texture samplers: 2/16
-[2018.05.12-16.51.54:581][ 52]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.12-16.51.55:549][141]LogMaterial: Missing cached shader map for material Mesa_Mat, compiling. 
-[2018.05.12-16.51.55:624][141]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.12-16.51.56:482][185]MaterialEditorStats: Info Base pass shader: 84 instructions
-[2018.05.12-16.51.56:482][185]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.05.12-16.51.56:482][185]MaterialEditorStats: Info Texture samplers: 2/16
-[2018.05.12-16.51.56:482][185]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.12-16.51.56:907][224]LogMaterialEditor: Saving and Compiling material Mesa_Mat
-[2018.05.12-16.51.57:580][224]LogMaterial: Missing cached shader map for material Mesa_Mat, compiling. 
-[2018.05.12-16.51.57:737][224]LogMaterial: Missing cached shader map for material Mesa_Mat, compiling. 
-[2018.05.12-16.51.57:783][224]LogMaterial: Missing cached shader map for material Mesa_Mat, compiling. 
-[2018.05.12-16.51.57:831][224]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mesa_Mat, compiling. 
-[2018.05.12-16.51.58:398][224]TextureStreamingBuild:Display: Compiling optional shaders took 0.574 seconds.
-[2018.05.12-16.52.00:039][224]LogSavePackage: Save=33.37ms
-[2018.05.12-16.52.00:039][224]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Mesa_MatA4F3EF8F4EEA53CA1EF09396C1F9E993.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Mesa_Mat.uasset'
-[2018.05.12-16.52.00:048][224]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Mesa_Mat.uasset
-[2018.05.12-16.52.00:053][224]MaterialEditorStats: Info Base pass shader: 84 instructions
-[2018.05.12-16.52.00:053][224]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2018.05.12-16.52.00:053][224]MaterialEditorStats: Info Texture samplers: 3/16
-[2018.05.12-16.52.00:053][224]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.12-16.52.28:549][893]LogSavePackage: Save=15.88ms
-[2018.05.12-16.52.28:550][893]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Estanteria95E6D36549DE9D686A8A5BA518509103.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Estanteria.uasset'
-[2018.05.12-16.52.28:556][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Estanteria.uasset
-[2018.05.12-16.52.28:991][893]LogSavePackage: Save=418.29ms
-[2018.05.12-16.52.28:991][893]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Estanteria_TEXT49C0EEDB4E0149CB6471DDAD0B56E3F0.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Estanteria_TEXT.uasset'
-[2018.05.12-16.52.28:996][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Estanteria_TEXT.uasset
-[2018.05.12-16.52.29:040][893]LogSavePackage: Save=15.33ms
-[2018.05.12-16.52.29:040][893]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Mesa077A7837401458597E297F99564648AE.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Mesa.uasset'
-[2018.05.12-16.52.29:046][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Mesa.uasset
-[2018.05.12-16.52.29:585][893]LogSavePackage: Save=524.52ms
-[2018.05.12-16.52.29:585][893]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Mesa_TEXT514E8E2D41F72515B25FC2AACF385A2E.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Mesa_TEXT.uasset'
-[2018.05.12-16.52.29:592][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/PropsWorld/Mesa_TEXT.uasset
+[2018.05.15-09.37.31:767][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.15-09.37.31:767][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.15-09.37.31:901][  0]LogInit: Computer: PC-JAVITO
+[2018.05.15-09.37.31:901][  0]LogInit: User: JAVITO
+[2018.05.15-09.37.31:901][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.15-09.37.31:901][  0]LogInit: High frequency timer resolution =3.320315 MHz
+[2018.05.15-09.37.31:917][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.05.15-09.37.31:917][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.15-09.37.31:917][  0]LogMemory: Process Physical Memory: 274.56 MB used, 274.56 MB peak
+[2018.05.15-09.37.31:917][  0]LogMemory: Process Virtual Memory: 260.86 MB used, 260.86 MB peak
+[2018.05.15-09.37.31:917][  0]LogMemory: Physical Memory: 4106.20 MB used,  28609.38 MB free, 32715.57 MB total
+[2018.05.15-09.37.31:917][  0]LogMemory: Virtual Memory: 676.52 MB used,  28609.38 MB free, 134217728.00 MB total
+[2018.05.15-09.37.32:749][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.05.15-09.37.32:749][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.05.15-09.37.39:649][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.15-09.37.39:768][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.05.15-09.37.39:768][  0]LogD3D11RHI:       6052/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.15-09.37.39:770][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.15-09.37.39:770][  0]LogD3D11RHI:       0/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.15-09.37.39:770][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.15-09.37.39:776][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.15-09.37.39:777][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.15-09.37.39:777][  0]LogWindows: EnumDisplayDevices:
+[2018.05.15-09.37.39:777][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.05.15-09.37.39:777][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.05.15-09.37.39:777][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.05.15-09.37.39:777][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.05.15-09.37.39:777][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.15-09.37.39:777][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.05.15-09.37.39:777][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.15-09.37.39:777][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.15-09.37.39:777][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.05.15-09.37.39:839][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.15-09.37.40:005][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.15-09.37.40:141][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Intermediate/Shaders/WorkingDirectory/7880/).
+[2018.05.15-09.37.40:141][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JAVITO/AppData/Local/Temp/UnrealShaderWorkingDir/ADADD2F044F5C46AF38139A34D9274C5/'.
+[2018.05.15-09.37.40:141][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.05.15-09.37.44:761][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.15-09.37.44:829][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.05.15-09.37.44:896][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.15-09.37.44:965][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.05.15-09.37.45:056][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.05.15-09.37.45:125][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.15-09.37.45:193][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.15-09.37.45:260][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.15-09.37.45:323][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.05.15-09.37.45:409][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.05.15-09.37.45:536][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.15-09.37.45:613][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.15-09.37.45:690][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.15-09.37.45:774][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.15-09.37.45:913][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.15-09.37.46:073][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.15-09.37.46:073][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.15-09.37.46:174][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.05.15-09.37.46:390][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.05.15-09.37.46:429][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.05.15-09.37.46:503][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.15-09.37.46:591][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.15-09.37.46:710][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.15-09.37.46:805][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.05.15-09.37.46:805][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.05.15-09.37.48:235][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.05.15-09.37.48:930][  0]LogDerivedDataCache: Loaded boot cache 0.67s 90MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.05.15-09.37.48:930][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.05.15-09.37.48:930][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.15-09.37.48:930][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.15-09.37.48:930][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.15-09.37.48:930][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.15-09.37.49:036][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.15-09.37.49:066][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JAVITO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.15-09.37.49:104][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.15-09.37.49:161][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.15-09.37.49:271][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.15-09.37.49:271][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.15-09.37.56:866][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.15-09.37.57:695][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.15-09.37.58:371][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.15-09.37.58:583][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.15-09.37.58:706][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.15-09.37.58:706][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.05.15-09.37.58:706][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.05.15-09.38.04:321][  0]LogNetVersion: Proyecto2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2528454084)
+[2018.05.15-09.38.04:700][  0]LogAssetRegistry: FAssetRegistry took 0.0288 seconds to start up
+[2018.05.15-09.38.04:877][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.084032 seconds
+[2018.05.15-09.38.04:914][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.05.15-09.38.04:914][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.05.15-09.38.04:914][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.15-09.38.05:049][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.15-09.38.29:968][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.15-09.38.30:047][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.15-09.38.32:314][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.15-09.38.33:605][  0]SourceControl: Info Source control is disabled
+[2018.05.15-09.38.34:237][  0]SourceControl: Info Source control is disabled
+[2018.05.15-09.38.34:380][  0]SourceControl: Info Source control is disabled
+[2018.05.15-09.38.34:493][  0]SourceControl: Info Source control is disabled
+[2018.05.15-09.38.36:418][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.15-09.38.37:963][  0]LogEngine: Initializing Engine...
+[2018.05.15-09.38.37:987][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.15-09.38.38:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.15-09.38.38:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.15-09.38.39:379][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.15-09.38.39:468][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-09.38.39:497][  0]LogInit: FAudioDevice initialized.
+[2018.05.15-09.38.39:561][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/JAVITO/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.05.15-09.38.39:571][  0]LogInit: Texture streaming: Enabled
+[2018.05.15-09.38.40:084][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.15-09.38.40:084][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={2EDEB820-4EA0-73FE-86D4-81B5F1CD9074}
+[2018.05.15-09.38.40:828][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.05.15-09.38.41:109][  0]LogInit: Transaction tracking system initialized
+[2018.05.15-09.38.42:807][  0]BlueprintLog: New page: Editor Load
+[2018.05.15-09.38.48:703][  0]LocalizationService: Info Localization service is disabled
+[2018.05.15-09.38.51:475][  0]LogConsoleResponse:Display: 
+[2018.05.15-09.38.55:821][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.15-09.38.55:821][  0]LogCook:Display: Mobile HDR setting 1
+[2018.05.15-09.38.55:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' took 0.17s
+[2018.05.15-09.39.03:207][  0]SourceControl: Info Source control is disabled
+[2018.05.15-09.39.03:341][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.15-09.39.03:445][  0]LightingResults: New page: Lighting Build
+[2018.05.15-09.39.04:044][  0]MapCheck: New page: Map Check
+[2018.05.15-09.39.04:044][  0]LightingResults: New page: Lighting Build
+[2018.05.15-09.39.11:250][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.15-09.39.11:250][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap.
+[2018.05.15-09.39.11:250][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu : Can't find file for asset. /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData
+[2018.05.15-09.39.16:400][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.15-09.39.16:400][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap.
+[2018.05.15-09.39.16:400][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu : Can't find file for asset. /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData
+[2018.05.15-09.39.16:441][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.15-09.39.16:442][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading NULL.
+[2018.05.15-09.39.16:442][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.15-09.39.16:442][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading NULL.
+[2018.05.15-09.39.18:102][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.15-09.39.18:102][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData.MainMenu_BuiltData Referenced by PersistentLevel
+[2018.05.15-09.39.18:102][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading NULL.
+[2018.05.15-09.39.18:102][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData.MainMenu_BuiltData Referenced by PersistentLevel
+[2018.05.15-09.39.43:367][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.15-09.39.56:700][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.15-09.39.56:794][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.15-09.39.56:942][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 128.352ms to complete.
+[2018.05.15-09.39.56:942][  0]LogFileHelpers: Loading map 'MainMenu' took 53.684
+[2018.05.15-09.39.58:477][  0]LogCollectionManager: Loaded 0 collections in 0.004105 seconds
+[2018.05.15-09.39.58:782][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Collections/' took 0.01s
+[2018.05.15-09.39.58:782][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Developers/JAVITO/Collections/' took 0.01s
+[2018.05.15-09.39.58:782][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/Collections/' took 0.01s
+[2018.05.15-09.39.58:782][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2018.05.15-09.39.58:899][  0]LogContentBrowser: Native class hierarchy populated in 0.1032 seconds. Added 2329 classes and 491 folders.
+[2018.05.15-09.39.59:123][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.05.15-09.40.00:509][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.05.15-09.40.01:324][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.05.15-09.40.02:179][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.05.15-09.40.02:415][  0]LogSlate: Took 0.024486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.15-09.40.02:443][  0]LogSlate: Took 0.023562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.15-09.40.02:476][  0]LogSlate: Took 0.016935 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.15-09.40.02:929][  0]LogRenderer: Reallocating scene render targets to support 1100x924 NumSamples 1 (Frame:1).
+[2018.05.15-09.40.03:392][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.05.15-09.40.03:554][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.05.15-09.40.03:554][  0]LogLoad: (Engine Initialization) Total time: 166.83 seconds
+[2018.05.15-09.40.03:554][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.80 seconds
+[2018.05.15-09.40.03:554][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.15-09.40.03:564][  0]LogOcInput: OculusInput pre-init called
+[2018.05.15-09.40.03:564][  0]LogHMD: Starting GearVRController plugin
+[2018.05.15-09.40.03:704][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.15-09.40.04:034][  0]LogSlate: Took 0.022944 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.15-09.40.04:096][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/' took 0.52s
+[2018.05.15-09.40.04:406][  3]LogAssetRegistry: Asset discovery search completed in 119.7280 seconds
+[2018.05.15-09.40.04:408][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.15-09.40.04:408][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2018.05.15-09.41.03:670][993]LogHttp:Warning: 000002266C826B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.41.03:670][993]LogHttp:Warning: 000002266C826B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.41.03:670][993]LogHttp:Warning: 000002266C826B00: libcurl info message cache 1 (Closing connection 0)
+[2018.05.15-09.42.03:575][181]LogHttp:Warning: 000002266C826080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.42.03:575][181]LogHttp:Warning: 000002266C826080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.42.03:575][181]LogHttp:Warning: 000002266C826080: libcurl info message cache 1 (Closing connection 1)
+[2018.05.15-09.43.14:621][705]LogHttp:Warning: 000002266C826200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.43.14:621][705]LogHttp:Warning: 000002266C826200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.43.14:621][705]LogHttp:Warning: 000002266C826200: libcurl info message cache 1 (Closing connection 2)
+[2018.05.15-09.43.39:018][622]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.15-09.43.39:870][622]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.15-09.43.45:565][622]LogBlueprint:Warning: [Compiler sargentEnemyN] Warning 'Antidisturbios Enemy' does not inherit from 'Base Enemy' ( Cast To antidisturbiosEnemy  would always fail).
+[2018.05.15-09.43.45:582][622]LogBlueprint:Warning: [Compiler sargentEnemyN] Warning [0388.86] Compile of sargentEnemyN successful, but with 1 Warning(s) [in 76 ms] (/Game/ThirdPersonBP/Blueprints/enemies/sargent/sargentEnemyN.sargentEnemyN)
+[2018.05.15-09.43.45:583][622]LogBlueprint:Warning: [Compiler sargentEnemyN] Warning [0388.86] Compile of sargentEnemyN successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/enemies/sargent/sargentEnemyN.sargentEnemyN)
+[2018.05.15-09.43.45:583][622]LogBlueprint:Warning: [Compiler sargentEnemyN] Warning [0388.86] Compile of sargentEnemyN successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/enemies/sargent/sargentEnemyN.sargentEnemyN)
+[2018.05.15-09.44.20:964][622]LogAIModule: Creating AISystem for world 2_1
+[2018.05.15-09.44.21:448][622]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/2_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.15-09.44.21:448][622]LightingResults: New page: Lighting Build
+[2018.05.15-09.44.21:449][622]LoadErrors: New page: Loading map: 2_1.umap
+[2018.05.15-09.44.21:452][622]MapCheck: New page: Map Check
+[2018.05.15-09.44.21:452][622]LightingResults: New page: Lighting Build
+[2018.05.15-09.44.27:170][622]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.15-09.44.27:329][622]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.15-09.44.27:496][622]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 166.816ms to complete.
+[2018.05.15-09.44.27:497][622]LogFileHelpers: Loading map '2_1' took 6.081
+[2018.05.15-09.44.39:038][940]LogHttp:Warning: 000002268E59D300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.44.39:038][940]LogHttp:Warning: 000002268E59D300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.44.39:038][940]LogHttp:Warning: 000002268E59D300: libcurl info message cache 1 (Closing connection 3)
+[2018.05.15-09.45.13:771][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio9)
+[2018.05.15-09.45.14:956][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio9)
+[2018.05.15-09.45.16:045][127]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Edificio8)
+[2018.05.15-09.46.03:583][759]LogHttp:Warning: 0000022660CBB400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.46.03:583][759]LogHttp:Warning: 0000022660CBB400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.46.03:583][759]LogHttp:Warning: 0000022660CBB400: libcurl info message cache 1 (Closing connection 4)
+[2018.05.15-09.47.14:603][223]LogHttp:Warning: 0000022660CBA680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.47.14:603][223]LogHttp:Warning: 0000022660CBA680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.47.14:603][223]LogHttp:Warning: 0000022660CBA680: libcurl info message cache 1 (Closing connection 5)
+[2018.05.15-09.48.03:573][ 64]LogHttp:Warning: 0000022660CB9000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.48.03:573][ 64]LogHttp:Warning: 0000022660CB9000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.48.03:573][ 64]LogHttp:Warning: 0000022660CB9000: libcurl info message cache 1 (Closing connection 6)
+[2018.05.15-09.49.03:605][224]LogHttp:Warning: 0000022660CB9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.49.03:605][224]LogHttp:Warning: 0000022660CB9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.49.03:605][224]LogHttp:Warning: 0000022660CB9600: libcurl info message cache 1 (Closing connection 7)
+[2018.05.15-09.50.03:603][373]LogHttp:Warning: 0000022660CB9C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.50.03:603][373]LogHttp:Warning: 0000022660CB9C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.50.03:603][373]LogHttp:Warning: 0000022660CB9C00: libcurl info message cache 1 (Closing connection 8)
+[2018.05.15-09.51.03:588][530]LogHttp:Warning: 0000022660CB8B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.51.03:588][530]LogHttp:Warning: 0000022660CB8B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.51.03:588][530]LogHttp:Warning: 0000022660CB8B80: libcurl info message cache 1 (Closing connection 9)
+[2018.05.15-09.52.14:619][991]LogHttp:Warning: 0000022660CBB880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.52.14:619][991]LogHttp:Warning: 0000022660CBB880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.52.14:619][991]LogHttp:Warning: 0000022660CBB880: libcurl info message cache 1 (Closing connection 10)
+[2018.05.15-09.53.14:614][137]LogHttp:Warning: 0000022660CB8580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.53.14:614][137]LogHttp:Warning: 0000022660CB8580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.53.14:614][137]LogHttp:Warning: 0000022660CB8580: libcurl info message cache 1 (Closing connection 11)
+[2018.05.15-09.54.14:624][283]LogHttp:Warning: 0000022660CBA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.54.14:624][283]LogHttp:Warning: 0000022660CBA800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.54.14:624][283]LogHttp:Warning: 0000022660CBA800: libcurl info message cache 1 (Closing connection 12)
+[2018.05.15-09.55.03:596][119]LogHttp:Warning: 0000022660CBA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.55.03:596][119]LogHttp:Warning: 0000022660CBA800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.55.03:596][119]LogHttp:Warning: 0000022660CBA800: libcurl info message cache 1 (Closing connection 13)
+[2018.05.15-09.56.15:189][160]LogHttp:Warning: 0000022660CBBB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.56.15:189][160]LogHttp:Warning: 0000022660CBBB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.56.15:189][160]LogHttp:Warning: 0000022660CBBB80: libcurl info message cache 1 (Closing connection 14)
+[2018.05.15-09.57.50:956][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Edificio9)
+[2018.05.15-09.58.03:529][914]LogHttp:Warning: 000002267EEE4E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.58.03:529][914]LogHttp:Warning: 000002267EEE4E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.58.03:529][914]LogHttp:Warning: 000002267EEE4E80: libcurl info message cache 1 (Closing connection 15)
+[2018.05.15-09.58.47:300][792]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/Tienda_UI'
+[2018.05.15-09.58.47:300][792]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/Tienda_UI'
+[2018.05.15-09.58.49:661][939]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2018.05.15-09.58.51:347][939]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.15-09.58.51:371][939]LogSlate: Took 0.023247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.15-09.59.12:780][317]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/2_1' took 0.050
+[2018.05.15-09.59.12:807][317]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Tienda/Tienda_UI] ([1] browsable assets)...
+[2018.05.15-09.59.12:807][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Tienda/Tienda_UI]
+[2018.05.15-09.59.12:823][317]LogSavePackage: Save=13.02ms
+[2018.05.15-09.59.12:823][317]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI_Auto102785191458FE40E55D639BB590AE049.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Tienda/Tienda_UI_Auto1.uasset'
+[2018.05.15-09.59.12:825][317]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Tienda/Tienda_UI_Auto1.uasset
+[2018.05.15-09.59.12:825][317]LogFileHelpers: Auto-saving content packages took 0.028
+[2018.05.15-09.59.14:650][437]LogHttp:Warning: 00000226D3894400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-09.59.14:650][437]LogHttp:Warning: 00000226D3894400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-09.59.14:650][437]LogHttp:Warning: 00000226D3894400: libcurl info message cache 1 (Closing connection 16)
+[2018.05.15-10.01.14:608][116]LogHttp:Warning: 0000022660C58580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.01.14:608][116]LogHttp:Warning: 0000022660C58580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.01.14:608][116]LogHttp:Warning: 0000022660C58580: libcurl info message cache 1 (Closing connection 17)
+[2018.05.15-10.02.03:578][992]LogHttp:Warning: 0000022660C58580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.02.03:578][992]LogHttp:Warning: 0000022660C58580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.02.03:578][992]LogHttp:Warning: 0000022660C58580: libcurl info message cache 1 (Closing connection 18)
+[2018.05.15-10.04.14:611][713]LogHttp:Warning: 0000022660C59480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.04.14:611][713]LogHttp:Warning: 0000022660C59480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.04.14:611][713]LogHttp:Warning: 0000022660C59480: libcurl info message cache 1 (Closing connection 19)
+[2018.05.15-10.05.03:605][592]LogHttp:Warning: 0000022660C59480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.05.03:605][592]LogHttp:Warning: 0000022660C59480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.05.03:605][592]LogHttp:Warning: 0000022660C59480: libcurl info message cache 1 (Closing connection 20)
+[2018.05.15-10.07.03:599][990]LogHttp:Warning: 0000022660C5BA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.07.03:599][990]LogHttp:Warning: 0000022660C5BA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.07.03:599][990]LogHttp:Warning: 0000022660C5BA00: libcurl info message cache 1 (Closing connection 21)
+[2018.05.15-10.08.14:619][512]LogHttp:Warning: 0000022660C59600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.08.14:619][512]LogHttp:Warning: 0000022660C59600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.08.14:619][512]LogHttp:Warning: 0000022660C59600: libcurl info message cache 1 (Closing connection 22)
+[2018.05.15-10.09.03:589][388]LogHttp:Warning: 0000022660C5B280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.09.03:589][388]LogHttp:Warning: 0000022660C5B280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.09.03:589][388]LogHttp:Warning: 0000022660C5B280: libcurl info message cache 1 (Closing connection 23)
+[2018.05.15-10.11.14:630][103]LogHttp:Warning: 0000022660C59180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.11.14:630][103]LogHttp:Warning: 0000022660C59180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.11.14:630][103]LogHttp:Warning: 0000022660C59180: libcurl info message cache 1 (Closing connection 24)
+[2018.05.15-10.12.14:618][298]LogHttp:Warning: 0000022660C59180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.12.14:618][298]LogHttp:Warning: 0000022660C59180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.12.14:618][298]LogHttp:Warning: 0000022660C59180: libcurl info message cache 1 (Closing connection 25)
+[2018.05.15-10.13.03:597][175]LogHttp:Warning: 0000022660C5AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.13.03:597][175]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.13.03:597][175]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 1 (Closing connection 26)
+[2018.05.15-10.14.14:616][696]LogHttp:Warning: 0000022660C5AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.14.14:616][696]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.14.14:616][696]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 1 (Closing connection 27)
+[2018.05.15-10.15.03:570][570]LogHttp:Warning: 0000022660C59600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.15.03:570][570]LogHttp:Warning: 0000022660C59600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.15.03:570][570]LogHttp:Warning: 0000022660C59600: libcurl info message cache 1 (Closing connection 28)
+[2018.05.15-10.16.03:574][732]LogHttp:Warning: 0000022660C5AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.16.03:574][732]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.16.03:574][732]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 1 (Closing connection 29)
+[2018.05.15-10.17.03:578][853]LogHttp:Warning: 0000022660C5AF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.17.03:578][853]LogHttp:Warning: 0000022660C5AF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.17.03:578][853]LogHttp:Warning: 0000022660C5AF80: libcurl info message cache 1 (Closing connection 30)
+[2018.05.15-10.19.14:607][572]LogHttp:Warning: 0000022660C5B280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.19.14:607][572]LogHttp:Warning: 0000022660C5B280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.19.14:607][572]LogHttp:Warning: 0000022660C5B280: libcurl info message cache 1 (Closing connection 31)
+[2018.05.15-10.20.14:610][771]LogHttp:Warning: 0000022660C58E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.20.14:610][771]LogHttp:Warning: 0000022660C58E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.20.14:610][771]LogHttp:Warning: 0000022660C58E80: libcurl info message cache 1 (Closing connection 32)
+[2018.05.15-10.21.14:638][972]LogHttp:Warning: 0000022660C58880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.21.14:638][972]LogHttp:Warning: 0000022660C58880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.21.14:638][972]LogHttp:Warning: 0000022660C58880: libcurl info message cache 1 (Closing connection 33)
+[2018.05.15-10.23.14:602][367]LogHttp:Warning: 0000022660C5B880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.23.14:602][367]LogHttp:Warning: 0000022660C5B880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.23.14:602][367]LogHttp:Warning: 0000022660C5B880: libcurl info message cache 1 (Closing connection 34)
+[2018.05.15-10.24.03:595][245]LogHttp:Warning: 0000022660C5AF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.24.03:595][245]LogHttp:Warning: 0000022660C5AF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.24.03:595][245]LogHttp:Warning: 0000022660C5AF80: libcurl info message cache 1 (Closing connection 35)
+[2018.05.15-10.26.03:589][643]LogHttp:Warning: 0000022660C5AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.26.03:589][643]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.26.03:589][643]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 1 (Closing connection 36)
+[2018.05.15-10.27.03:592][843]LogHttp:Warning: 0000022660C5B280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.27.03:592][843]LogHttp:Warning: 0000022660C5B280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.27.03:592][843]LogHttp:Warning: 0000022660C5B280: libcurl info message cache 1 (Closing connection 37)
+[2018.05.15-10.28.03:613][ 45]LogHttp:Warning: 0000022660C58D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.28.03:613][ 45]LogHttp:Warning: 0000022660C58D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.28.03:613][ 45]LogHttp:Warning: 0000022660C58D00: libcurl info message cache 1 (Closing connection 38)
+[2018.05.15-10.30.03:591][873]LogHttp:Warning: 0000022660C5BA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.30.03:591][873]LogHttp:Warning: 0000022660C5BA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.30.03:591][873]LogHttp:Warning: 0000022660C5BA00: libcurl info message cache 1 (Closing connection 39)
+[2018.05.15-10.31.03:587][ 72]LogHttp:Warning: 0000022660C5AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.31.03:587][ 72]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.31.03:587][ 72]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 1 (Closing connection 40)
+[2018.05.15-10.33.14:612][792]LogHttp:Warning: 0000022660C5BA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.33.14:612][792]LogHttp:Warning: 0000022660C5BA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.33.14:612][792]LogHttp:Warning: 0000022660C5BA00: libcurl info message cache 1 (Closing connection 41)
+[2018.05.15-10.35.14:630][193]LogHttp:Warning: 0000022660C58580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.35.14:630][193]LogHttp:Warning: 0000022660C58580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.35.14:630][193]LogHttp:Warning: 0000022660C58580: libcurl info message cache 1 (Closing connection 42)
+[2018.05.15-10.37.14:617][590]LogHttp:Warning: 0000022660C5B280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.37.14:617][590]LogHttp:Warning: 0000022660C5B280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.37.14:617][590]LogHttp:Warning: 0000022660C5B280: libcurl info message cache 1 (Closing connection 43)
+[2018.05.15-10.38.14:603][785]LogHttp:Warning: 0000022660C5AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.38.14:603][785]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.38.14:603][785]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 1 (Closing connection 44)
+[2018.05.15-10.40.14:618][186]LogHttp:Warning: 0000022660C58100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.40.14:618][186]LogHttp:Warning: 0000022660C58100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.40.14:618][186]LogHttp:Warning: 0000022660C58100: libcurl info message cache 1 (Closing connection 45)
+[2018.05.15-10.41.14:621][383]LogHttp:Warning: 0000022660C5BA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.41.14:621][383]LogHttp:Warning: 0000022660C5BA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.41.14:621][383]LogHttp:Warning: 0000022660C5BA00: libcurl info message cache 1 (Closing connection 46)
+[2018.05.15-10.43.03:602][337]LogHttp:Warning: 0000022660C5AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.43.03:602][337]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.43.03:602][337]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 1 (Closing connection 47)
+[2018.05.15-10.45.03:592][735]LogHttp:Warning: 0000022660C5AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.45.03:592][735]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.45.03:592][735]LogHttp:Warning: 0000022660C5AE00: libcurl info message cache 1 (Closing connection 48)
+[2018.05.15-10.46.14:631][256]LogHttp:Warning: 0000022660C59000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.46.14:631][256]LogHttp:Warning: 0000022660C59000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.46.14:631][256]LogHttp:Warning: 0000022660C59000: libcurl info message cache 1 (Closing connection 49)
+[2018.05.15-10.48.14:608][649]LogHttp:Warning: 0000022660C59600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.48.14:608][649]LogHttp:Warning: 0000022660C59600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.48.14:608][649]LogHttp:Warning: 0000022660C59600: libcurl info message cache 1 (Closing connection 50)
+[2018.05.15-10.49.14:603][847]LogHttp:Warning: 0000022660C58B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.49.14:603][847]LogHttp:Warning: 0000022660C58B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.49.14:603][847]LogHttp:Warning: 0000022660C58B80: libcurl info message cache 1 (Closing connection 51)
+[2018.05.15-10.51.14:604][245]LogHttp:Warning: 0000022660C58D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.51.14:604][245]LogHttp:Warning: 0000022660C58D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.51.14:604][245]LogHttp:Warning: 0000022660C58D00: libcurl info message cache 1 (Closing connection 52)
+[2018.05.15-10.53.14:613][643]LogHttp:Warning: 0000022660C59000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.15-10.53.14:613][643]LogHttp:Warning: 0000022660C59000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.15-10.53.14:613][643]LogHttp:Warning: 0000022660C59000: libcurl info message cache 1 (Closing connection 53)
+[2018.05.15-14.12.42:701][727]LogEditorTransaction: Undo Move Widget
+[2018.05.15-14.12.55:887][225]LogSlate: Took 0.054798 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.05.15-14.14.22:678][467]LogEditorTransaction: Undo Set Vector Property
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/submenusPause/EnemyData.EnemyData:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/submenusPause/MovementList.MovementList:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/submenusPause/OptionsN.OptionsN:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_8.WidgetTree_22.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/character/ui/characterUI.characterUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_9.WidgetTree_23.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/flagProgressUI.flagProgressUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/OptionsMenuInicio.OptionsMenuInicio:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivelNew.SeleccionDeNivelNew:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_10.WidgetTree_24.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_14.WidgetTree_28.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_13.WidgetTree_27.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/LevelSelector/SeleccionDeNivelNew.SeleccionDeNivelNew_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_12.WidgetTree_26.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/elementosUI/blurEffect.blurEffect:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/OptionsMenuInicio.OptionsMenuInicio_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/character/ui/deathUI.deathUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/Pause.Pause_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/character/ui/characterUI.characterUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/submenusPause/EnemyData.EnemyData_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_11.WidgetTree_25.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/submenusPause/MovementList.MovementList_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/flagProgressUI.flagProgressUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/PauseMenu/submenusPause/OptionsN.OptionsN_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.Tienda_UI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/character/ui/deathUI.deathUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_7.WidgetTree_21.CanvasPanel_0
+[2018.05.15-14.15.45:026][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/elementosUI/blurEffect.blurEffect_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_6.WidgetTree_20.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_5.WidgetTree_19.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/iconosBandersUI.iconosBandersUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_4.WidgetTree_18.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/iconosBandersUI.iconosBandersUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/beginCountdown.beginCountdown:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_2.WidgetTree_16.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_3.WidgetTree_17.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/beginCountdown.beginCountdown_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/endOfGameUI.endOfGameUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/endOfGameUI.endOfGameUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/conquistaUI.conquistaUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/conquista/conquistaUI.conquistaUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/exploración/exploraciónUI.exploraciónUI:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/gamemodes/exploración/exploraciónUI.exploraciónUI_C:WidgetTree.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_15.WidgetTree_29.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_16.WidgetTree_30.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_17.WidgetTree_31.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_18.WidgetTree_32.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_19.WidgetTree_33.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_20.WidgetTree_34.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_21.WidgetTree_35.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_22.WidgetTree_36.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_23.WidgetTree_37.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_24.WidgetTree_38.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_25.WidgetTree_39.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:Tienda_UI_C_26.WidgetTree_40.CanvasPanel_0
+[2018.05.15-14.15.45:027][786]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/ThirdPersonBP/Blueprints/Menu/MainMenu/MenuPrincipalNew.MenuPrincipalNew:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (Button /Engine/UMG/Editor/Transient.Button_198).  Import failed...
+[2018.05.15-14.15.45:027][786]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2018.05.15-14.18.20:708][171]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.15-14.18.20:708][171]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap.
+[2018.05.15-14.18.20:708][171]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu : Can't find file for asset. /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData
+[2018.05.15-14.18.20:713][171]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.15-14.18.20:713][171]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap.
+[2018.05.15-14.18.20:725][171]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.15-14.18.20:726][171]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading NULL.
+[2018.05.15-14.18.20:726][171]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.15-14.18.20:726][171]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading NULL.
+[2018.05.15-14.18.20:859][171]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData'
+[2018.05.15-14.18.20:859][171]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData.MainMenu_BuiltData Referenced by PersistentLevel
+[2018.05.15-14.18.20:859][171]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu_BuiltData' while loading NULL.
+[2018.05.15-14.18.20:977][171]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.15-14.18.27:974][171]Cmd: MAP LOAD FILE="../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.15-14.18.27:975][171]LightingResults: New page: Lighting Build
+[2018.05.15-14.18.27:976][171]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.05.15-14.18.27:988][171]MapCheck: New page: Map Check
+[2018.05.15-14.18.27:988][171]LightingResults: New page: Lighting Build
+[2018.05.15-14.18.28:220][171]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.15-14.18.28:310][171]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.15-14.18.28:494][171]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 184.407ms to complete.
+[2018.05.15-14.18.28:497][171]LogFileHelpers: Loading map 'MainMenu' took 0.524
+[2018.05.15-14.18.30:299][370]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.15-14.18.37:173][370]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.15-14.18.37:184][370]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.05.15-14.18.37:184][370]LogPlayLevel: [PlayLevel] Compiling Tienda_UI before play...
+[2018.05.15-14.18.37:460][370]LogSavePackage: Save=18.85ms
+[2018.05.15-14.18.37:460][370]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI46B5810948E96F5FB743A0BA4EA44979.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.15-14.18.37:466][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.15-14.18.37:488][370]LogPlayLevel: PlayLevel: Blueprint regeneration took 304 ms (1 blueprints)
+[2018.05.15-14.18.37:513][370]PIE: New page: PIE session: MainMenu (May 15, 2018, 6:18:37 PM)
+[2018.05.15-14.18.37:513][370]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu
+[2018.05.15-14.18.37:567][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053513s)
+[2018.05.15-14.18.37:567][370]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.15-14.18.37:568][370]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2018.05.15-14.18.37:568][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu.MainMenu (0.054604s)
+[2018.05.15-14.18.37:609][370]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-14.18.37:618][370]LogInit: FAudioDevice initialized.
+[2018.05.15-14.18.37:692][370]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.15-14.18.37:746][370]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.15-16.18.37
+[2018.05.15-14.18.37:768][370]LogWorld: Bringing up level for play took: 0.043930
+[2018.05.15-14.18.37:892][370]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.05.15-14.18.37:909][370]Cmd: r.PostProcessAAQuality 3
+[2018.05.15-14.18.37:909][370]r.PostProcessAAQuality = "3"
+[2018.05.15-14.18.37:909][370]Cmd: sg.ShadowQuality 2
+[2018.05.15-14.18.37:909][370]sg.ShadowQuality = "2"
+[2018.05.15-14.18.37:909][370]Cmd: r.ScreenPercentage 100
+[2018.05.15-14.18.37:909][370]r.ScreenPercentage = "100"
+[2018.05.15-14.18.37:909][370]Cmd: t.MaxFPS 60
+[2018.05.15-14.18.37:909][370]t.MaxFPS = "60"
+[2018.05.15-14.18.37:966][370]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/Menu/MainMenu/UEDPIE_0_MainMenu 0.819
+[2018.05.15-14.18.37:966][370]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.15-14.18.38:011][371]LogRenderer: Reallocating scene render targets to support 1100x924 NumSamples 1 (Frame:0).
+[2018.05.15-14.18.42:614][642]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.15-14.18.42:707][642]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Menu/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.15-14.21.16:011][583]LogSavePackage: Save=19.61ms
+[2018.05.15-14.21.16:011][583]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UIB79C635B4C8C01F1CA348392AE5C50B3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.15-14.21.16:015][583]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.15-14.21.18:861][754]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.15-14.21.19:052][754]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.15-14.33.25:771][599]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.15-14.33.26:000][599]LogSavePackage: Save=20.05ms
+[2018.05.15-14.33.26:000][599]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI0EC5D0624E1D3A3F1042CAAC1026AF2F.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.15-14.33.26:011][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.15-14.33.26:015][599]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.15-14.33.26:253][609]LogSavePackage: Save=17.64ms
+[2018.05.15-14.33.26:253][609]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI6857491B4166B028410E8DB25EBCD976.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.15-14.33.26:258][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.15-14.33.26:413][616]LogSavePackage: Save=20.72ms
+[2018.05.15-14.33.26:413][616]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI3D77D4A74FF9E983DE820D9E9FF465B3.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.15-14.33.26:419][616]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
