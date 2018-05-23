@@ -1254,3 +1254,259 @@ Make sure 'Tienda_UI_C' has been compiled for  Get Weapons_56
 [2018.05.23-15.16.24:427][227]LogSavePackage: Save=2231.87ms
 [2018.05.23-15.16.24:427][227]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/1_24B3CD61149F1EADEE0B42A86CC497494.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/1_2.umap'
 [2018.05.23-15.16.24:429][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Maps/1_2.umap
+[2018.05.23-15.26.24:387][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/1_2' took 0.053
+[2018.05.23-15.26.25:426][ 22]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Tienda/Tienda] ([2] browsable assets)...
+[2018.05.23-15.26.25:793][ 22]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Blueprints/Tienda/Tienda.Tienda_0]
+[2018.05.23-15.26.25:989][ 22]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Blueprints/Tienda/Tienda.Tienda]
+[2018.05.23-15.26.25:989][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Tienda/Tienda]
+[2018.05.23-15.26.56:431][ 22]LogSavePackage: Save=2148.46ms
+[2018.05.23-15.26.56:593][ 22]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_Auto4EFD2F601445B77EFB7F8BA8498F3712B.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Tienda/Tienda_Auto4.uasset'
+[2018.05.23-15.26.58:953][ 22]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Tienda/Tienda_Auto4.uasset
+[2018.05.23-15.26.58:953][ 22]LogFileHelpers: Auto-saving content packages took 34.459
+[2018.05.23-17.17.42:001][316]BlueprintLog: New page: Compile Weapons
+[2018.05.23-17.17.42:015][316]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.17.42:015][316]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.17.42:016][316]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.17.42:016][316]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.17.42:019][316]LogBlueprint:Warning: [Compiler Weapons] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.05.23-17.17.42:299][316]LogSavePackage: Save=34.67ms
+[2018.05.23-17.17.42:299][316]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Weapons842154C14F7A898AEED7D5AEC3881305.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset'
+[2018.05.23-17.17.42:311][316]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset
+[2018.05.23-17.17.42:316][316]BlueprintEditorCompileResults:Warning: Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.05.23-17.17.42:316][316]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-17.17.42:316][316]LogBlueprint:Warning: [Compiler Weapons] Warning [9497.74] Compile of Weapons successful, but with 1 Warning(s) [in 315 ms] (/Game/ThirdPersonBP/Blueprints/Tienda/Weapons.Weapons)
+[2018.05.23-17.20.59:609][684]BlueprintLog: New page: Compile Weapons
+[2018.05.23-17.20.59:617][684]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.20.59:617][684]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.20.59:618][684]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.20.59:618][684]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.20.59:620][684]LogBlueprint:Warning: [Compiler Weapons] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.05.23-17.20.59:913][684]LogSavePackage: Save=43.24ms
+[2018.05.23-17.20.59:913][684]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Weapons9E4D6C804456DBFFCED871A395B86DB5.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset'
+[2018.05.23-17.20.59:921][684]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset
+[2018.05.23-17.20.59:925][684]BlueprintEditorCompileResults:Warning: Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.05.23-17.20.59:925][684]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-17.20.59:926][684]LogBlueprint:Warning: [Compiler Weapons] Warning [9695.35] Compile of Weapons successful, but with 1 Warning(s) [in 315 ms] (/Game/ThirdPersonBP/Blueprints/Tienda/Weapons.Weapons)
+[2018.05.23-17.21.57:591][836]BlueprintLog: New page: Compile Weapons
+[2018.05.23-17.21.57:602][836]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.21.57:602][836]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.21.57:602][836]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.21.57:602][836]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.21.57:605][836]LogBlueprint:Warning: [Compiler Weapons] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.05.23-17.21.57:822][836]BlueprintEditorCompileResults:Warning: Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.05.23-17.21.57:822][836]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-17.21.57:822][836]LogBlueprint:Warning: [Compiler Weapons] Warning [9753.24] Compile of Weapons successful, but with 1 Warning(s) [in 231 ms] (/Game/ThirdPersonBP/Blueprints/Tienda/Weapons.Weapons)
+[2018.05.23-17.24.17:008][ 23]BlueprintLog: New page: Compile Weapons
+[2018.05.23-17.24.17:017][ 23]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.24.17:017][ 23]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.24.17:018][ 23]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.24.17:018][ 23]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.24.17:021][ 23]LogBlueprint:Warning: [Compiler Weapons] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.05.23-17.24.17:046][ 23]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.24.17:046][ 23]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.24.17:047][ 23]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.24.17:047][ 23]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.24.17:438][ 23]LogSavePackage: Save=48.60ms
+[2018.05.23-17.24.17:438][ 23]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/WeaponsA9308F6D42E35F64D9DC568E306EDC20.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset'
+[2018.05.23-17.24.17:449][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset
+[2018.05.23-17.24.17:454][ 23]BlueprintEditorCompileResults:Warning: Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.05.23-17.24.17:454][ 23]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-17.24.17:454][ 23]LogBlueprint:Warning: [Compiler Weapons] Warning [9892.87] Compile of Weapons successful, but with 1 Warning(s) [in 445 ms] (/Game/ThirdPersonBP/Blueprints/Tienda/Weapons.Weapons)
+[2018.05.23-17.24.25:559][926]BlueprintLog: New page: Compile Weapons
+[2018.05.23-17.24.25:568][926]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.24.25:568][926]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.24.25:568][926]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.24.25:568][926]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.24.25:593][926]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.24.25:593][926]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.24.25:593][926]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.24.25:593][926]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.24.25:948][926]LogSavePackage: Save=44.84ms
+[2018.05.23-17.24.25:948][926]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/WeaponsCC7D163C455B5C84959E88B4AB731850.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset'
+[2018.05.23-17.24.25:960][926]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset
+[2018.05.23-17.24.25:966][926]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-17.24.28:681][197]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.23-17.24.28:709][197]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.24.28:709][197]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.24.28:709][197]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.24.28:710][197]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.24.28:927][197]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-17.24.37:615][ 82]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.23-17.24.38:082][ 82]LogSavePackage: Save=147.71ms
+[2018.05.23-17.24.38:082][ 82]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI92BE6E054A68EDE6053C4C969480C717.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.23-17.24.38:091][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.23-17.24.38:094][ 82]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-17.24.54:365][725]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.23-17.24.54:825][725]LogSavePackage: Save=141.51ms
+[2018.05.23-17.24.54:825][725]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI6174114B44658877627367B84C70E0F0.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.23-17.24.54:835][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.23-17.24.54:840][725]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-17.25.05:663][771]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.23-17.25.06:110][771]LogSavePackage: Save=142.58ms
+[2018.05.23-17.25.06:110][771]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI3E1D07794DD59DB1C86823A4437910FF.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.23-17.25.06:121][771]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.23-17.25.06:124][771]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-17.25.13:997][693]BlueprintLog: New page: Compile Weapons
+[2018.05.23-17.25.14:005][693]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.25.14:005][693]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.25.14:006][693]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.25.14:006][693]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.25.14:009][693]LogBlueprint:Error: [Compiler Weapons] Error Binding: Property ' TextDelegate ' on Widget ' Name ': Binding: 'None' : 'None' was not found on 'Weapons'.
+[2018.05.23-17.25.14:029][693]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.25.14:029][693]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.25.14:030][693]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.25.14:030][693]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.25.14:527][693]LogSavePackage: Save=34.78ms
+[2018.05.23-17.25.14:527][693]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/WeaponsF60AD3774EFC99801E736DBC675644E7.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset'
+[2018.05.23-17.25.14:535][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset
+[2018.05.23-17.25.14:539][693]BlueprintEditorCompileResults:Error: Error Binding: Property ' TextDelegate ' on Widget ' Name ': Binding: 'None' : 'None' was not found on 'Weapons'.
+[2018.05.23-17.25.14:539][693]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-17.25.14:539][693]LogBlueprint:Warning: [Compiler Weapons] Warning [9949.96] Compile of Weapons failed. 1 Fatal Issue(s) 0 Warning(s) [in 541 ms] (/Game/ThirdPersonBP/Blueprints/Tienda/Weapons.Weapons)
+[2018.05.23-17.25.23:784][658]BlueprintLog: New page: Compile Weapons
+[2018.05.23-17.25.23:794][658]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.25.23:794][658]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.25.23:795][658]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.25.23:795][658]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.25.24:074][658]LogSavePackage: Save=39.00ms
+[2018.05.23-17.25.24:075][658]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/WeaponsB97B30444F91C7809830F99319D75113.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset'
+[2018.05.23-17.25.24:084][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset
+[2018.05.23-17.25.24:087][658]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-17.26.35:529][401]LogEditorTransaction: Undo Move Anchor
+[2018.05.23-17.26.45:391][270]BlueprintLog: New page: Compile Weapons
+[2018.05.23-17.26.45:403][270]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.26.45:403][270]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.26.45:403][270]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-17.26.45:403][270]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-17.26.45:723][270]LogSavePackage: Save=40.36ms
+[2018.05.23-17.26.45:723][270]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Weapons022F5858414C7105039AB1A8266C16C1.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset'
+[2018.05.23-17.26.45:740][270]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset
+[2018.05.23-17.26.45:743][270]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-20.31.19:164][970]BlueprintLog: New page: Compile Weapons
+[2018.05.23-20.31.19:186][970]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.31.19:186][970]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.31.19:187][970]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.31.19:187][970]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.31.19:190][970]LogBlueprint:Warning: [Compiler Weapons] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.05.23-20.31.19:225][970]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.31.19:225][970]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.31.19:225][970]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.31.19:225][970]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.31.19:724][970]LogSavePackage: Save=52.48ms
+[2018.05.23-20.31.19:724][970]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Weapons30628FD1447EB96EEB938DA1FB2D854C.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset'
+[2018.05.23-20.31.19:732][970]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset
+[2018.05.23-20.31.19:739][970]BlueprintEditorCompileResults:Warning: Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.05.23-20.31.19:739][970]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-20.31.19:739][970]LogBlueprint:Warning: [Compiler Weapons] Warning [1115.16] Compile of Weapons successful, but with 1 Warning(s) [in 573 ms] (/Game/ThirdPersonBP/Blueprints/Tienda/Weapons.Weapons)
+[2018.05.23-20.31.46:758][366]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.23-20.31.46:801][366]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.31.46:802][366]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.31.46:803][366]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.31.46:803][366]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.31.47:406][366]LogSavePackage: Save=177.74ms
+[2018.05.23-20.31.47:407][366]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI5B29CEA94CB40245A5DA79B0090B7525.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.23-20.31.47:418][366]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.23-20.31.47:423][366]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-20.33.22:513][394]BlueprintLog: New page: Compile Weapons
+[2018.05.23-20.33.22:533][394]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.33.22:533][394]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.33.22:534][394]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.33.22:534][394]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.33.22:538][394]LogBlueprint:Warning: [Compiler Weapons] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.05.23-20.33.22:584][394]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.33.22:585][394]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.33.22:586][394]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.33.22:586][394]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.33.23:418][394]LogSavePackage: Save=63.92ms
+[2018.05.23-20.33.23:418][394]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Weapons19EA27D6491093D849420CBF2F32E3A8.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset'
+[2018.05.23-20.33.23:429][394]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset
+[2018.05.23-20.33.23:623][394]LogSavePackage: Save=169.91ms
+[2018.05.23-20.33.23:623][394]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UIC498455946312D89015C0BAA14765156.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.23-20.33.23:631][394]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.23-20.33.23:637][394]BlueprintEditorCompileResults:Warning: Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.05.23-20.33.23:638][394]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-20.33.23:638][394]LogBlueprint:Warning: [Compiler Weapons] Warning [1239.06] Compile of Weapons successful, but with 1 Warning(s) [in 1,123 ms] (/Game/ThirdPersonBP/Blueprints/Tienda/Weapons.Weapons)
+[2018.05.23-20.33.29:123][972]BlueprintLog: New page: Compile Weapons
+[2018.05.23-20.33.29:137][972]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.33.29:137][972]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.33.29:137][972]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.33.29:137][972]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.33.29:167][972]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.33.29:167][972]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.33.29:168][972]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.33.29:168][972]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.33.29:658][972]LogSavePackage: Save=58.91ms
+[2018.05.23-20.33.29:658][972]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/WeaponsFB4F6FB04904F35726F34F96EBD05835.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset'
+[2018.05.23-20.33.29:674][972]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset
+[2018.05.23-20.33.29:681][972]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-20.33.35:578][434]BlueprintLog: New page: Compile Weapons
+[2018.05.23-20.33.35:596][434]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.33.35:596][434]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.33.35:597][434]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.33.35:597][434]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.33.36:065][434]LogSavePackage: Save=110.04ms
+[2018.05.23-20.33.36:065][434]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/WeaponsF44708FD40C9AEE6B78C9987636BFD67.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset'
+[2018.05.23-20.33.36:076][434]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset
+[2018.05.23-20.33.36:082][434]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-20.33.39:448][677]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.23-20.33.39:487][677]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.33.39:487][677]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.33.39:488][677]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.33.39:488][677]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.33.39:794][677]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-20.33.48:564][308]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.23-20.33.49:160][308]LogSavePackage: Save=180.57ms
+[2018.05.23-20.33.49:161][308]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UIF2A7407B42B837AC36B39D8736194746.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.23-20.33.49:170][308]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.23-20.33.49:173][308]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-20.33.57:987][940]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.23-20.33.58:628][940]LogSavePackage: Save=191.08ms
+[2018.05.23-20.33.58:628][940]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI3D2D227242D79BC4A51CA49B011DF862.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.23-20.33.58:639][940]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.23-20.33.58:643][940]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-20.34.05:240][407]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.23-20.34.05:856][407]LogSavePackage: Save=183.69ms
+[2018.05.23-20.34.05:856][407]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UIEB85BF964836A31C97FA8E84B93C4380.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.23-20.34.05:867][407]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.23-20.34.05:871][407]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-20.34.16:098][145]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.23-20.34.16:701][145]LogSavePackage: Save=179.08ms
+[2018.05.23-20.34.16:703][145]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UIA513EE454F6D1E5DD4A8E4B45FD1CC19.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.23-20.34.16:718][145]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.23-20.34.16:721][145]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-20.34.31:289][207]BlueprintLog: New page: Compile Tienda_UI
+[2018.05.23-20.34.31:885][207]LogSavePackage: Save=180.06ms
+[2018.05.23-20.34.31:887][207]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda_UI9D377E4D4EE3F1EA878B72AFBAA989E7.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset'
+[2018.05.23-20.34.31:901][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda_UI.uasset
+[2018.05.23-20.34.31:905][207]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-20.35.19:406][282]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/1_2' took 0.033
+[2018.05.23-20.35.19:410][282]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Tienda/Weapons] ([1] browsable assets)...
+[2018.05.23-20.35.19:410][282]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Tienda/Weapons]
+[2018.05.23-20.35.19:490][282]LogSavePackage: Save=48.37ms
+[2018.05.23-20.35.19:490][282]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Weapons_Auto5922EBD674A0DCF8D7C4F26985D6DFC44.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Tienda/Weapons_Auto5.uasset'
+[2018.05.23-20.35.19:493][282]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Tienda/Weapons_Auto5.uasset
+[2018.05.23-20.35.19:493][282]LogFileHelpers: Auto-saving content packages took 0.085
+[2018.05.23-20.35.37:977][398]BlueprintLog: New page: Compile Weapons
+[2018.05.23-20.35.37:993][398]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.35.37:993][398]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.35.37:993][398]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.35.37:993][398]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.35.38:023][398]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.35.38:023][398]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.35.38:024][398]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol'
+[2018.05.23-20.35.38:024][398]LogLinker: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Tienda/moneySymbol' while loading ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset.
+[2018.05.23-20.35.38:486][398]LogSavePackage: Save=48.54ms
+[2018.05.23-20.35.38:486][398]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/WeaponsAB598A614F85F8B08920A0965D2191D7.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset'
+[2018.05.23-20.35.38:498][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Weapons.uasset
+[2018.05.23-20.35.38:502][398]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.05.23-22.36.13:588][308]LogSavePackage: Save=233.45ms
+[2018.05.23-22.36.13:589][308]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/moneySymbol186139F14715F39E3DF1AD9B99F634EA.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/moneySymbol.uasset'
+[2018.05.23-22.36.13:599][308]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/moneySymbol.uasset
+[2018.05.23-22.36.13:850][308]LogSavePackage: Save=216.02ms
+[2018.05.23-22.36.13:850][308]LogSavePackage: Moving '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Saved/Tienda40CECBE4466229BEA16E31B065E3778D.tmp' to '../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda.uasset'
+[2018.05.23-22.36.13:858][308]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/ThirdPersonBP/Blueprints/Tienda/Tienda.uasset
+[2018.05.23-22.36.14:643][309]Cmd: QUIT_EDITOR
+[2018.05.23-22.36.15:953][309]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.05.23-22.36.15:977][309]LogExit: Preparing to exit.
+[2018.05.23-22.36.16:524][309]LogDirectoryWatcher: A directory notification failed for 'C:/Users/JAVITO/Desktop/Anarquia/Proyecto2/Content/', and we were unable to create a new request.
+[2018.05.23-22.36.16:706][309]LogExit: Editor shut down
+[2018.05.23-22.36.16:709][309]LogExit: Transaction tracking system shut down
